@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['needs_5faccept',['needs_accept',['../structq__conn.html#afa5efb983be2e274a5e2c479561858ae',1,'q_conn']]],
   ['needs_5ftx',['needs_tx',['../structq__conn.html#a8f515035f5b42579e853757b82f37b08',1,'q_conn']]],
   ['new_5fin_5fdata_5fmax',['new_in_data_max',['../structq__stream.html#a2d0522f128527120ab29e423c90a461f',1,'q_stream']]],
   ['new_5fmax_5fbidi_5fstreams',['new_max_bidi_streams',['../structtransport__params.html#a600d2d1d748bab0be90e8c4145ba0b91',1,'transport_params']]],
