@@ -213,7 +213,7 @@ Generating call graph for function q_close_stream
 Generating call graph for function q_connect
 Generating call graph for function q_init
 Generating call graph for function q_read
-Generating call graph for function q_readall_str
+Generating call graph for function q_readall_stream
 Generating call graph for function q_rsv_stream
 Generating call graph for function q_rx_ready
 Generating call graph for function q_write
@@ -351,7 +351,7 @@ Generating call graph for function q_close_stream
 Generating call graph for function q_connect
 Generating call graph for function q_init
 Generating call graph for function q_read
-Generating call graph for function q_readall_str
+Generating call graph for function q_readall_stream
 Generating call graph for function q_rsv_stream
 Generating call graph for function q_rx_ready
 Generating call graph for function q_write
@@ -437,6 +437,7 @@ Generating docs for compound pkt_meta...
 Generating docs for compound pn_data_space...
 Generating docs for compound pn_hshk_space...
 Generating docs for compound pn_space...
+Generating docs for compound q_conf...
 Generating docs for compound q_conn...
 Generating docs for compound q_stream...
 Generating docs for compound recovery...
@@ -765,5 +766,5 @@ Patching output file 39/42
 Patching output file 40/42
 Patching output file 41/42
 Patching output file 42/42
-lookup cache used 992/65536 hits=8120 misses=1011
+lookup cache used 1001/65536 hits=8160 misses=1021
 finished...

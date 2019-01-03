@@ -292,7 +292,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">                   MAXPORTS);</div>
 <div class="line">            <span class="keywordflow">break</span>;</div>
 <div class="line">        <span class="keywordflow">case</span> <span class="charliteral">&#39;t&#39;</span>:</div>
-<div class="line">            timeout = MIN(<a name="a9"></a><a class="code" href="quant_8h.html#a05a1fe5d96137d7166715a45aebf6dc8">IDLE_TIMEOUT_MAX</a>, strtoul(optarg, 0, 10));</div>
+<div class="line">            timeout = MIN(600, strtoul(optarg, 0, 10)); <span class="comment">// 10 min</span></div>
 <div class="line">            <span class="keywordflow">break</span>;</div>
 <div class="line">        <span class="keywordflow">case</span> <span class="charliteral">&#39;v&#39;</span>:</div>
 <div class="line"><span class="preprocessor">#ifndef NDEBUG</span></div>
@@ -313,7 +313,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">    <span class="keyword">const</span> <span class="keywordtype">int</span> dir_fd = open(dir, O_RDONLY | O_CLOEXEC);</div>
 <div class="line">    ensure(dir_fd != -1, <span class="stringliteral">&quot;%s does not exist&quot;</span>, dir);</div>
 <div class="line"></div>
-<div class="line">    <span class="keyword">struct </span>w_engine * <span class="keyword">const</span> w = <a name="a10"></a><a class="code" href="quant_8h.html#a94151e8a4273baf8628a6b85d3b9ebd3">q_init</a>(ifname, cert, key, 0, 0, <span class="keyword">false</span>, <span class="keyword">false</span>);</div>
+<div class="line">    <span class="keyword">struct </span>w_engine * <span class="keyword">const</span> w = <a name="a9"></a><a class="code" href="quant_8h.html#a9e861b437adeddbef368f166d9fc9730">q_init</a>(</div>
+<div class="line">        ifname, &amp;(<span class="keyword">const</span> <span class="keyword">struct</span> <a name="_a10"></a><a class="code" href="structq__conf.html">q_conf</a>){</div>
+<div class="line">                    .num_bufs = 100000, .tls_cert = cert, .tls_key = key});</div>
 <div class="line">    <span class="keyword">struct </span><a class="code" href="structq__conn.html">q_conn</a> * conn[MAXPORTS];</div>
 <div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; num_ports; i++) {</div>
 <div class="line">        conn[i] = <a name="a11"></a><a class="code" href="quant_8h.html#ac6e72671693d868a07bf17e6dd097632">q_bind</a>(w, port[i]);</div>
@@ -381,7 +383,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --> </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Dec 21 2018 11:32:39 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jan 3 2019 09:02:08 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

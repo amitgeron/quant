@@ -29,7 +29,7 @@
 <area shape="rect" id="node16" href="$frame_8c.html#ae6b33881d5310ee374d246e582265d43" title="trim_frame" alt="" coords="602,296,686,322"/>
 <area shape="rect" id="node17" href="$stream_8c.html#a551a7c19bf90417d819623804da6949f" title="track_bytes_in" alt="" coords="591,346,697,373"/>
 <area shape="rect" id="node18" href="$quic_8h.html#a6bb0d7cd1774df0297a9540111f46308" title="is_fin" alt="" coords="808,604,861,630"/>
-<area shape="rect" id="node19" href="$quant_8h.html#afa40a9929151cdca1205f08b838e53f5" title="q_readall_str" alt="" coords="787,100,883,126"/>
+<area shape="rect" id="node19" href="$quant_8h.html#a091ea7435979b979ace99392b6d65a5a" title="q_readall_stream" alt="" coords="774,100,895,126"/>
 <area shape="rect" id="node20" href="$quant_8h.html#a01444581bd34af25498d1cb8fc3a0a92" title="q_close_stream" alt="" coords="587,701,701,728"/>
 <area shape="rect" id="node22" href="$stream_8c.html#ae4a57a5b73d68625c63574f6c4109bad" title="do_stream_fc" alt="" coords="593,860,695,886"/>
 <area shape="rect" id="node23" href="$conn_8c.html#a4bcf08ef3dc5cc610474c8d0fa7947ee" title="do_conn_fc" alt="" coords="599,600,689,626"/>

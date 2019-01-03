@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['nbufs',['nbufs',['../quic_8c.html#af04bbb4616509b300b7ff3a7a49660de',1,'quic.c']]],
   ['needed_5fpkt_5fnr_5flen',['needed_pkt_nr_len',['../pkt_8c.html#adb9f7ed98b4a9aa5dbab4df08c78ea0c',1,'pkt.c']]],
   ['needs_5fack',['needs_ack',['../pn_8h.html#aa7ed02733032177ff456b060fa0eed8e',1,'pn.h']]],
   ['needs_5ftx',['needs_tx',['../structq__conn.html#a8f515035f5b42579e853757b82f37b08',1,'q_conn']]],
@@ -14,5 +13,6 @@ var searchData=
   ['next_5fsid_5funi',['next_sid_uni',['../structq__conn.html#a4c56a9ef063064daae3c501b73a56a75',1,'q_conn']]],
   ['nr',['nr',['../structpkt__hdr.html#a23823bfa2cf1a6d7052bd71115458d46',1,'pkt_hdr']]],
   ['nrm',['NRM',['../quic_8h.html#ade01bc98e1632cd645e0f33757d70d2e',1,'quic.h']]],
+  ['num_5fbufs',['num_bufs',['../structq__conf.html#af74ec0be9fdfbf6b3428e7309c8c1c73',1,'q_conf']]],
   ['num_5ffram_5ftypes',['NUM_FRAM_TYPES',['../frame_8h.html#a9d41e13ff77cca0577fa33baf6e2963c',1,'frame.h']]]
 ];

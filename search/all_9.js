@@ -2,7 +2,6 @@ var searchData=
 [
   ['id',['id',['../structcid.html#a048d6b0aaaabd5060c525fc1603da8f9',1,'cid::id()'],['../structq__stream.html#a5b0fce2373b57dc3ca4ff7b05cf1cd2c',1,'q_stream::id()']]],
   ['idle_5falarm',['idle_alarm',['../structq__conn.html#ab3860daebd7ca189549a5e6af6c9e8e3',1,'q_conn::idle_alarm()'],['../conn_8c.html#ac22c90477f7d4e5f8e96e3d536b58afb',1,'idle_alarm():&#160;conn.c']]],
-  ['idle_5ftimeout_5fmax',['IDLE_TIMEOUT_MAX',['../quant_8h.html#a05a1fe5d96137d7166715a45aebf6dc8',1,'quant.h']]],
   ['idle_5fto',['idle_to',['../structtransport__params.html#a8f2594d069fe1679c4693433faaf05f0',1,'transport_params']]],
   ['in',['in',['../structpn__hshk__space.html#a4a85ae7a86b11c93eaf86e13dec1df95',1,'pn_hshk_space::in()'],['../structq__stream.html#a36bf4a7325ef5d402ef98eaf3e9468d7',1,'q_stream::in()']]],
   ['in_5f0rtt',['in_0rtt',['../structpn__data__space.html#af620382a9fe067f78b23f0dc26be5c49',1,'pn_data_space']]],
@@ -24,7 +23,7 @@ var searchData=
   ['init_5fstrm_5fdata_5funi',['INIT_STRM_DATA_UNI',['../stream_8h.html#a635373d880260cf546702604993f40dd',1,'stream.h']]],
   ['init_5fticket_5fprot',['init_ticket_prot',['../tls_8c.html#a071d6ebbfd90822e31fdb8119ad971ca',1,'tls.c']]],
   ['init_5ftls',['init_tls',['../tls_8c.html#aa4907143b04da6627e6cef421b920480',1,'init_tls(struct q_conn *const c):&#160;tls.c'],['../tls_8h.html#aa4907143b04da6627e6cef421b920480',1,'init_tls(struct q_conn *const c):&#160;tls.c']]],
-  ['init_5ftls_5fctx',['init_tls_ctx',['../tls_8c.html#a8801d86c54eb5f41eefcf429630db484',1,'init_tls_ctx(const char *const cert, const char *const key, const char *const ticket_store, const char *const tls_log, const bool verify_certs, const bool flip_keys):&#160;tls.c'],['../tls_8h.html#a8801d86c54eb5f41eefcf429630db484',1,'init_tls_ctx(const char *const cert, const char *const key, const char *const ticket_store, const char *const tls_log, const bool verify_certs, const bool flip_keys):&#160;tls.c']]],
+  ['init_5ftls_5fctx',['init_tls_ctx',['../tls_8c.html#a8ba632acdcea3aaa92753c3341fa22fe',1,'init_tls_ctx(const struct q_conf *const conf):&#160;tls.c'],['../tls_8h.html#a8ba632acdcea3aaa92753c3341fa22fe',1,'init_tls_ctx(const struct q_conf *const conf):&#160;tls.c']]],
   ['init_5ftp',['init_tp',['../tls_8c.html#a873296f812267d1c3475457cacc3c815',1,'init_tp(struct q_conn *const c):&#160;tls.c'],['../tls_8h.html#a873296f812267d1c3475457cacc3c815',1,'init_tp(struct q_conn *const c):&#160;tls.c']]],
   ['is_5fack_5fonly',['is_ack_only',['../quic_8h.html#a05b0a63c2fe234f56513430fc2114eba',1,'quic.h']]],
   ['is_5fack_5for_5fpadding_5fonly',['is_ack_or_padding_only',['../quic_8h.html#ae64eb493276abdc60cd97ea2f6d96f78',1,'quic.h']]],

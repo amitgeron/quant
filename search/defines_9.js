@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['idle_5ftimeout_5fmax',['IDLE_TIMEOUT_MAX',['../quant_8h.html#a05a1fe5d96137d7166715a45aebf6dc8',1,'quant.h']]],
   ['init_5fmax_5fbidi_5fstreams',['INIT_MAX_BIDI_STREAMS',['../stream_8h.html#ab770f892ec0b3677d05a0164593f7747',1,'stream.h']]],
   ['init_5fmax_5funi_5fstreams',['INIT_MAX_UNI_STREAMS',['../stream_8h.html#ab665b389a2102080543b5640bd65fdb6',1,'stream.h']]],
   ['init_5fstrm_5fdata_5fbidi',['INIT_STRM_DATA_BIDI',['../stream_8h.html#aa66b391c7ac634050be09e992c1bad26',1,'stream.h']]],

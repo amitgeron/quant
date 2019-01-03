@@ -19,7 +19,7 @@ var searchData=
   ['find_5fmin',['find_min',['../diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa',1,'diet.c']]],
   ['find_5fsent_5fpkt',['find_sent_pkt',['../recovery_8c.html#a078d446c5244577b054aed3abda0d694',1,'find_sent_pkt(struct q_conn *const c, struct pn_space *const pn, const uint64_t nr):&#160;recovery.c'],['../recovery_8h.html#a078d446c5244577b054aed3abda0d694',1,'find_sent_pkt(struct q_conn *const c, struct pn_space *const pn, const uint64_t nr):&#160;recovery.c']]],
   ['flags',['flags',['../structpkt__hdr.html#a1632f4a27e52dde0274278ea83fc3dd6',1,'pkt_hdr']]],
-  ['flip_5fkeys',['flip_keys',['../tls_8c.html#a4faeebf5e3d33bfea46325d8fa7343d6',1,'flip_keys(struct q_conn *const c, const bool out):&#160;tls.c'],['../tls_8h.html#a4faeebf5e3d33bfea46325d8fa7343d6',1,'flip_keys(struct q_conn *const c, const bool out):&#160;tls.c']]],
+  ['flip_5fkeys',['flip_keys',['../structq__conf.html#a58d607db9741c95726e771776a72f017',1,'q_conf::flip_keys()'],['../tls_8c.html#a4faeebf5e3d33bfea46325d8fa7343d6',1,'flip_keys(struct q_conn *const c, const bool out):&#160;tls.c'],['../tls_8h.html#a4faeebf5e3d33bfea46325d8fa7343d6',1,'flip_keys(struct q_conn *const c, const bool out):&#160;tls.c']]],
   ['fmt_5fpnr_5fin',['FMT_PNR_IN',['../quic_8h.html#a404c866e647db5caa442327847557c8b',1,'quic.h']]],
   ['fmt_5fpnr_5fout',['FMT_PNR_OUT',['../quic_8h.html#aca165d87cbf86915f61bd125d7b50d7f',1,'quic.h']]],
   ['fmt_5fsid',['FMT_SID',['../quic_8h.html#ab5f8d1e8c05400492619366d20559bfd',1,'quic.h']]],
