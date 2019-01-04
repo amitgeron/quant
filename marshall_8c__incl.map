@@ -1,4 +1,7 @@
 <map id="src/marshall.c" name="src/marshall.c">
-<area shape="rect" id="node5" href="$config_8h.html" title="quant/config.h" alt="" coords="527,80,631,107"/>
-<area shape="rect" id="node8" href="$marshall_8h.html" title="marshall.h" alt="" coords="111,80,192,107"/>
+<area shape="rect" id="node5" href="$config_8h.html" title="quant/config.h" alt="" coords="295,80,399,107"/>
+<area shape="rect" id="node8" href="$marshall_8h.html" title="marshall.h" alt="" coords="112,80,193,107"/>
+<area shape="rect" id="node10" href="$quic_8h.html" title="quic.h" alt="" coords="709,80,765,107"/>
+<area shape="rect" id="node14" href="$bitset_8h.html" title="bitset.h" alt="" coords="789,229,853,256"/>
+<area shape="rect" id="node15" href="$frame_8h.html" title="frame.h" alt="" coords="836,155,903,181"/>
 </map>

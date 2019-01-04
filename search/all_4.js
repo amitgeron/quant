@@ -2,6 +2,7 @@ var searchData=
 [
   ['dcid',['dcid',['../structq__conn.html#a9d6072809215f42a4eebd3d448e4911c',1,'q_conn::dcid()'],['../structpkt__hdr.html#afb4dcbc319b38d10450078a780519c66',1,'pkt_hdr::dcid()']]],
   ['dcids_5fby_5fseq',['dcids_by_seq',['../structq__conn.html#a8a456782615d1106a8bc83a3dd51c7f3',1,'q_conn']]],
+  ['debug_5fmarshall',['DEBUG_MARSHALL',['../marshall_8h.html#af3368fe696a6fe09d1cd2aff379ac356',1,'marshall.h']]],
   ['dec',['dec',['../marshall_8h.html#a17979630a63703570a316e70d4e9cb30',1,'marshall.h']]],
   ['dec_5fack_5fframe',['dec_ack_frame',['../frame_8c.html#a44dc32970bbe3088cc0ccc79abe03d74',1,'dec_ack_frame(struct q_conn *const c, const struct w_iov *const v, const uint16_t pos):&#160;frame.c'],['../frame_8h.html#a44dc32970bbe3088cc0ccc79abe03d74',1,'dec_ack_frame(struct q_conn *const c, const struct w_iov *const v, const uint16_t pos):&#160;frame.c']]],
   ['dec_5faead',['dec_aead',['../tls_8c.html#a1b7fc05af119c12354b8de8346ccecf4',1,'dec_aead(struct q_conn *const c, const struct w_iov *const xv, const struct w_iov *const v, const uint16_t len, const struct cipher_ctx *const ctx):&#160;tls.c'],['../tls_8h.html#a1b7fc05af119c12354b8de8346ccecf4',1,'dec_aead(struct q_conn *const c, const struct w_iov *const xv, const struct w_iov *const v, const uint16_t len, const struct cipher_ctx *const ctx):&#160;tls.c']]],
@@ -20,8 +21,6 @@ var searchData=
   ['dec_5fpath_5fresponse_5fframe',['dec_path_response_frame',['../frame_8c.html#aff5238be504afdfded28abd865cfcd7e',1,'frame.c']]],
   ['dec_5fpkt_5fhdr_5fbeginning',['dec_pkt_hdr_beginning',['../pkt_8c.html#a77b81d9b1c20c429faab500ffa44d42b',1,'dec_pkt_hdr_beginning(struct w_iov *const xv, struct w_iov *const v, const bool is_clnt, struct cid *const odcid, uint8_t *const tok, uint16_t *const tok_len):&#160;pkt.c'],['../pkt_8h.html#a77b81d9b1c20c429faab500ffa44d42b',1,'dec_pkt_hdr_beginning(struct w_iov *const xv, struct w_iov *const v, const bool is_clnt, struct cid *const odcid, uint8_t *const tok, uint16_t *const tok_len):&#160;pkt.c']]],
   ['dec_5fpkt_5fhdr_5fremainder',['dec_pkt_hdr_remainder',['../pkt_8c.html#aaa8ec4c1f8dfe93bcf51a8bd1136520e',1,'dec_pkt_hdr_remainder(struct w_iov *const xv, struct w_iov *const v, struct q_conn *const c, struct w_iov_sq *const x):&#160;pkt.c'],['../pkt_8h.html#aaa8ec4c1f8dfe93bcf51a8bd1136520e',1,'dec_pkt_hdr_remainder(struct w_iov *const xv, struct w_iov *const v, struct q_conn *const c, struct w_iov_sq *const x):&#160;pkt.c']]],
-  ['dec_5fpne',['dec_pne',['../pkt_8c.html#a1f84b7c58bf06714a5b8bbb61cbcbb79',1,'pkt.c']]],
-  ['dec_5fpnr',['dec_pnr',['../marshall_8h.html#ab8f040c726187c3dec00ac58409b60d9',1,'marshall.h']]],
   ['dec_5fretire_5fcid_5fframe',['dec_retire_cid_frame',['../frame_8c.html#a1b90c77dc3ff16acae7978f95804afdc',1,'frame.c']]],
   ['dec_5frst_5fstream_5fframe',['dec_rst_stream_frame',['../frame_8c.html#a9237afbbad19eabb8f413e28c8b4fb21',1,'frame.c']]],
   ['dec_5fstop_5fsending_5fframe',['dec_stop_sending_frame',['../frame_8c.html#a8d9475939303e9870eab68ff439ae5fc',1,'frame.c']]],

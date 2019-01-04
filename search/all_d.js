@@ -12,6 +12,7 @@ var searchData=
   ['new_5fstream',['new_stream',['../stream_8c.html#a300bcafbad60488eb0b6b0560eb1b645',1,'new_stream(struct q_conn *const c, const int64_t id):&#160;stream.c'],['../stream_8h.html#a300bcafbad60488eb0b6b0560eb1b645',1,'new_stream(struct q_conn *const c, const int64_t id):&#160;stream.c']]],
   ['next_5fsid_5fbidi',['next_sid_bidi',['../structq__conn.html#ac9be6183d08c8887a3125f767c6b8ea3',1,'q_conn']]],
   ['next_5fsid_5funi',['next_sid_uni',['../structq__conn.html#a4c56a9ef063064daae3c501b73a56a75',1,'q_conn']]],
+  ['next_5fspin',['next_spin',['../structq__conn.html#a770536249ae7c554408788de039e83f3',1,'q_conn']]],
   ['nr',['nr',['../structpkt__hdr.html#a23823bfa2cf1a6d7052bd71115458d46',1,'pkt_hdr']]],
   ['nrm',['NRM',['../quic_8h.html#ade01bc98e1632cd645e0f33757d70d2e',1,'quic.h']]],
   ['num_5fbufs',['num_bufs',['../structq__conf.html#af74ec0be9fdfbf6b3428e7309c8c1c73',1,'q_conf']]],

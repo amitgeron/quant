@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">quant
-   &#160;<span id="projectnumber">0.0.16</span>
+   &#160;<span id="projectnumber">0.0.17</span>
    </div>
   </td>
  </tr>
@@ -275,8 +275,8 @@ Functions</h2></td></tr>
 <div class="line">        _i;                                                                    \</div>
 <div class="line">    })</div>
 <div class="ttc" id="frame_8c_html_ad80698afd541ebfd846d4299d7b10790"><div class="ttname"><a href="frame_8c.html#ad80698afd541ebfd846d4299d7b10790">err_close_return</a></div><div class="ttdeci">#define err_close_return(c, code,...)</div><div class="ttdef"><b>Definition:</b> frame.c:58</div></div>
-<div class="ttc" id="pkt_8h_html_a911827d4428b3918c7c00c7f9be6bce0"><div class="ttname"><a href="pkt_8h.html#a911827d4428b3918c7c00c7f9be6bce0">ERR_FRAME_ENC</a></div><div class="ttdeci">#define ERR_FRAME_ENC</div><div class="ttdef"><b>Definition:</b> pkt.h:60</div></div>
-<div class="ttc" id="marshall_8h_html_a17979630a63703570a316e70d4e9cb30"><div class="ttname"><a href="marshall_8h.html#a17979630a63703570a316e70d4e9cb30">dec</a></div><div class="ttdeci">#define dec(dst, buf, buf_len, pos, dst_len, fmt)</div><div class="ttdef"><b>Definition:</b> marshall.h:193</div></div>
+<div class="ttc" id="pkt_8h_html_a911827d4428b3918c7c00c7f9be6bce0"><div class="ttname"><a href="pkt_8h.html#a911827d4428b3918c7c00c7f9be6bce0">ERR_FRAME_ENC</a></div><div class="ttdeci">#define ERR_FRAME_ENC</div><div class="ttdef"><b>Definition:</b> pkt.h:69</div></div>
+<div class="ttc" id="marshall_8h_html_a17979630a63703570a316e70d4e9cb30"><div class="ttname"><a href="marshall_8h.html#a17979630a63703570a316e70d4e9cb30">dec</a></div><div class="ttdeci">#define dec(dst, buf, buf_len, pos, dst_len, fmt)</div><div class="ttdoc">Decodes dst_len bytes (if given, otherwise varint encoding is assumed) of network byte-order data sta...</div><div class="ttdef"><b>Definition:</b> marshall.h:153</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -336,8 +336,8 @@ Functions</h2></td></tr>
 <div class="line">        _i;                                                                    \</div>
 <div class="line">    })</div>
 <div class="ttc" id="frame_8c_html_ad80698afd541ebfd846d4299d7b10790"><div class="ttname"><a href="frame_8c.html#ad80698afd541ebfd846d4299d7b10790">err_close_return</a></div><div class="ttdeci">#define err_close_return(c, code,...)</div><div class="ttdef"><b>Definition:</b> frame.c:58</div></div>
-<div class="ttc" id="marshall_8h_html_a30296cce5b6c5d9acf70a6d8b9ef809b"><div class="ttname"><a href="marshall_8h.html#a30296cce5b6c5d9acf70a6d8b9ef809b">dec_buf</a></div><div class="ttdeci">#define dec_buf(dst, buf, buf_len, pos, dst_len)</div><div class="ttdef"><b>Definition:</b> marshall.h:256</div></div>
-<div class="ttc" id="pkt_8h_html_a911827d4428b3918c7c00c7f9be6bce0"><div class="ttname"><a href="pkt_8h.html#a911827d4428b3918c7c00c7f9be6bce0">ERR_FRAME_ENC</a></div><div class="ttdeci">#define ERR_FRAME_ENC</div><div class="ttdef"><b>Definition:</b> pkt.h:60</div></div>
+<div class="ttc" id="marshall_8h_html_a30296cce5b6c5d9acf70a6d8b9ef809b"><div class="ttname"><a href="marshall_8h.html#a30296cce5b6c5d9acf70a6d8b9ef809b">dec_buf</a></div><div class="ttdeci">#define dec_buf(dst, buf, buf_len, pos, dst_len)</div><div class="ttdoc">Decodes dst_len bytes of raw data starting at position pos of buffer buf (which has total length buf_...</div><div class="ttdef"><b>Definition:</b> marshall.h:196</div></div>
+<div class="ttc" id="pkt_8h_html_a911827d4428b3918c7c00c7f9be6bce0"><div class="ttname"><a href="pkt_8h.html#a911827d4428b3918c7c00c7f9be6bce0">ERR_FRAME_ENC</a></div><div class="ttdeci">#define ERR_FRAME_ENC</div><div class="ttdef"><b>Definition:</b> pkt.h:69</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -374,7 +374,7 @@ Functions</h2></td></tr>
 <div class="line"><a class="code" href="conn_8c.html#a02d7b0c5a072e1b673358b52ac71f160">        err_close</a>((c), (code), __VA_ARGS__);                                   \</div>
 <div class="line">        return UINT16_MAX;                                                     \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
-<div class="ttc" id="conn_8c_html_a02d7b0c5a072e1b673358b52ac71f160"><div class="ttname"><a href="conn_8c.html#a02d7b0c5a072e1b673358b52ac71f160">err_close</a></div><div class="ttdeci">void err_close(struct q_conn *const c, const uint16_t code, const uint8_t frm, const char *const fmt,...)</div><div class="ttdef"><b>Definition:</b> conn.c:1134</div></div>
+<div class="ttc" id="conn_8c_html_a02d7b0c5a072e1b673358b52ac71f160"><div class="ttname"><a href="conn_8c.html#a02d7b0c5a072e1b673358b52ac71f160">err_close</a></div><div class="ttdeci">void err_close(struct q_conn *const c, const uint16_t code, const uint8_t frm, const char *const fmt,...)</div><div class="ttdef"><b>Definition:</b> conn.c:1131</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -424,12 +424,12 @@ Functions</h2></td></tr>
 <div class="line"><a class="code" href="frame_8c.html#ad80698afd541ebfd846d4299d7b10790">        err_close_return</a>(c, <a class="code" href="pkt_8h.html#a911827d4428b3918c7c00c7f9be6bce0">ERR_FRAME_ENC</a>, (type), <span class="stringliteral">&quot;unknown strm %&quot;</span> PRId64,    \</div>
 <div class="line">                         (sid));                                               \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
-<div class="ttc" id="conn_8h_html_aa0fec7fdf46459b57e64dbe4e79a8dc4"><div class="ttname"><a href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a></div><div class="ttdeci">static const char * conn_type(const struct q_conn *const c)</div><div class="ttdef"><b>Definition:</b> conn.h:416</div></div>
+<div class="ttc" id="conn_8h_html_aa0fec7fdf46459b57e64dbe4e79a8dc4"><div class="ttname"><a href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a></div><div class="ttdeci">static const char * conn_type(const struct q_conn *const c)</div><div class="ttdef"><b>Definition:</b> conn.h:412</div></div>
 <div class="ttc" id="frame_8c_html_ad80698afd541ebfd846d4299d7b10790"><div class="ttname"><a href="frame_8c.html#ad80698afd541ebfd846d4299d7b10790">err_close_return</a></div><div class="ttdeci">#define err_close_return(c, code,...)</div><div class="ttdef"><b>Definition:</b> frame.c:58</div></div>
 <div class="ttc" id="diet_8c_html_a87c3c2cebc6ccf0911d3d05989352588"><div class="ttname"><a href="diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588">diet_find</a></div><div class="ttdeci">struct ival * diet_find(struct diet *const d, const uint64_t n)</div><div class="ttdoc">Pointer to the interval containing n in diet tree t. </div><div class="ttdef"><b>Definition:</b> diet.c:85</div></div>
 <div class="ttc" id="conn_8h_html_ade2abf64e3b30fc0b5e1b95735ab6677"><div class="ttname"><a href="conn_8h.html#ade2abf64e3b30fc0b5e1b95735ab6677">cid2str</a></div><div class="ttdeci">#define cid2str(i)</div><div class="ttdef"><b>Definition:</b> conn.h:52</div></div>
-<div class="ttc" id="pkt_8h_html_a911827d4428b3918c7c00c7f9be6bce0"><div class="ttname"><a href="pkt_8h.html#a911827d4428b3918c7c00c7f9be6bce0">ERR_FRAME_ENC</a></div><div class="ttdeci">#define ERR_FRAME_ENC</div><div class="ttdef"><b>Definition:</b> pkt.h:60</div></div>
-<div class="ttc" id="quic_8h_html_ab5f8d1e8c05400492619366d20559bfd"><div class="ttname"><a href="quic_8h.html#ab5f8d1e8c05400492619366d20559bfd">FMT_SID</a></div><div class="ttdeci">#define FMT_SID</div><div class="ttdef"><b>Definition:</b> quic.h:462</div></div>
+<div class="ttc" id="pkt_8h_html_a911827d4428b3918c7c00c7f9be6bce0"><div class="ttname"><a href="pkt_8h.html#a911827d4428b3918c7c00c7f9be6bce0">ERR_FRAME_ENC</a></div><div class="ttdeci">#define ERR_FRAME_ENC</div><div class="ttdef"><b>Definition:</b> pkt.h:69</div></div>
+<div class="ttc" id="quic_8h_html_ab5f8d1e8c05400492619366d20559bfd"><div class="ttname"><a href="quic_8h.html#ab5f8d1e8c05400492619366d20559bfd">FMT_SID</a></div><div class="ttdeci">#define FMT_SID</div><div class="ttdef"><b>Definition:</b> quic.h:463</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1783,7 +1783,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="frame_8c_a6134c4faa49bbd6fbc29589f12350400_cgraph.png" border="0" usemap="#frame_8c_a6134c4faa49bbd6fbc29589f12350400_cgraph" alt=""/></div>
 <map name="frame_8c_a6134c4faa49bbd6fbc29589f12350400_cgraph" id="frame_8c_a6134c4faa49bbd6fbc29589f12350400_cgraph">
-<area shape="rect" id="node2" href="marshall_8c.html#a5ef78b886a8420375943612d4329807a" title="Computes number of bytes need to enccode v in QUIC varint encoding. " alt="" coords="211,5,346,32"/><area shape="rect" id="node3" href="frame_8c.html#ae94d6f87955af69345cb46c9d03ad90f" title="log_stream_or_crypto\l_frame" alt="" coords="205,57,352,98"/><area shape="rect" id="node5" href="stream_8c.html#a0c28462a470893c1046d7a167037d926" title="track_bytes_out" alt="" coords="221,123,336,149"/><area shape="rect" id="node4" href="stream_8c.html#a38e0dc3cbebe5699ec573ab242b6f505" title="max_sid" alt="" coords="401,64,471,91"/></map>
+<area shape="rect" id="node2" href="pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="254,5,303,32"/><area shape="rect" id="node3" href="marshall_8c.html#a5ef78b886a8420375943612d4329807a" title="Computes number of bytes need to enccode v in QUIC varint encoding. " alt="" coords="211,56,346,83"/><area shape="rect" id="node4" href="frame_8c.html#ae94d6f87955af69345cb46c9d03ad90f" title="log_stream_or_crypto\l_frame" alt="" coords="205,107,352,149"/><area shape="rect" id="node6" href="stream_8c.html#a0c28462a470893c1046d7a167037d926" title="track_bytes_out" alt="" coords="221,173,336,200"/><area shape="rect" id="node5" href="stream_8c.html#a38e0dc3cbebe5699ec573ab242b6f505" title="max_sid" alt="" coords="401,115,471,141"/></map>
 </div>
 </p>
 
@@ -1905,7 +1905,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 3 2019 10:43:35 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 4 2019 12:39:46 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

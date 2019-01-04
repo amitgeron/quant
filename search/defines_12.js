@@ -1,6 +1,10 @@
 var searchData=
 [
   ['serv_5fscid_5flen',['SERV_SCID_LEN',['../quic_8h.html#af41ac5b263cca13ee08b287a015840bb',1,'quic.h']]],
+  ['sh',['SH',['../pkt_8h.html#a4453478cd8b3bf96df84fe861cb78600',1,'pkt.h']]],
+  ['sh_5fkyph',['SH_KYPH',['../pkt_8h.html#aac21d1cab97be651a603a90c9a4429b2',1,'pkt.h']]],
+  ['sh_5frsvd_5fmask',['SH_RSVD_MASK',['../pkt_8h.html#a20f7c95d6bdd5b0c404b6057b07db611',1,'pkt.h']]],
+  ['sh_5fspin',['SH_SPIN',['../pkt_8h.html#a895212e54961894ea1b14fa118d055fb',1,'pkt.h']]],
   ['srt_5flen',['SRT_LEN',['../quic_8h.html#aaa19e76a63eec1141d442d58c20042ed',1,'quic.h']]],
   ['st_5fquicly_5fcipher_5fcontext_5ft',['st_quicly_cipher_context_t',['../tls_8c.html#aa936412f8959248ee6373acb4bbacafc',1,'tls.c']]],
   ['strm_5ffl_5fsrv',['STRM_FL_SRV',['../stream_8h.html#ae48fb935fc219f705de121aaedff6962',1,'stream.h']]],
