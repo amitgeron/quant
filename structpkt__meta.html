@@ -149,12 +149,12 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a058300b8f5c60cdde8000077df854e7e"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a058300b8f5c60cdde8000077df854e7e">max_data</a></td></tr>
 <tr class="memdesc:a058300b8f5c60cdde8000077df854e7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAX_DATA limit, if sent.  <a href="#a058300b8f5c60cdde8000077df854e7e">More...</a><br/></td></tr>
 <tr class="separator:a058300b8f5c60cdde8000077df854e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c10af584209f3a48a8d18b2d0064682"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a1c10af584209f3a48a8d18b2d0064682">max_bidi_streams</a></td></tr>
-<tr class="memdesc:a1c10af584209f3a48a8d18b2d0064682"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAX_STREAM_ID bidir limit, if sent.  <a href="#a1c10af584209f3a48a8d18b2d0064682">More...</a><br/></td></tr>
-<tr class="separator:a1c10af584209f3a48a8d18b2d0064682"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b5cf9951df4e041099cfd6288f70f95"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a8b5cf9951df4e041099cfd6288f70f95">max_uni_streams</a></td></tr>
-<tr class="memdesc:a8b5cf9951df4e041099cfd6288f70f95"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAX_STREAM_ID unidir limit, if sent.  <a href="#a8b5cf9951df4e041099cfd6288f70f95">More...</a><br/></td></tr>
-<tr class="separator:a8b5cf9951df4e041099cfd6288f70f95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55dc6834bd5569efd4a7f42bcadcce3f"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a55dc6834bd5569efd4a7f42bcadcce3f">max_streams_bidi</a></td></tr>
+<tr class="memdesc:a55dc6834bd5569efd4a7f42bcadcce3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAX_STREAM_ID bidir limit, if sent.  <a href="#a55dc6834bd5569efd4a7f42bcadcce3f">More...</a><br/></td></tr>
+<tr class="separator:a55dc6834bd5569efd4a7f42bcadcce3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3da0c76133b1c31fe521e440171dffeb"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a3da0c76133b1c31fe521e440171dffeb">max_streams_uni</a></td></tr>
+<tr class="memdesc:a3da0c76133b1c31fe521e440171dffeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAX_STREAM_ID unidir limit, if sent.  <a href="#a3da0c76133b1c31fe521e440171dffeb">More...</a><br/></td></tr>
+<tr class="separator:a3da0c76133b1c31fe521e440171dffeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33129e1d483871567296de2e9794ca5d"><td class="memItemLeft" align="right" valign="top">struct frames&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a33129e1d483871567296de2e9794ca5d">frames</a></td></tr>
 <tr class="memdesc:a33129e1d483871567296de2e9794ca5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frames present in pkt.  <a href="#a33129e1d483871567296de2e9794ca5d">More...</a><br/></td></tr>
 <tr class="separator:a33129e1d483871567296de2e9794ca5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -386,20 +386,6 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1c10af584209f3a48a8d18b2d0064682"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int64_t pkt_meta::max_bidi_streams</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>MAX_STREAM_ID bidir limit, if sent. </p>
-
-</div>
-</div>
 <a class="anchor" id="a058300b8f5c60cdde8000077df854e7e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -442,12 +428,26 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8b5cf9951df4e041099cfd6288f70f95"></a>
+<a class="anchor" id="a55dc6834bd5569efd4a7f42bcadcce3f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int64_t pkt_meta::max_uni_streams</td>
+          <td class="memname">int64_t pkt_meta::max_streams_bidi</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>MAX_STREAM_ID bidir limit, if sent. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3da0c76133b1c31fe521e440171dffeb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t pkt_meta::max_streams_uni</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -602,7 +602,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 4 2019 12:39:46 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Jan 6 2019 17:19:00 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

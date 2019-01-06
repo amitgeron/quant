@@ -95,6 +95,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;assert.h&gt;</code><br/>
+<code>#include &lt;inttypes.h&gt;</code><br/>
 <code>#include &lt;netinet/in.h&gt;</code><br/>
 <code>#include &lt;stdbool.h&gt;</code><br/>
 <code>#include &lt;stddef.h&gt;</code><br/>
@@ -122,7 +123,7 @@ Include dependency graph for tls.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="tls_8c__incl.png" border="0" usemap="#src_2tls_8c" alt=""/></div>
 <map name="src_2tls_8c" id="src_2tls_8c">
-<area shape="rect" id="node13" href="quant_8h.html" title="quant/quant.h" alt="" coords="308,155,409,181"/><area shape="rect" id="node19" href="bitset_8h.html" title="bitset.h" alt="" coords="1977,453,2041,480"/><area shape="rect" id="node20" href="conn_8h.html" title="conn.h" alt="" coords="1364,155,1425,181"/><area shape="rect" id="node27" href="pn_8h.html" title="pn.h" alt="" coords="1195,229,1241,256"/><area shape="rect" id="node28" href="quic_8h.html" title="quic.h" alt="" coords="1862,304,1919,331"/><area shape="rect" id="node29" href="frame_8h.html" title="frame.h" alt="" coords="1905,379,1972,405"/><area shape="rect" id="node30" href="tls_8h.html" title="tls.h" alt="" coords="1001,304,1047,331"/><area shape="rect" id="node32" href="marshall_8h.html" title="marshall.h" alt="" coords="505,155,587,181"/><area shape="rect" id="node33" href="pkt_8h.html" title="pkt.h" alt="" coords="1148,80,1199,107"/><area shape="rect" id="node34" href="stream_8h.html" title="stream.h" alt="" coords="1223,80,1296,107"/><area shape="rect" id="node16" href="config_8h.html" title="quant/config.h" alt="" coords="528,304,632,331"/><area shape="rect" id="node25" href="diet_8h.html" title="diet.h" alt="" coords="1225,304,1279,331"/><area shape="rect" id="node26" href="fnv1a_8h.html" title="fnv1a.h" alt="" coords="859,304,924,331"/><area shape="rect" id="node31" href="recovery_8h.html" title="recovery.h" alt="" coords="1557,229,1639,256"/></map>
+<area shape="rect" id="node14" href="quant_8h.html" title="quant/quant.h" alt="" coords="130,155,231,181"/><area shape="rect" id="node20" href="bitset_8h.html" title="bitset.h" alt="" coords="2132,453,2196,480"/><area shape="rect" id="node21" href="conn_8h.html" title="conn.h" alt="" coords="1099,155,1160,181"/><area shape="rect" id="node27" href="pn_8h.html" title="pn.h" alt="" coords="713,229,759,256"/><area shape="rect" id="node28" href="quic_8h.html" title="quic.h" alt="" coords="1444,304,1500,331"/><area shape="rect" id="node29" href="frame_8h.html" title="frame.h" alt="" coords="2131,379,2198,405"/><area shape="rect" id="node30" href="tls_8h.html" title="tls.h" alt="" coords="645,304,691,331"/><area shape="rect" id="node32" href="marshall_8h.html" title="marshall.h" alt="" coords="328,155,410,181"/><area shape="rect" id="node33" href="pkt_8h.html" title="pkt.h" alt="" coords="807,80,858,107"/><area shape="rect" id="node34" href="stream_8h.html" title="stream.h" alt="" coords="1844,80,1916,107"/><area shape="rect" id="node17" href="config_8h.html" title="quant/config.h" alt="" coords="111,304,215,331"/><area shape="rect" id="node25" href="diet_8h.html" title="diet.h" alt="" coords="857,304,911,331"/><area shape="rect" id="node26" href="fnv1a_8h.html" title="fnv1a.h" alt="" coords="716,304,780,331"/><area shape="rect" id="node31" href="recovery_8h.html" title="recovery.h" alt="" coords="1088,229,1170,256"/></map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -138,35 +139,51 @@ Macros</h2></td></tr>
 <tr class="separator:a67bb64934a4420a93ed8859153c5c186"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61ef017ccbfcbd775738c77bb86b5453"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a61ef017ccbfcbd775738c77bb86b5453">COOKIE_LEN</a>&#160;&#160;&#160;64</td></tr>
 <tr class="separator:a61ef017ccbfcbd775738c77bb86b5453"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec764d0bb291799a81d2c410cebfbcb2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#aec764d0bb291799a81d2c410cebfbcb2">TLS_EXT_TYPE_TRANSPORT_PARAMETERS</a>&#160;&#160;&#160;0xffa5</td></tr>
-<tr class="separator:aec764d0bb291799a81d2c410cebfbcb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bb56999c75be0bc6ac2dfcec2a67241"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a3bb56999c75be0bc6ac2dfcec2a67241">TP_INITIAL_MAX_STREAM_DATA_BIDI_LOCAL</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:a3bb56999c75be0bc6ac2dfcec2a67241"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ad4acdf18a719f36a2d929c549814d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a4ad4acdf18a719f36a2d929c549814d0">TP_INITIAL_MAX_DATA</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a4ad4acdf18a719f36a2d929c549814d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9209c6374b3ce3f514ed0d25f6b43f46"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a9209c6374b3ce3f514ed0d25f6b43f46">TP_INITIAL_MAX_BIDI_STREAMS</a>&#160;&#160;&#160;2</td></tr>
-<tr class="separator:a9209c6374b3ce3f514ed0d25f6b43f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a460efdb80a976567deff5fb2b164c28f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a460efdb80a976567deff5fb2b164c28f">TP_IDLE_TIMEOUT</a>&#160;&#160;&#160;3</td></tr>
-<tr class="separator:a460efdb80a976567deff5fb2b164c28f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24a5013c9420b7c5054cb049b745e19c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a24a5013c9420b7c5054cb049b745e19c">TP_MAX_PACKET_SIZE</a>&#160;&#160;&#160;5</td></tr>
-<tr class="separator:a24a5013c9420b7c5054cb049b745e19c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0893dd89c8c8365ae3c3b053135d15fb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a0893dd89c8c8365ae3c3b053135d15fb">TP_STATELESS_RESET_TOKEN</a>&#160;&#160;&#160;6</td></tr>
-<tr class="separator:a0893dd89c8c8365ae3c3b053135d15fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94fa0822fdb2bd0eaf182f09fd110628"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a94fa0822fdb2bd0eaf182f09fd110628">TP_ACK_DELAY_EXPONENT</a>&#160;&#160;&#160;7</td></tr>
-<tr class="separator:a94fa0822fdb2bd0eaf182f09fd110628"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6891665fc98fc5376e25ef80945da486"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a6891665fc98fc5376e25ef80945da486">TP_INITIAL_MAX_UNI_STREAMS</a>&#160;&#160;&#160;8</td></tr>
-<tr class="separator:a6891665fc98fc5376e25ef80945da486"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa142b63e4e39660b6a91f7af8037f86f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#aa142b63e4e39660b6a91f7af8037f86f">TP_DISABLE_MIGRATION</a>&#160;&#160;&#160;9</td></tr>
-<tr class="separator:aa142b63e4e39660b6a91f7af8037f86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61ac99bdc7aa7de88aab814f79a47d24"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a61ac99bdc7aa7de88aab814f79a47d24">TP_INITIAL_MAX_STREAM_DATA_BIDI_REMOTE</a>&#160;&#160;&#160;10</td></tr>
-<tr class="separator:a61ac99bdc7aa7de88aab814f79a47d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f23e815d1e6b788070979e4fe4a014d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a9f23e815d1e6b788070979e4fe4a014d">TP_INITIAL_MAX_STREAM_DATA_UNI</a>&#160;&#160;&#160;11</td></tr>
-<tr class="separator:a9f23e815d1e6b788070979e4fe4a014d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74cc4cc7f41493267f3b2ef484d5ebb6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a74cc4cc7f41493267f3b2ef484d5ebb6">TP_MAX_ACK_DELAY</a>&#160;&#160;&#160;12</td></tr>
-<tr class="separator:a74cc4cc7f41493267f3b2ef484d5ebb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3be307480a32159bdbc1b1cdc79798df"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a3be307480a32159bdbc1b1cdc79798df">TP_ORIGINAL_CONNECTION_ID</a>&#160;&#160;&#160;13</td></tr>
-<tr class="separator:a3be307480a32159bdbc1b1cdc79798df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea2ae950efdd5b55322d582604aa9e3d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#aea2ae950efdd5b55322d582604aa9e3d">TP_MAX</a>&#160;&#160;&#160;(<a class="el" href="tls_8c.html#a3be307480a32159bdbc1b1cdc79798df">TP_ORIGINAL_CONNECTION_ID</a> + 1)</td></tr>
+<tr class="memitem:a657b7f0e210619d0f6945a00a4e880ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a657b7f0e210619d0f6945a00a4e880ba">QUIC_TP</a>&#160;&#160;&#160;0xffa5</td></tr>
+<tr class="separator:a657b7f0e210619d0f6945a00a4e880ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bb73f3e7548e2b8a944afbcedd31c90"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a5bb73f3e7548e2b8a944afbcedd31c90">TP_OCID</a>&#160;&#160;&#160;0x00</td></tr>
+<tr class="memdesc:a5bb73f3e7548e2b8a944afbcedd31c90"><td class="mdescLeft">&#160;</td><td class="mdescRight">original_connection_id  <a href="#a5bb73f3e7548e2b8a944afbcedd31c90">More...</a><br/></td></tr>
+<tr class="separator:a5bb73f3e7548e2b8a944afbcedd31c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcd90da85ea2c3bf97cf74de741e7b21"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#abcd90da85ea2c3bf97cf74de741e7b21">TP_IDTO</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="memdesc:abcd90da85ea2c3bf97cf74de741e7b21"><td class="mdescLeft">&#160;</td><td class="mdescRight">idle_timeout  <a href="#abcd90da85ea2c3bf97cf74de741e7b21">More...</a><br/></td></tr>
+<tr class="separator:abcd90da85ea2c3bf97cf74de741e7b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84ba0553464f7d35ee05bc0a877dba06"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a84ba0553464f7d35ee05bc0a877dba06">TP_SRT</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="memdesc:a84ba0553464f7d35ee05bc0a877dba06"><td class="mdescLeft">&#160;</td><td class="mdescRight">stateless_reset_token  <a href="#a84ba0553464f7d35ee05bc0a877dba06">More...</a><br/></td></tr>
+<tr class="separator:a84ba0553464f7d35ee05bc0a877dba06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34220c965cd93dfda945fdf266710e07"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a34220c965cd93dfda945fdf266710e07">TP_MPS</a>&#160;&#160;&#160;0x03</td></tr>
+<tr class="memdesc:a34220c965cd93dfda945fdf266710e07"><td class="mdescLeft">&#160;</td><td class="mdescRight">max_packet_size  <a href="#a34220c965cd93dfda945fdf266710e07">More...</a><br/></td></tr>
+<tr class="separator:a34220c965cd93dfda945fdf266710e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c2b40a89fd7f0c5f128f7fd567c4feb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a6c2b40a89fd7f0c5f128f7fd567c4feb">TP_IMD</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="memdesc:a6c2b40a89fd7f0c5f128f7fd567c4feb"><td class="mdescLeft">&#160;</td><td class="mdescRight">initial_max_data  <a href="#a6c2b40a89fd7f0c5f128f7fd567c4feb">More...</a><br/></td></tr>
+<tr class="separator:a6c2b40a89fd7f0c5f128f7fd567c4feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae090f05fb26530c0f53bfce345f19ad2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#ae090f05fb26530c0f53bfce345f19ad2">TP_IMSD_BL</a>&#160;&#160;&#160;0x05</td></tr>
+<tr class="memdesc:ae090f05fb26530c0f53bfce345f19ad2"><td class="mdescLeft">&#160;</td><td class="mdescRight">initial_max_stream_data_bidi_local  <a href="#ae090f05fb26530c0f53bfce345f19ad2">More...</a><br/></td></tr>
+<tr class="separator:ae090f05fb26530c0f53bfce345f19ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a379197b90d3d6ccc0f05dff06d3a8ede"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a379197b90d3d6ccc0f05dff06d3a8ede">TP_IMSD_BR</a>&#160;&#160;&#160;0x06</td></tr>
+<tr class="memdesc:a379197b90d3d6ccc0f05dff06d3a8ede"><td class="mdescLeft">&#160;</td><td class="mdescRight">initial_max_stream_data_bidi_remote  <a href="#a379197b90d3d6ccc0f05dff06d3a8ede">More...</a><br/></td></tr>
+<tr class="separator:a379197b90d3d6ccc0f05dff06d3a8ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03f57616304ded204f8caf72d944eec0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a03f57616304ded204f8caf72d944eec0">TP_IMSD_U</a>&#160;&#160;&#160;0x07</td></tr>
+<tr class="memdesc:a03f57616304ded204f8caf72d944eec0"><td class="mdescLeft">&#160;</td><td class="mdescRight">initial_max_stream_data_uni  <a href="#a03f57616304ded204f8caf72d944eec0">More...</a><br/></td></tr>
+<tr class="separator:a03f57616304ded204f8caf72d944eec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdd81fb28b683004db28e17c6764c8a3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#abdd81fb28b683004db28e17c6764c8a3">TP_IMSB</a>&#160;&#160;&#160;0x08</td></tr>
+<tr class="memdesc:abdd81fb28b683004db28e17c6764c8a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">initial_max_streams_bidi  <a href="#abdd81fb28b683004db28e17c6764c8a3">More...</a><br/></td></tr>
+<tr class="separator:abdd81fb28b683004db28e17c6764c8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0850117b8252932beced290507ae2d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#ad0850117b8252932beced290507ae2d0">TP_IMSU</a>&#160;&#160;&#160;0x09</td></tr>
+<tr class="memdesc:ad0850117b8252932beced290507ae2d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">initial_max_streams_uni  <a href="#ad0850117b8252932beced290507ae2d0">More...</a><br/></td></tr>
+<tr class="separator:ad0850117b8252932beced290507ae2d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86073c7a696d75aefc676c5859c6f3fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a86073c7a696d75aefc676c5859c6f3fe">TP_ADE</a>&#160;&#160;&#160;0x0a</td></tr>
+<tr class="memdesc:a86073c7a696d75aefc676c5859c6f3fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">ack_delay_exponent  <a href="#a86073c7a696d75aefc676c5859c6f3fe">More...</a><br/></td></tr>
+<tr class="separator:a86073c7a696d75aefc676c5859c6f3fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cb8e882336598622aa76d7dae9e8ec4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a3cb8e882336598622aa76d7dae9e8ec4">TP_MAD</a>&#160;&#160;&#160;0x0b</td></tr>
+<tr class="memdesc:a3cb8e882336598622aa76d7dae9e8ec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">max_ack_delay  <a href="#a3cb8e882336598622aa76d7dae9e8ec4">More...</a><br/></td></tr>
+<tr class="separator:a3cb8e882336598622aa76d7dae9e8ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2577b9887660c2e188603ced8257ccc0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a2577b9887660c2e188603ced8257ccc0">TP_DMIG</a>&#160;&#160;&#160;0x0c</td></tr>
+<tr class="memdesc:a2577b9887660c2e188603ced8257ccc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">disable_migration  <a href="#a2577b9887660c2e188603ced8257ccc0">More...</a><br/></td></tr>
+<tr class="separator:a2577b9887660c2e188603ced8257ccc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf20409eea289bd848d2880ed0e419e3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#abf20409eea289bd848d2880ed0e419e3">TP_PRFA</a>&#160;&#160;&#160;0x0d</td></tr>
+<tr class="memdesc:abf20409eea289bd848d2880ed0e419e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">preferred_address  <a href="#abf20409eea289bd848d2880ed0e419e3">More...</a><br/></td></tr>
+<tr class="separator:abf20409eea289bd848d2880ed0e419e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea2ae950efdd5b55322d582604aa9e3d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#aea2ae950efdd5b55322d582604aa9e3d">TP_MAX</a>&#160;&#160;&#160;(<a class="el" href="tls_8c.html#abf20409eea289bd848d2880ed0e419e3">TP_PRFA</a> + 1)</td></tr>
 <tr class="separator:aea2ae950efdd5b55322d582604aa9e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8871189e33afd5b7b436c06a92eaf108"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a8871189e33afd5b7b436c06a92eaf108">AEAD_BASE_LABEL</a>&#160;&#160;&#160;PTLS_HKDF_EXPAND_LABEL_PREFIX &quot;quic &quot;</td></tr>
 <tr class="separator:a8871189e33afd5b7b436c06a92eaf108"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,10 +193,12 @@ Macros</h2></td></tr>
 <tr class="separator:aac53ff121baab0e9acb4a3eab682e452"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3ba6a937d2e7020175faa9c9eb58295"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#aa3ba6a937d2e7020175faa9c9eb58295">QUICLY_DEBUG</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:aa3ba6a937d2e7020175faa9c9eb58295"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c6f91ee763502bebb961129c1d12c00"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a2c6f91ee763502bebb961129c1d12c00">dec_tp</a>(var, w)</td></tr>
-<tr class="separator:a2c6f91ee763502bebb961129c1d12c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e90a196b653422e5df430104bf62ee3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a8e90a196b653422e5df430104bf62ee3">enc_tp</a>(c, tp, var, w)</td></tr>
-<tr class="separator:a8e90a196b653422e5df430104bf62ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab82b57749de17545cab7c148ffc16f74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#ab82b57749de17545cab7c148ffc16f74">dec_tp</a>(var)</td></tr>
+<tr class="separator:ab82b57749de17545cab7c148ffc16f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a624ee6e4c9347bfed2d558a24caf8cdc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a624ee6e4c9347bfed2d558a24caf8cdc">dec_tp_buf</a>(var, w)</td></tr>
+<tr class="separator:a624ee6e4c9347bfed2d558a24caf8cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b84b9d31350f1af2f40d1af5fdebeae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a5b84b9d31350f1af2f40d1af5fdebeae">enc_tp</a>(c, tp, var)</td></tr>
+<tr class="separator:a5b84b9d31350f1af2f40d1af5fdebeae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6392965ddc985a2de56b6bebe453d0a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a6392965ddc985a2de56b6bebe453d0a6">enc_tp_buf</a>(c, tp, var, w)</td></tr>
 <tr class="separator:a6392965ddc985a2de56b6bebe453d0a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a348766fc1e11de7c8ae8c3230e801429"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a348766fc1e11de7c8ae8c3230e801429">OFFSET_HSHK</a>&#160;&#160;&#160;128</td></tr>
@@ -357,12 +376,37 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2c6f91ee763502bebb961129c1d12c00"></a>
+<a class="anchor" id="ab82b57749de17545cab7c148ffc16f74"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">#define dec_tp</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">var</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">__extension__({                                                            \</div>
+<div class="line">        uint16_t l;                                                            \</div>
+<div class="line">        i = <a class="code" href="marshall_8h.html#a17979630a63703570a316e70d4e9cb30">dec</a>(&amp;l, buf, len, i, <span class="keyword">sizeof</span>(l), <span class="stringliteral">&quot;%u&quot;</span>);                             \</div>
+<div class="line">        ensure(l &lt;= <span class="keyword">sizeof</span>(uint64_t), <span class="stringliteral">&quot;invalid len %u&quot;</span>, l);                    \</div>
+<div class="line">        if (l)                                                                 \</div>
+<div class="line">            i = <a class="code" href="marshall_8h.html#a17979630a63703570a316e70d4e9cb30">dec</a>((var), buf, len, i, 0, <span class="stringliteral">&quot;%u&quot;</span>);                              \</div>
+<div class="line">        l;                                                                     \</div>
+<div class="line">    })</div>
+<div class="ttc" id="marshall_8h_html_a17979630a63703570a316e70d4e9cb30"><div class="ttname"><a href="marshall_8h.html#a17979630a63703570a316e70d4e9cb30">dec</a></div><div class="ttdeci">#define dec(dst, buf, buf_len, pos, dst_len, fmt)</div><div class="ttdoc">Decodes dst_len bytes (if given, otherwise varint encoding is assumed) of network byte-order data sta...</div><div class="ttdef"><b>Definition:</b> marshall.h:152</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a624ee6e4c9347bfed2d558a24caf8cdc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define dec_tp_buf</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">var, </td>
@@ -384,20 +428,16 @@ Variables</h2></td></tr>
 <div class="line">        uint16_t l;                                                            \</div>
 <div class="line">        i = <a class="code" href="marshall_8h.html#a17979630a63703570a316e70d4e9cb30">dec</a>(&amp;l, buf, len, i, <span class="keyword">sizeof</span>(l), <span class="stringliteral">&quot;%u&quot;</span>);                             \</div>
 <div class="line">        ensure(l &lt;= (w), <span class="stringliteral">&quot;invalid len %u&quot;</span>, l);                                 \</div>
-<div class="line">        if (l) {                                                               \</div>
-<div class="line">            if (l == (w))                                                      \</div>
-<div class="line">                i = <a class="code" href="marshall_8h.html#a17979630a63703570a316e70d4e9cb30">dec</a>((var), buf, len, i, (w), <span class="stringliteral">&quot;%u&quot;</span>);                        \</div>
-<div class="line">            else                                                               \</div>
-<div class="line">                i = <a class="code" href="marshall_8h.html#a30296cce5b6c5d9acf70a6d8b9ef809b">dec_buf</a>((var), buf, len, i, l);                            \</div>
-<div class="line">        }                                                                      \</div>
+<div class="line">        if (l)                                                                 \</div>
+<div class="line">            i = <a class="code" href="marshall_8h.html#a30296cce5b6c5d9acf70a6d8b9ef809b">dec_buf</a>((var), buf, len, i, l);                                \</div>
 <div class="line">        l;                                                                     \</div>
 <div class="line">    })</div>
-<div class="ttc" id="marshall_8h_html_a30296cce5b6c5d9acf70a6d8b9ef809b"><div class="ttname"><a href="marshall_8h.html#a30296cce5b6c5d9acf70a6d8b9ef809b">dec_buf</a></div><div class="ttdeci">#define dec_buf(dst, buf, buf_len, pos, dst_len)</div><div class="ttdoc">Decodes dst_len bytes of raw data starting at position pos of buffer buf (which has total length buf_...</div><div class="ttdef"><b>Definition:</b> marshall.h:196</div></div>
-<div class="ttc" id="marshall_8h_html_a17979630a63703570a316e70d4e9cb30"><div class="ttname"><a href="marshall_8h.html#a17979630a63703570a316e70d4e9cb30">dec</a></div><div class="ttdeci">#define dec(dst, buf, buf_len, pos, dst_len, fmt)</div><div class="ttdoc">Decodes dst_len bytes (if given, otherwise varint encoding is assumed) of network byte-order data sta...</div><div class="ttdef"><b>Definition:</b> marshall.h:153</div></div>
+<div class="ttc" id="marshall_8h_html_a30296cce5b6c5d9acf70a6d8b9ef809b"><div class="ttname"><a href="marshall_8h.html#a30296cce5b6c5d9acf70a6d8b9ef809b">dec_buf</a></div><div class="ttdeci">#define dec_buf(dst, buf, buf_len, pos, dst_len)</div><div class="ttdoc">Decodes dst_len bytes of raw data starting at position pos of buffer buf (which has total length buf_...</div><div class="ttdef"><b>Definition:</b> marshall.h:194</div></div>
+<div class="ttc" id="marshall_8h_html_a17979630a63703570a316e70d4e9cb30"><div class="ttname"><a href="marshall_8h.html#a17979630a63703570a316e70d4e9cb30">dec</a></div><div class="ttdeci">#define dec(dst, buf, buf_len, pos, dst_len, fmt)</div><div class="ttdoc">Decodes dst_len bytes (if given, otherwise varint encoding is assumed) of network byte-order data sta...</div><div class="ttdef"><b>Definition:</b> marshall.h:152</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a8e90a196b653422e5df430104bf62ee3"></a>
+<a class="anchor" id="a5b84b9d31350f1af2f40d1af5fdebeae"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -417,13 +457,7 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">var, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">w&#160;</td>
+          <td class="paramname">var&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -435,16 +469,15 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                                       \</div>
 <div class="line">        const uint16_t param = (tp);                                           \</div>
 <div class="line">        i = <a class="code" href="marshall_8h.html#a0986acb39655709f2514114be789df34">enc</a>((c)-&gt;<a class="code" href="structtls.html">tls</a>.<a class="code" href="structtls.html#abb765cf816efb3d6b75f9ec2db520571">tp_buf</a>, len, i, &amp;param, <span class="keyword">sizeof</span>(param), 0, <span class="stringliteral">&quot;%u&quot;</span>);      \</div>
-<div class="line">        const uint16_t bytes = (w);                                            \</div>
+<div class="line">        const uint16_t bytes = <a class="code" href="marshall_8c.html#ae3f375b36a262ec3d5e8c06ba2be2442">varint_size_needed</a>(var);                        \</div>
 <div class="line">        i = <a class="code" href="marshall_8h.html#a0986acb39655709f2514114be789df34">enc</a>((c)-&gt;<a class="code" href="structtls.html">tls</a>.<a class="code" href="structtls.html#abb765cf816efb3d6b75f9ec2db520571">tp_buf</a>, len, i, &amp;bytes, <span class="keyword">sizeof</span>(bytes), 0, <span class="stringliteral">&quot;%u&quot;</span>);      \</div>
-<div class="line">        if (w) {                                                               \</div>
-<div class="line">            const uint64_t tmp_var = (var);                                    \</div>
-<div class="line">            i = <a class="code" href="marshall_8h.html#a0986acb39655709f2514114be789df34">enc</a>((c)-&gt;<a class="code" href="structtls.html">tls</a>.<a class="code" href="structtls.html#abb765cf816efb3d6b75f9ec2db520571">tp_buf</a>, len, i, &amp;tmp_var, bytes, 0, <span class="stringliteral">&quot;%u&quot;</span>);        \</div>
-<div class="line">        }                                                                      \</div>
+<div class="line">        const uint64_t tmp_var = (var);                                        \</div>
+<div class="line">        i = <a class="code" href="marshall_8h.html#a0986acb39655709f2514114be789df34">enc</a>((c)-&gt;<a class="code" href="structtls.html">tls</a>.<a class="code" href="structtls.html#abb765cf816efb3d6b75f9ec2db520571">tp_buf</a>, len, i, &amp;tmp_var, 0, 0, <span class="stringliteral">&quot;%u&quot;</span>);                \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
 <div class="ttc" id="marshall_8h_html_a0986acb39655709f2514114be789df34"><div class="ttname"><a href="marshall_8h.html#a0986acb39655709f2514114be789df34">enc</a></div><div class="ttdeci">#define enc(buf, buf_len, pos, src, src_len, enc_len, fmt)</div><div class="ttdoc">Encodes src in host byte-order data into network byte-order at at position pos of buffer buf (which h...</div><div class="ttdef"><b>Definition:</b> marshall.h:64</div></div>
 <div class="ttc" id="structtls_html"><div class="ttname"><a href="structtls.html">tls</a></div><div class="ttdef"><b>Definition:</b> tls.h:55</div></div>
 <div class="ttc" id="structtls_html_abb765cf816efb3d6b75f9ec2db520571"><div class="ttname"><a href="structtls.html#abb765cf816efb3d6b75f9ec2db520571">tls::tp_buf</a></div><div class="ttdeci">uint8_t tp_buf[196]</div><div class="ttdef"><b>Definition:</b> tls.h:62</div></div>
+<div class="ttc" id="marshall_8c_html_ae3f375b36a262ec3d5e8c06ba2be2442"><div class="ttname"><a href="marshall_8c.html#ae3f375b36a262ec3d5e8c06ba2be2442">varint_size_needed</a></div><div class="ttdeci">uint8_t varint_size_needed(const uint64_t v)</div><div class="ttdoc">Computes number of bytes need to enccode v in QUIC varint encoding. </div><div class="ttdef"><b>Definition:</b> marshall.c:62</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -493,7 +526,7 @@ Variables</h2></td></tr>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
 <div class="ttc" id="marshall_8h_html_a0986acb39655709f2514114be789df34"><div class="ttname"><a href="marshall_8h.html#a0986acb39655709f2514114be789df34">enc</a></div><div class="ttdeci">#define enc(buf, buf_len, pos, src, src_len, enc_len, fmt)</div><div class="ttdoc">Encodes src in host byte-order data into network byte-order at at position pos of buffer buf (which h...</div><div class="ttdef"><b>Definition:</b> marshall.h:64</div></div>
 <div class="ttc" id="structtls_html"><div class="ttname"><a href="structtls.html">tls</a></div><div class="ttdef"><b>Definition:</b> tls.h:55</div></div>
-<div class="ttc" id="marshall_8h_html_a97a073f5a85086073df37adf48327b3c"><div class="ttname"><a href="marshall_8h.html#a97a073f5a85086073df37adf48327b3c">enc_buf</a></div><div class="ttdeci">#define enc_buf(buf, buf_len, pos, src, enc_len)</div><div class="ttdoc">Encodes src raw data into position pos of buffer buf (which has total length buf_len), using printf format string fmt to format the data for debug logging. </div><div class="ttdef"><b>Definition:</b> marshall.h:106</div></div>
+<div class="ttc" id="marshall_8h_html_a97a073f5a85086073df37adf48327b3c"><div class="ttname"><a href="marshall_8h.html#a97a073f5a85086073df37adf48327b3c">enc_buf</a></div><div class="ttdeci">#define enc_buf(buf, buf_len, pos, src, enc_len)</div><div class="ttdoc">Encodes src raw data into position pos of buffer buf (which has total length buf_len), using printf format string fmt to format the data for debug logging. </div><div class="ttdef"><b>Definition:</b> marshall.h:105</div></div>
 <div class="ttc" id="structtls_html_abb765cf816efb3d6b75f9ec2db520571"><div class="ttname"><a href="structtls.html#abb765cf816efb3d6b75f9ec2db520571">tls::tp_buf</a></div><div class="ttdeci">uint8_t tp_buf[196]</div><div class="ttdef"><b>Definition:</b> tls.h:62</div></div>
 </div><!-- fragment -->
 </div>
@@ -509,6 +542,18 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Offsets of stream frame payload data we TX. </p>
+
+</div>
+</div>
+<a class="anchor" id="a657b7f0e210619d0f6945a00a4e880ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define QUIC_TP&#160;&#160;&#160;0xffa5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -568,123 +613,143 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aec764d0bb291799a81d2c410cebfbcb2"></a>
+<a class="anchor" id="a86073c7a696d75aefc676c5859c6f3fe"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TLS_EXT_TYPE_TRANSPORT_PARAMETERS&#160;&#160;&#160;0xffa5</td>
+          <td class="memname">#define TP_ADE&#160;&#160;&#160;0x0a</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>ack_delay_exponent </p>
+
 </div>
 </div>
-<a class="anchor" id="a94fa0822fdb2bd0eaf182f09fd110628"></a>
+<a class="anchor" id="a2577b9887660c2e188603ced8257ccc0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TP_ACK_DELAY_EXPONENT&#160;&#160;&#160;7</td>
+          <td class="memname">#define TP_DMIG&#160;&#160;&#160;0x0c</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>disable_migration </p>
+
 </div>
 </div>
-<a class="anchor" id="aa142b63e4e39660b6a91f7af8037f86f"></a>
+<a class="anchor" id="abcd90da85ea2c3bf97cf74de741e7b21"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TP_DISABLE_MIGRATION&#160;&#160;&#160;9</td>
+          <td class="memname">#define TP_IDTO&#160;&#160;&#160;0x01</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>idle_timeout </p>
+
 </div>
 </div>
-<a class="anchor" id="a460efdb80a976567deff5fb2b164c28f"></a>
+<a class="anchor" id="a6c2b40a89fd7f0c5f128f7fd567c4feb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TP_IDLE_TIMEOUT&#160;&#160;&#160;3</td>
+          <td class="memname">#define TP_IMD&#160;&#160;&#160;0x04</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>initial_max_data </p>
+
 </div>
 </div>
-<a class="anchor" id="a9209c6374b3ce3f514ed0d25f6b43f46"></a>
+<a class="anchor" id="abdd81fb28b683004db28e17c6764c8a3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TP_INITIAL_MAX_BIDI_STREAMS&#160;&#160;&#160;2</td>
+          <td class="memname">#define TP_IMSB&#160;&#160;&#160;0x08</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>initial_max_streams_bidi </p>
+
 </div>
 </div>
-<a class="anchor" id="a4ad4acdf18a719f36a2d929c549814d0"></a>
+<a class="anchor" id="ae090f05fb26530c0f53bfce345f19ad2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TP_INITIAL_MAX_DATA&#160;&#160;&#160;1</td>
+          <td class="memname">#define TP_IMSD_BL&#160;&#160;&#160;0x05</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>initial_max_stream_data_bidi_local </p>
+
 </div>
 </div>
-<a class="anchor" id="a3bb56999c75be0bc6ac2dfcec2a67241"></a>
+<a class="anchor" id="a379197b90d3d6ccc0f05dff06d3a8ede"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TP_INITIAL_MAX_STREAM_DATA_BIDI_LOCAL&#160;&#160;&#160;0</td>
+          <td class="memname">#define TP_IMSD_BR&#160;&#160;&#160;0x06</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>initial_max_stream_data_bidi_remote </p>
+
 </div>
 </div>
-<a class="anchor" id="a61ac99bdc7aa7de88aab814f79a47d24"></a>
+<a class="anchor" id="a03f57616304ded204f8caf72d944eec0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TP_INITIAL_MAX_STREAM_DATA_BIDI_REMOTE&#160;&#160;&#160;10</td>
+          <td class="memname">#define TP_IMSD_U&#160;&#160;&#160;0x07</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>initial_max_stream_data_uni </p>
+
 </div>
 </div>
-<a class="anchor" id="a9f23e815d1e6b788070979e4fe4a014d"></a>
+<a class="anchor" id="ad0850117b8252932beced290507ae2d0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TP_INITIAL_MAX_STREAM_DATA_UNI&#160;&#160;&#160;11</td>
+          <td class="memname">#define TP_IMSU&#160;&#160;&#160;0x09</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>initial_max_streams_uni </p>
+
 </div>
 </div>
-<a class="anchor" id="a6891665fc98fc5376e25ef80945da486"></a>
+<a class="anchor" id="a3cb8e882336598622aa76d7dae9e8ec4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TP_INITIAL_MAX_UNI_STREAMS&#160;&#160;&#160;8</td>
+          <td class="memname">#define TP_MAD&#160;&#160;&#160;0x0b</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>max_ack_delay </p>
 
 </div>
 </div>
@@ -693,58 +758,66 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TP_MAX&#160;&#160;&#160;(<a class="el" href="tls_8c.html#a3be307480a32159bdbc1b1cdc79798df">TP_ORIGINAL_CONNECTION_ID</a> + 1)</td>
+          <td class="memname">#define TP_MAX&#160;&#160;&#160;(<a class="el" href="tls_8c.html#abf20409eea289bd848d2880ed0e419e3">TP_PRFA</a> + 1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a74cc4cc7f41493267f3b2ef484d5ebb6"></a>
+<a class="anchor" id="a34220c965cd93dfda945fdf266710e07"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TP_MAX_ACK_DELAY&#160;&#160;&#160;12</td>
+          <td class="memname">#define TP_MPS&#160;&#160;&#160;0x03</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>max_packet_size </p>
+
 </div>
 </div>
-<a class="anchor" id="a24a5013c9420b7c5054cb049b745e19c"></a>
+<a class="anchor" id="a5bb73f3e7548e2b8a944afbcedd31c90"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TP_MAX_PACKET_SIZE&#160;&#160;&#160;5</td>
+          <td class="memname">#define TP_OCID&#160;&#160;&#160;0x00</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>original_connection_id </p>
+
 </div>
 </div>
-<a class="anchor" id="a3be307480a32159bdbc1b1cdc79798df"></a>
+<a class="anchor" id="abf20409eea289bd848d2880ed0e419e3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TP_ORIGINAL_CONNECTION_ID&#160;&#160;&#160;13</td>
+          <td class="memname">#define TP_PRFA&#160;&#160;&#160;0x0d</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>preferred_address </p>
+
 </div>
 </div>
-<a class="anchor" id="a0893dd89c8c8365ae3c3b053135d15fb"></a>
+<a class="anchor" id="a84ba0553464f7d35ee05bc0a877dba06"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TP_STATELESS_RESET_TOKEN&#160;&#160;&#160;6</td>
+          <td class="memname">#define TP_SRT&#160;&#160;&#160;0x02</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>stateless_reset_token </p>
 
 </div>
 </div>
@@ -2259,7 +2332,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 4 2019 12:39:46 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Jan 6 2019 17:19:00 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

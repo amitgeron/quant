@@ -39,6 +39,7 @@ var searchData=
   ['quant_5fversion_5fpatch',['QUANT_VERSION_PATCH',['../config_8h.html#adf6d67ea89e6f3a47d8a96da81aff20b',1,'config.h']]],
   ['quic_2ec',['quic.c',['../quic_8c.html',1,'']]],
   ['quic_2eh',['quic.h',['../quic_8h.html',1,'']]],
+  ['quic_5ftp',['QUIC_TP',['../tls_8c.html#a657b7f0e210619d0f6945a00a4e880ba',1,'tls.c']]],
   ['quicly_5fdebug',['QUICLY_DEBUG',['../tls_8c.html#aa3ba6a937d2e7020175faa9c9eb58295',1,'tls.c']]],
   ['quicly_5fhexdump',['quicly_hexdump',['../tls_8c.html#aac53ff121baab0e9acb4a3eab682e452',1,'tls.c']]]
 ];

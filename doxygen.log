@@ -288,7 +288,7 @@ Generating call graph for function dec_blocked_frame
 Generating call graph for function dec_close_frame
 Generating call graph for function dec_frames
 Generating call graph for function dec_max_stream_data_frame
-Generating call graph for function dec_max_stream_id_frame
+Generating call graph for function dec_max_streams_frame
 Generating call graph for function dec_new_cid_frame
 Generating call graph for function dec_retire_cid_frame
 Generating call graph for function dec_rst_stream_frame
@@ -768,5 +768,5 @@ Patching output file 39/42
 Patching output file 40/42
 Patching output file 41/42
 Patching output file 42/42
-lookup cache used 1009/65536 hits=8125 misses=1029
+lookup cache used 1015/65536 hits=8115 misses=1035
 finished...

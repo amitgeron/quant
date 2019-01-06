@@ -7,7 +7,7 @@ var searchData=
   ['dec_5fframes',['dec_frames',['../frame_8c.html#a61028f6e9e750c1d45bde1dd2303aa26',1,'dec_frames(struct q_conn *const c, struct w_iov **vv):&#160;frame.c'],['../frame_8h.html#a61028f6e9e750c1d45bde1dd2303aa26',1,'dec_frames(struct q_conn *const c, struct w_iov **vv):&#160;frame.c']]],
   ['dec_5fmax_5fdata_5fframe',['dec_max_data_frame',['../frame_8c.html#a153e4e8ebbad53cd142cd48d2455f3dd',1,'frame.c']]],
   ['dec_5fmax_5fstream_5fdata_5fframe',['dec_max_stream_data_frame',['../frame_8c.html#a03b268dbab7b999eb38b09805803f138',1,'frame.c']]],
-  ['dec_5fmax_5fstream_5fid_5fframe',['dec_max_stream_id_frame',['../frame_8c.html#ab062d5820675972796c9c28623899240',1,'frame.c']]],
+  ['dec_5fmax_5fstreams_5fframe',['dec_max_streams_frame',['../frame_8c.html#ae4b57a8a672c0fba4901edd915c17cf8',1,'frame.c']]],
   ['dec_5fnew_5fcid_5fframe',['dec_new_cid_frame',['../frame_8c.html#a9b6c2d37ef5b771338915297363b7a9c',1,'frame.c']]],
   ['dec_5fnew_5ftoken_5fframe',['dec_new_token_frame',['../frame_8c.html#a9f83d7acdcc2f94c5a13249812e69f58',1,'frame.c']]],
   ['dec_5fpath_5fchallenge_5fframe',['dec_path_challenge_frame',['../frame_8c.html#ab23c8167f9c8a8ebad6a5c672bc91674',1,'frame.c']]],
