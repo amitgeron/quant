@@ -13,7 +13,6 @@ var searchData=
   ['aead',['aead',['../structcipher__ctx.html#ab88a3d2c5fd30344a597662ceaa074d6',1,'cipher_ctx']]],
   ['aead_5fbase_5flabel',['AEAD_BASE_LABEL',['../tls_8c.html#a8871189e33afd5b7b436c06a92eaf108',1,'tls.c']]],
   ['aead_5flen',['AEAD_LEN',['../tls_8h.html#ad40306a6371f317e82283cbc83ff93a3',1,'tls.h']]],
-  ['aead_5ftype',['aead_type',['../tls_8c.html#a533a42a4c1f147e91f564165894bf4e4',1,'tls.c']]],
   ['alloc_5fiov',['alloc_iov',['../quic_8h.html#ad5e953c130616350f008ea21b66140b5',1,'quic.h']]],
   ['alloc_5foff',['alloc_off',['../quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a',1,'alloc_off(struct w_engine *const w, struct w_iov_sq *const q, const uint32_t len, const uint16_t off):&#160;quic.c'],['../quic_8h.html#a2ee75c38a1c756036392a6e5b6d1e93a',1,'alloc_off(struct w_engine *const w, struct w_iov_sq *const q, const uint32_t len, const uint16_t off):&#160;quic.c']]],
   ['alpn',['alpn',['../structtls__ticket.html#a8901c0d191756d018d1390f23cc55460',1,'tls_ticket::alpn()'],['../tls_8c.html#ab9a4bdca4790560e892b981c84de1152',1,'alpn():&#160;tls.c']]],

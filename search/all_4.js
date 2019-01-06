@@ -2,7 +2,6 @@ var searchData=
 [
   ['dcid',['dcid',['../structq__conn.html#a9d6072809215f42a4eebd3d448e4911c',1,'q_conn::dcid()'],['../structpkt__hdr.html#afb4dcbc319b38d10450078a780519c66',1,'pkt_hdr::dcid()']]],
   ['dcids_5fby_5fseq',['dcids_by_seq',['../structq__conn.html#a8a456782615d1106a8bc83a3dd51c7f3',1,'q_conn']]],
-  ['debug_5fmarshall',['DEBUG_MARSHALL',['../marshall_8h.html#af3368fe696a6fe09d1cd2aff379ac356',1,'marshall.h']]],
   ['dec',['dec',['../marshall_8h.html#a17979630a63703570a316e70d4e9cb30',1,'marshall.h']]],
   ['dec_5fack_5fframe',['dec_ack_frame',['../frame_8c.html#a44dc32970bbe3088cc0ccc79abe03d74',1,'dec_ack_frame(struct q_conn *const c, const struct w_iov *const v, const uint16_t pos):&#160;frame.c'],['../frame_8h.html#a44dc32970bbe3088cc0ccc79abe03d74',1,'dec_ack_frame(struct q_conn *const c, const struct w_iov *const v, const uint16_t pos):&#160;frame.c']]],
   ['dec_5faead',['dec_aead',['../tls_8c.html#a1b7fc05af119c12354b8de8346ccecf4',1,'dec_aead(struct q_conn *const c, const struct w_iov *const xv, const struct w_iov *const v, const uint16_t len, const struct cipher_ctx *const ctx):&#160;tls.c'],['../tls_8h.html#a1b7fc05af119c12354b8de8346ccecf4',1,'dec_aead(struct q_conn *const c, const struct w_iov *const xv, const struct w_iov *const v, const uint16_t len, const struct cipher_ctx *const ctx):&#160;tls.c']]],
