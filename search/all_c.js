@@ -11,7 +11,6 @@ var searchData=
   ['marshall_5fenc_5fbuf',['marshall_enc_buf',['../marshall_8c.html#a1e5b3e621f7eb32b23f97da0dd99a834',1,'marshall_enc_buf(uint8_t *const buf, const uint16_t buf_len, const uint16_t pos, const void *const src, const uint16_t enc_len):&#160;marshall.c'],['../marshall_8h.html#a1e5b3e621f7eb32b23f97da0dd99a834',1,'marshall_enc_buf(uint8_t *const buf, const uint16_t buf_len, const uint16_t pos, const void *const src, const uint16_t enc_len):&#160;marshall.c']]],
   ['max_5fack_5fdel',['max_ack_del',['../structtransport__params.html#a1e971701bc5477fc75408d11416d702b',1,'transport_params']]],
   ['max_5fcid_5flen',['MAX_CID_LEN',['../quic_8h.html#a9182b20a4ab9449d0efbd6d873c2aecf',1,'quic.h']]],
-  ['max_5fcid_5fseq_5fin',['max_cid_seq_in',['../structq__conn.html#a30fd5a6686723d42d1e0b2c7ec849ad3',1,'q_conn']]],
   ['max_5fcid_5fseq_5fout',['max_cid_seq_out',['../structq__conn.html#a9e483983b67d3b6dc0e5fb1e19dea752',1,'q_conn']]],
   ['max_5fdata',['max_data',['../structtransport__params.html#a5719da04011349b3cdde407995caff03',1,'transport_params::max_data()'],['../structpkt__meta.html#a058300b8f5c60cdde8000077df854e7e',1,'pkt_meta::max_data()']]],
   ['max_5fearly_5fdata',['max_early_data',['../structtls.html#a89a93e1e56c851332bdecddbb6a72a4b',1,'tls']]],

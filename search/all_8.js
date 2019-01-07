@@ -14,6 +14,7 @@ var searchData=
   ['head_5ffixd',['HEAD_FIXD',['../pkt_8h.html#a0ce4aabbc2fe39ea3d6d045528036dc4',1,'pkt.h']]],
   ['head_5fform',['HEAD_FORM',['../pkt_8h.html#a3b57dda44ad514ea8b9238ba0944a341',1,'pkt.h']]],
   ['head_5fpnrl_5fmask',['HEAD_PNRL_MASK',['../pkt_8h.html#a00c99ceb8f0e779151bc732b3d929402',1,'pkt.h']]],
+  ['header_5fprotection',['header_protection',['../structcipher__ctx.html#ab83d332569cfc15dca704ef06bb6a9f8',1,'cipher_ctx']]],
   ['hex2str',['hex2str',['../quic_8h.html#a0721d3a6a0adbe5443a85d94ee4da000',1,'quic.h']]],
   ['hi',['hi',['../structival.html#af9b795cb80774bbac8756a69f6106ea6',1,'ival']]],
   ['holds_5fsock',['holds_sock',['../structq__conn.html#ac16c3a79e2834414bf5619618456d663',1,'q_conn']]]

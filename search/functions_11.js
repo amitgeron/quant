@@ -2,7 +2,7 @@ var searchData=
 [
   ['save_5fticket_5fcb',['save_ticket_cb',['../tls_8c.html#aa70adb60bf2e4ca0720c769269514f5b',1,'tls.c']]],
   ['set_5fld_5ftimer',['set_ld_timer',['../recovery_8c.html#ae36a89ee82fe65d07b6707ac13e9071e',1,'recovery.c']]],
-  ['setup_5fcipher',['setup_cipher',['../tls_8c.html#a33475dbe3d21cf344acab6c9e3b23bee',1,'tls.c']]],
+  ['setup_5fcipher',['setup_cipher',['../tls_8c.html#af5ebb2a5b8cab6a40a18677a5ea562fb',1,'tls.c']]],
   ['setup_5finitial_5fencryption',['setup_initial_encryption',['../tls_8c.html#aff7c4b2f9e78c2d678898dc58bc68e57',1,'tls.c']]],
   ['setup_5finitial_5fkey',['setup_initial_key',['../tls_8c.html#ab26c763c76c9b874d651bdba836fc13f',1,'tls.c']]],
   ['shorten_5fack_5fnr',['shorten_ack_nr',['../frame_8c.html#a31c36630801506eb48c0bf620c0fcca6',1,'shorten_ack_nr(const uint64_t ack, const uint64_t diff):&#160;frame.c'],['../frame_8h.html#a31c36630801506eb48c0bf620c0fcca6',1,'shorten_ack_nr(const uint64_t ack, const uint64_t diff):&#160;frame.c']]],

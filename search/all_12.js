@@ -10,7 +10,7 @@ var searchData=
   ['seq',['seq',['../structcid.html#a937edeb01e868ef76539126dd41b322f',1,'cid']]],
   ['serv_5fscid_5flen',['SERV_SCID_LEN',['../quic_8h.html#af41ac5b263cca13ee08b287a015840bb',1,'quic.h']]],
   ['set_5fld_5ftimer',['set_ld_timer',['../recovery_8c.html#ae36a89ee82fe65d07b6707ac13e9071e',1,'recovery.c']]],
-  ['setup_5fcipher',['setup_cipher',['../tls_8c.html#a33475dbe3d21cf344acab6c9e3b23bee',1,'tls.c']]],
+  ['setup_5fcipher',['setup_cipher',['../tls_8c.html#af5ebb2a5b8cab6a40a18677a5ea562fb',1,'tls.c']]],
   ['setup_5finitial_5fencryption',['setup_initial_encryption',['../tls_8c.html#aff7c4b2f9e78c2d678898dc58bc68e57',1,'tls.c']]],
   ['setup_5finitial_5fkey',['setup_initial_key',['../tls_8c.html#ab26c763c76c9b874d651bdba836fc13f',1,'tls.c']]],
   ['sh',['SH',['../pkt_8h.html#a4453478cd8b3bf96df84fe861cb78600',1,'pkt.h']]],
