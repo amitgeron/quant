@@ -110,14 +110,14 @@ Include dependency graph for marshall.c:</div>
 Macros</h2></td></tr>
 <tr class="memitem:a4c9f737352d10453560686bc1d742e9a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="marshall_8c.html#a4c9f737352d10453560686bc1d742e9a">log_enc</a>(type, fmt, enc_type)</td></tr>
 <tr class="separator:a4c9f737352d10453560686bc1d742e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a371bfb01d2f478355c384804d1db42bb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="marshall_8c.html#a371bfb01d2f478355c384804d1db42bb">do_enc</a>(var, type, fmt, enc_type)</td></tr>
-<tr class="separator:a371bfb01d2f478355c384804d1db42bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36d3d5e283c5534b19eac14f541abf94"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="marshall_8c.html#a36d3d5e283c5534b19eac14f541abf94">do_enc</a>(var, len, type, fmt, enc_type)</td></tr>
+<tr class="separator:a36d3d5e283c5534b19eac14f541abf94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae635e264e431dd8807e0851433baaf5a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="marshall_8c.html#ae635e264e431dd8807e0851433baaf5a">log_dec</a>(type, dec_type)</td></tr>
 <tr class="separator:ae635e264e431dd8807e0851433baaf5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3174b10b1e6faa4ee79aebf5a49f60ce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="marshall_8c.html#a3174b10b1e6faa4ee79aebf5a49f60ce">warn_overrun</a>&#160;&#160;&#160;warn(WRN, &quot;cannot decode from pos %u &gt; buf len %u&quot;, pos + 1, buf_len)</td></tr>
 <tr class="separator:a3174b10b1e6faa4ee79aebf5a49f60ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7565114bf35a68d94836f0ab2f771115"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="marshall_8c.html#a7565114bf35a68d94836f0ab2f771115">do_dec</a>(var)</td></tr>
-<tr class="separator:a7565114bf35a68d94836f0ab2f771115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d1f746ca4ba9b2b943e4460d0ac0399"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="marshall_8c.html#a3d1f746ca4ba9b2b943e4460d0ac0399">do_dec</a>(var, len)</td></tr>
+<tr class="separator:a3d1f746ca4ba9b2b943e4460d0ac0399"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -134,7 +134,7 @@ Functions</h2></td></tr>
 <tr class="separator:a8db8664befb3f7f8cd00d33ce155518b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a7565114bf35a68d94836f0ab2f771115"></a>
+<a class="anchor" id="a3d1f746ca4ba9b2b943e4460d0ac0399"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -142,24 +142,34 @@ Functions</h2></td></tr>
           <td class="memname">#define do_dec</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">var</td><td>)</td>
+          <td class="paramname">var, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">len&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                                       \</div>
-<div class="line">        if (unlikely(pos + <span class="keyword">sizeof</span>(var) &gt; buf_len)) {                           <a class="code" href="marshall_8c.html#a3174b10b1e6faa4ee79aebf5a49f60ce">\</a></div>
+<div class="line">        if (unlikely(pos + (len) &gt; buf_len)) {                                 <a class="code" href="marshall_8c.html#a3174b10b1e6faa4ee79aebf5a49f60ce">\</a></div>
 <div class="line"><a class="code" href="marshall_8c.html#a3174b10b1e6faa4ee79aebf5a49f60ce">            warn_overrun</a>;                                                      \</div>
 <div class="line">            return UINT16_MAX;                                                 \</div>
 <div class="line">        }                                                                      \</div>
-<div class="line">        memcpy(&amp;(var), &amp;buf[i], <span class="keyword">sizeof</span>(var));                                  \</div>
-<div class="line">        i += <span class="keyword">sizeof</span>(var);                                                      \</div>
+<div class="line">        memcpy(&amp;(var), &amp;buf[i], (len));                                        \</div>
+<div class="line">        i += (len);                                                            \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
-<div class="ttc" id="marshall_8c_html_a3174b10b1e6faa4ee79aebf5a49f60ce"><div class="ttname"><a href="marshall_8c.html#a3174b10b1e6faa4ee79aebf5a49f60ce">warn_overrun</a></div><div class="ttdeci">#define warn_overrun</div><div class="ttdef"><b>Definition:</b> marshall.c:262</div></div>
+<div class="ttc" id="marshall_8c_html_a3174b10b1e6faa4ee79aebf5a49f60ce"><div class="ttname"><a href="marshall_8c.html#a3174b10b1e6faa4ee79aebf5a49f60ce">warn_overrun</a></div><div class="ttdeci">#define warn_overrun</div><div class="ttdef"><b>Definition:</b> marshall.c:266</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a371bfb01d2f478355c384804d1db42bb"></a>
+<a class="anchor" id="a36d3d5e283c5534b19eac14f541abf94"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -168,6 +178,12 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">var, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">len, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -195,11 +211,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                                       \</div>
-<div class="line">        ensure(pos + <span class="keyword">sizeof</span>(var) &lt;= buf_len,                                   \</div>
-<div class="line">               <span class="stringliteral">&quot;can&#39;t enc %u byte%s at pos %u - buf len is %u&quot;</span>, <span class="keyword">sizeof</span>(var),   \</div>
-<div class="line">               plural(<span class="keyword">sizeof</span>(var)), i, buf_len);                               \</div>
-<div class="line">        memcpy(&amp;buf[i], &amp;(var), <span class="keyword">sizeof</span>(var));                                  \</div>
-<div class="line">        i += <span class="keyword">sizeof</span>(var);                                                      <a class="code" href="marshall_8c.html#a4c9f737352d10453560686bc1d742e9a">\</a></div>
+<div class="line">        ensure(pos + (len) &lt;= buf_len,                                         \</div>
+<div class="line">               <span class="stringliteral">&quot;can&#39;t enc %u byte%s at pos %u - buf len is %u&quot;</span>, (len),         \</div>
+<div class="line">               plural((len)), i, buf_len);                                     \</div>
+<div class="line">        memcpy(&amp;buf[i], &amp;(var), (len));                                        \</div>
+<div class="line">        i += (len);                                                            <a class="code" href="marshall_8c.html#a4c9f737352d10453560686bc1d742e9a">\</a></div>
 <div class="line"><a class="code" href="marshall_8c.html#a4c9f737352d10453560686bc1d742e9a">        log_enc</a>(type, (fmt), (enc_type));                                      \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
 <div class="ttc" id="marshall_8c_html_a4c9f737352d10453560686bc1d742e9a"><div class="ttname"><a href="marshall_8c.html#a4c9f737352d10453560686bc1d742e9a">log_enc</a></div><div class="ttdeci">#define log_enc(type, fmt, enc_type)</div><div class="ttdef"><b>Definition:</b> marshall.c:111</div></div>
@@ -491,7 +507,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 8 2019 15:23:23 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 8 2019 17:44:37 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

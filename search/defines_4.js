@@ -10,6 +10,6 @@ var searchData=
   ['diet_5fcnt',['diet_cnt',['../diet_8h.html#a088e1a7d256d392c025e192aec45a672',1,'diet.h']]],
   ['diet_5finit',['diet_init',['../diet_8h.html#a4e46b54c509960f5a1f933eecf367dc3',1,'diet.h']]],
   ['diet_5finitializer',['diet_initializer',['../diet_8h.html#ae999c3b3b505acf8a14facf9d480066f',1,'diet.h']]],
-  ['do_5fdec',['do_dec',['../marshall_8c.html#a7565114bf35a68d94836f0ab2f771115',1,'marshall.c']]],
-  ['do_5fenc',['do_enc',['../marshall_8c.html#a371bfb01d2f478355c384804d1db42bb',1,'marshall.c']]]
+  ['do_5fdec',['do_dec',['../marshall_8c.html#a3d1f746ca4ba9b2b943e4460d0ac0399',1,'marshall.c']]],
+  ['do_5fenc',['do_enc',['../marshall_8c.html#a36d3d5e283c5534b19eac14f541abf94',1,'marshall.c']]]
 ];
