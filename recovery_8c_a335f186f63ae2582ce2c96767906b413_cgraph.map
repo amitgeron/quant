@@ -36,10 +36,10 @@
 <area shape="rect" id="node30" href="$pkt_8c.html#adb9f7ed98b4a9aa5dbab4df08c78ea0c" title="needed_pkt_nr_len" alt="" coords="875,1411,1005,1438"/>
 <area shape="rect" id="node31" href="$pkt_8c.html#a6419e978eb233947f0bf7805663171fc" title="enc_lh_cids" alt="" coords="895,1664,985,1691"/>
 <area shape="rect" id="node32" href="$pkt_8c.html#aad4456e4786b31e02e1e4c81e265d442" title="log_pkt" alt="" coords="908,1462,972,1488"/>
-<area shape="rect" id="node33" href="$frame_8c.html#a424f6073840f8f7a1599dd1b197dc591" title="enc_ping_frame" alt="" coords="883,838,997,864"/>
-<area shape="rect" id="node34" href="$pn_8h.html#aa7ed02733032177ff456b060fa0eed8e" title="needs_ack" alt="" coords="897,635,983,662"/>
-<area shape="rect" id="node35" href="$frame_8c.html#ad33d4ffd79b410b355647b882fcecd94" title="enc_ack_frame" alt="" coords="885,888,995,915"/>
-<area shape="rect" id="node36" href="$frame_8c.html#a35e96a60869ff030118503cb8a81f715" title="enc_close_frame" alt="" coords="879,939,1001,966"/>
+<area shape="rect" id="node33" href="$pn_8h.html#aa7ed02733032177ff456b060fa0eed8e" title="needs_ack" alt="" coords="897,635,983,662"/>
+<area shape="rect" id="node34" href="$frame_8c.html#ad33d4ffd79b410b355647b882fcecd94" title="enc_ack_frame" alt="" coords="885,838,995,864"/>
+<area shape="rect" id="node35" href="$frame_8c.html#a35e96a60869ff030118503cb8a81f715" title="enc_close_frame" alt="" coords="879,888,1001,915"/>
+<area shape="rect" id="node36" href="$frame_8c.html#a424f6073840f8f7a1599dd1b197dc591" title="enc_ping_frame" alt="" coords="883,939,997,966"/>
 <area shape="rect" id="node37" href="$pkt_8c.html#a0123963315143471e2cc3a99881a3c66" title="enc_other_frames" alt="" coords="877,990,1003,1016"/>
 <area shape="rect" id="node38" href="$frame_8c.html#a0d8bea0a0a229b796505008855eb17f0" title="enc_padding_frame" alt="" coords="873,1040,1007,1067"/>
 <area shape="rect" id="node39" href="$frame_8c.html#ae94d6f87955af69345cb46c9d03ad90f" title="log_stream_or_crypto\l_frame" alt="" coords="1064,1316,1211,1357"/>

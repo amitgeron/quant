@@ -32,10 +32,10 @@
 <area shape="rect" id="node26" href="$pkt_8c.html#adb9f7ed98b4a9aa5dbab4df08c78ea0c" title="needed_pkt_nr_len" alt="" coords="707,803,837,829"/>
 <area shape="rect" id="node27" href="$pkt_8c.html#a6419e978eb233947f0bf7805663171fc" title="enc_lh_cids" alt="" coords="727,1275,817,1301"/>
 <area shape="rect" id="node28" href="$pkt_8c.html#aad4456e4786b31e02e1e4c81e265d442" title="log_pkt" alt="" coords="948,1275,1012,1301"/>
-<area shape="rect" id="node29" href="$frame_8c.html#a424f6073840f8f7a1599dd1b197dc591" title="enc_ping_frame" alt="" coords="715,1123,829,1149"/>
-<area shape="rect" id="node30" href="$pn_8h.html#aa7ed02733032177ff456b060fa0eed8e" title="needs_ack" alt="" coords="729,1427,815,1453"/>
-<area shape="rect" id="node33" href="$frame_8c.html#ad33d4ffd79b410b355647b882fcecd94" title="enc_ack_frame" alt="" coords="717,1173,827,1200"/>
-<area shape="rect" id="node34" href="$frame_8c.html#a35e96a60869ff030118503cb8a81f715" title="enc_close_frame" alt="" coords="711,1224,833,1251"/>
+<area shape="rect" id="node29" href="$pn_8h.html#aa7ed02733032177ff456b060fa0eed8e" title="needs_ack" alt="" coords="729,1427,815,1453"/>
+<area shape="rect" id="node32" href="$frame_8c.html#ad33d4ffd79b410b355647b882fcecd94" title="enc_ack_frame" alt="" coords="717,1123,827,1149"/>
+<area shape="rect" id="node33" href="$frame_8c.html#a35e96a60869ff030118503cb8a81f715" title="enc_close_frame" alt="" coords="711,1173,833,1200"/>
+<area shape="rect" id="node34" href="$frame_8c.html#a424f6073840f8f7a1599dd1b197dc591" title="enc_ping_frame" alt="" coords="715,1224,829,1251"/>
 <area shape="rect" id="node35" href="$pkt_8c.html#a0123963315143471e2cc3a99881a3c66" title="enc_other_frames" alt="" coords="709,499,835,525"/>
 <area shape="rect" id="node36" href="$frame_8c.html#a0d8bea0a0a229b796505008855eb17f0" title="enc_padding_frame" alt="" coords="705,549,839,576"/>
 <area shape="rect" id="node37" href="$frame_8c.html#ae94d6f87955af69345cb46c9d03ad90f" title="log_stream_or_crypto\l_frame" alt="" coords="907,927,1053,969"/>
@@ -43,8 +43,8 @@
 <area shape="rect" id="node39" href="$tls_8c.html#a1193e69500fa37d706399a825b799526" title="enc_aead" alt="" coords="941,1325,1019,1352"/>
 <area shape="rect" id="node40" href="$recovery_8c.html#a9749ec5110f82cad7875d3ec8b94199d" title="on_pkt_sent" alt="" coords="725,701,819,728"/>
 <area shape="rect" id="node41" href="$tls_8c.html#a8984aa5b25b32bb8e40aef64f3164fc0" title="maybe_flip_keys" alt="" coords="712,651,832,677"/>
-<area shape="rect" id="node31" href="$diet_8h.html#aad21e3b897b17d0c86fce4a174e80ab0" title="diet_empty" alt="" coords="937,1376,1023,1403"/>
-<area shape="rect" id="node32" href="$quic_8h.html#ae64eb493276abdc60cd97ea2f6d96f78" title="is_ack_or_padding_only" alt="" coords="899,1427,1061,1453"/>
+<area shape="rect" id="node30" href="$diet_8h.html#aad21e3b897b17d0c86fce4a174e80ab0" title="diet_empty" alt="" coords="937,1376,1023,1403"/>
+<area shape="rect" id="node31" href="$quic_8h.html#ae64eb493276abdc60cd97ea2f6d96f78" title="is_ack_or_padding_only" alt="" coords="899,1427,1061,1453"/>
 <area shape="rect" id="node45" href="$pkt_8c.html#a1f839697f5c2cb2a8b086249c85399bc" title="coalesce" alt="" coords="735,1528,809,1555"/>
 <area shape="rect" id="node46" href="$pkt_8c.html#a832f35b12b76346d36d217963c2a053d" title="can_coalesce_pkt_types" alt="" coords="897,1579,1063,1605"/>
 <area shape="rect" id="node47" href="$pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="944,1528,1016,1555"/>
