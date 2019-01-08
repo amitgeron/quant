@@ -46,6 +46,6 @@
 <area shape="rect" id="node40" href="$conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56" title="free_dcid" alt="" coords="483,473,557,499"/>
 <area shape="rect" id="node41" href="$frame_8c.html#ad4218d08a618cd6088192777ee96f95f" title="enc_path_challenge\l_frame" alt="" coords="451,524,589,565"/>
 <area shape="rect" id="node42" href="$frame_8c.html#acf128f54c264f522e96019baef7af3c1" title="enc_new_cid_frame" alt="" coords="451,590,589,617"/>
-<area shape="rect" id="node43" href="$frame_8c.html#a2037bb3c54a511d30919c36c65e79bb7" title="enc_blocked_frame" alt="" coords="453,169,587,195"/>
+<area shape="rect" id="node43" href="$frame_8c.html#ac765ba3421ea86a0b00976441050561e" title="enc_data_blocked_frame" alt="" coords="437,169,603,195"/>
 <area shape="rect" id="node44" href="$frame_8c.html#afce90a1bb73bc652f0ccbd5402b0eb61" title="enc_max_data_frame" alt="" coords="447,219,593,246"/>
 </map>

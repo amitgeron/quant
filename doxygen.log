@@ -284,16 +284,16 @@ Generating call graph for function diet_remove
 Generating docs for file src/fnv1a.h...
 Generating docs for file src/frame.c...
 Generating call graph for function dec_ack_frame
-Generating call graph for function dec_blocked_frame
 Generating call graph for function dec_close_frame
+Generating call graph for function dec_data_blocked_frame
 Generating call graph for function dec_frames
 Generating call graph for function dec_max_stream_data_frame
 Generating call graph for function dec_max_streams_frame
 Generating call graph for function dec_new_cid_frame
+Generating call graph for function dec_reset_stream_frame
 Generating call graph for function dec_retire_cid_frame
-Generating call graph for function dec_rst_stream_frame
 Generating call graph for function dec_stop_sending_frame
-Generating call graph for function dec_stream_blocked_frame
+Generating call graph for function dec_stream_data_blocked_frame
 Generating call graph for function dec_stream_or_crypto_frame
 Generating call graph for function enc_ack_frame
 Generating call graph for function enc_new_cid_frame
@@ -774,5 +774,5 @@ Patching output file 39/42
 Patching output file 40/42
 Patching output file 41/42
 Patching output file 42/42
-lookup cache used 1011/65536 hits=8169 misses=1031
+lookup cache used 1011/65536 hits=8171 misses=1031
 finished...

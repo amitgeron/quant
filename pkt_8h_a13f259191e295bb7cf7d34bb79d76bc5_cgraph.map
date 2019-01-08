@@ -43,9 +43,9 @@
 <area shape="rect" id="node37" href="$conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56" title="free_dcid" alt="" coords="373,1450,448,1476"/>
 <area shape="rect" id="node38" href="$frame_8c.html#ad4218d08a618cd6088192777ee96f95f" title="enc_path_challenge\l_frame" alt="" coords="342,1501,479,1542"/>
 <area shape="rect" id="node39" href="$frame_8c.html#acf128f54c264f522e96019baef7af3c1" title="enc_new_cid_frame" alt="" coords="341,1567,480,1594"/>
-<area shape="rect" id="node40" href="$frame_8c.html#a2037bb3c54a511d30919c36c65e79bb7" title="enc_blocked_frame" alt="" coords="343,1618,478,1644"/>
+<area shape="rect" id="node40" href="$frame_8c.html#ac765ba3421ea86a0b00976441050561e" title="enc_data_blocked_frame" alt="" coords="327,1618,494,1644"/>
 <area shape="rect" id="node41" href="$frame_8c.html#afce90a1bb73bc652f0ccbd5402b0eb61" title="enc_max_data_frame" alt="" coords="337,1668,484,1695"/>
-<area shape="rect" id="node42" href="$frame_8c.html#a150ea103a632fcd9b245874c54392832" title="enc_stream_id_blocked\l_frame" alt="" coords="331,1720,490,1761"/>
+<area shape="rect" id="node42" href="$frame_8c.html#a84ce98a493bc8372faccd207bd4b8511" title="enc_streams_blocked\l_frame" alt="" coords="336,1720,485,1761"/>
 <area shape="rect" id="node43" href="$frame_8c.html#a1ac213b2974a43ebd939de9258e9bf8e" title="enc_max_streams_frame" alt="" coords="326,1786,495,1812"/>
-<area shape="rect" id="node44" href="$frame_8c.html#a916d0dd562621c7d36e786193418b07f" title="enc_stream_blocked\l_frame" alt="" coords="339,1837,482,1878"/>
+<area shape="rect" id="node44" href="$frame_8c.html#a768b7beadcaeb344e4c94d43ad602049" title="enc_stream_data_blocked\l_frame" alt="" coords="323,1837,498,1878"/>
 </map>
