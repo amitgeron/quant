@@ -158,6 +158,14 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a33129e1d483871567296de2e9794ca5d"><td class="memItemLeft" align="right" valign="top">struct frames&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a33129e1d483871567296de2e9794ca5d">frames</a></td></tr>
 <tr class="memdesc:a33129e1d483871567296de2e9794ca5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frames present in pkt.  <a href="#a33129e1d483871567296de2e9794ca5d">More...</a><br/></td></tr>
 <tr class="separator:a33129e1d483871567296de2e9794ca5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a2f5352a57c1f84e8adea474e478b30"><td class="memItemLeft" align="right" valign="top">ev_tstamp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a3a2f5352a57c1f84e8adea474e478b30">tx_t</a></td></tr>
+<tr class="memdesc:a3a2f5352a57c1f84e8adea474e478b30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmission timestamp.  <a href="#a3a2f5352a57c1f84e8adea474e478b30">More...</a><br/></td></tr>
+<tr class="separator:a3a2f5352a57c1f84e8adea474e478b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94d757271e641d96b7a8aeaec5377adc"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structpn__space.html">pn_space</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a94d757271e641d96b7a8aeaec5377adc">pn</a></td></tr>
+<tr class="memdesc:a94d757271e641d96b7a8aeaec5377adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Packet number space; only set on TX.  <a href="#a94d757271e641d96b7a8aeaec5377adc">More...</a><br/></td></tr>
+<tr class="separator:a94d757271e641d96b7a8aeaec5377adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade732240d1610adc75a376707de4fdd1"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structpkt__hdr.html">pkt_hdr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#ade732240d1610adc75a376707de4fdd1">hdr</a></td></tr>
+<tr class="separator:ade732240d1610adc75a376707de4fdd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbc853b72279a660bf684741ccf3cd3e"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#acbc853b72279a660bf684741ccf3cd3e">tx_len</a></td></tr>
 <tr class="memdesc:acbc853b72279a660bf684741ccf3cd3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of protected packet at TX.  <a href="#acbc853b72279a660bf684741ccf3cd3e">More...</a><br/></td></tr>
 <tr class="separator:acbc853b72279a660bf684741ccf3cd3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,21 +180,8 @@ Data Fields</h2></td></tr>
 <tr class="separator:a1dc5c504a91969f7598208109fb18cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6dfa8f596f83d4d781731f06bc3a437b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a6dfa8f596f83d4d781731f06bc3a437b">__pad0__</a>: 5</td></tr>
 <tr class="separator:a6dfa8f596f83d4d781731f06bc3a437b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a527a59b42b0f2cb7b33743288b2219b4"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a527a59b42b0f2cb7b33743288b2219b4">_unused</a></td></tr>
-<tr class="separator:a527a59b42b0f2cb7b33743288b2219b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cffd0d9703afe30b4a08f38fe1cb27d"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a0cffd0d9703afe30b4a08f38fe1cb27d">pkt_nr_pos</a></td></tr>
-<tr class="memdesc:a0cffd0d9703afe30b4a08f38fe1cb27d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset of the packet number.  <a href="#a0cffd0d9703afe30b4a08f38fe1cb27d">More...</a><br/></td></tr>
-<tr class="separator:a0cffd0d9703afe30b4a08f38fe1cb27d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac14742dc86f99e66294b6f807e3d15c0"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#ac14742dc86f99e66294b6f807e3d15c0">_unused2</a> [2]</td></tr>
-<tr class="separator:ac14742dc86f99e66294b6f807e3d15c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a2f5352a57c1f84e8adea474e478b30"><td class="memItemLeft" align="right" valign="top">ev_tstamp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a3a2f5352a57c1f84e8adea474e478b30">tx_t</a></td></tr>
-<tr class="memdesc:a3a2f5352a57c1f84e8adea474e478b30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmission timestamp.  <a href="#a3a2f5352a57c1f84e8adea474e478b30">More...</a><br/></td></tr>
-<tr class="separator:a3a2f5352a57c1f84e8adea474e478b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94d757271e641d96b7a8aeaec5377adc"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structpn__space.html">pn_space</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a94d757271e641d96b7a8aeaec5377adc">pn</a></td></tr>
-<tr class="memdesc:a94d757271e641d96b7a8aeaec5377adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Packet number space; only set on TX.  <a href="#a94d757271e641d96b7a8aeaec5377adc">More...</a><br/></td></tr>
-<tr class="separator:a94d757271e641d96b7a8aeaec5377adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade732240d1610adc75a376707de4fdd1"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structpkt__hdr.html">pkt_hdr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#ade732240d1610adc75a376707de4fdd1">hdr</a></td></tr>
-<tr class="separator:ade732240d1610adc75a376707de4fdd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63c560e0b40127920ebb2b9a7d9787dc"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a63c560e0b40127920ebb2b9a7d9787dc">_unused</a> [5]</td></tr>
+<tr class="separator:a63c560e0b40127920ebb2b9a7d9787dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Packet meta-data information associated with w_iov buffers. </p>
@@ -252,24 +247,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a527a59b42b0f2cb7b33743288b2219b4"></a>
+<a class="anchor" id="a63c560e0b40127920ebb2b9a7d9787dc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t pkt_meta::_unused</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac14742dc86f99e66294b6f807e3d15c0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t pkt_meta::_unused2[2]</td>
+          <td class="memname">uint8_t pkt_meta::_unused[5]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -456,20 +439,6 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0cffd0d9703afe30b4a08f38fe1cb27d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t pkt_meta::pkt_nr_pos</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Offset of the packet number. </p>
-
-</div>
-</div>
 <a class="anchor" id="a94d757271e641d96b7a8aeaec5377adc"></a>
 <div class="memitem">
 <div class="memproto">
@@ -602,7 +571,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 8 2019 08:32:24 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 8 2019 12:18:47 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
