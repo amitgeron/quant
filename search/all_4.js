@@ -54,6 +54,7 @@ var searchData=
   ['do_5fconn_5fmgmt',['do_conn_mgmt',['../conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80',1,'conn.c']]],
   ['do_5fdec',['do_dec',['../marshall_8c.html#a7565114bf35a68d94836f0ab2f771115',1,'marshall.c']]],
   ['do_5fenc',['do_enc',['../marshall_8c.html#a371bfb01d2f478355c384804d1db42bb',1,'marshall.c']]],
+  ['do_5ffree_5fpn',['do_free_pn',['../pn_8c.html#a1946ca1d63daaffb29b1548382c89499',1,'pn.c']]],
   ['do_5fkey_5fflip',['do_key_flip',['../structq__conn.html#a3001f5409e4d5c5dd1be2675e7e46d5a',1,'q_conn']]],
   ['do_5floop_5frun',['do_loop_run',['../quic_8c.html#aac86407b2cf4d96e99b24523d4beb36c',1,'quic.c']]],
   ['do_5fmigration',['do_migration',['../structq__conn.html#a11134ef29f0209e1196e2dd38719d233',1,'q_conn']]],
