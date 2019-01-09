@@ -17,7 +17,7 @@ var searchData=
   ['max_5ferr_5freason_5flen',['MAX_ERR_REASON_LEN',['../conn_8h.html#a31898c1d24d16b8da39d1f5c0500345e',1,'conn.h']]],
   ['max_5fframe_5flen',['max_frame_len',['../frame_8c.html#af12f0dbd9c7d385b94e1041b53c31b2d',1,'max_frame_len(const uint8_t type):&#160;frame.c'],['../frame_8h.html#af12f0dbd9c7d385b94e1041b53c31b2d',1,'max_frame_len(const uint8_t type):&#160;frame.c']]],
   ['max_5fhash_5flen',['MAX_HASH_LEN',['../tls_8h.html#a7eb040d42850ef7fdc3bfd09469a683e',1,'tls.h']]],
-  ['max_5fpkt',['max_pkt',['../structtransport__params.html#adad0e6013875e9367892590c8b1c5d78',1,'transport_params']]],
+  ['max_5fpkt',['max_pkt',['../structtransport__params.html#af0b784fb46cf3e2b99cf6a3ebd1a6b26',1,'transport_params']]],
   ['max_5fpkt_5flen',['MAX_PKT_LEN',['../pkt_8h.html#aa2cbdec5743bbebc99afa6729c5b98f1',1,'pkt.h']]],
   ['max_5fpkt_5fnr_5flen',['MAX_PKT_NR_LEN',['../quic_8h.html#abc436e6d4a71f8a4982f5664f5e1a93d',1,'quic.h']]],
   ['max_5fsid',['max_sid',['../stream_8c.html#a38e0dc3cbebe5699ec573ab242b6f505',1,'max_sid(const int64_t sid, const struct q_conn *const c):&#160;stream.c'],['../stream_8h.html#a38e0dc3cbebe5699ec573ab242b6f505',1,'max_sid(const int64_t sid, const struct q_conn *const c):&#160;stream.c']]],
