@@ -128,17 +128,17 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a60784c1a11f52e1b091994e1cfcc4609"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="recovery_8h.html#a60784c1a11f52e1b091994e1cfcc4609">init_rec</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
+<tr class="memitem:a60784c1a11f52e1b091994e1cfcc4609"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="recovery_8h.html#a60784c1a11f52e1b091994e1cfcc4609">init_rec</a> (struct q_conn *const c)</td></tr>
 <tr class="separator:a60784c1a11f52e1b091994e1cfcc4609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9749ec5110f82cad7875d3ec8b94199d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="recovery_8h.html#a9749ec5110f82cad7875d3ec8b94199d">on_pkt_sent</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s, struct w_iov *const v)</td></tr>
 <tr class="separator:a9749ec5110f82cad7875d3ec8b94199d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a968810548afcf006e9e6e5515511db31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="recovery_8h.html#a968810548afcf006e9e6e5515511db31">on_ack_received_1</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, struct <a class="el" href="structpn__space.html">pn_space</a> *const pn, struct w_iov *const lg_ack, const uint64_t ack_del)</td></tr>
+<tr class="memitem:a968810548afcf006e9e6e5515511db31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="recovery_8h.html#a968810548afcf006e9e6e5515511db31">on_ack_received_1</a> (struct q_conn *const c, struct <a class="el" href="structpn__space.html">pn_space</a> *const pn, struct w_iov *const lg_ack, const uint64_t ack_del)</td></tr>
 <tr class="separator:a968810548afcf006e9e6e5515511db31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52f8a8de4126e6ff094cf74a3880ed3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="recovery_8h.html#a52f8a8de4126e6ff094cf74a3880ed3d">on_ack_received_2</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, struct <a class="el" href="structpn__space.html">pn_space</a> *const pn, const uint64_t sm_new_acked)</td></tr>
+<tr class="memitem:a52f8a8de4126e6ff094cf74a3880ed3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="recovery_8h.html#a52f8a8de4126e6ff094cf74a3880ed3d">on_ack_received_2</a> (struct q_conn *const c, struct <a class="el" href="structpn__space.html">pn_space</a> *const pn, const uint64_t sm_new_acked)</td></tr>
 <tr class="separator:a52f8a8de4126e6ff094cf74a3880ed3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8a16e66bf24868d4ac02a8dbe9beb0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="recovery_8h.html#ac8a16e66bf24868d4ac02a8dbe9beb0c">on_pkt_acked</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, struct <a class="el" href="structpn__space.html">pn_space</a> *const pn, struct w_iov *const acked_pkt)</td></tr>
+<tr class="memitem:ac8a16e66bf24868d4ac02a8dbe9beb0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="recovery_8h.html#ac8a16e66bf24868d4ac02a8dbe9beb0c">on_pkt_acked</a> (struct q_conn *const c, struct <a class="el" href="structpn__space.html">pn_space</a> *const pn, struct w_iov *const acked_pkt)</td></tr>
 <tr class="separator:ac8a16e66bf24868d4ac02a8dbe9beb0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a078d446c5244577b054aed3abda0d694"><td class="memItemLeft" align="right" valign="top">struct w_iov *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="recovery_8h.html#a078d446c5244577b054aed3abda0d694">find_sent_pkt</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, struct <a class="el" href="structpn__space.html">pn_space</a> *const pn, const uint64_t nr)</td></tr>
+<tr class="memitem:a078d446c5244577b054aed3abda0d694"><td class="memItemLeft" align="right" valign="top">struct w_iov *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="recovery_8h.html#a078d446c5244577b054aed3abda0d694">find_sent_pkt</a> (struct q_conn *const c, struct <a class="el" href="structpn__space.html">pn_space</a> *const pn, const uint64_t nr)</td></tr>
 <tr class="separator:a078d446c5244577b054aed3abda0d694"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -179,7 +179,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">struct w_iov* find_sent_pkt </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -211,7 +211,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void init_rec </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em></td><td>)</td>
           <td></td>
         </tr>
@@ -236,7 +236,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void on_ack_received_1 </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -283,7 +283,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void on_ack_received_2 </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -324,7 +324,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void on_pkt_acked </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -457,7 +457,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 9 2019 09:46:19 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 9 2019 12:27:49 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -221,13 +221,13 @@ Functions</h2></td></tr>
 <tr class="separator:a0c58491ff4fb3ef4eaaa05226aea773e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5092fa492120deb7469e65bc9f5df3f8"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a5092fa492120deb7469e65bc9f5df3f8">filter_tp</a> (ptls_t *<a class="el" href="structtls.html">tls</a>, struct st_ptls_handshake_properties_t *properties, uint16_t type)</td></tr>
 <tr class="separator:a5092fa492120deb7469e65bc9f5df3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26fedc5b8fbd7cef27417a25b152777f"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a26fedc5b8fbd7cef27417a25b152777f">chk_tp_clnt</a> (const struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const uint8_t *const buf, const uint16_t len, const uint16_t pos)</td></tr>
+<tr class="memitem:a26fedc5b8fbd7cef27417a25b152777f"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a26fedc5b8fbd7cef27417a25b152777f">chk_tp_clnt</a> (const struct q_conn *const c, const uint8_t *const buf, const uint16_t len, const uint16_t pos)</td></tr>
 <tr class="separator:a26fedc5b8fbd7cef27417a25b152777f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d88e7aa28c44c9c2a335f8bac53bc11"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a2d88e7aa28c44c9c2a335f8bac53bc11">chk_tp_serv</a> (const struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const uint8_t *const buf, const uint16_t len, const uint16_t pos)</td></tr>
+<tr class="memitem:a2d88e7aa28c44c9c2a335f8bac53bc11"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a2d88e7aa28c44c9c2a335f8bac53bc11">chk_tp_serv</a> (const struct q_conn *const c, const uint8_t *const buf, const uint16_t len, const uint16_t pos)</td></tr>
 <tr class="separator:a2d88e7aa28c44c9c2a335f8bac53bc11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a878d1b8325596d2943bb662375ad2e72"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a878d1b8325596d2943bb662375ad2e72">chk_tp</a> (ptls_t *<a class="el" href="structtls.html">tls</a>, ptls_handshake_properties_t *properties, ptls_raw_extension_t *slots)</td></tr>
 <tr class="separator:a878d1b8325596d2943bb662375ad2e72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a873296f812267d1c3475457cacc3c815"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a873296f812267d1c3475457cacc3c815">init_tp</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
+<tr class="memitem:a873296f812267d1c3475457cacc3c815"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a873296f812267d1c3475457cacc3c815">init_tp</a> (struct q_conn *const c)</td></tr>
 <tr class="separator:a873296f812267d1c3475457cacc3c815"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a071d6ebbfd90822e31fdb8119ad971ca"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a071d6ebbfd90822e31fdb8119ad971ca">init_ticket_prot</a> (void)</td></tr>
 <tr class="separator:a071d6ebbfd90822e31fdb8119ad971ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -235,13 +235,13 @@ Functions</h2></td></tr>
 <tr class="separator:a2ffbd9f27c72720873b4eaa808aa494b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa70adb60bf2e4ca0720c769269514f5b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#aa70adb60bf2e4ca0720c769269514f5b">save_ticket_cb</a> (ptls_save_ticket_t *self, ptls_t *<a class="el" href="structtls.html">tls</a>, ptls_iovec_t src)</td></tr>
 <tr class="separator:aa70adb60bf2e4ca0720c769269514f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4907143b04da6627e6cef421b920480"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#aa4907143b04da6627e6cef421b920480">init_tls</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
+<tr class="memitem:aa4907143b04da6627e6cef421b920480"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#aa4907143b04da6627e6cef421b920480">init_tls</a> (struct q_conn *const c)</td></tr>
 <tr class="separator:aa4907143b04da6627e6cef421b920480"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28ce95450a6345dc4f1c85766e2edf8a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a28ce95450a6345dc4f1c85766e2edf8a">free_prot</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
+<tr class="memitem:a28ce95450a6345dc4f1c85766e2edf8a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a28ce95450a6345dc4f1c85766e2edf8a">free_prot</a> (struct q_conn *const c)</td></tr>
 <tr class="separator:a28ce95450a6345dc4f1c85766e2edf8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2393aad5c0cf1cd399746ba5314e8c66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a2393aad5c0cf1cd399746ba5314e8c66">free_tls</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
+<tr class="memitem:a2393aad5c0cf1cd399746ba5314e8c66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a2393aad5c0cf1cd399746ba5314e8c66">free_tls</a> (struct q_conn *const c)</td></tr>
 <tr class="separator:a2393aad5c0cf1cd399746ba5314e8c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a705b76a676f449cbc37b9d955a2e0d5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a705b76a676f449cbc37b9d955a2e0d5c">init_prot</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
+<tr class="memitem:a705b76a676f449cbc37b9d955a2e0d5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a705b76a676f449cbc37b9d955a2e0d5c">init_prot</a> (struct q_conn *const c)</td></tr>
 <tr class="separator:a705b76a676f449cbc37b9d955a2e0d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e66d17ae7e8756388309b9e193a9543"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a4e66d17ae7e8756388309b9e193a9543">tls_io</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s, struct w_iov *const iv)</td></tr>
 <tr class="separator:a4e66d17ae7e8756388309b9e193a9543"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -257,21 +257,21 @@ Functions</h2></td></tr>
 <tr class="separator:a8ba632acdcea3aaa92753c3341fa22fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad409e0ca7a5132aa66115caa612f69e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#ad409e0ca7a5132aa66115caa612f69e1">free_tls_ctx</a> (void)</td></tr>
 <tr class="separator:ad409e0ca7a5132aa66115caa612f69e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a335e59beef17e01808af4433b4bedd9a"><td class="memItemLeft" align="right" valign="top">static const struct <a class="el" href="structcipher__ctx.html">cipher_ctx</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a335e59beef17e01808af4433b4bedd9a">which_cipher_ctx_out</a> (const struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const uint8_t flags)</td></tr>
+<tr class="memitem:a335e59beef17e01808af4433b4bedd9a"><td class="memItemLeft" align="right" valign="top">static const struct <a class="el" href="structcipher__ctx.html">cipher_ctx</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a335e59beef17e01808af4433b4bedd9a">which_cipher_ctx_out</a> (const struct q_conn *const c, const uint8_t flags)</td></tr>
 <tr class="separator:a335e59beef17e01808af4433b4bedd9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b7fc05af119c12354b8de8346ccecf4"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a1b7fc05af119c12354b8de8346ccecf4">dec_aead</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const struct w_iov *const xv, const struct w_iov *const v, const uint16_t len, const struct <a class="el" href="structcipher__ctx.html">cipher_ctx</a> *const ctx)</td></tr>
+<tr class="memitem:a1b7fc05af119c12354b8de8346ccecf4"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a1b7fc05af119c12354b8de8346ccecf4">dec_aead</a> (struct q_conn *const c, const struct w_iov *const xv, const struct w_iov *const v, const uint16_t len, const struct <a class="el" href="structcipher__ctx.html">cipher_ctx</a> *const ctx)</td></tr>
 <tr class="separator:a1b7fc05af119c12354b8de8346ccecf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1193e69500fa37d706399a825b799526"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a1193e69500fa37d706399a825b799526">enc_aead</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const struct w_iov *const v, const struct w_iov *const xv, const uint16_t pkt_nr_pos)</td></tr>
+<tr class="memitem:a1193e69500fa37d706399a825b799526"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a1193e69500fa37d706399a825b799526">enc_aead</a> (struct q_conn *const c, const struct w_iov *const v, const struct w_iov *const xv, const uint16_t pkt_nr_pos)</td></tr>
 <tr class="separator:a1193e69500fa37d706399a825b799526"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a964f3cc6e0351969e0db618a8c2b722b"><td class="memItemLeft" align="right" valign="top">static ptls_hash_context_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a964f3cc6e0351969e0db618a8c2b722b">prep_hash_ctx</a> (const struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const ptls_cipher_suite_t *const cs)</td></tr>
+<tr class="memitem:a964f3cc6e0351969e0db618a8c2b722b"><td class="memItemLeft" align="right" valign="top">static ptls_hash_context_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a964f3cc6e0351969e0db618a8c2b722b">prep_hash_ctx</a> (const struct q_conn *const c, const ptls_cipher_suite_t *const cs)</td></tr>
 <tr class="separator:a964f3cc6e0351969e0db618a8c2b722b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7af72f607847e5a6a71e9910b489fedc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a7af72f607847e5a6a71e9910b489fedc">make_rtry_tok</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
+<tr class="memitem:a7af72f607847e5a6a71e9910b489fedc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a7af72f607847e5a6a71e9910b489fedc">make_rtry_tok</a> (struct q_conn *const c)</td></tr>
 <tr class="separator:a7af72f607847e5a6a71e9910b489fedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a779c1ebd1e6c43f05a373c84defb3fa8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a779c1ebd1e6c43f05a373c84defb3fa8">verify_rtry_tok</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const uint8_t *const tok, const uint16_t tok_len)</td></tr>
+<tr class="memitem:a779c1ebd1e6c43f05a373c84defb3fa8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a779c1ebd1e6c43f05a373c84defb3fa8">verify_rtry_tok</a> (struct q_conn *const c, const uint8_t *const tok, const uint16_t tok_len)</td></tr>
 <tr class="separator:a779c1ebd1e6c43f05a373c84defb3fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4faeebf5e3d33bfea46325d8fa7343d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a4faeebf5e3d33bfea46325d8fa7343d6">flip_keys</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const bool out)</td></tr>
+<tr class="memitem:a4faeebf5e3d33bfea46325d8fa7343d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a4faeebf5e3d33bfea46325d8fa7343d6">flip_keys</a> (struct q_conn *const c, const bool out)</td></tr>
 <tr class="separator:a4faeebf5e3d33bfea46325d8fa7343d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8984aa5b25b32bb8e40aef64f3164fc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a8984aa5b25b32bb8e40aef64f3164fc0">maybe_flip_keys</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const bool out)</td></tr>
+<tr class="memitem:a8984aa5b25b32bb8e40aef64f3164fc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a8984aa5b25b32bb8e40aef64f3164fc0">maybe_flip_keys</a> (struct q_conn *const c, const bool out)</td></tr>
 <tr class="separator:a8984aa5b25b32bb8e40aef64f3164fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -842,7 +842,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">static uint16_t chk_tp_clnt </td>
           <td>(</td>
-          <td class="paramtype">const struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">const struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -888,7 +888,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">static uint16_t chk_tp_serv </td>
           <td>(</td>
-          <td class="paramtype">const struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">const struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -940,7 +940,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">uint16_t dec_aead </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -1008,7 +1008,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">uint16_t enc_aead </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -1156,7 +1156,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void flip_keys </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -1172,7 +1172,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a4">client.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a3">client.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1229,7 +1229,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">static void free_prot </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1259,7 +1259,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void free_tls </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1309,7 +1309,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void init_prot </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1367,7 +1367,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void init_tls </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1417,7 +1417,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void init_tp </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1488,7 +1488,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void make_rtry_tok </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1513,7 +1513,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void maybe_flip_keys </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -1591,7 +1591,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">static ptls_hash_context_t* prep_hash_ctx </td>
           <td>(</td>
-          <td class="paramtype">const struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">const struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -2010,7 +2010,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">bool verify_rtry_tok </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -2054,7 +2054,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">static const struct <a class="el" href="structcipher__ctx.html">cipher_ctx</a>* which_cipher_ctx_out </td>
           <td>(</td>
-          <td class="paramtype">const struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">const struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -2305,7 +2305,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 9 2019 09:46:19 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 9 2019 12:27:49 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

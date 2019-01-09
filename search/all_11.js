@@ -2,7 +2,6 @@ var searchData=
 [
   ['read_5ftickets',['read_tickets',['../tls_8c.html#a65f1490238853f0e913186fd5c3311c7',1,'tls.c']]],
   ['readme_2emd',['README.md',['../README_8md.html',1,'']]],
-  ['rec',['rec',['../structq__conn.html#a5e9b1a6f4e05906f6b75ade3dcec715b',1,'q_conn']]],
   ['recovery',['recovery',['../structrecovery.html',1,'']]],
   ['recovery_2ec',['recovery.c',['../recovery_8c.html',1,'']]],
   ['recovery_2eh',['recovery.h',['../recovery_8h.html',1,'']]],
@@ -22,6 +21,5 @@ var searchData=
   ['rx_5fcrypto',['rx_crypto',['../conn_8c.html#a5d6639a237bb88d66f93760fc93000a5',1,'conn.c']]],
   ['rx_5fframes',['rx_frames',['../structpn__space.html#a249f8d1e0db4507220a831f7062bbbdd',1,'pn_space']]],
   ['rx_5fpkt',['rx_pkt',['../conn_8c.html#a9ef5d7dd45e20cc2cf7504fac35c37e0',1,'conn.c']]],
-  ['rx_5fpkts',['rx_pkts',['../conn_8c.html#a743c431b40b906bbe9baad4456a0e7c5',1,'conn.c']]],
-  ['rx_5fw',['rx_w',['../structq__conn.html#aa237d71bb04b7a3b77410003329a438f',1,'q_conn']]]
+  ['rx_5fpkts',['rx_pkts',['../conn_8c.html#a743c431b40b906bbe9baad4456a0e7c5',1,'conn.c']]]
 ];

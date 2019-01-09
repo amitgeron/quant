@@ -5,7 +5,7 @@
 <area shape="rect" id="node16" href="$diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="diet_free" alt="" coords="520,309,592,336"/>
 <area shape="rect" id="node17" href="$conn_8c.html#ac2eda2699440f1e6863dbcff2e7914bc" title="conns_by_ipnp_del" alt="" coords="133,385,267,412"/>
 <area shape="rect" id="node19" href="$conn_8c.html#ab983b3d57ee0c84f0e70018a299033a8" title="free_scid" alt="" coords="163,436,237,463"/>
-<area shape="rect" id="node21" href="$conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56" title="free_dcid" alt="" coords="163,487,237,513"/>
+<area shape="rect" id="node22" href="$conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56" title="free_dcid" alt="" coords="163,487,237,513"/>
 <area shape="rect" id="node3" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="343,31,425,57"/>
 <area shape="rect" id="node4" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type t into the diet tree t. " alt="" coords="343,81,425,108"/>
 <area shape="rect" id="node9" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="339,132,429,159"/>
@@ -18,5 +18,6 @@
 <area shape="rect" id="node13" href="$tls_8c.html#aa4d8aedc1bfd0aed4756bd90903c1884" title="dispose_cipher" alt="" coords="501,233,611,260"/>
 <area shape="rect" id="node15" href="$pn_8c.html#a1946ca1d63daaffb29b1548382c89499" title="do_free_pn" alt="" coords="341,284,427,311"/>
 <area shape="rect" id="node18" href="$conn_8c.html#aaf7f518c49a0ab7bd2a9604aae9cc065" title="conns_by_ipnp_key" alt="" coords="315,385,453,412"/>
-<area shape="rect" id="node20" href="$conn_8c.html#a157de1b1117fd595bca3a0d2a82184db" title="conns_by_id_del" alt="" coords="325,436,443,463"/>
+<area shape="rect" id="node20" href="$conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78" title="cids_by_id_del" alt="" coords="330,436,438,463"/>
+<area shape="rect" id="node21" href="$conn_8c.html#a157de1b1117fd595bca3a0d2a82184db" title="conns_by_id_del" alt="" coords="325,487,443,513"/>
 </map>

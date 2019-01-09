@@ -7,7 +7,7 @@
 <area shape="rect" id="node17" href="$diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="diet_free" alt="" coords="635,309,707,336"/>
 <area shape="rect" id="node18" href="$conn_8c.html#ac2eda2699440f1e6863dbcff2e7914bc" title="conns_by_ipnp_del" alt="" coords="248,385,381,412"/>
 <area shape="rect" id="node20" href="$conn_8c.html#ab983b3d57ee0c84f0e70018a299033a8" title="free_scid" alt="" coords="277,436,352,463"/>
-<area shape="rect" id="node22" href="$conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56" title="free_dcid" alt="" coords="277,487,352,513"/>
+<area shape="rect" id="node23" href="$conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56" title="free_dcid" alt="" coords="277,487,352,513"/>
 <area shape="rect" id="node5" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type t into the diet tree t. " alt="" coords="457,81,540,108"/>
 <area shape="rect" id="node10" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="453,132,544,159"/>
 <area shape="rect" id="node11" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="469,183,528,209"/>
@@ -19,5 +19,6 @@
 <area shape="rect" id="node14" href="$tls_8c.html#aa4d8aedc1bfd0aed4756bd90903c1884" title="dispose_cipher" alt="" coords="616,233,725,260"/>
 <area shape="rect" id="node16" href="$pn_8c.html#a1946ca1d63daaffb29b1548382c89499" title="do_free_pn" alt="" coords="455,284,542,311"/>
 <area shape="rect" id="node19" href="$conn_8c.html#aaf7f518c49a0ab7bd2a9604aae9cc065" title="conns_by_ipnp_key" alt="" coords="430,385,567,412"/>
-<area shape="rect" id="node21" href="$conn_8c.html#a157de1b1117fd595bca3a0d2a82184db" title="conns_by_id_del" alt="" coords="439,436,558,463"/>
+<area shape="rect" id="node21" href="$conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78" title="cids_by_id_del" alt="" coords="445,436,553,463"/>
+<area shape="rect" id="node22" href="$conn_8c.html#a157de1b1117fd595bca3a0d2a82184db" title="conns_by_id_del" alt="" coords="439,487,558,513"/>
 </map>

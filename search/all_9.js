@@ -1,13 +1,12 @@
 var searchData=
 [
   ['id',['id',['../structcid.html#a048d6b0aaaabd5060c525fc1603da8f9',1,'cid::id()'],['../structq__stream.html#a5b0fce2373b57dc3ca4ff7b05cf1cd2c',1,'q_stream::id()']]],
-  ['idle_5falarm',['idle_alarm',['../structq__conn.html#ab3860daebd7ca189549a5e6af6c9e8e3',1,'q_conn::idle_alarm()'],['../conn_8c.html#ac22c90477f7d4e5f8e96e3d536b58afb',1,'idle_alarm():&#160;conn.c']]],
+  ['idle_5falarm',['idle_alarm',['../conn_8c.html#ac22c90477f7d4e5f8e96e3d536b58afb',1,'conn.c']]],
   ['idle_5fto',['idle_to',['../structtransport__params.html#a0c37d67483b1cb2082274f8901fe70c0',1,'transport_params']]],
   ['in',['in',['../structpn__hshk__space.html#a4a85ae7a86b11c93eaf86e13dec1df95',1,'pn_hshk_space::in()'],['../structq__stream.html#a36bf4a7325ef5d402ef98eaf3e9468d7',1,'q_stream::in()']]],
   ['in_5f0rtt',['in_0rtt',['../structpn__data__space.html#af620382a9fe067f78b23f0dc26be5c49',1,'pn_data_space']]],
   ['in_5f1rtt',['in_1rtt',['../structpn__data__space.html#ad7b2ff099c01a50adf39234e54992c05',1,'pn_data_space']]],
-  ['in_5fc_5fready',['in_c_ready',['../structq__conn.html#a56b1980bef65a0384e03187801553f04',1,'q_conn']]],
-  ['in_5fdata',['in_data',['../structq__conn.html#af2bf7d44ce67c0b313defa235d4999cb',1,'q_conn::in_data()'],['../structq__stream.html#af571e4a21acbd83695fdd6843ec414a5',1,'q_stream::in_data()']]],
+  ['in_5fdata',['in_data',['../structq__stream.html#af571e4a21acbd83695fdd6843ec414a5',1,'q_stream']]],
   ['in_5fdata_5fmax',['in_data_max',['../structq__stream.html#a3efa630f78833bdfa5a5f16a18991d88',1,'q_stream']]],
   ['in_5fdata_5foff',['in_data_off',['../structq__stream.html#a2c1f40df9187a55af36ab90cbde31d5b',1,'q_stream']]],
   ['in_5fflight',['in_flight',['../structrecovery.html#a206af8b5f9afa712883a19d6c67a5b11',1,'recovery']]],
@@ -28,7 +27,6 @@ var searchData=
   ['is_5fack_5fonly',['is_ack_only',['../quic_8h.html#a05b0a63c2fe234f56513430fc2114eba',1,'quic.h']]],
   ['is_5fack_5for_5fpadding_5fonly',['is_ack_or_padding_only',['../quic_8h.html#ae64eb493276abdc60cd97ea2f6d96f78',1,'quic.h']]],
   ['is_5facked',['is_acked',['../structpkt__meta.html#a3a15ff29d90b1fb954de8384f0de59b7',1,'pkt_meta']]],
-  ['is_5fclnt',['is_clnt',['../structq__conn.html#af9ef67c77d27417b598225c700a110ee',1,'q_conn']]],
   ['is_5ffin',['is_fin',['../quic_8h.html#a6bb0d7cd1774df0297a9540111f46308',1,'quic.h']]],
   ['is_5fforce_5fneg_5fvers',['is_force_neg_vers',['../conn_8h.html#ad42b6442b32fa307a6b5293b9b9df058',1,'conn.h']]],
   ['is_5finf',['is_inf',['../conn_8h.html#a07cb3f3bb2c38f820f0a7fd74de25d6d',1,'conn.h']]],

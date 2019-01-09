@@ -11,7 +11,6 @@ var searchData=
   ['marshall_5fenc_5fbuf',['marshall_enc_buf',['../marshall_8c.html#a1e5b3e621f7eb32b23f97da0dd99a834',1,'marshall_enc_buf(uint8_t *const buf, const uint16_t buf_len, const uint16_t pos, const void *const src, const uint16_t enc_len):&#160;marshall.c'],['../marshall_8h.html#a1e5b3e621f7eb32b23f97da0dd99a834',1,'marshall_enc_buf(uint8_t *const buf, const uint16_t buf_len, const uint16_t pos, const void *const src, const uint16_t enc_len):&#160;marshall.c']]],
   ['max_5fack_5fdel',['max_ack_del',['../structtransport__params.html#a1e971701bc5477fc75408d11416d702b',1,'transport_params']]],
   ['max_5fcid_5flen',['MAX_CID_LEN',['../quic_8h.html#a9182b20a4ab9449d0efbd6d873c2aecf',1,'quic.h']]],
-  ['max_5fcid_5fseq_5fout',['max_cid_seq_out',['../structq__conn.html#a9e483983b67d3b6dc0e5fb1e19dea752',1,'q_conn']]],
   ['max_5fdata',['max_data',['../structtransport__params.html#a5719da04011349b3cdde407995caff03',1,'transport_params::max_data()'],['../structpkt__meta.html#a058300b8f5c60cdde8000077df854e7e',1,'pkt_meta::max_data()']]],
   ['max_5fearly_5fdata',['max_early_data',['../structtls.html#a89a93e1e56c851332bdecddbb6a72a4b',1,'tls']]],
   ['max_5ferr_5freason_5flen',['MAX_ERR_REASON_LEN',['../conn_8h.html#a31898c1d24d16b8da39d1f5c0500345e',1,'conn.h']]],
@@ -34,7 +33,6 @@ var searchData=
   ['maybe_5fapi_5freturn3',['maybe_api_return3',['../quic_8h.html#a1328432694749169c49589e1a743ba34',1,'quic.h']]],
   ['maybe_5fflip_5fkeys',['maybe_flip_keys',['../tls_8c.html#a8984aa5b25b32bb8e40aef64f3164fc0',1,'maybe_flip_keys(struct q_conn *const c, const bool out):&#160;tls.c'],['../tls_8h.html#a8984aa5b25b32bb8e40aef64f3164fc0',1,'maybe_flip_keys(struct q_conn *const c, const bool out):&#160;tls.c']]],
   ['meta',['meta',['../quic_8h.html#a01ed57991bea53afa1ece4452d16b568',1,'quic.h']]],
-  ['migration_5falarm',['migration_alarm',['../structq__conn.html#ab55c3687a5585bbb144b84f25d44eef7',1,'q_conn']]],
   ['min_5fini_5flen',['MIN_INI_LEN',['../pkt_8h.html#ae05e8e856810ed8b7911d43457b16e05',1,'pkt.h']]],
   ['min_5frtt',['min_rtt',['../structrecovery.html#ad29432ca40c3f915331349f86dc4dd48',1,'recovery']]],
   ['mk_5for_5fopen_5fdir',['mk_or_open_dir',['../quic_8c.html#aa1e3203057c43651b001c5aed00e50ee',1,'quic.c']]]

@@ -208,41 +208,41 @@ Functions</h2></td></tr>
 <tr class="separator:ae94d6f87955af69345cb46c9d03ad90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31c36630801506eb48c0bf620c0fcca6"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a31c36630801506eb48c0bf620c0fcca6">shorten_ack_nr</a> (const uint64_t ack, const uint64_t diff)</td></tr>
 <tr class="separator:a31c36630801506eb48c0bf620c0fcca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61028f6e9e750c1d45bde1dd2303aa26"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a61028f6e9e750c1d45bde1dd2303aa26">dec_frames</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, struct w_iov **vv)</td></tr>
+<tr class="memitem:a61028f6e9e750c1d45bde1dd2303aa26"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a61028f6e9e750c1d45bde1dd2303aa26">dec_frames</a> (struct q_conn *const c, struct w_iov **vv)</td></tr>
 <tr class="separator:a61028f6e9e750c1d45bde1dd2303aa26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af12f0dbd9c7d385b94e1041b53c31b2d"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#af12f0dbd9c7d385b94e1041b53c31b2d">max_frame_len</a> (const uint8_t type)</td></tr>
 <tr class="separator:af12f0dbd9c7d385b94e1041b53c31b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d8bea0a0a229b796505008855eb17f0"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a0d8bea0a0a229b796505008855eb17f0">enc_padding_frame</a> (struct w_iov *const v, const uint16_t pos, const uint16_t len)</td></tr>
 <tr class="separator:a0d8bea0a0a229b796505008855eb17f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad33d4ffd79b410b355647b882fcecd94"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#ad33d4ffd79b410b355647b882fcecd94">enc_ack_frame</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, struct <a class="el" href="structpn__space.html">pn_space</a> *const pn, struct w_iov *const v, const uint16_t pos)</td></tr>
+<tr class="memitem:ad33d4ffd79b410b355647b882fcecd94"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#ad33d4ffd79b410b355647b882fcecd94">enc_ack_frame</a> (struct q_conn *const c, struct <a class="el" href="structpn__space.html">pn_space</a> *const pn, struct w_iov *const v, const uint16_t pos)</td></tr>
 <tr class="separator:ad33d4ffd79b410b355647b882fcecd94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6134c4faa49bbd6fbc29589f12350400"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a6134c4faa49bbd6fbc29589f12350400">enc_stream_or_crypto_frame</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s, struct w_iov *const v, const uint16_t pos, const bool enc_strm)</td></tr>
 <tr class="separator:a6134c4faa49bbd6fbc29589f12350400"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35e96a60869ff030118503cb8a81f715"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a35e96a60869ff030118503cb8a81f715">enc_close_frame</a> (const struct <a class="el" href="structq__conn.html">q_conn</a> *const c, struct w_iov *const v, const uint16_t pos)</td></tr>
+<tr class="memitem:a35e96a60869ff030118503cb8a81f715"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a35e96a60869ff030118503cb8a81f715">enc_close_frame</a> (const struct q_conn *const c, struct w_iov *const v, const uint16_t pos)</td></tr>
 <tr class="separator:a35e96a60869ff030118503cb8a81f715"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68280ad079aa677bf9eeb72dfe8f65d2"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a68280ad079aa677bf9eeb72dfe8f65d2">enc_path_response_frame</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const struct w_iov *const v, const uint16_t pos)</td></tr>
+<tr class="memitem:a68280ad079aa677bf9eeb72dfe8f65d2"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a68280ad079aa677bf9eeb72dfe8f65d2">enc_path_response_frame</a> (struct q_conn *const c, const struct w_iov *const v, const uint16_t pos)</td></tr>
 <tr class="separator:a68280ad079aa677bf9eeb72dfe8f65d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44dc32970bbe3088cc0ccc79abe03d74"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a44dc32970bbe3088cc0ccc79abe03d74">dec_ack_frame</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const struct w_iov *const v, const uint16_t pos)</td></tr>
+<tr class="memitem:a44dc32970bbe3088cc0ccc79abe03d74"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a44dc32970bbe3088cc0ccc79abe03d74">dec_ack_frame</a> (struct q_conn *const c, const struct w_iov *const v, const uint16_t pos)</td></tr>
 <tr class="separator:a44dc32970bbe3088cc0ccc79abe03d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afac1f0948949980e386e72ae7f2b3132"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#afac1f0948949980e386e72ae7f2b3132">enc_max_stream_data_frame</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s, struct w_iov *const v, const uint16_t pos)</td></tr>
 <tr class="separator:afac1f0948949980e386e72ae7f2b3132"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afce90a1bb73bc652f0ccbd5402b0eb61"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#afce90a1bb73bc652f0ccbd5402b0eb61">enc_max_data_frame</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, struct w_iov *const v, const uint16_t pos)</td></tr>
+<tr class="memitem:afce90a1bb73bc652f0ccbd5402b0eb61"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#afce90a1bb73bc652f0ccbd5402b0eb61">enc_max_data_frame</a> (struct q_conn *const c, struct w_iov *const v, const uint16_t pos)</td></tr>
 <tr class="separator:afce90a1bb73bc652f0ccbd5402b0eb61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ac213b2974a43ebd939de9258e9bf8e"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a1ac213b2974a43ebd939de9258e9bf8e">enc_max_streams_frame</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, struct w_iov *const v, const uint16_t pos, const bool bidi)</td></tr>
+<tr class="memitem:a1ac213b2974a43ebd939de9258e9bf8e"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a1ac213b2974a43ebd939de9258e9bf8e">enc_max_streams_frame</a> (struct q_conn *const c, struct w_iov *const v, const uint16_t pos, const bool bidi)</td></tr>
 <tr class="separator:a1ac213b2974a43ebd939de9258e9bf8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a768b7beadcaeb344e4c94d43ad602049"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a768b7beadcaeb344e4c94d43ad602049">enc_stream_data_blocked_frame</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s, const struct w_iov *const v, const uint16_t pos)</td></tr>
 <tr class="separator:a768b7beadcaeb344e4c94d43ad602049"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac765ba3421ea86a0b00976441050561e"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#ac765ba3421ea86a0b00976441050561e">enc_data_blocked_frame</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const struct w_iov *const v, const uint16_t pos)</td></tr>
+<tr class="memitem:ac765ba3421ea86a0b00976441050561e"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#ac765ba3421ea86a0b00976441050561e">enc_data_blocked_frame</a> (struct q_conn *const c, const struct w_iov *const v, const uint16_t pos)</td></tr>
 <tr class="separator:ac765ba3421ea86a0b00976441050561e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84ce98a493bc8372faccd207bd4b8511"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a84ce98a493bc8372faccd207bd4b8511">enc_streams_blocked_frame</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const struct w_iov *const v, const uint16_t pos, const bool bidi)</td></tr>
+<tr class="memitem:a84ce98a493bc8372faccd207bd4b8511"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a84ce98a493bc8372faccd207bd4b8511">enc_streams_blocked_frame</a> (struct q_conn *const c, const struct w_iov *const v, const uint16_t pos, const bool bidi)</td></tr>
 <tr class="separator:a84ce98a493bc8372faccd207bd4b8511"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4218d08a618cd6088192777ee96f95f"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#ad4218d08a618cd6088192777ee96f95f">enc_path_challenge_frame</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const struct w_iov *const v, const uint16_t pos)</td></tr>
+<tr class="memitem:ad4218d08a618cd6088192777ee96f95f"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#ad4218d08a618cd6088192777ee96f95f">enc_path_challenge_frame</a> (struct q_conn *const c, const struct w_iov *const v, const uint16_t pos)</td></tr>
 <tr class="separator:ad4218d08a618cd6088192777ee96f95f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf128f54c264f522e96019baef7af3c1"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#acf128f54c264f522e96019baef7af3c1">enc_new_cid_frame</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const struct w_iov *const v, const uint16_t pos)</td></tr>
+<tr class="memitem:acf128f54c264f522e96019baef7af3c1"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#acf128f54c264f522e96019baef7af3c1">enc_new_cid_frame</a> (struct q_conn *const c, const struct w_iov *const v, const uint16_t pos)</td></tr>
 <tr class="separator:acf128f54c264f522e96019baef7af3c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a722b21098f9985a27188e9fae848aced"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a722b21098f9985a27188e9fae848aced">enc_new_token_frame</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const struct w_iov *const v, const uint16_t pos)</td></tr>
+<tr class="memitem:a722b21098f9985a27188e9fae848aced"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a722b21098f9985a27188e9fae848aced">enc_new_token_frame</a> (struct q_conn *const c, const struct w_iov *const v, const uint16_t pos)</td></tr>
 <tr class="separator:a722b21098f9985a27188e9fae848aced"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa20d45dcbae3ae1846c19c85a167f4e"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#afa20d45dcbae3ae1846c19c85a167f4e">enc_retire_cid_frame</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const struct w_iov *const v, const uint16_t pos, struct <a class="el" href="structcid.html">cid</a> *const dcid)</td></tr>
+<tr class="memitem:afa20d45dcbae3ae1846c19c85a167f4e"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#afa20d45dcbae3ae1846c19c85a167f4e">enc_retire_cid_frame</a> (struct q_conn *const c, const struct w_iov *const v, const uint16_t pos, struct <a class="el" href="structcid.html">cid</a> *const dcid)</td></tr>
 <tr class="separator:afa20d45dcbae3ae1846c19c85a167f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a424f6073840f8f7a1599dd1b197dc591"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="frame_8h.html#a424f6073840f8f7a1599dd1b197dc591">enc_ping_frame</a> (const struct w_iov *const v, const uint16_t pos)</td></tr>
 <tr class="separator:a424f6073840f8f7a1599dd1b197dc591"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -700,7 +700,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">uint16_t dec_ack_frame </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -741,7 +741,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">uint16_t dec_frames </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -776,7 +776,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">uint16_t enc_ack_frame </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -823,7 +823,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">uint16_t enc_close_frame </td>
           <td>(</td>
-          <td class="paramtype">const struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">const struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -855,7 +855,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">uint16_t enc_data_blocked_frame </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -887,7 +887,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">uint16_t enc_max_data_frame </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -951,7 +951,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">uint16_t enc_max_streams_frame </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -989,7 +989,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">uint16_t enc_new_cid_frame </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -1017,7 +1017,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="frame_8h_acf128f54c264f522e96019baef7af3c1_cgraph.png" border="0" usemap="#frame_8h_acf128f54c264f522e96019baef7af3c1_cgraph" alt=""/></div>
 <map name="frame_8h_acf128f54c264f522e96019baef7af3c1_cgraph" id="frame_8h_acf128f54c264f522e96019baef7af3c1_cgraph">
-<area shape="rect" id="node2" href="conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026" title="add_scid" alt="" coords="192,31,267,57"/><area shape="rect" id="node3" href="quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="341,5,408,32"/><area shape="rect" id="node4" href="conn_8c.html#a3970d1f884f75ab86ab622e00bf9fce7" title="conns_by_id_ins" alt="" coords="315,56,434,83"/></map>
+<area shape="rect" id="node2" href="conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026" title="add_scid" alt="" coords="192,81,267,108"/><area shape="rect" id="node3" href="conn_8c.html#abf07a95614d3f540d12bd3dc1bb4391f" title="get_cid_by_id" alt="" coords="323,5,426,32"/><area shape="rect" id="node4" href="quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="341,56,408,83"/><area shape="rect" id="node5" href="conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8" title="cids_by_id_ins" alt="" coords="321,107,429,133"/><area shape="rect" id="node6" href="conn_8c.html#a3970d1f884f75ab86ab622e00bf9fce7" title="conns_by_id_ins" alt="" coords="315,157,434,184"/></map>
 </div>
 </p>
 
@@ -1030,7 +1030,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">uint16_t enc_new_token_frame </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -1094,7 +1094,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">uint16_t enc_path_challenge_frame </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -1126,7 +1126,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">uint16_t enc_path_response_frame </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -1184,7 +1184,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">uint16_t enc_retire_cid_frame </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -1301,7 +1301,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">uint16_t enc_streams_blocked_frame </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct q_conn *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -1424,7 +1424,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 9 2019 09:46:19 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 9 2019 12:27:49 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

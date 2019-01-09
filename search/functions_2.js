@@ -7,6 +7,8 @@ var searchData=
   ['chk_5ftp_5fserv',['chk_tp_serv',['../tls_8c.html#a2d88e7aa28c44c9c2a335f8bac53bc11',1,'tls.c']]],
   ['cid_5fcmp',['cid_cmp',['../conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1',1,'conn.h']]],
   ['cid_5fcpy',['cid_cpy',['../quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446',1,'quic.h']]],
+  ['cids_5fby_5fid_5fdel',['cids_by_id_del',['../conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78',1,'conn.c']]],
+  ['cids_5fby_5fid_5fins',['cids_by_id_ins',['../conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8',1,'conn.c']]],
   ['cids_5fby_5fseq_5fcmp',['cids_by_seq_cmp',['../quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb',1,'quic.h']]],
   ['coalesce',['coalesce',['../pkt_8c.html#a1f839697f5c2cb2a8b086249c85399bc',1,'coalesce(struct w_iov_sq *const q):&#160;pkt.c'],['../pkt_8h.html#a1f839697f5c2cb2a8b086249c85399bc',1,'coalesce(struct w_iov_sq *const q):&#160;pkt.c']]],
   ['concat_5fout',['concat_out',['../stream_8c.html#a379b35c4c21ee31284e14338963fdd8f',1,'concat_out(struct q_stream *const s, struct w_iov_sq *const q):&#160;stream.c'],['../stream_8h.html#a379b35c4c21ee31284e14338963fdd8f',1,'concat_out(struct q_stream *const s, struct w_iov_sq *const q):&#160;stream.c']]],

@@ -126,7 +126,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="quic_8h.html">quic.h</a>&quot;</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">struct </span><a class="code" href="structq__conn.html">q_conn</a>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">struct </span>q_conn;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">struct </span><a class="code" href="structq__stream.html">q_stream</a>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">struct </span><a class="code" href="structpn__space.html">pn_space</a>;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
@@ -199,29 +199,29 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="recovery_8h.html#a60784c1a11f52e1b091994e1cfcc4609">init_rec</a>(struct <a class="code" href="structq__conn.html">q_conn</a> * const c);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="recovery_8h.html#a60784c1a11f52e1b091994e1cfcc4609">init_rec</a>(struct q_conn * const c);</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<a class="code" href="recovery_8h.html#a9749ec5110f82cad7875d3ec8b94199d">on_pkt_sent</a>(struct <a class="code" href="structq__stream.html">q_stream</a> * const s, struct w_iov * const v);</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<a class="code" href="recovery_8h.html#a968810548afcf006e9e6e5515511db31">on_ack_received_1</a>(struct <a class="code" href="structq__conn.html">q_conn</a> * const c,</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<a class="code" href="recovery_8h.html#a968810548afcf006e9e6e5515511db31">on_ack_received_1</a>(struct q_conn * const c,</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                  struct <a class="code" href="structpn__space.html">pn_space</a> * const pn,</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                  struct w_iov * const lg_ack,</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                  const uint64_t ack_del);</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull(1, 2)))</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<a class="code" href="recovery_8h.html#a52f8a8de4126e6ff094cf74a3880ed3d">on_ack_received_2</a>(struct <a class="code" href="structq__conn.html">q_conn</a> * const c,</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<a class="code" href="recovery_8h.html#a52f8a8de4126e6ff094cf74a3880ed3d">on_ack_received_2</a>(struct q_conn * const c,</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                  struct <a class="code" href="structpn__space.html">pn_space</a> * const pn,</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                  const uint64_t sm_new_acked);</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<a class="code" href="recovery_8h.html#ac8a16e66bf24868d4ac02a8dbe9beb0c">on_pkt_acked</a>(struct <a class="code" href="structq__conn.html">q_conn</a> * const c,</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<a class="code" href="recovery_8h.html#ac8a16e66bf24868d4ac02a8dbe9beb0c">on_pkt_acked</a>(struct q_conn * const c,</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;             struct <a class="code" href="structpn__space.html">pn_space</a> * const pn,</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;             struct w_iov * const acked_pkt);</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;extern struct w_iov * __attribute__((nonnull))</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<a class="code" href="recovery_8h.html#a078d446c5244577b054aed3abda0d694">find_sent_pkt</a>(struct <a class="code" href="structq__conn.html">q_conn</a> * const c,</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<a class="code" href="recovery_8h.html#a078d446c5244577b054aed3abda0d694">find_sent_pkt</a>(struct q_conn * const c,</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;              struct <a class="code" href="structpn__space.html">pn_space</a> * const pn,</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;              const uint64_t nr);</div>
 <div class="ttc" id="recovery_8h_html_a968810548afcf006e9e6e5515511db31"><div class="ttname"><a href="recovery_8h.html#a968810548afcf006e9e6e5515511db31">on_ack_received_1</a></div><div class="ttdeci">void on_ack_received_1(struct q_conn *const c, struct pn_space *const pn, struct w_iov *const lg_ack, const uint64_t ack_del)</div><div class="ttdef"><b>Definition:</b> recovery.c:339</div></div>
@@ -229,7 +229,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="recovery_8h_html_a38bc7648b4feb3e4fff2356325633ad8"><div class="ttname"><a href="recovery_8h.html#a38bc7648b4feb3e4fff2356325633ad8">prev_rttvar</a></div><div class="ttdeci">ev_tstamp prev_rttvar</div><div class="ttdef"><b>Definition:</b> recovery.c:53</div></div>
 <div class="ttc" id="structrecovery_html_ac7b5471d131ba1c6e5aa98d6a1a850db"><div class="ttname"><a href="structrecovery.html#ac7b5471d131ba1c6e5aa98d6a1a850db">recovery::rto_cnt</a></div><div class="ttdeci">uint16_t rto_cnt</div><div class="ttdef"><b>Definition:</b> recovery.h:48</div></div>
 <div class="ttc" id="recovery_8h_html_a9749ec5110f82cad7875d3ec8b94199d"><div class="ttname"><a href="recovery_8h.html#a9749ec5110f82cad7875d3ec8b94199d">on_pkt_sent</a></div><div class="ttdeci">void on_pkt_sent(struct q_stream *const s, struct w_iov *const v)</div><div class="ttdef"><b>Definition:</b> recovery.c:280</div></div>
-<div class="ttc" id="structq__conn_html"><div class="ttname"><a href="structq__conn.html">q_conn</a></div><div class="ttdoc">A QUIC connection. </div><div class="ttdef"><b>Definition:</b> conn.h:149</div></div>
 <div class="ttc" id="structrecovery_html_a8233971136274c530051b40c04a974e9"><div class="ttname"><a href="structrecovery.html#a8233971136274c530051b40c04a974e9">recovery::ld_alarm</a></div><div class="ttdeci">ev_timer ld_alarm</div><div class="ttdef"><b>Definition:</b> recovery.h:45</div></div>
 <div class="ttc" id="structrecovery_html_afde8ec90b8d6b16a0af1f344ae6b498f"><div class="ttname"><a href="structrecovery.html#afde8ec90b8d6b16a0af1f344ae6b498f">recovery::_unused2</a></div><div class="ttdeci">uint8_t _unused2[2]</div><div class="ttdef"><b>Definition:</b> recovery.h:50</div></div>
 <div class="ttc" id="structrecovery_html_a3cbb49a56de6829477e41bca89bf666a"><div class="ttname"><a href="structrecovery.html#a3cbb49a56de6829477e41bca89bf666a">recovery::last_sent_crypto_t</a></div><div class="ttdeci">ev_tstamp last_sent_crypto_t</div><div class="ttdef"><b>Definition:</b> recovery.h:52</div></div>
@@ -259,7 +258,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 9 2019 09:46:19 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 9 2019 12:27:49 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

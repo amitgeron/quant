@@ -13,12 +13,12 @@ var searchData=
   ['cid2str',['cid2str',['../conn_8h.html#ade2abf64e3b30fc0b5e1b95735ab6677',1,'conn.h']]],
   ['cid_5fcmp',['cid_cmp',['../conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1',1,'conn.h']]],
   ['cid_5fcpy',['cid_cpy',['../quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446',1,'quic.h']]],
+  ['cids_5fby_5fid_5fdel',['cids_by_id_del',['../conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78',1,'conn.c']]],
+  ['cids_5fby_5fid_5fins',['cids_by_id_ins',['../conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8',1,'conn.c']]],
   ['cids_5fby_5fseq_5fcmp',['cids_by_seq_cmp',['../quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb',1,'quic.h']]],
   ['cipher_5fctx',['cipher_ctx',['../structcipher__ctx.html',1,'']]],
   ['cipher_5fsuite',['CIPHER_SUITE',['../tls_8c.html#a67bb64934a4420a93ed8859153c5c186',1,'tls.c']]],
   ['clnt_5fscid_5flen',['CLNT_SCID_LEN',['../quic_8h.html#a49e4c470b958fb2a5b79187292698c94',1,'quic.h']]],
-  ['closed_5fstreams',['closed_streams',['../structq__conn.html#a9497cc2d8f046cdfd73d7a47355a4448',1,'q_conn']]],
-  ['closing_5falarm',['closing_alarm',['../structq__conn.html#a0ddb82b2f2c8ea4f8ced1712b2b93c2d',1,'q_conn']]],
   ['cnt_5fargs',['CNT_ARGS',['../quic_8h.html#a37dd5b73b6d28da2b1e4e6289cc2a128',1,'quic.h']]],
   ['coalesce',['coalesce',['../pkt_8c.html#a1f839697f5c2cb2a8b086249c85399bc',1,'coalesce(struct w_iov_sq *const q):&#160;pkt.c'],['../pkt_8h.html#a1f839697f5c2cb2a8b086249c85399bc',1,'coalesce(struct w_iov_sq *const q):&#160;pkt.c']]],
   ['concat_5fout',['concat_out',['../stream_8c.html#a379b35c4c21ee31284e14338963fdd8f',1,'concat_out(struct q_stream *const s, struct w_iov_sq *const q):&#160;stream.c'],['../stream_8h.html#a379b35c4c21ee31284e14338963fdd8f',1,'concat_out(struct q_stream *const s, struct w_iov_sq *const q):&#160;stream.c']]],
@@ -47,7 +47,6 @@ var searchData=
   ['crpt_5fstrm_5fid',['crpt_strm_id',['../stream_8h.html#a012bc210254cd3269ef892fcbd91e146',1,'stream.h']]],
   ['crypto_5fcnt',['crypto_cnt',['../structrecovery.html#afadddaaa0331377dc1e183b442082816',1,'recovery']]],
   ['crypto_5fpkts_5foutstanding',['crypto_pkts_outstanding',['../recovery_8c.html#a6a4bf9229c6ca38ab08cbf72f4b93a50',1,'recovery.c']]],
-  ['cstreams',['cstreams',['../structq__conn.html#a2d76e4d46e32ced7b0eff936f1df42cd',1,'q_conn']]],
   ['cwnd',['cwnd',['../structrecovery.html#a26dea9e16702f8af9f244cd5e2398f87',1,'recovery']]],
   ['cyn',['CYN',['../quic_8h.html#adc708fa688f5d78db361f66c36f0f807',1,'quic.h']]]
 ];
