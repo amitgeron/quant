@@ -1,6 +1,9 @@
 <map id="detect_lost_pkts" name="detect_lost_pkts">
-<area shape="rect" id="node2" href="$quic_8h.html#a05b0a63c2fe234f56513430fc2114eba" title="is_ack_only" alt="" coords="173,5,264,32"/>
-<area shape="rect" id="node3" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="187,56,251,83"/>
-<area shape="rect" id="node4" href="$conn_8h.html#a07cb3f3bb2c38f820f0a7fd74de25d6d" title="is_inf" alt="" coords="192,107,245,133"/>
-<area shape="rect" id="node5" href="$recovery_8c.html#a1cddc0f895e4feafcaf6f0ad86ad2631" title="in_recovery" alt="" coords="174,157,263,184"/>
+<area shape="rect" id="node2" href="$pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="174,5,269,32"/>
+<area shape="rect" id="node5" href="$quic_8h.html#a05b0a63c2fe234f56513430fc2114eba" title="is_ack_only" alt="" coords="176,56,267,83"/>
+<area shape="rect" id="node6" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="189,107,253,133"/>
+<area shape="rect" id="node7" href="$conn_8h.html#a07cb3f3bb2c38f820f0a7fd74de25d6d" title="is_inf" alt="" coords="195,157,248,184"/>
+<area shape="rect" id="node8" href="$recovery_8c.html#a1cddc0f895e4feafcaf6f0ad86ad2631" title="in_recovery" alt="" coords="177,208,266,235"/>
+<area shape="rect" id="node3" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="438,5,487,32"/>
+<area shape="rect" id="node4" href="$pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="317,31,389,57"/>
 </map>

@@ -32,7 +32,7 @@ var searchData=
   ['diet_5fremove',['diet_remove',['../diet_8c.html#a1ff8134cd224b1f148462bb051c75f1d',1,'diet_remove(struct diet *const d, const uint64_t n):&#160;diet.c'],['../diet_8h.html#a1ff8134cd224b1f148462bb051c75f1d',1,'diet_remove(struct diet *const d, const uint64_t n):&#160;diet.c']]],
   ['diet_5ftimestamp',['diet_timestamp',['../diet_8h.html#af0ddae2a11095bcdabe422dfc44f910a',1,'diet.h']]],
   ['diet_5fto_5fstr',['diet_to_str',['../diet_8c.html#aece76d9290a6c7d12958a2fa703fee87',1,'diet_to_str(char *const str, const size_t len, struct diet *const d):&#160;diet.c'],['../diet_8h.html#aece76d9290a6c7d12958a2fa703fee87',1,'diet_to_str(char *const str, const size_t len, struct diet *const d):&#160;diet.c']]],
-  ['dispose_5fcipher',['dispose_cipher',['../tls_8c.html#aa4d8aedc1bfd0aed4756bd90903c1884',1,'tls.c']]],
+  ['dispose_5fcipher',['dispose_cipher',['../tls_8c.html#a0e432c22353f0539562e3eb2382001e2',1,'dispose_cipher(struct st_quicly_cipher_context_t *ctx):&#160;tls.c'],['../tls_8h.html#a86dadd6335ccba621befa72f320fcf3e',1,'dispose_cipher(struct cipher_ctx *ctx):&#160;tls.h']]],
   ['do_5fconn_5ffc',['do_conn_fc',['../conn_8c.html#a4bcf08ef3dc5cc610474c8d0fa7947ee',1,'do_conn_fc(struct q_conn *const c):&#160;conn.c'],['../conn_8h.html#a4bcf08ef3dc5cc610474c8d0fa7947ee',1,'do_conn_fc(struct q_conn *const c):&#160;conn.c']]],
   ['do_5fconn_5fmgmt',['do_conn_mgmt',['../conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80',1,'conn.c']]],
   ['do_5ffree_5fpn',['do_free_pn',['../pn_8c.html#a1946ca1d63daaffb29b1548382c89499',1,'pn.c']]],

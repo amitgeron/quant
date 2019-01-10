@@ -1,7 +1,9 @@
 <map id="enc_stream_or_crypto_frame" name="enc_stream_or_crypto_frame">
-<area shape="rect" id="node2" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="254,5,303,32"/>
-<area shape="rect" id="node3" href="$marshall_8c.html#ae3f375b36a262ec3d5e8c06ba2be2442" title="Computes number of bytes need to enccode v in QUIC varint encoding. " alt="" coords="211,56,346,83"/>
-<area shape="rect" id="node4" href="$frame_8c.html#ae94d6f87955af69345cb46c9d03ad90f" title="log_stream_or_crypto\l_frame" alt="" coords="205,107,352,149"/>
-<area shape="rect" id="node6" href="$stream_8c.html#a0c28462a470893c1046d7a167037d926" title="track_bytes_out" alt="" coords="221,173,336,200"/>
-<area shape="rect" id="node5" href="$stream_8c.html#a38e0dc3cbebe5699ec573ab242b6f505" title="max_sid" alt="" coords="401,115,471,141"/>
+<area shape="rect" id="node2" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="521,32,570,58"/>
+<area shape="rect" id="node3" href="$pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="231,32,326,58"/>
+<area shape="rect" id="node5" href="$marshall_8c.html#ae3f375b36a262ec3d5e8c06ba2be2442" title="Computes number of bytes need to enccode v in QUIC varint encoding. " alt="" coords="211,82,346,109"/>
+<area shape="rect" id="node6" href="$frame_8c.html#ae94d6f87955af69345cb46c9d03ad90f" title="log_stream_or_crypto\l_frame" alt="" coords="205,134,352,175"/>
+<area shape="rect" id="node8" href="$stream_8c.html#a0c28462a470893c1046d7a167037d926" title="track_bytes_out" alt="" coords="221,200,336,226"/>
+<area shape="rect" id="node4" href="$pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="400,82,472,109"/>
+<area shape="rect" id="node7" href="$stream_8c.html#a38e0dc3cbebe5699ec573ab242b6f505" title="max_sid" alt="" coords="401,141,471,168"/>
 </map>

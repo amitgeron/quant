@@ -13,5 +13,6 @@ var searchData=
   ['in_5fooo',['in_ooo',['../structq__stream.html#a372b1593a42dbd1934ed03d605b5349d',1,'q_stream']]],
   ['is_5facked',['is_acked',['../structpkt__meta.html#a3a15ff29d90b1fb954de8384f0de59b7',1,'pkt_meta']]],
   ['is_5flost',['is_lost',['../structpkt__meta.html#a1dc5c504a91969f7598208109fb18cdb',1,'pkt_meta']]],
+  ['is_5freset',['is_reset',['../structpkt__meta.html#a6a9ba49e9150a85476b33cd8ebb790ed',1,'pkt_meta']]],
   ['is_5frtx',['is_rtx',['../structpkt__meta.html#af3340b6c044ae49975fdb3cac44667d9',1,'pkt_meta']]]
 ];

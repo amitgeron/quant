@@ -2,6 +2,7 @@ var searchData=
 [
   ['kdefaultinitialrtt',['kDefaultInitialRtt',['../quic_8h.html#a57cf52613e865fe135897085d0a23be7',1,'quic.h']]],
   ['kdelayedacktimeout',['kDelayedAckTimeout',['../quic_8h.html#a40f401a9aabe2cfcf4508f9b36c244c7',1,'quic.h']]],
+  ['kdelayedcryptoacktimeout',['kDelayedCryptoAckTimeout',['../quic_8h.html#a49fa09eb2a7c818369032f10e25a067d',1,'quic.h']]],
   ['kh_5fforeach',['kh_foreach',['../conn_8h.html#afa0654688c7a37571136cf3dc9e684f2',1,'conn.h']]],
   ['kidletimeout',['kIdleTimeout',['../quic_8h.html#ae3c76edb95d10974fc5aeba628c86121',1,'quic.h']]],
   ['kinitialwindow',['kInitialWindow',['../quic_8h.html#a5abc840ae2172a7f6ad89f37801a39f8',1,'quic.h']]],

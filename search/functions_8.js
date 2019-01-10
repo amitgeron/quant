@@ -2,7 +2,7 @@ var searchData=
 [
   ['idle_5falarm',['idle_alarm',['../conn_8c.html#ac22c90477f7d4e5f8e96e3d536b58afb',1,'conn.c']]],
   ['in_5frecovery',['in_recovery',['../recovery_8c.html#a1cddc0f895e4feafcaf6f0ad86ad2631',1,'recovery.c']]],
-  ['init_5fpn',['init_pn',['../pn_8c.html#a08111eb107b4ea7f913acc44b761bda0',1,'init_pn(struct pn_space *const pn, struct q_conn *const c):&#160;pn.c'],['../pn_8h.html#a08111eb107b4ea7f913acc44b761bda0',1,'init_pn(struct pn_space *const pn, struct q_conn *const c):&#160;pn.c']]],
+  ['init_5fpn',['init_pn',['../pn_8c.html#a68ef34c8ed7a49ffc9f0d08be962dcfe',1,'init_pn(struct pn_space *const pn, struct q_conn *const c, const ev_tstamp ack_del):&#160;pn.c'],['../pn_8h.html#a68ef34c8ed7a49ffc9f0d08be962dcfe',1,'init_pn(struct pn_space *const pn, struct q_conn *const c, const ev_tstamp ack_del):&#160;pn.c']]],
   ['init_5fprot',['init_prot',['../tls_8c.html#a705b76a676f449cbc37b9d955a2e0d5c',1,'init_prot(struct q_conn *const c):&#160;tls.c'],['../tls_8h.html#a705b76a676f449cbc37b9d955a2e0d5c',1,'init_prot(struct q_conn *const c):&#160;tls.c']]],
   ['init_5frec',['init_rec',['../recovery_8c.html#a60784c1a11f52e1b091994e1cfcc4609',1,'init_rec(struct q_conn *const c):&#160;recovery.c'],['../recovery_8h.html#a60784c1a11f52e1b091994e1cfcc4609',1,'init_rec(struct q_conn *const c):&#160;recovery.c']]],
   ['init_5fticket_5fprot',['init_ticket_prot',['../tls_8c.html#a071d6ebbfd90822e31fdb8119ad971ca',1,'tls.c']]],
