@@ -10,6 +10,7 @@ var searchData=
   ['tls_5fctx',['tls_ctx',['../tls_8c.html#af6bbbfab377148ff702ada5a44a7ae73',1,'tls_ctx():&#160;tls.c'],['../tls_8h.html#af6bbbfab377148ff702ada5a44a7ae73',1,'tls_ctx():&#160;tls.c']]],
   ['tls_5fhshk_5fprop',['tls_hshk_prop',['../structtls.html#af67df1608ab6e88dcbeceb56dcef2487',1,'tls']]],
   ['tls_5fkey',['tls_key',['../structq__conf.html#a5190558a00f4cfe123bfd3cd493194a2',1,'q_conf']]],
+  ['tls_5fkey_5fupdate_5ffrequency',['tls_key_update_frequency',['../structq__conn__conf.html#a090a1f314cd2c86c68f7950d4cf48a85',1,'q_conn_conf']]],
   ['tls_5flog',['tls_log',['../structq__conf.html#a4297c20c4fbd37a729fac317c2edb01b',1,'q_conf']]],
   ['tls_5flog_5ffile',['tls_log_file',['../tls_8c.html#a0334391e62e54695e81b99742ea9a9f2',1,'tls.c']]],
   ['tp',['tp',['../structtls__ticket.html#aa22a685941e1be9135cfae4fbbad5529',1,'tls_ticket']]],

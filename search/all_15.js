@@ -7,7 +7,6 @@ var searchData=
   ['varint8_5fmax',['VARINT8_MAX',['../marshall_8h.html#a8be34ac37a6bd7c298247a1be00ed4f6',1,'marshall.h']]],
   ['varint_5fmax',['VARINT_MAX',['../marshall_8h.html#abdded853f553807df4d7ff2363c313e8',1,'marshall.h']]],
   ['varint_5fsize_5fneeded',['varint_size_needed',['../marshall_8c.html#ae3f375b36a262ec3d5e8c06ba2be2442',1,'varint_size_needed(const uint64_t v):&#160;marshall.c'],['../marshall_8h.html#ae3f375b36a262ec3d5e8c06ba2be2442',1,'varint_size_needed(const uint64_t v):&#160;marshall.c']]],
-  ['verify_5fcerts',['verify_certs',['../structq__conf.html#aa793ceb2d618fcefb7b21f05d6565497',1,'q_conf']]],
   ['verify_5frtry_5ftok',['verify_rtry_tok',['../tls_8c.html#a779c1ebd1e6c43f05a373c84defb3fa8',1,'verify_rtry_tok(struct q_conn *const c, const uint8_t *const tok, const uint16_t tok_len):&#160;tls.c'],['../tls_8h.html#a779c1ebd1e6c43f05a373c84defb3fa8',1,'verify_rtry_tok(struct q_conn *const c, const uint8_t *const tok, const uint16_t tok_len):&#160;tls.c']]],
   ['vers',['vers',['../structpkt__hdr.html#aefa4a51682adca8379c85bc18566f4f3',1,'pkt_hdr::vers()'],['../structtls__ticket.html#a285338f27593961aaf2e1f41a6caeccd',1,'tls_ticket::vers()']]],
   ['vers_5fsupported',['vers_supported',['../conn_8c.html#a1ae0706a577e85efbcfacf517a329dbe',1,'vers_supported(const uint32_t v):&#160;conn.c'],['../conn_8h.html#a1ae0706a577e85efbcfacf517a329dbe',1,'vers_supported(const uint32_t v):&#160;conn.c']]],

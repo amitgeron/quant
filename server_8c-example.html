@@ -333,7 +333,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"></div>
 <div class="line">        <span class="comment">// do we need to q_accept?</span></div>
 <div class="line">        <span class="keywordflow">if</span> (<a name="a12"></a><a class="code" href="quant_8h.html#a76ddd1770d74ef5233f2f2f9aaa73dfa">q_is_new_serv_conn</a>(c))</div>
-<div class="line">            <a name="a13"></a><a class="code" href="quant_8h.html#a3da1ca1e589303333e8bba9cfbb1f4da">q_accept</a>(0);</div>
+<div class="line">            <a name="a13"></a><a class="code" href="quant_8h.html#a5b452d2c7658c801b4182547d75880a4">q_accept</a>(&amp;(<span class="keyword">struct</span> <a name="_a14"></a><a class="code" href="structq__conn__conf.html">q_conn_conf</a>){</div>
+<div class="line">                .idle_timeout = timeout,</div>
+<div class="line">                .enable_spinbit = <span class="keyword">true</span>,</div>
+<div class="line">            });</div>
 <div class="line"></div>
 <div class="line">        <span class="keywordflow">while</span> (1) {</div>
 <div class="line">            <span class="comment">// do we need to handle a request?</span></div>
@@ -342,7 +345,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"></div>
 <div class="line">            http_parser_init(&amp;parser, HTTP_REQUEST);</div>
 <div class="line">            <span class="keyword">struct </span>w_iov_sq q = w_iov_sq_initializer(q);</div>
-<div class="line">            <span class="keyword">struct </span><a class="code" href="structq__stream.html">q_stream</a> * s = <a name="a14"></a><a class="code" href="quant_8h.html#a3eca43a72005c71781fd6139f1f8d798">q_read</a>(c, &amp;q, <span class="keyword">false</span>);</div>
+<div class="line">            <span class="keyword">struct </span><a class="code" href="structq__stream.html">q_stream</a> * s = <a name="a15"></a><a class="code" href="quant_8h.html#a3eca43a72005c71781fd6139f1f8d798">q_read</a>(c, &amp;q, <span class="keyword">false</span>);</div>
 <div class="line"></div>
 <div class="line">            <span class="keywordflow">if</span> (sq_empty(&amp;q))</div>
 <div class="line">                <span class="keywordflow">break</span>;</div>
@@ -358,24 +361,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">                    ret = 1;</div>
 <div class="line">                    <span class="keywordflow">break</span>;</div>
 <div class="line">                }</div>
-<div class="line">                <span class="keywordflow">if</span> (<a name="a15"></a><a class="code" href="quant_8h.html#ae13d7142befff1e56bdab2813a120c3e">q_peer_has_closed_stream</a>(s)) {</div>
-<div class="line">                    <a name="a16"></a><a class="code" href="quant_8h.html#a01444581bd34af25498d1cb8fc3a0a92">q_close_stream</a>(s);</div>
+<div class="line">                <span class="keywordflow">if</span> (<a name="a16"></a><a class="code" href="quant_8h.html#ae13d7142befff1e56bdab2813a120c3e">q_peer_has_closed_stream</a>(s)) {</div>
+<div class="line">                    <a name="a17"></a><a class="code" href="quant_8h.html#a01444581bd34af25498d1cb8fc3a0a92">q_close_stream</a>(s);</div>
 <div class="line">                    <span class="keywordflow">break</span>;</div>
 <div class="line">                }</div>
 <div class="line">            }</div>
 <div class="line">            <a class="code" href="quant_8h.html#a4a7935a14e509d989eda300f16daf086">q_free</a>(&amp;q);</div>
 <div class="line">        }</div>
-<div class="line">        <a name="a17"></a><a class="code" href="quant_8h.html#a795c32a858382068fa5b5cf25af69a77">q_close</a>(c);</div>
+<div class="line">        <a name="a18"></a><a class="code" href="quant_8h.html#a795c32a858382068fa5b5cf25af69a77">q_close</a>(c);</div>
 <div class="line">    }</div>
 <div class="line"></div>
-<div class="line">    <a name="a18"></a><a class="code" href="quant_8h.html#a22f108de18d6532a45071881f7fb4dca">q_cleanup</a>(w);</div>
+<div class="line">    <a name="a19"></a><a class="code" href="quant_8h.html#a22f108de18d6532a45071881f7fb4dca">q_cleanup</a>(w);</div>
 <div class="line">    warn(DBG, <span class="stringliteral">&quot;%s exiting&quot;</span>, basename(argv[0]));</div>
 <div class="line">    <span class="keywordflow">return</span> ret;</div>
 <div class="line">}</div>
 </div><!-- fragment --> </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 10 2019 12:42:17 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 11 2019 09:17:58 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

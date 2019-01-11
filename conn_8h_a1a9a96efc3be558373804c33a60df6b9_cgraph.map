@@ -46,6 +46,6 @@
 <area shape="rect" id="node31" href="$conn_8c.html#a5743552083731c2f028e261c680fcd38" title="log_sent_pkts" alt="" coords="1227,811,1330,837"/>
 <area shape="rect" id="node34" href="$pkt_8c.html#a1f839697f5c2cb2a8b086249c85399bc" title="coalesce" alt="" coords="1392,1680,1467,1707"/>
 <area shape="rect" id="node35" href="$pkt_8c.html#a832f35b12b76346d36d217963c2a053d" title="can_coalesce_pkt_types" alt="" coords="1529,1680,1695,1707"/>
-<area shape="rect" id="node49" href="$quant_8h.html#a3da1ca1e589303333e8bba9cfbb1f4da" title="q_accept" alt="" coords="1076,195,1151,221"/>
+<area shape="rect" id="node49" href="$quant_8h.html#a5b452d2c7658c801b4182547d75880a4" title="q_accept" alt="" coords="1076,195,1151,221"/>
 <area shape="rect" id="node50" href="$quant_8h.html#a84a768c49cd352e1c8a109bda56ef3a6" title="q_rx_ready" alt="" coords="1070,144,1157,171"/>
 </map>

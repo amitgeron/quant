@@ -15,6 +15,7 @@ var searchData=
   ['tls_5fhshk_5fprop',['tls_hshk_prop',['../structtls.html#af67df1608ab6e88dcbeceb56dcef2487',1,'tls']]],
   ['tls_5fio',['tls_io',['../tls_8c.html#a4e66d17ae7e8756388309b9e193a9543',1,'tls_io(struct q_stream *const s, struct w_iov *const iv):&#160;tls.c'],['../tls_8h.html#a4e66d17ae7e8756388309b9e193a9543',1,'tls_io(struct q_stream *const s, struct w_iov *const iv):&#160;tls.c']]],
   ['tls_5fkey',['tls_key',['../structq__conf.html#a5190558a00f4cfe123bfd3cd493194a2',1,'q_conf']]],
+  ['tls_5fkey_5fupdate_5ffrequency',['tls_key_update_frequency',['../structq__conn__conf.html#a090a1f314cd2c86c68f7950d4cf48a85',1,'q_conn_conf']]],
   ['tls_5flog',['tls_log',['../structq__conf.html#a4297c20c4fbd37a729fac317c2edb01b',1,'q_conf']]],
   ['tls_5flog_5ffile',['tls_log_file',['../tls_8c.html#a0334391e62e54695e81b99742ea9a9f2',1,'tls.c']]],
   ['tls_5fticket',['tls_ticket',['../structtls__ticket.html',1,'']]],

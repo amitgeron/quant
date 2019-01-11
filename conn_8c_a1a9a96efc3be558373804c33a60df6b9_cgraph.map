@@ -38,7 +38,7 @@
 <area shape="rect" id="node33" href="$pkt_8c.html#a1f839697f5c2cb2a8b086249c85399bc" title="coalesce" alt="" coords="804,56,879,83"/>
 <area shape="rect" id="node34" href="$pkt_8c.html#a832f35b12b76346d36d217963c2a053d" title="can_coalesce_pkt_types" alt="" coords="966,5,1133,32"/>
 <area shape="rect" id="node35" href="$pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="1013,56,1085,83"/>
-<area shape="rect" id="node38" href="$quant_8h.html#a3da1ca1e589303333e8bba9cfbb1f4da" title="q_accept" alt="" coords="804,1592,879,1619"/>
+<area shape="rect" id="node38" href="$quant_8h.html#a5b452d2c7658c801b4182547d75880a4" title="q_accept" alt="" coords="804,1592,879,1619"/>
 <area shape="rect" id="node39" href="$quant_8h.html#a84a768c49cd352e1c8a109bda56ef3a6" title="q_rx_ready" alt="" coords="798,1643,885,1669"/>
 <area shape="rect" id="node41" href="$stream_8c.html#abd56ea788d8872433901695928a944ab" title="do_stream_id_fc" alt="" coords="254,1643,373,1669"/>
 <area shape="rect" id="node42" href="$conn_8c.html#ad1e5e232a8372127e2130e85e7cdbb8d" title="use_next_dcid" alt="" coords="260,1693,367,1720"/>

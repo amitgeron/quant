@@ -46,7 +46,7 @@ var searchData=
   ['diet_5fremove',['diet_remove',['../diet_8c.html#a1ff8134cd224b1f148462bb051c75f1d',1,'diet_remove(struct diet *const d, const uint64_t n):&#160;diet.c'],['../diet_8h.html#a1ff8134cd224b1f148462bb051c75f1d',1,'diet_remove(struct diet *const d, const uint64_t n):&#160;diet.c']]],
   ['diet_5ftimestamp',['diet_timestamp',['../diet_8h.html#af0ddae2a11095bcdabe422dfc44f910a',1,'diet.h']]],
   ['diet_5fto_5fstr',['diet_to_str',['../diet_8c.html#aece76d9290a6c7d12958a2fa703fee87',1,'diet_to_str(char *const str, const size_t len, struct diet *const d):&#160;diet.c'],['../diet_8h.html#aece76d9290a6c7d12958a2fa703fee87',1,'diet_to_str(char *const str, const size_t len, struct diet *const d):&#160;diet.c']]],
-  ['disable_5fmigration',['disable_migration',['../structtransport__params.html#a40bee6f6291254f7704bf8c6f0680561',1,'transport_params']]],
+  ['disable_5fmigration',['disable_migration',['../structq__conn__conf.html#a33794507b37d4e6646c4f94a21fea5ed',1,'q_conn_conf::disable_migration()'],['../structtransport__params.html#a40bee6f6291254f7704bf8c6f0680561',1,'transport_params::disable_migration()']]],
   ['dispose_5fcipher',['dispose_cipher',['../tls_8c.html#a0e432c22353f0539562e3eb2382001e2',1,'dispose_cipher(struct st_quicly_cipher_context_t *ctx):&#160;tls.c'],['../tls_8h.html#a86dadd6335ccba621befa72f320fcf3e',1,'dispose_cipher(struct cipher_ctx *ctx):&#160;tls.h']]],
   ['do_5fconn_5ffc',['do_conn_fc',['../conn_8c.html#a4bcf08ef3dc5cc610474c8d0fa7947ee',1,'do_conn_fc(struct q_conn *const c):&#160;conn.c'],['../conn_8h.html#a4bcf08ef3dc5cc610474c8d0fa7947ee',1,'do_conn_fc(struct q_conn *const c):&#160;conn.c']]],
   ['do_5fconn_5fmgmt',['do_conn_mgmt',['../conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80',1,'conn.c']]],
@@ -56,6 +56,5 @@ var searchData=
   ['do_5floop_5frun',['do_loop_run',['../quic_8c.html#aac86407b2cf4d96e99b24523d4beb36c',1,'quic.c']]],
   ['do_5fstream_5ffc',['do_stream_fc',['../stream_8c.html#ae4a57a5b73d68625c63574f6c4109bad',1,'do_stream_fc(struct q_stream *const s):&#160;stream.c'],['../stream_8h.html#ae4a57a5b73d68625c63574f6c4109bad',1,'do_stream_fc(struct q_stream *const s):&#160;stream.c']]],
   ['do_5fstream_5fid_5ffc',['do_stream_id_fc',['../stream_8c.html#abd56ea788d8872433901695928a944ab',1,'do_stream_id_fc(struct q_conn *const c, const int64_t sid):&#160;stream.c'],['../stream_8h.html#abd56ea788d8872433901695928a944ab',1,'do_stream_id_fc(struct q_conn *const c, const int64_t sid):&#160;stream.c']]],
-  ['do_5ftls_5fkey_5fflips',['do_tls_key_flips',['../tls_8c.html#a401535823e7f23a099ce60140840a573',1,'tls.c']]],
   ['do_5ftx',['do_tx',['../conn_8c.html#a061f6268bdb3054227eedf2ca20cb8a1',1,'conn.c']]]
 ];

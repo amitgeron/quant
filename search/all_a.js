@@ -3,6 +3,7 @@ var searchData=
   ['kdefaultinitialrtt',['kDefaultInitialRtt',['../quic_8h.html#a57cf52613e865fe135897085d0a23be7',1,'quic.h']]],
   ['kdelayedacktimeout',['kDelayedAckTimeout',['../quic_8h.html#a40f401a9aabe2cfcf4508f9b36c244c7',1,'quic.h']]],
   ['kdelayedcryptoacktimeout',['kDelayedCryptoAckTimeout',['../quic_8h.html#a49fa09eb2a7c818369032f10e25a067d',1,'quic.h']]],
+  ['key_5fflip',['key_flip',['../conn_8c.html#a2621abf65fb184088e514b520b80c334',1,'conn.c']]],
   ['kh_5fcid_5fcmp',['kh_cid_cmp',['../conn_8h.html#a90115a99b400e667c2ea225b0942ebcf',1,'conn.h']]],
   ['kh_5fforeach',['kh_foreach',['../conn_8h.html#afa0654688c7a37571136cf3dc9e684f2',1,'conn.h']]],
   ['khash_5finit',['KHASH_INIT',['../conn_8h.html#a2f3506018ac4d10d7d8e9a678e8c59a3',1,'KHASH_INIT(conns_by_id, struct cid *, struct q_conn *, 1, hash_cid, kh_cid_cmp) extern khash_t(conns_by_ipnp)*conns_by_ipnp:&#160;conn.h'],['../conn_8h.html#a1f4a36900c59e2742260d292c1ff64ab',1,'KHASH_INIT(cids_by_id, struct cid *, struct cid *, 1, hash_cid, kh_cid_cmp) struct q_conn:&#160;conn.h']]],
