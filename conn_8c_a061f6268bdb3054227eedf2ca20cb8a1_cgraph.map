@@ -1,6 +1,7 @@
 <map id="do_tx" name="do_tx">
-<area shape="rect" id="node2" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="449,31,498,57"/>
-<area shape="rect" id="node3" href="$pkt_8c.html#a1f839697f5c2cb2a8b086249c85399bc" title="coalesce" alt="" coords="109,31,184,57"/>
-<area shape="rect" id="node4" href="$pkt_8c.html#a832f35b12b76346d36d217963c2a053d" title="can_coalesce_pkt_types" alt="" coords="233,31,399,57"/>
-<area shape="rect" id="node5" href="$pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="280,81,352,108"/>
+<area shape="rect" id="node2" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="569,82,618,109"/>
+<area shape="rect" id="node3" href="$pkt_8c.html#a1f839697f5c2cb2a8b086249c85399bc" title="coalesce" alt="" coords="109,57,184,83"/>
+<area shape="rect" id="node4" href="$pkt_8c.html#a832f35b12b76346d36d217963c2a053d" title="can_coalesce_pkt_types" alt="" coords="233,31,399,58"/>
+<area shape="rect" id="node5" href="$pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="448,82,520,109"/>
+<area shape="rect" id="node6" href="$pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="269,133,363,159"/>
 </map>
