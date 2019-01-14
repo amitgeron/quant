@@ -121,9 +121,6 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae3f375b36a262ec3d5e8c06ba2be2442"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="marshall_8c.html#ae3f375b36a262ec3d5e8c06ba2be2442">varint_size_needed</a> (const uint64_t v)</td></tr>
-<tr class="memdesc:ae3f375b36a262ec3d5e8c06ba2be2442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes number of bytes need to enccode <code>v</code> in QUIC varint encoding.  <a href="#ae3f375b36a262ec3d5e8c06ba2be2442">More...</a><br/></td></tr>
-<tr class="separator:ae3f375b36a262ec3d5e8c06ba2be2442"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00e3a0933a4392d78d0ffe5592a00f13"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="marshall_8c.html#a00e3a0933a4392d78d0ffe5592a00f13">marshall_enc</a> (uint8_t *const buf, const uint16_t buf_len, const uint16_t pos, const void *const src, const uint8_t src_len, const uint8_t enc_len)</td></tr>
 <tr class="separator:a00e3a0933a4392d78d0ffe5592a00f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e5b3e621f7eb32b23f97da0dd99a834"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="marshall_8c.html#a1e5b3e621f7eb32b23f97da0dd99a834">marshall_enc_buf</a> (uint8_t *const buf, const uint16_t buf_len, const uint16_t pos, const void *const src, const uint16_t enc_len)</td></tr>
@@ -165,7 +162,7 @@ Functions</h2></td></tr>
 <div class="line">        memcpy(&amp;(var), &amp;buf[i], (len));                                        \</div>
 <div class="line">        i += (len);                                                            \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
-<div class="ttc" id="marshall_8c_html_a3174b10b1e6faa4ee79aebf5a49f60ce"><div class="ttname"><a href="marshall_8c.html#a3174b10b1e6faa4ee79aebf5a49f60ce">warn_overrun</a></div><div class="ttdeci">#define warn_overrun</div><div class="ttdef"><b>Definition:</b> marshall.c:266</div></div>
+<div class="ttc" id="marshall_8c_html_a3174b10b1e6faa4ee79aebf5a49f60ce"><div class="ttname"><a href="marshall_8c.html#a3174b10b1e6faa4ee79aebf5a49f60ce">warn_overrun</a></div><div class="ttdeci">#define warn_overrun</div><div class="ttdef"><b>Definition:</b> marshall.c:249</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -218,7 +215,7 @@ Functions</h2></td></tr>
 <div class="line">        i += (len);                                                            <a class="code" href="marshall_8c.html#a4c9f737352d10453560686bc1d742e9a">\</a></div>
 <div class="line"><a class="code" href="marshall_8c.html#a4c9f737352d10453560686bc1d742e9a">        log_enc</a>(type, (fmt), (enc_type));                                      \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
-<div class="ttc" id="marshall_8c_html_a4c9f737352d10453560686bc1d742e9a"><div class="ttname"><a href="marshall_8c.html#a4c9f737352d10453560686bc1d742e9a">log_enc</a></div><div class="ttdeci">#define log_enc(type, fmt, enc_type)</div><div class="ttdef"><b>Definition:</b> marshall.c:111</div></div>
+<div class="ttc" id="marshall_8c_html_a4c9f737352d10453560686bc1d742e9a"><div class="ttname"><a href="marshall_8c.html#a4c9f737352d10453560686bc1d742e9a">log_enc</a></div><div class="ttdeci">#define log_enc(type, fmt, enc_type)</div><div class="ttdef"><b>Definition:</b> marshall.c:93</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -479,35 +476,10 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae3f375b36a262ec3d5e8c06ba2be2442"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t varint_size_needed </td>
-          <td>(</td>
-          <td class="paramtype">const uint64_t&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Computes number of bytes need to enccode <code>v</code> in QUIC varint encoding. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">v</td><td>Value to check.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Number of bytes needed in varint encoding (1, 2, 4 or 8). </dd></dl>
-
-</div>
-</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 11 2019 14:13:01 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jan 14 2019 11:34:52 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

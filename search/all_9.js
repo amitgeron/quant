@@ -29,7 +29,7 @@ var searchData=
   ['is_5fack_5for_5fpadding_5fonly',['is_ack_or_padding_only',['../quic_8h.html#ae64eb493276abdc60cd97ea2f6d96f78',1,'quic.h']]],
   ['is_5facked',['is_acked',['../structpkt__meta.html#a3a15ff29d90b1fb954de8384f0de59b7',1,'pkt_meta']]],
   ['is_5ffin',['is_fin',['../quic_8h.html#a6bb0d7cd1774df0297a9540111f46308',1,'quic.h']]],
-  ['is_5fforce_5fneg_5fvers',['is_force_neg_vers',['../conn_8h.html#ad42b6442b32fa307a6b5293b9b9df058',1,'conn.h']]],
+  ['is_5fforce_5fvneg_5fvers',['is_force_vneg_vers',['../conn_8h.html#a3b1788e29ec153bfcb2b7edc34c488a6',1,'conn.h']]],
   ['is_5finf',['is_inf',['../conn_8h.html#a07cb3f3bb2c38f820f0a7fd74de25d6d',1,'conn.h']]],
   ['is_5flh',['is_lh',['../pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d',1,'pkt.h']]],
   ['is_5flost',['is_lost',['../structpkt__meta.html#a1dc5c504a91969f7598208109fb18cdb',1,'pkt_meta']]],

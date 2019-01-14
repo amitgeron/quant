@@ -1,7 +1,6 @@
 var searchData=
 [
   ['path_5fchlg_5flimit',['PATH_CHLG_LIMIT',['../quic_8h.html#aa876ff5e6506d8046bcd6340f4e97de1',1,'quic.h']]],
-  ['pick_5ffrom_5fserver_5fvers',['pick_from_server_vers',['../conn_8c.html#a9512dc2ed1b8796966112d60b0abb037',1,'conn.c']]],
   ['pkt_2ec',['pkt.c',['../pkt_8c.html',1,'']]],
   ['pkt_2eh',['pkt.h',['../pkt_8h.html',1,'']]],
   ['pkt_5fhdr',['pkt_hdr',['../structpkt__hdr.html',1,'']]],

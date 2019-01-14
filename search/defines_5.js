@@ -13,5 +13,6 @@ var searchData=
   ['err_5fstream_5fid',['ERR_STREAM_ID',['../pkt_8h.html#aec95413875d567727f2a7796e5a65ff5',1,'pkt.h']]],
   ['err_5ftls',['ERR_TLS',['../pkt_8h.html#ae6b18bb77d7a31d51b26f237f55bd3aa',1,'pkt.h']]],
   ['err_5ftransport_5fparameter',['ERR_TRANSPORT_PARAMETER',['../pkt_8h.html#a73915150f68e9c3ae13506a9f08e0492',1,'pkt.h']]],
+  ['err_5fversion_5fnegotiation',['ERR_VERSION_NEGOTIATION',['../pkt_8h.html#a84ded231118d4b0ab9d563b778d2ae9b',1,'pkt.h']]],
   ['ev_5fverify',['EV_VERIFY',['../quic_8h.html#a733907018d667311b3e174666c6d2f0f',1,'quic.h']]]
 ];
