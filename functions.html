@@ -132,7 +132,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="structtransport__params.html#a0143101956dd5ff0b93d9fca74895a66">transport_params</a>
 </li>
 <li>_unused2
-: <a class="el" href="structrecovery.html#afde8ec90b8d6b16a0af1f344ae6b498f">recovery</a>
+: <a class="el" href="structrecovery.html#a344cf1f099124552cd32f8d88bf0806c">recovery</a>
 </li>
 </ul>
 
@@ -149,6 +149,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>ack_del_exp
 : <a class="el" href="structtransport__params.html#ae332eb1c8176a3916959caa35f810278">transport_params</a>
+</li>
+<li>ack_eliciting_in_flight
+: <a class="el" href="structrecovery.html#a3619da7c4f32ca7dfa2dcde670ac646a">recovery</a>
 </li>
 <li>acked
 : <a class="el" href="structpn__space.html#a258b213b1fbb488b1d1dda308dcade45">pn_space</a>
@@ -176,6 +179,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>ce_cnt
 : <a class="el" href="structpn__space.html#a96550827186645aeec33f09adf1719de">pn_space</a>
+, <a class="el" href="structrecovery.html#a6d05147b8997b09920401f62530db8d9">recovery</a>
 </li>
 <li>cid
 : <a class="el" href="structooo__0rtt.html#a9a8841c9488245645e26408553d567b4">ooo_0rtt</a>
@@ -218,9 +222,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>enable_udp_zero_checksums
 : <a class="el" href="structq__conn__conf.html#a5edb8760602e5d9c149ebe697f92682a">q_conn_conf</a>
-</li>
-<li>eor
-: <a class="el" href="structrecovery.html#ab998dff653da4ec3cec8866209153a96">recovery</a>
 </li>
 <li>epoch_out
 : <a class="el" href="structtls.html#af7b9aba5f8995cef9a777a0a902e59b3">tls</a>
@@ -312,11 +313,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 
 <h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
+<li>last_sent_ack_elicit_t
+: <a class="el" href="structrecovery.html#a4f1da583d0bab125e198b498537f8f71">recovery</a>
+</li>
 <li>last_sent_crypto_t
 : <a class="el" href="structrecovery.html#a3cbb49a56de6829477e41bca89bf666a">recovery</a>
-</li>
-<li>last_sent_rtxable_t
-: <a class="el" href="structrecovery.html#aa3d94d2430dc1b13cdda7e5857f8137a">recovery</a>
 </li>
 <li>latest_rtt
 : <a class="el" href="structrecovery.html#a34571d44f4791519797d7915419cb48d">recovery</a>
@@ -450,10 +451,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="structpn__data__space.html#a7015c67c7ba0975861238ddb98f6c4ca">pn_data_space</a>
 , <a class="el" href="structpn__hshk__space.html#a80925708a3b813e2c2371f472806c3db">pn_hshk_space</a>
 </li>
+<li>pto_cnt
+: <a class="el" href="structrecovery.html#ac25b69c1b12ebc583cf3fe522c2e284e">recovery</a>
+</li>
 </ul>
 
 
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
+<li>rec_start_t
+: <a class="el" href="structrecovery.html#a8a540ddba0ef2e966827c57d9ce92a5c">recovery</a>
+</li>
 <li>recv
 : <a class="el" href="structpn__space.html#a7227a74b96300049e4716959528092df">pn_space</a>
 </li>
@@ -462,9 +469,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>retired
 : <a class="el" href="structcid.html#ae13435266a8a51eea685c06616552356">cid</a>
-</li>
-<li>rto_cnt
-: <a class="el" href="structrecovery.html#ac7b5471d131ba1c6e5aa98d6a1a850db">recovery</a>
 </li>
 <li>rttvar
 : <a class="el" href="structrecovery.html#a5cf84e57d9dd40c22412c44c72144917">recovery</a>
@@ -552,9 +556,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>ticket_store
 : <a class="el" href="structq__conf.html#a5feab3b51a6bba2ef3c2a37a519477ad">q_conf</a>
 </li>
-<li>tlp_cnt
-: <a class="el" href="structrecovery.html#aac7447a2fe4bec39b937f846da66fcfe">recovery</a>
-</li>
 <li>tls_cert
 : <a class="el" href="structq__conf.html#a11599bd726b7a3ab58f751a6669ab4fd">q_conf</a>
 </li>
@@ -609,7 +610,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 14 2019 17:31:43 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 15 2019 13:37:03 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

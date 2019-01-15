@@ -2,6 +2,7 @@ var searchData=
 [
   ['read_5ftickets',['read_tickets',['../tls_8c.html#a65f1490238853f0e913186fd5c3311c7',1,'tls.c']]],
   ['readme_2emd',['README.md',['../README_8md.html',1,'']]],
+  ['rec_5fstart_5ft',['rec_start_t',['../structrecovery.html#a8a540ddba0ef2e966827c57d9ce92a5c',1,'recovery']]],
   ['recovery',['recovery',['../structrecovery.html',1,'']]],
   ['recovery_2ec',['recovery.c',['../recovery_8c.html',1,'']]],
   ['recovery_2eh',['recovery.h',['../recovery_8h.html',1,'']]],
@@ -13,7 +14,6 @@ var searchData=
   ['reset_5fstream',['reset_stream',['../stream_8c.html#a23976e8cd7c5aecf8e137324fce993d0',1,'reset_stream(struct q_stream *const s, const bool forget):&#160;stream.c'],['../stream_8h.html#a23976e8cd7c5aecf8e137324fce993d0',1,'reset_stream(struct q_stream *const s, const bool forget):&#160;stream.c']]],
   ['retired',['retired',['../structcid.html#ae13435266a8a51eea685c06616552356',1,'cid']]],
   ['rev',['REV',['../quic_8h.html#a33a42d6bfefe54ae2384f5c28dd87340',1,'quic.h']]],
-  ['rto_5fcnt',['rto_cnt',['../structrecovery.html#ac7b5471d131ba1c6e5aa98d6a1a850db',1,'recovery']]],
   ['rttvar',['rttvar',['../structrecovery.html#a5cf84e57d9dd40c22412c44c72144917',1,'recovery']]],
   ['rtx',['rtx',['../structpkt__meta.html#ad9cde51e14c2886f5a9e5d7f2aec6695',1,'pkt_meta']]],
   ['rtx_5fpkt',['rtx_pkt',['../conn_8c.html#a12a896285cd7039b1bcd66c5fa895ec0',1,'conn.c']]],

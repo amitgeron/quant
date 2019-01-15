@@ -117,7 +117,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="quic_8h__dep__incl.png" border="0" usemap="#src_2quic_8hdep" alt=""/></div>
 <map name="src_2quic_8hdep" id="src_2quic_8hdep">
-<area shape="rect" id="node2" href="pn_8h.html" title="src/pn.h" alt="" coords="404,80,473,107"/><area shape="rect" id="node3" href="conn_8h.html" title="src/conn.h" alt="" coords="548,155,629,181"/><area shape="rect" id="node4" href="conn_8c.html" title="src/conn.c" alt="" coords="1129,304,1211,331"/><area shape="rect" id="node5" href="pkt_8h.html" title="src/pkt.h" alt="" coords="654,229,727,256"/><area shape="rect" id="node6" href="frame_8c.html" title="src/frame.c" alt="" coords="747,304,835,331"/><area shape="rect" id="node7" href="pkt_8c.html" title="src/pkt.c" alt="" coords="957,304,1029,331"/><area shape="rect" id="node8" href="quic_8c.html" title="src/quic.c" alt="" coords="305,304,383,331"/><area shape="rect" id="node9" href="recovery_8c.html" title="src/recovery.c" alt="" coords="447,304,552,331"/><area shape="rect" id="node10" href="stream_8c.html" title="src/stream.c" alt="" coords="598,304,692,331"/><area shape="rect" id="node11" href="tls_8c.html" title="src/tls.c" alt="" coords="157,304,227,331"/><area shape="rect" id="node12" href="stream_8h.html" title="src/stream.h" alt="" coords="433,229,527,256"/><area shape="rect" id="node14" href="recovery_8h.html" title="src/recovery.h" alt="" coords="986,80,1091,107"/><area shape="rect" id="node13" href="pn_8c.html" title="src/pn.c" alt="" coords="5,304,75,331"/></map>
+<area shape="rect" id="node2" href="pn_8h.html" title="src/pn.h" alt="" coords="668,80,737,107"/><area shape="rect" id="node3" href="conn_8h.html" title="src/conn.h" alt="" coords="740,155,821,181"/><area shape="rect" id="node4" href="conn_8c.html" title="src/conn.c" alt="" coords="505,304,587,331"/><area shape="rect" id="node5" href="pkt_8h.html" title="src/pkt.h" alt="" coords="538,229,611,256"/><area shape="rect" id="node6" href="frame_8c.html" title="src/frame.c" alt="" coords="109,304,197,331"/><area shape="rect" id="node7" href="pkt_8c.html" title="src/pkt.c" alt="" coords="613,304,685,331"/><area shape="rect" id="node8" href="quic_8c.html" title="src/quic.c" alt="" coords="933,304,1011,331"/><area shape="rect" id="node9" href="recovery_8c.html" title="src/recovery.c" alt="" coords="237,304,341,331"/><area shape="rect" id="node10" href="stream_8c.html" title="src/stream.c" alt="" coords="783,304,877,331"/><area shape="rect" id="node11" href="tls_8c.html" title="src/tls.c" alt="" coords="1241,304,1311,331"/><area shape="rect" id="node12" href="stream_8h.html" title="src/stream.h" alt="" coords="839,229,933,256"/><area shape="rect" id="node14" href="recovery_8h.html" title="src/recovery.h" alt="" coords="357,80,461,107"/><area shape="rect" id="node13" href="pn_8c.html" title="src/pn.c" alt="" coords="1115,304,1184,331"/></map>
 </div>
 </div>
 <p><a href="quic_8h_source.html">Go to the source code of this file.</a></p>
@@ -170,31 +170,19 @@ Macros</h2></td></tr>
 <tr class="separator:a0721d3a6a0adbe5443a85d94ee4da000"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a650f79c60d6d19b0edeeb1735bbd5000"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a650f79c60d6d19b0edeeb1735bbd5000">is_rtxable</a>(p)&#160;&#160;&#160;(p)-&gt;stream_header_pos</td></tr>
 <tr class="separator:a650f79c60d6d19b0edeeb1735bbd5000"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a865a71929a750620626cb3cc40331593"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a865a71929a750620626cb3cc40331593">kMaxTLPs</a>&#160;&#160;&#160;2</td></tr>
-<tr class="memdesc:a865a71929a750620626cb3cc40331593"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of tail loss probes before an RTO fires.  <a href="#a865a71929a750620626cb3cc40331593">More...</a><br/></td></tr>
-<tr class="separator:a865a71929a750620626cb3cc40331593"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b5a2aa5c74e12d1fbca2a30cc935ceb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a9b5a2aa5c74e12d1fbca2a30cc935ceb">kReorderingThreshold</a>&#160;&#160;&#160;3</td></tr>
-<tr class="memdesc:a9b5a2aa5c74e12d1fbca2a30cc935ceb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum reordering in packet number space before FACK style loss detection considers a packet lost.  <a href="#a9b5a2aa5c74e12d1fbca2a30cc935ceb">More...</a><br/></td></tr>
-<tr class="separator:a9b5a2aa5c74e12d1fbca2a30cc935ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a048fdd5c32f4271c04feb6a3ee7dc965"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a048fdd5c32f4271c04feb6a3ee7dc965">kMinTLPTimeout</a>&#160;&#160;&#160;0.01</td></tr>
-<tr class="memdesc:a048fdd5c32f4271c04feb6a3ee7dc965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum time in the future a tail loss probe alarm may be set for (in sec).  <a href="#a048fdd5c32f4271c04feb6a3ee7dc965">More...</a><br/></td></tr>
-<tr class="separator:a048fdd5c32f4271c04feb6a3ee7dc965"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab313c961009db6704b18240de72624c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#ab313c961009db6704b18240de72624c3">kMinRTOTimeout</a>&#160;&#160;&#160;0.2</td></tr>
-<tr class="memdesc:ab313c961009db6704b18240de72624c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum time in the future an RTO alarm may be set for (in sec).  <a href="#ab313c961009db6704b18240de72624c3">More...</a><br/></td></tr>
-<tr class="separator:ab313c961009db6704b18240de72624c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40f401a9aabe2cfcf4508f9b36c244c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a40f401a9aabe2cfcf4508f9b36c244c7">kDelayedAckTimeout</a>&#160;&#160;&#160;0.025</td></tr>
-<tr class="memdesc:a40f401a9aabe2cfcf4508f9b36c244c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The length of the peer’s delayed ack timer (in sec).  <a href="#a40f401a9aabe2cfcf4508f9b36c244c7">More...</a><br/></td></tr>
-<tr class="separator:a40f401a9aabe2cfcf4508f9b36c244c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49fa09eb2a7c818369032f10e25a067d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a49fa09eb2a7c818369032f10e25a067d">kDelayedCryptoAckTimeout</a>&#160;&#160;&#160;0.001</td></tr>
-<tr class="separator:a49fa09eb2a7c818369032f10e25a067d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57cf52613e865fe135897085d0a23be7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a57cf52613e865fe135897085d0a23be7">kDefaultInitialRtt</a>&#160;&#160;&#160;0.1</td></tr>
-<tr class="memdesc:a57cf52613e865fe135897085d0a23be7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default RTT used before an RTT sample is taken (in sec).  <a href="#a57cf52613e865fe135897085d0a23be7">More...</a><br/></td></tr>
-<tr class="separator:a57cf52613e865fe135897085d0a23be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa16a699e7946ec7e1fe1c62a721e140c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#aa16a699e7946ec7e1fe1c62a721e140c">kPacketThreshold</a>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:aa16a699e7946ec7e1fe1c62a721e140c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad73baff88a976d360e175eb408eb5923"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#ad73baff88a976d360e175eb408eb5923">kTimeThreshold</a>&#160;&#160;&#160;1.125</td></tr>
+<tr class="separator:ad73baff88a976d360e175eb408eb5923"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a5858cdd4682999fab57dbf6db748b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a9a5858cdd4682999fab57dbf6db748b1">kGranularity</a>&#160;&#160;&#160;0.001</td></tr>
+<tr class="separator:a9a5858cdd4682999fab57dbf6db748b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af47b8eb7e21dfad9602ccaa933ff97dd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#af47b8eb7e21dfad9602ccaa933ff97dd">kInitialRtt</a>&#160;&#160;&#160;0.1</td></tr>
+<tr class="separator:af47b8eb7e21dfad9602ccaa933ff97dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebba1773417b74b712e12052021ac07a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#aebba1773417b74b712e12052021ac07a">kMaxDatagramSize</a>&#160;&#160;&#160;1200</td></tr>
 <tr class="memdesc:aebba1773417b74b712e12052021ac07a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sender's maximum payload size.  <a href="#aebba1773417b74b712e12052021ac07a">More...</a><br/></td></tr>
 <tr class="separator:aebba1773417b74b712e12052021ac07a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5abc840ae2172a7f6ad89f37801a39f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a5abc840ae2172a7f6ad89f37801a39f8">kInitialWindow</a>&#160;&#160;&#160;MIN(10 * <a class="el" href="quic_8h.html#aebba1773417b74b712e12052021ac07a">kMaxDatagramSize</a>, MAX(2 * <a class="el" href="quic_8h.html#aebba1773417b74b712e12052021ac07a">kMaxDatagramSize</a>, 14600))</td></tr>
-<tr class="memdesc:a5abc840ae2172a7f6ad89f37801a39f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default limit on the initial amount of outstanding data in bytes.  <a href="#a5abc840ae2172a7f6ad89f37801a39f8">More...</a><br/></td></tr>
+<tr class="memdesc:a5abc840ae2172a7f6ad89f37801a39f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default limit on the initial amount of outstanding data in flight, in bytes.  <a href="#a5abc840ae2172a7f6ad89f37801a39f8">More...</a><br/></td></tr>
 <tr class="separator:a5abc840ae2172a7f6ad89f37801a39f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95be9e468ae520ae408ab00fdcf90a76"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a95be9e468ae520ae408ab00fdcf90a76">kMinimumWindow</a>&#160;&#160;&#160;(2 * <a class="el" href="quic_8h.html#aebba1773417b74b712e12052021ac07a">kMaxDatagramSize</a>)</td></tr>
 <tr class="memdesc:a95be9e468ae520ae408ab00fdcf90a76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum congestion window in bytes.  <a href="#a95be9e468ae520ae408ab00fdcf90a76">More...</a><br/></td></tr>
@@ -202,9 +190,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a89aaa7cfe3dfcee69830f4e5d39201fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a89aaa7cfe3dfcee69830f4e5d39201fe">kLossReductionDivisor</a>&#160;&#160;&#160;2</td></tr>
 <tr class="memdesc:a89aaa7cfe3dfcee69830f4e5d39201fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reduction in congestion window when a new loss event is detected.  <a href="#a89aaa7cfe3dfcee69830f4e5d39201fe">More...</a><br/></td></tr>
 <tr class="separator:a89aaa7cfe3dfcee69830f4e5d39201fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3c76edb95d10974fc5aeba628c86121"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#ae3c76edb95d10974fc5aeba628c86121">kIdleTimeout</a>&#160;&#160;&#160;10</td></tr>
-<tr class="memdesc:ae3c76edb95d10974fc5aeba628c86121"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default conn_idle timeout.  <a href="#ae3c76edb95d10974fc5aeba628c86121">More...</a><br/></td></tr>
-<tr class="separator:ae3c76edb95d10974fc5aeba628c86121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d0319f353240dd2e487b5e1f654224a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a8d0319f353240dd2e487b5e1f654224a">kPersistentCongestionThreshold</a>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:a8d0319f353240dd2e487b5e1f654224a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of consecutive PTOs after which network is considered to be experiencing persistent congestion.  <a href="#a8d0319f353240dd2e487b5e1f654224a">More...</a><br/></td></tr>
+<tr class="separator:a8d0319f353240dd2e487b5e1f654224a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a733907018d667311b3e174666c6d2f0f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a733907018d667311b3e174666c6d2f0f">EV_VERIFY</a>(l)&#160;&#160;&#160;ev_verify(l)</td></tr>
 <tr class="separator:a733907018d667311b3e174666c6d2f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ad32a90c9e8d6deb3bce417ea1a7efd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a6ad32a90c9e8d6deb3bce417ea1a7efd">OVERLOADED_MACRO</a>(M,...)&#160;&#160;&#160;<a class="el" href="quic_8h.html#abb8f7e61cd63ead81dcc89e845399a7f">OVR</a>(M, <a class="el" href="quic_8h.html#a37dd5b73b6d28da2b1e4e6289cc2a128">CNT_ARGS</a>(__VA_ARGS__))(__VA_ARGS__)</td></tr>
@@ -284,10 +272,8 @@ Functions</h2></td></tr>
 <tr class="separator:a9b34314984e48879b2f767d6f3e6ae92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab139ac46901fa03632f8075e6f800930"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#ab139ac46901fa03632f8075e6f800930">pm_cpy</a> (struct <a class="el" href="structpkt__meta.html">pkt_meta</a> *const dst, const struct <a class="el" href="structpkt__meta.html">pkt_meta</a> *const src, const bool also_frame_info)</td></tr>
 <tr class="separator:ab139ac46901fa03632f8075e6f800930"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05b0a63c2fe234f56513430fc2114eba"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a05b0a63c2fe234f56513430fc2114eba">is_ack_only</a> (const struct frames *const f)</td></tr>
-<tr class="separator:a05b0a63c2fe234f56513430fc2114eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae64eb493276abdc60cd97ea2f6d96f78"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#ae64eb493276abdc60cd97ea2f6d96f78">is_ack_or_padding_only</a> (const struct frames *const f)</td></tr>
-<tr class="separator:ae64eb493276abdc60cd97ea2f6d96f78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a759eb1ac4d505084da1c53b3f064dd"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd">is_ack_eliciting</a> (const struct frames *const f)</td></tr>
+<tr class="separator:a0a759eb1ac4d505084da1c53b3f064dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bb0d7cd1774df0297a9540111f46308"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a6bb0d7cd1774df0297a9540111f46308">is_fin</a> (const struct w_iov *const v)</td></tr>
 <tr class="separator:a6bb0d7cd1774df0297a9540111f46308"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed433a65a751df6b54c091d8facbfb57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#aed433a65a751df6b54c091d8facbfb57">pm_free</a> (struct <a class="el" href="structpkt__meta.html">pkt_meta</a> *const m)</td></tr>
@@ -798,57 +784,27 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a57cf52613e865fe135897085d0a23be7"></a>
+<a class="anchor" id="a9a5858cdd4682999fab57dbf6db748b1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define kDefaultInitialRtt&#160;&#160;&#160;0.1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The default RTT used before an RTT sample is taken (in sec). </p>
-
-</div>
-</div>
-<a class="anchor" id="a40f401a9aabe2cfcf4508f9b36c244c7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define kDelayedAckTimeout&#160;&#160;&#160;0.025</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The length of the peer’s delayed ack timer (in sec). </p>
-
-</div>
-</div>
-<a class="anchor" id="a49fa09eb2a7c818369032f10e25a067d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define kDelayedCryptoAckTimeout&#160;&#160;&#160;0.001</td>
+          <td class="memname">#define kGranularity&#160;&#160;&#160;0.001</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="ae3c76edb95d10974fc5aeba628c86121"></a>
+<a class="anchor" id="af47b8eb7e21dfad9602ccaa933ff97dd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define kIdleTimeout&#160;&#160;&#160;10</td>
+          <td class="memname">#define kInitialRtt&#160;&#160;&#160;0.1</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Default conn_idle timeout. </p>
 
 </div>
 </div>
@@ -862,8 +818,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Default limit on the initial amount of outstanding data in bytes. </p>
-<p>Taken from [RFC6928]. </p>
+<p>Default limit on the initial amount of outstanding data in flight, in bytes. </p>
+<p>Taken from [RFC6928]. The RECOMMENDED value is the minimum of 10 * kMaxDatagramSize and max(2* kMaxDatagramSize, 14600)). </p>
 
 </div>
 </div>
@@ -896,20 +852,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a865a71929a750620626cb3cc40331593"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define kMaxTLPs&#160;&#160;&#160;2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Maximum number of tail loss probes before an RTO fires. </p>
-
-</div>
-</div>
 <a class="anchor" id="a95be9e468ae520ae408ab00fdcf90a76"></a>
 <div class="memitem">
 <div class="memproto">
@@ -924,45 +866,42 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab313c961009db6704b18240de72624c3"></a>
+<a class="anchor" id="aa16a699e7946ec7e1fe1c62a721e140c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define kMinRTOTimeout&#160;&#160;&#160;0.2</td>
+          <td class="memname">#define kPacketThreshold&#160;&#160;&#160;3</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Minimum time in the future an RTO alarm may be set for (in sec). </p>
-
 </div>
 </div>
-<a class="anchor" id="a048fdd5c32f4271c04feb6a3ee7dc965"></a>
+<a class="anchor" id="a8d0319f353240dd2e487b5e1f654224a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define kMinTLPTimeout&#160;&#160;&#160;0.01</td>
+          <td class="memname">#define kPersistentCongestionThreshold&#160;&#160;&#160;2</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Minimum time in the future a tail loss probe alarm may be set for (in sec). </p>
+<p>Number of consecutive PTOs after which network is considered to be experiencing persistent congestion. </p>
+<p>The RECOMMENDED value for kPersistentCongestionThreshold is 2, which is equivalent to having two TLPs before an RTO in TCP. </p>
 
 </div>
 </div>
-<a class="anchor" id="a9b5a2aa5c74e12d1fbca2a30cc935ceb"></a>
+<a class="anchor" id="ad73baff88a976d360e175eb408eb5923"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define kReorderingThreshold&#160;&#160;&#160;3</td>
+          <td class="memname">#define kTimeThreshold&#160;&#160;&#160;1.125</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Maximum reordering in packet number space before FACK style loss detection considers a packet lost. </p>
 
 </div>
 </div>
@@ -1053,7 +992,7 @@ Variables</h2></td></tr>
 <div class="line"><a class="code" href="quic_8h.html#a593420bbec69beea4076ea6603019ea0">        api_func</a> == 0;                                                         \</div>
 <div class="line">    })</div>
 <div class="ttc" id="quic_8h_html_a593420bbec69beea4076ea6603019ea0"><div class="ttname"><a href="quic_8h.html#a593420bbec69beea4076ea6603019ea0">api_func</a></div><div class="ttdeci">func_ptr api_func</div><div class="ttdef"><b>Definition:</b> quic.c:89</div></div>
-<div class="ttc" id="quic_8h_html_a733907018d667311b3e174666c6d2f0f"><div class="ttname"><a href="quic_8h.html#a733907018d667311b3e174666c6d2f0f">EV_VERIFY</a></div><div class="ttdeci">#define EV_VERIFY(l)</div><div class="ttdef"><b>Definition:</b> quic.h:328</div></div>
+<div class="ttc" id="quic_8h_html_a733907018d667311b3e174666c6d2f0f"><div class="ttname"><a href="quic_8h.html#a733907018d667311b3e174666c6d2f0f">EV_VERIFY</a></div><div class="ttdeci">#define EV_VERIFY(l)</div><div class="ttdef"><b>Definition:</b> quic.h:321</div></div>
 <div class="ttc" id="quic_8h_html_a855923b555731173d3509ecb645de0e0"><div class="ttname"><a href="quic_8h.html#a855923b555731173d3509ecb645de0e0">loop</a></div><div class="ttdeci">struct ev_loop * loop</div><div class="ttdef"><b>Definition:</b> quic.c:87</div></div>
 <div class="ttc" id="quic_8h_html_a91b81b7384533b284fa05acbc6b6787d"><div class="ttname"><a href="quic_8h.html#a91b81b7384533b284fa05acbc6b6787d">api_conn</a></div><div class="ttdeci">void * api_conn</div><div class="ttdef"><b>Definition:</b> quic.c:90</div></div>
 <div class="ttc" id="quic_8h_html_a51e2b7dfe290cfc0a139b3768427de79"><div class="ttname"><a href="quic_8h.html#a51e2b7dfe290cfc0a139b3768427de79">api_strm</a></div><div class="ttdeci">void * api_strm</div><div class="ttdef"><b>Definition:</b> quic.c:90</div></div>
@@ -1111,9 +1050,9 @@ Variables</h2></td></tr>
 <div class="line"><a class="code" href="quic_8h.html#a593420bbec69beea4076ea6603019ea0">        api_func</a> == 0;                                                         \</div>
 <div class="line">    })</div>
 <div class="ttc" id="quic_8h_html_a593420bbec69beea4076ea6603019ea0"><div class="ttname"><a href="quic_8h.html#a593420bbec69beea4076ea6603019ea0">api_func</a></div><div class="ttdeci">func_ptr api_func</div><div class="ttdef"><b>Definition:</b> quic.c:89</div></div>
-<div class="ttc" id="quic_8h_html_a733907018d667311b3e174666c6d2f0f"><div class="ttname"><a href="quic_8h.html#a733907018d667311b3e174666c6d2f0f">EV_VERIFY</a></div><div class="ttdeci">#define EV_VERIFY(l)</div><div class="ttdef"><b>Definition:</b> quic.h:328</div></div>
+<div class="ttc" id="quic_8h_html_a733907018d667311b3e174666c6d2f0f"><div class="ttname"><a href="quic_8h.html#a733907018d667311b3e174666c6d2f0f">EV_VERIFY</a></div><div class="ttdeci">#define EV_VERIFY(l)</div><div class="ttdef"><b>Definition:</b> quic.h:321</div></div>
 <div class="ttc" id="quic_8h_html_a855923b555731173d3509ecb645de0e0"><div class="ttname"><a href="quic_8h.html#a855923b555731173d3509ecb645de0e0">loop</a></div><div class="ttdeci">struct ev_loop * loop</div><div class="ttdef"><b>Definition:</b> quic.c:87</div></div>
-<div class="ttc" id="quic_8h_html_aaf4e8117a58ef7278393d801e5d78c46"><div class="ttname"><a href="quic_8h.html#aaf4e8117a58ef7278393d801e5d78c46">func_ptr</a></div><div class="ttdeci">void(* func_ptr)(void)</div><div class="ttdef"><b>Definition:</b> quic.h:322</div></div>
+<div class="ttc" id="quic_8h_html_aaf4e8117a58ef7278393d801e5d78c46"><div class="ttname"><a href="quic_8h.html#aaf4e8117a58ef7278393d801e5d78c46">func_ptr</a></div><div class="ttdeci">void(* func_ptr)(void)</div><div class="ttdef"><b>Definition:</b> quic.h:315</div></div>
 <div class="ttc" id="quic_8h_html_a91b81b7384533b284fa05acbc6b6787d"><div class="ttname"><a href="quic_8h.html#a91b81b7384533b284fa05acbc6b6787d">api_conn</a></div><div class="ttdeci">void * api_conn</div><div class="ttdef"><b>Definition:</b> quic.c:90</div></div>
 <div class="ttc" id="quic_8h_html_a51e2b7dfe290cfc0a139b3768427de79"><div class="ttname"><a href="quic_8h.html#a51e2b7dfe290cfc0a139b3768427de79">api_strm</a></div><div class="ttdeci">void * api_strm</div><div class="ttdef"><b>Definition:</b> quic.c:90</div></div>
 </div><!-- fragment -->
@@ -1510,7 +1449,7 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a05b0a63c2fe234f56513430fc2114eba"></a>
+<a class="anchor" id="a0a759eb1ac4d505084da1c53b3f064dd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1518,7 +1457,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool is_ack_only </td>
+          <td class="memname">static bool is_ack_eliciting </td>
           <td>(</td>
           <td class="paramtype">const struct frames *const&#160;</td>
           <td class="paramname"><em>f</em></td><td>)</td>
@@ -1531,39 +1470,6 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ae64eb493276abdc60cd97ea2f6d96f78"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static bool is_ack_or_padding_only </td>
-          <td>(</td>
-          <td class="paramtype">const struct frames *const&#160;</td>
-          <td class="paramname"><em>f</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="quic_8h_ae64eb493276abdc60cd97ea2f6d96f78_cgraph.png" border="0" usemap="#quic_8h_ae64eb493276abdc60cd97ea2f6d96f78_cgraph" alt=""/></div>
-<map name="quic_8h_ae64eb493276abdc60cd97ea2f6d96f78_cgraph" id="quic_8h_ae64eb493276abdc60cd97ea2f6d96f78_cgraph">
-<area shape="rect" id="node2" href="quic_8h.html#a05b0a63c2fe234f56513430fc2114eba" title="is_ack_only" alt="" coords="216,5,307,32"/></map>
-</div>
-</p>
 
 </div>
 </div>
@@ -1927,7 +1833,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 14 2019 17:31:43 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 15 2019 13:37:03 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

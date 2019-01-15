@@ -35,7 +35,7 @@ var searchData=
   ['dispose_5fcipher',['dispose_cipher',['../tls_8c.html#a0e432c22353f0539562e3eb2382001e2',1,'dispose_cipher(struct st_quicly_cipher_context_t *ctx):&#160;tls.c'],['../tls_8h.html#a86dadd6335ccba621befa72f320fcf3e',1,'dispose_cipher(struct cipher_ctx *ctx):&#160;tls.h']]],
   ['do_5fconn_5ffc',['do_conn_fc',['../conn_8c.html#a4bcf08ef3dc5cc610474c8d0fa7947ee',1,'do_conn_fc(struct q_conn *const c):&#160;conn.c'],['../conn_8h.html#a4bcf08ef3dc5cc610474c8d0fa7947ee',1,'do_conn_fc(struct q_conn *const c):&#160;conn.c']]],
   ['do_5fconn_5fmgmt',['do_conn_mgmt',['../conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80',1,'conn.c']]],
-  ['do_5ffree_5fpn',['do_free_pn',['../pn_8c.html#a1946ca1d63daaffb29b1548382c89499',1,'pn.c']]],
+  ['do_5ffree_5fpn',['do_free_pn',['../pn_8c.html#a2a52ace3d6774524e581f1411c0da8f7',1,'pn.c']]],
   ['do_5floop_5frun',['do_loop_run',['../quic_8c.html#aac86407b2cf4d96e99b24523d4beb36c',1,'quic.c']]],
   ['do_5fstream_5ffc',['do_stream_fc',['../stream_8c.html#ae4a57a5b73d68625c63574f6c4109bad',1,'do_stream_fc(struct q_stream *const s):&#160;stream.c'],['../stream_8h.html#ae4a57a5b73d68625c63574f6c4109bad',1,'do_stream_fc(struct q_stream *const s):&#160;stream.c']]],
   ['do_5fstream_5fid_5ffc',['do_stream_id_fc',['../stream_8c.html#abd56ea788d8872433901695928a944ab',1,'do_stream_id_fc(struct q_conn *const c, const int64_t sid):&#160;stream.c'],['../stream_8h.html#abd56ea788d8872433901695928a944ab',1,'do_stream_id_fc(struct q_conn *const c, const int64_t sid):&#160;stream.c']]],

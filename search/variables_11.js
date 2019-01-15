@@ -5,7 +5,6 @@ var searchData=
   ['ticket_5flen',['ticket_len',['../structtls__ticket.html#a73c0be54802c116bafc9060d4461e815',1,'tls_ticket']]],
   ['ticket_5fstore',['ticket_store',['../structq__conf.html#a5feab3b51a6bba2ef3c2a37a519477ad',1,'q_conf']]],
   ['tickets',['tickets',['../tls_8c.html#a6003d7936480a100f9c9d171ad5dfb21',1,'tls.c']]],
-  ['tlp_5fcnt',['tlp_cnt',['../structrecovery.html#aac7447a2fe4bec39b937f846da66fcfe',1,'recovery']]],
   ['tls_5fcert',['tls_cert',['../structq__conf.html#a11599bd726b7a3ab58f751a6669ab4fd',1,'q_conf']]],
   ['tls_5fctx',['tls_ctx',['../tls_8c.html#af6bbbfab377148ff702ada5a44a7ae73',1,'tls_ctx():&#160;tls.c'],['../tls_8h.html#af6bbbfab377148ff702ada5a44a7ae73',1,'tls_ctx():&#160;tls.c']]],
   ['tls_5fhshk_5fprop',['tls_hshk_prop',['../structtls.html#af67df1608ab6e88dcbeceb56dcef2487',1,'tls']]],

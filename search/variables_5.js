@@ -8,6 +8,5 @@ var searchData=
   ['enable_5fudp_5fzero_5fchecksums',['enable_udp_zero_checksums',['../structq__conn__conf.html#a5edb8760602e5d9c149ebe697f92682a',1,'q_conn_conf']]],
   ['enc_5ftckt',['enc_tckt',['../tls_8c.html#ae52de31f9ac17d5ebb79d284d90cc1aa',1,'tls.c']]],
   ['encrypt_5fticket',['encrypt_ticket',['../tls_8c.html#a4f25450b3aa01cc353142a2b8d76cfd9',1,'tls.c']]],
-  ['eor',['eor',['../structrecovery.html#ab998dff653da4ec3cec8866209153a96',1,'recovery']]],
   ['epoch_5fout',['epoch_out',['../structtls.html#af7b9aba5f8995cef9a777a0a902e59b3',1,'tls']]]
 ];

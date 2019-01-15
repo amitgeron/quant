@@ -13,6 +13,7 @@ var searchData=
   ['clnt_5fvneg',['clnt_vneg',['../pkt_8c.html#ad04b9f10bc7ad63422f56e3a4fe70e5e',1,'clnt_vneg(const uint8_t *const buf, const uint16_t len):&#160;pkt.c'],['../pkt_8h.html#ad04b9f10bc7ad63422f56e3a4fe70e5e',1,'clnt_vneg(const uint8_t *const buf, const uint16_t len):&#160;pkt.c']]],
   ['coalesce',['coalesce',['../pkt_8c.html#a1f839697f5c2cb2a8b086249c85399bc',1,'coalesce(struct w_iov_sq *const q):&#160;pkt.c'],['../pkt_8h.html#a1f839697f5c2cb2a8b086249c85399bc',1,'coalesce(struct w_iov_sq *const q):&#160;pkt.c']]],
   ['concat_5fout',['concat_out',['../stream_8c.html#a379b35c4c21ee31284e14338963fdd8f',1,'concat_out(struct q_stream *const s, struct w_iov_sq *const q):&#160;stream.c'],['../stream_8h.html#a379b35c4c21ee31284e14338963fdd8f',1,'concat_out(struct q_stream *const s, struct w_iov_sq *const q):&#160;stream.c']]],
+  ['congestion_5fevent',['congestion_event',['../recovery_8c.html#af59a9fdbfb43081ce2ca0b57c8167fa7',1,'congestion_event(struct q_conn *const c, const ev_tstamp lg_lost_tx_t):&#160;recovery.c'],['../recovery_8h.html#af59a9fdbfb43081ce2ca0b57c8167fa7',1,'congestion_event(struct q_conn *const c, const ev_tstamp lg_lost_tx_t):&#160;recovery.c']]],
   ['conn_5fneeds_5fctrl',['conn_needs_ctrl',['../conn_8h.html#ab12c601471f4fcfae92c53fbca85b32e',1,'conn.h']]],
   ['conn_5ftype',['conn_type',['../conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4',1,'conn.h']]],
   ['conns_5fby_5fid_5fdel',['conns_by_id_del',['../conn_8c.html#a157de1b1117fd595bca3a0d2a82184db',1,'conn.c']]],
@@ -23,5 +24,5 @@ var searchData=
   ['conns_5fby_5fipnp_5fkey',['conns_by_ipnp_key',['../conn_8c.html#aaf7f518c49a0ab7bd2a9604aae9cc065',1,'conn.c']]],
   ['conns_5fby_5fipnp_5fupdate',['conns_by_ipnp_update',['../conn_8c.html#ad504407d4193d0551f761b2ca720b005',1,'conn.c']]],
   ['crpt_5fstrm_5fid',['crpt_strm_id',['../stream_8h.html#a012bc210254cd3269ef892fcbd91e146',1,'stream.h']]],
-  ['crypto_5fpkts_5foutstanding',['crypto_pkts_outstanding',['../recovery_8c.html#a6a4bf9229c6ca38ab08cbf72f4b93a50',1,'recovery.c']]]
+  ['crypto_5fpkts_5fin_5fflight',['crypto_pkts_in_flight',['../recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9',1,'recovery.c']]]
 ];

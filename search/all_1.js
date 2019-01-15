@@ -6,6 +6,7 @@ var searchData=
   ['ack_5fblock_5fcnt',['ack_block_cnt',['../structpkt__meta.html#ad1832e1307ec64c29a877455b5f78000',1,'pkt_meta']]],
   ['ack_5fblock_5fpos',['ack_block_pos',['../structpkt__meta.html#aeffe2a16e53c9eb4d1a6080436c7de4c',1,'pkt_meta']]],
   ['ack_5fdel_5fexp',['ack_del_exp',['../structtransport__params.html#ae332eb1c8176a3916959caa35f810278',1,'transport_params']]],
+  ['ack_5feliciting_5fin_5fflight',['ack_eliciting_in_flight',['../structrecovery.html#a3619da7c4f32ca7dfa2dcde670ac646a',1,'recovery']]],
   ['acked',['acked',['../structpn__space.html#a258b213b1fbb488b1d1dda308dcade45',1,'pn_space']]],
   ['add_5fdcid',['add_dcid',['../conn_8c.html#ae5beee50c7414b14d1efb1e3e8ebe1ee',1,'add_dcid(struct q_conn *const c, const struct cid *const id):&#160;conn.c'],['../conn_8h.html#ae5beee50c7414b14d1efb1e3e8ebe1ee',1,'add_dcid(struct q_conn *const c, const struct cid *const id):&#160;conn.c']]],
   ['add_5fscid',['add_scid',['../conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026',1,'add_scid(struct q_conn *const c, struct cid *const id):&#160;conn.c'],['../conn_8h.html#aa16d30297b5b1ceed9c3fef11b6a5026',1,'add_scid(struct q_conn *const c, struct cid *const id):&#160;conn.c']]],
