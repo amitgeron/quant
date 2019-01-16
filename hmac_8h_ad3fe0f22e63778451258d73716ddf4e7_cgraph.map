@@ -1,0 +1,5 @@
+<map id="cf_hmac_init" name="cf_hmac_init">
+<area shape="rect" id="node2" href="$handy_8h.html#ad453ec2c6196a70300020477df38ab89" title="Like memset(ptr, 0, len), but not allowed to be removed by compilers. " alt="" coords="267,5,357,32"/>
+<area shape="rect" id="node3" href="$chash_8c.html#afcf12369654d4a9b25009d1188086554" title="cf_hash" alt="" coords="150,31,218,57"/>
+<area shape="rect" id="node4" href="$bitops_8h.html#ad1aa9427ef9c98228978ad0d88683e54" title="out = in ^ b8. " alt="" coords="153,81,215,108"/>
+</map>

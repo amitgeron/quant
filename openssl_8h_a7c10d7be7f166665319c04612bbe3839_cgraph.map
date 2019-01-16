@@ -1,0 +1,11 @@
+<map id="ptls_openssl_init_verify_certificate" name="ptls_openssl_init_verify_certificate">
+<area shape="rect" id="node2" href="$lib_2openssl_8c.html#a60ea7eafbd686a3988afae04498187e6" title="verify_cert" alt="" coords="256,107,339,133"/>
+<area shape="rect" id="node10" href="$lib_2openssl_8c.html#aa3240d63b743147d09f4ef9123594019" title="ptls_openssl_create\l_default_certificate_store" alt="" coords="213,158,381,199"/>
+<area shape="rect" id="node3" href="$lib_2openssl_8c.html#a79a103c0c30fa42ba456db3118db4272" title="to_x509" alt="" coords="471,5,539,32"/>
+<area shape="rect" id="node4" href="$lib_2openssl_8c.html#ac6f98da7f812d15a2421e69e23ee6b4e" title="verify_cert_chain" alt="" coords="445,56,566,83"/>
+<area shape="rect" id="node7" href="$picotls_8h.html#a4c8998052323166300a9b59bc6443337" title="Returns if the context is a server context. " alt="" coords="454,107,557,133"/>
+<area shape="rect" id="node8" href="$picotls_8h.html#aa889677e26863e1a37b216aedac72c67" title="returns the server&#45;name (NULL if SNI is not used or failed to negotiate) " alt="" coords="430,157,581,184"/>
+<area shape="rect" id="node9" href="$lib_2openssl_8c.html#a7ed99c87b711d8e2e5d8a87d9b8b3d75" title="verify_sign" alt="" coords="463,208,548,235"/>
+<area shape="rect" id="node5" href="$picotls_8h.html#a55b4668776166a96a7acbfe0c90d1ca8" title="checks if a server name is an IP address. " alt="" coords="630,19,773,61"/>
+<area shape="rect" id="node6" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="674,85,729,112"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="deps/warpcore/lib/src/plat.c" name="deps/warpcore/lib/src/plat.c">
+<area shape="rect" id="node8" href="$warpcore_8h.html" title="warpcore/warpcore.h" alt="" coords="603,96,745,123"/>
+<area shape="rect" id="node10" href="$deps_2warpcore_2lib_2include_2warpcore_2config_8h.html" title="warpcore/config.h" alt="" coords="676,171,801,197"/>
+<area shape="rect" id="node11" href="$plat_8h.html" title="warpcore/plat.h" alt="" coords="434,171,544,197"/>
+<area shape="rect" id="node13" href="$queue_8h.html" title="warpcore/queue.h" alt="" coords="825,171,951,197"/>
+<area shape="rect" id="node14" href="$tree_8h.html" title="warpcore/tree.h" alt="" coords="975,171,1085,197"/>
+<area shape="rect" id="node15" href="$warpcore_2lib_2include_2warpcore_2util_8h.html" title="warpcore/util.h" alt="" coords="1161,171,1268,197"/>
+</map>

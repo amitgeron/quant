@@ -81,7 +81,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_a065c5f60305fee3569f887679366939.html">src</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_f926052f71c4b908188a3093db7cac0c.html">src</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -128,14 +128,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                                      no_sanitize(<span class="stringliteral">&quot;unsigned-integer-overflow&quot;</span>)</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;#endif</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                                          ))</div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="fnv1a_8h.html#aac10e28037a498b4d09ed99c55e9020d">   49</a></span>&#160;<a class="code" href="fnv1a_8h.html#aac10e28037a498b4d09ed99c55e9020d">fnv1a_64</a>(const <span class="keywordtype">void</span> * const buf, const <span class="keywordtype">size_t</span> len)</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="fnv1a_8h.html#aac10e28037a498b4d09ed99c55e9020d">   49</a></span>&#160;<a class="code" href="fnv1a_8h.html#aac10e28037a498b4d09ed99c55e9020d">fnv1a_64</a>(const <span class="keywordtype">void</span> * const <a class="code" href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a>, const <span class="keywordtype">size_t</span> <a class="code" href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a>)</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;{</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keyword">const</span> uint64_t prime = 0x100000001b3;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    uint64_t hash = 0xcbf29ce484222325;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keyword">const</span> uint8_t * <span class="keyword">const</span> bytes = (<span class="keyword">const</span> uint8_t * <span class="keyword">const</span>)buf;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; len; i++) {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        hash ^= bytes[i];</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> <a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a> = 0; <a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a> &lt; <a class="code" href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a>; <a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>++) {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        hash ^= bytes[<a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>];</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        hash *= prime;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">return</span> hash;</div>
@@ -148,24 +148,27 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                                      no_sanitize(<span class="stringliteral">&quot;unsigned-integer-overflow&quot;</span>)</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;#endif</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                          ))</div>
-<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="fnv1a_8h.html#a3bf0a406ef6f462a25ef67e5a6ec33f9">   78</a></span>&#160;<a class="code" href="fnv1a_8h.html#a3bf0a406ef6f462a25ef67e5a6ec33f9">fnv1a_32</a>(const <span class="keywordtype">void</span> * const buf, const <span class="keywordtype">size_t</span> len)</div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="fnv1a_8h.html#a3bf0a406ef6f462a25ef67e5a6ec33f9">   78</a></span>&#160;<a class="code" href="fnv1a_8h.html#a3bf0a406ef6f462a25ef67e5a6ec33f9">fnv1a_32</a>(const <span class="keywordtype">void</span> * const <a class="code" href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a>, const <span class="keywordtype">size_t</span> <a class="code" href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a>)</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;{</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keyword">const</span> uint32_t prime = 0x811c9dc5;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    uint32_t hash = 0x1000193;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keyword">const</span> uint8_t * <span class="keyword">const</span> bytes = (<span class="keyword">const</span> uint8_t * <span class="keyword">const</span>)buf;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; len; i++) {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        hash ^= bytes[i];</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> <a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a> = 0; <a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a> &lt; <a class="code" href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a>; <a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>++) {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        hash ^= bytes[<a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>];</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        hash *= prime;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">return</span> hash;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;}</div>
 <div class="ttc" id="fnv1a_8h_html_a3bf0a406ef6f462a25ef67e5a6ec33f9"><div class="ttname"><a href="fnv1a_8h.html#a3bf0a406ef6f462a25ef67e5a6ec33f9">fnv1a_32</a></div><div class="ttdeci">static uint32_t fnv1a_32(const void *const buf, const size_t len)</div><div class="ttdoc">Compute an FNV-1a 32-bit hash over the given buffer. </div><div class="ttdef"><b>Definition:</b> fnv1a.h:78</div></div>
+<div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:290</div></div>
 <div class="ttc" id="fnv1a_8h_html_aac10e28037a498b4d09ed99c55e9020d"><div class="ttname"><a href="fnv1a_8h.html#aac10e28037a498b4d09ed99c55e9020d">fnv1a_64</a></div><div class="ttdeci">static uint64_t fnv1a_64(const void *const buf, const size_t len)</div><div class="ttdoc">Compute an FNV-1a 64-bit hash over the given buffer. </div><div class="ttdef"><b>Definition:</b> fnv1a.h:49</div></div>
+<div class="ttc" id="t_2picotls_8c_html_a7360b55975153b822efc5217b7734e6a"><div class="ttname"><a href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a></div><div class="ttdeci">size_t len</div><div class="ttdef"><b>Definition:</b> picotls.c:291</div></div>
+<div class="ttc" id="fuzz_8c_html_a3a555db7b4c043cd63ed7635a21fe107"><div class="ttname"><a href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a></div><div class="ttdeci">static struct netmap_if * i</div><div class="ttdef"><b>Definition:</b> fuzz.c:46</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 16 2019 10:17:19 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 16 2019 17:47:42 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

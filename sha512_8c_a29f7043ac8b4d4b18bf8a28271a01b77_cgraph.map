@@ -1,0 +1,4 @@
+<map id="sha512_update_block" name="sha512_update_block">
+<area shape="rect" id="node2" href="$bitops_8h.html#ab43503e4c793437ec2f3e1c526aa8552" title="Read 8 bytes from buf, as a 64&#45;bit big endian quantity. " alt="" coords="203,5,285,32"/>
+<area shape="rect" id="node3" href="$bitops_8h.html#a4558958d044593a88485bbb67e578453" title="Read 4 bytes from buf, as a 32&#45;bit big endian quantity. " alt="" coords="333,5,416,32"/>
+</map>

@@ -1,0 +1,51 @@
+<map id="test_sha384" name="test_sha384">
+<area shape="rect" id="node2" href="$testaes_8c.html#aefc9bc6bca7c17c6b9586655d1141b19" title="vector" alt="" coords="600,604,659,631"/>
+<area shape="rect" id="node30" href="$testsha_8h.html#a4a4a783b9a4bb6c3ba8f0bea74bee71f" title="vector_abc_final" alt="" coords="165,709,283,736"/>
+<area shape="rect" id="node31" href="$sha2_8h.html#a88428038d10f9b112b258722f4c496e0" title="cf_sha384_digest_final" alt="" coords="147,836,301,863"/>
+<area shape="rect" id="node50" href="$testsha_8h.html#ad755f9e4ec57226f45692c318e8f30a4" title="vector_length" alt="" coords="377,760,477,787"/>
+<area shape="rect" id="node3" href="$testutil_8h.html#ae01bda1adaa1c149b8f920ea1f6eb624" title="unhex" alt="" coords="813,604,870,631"/>
+<area shape="rect" id="node6" href="$aes_8c.html#a68579a5dde96f9f87fc3a4376423dbbb" title="cf_aes_init" alt="" coords="799,43,884,69"/>
+<area shape="rect" id="node13" href="$aes_8c.html#a930782d7618e1e906853819e9632b9f9" title="cf_aes_encrypt" alt="" coords="786,448,897,475"/>
+<area shape="rect" id="node22" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="803,760,879,787"/>
+<area shape="rect" id="node23" href="$aes_8c.html#abf20f537ba61db2fefa1ff538fa39556" title="cf_aes_decrypt" alt="" coords="786,245,897,272"/>
+<area shape="rect" id="node28" href="$aes_8c.html#a1fb1ca831ca8259a29c4237ff0d858d1" title="cf_aes_finish" alt="" coords="1207,676,1305,703"/>
+<area shape="rect" id="node4" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="1035,600,1090,627"/>
+<area shape="rect" id="node5" href="$testutil_8h.html#a6c1e18489239a835787d1425c8c6398c" title="unhex_chr" alt="" coords="1021,651,1104,677"/>
+<area shape="rect" id="node7" href="$aes_8c.html#a570421436f75711d9d03aa724d194180" title="aes_schedule" alt="" coords="1011,43,1114,69"/>
+<area shape="rect" id="node12" href="$boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="1720,195,1771,221"/>
+<area shape="rect" id="node8" href="$bitops_8h.html#a4558958d044593a88485bbb67e578453" title="Read 4 bytes from buf, as a 32&#45;bit big endian quantity. " alt="" coords="1215,372,1297,399"/>
+<area shape="rect" id="node9" href="$aes_8c.html#a50f02623837bf6595dd24a812facec75" title="sub_word" alt="" coords="1217,93,1295,120"/>
+<area shape="rect" id="node10" href="$bitops_8h.html#a360ff89f3e238489b9c653b14f5d9d6d" title="Select the ath, bth, cth and dth entries from the given table of n values, placing the results into a..." alt="" coords="1402,93,1494,120"/>
+<area shape="rect" id="node11" href="$bitops_8h.html#ad8cec031b7eccb98c5c1d0ddb368aad2" title="Product 0xff if x == y, zero otherwise, without branching. " alt="" coords="1589,93,1664,120"/>
+<area shape="rect" id="node14" href="$aes_8c.html#a5217c35a3b2dcb191755197a4b210f81" title="add_round_key" alt="" coords="1007,296,1118,323"/>
+<area shape="rect" id="node15" href="$aes_8c.html#a07252ed8dc9f99ec4b8ec7a24695be9c" title="sub_block" alt="" coords="1022,397,1103,424"/>
+<area shape="rect" id="node16" href="$aes_8c.html#af6b34e22328ecf6d2a5a11880a3480ec" title="shift_rows" alt="" coords="1021,448,1104,475"/>
+<area shape="rect" id="node17" href="$aes_8c.html#a1fef635fd88123ef845f281b24f9d340" title="mix_columns" alt="" coords="1013,549,1112,576"/>
+<area shape="rect" id="node21" href="$bitops_8h.html#abe267c3df623a1ec6be994c93660a368" title="Encode v as a 32&#45;bit big endian quantity into buf. " alt="" coords="1020,347,1105,373"/>
+<area shape="rect" id="node18" href="$aes_8c.html#aff718a589987150a4fa442c8b2a04ab8" title="mix_column" alt="" coords="1210,423,1302,449"/>
+<area shape="rect" id="node19" href="$aes_8c.html#a5a699178ef52bc02fd4affcc29bb3899" title="gf_poly_mul2" alt="" coords="1399,409,1497,436"/>
+<area shape="rect" id="node20" href="$bitops_8h.html#a112d36091bac741dace00b6663cf8fbe" title="Circularly rotate right x by n bits. " alt="" coords="1421,347,1475,373"/>
+<area shape="rect" id="node24" href="$aes_8c.html#a3860549f17199bf949717a148abfc966" title="inv_shift_rows" alt="" coords="1009,144,1116,171"/>
+<area shape="rect" id="node25" href="$aes_8c.html#a3f1042615251c06d07714ca93ca05adf" title="inv_sub_block" alt="" coords="1010,93,1115,120"/>
+<area shape="rect" id="node26" href="$aes_8c.html#ae097c6f5915621943da3dd258302ba81" title="inv_mix_columns" alt="" coords="1001,195,1124,221"/>
+<area shape="rect" id="node27" href="$aes_8c.html#a2770a3ba77c322443c6e8956beab7717" title="inv_mix_column" alt="" coords="1198,321,1314,348"/>
+<area shape="rect" id="node29" href="$handy_8h.html#ad453ec2c6196a70300020477df38ab89" title="Like memset(ptr, 0, len), but not allowed to be removed by compilers. " alt="" coords="1582,853,1671,880"/>
+<area shape="rect" id="node32" href="$sha512_8c.html#ad3e2f7bd3b4b7e674e663792507e52cc" title="cf_sha512_digest_final" alt="" coords="349,861,504,888"/>
+<area shape="rect" id="node33" href="$blockwise_8c.html#a3be3107d826f1761d7db9086e9c56f2b" title="cf_blockwise_acc_pad" alt="" coords="552,963,707,989"/>
+<area shape="rect" id="node46" href="$sha512_8c.html#a29f7043ac8b4d4b18bf8a28271a01b77" title="sha512_update_block" alt="" coords="767,811,915,837"/>
+<area shape="rect" id="node48" href="$bitops_8h.html#aaab38b39730246f8b4d2a47c10dfcbd9" title="Encode v as a 64&#45;bit big endian quantity into buf. " alt="" coords="587,861,672,888"/>
+<area shape="rect" id="node49" href="$sha512_8c.html#a68324835d7154862bec4ef8e9b55c001" title="cf_sha512_update" alt="" coords="565,912,693,939"/>
+<area shape="rect" id="node34" href="$blockwise_8c.html#ac912f4cce505dcb0ad9ef20fa5ca7103" title="cf_blockwise_accumulate" alt="" coords="755,912,927,939"/>
+<area shape="rect" id="node45" href="$blockwise_8c.html#a59b63cf64d00a030126317b0fc60afae" title="cf_blockwise_acc_byte" alt="" coords="762,963,921,989"/>
+<area shape="rect" id="node35" href="$blockwise_8c.html#a62cef6847331140b5bb0ed2363b81846" title="cf_blockwise_accumulate\l_final" alt="" coords="977,846,1149,887"/>
+<area shape="rect" id="node36" href="$chacha20poly1305_8c.html#a5dac71fccc0b105443f2ebf1194a4bf9" title="process" alt="" coords="1222,853,1290,880"/>
+<area shape="rect" id="node37" href="$chacha20_8c.html#af1634c7720c98a79503033fd7176c3a4" title="cf_chacha20_init_custom" alt="" coords="1363,651,1533,677"/>
+<area shape="rect" id="node39" href="$chacha20_8c.html#a87c339940ceaef83402f61b431d4268a" title="cf_chacha20_cipher" alt="" coords="1379,701,1517,728"/>
+<area shape="rect" id="node40" href="$poly1305_8c.html#a527c126357d81c557f8875f8990b1a78" title="cf_poly1305_init" alt="" coords="1390,752,1506,779"/>
+<area shape="rect" id="node41" href="$poly1305_8c.html#ad936dd169a7628b1e1857f9c44f4e1da" title="cf_poly1305_update" alt="" coords="1379,1005,1517,1032"/>
+<area shape="rect" id="node42" href="$bitops_8h.html#ac8d68de87ac89105df4ba7df80abb82e" title="Encode v as a 64&#45;bit little endian quantity into buf. " alt="" coords="1407,803,1489,829"/>
+<area shape="rect" id="node43" href="$poly1305_8c.html#a065cff3599c6fa947d59561adef3d7be" title="cf_poly1305_finish" alt="" coords="1383,955,1513,981"/>
+<area shape="rect" id="node44" href="$handy_8h.html#aa8704403e669f432e8c2be9712678a6f" title="Returns 1 if len bytes at va equal len bytes at vb, 0 if they do not. " alt="" coords="1412,904,1484,931"/>
+<area shape="rect" id="node38" href="$chacha20_8c.html#a60f9e96d533c4d3c2e59d54996284dbd" title="set_key" alt="" coords="1593,397,1661,424"/>
+<area shape="rect" id="node47" href="$bitops_8h.html#ab43503e4c793437ec2f3e1c526aa8552" title="Read 8 bytes from buf, as a 64&#45;bit big endian quantity. " alt="" coords="1021,701,1104,728"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="default_emit_certificate_cb" name="default_emit_certificate_cb">
+<area shape="rect" id="node2" href="$lib_2picotls_8c.html#ad97215acaf376fbabace3fe1dca9924a" title="build the body of a Certificate message. " alt="" coords="232,5,373,46"/>
+<area shape="rect" id="node3" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="250,71,355,97"/>
+</map>

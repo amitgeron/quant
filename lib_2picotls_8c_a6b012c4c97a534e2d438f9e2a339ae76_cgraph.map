@@ -1,0 +1,21 @@
+<map id="client_handle_new_session_ticket" name="client_handle_new_session_ticket">
+<area shape="rect" id="node2" href="$lib_2picotls_8c.html#ae4c82c579d4701d3fcbfefd24f987b9c" title="decode_new_session\l_ticket" alt="" coords="247,86,393,128"/>
+<area shape="rect" id="node5" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="1050,144,1155,171"/>
+<area shape="rect" id="node6" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="1049,296,1156,323"/>
+<area shape="rect" id="node7" href="$lib_2picotls_8c.html#ac3aed9c2ae399575c55bf3447b0c72fe" title="reserves space for additional amount of memory " alt="" coords="253,402,387,428"/>
+<area shape="rect" id="node9" href="$lib_2picotls_8c.html#a5d60a6d8d84c63032a421b7a784d667f" title="derive_resumption_secret" alt="" coords="235,220,405,247"/>
+<area shape="rect" id="node19" href="$picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="1035,347,1170,374"/>
+<area shape="rect" id="node3" href="$lib_2picotls_8c.html#a6293010526fd7ac9dcaf83821e2e591d" title="ptls_decode32" alt="" coords="469,43,576,70"/>
+<area shape="rect" id="node4" href="$lib_2picotls_8c.html#acb83ed5920da4420e22852077692babb" title="ntoh32" alt="" coords="693,43,755,70"/>
+<area shape="rect" id="node8" href="$lib_2picotls_8c.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="453,398,592,440"/>
+<area shape="rect" id="node10" href="$lib_2picotls_8c.html#a363a3e1f1cd42666a1ee1697470a262c" title="derive_secret" alt="" coords="473,195,573,222"/>
+<area shape="rect" id="node12" href="$lib_2picotls_8c.html#a7011e70930ac9119a3e9d9a2b4a1d5f6" title="hkdf_expand_label" alt="" coords="856,246,987,272"/>
+<area shape="rect" id="node11" href="$lib_2picotls_8c.html#a6dc4d9606e324b70fe5d578895e6dde3" title="derive_secret_with_hash" alt="" coords="641,195,807,222"/>
+<area shape="rect" id="node13" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="1075,246,1130,272"/>
+<area shape="rect" id="node14" href="$lib_2picotls_8c.html#ad066e549d3eadb8071666a295b3d286d" title="ptls_hkdf_expand" alt="" coords="1041,195,1165,222"/>
+<area shape="rect" id="node15" href="$lib_2picotls_8c.html#a5db4538399b7412c4dc994ed9041e952" title="ptls_hmac_create" alt="" coords="1225,195,1351,222"/>
+<area shape="rect" id="node16" href="$lib_2picotls_8c.html#a4291f2257a1f1c0d5aabb5c1bf782715" title="hmac_update" alt="" coords="1406,144,1506,171"/>
+<area shape="rect" id="node17" href="$lib_2picotls_8c.html#a22286798908a379df06073befee1973b" title="hmac_final" alt="" coords="1413,195,1499,222"/>
+<area shape="rect" id="node18" href="$lib_2picotls_8c.html#a4184a8e63a098ef29aea464c551a8d14" title="hmac_apply_key" alt="" coords="1555,220,1675,247"/>
+<area shape="rect" id="node20" href="$picotls_8h.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="1219,340,1357,381"/>
+</map>

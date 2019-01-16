@@ -1,0 +1,8 @@
+<map id="handle_certificate_verify" name="handle_certificate_verify">
+<area shape="rect" id="node2" href="$lib_2picotls_8c.html#a2d02d6f477c8fa36dfe14c425c884762" title="ptls_decode16" alt="" coords="201,5,308,32"/>
+<area shape="rect" id="node4" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="202,56,307,83"/>
+<area shape="rect" id="node5" href="$lib_2picotls_8c.html#a08fba83db22505e8b765dbd1bd6e598e" title="build_certificate_verify\l_signdata" alt="" coords="179,107,331,149"/>
+<area shape="rect" id="node7" href="$lib_2picotls_8c.html#a0129a2c9d51477ddaa75205b3f2072ee" title="internal " alt="" coords="186,173,323,214"/>
+<area shape="rect" id="node3" href="$lib_2picotls_8c.html#a88911502068ceae20b044ee0ace4db11" title="ntoh16" alt="" coords="379,5,440,32"/>
+<area shape="rect" id="node6" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="382,115,437,141"/>
+</map>

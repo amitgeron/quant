@@ -1,0 +1,4 @@
+<map id="poly1305_full_reduce" name="poly1305_full_reduce">
+<area shape="rect" id="node2" href="$poly1305_8c.html#a234cdf38cbd09f9be5b48367cfa5ac73" title="poly1305_add" alt="" coords="198,5,301,32"/>
+<area shape="rect" id="node3" href="$bitops_8h.html#a85fb2c93be815f2fb0f5854781e6821b" title="Produce 0xffffffff if x == y, zero otherwise, without branching. " alt="" coords="208,56,291,83"/>
+</map>

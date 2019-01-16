@@ -1,0 +1,41 @@
+<map id="test_ctr" name="test_ctr">
+<area shape="rect" id="node2" href="$aes_8c.html#a68579a5dde96f9f87fc3a4376423dbbb" title="cf_aes_init" alt="" coords="127,107,212,133"/>
+<area shape="rect" id="node9" href="$modes_8c.html#a1f6c9582ee2afe5bdb9f05ebc801bb5a" title="cf_ctr_init" alt="" coords="130,296,209,323"/>
+<area shape="rect" id="node10" href="$modes_8c.html#a7e37c849e1dd00d643a6416f16a949d5" title="cf_ctr_cipher" alt="" coords="121,245,218,272"/>
+<area shape="rect" id="node40" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="131,347,207,373"/>
+<area shape="rect" id="node3" href="$aes_8c.html#a570421436f75711d9d03aa724d194180" title="aes_schedule" alt="" coords="277,56,379,83"/>
+<area shape="rect" id="node8" href="$boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="1069,152,1120,179"/>
+<area shape="rect" id="node4" href="$bitops_8h.html#a4558958d044593a88485bbb67e578453" title="Read 4 bytes from buf, as a 32&#45;bit big endian quantity. " alt="" coords="437,56,520,83"/>
+<area shape="rect" id="node5" href="$aes_8c.html#a50f02623837bf6595dd24a812facec75" title="sub_word" alt="" coords="439,5,518,32"/>
+<area shape="rect" id="node6" href="$bitops_8h.html#a360ff89f3e238489b9c653b14f5d9d6d" title="Select the ath, bth, cth and dth entries from the given table of n values, placing the results into a..." alt="" coords="607,5,699,32"/>
+<area shape="rect" id="node7" href="$bitops_8h.html#ad8cec031b7eccb98c5c1d0ddb368aad2" title="Product 0xff if x == y, zero otherwise, without branching. " alt="" coords="836,5,911,32"/>
+<area shape="rect" id="node11" href="$blockwise_8c.html#aae1f38dc3f3428ff848bb4f006234197" title="cf_blockwise_xor" alt="" coords="267,245,389,272"/>
+<area shape="rect" id="node38" href="$modes_8c.html#a5c38b037423c07a32cab53a80e43dca2" title="ctr_next_block" alt="" coords="275,328,381,355"/>
+<area shape="rect" id="node12" href="$chacha20poly1305_8c.html#a5dac71fccc0b105443f2ebf1194a4bf9" title="process" alt="" coords="445,309,513,336"/>
+<area shape="rect" id="node37" href="$bitops_8h.html#a31f7f072f29d5a278a573275c14aae7f" title="out = x ^ y. " alt="" coords="448,245,509,272"/>
+<area shape="rect" id="node13" href="$chacha20_8c.html#af1634c7720c98a79503033fd7176c3a4" title="cf_chacha20_init_custom" alt="" coords="568,208,739,235"/>
+<area shape="rect" id="node15" href="$chacha20_8c.html#a87c339940ceaef83402f61b431d4268a" title="cf_chacha20_cipher" alt="" coords="584,157,723,184"/>
+<area shape="rect" id="node21" href="$poly1305_8c.html#a527c126357d81c557f8875f8990b1a78" title="cf_poly1305_init" alt="" coords="595,411,711,437"/>
+<area shape="rect" id="node22" href="$handy_8h.html#ad453ec2c6196a70300020477df38ab89" title="Like memset(ptr, 0, len), but not allowed to be removed by compilers. " alt="" coords="829,309,918,336"/>
+<area shape="rect" id="node23" href="$poly1305_8c.html#ad936dd169a7628b1e1857f9c44f4e1da" title="cf_poly1305_update" alt="" coords="584,512,723,539"/>
+<area shape="rect" id="node31" href="$bitops_8h.html#ac8d68de87ac89105df4ba7df80abb82e" title="Encode v as a 64&#45;bit little endian quantity into buf. " alt="" coords="613,259,694,285"/>
+<area shape="rect" id="node32" href="$poly1305_8c.html#a065cff3599c6fa947d59561adef3d7be" title="cf_poly1305_finish" alt="" coords="588,461,719,488"/>
+<area shape="rect" id="node36" href="$handy_8h.html#aa8704403e669f432e8c2be9712678a6f" title="Returns 1 if len bytes at va equal len bytes at vb, 0 if they do not. " alt="" coords="617,360,689,387"/>
+<area shape="rect" id="node14" href="$chacha20_8c.html#a60f9e96d533c4d3c2e59d54996284dbd" title="set_key" alt="" coords="839,189,907,216"/>
+<area shape="rect" id="node16" href="$chacha20_8c.html#a228d6f1b83dc3c313ed1be9361830fc3" title="cf_chacha20_next_block" alt="" coords="790,56,957,83"/>
+<area shape="rect" id="node17" href="$chacha20_8c.html#a341d892e9321f283258d12d142ce7a39" title="cf_chacha20_core" alt="" coords="1031,31,1159,57"/>
+<area shape="rect" id="node20" href="$bitops_8h.html#a22ef99af5088ae2a378b67c4190ad64c" title="Increments the integer stored at v (of non&#45;zero length len) with the least significant byte first..." alt="" coords="1065,81,1125,108"/>
+<area shape="rect" id="node18" href="$bitops_8h.html#a53b9f25069cc1b9fd72d421715d13aad" title="Read 4 bytes from buf, as a 32&#45;bit little endian quantity. " alt="" coords="1242,5,1321,32"/>
+<area shape="rect" id="node19" href="$bitops_8h.html#a467162e933d03f7220bfda986d373992" title="Encode v as a 32&#45;bit little endian quantity into buf. " alt="" coords="1241,56,1322,83"/>
+<area shape="rect" id="node24" href="$blockwise_8c.html#ac912f4cce505dcb0ad9ef20fa5ca7103" title="cf_blockwise_accumulate" alt="" coords="787,563,959,589"/>
+<area shape="rect" id="node26" href="$poly1305_8c.html#aee335a41aef37cc1bbc5435b78943950" title="poly1305_whole_block" alt="" coords="797,512,950,539"/>
+<area shape="rect" id="node25" href="$blockwise_8c.html#a62cef6847331140b5bb0ed2363b81846" title="cf_blockwise_accumulate\l_final" alt="" coords="1009,581,1181,622"/>
+<area shape="rect" id="node27" href="$poly1305_8c.html#a6042e63fc42e5f7d596b55ab1438de7a" title="poly1305_block" alt="" coords="1039,461,1151,488"/>
+<area shape="rect" id="node28" href="$poly1305_8c.html#a234cdf38cbd09f9be5b48367cfa5ac73" title="poly1305_add" alt="" coords="1230,411,1333,437"/>
+<area shape="rect" id="node29" href="$poly1305_8c.html#acaf640ec3c5238790803dfe21fdd7829" title="poly1305_mul" alt="" coords="1230,461,1333,488"/>
+<area shape="rect" id="node30" href="$poly1305_8c.html#aef9d6fdbb049e9e4257e683f1d3d6aca" title="poly1305_min_reduce" alt="" coords="1382,461,1530,488"/>
+<area shape="rect" id="node33" href="$poly1305_8c.html#ab4e5f578f7fa2a66abbc26489d6f24ae" title="poly1305_last_block" alt="" coords="803,461,943,488"/>
+<area shape="rect" id="node34" href="$poly1305_8c.html#ade1fb0d5d604b0534e66938721a70eea" title="poly1305_full_reduce" alt="" coords="801,360,945,387"/>
+<area shape="rect" id="node35" href="$bitops_8h.html#a85fb2c93be815f2fb0f5854781e6821b" title="Produce 0xffffffff if x == y, zero otherwise, without branching. " alt="" coords="1053,360,1136,387"/>
+<area shape="rect" id="node39" href="$bitops_8h.html#a58e993c148d98c97c1f1136479d19dce" title="Increments the integer stored at v (of non&#45;zero length len) with the most significant byte last..." alt="" coords="447,360,511,387"/>
+</map>

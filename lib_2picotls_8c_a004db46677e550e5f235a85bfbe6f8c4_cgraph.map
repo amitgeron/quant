@@ -1,0 +1,10 @@
+<map id="decode_session_identifier" name="decode_session_identifier">
+<area shape="rect" id="node2" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="242,5,318,32"/>
+<area shape="rect" id="node3" href="$lib_2picotls_8c.html#a50aa9860710e7b2a1002ecbd4438c69e" title="ptls_decode64" alt="" coords="227,56,333,83"/>
+<area shape="rect" id="node5" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="227,107,333,133"/>
+<area shape="rect" id="node6" href="$lib_2picotls_8c.html#a2d02d6f477c8fa36dfe14c425c884762" title="ptls_decode16" alt="" coords="227,157,333,184"/>
+<area shape="rect" id="node8" href="$lib_2picotls_8c.html#a6293010526fd7ac9dcaf83821e2e591d" title="ptls_decode32" alt="" coords="227,208,333,235"/>
+<area shape="rect" id="node4" href="$lib_2picotls_8c.html#a639de81443b6f8fee79a78d096f9bdbf" title="ntoh64" alt="" coords="381,56,443,83"/>
+<area shape="rect" id="node7" href="$lib_2picotls_8c.html#a88911502068ceae20b044ee0ace4db11" title="ntoh16" alt="" coords="381,157,443,184"/>
+<area shape="rect" id="node9" href="$lib_2picotls_8c.html#acb83ed5920da4420e22852077692babb" title="ntoh32" alt="" coords="381,208,443,235"/>
+</map>

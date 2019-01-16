@@ -1,3 +1,4 @@
 <map id="q_readall_stream" name="q_readall_stream">
-<area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="176,5,259,32"/>
+<area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="185,5,268,32"/>
+<area shape="rect" id="node3" href="$warpcore_8h.html#a7431226c76bc23225482a4ced534db6d" title="Return the total payload length of w_iov tail queue c. " alt="" coords="176,56,277,83"/>
 </map>

@@ -1,0 +1,20 @@
+<map id="kurl_open" name="kurl_open">
+<area shape="rect" id="node2" href="$klib_2kurl_8c.html#a56f0c8beb8c6c4ea00dfbbd94b2f4196" title="s3_parse" alt="" coords="137,157,212,184"/>
+<area shape="rect" id="node15" href="$klib_2kurl_8c.html#a0462dd4533bcd310fcdc9cc549b8d89e" title="kurl_close" alt="" coords="134,208,215,235"/>
+<area shape="rect" id="node16" href="$klib_2kurl_8c.html#a9cb6f7097f3623804434fa276f14c53a" title="write_cb" alt="" coords="139,259,210,285"/>
+<area shape="rect" id="node17" href="$klib_2kurl_8c.html#afa0ff0995aed6c1ae1312737fb78168b" title="fill_buffer" alt="" coords="137,309,212,336"/>
+<area shape="rect" id="node19" href="$klib_2kurl_8c.html#af7a8bc319b72a33a061ed86a9de009b5" title="prepare" alt="" coords="142,360,207,387"/>
+<area shape="rect" id="node3" href="$klib_2kurl_8c.html#a4ec40ecab7ae5df2e3ea2e5ba1e8fa8f" title="s3_read_awssecret" alt="" coords="265,233,399,260"/>
+<area shape="rect" id="node4" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="481,157,535,184"/>
+<area shape="rect" id="node5" href="$klib_2kurl_8c.html#a0094a9c1ccfcafe09de3aeafbf24b3fb" title="kputsn" alt="" coords="301,183,363,209"/>
+<area shape="rect" id="node6" href="$klib_2kurl_8c.html#abe93c700f7c6a8aaf6eca4a9fb9bc33c" title="s3_sign" alt="" coords="299,81,365,108"/>
+<area shape="rect" id="node7" href="$klib_2kurl_8c.html#ae70b5a963d69fc6f54b57c7a86bf4226" title="sha1_init_hmac" alt="" coords="451,107,565,133"/>
+<area shape="rect" id="node13" href="$klib_2kurl_8c.html#a689e7af75f74e6f4331ed3c20aa3c7f0" title="sha1_write" alt="" coords="465,5,551,32"/>
+<area shape="rect" id="node14" href="$klib_2kurl_8c.html#ae8d6bed379b7c59d3b4cc44f887ad096" title="sha1_final_hmac" alt="" coords="448,56,568,83"/>
+<area shape="rect" id="node8" href="$klib_2kurl_8c.html#ade5178b7eca348b20ce923823ccecc07" title="sha1_init" alt="" coords="625,56,700,83"/>
+<area shape="rect" id="node9" href="$klib_2kurl_8c.html#a7f56c073dcb9b1b02c299c2558d49a91" title="sha1_write1" alt="" coords="617,5,709,32"/>
+<area shape="rect" id="node12" href="$klib_2kurl_8c.html#a382b402a9b6e37e99a607a611e15f747" title="sha1_final" alt="" coords="622,107,703,133"/>
+<area shape="rect" id="node10" href="$klib_2kurl_8c.html#ab10c4dfd5e642b3cf4ede41e17cd0104" title="sha1_add" alt="" coords="758,56,837,83"/>
+<area shape="rect" id="node11" href="$klib_2kurl_8c.html#a5faa156a53b7a447b4f4863ae5806626" title="sha1_hashBlock" alt="" coords="886,56,1005,83"/>
+<area shape="rect" id="node18" href="$curve25519_8naclref_8c.html#aaadabd431d8a32125f515700f5ced9d7" title="select" alt="" coords="303,309,361,336"/>
+</map>

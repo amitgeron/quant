@@ -1,0 +1,12 @@
+<map id="hkdf_expand_label" name="hkdf_expand_label">
+<area shape="rect" id="node2" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="199,5,305,32"/>
+<area shape="rect" id="node3" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="225,56,279,83"/>
+<area shape="rect" id="node4" href="$lib_2picotls_8c.html#ad066e549d3eadb8071666a295b3d286d" title="ptls_hkdf_expand" alt="" coords="190,107,314,133"/>
+<area shape="rect" id="node9" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="199,157,305,184"/>
+<area shape="rect" id="node10" href="$picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="185,208,319,235"/>
+<area shape="rect" id="node5" href="$lib_2picotls_8c.html#a5db4538399b7412c4dc994ed9041e952" title="ptls_hmac_create" alt="" coords="375,107,500,133"/>
+<area shape="rect" id="node6" href="$lib_2picotls_8c.html#a4291f2257a1f1c0d5aabb5c1bf782715" title="hmac_update" alt="" coords="555,56,655,83"/>
+<area shape="rect" id="node7" href="$lib_2picotls_8c.html#a22286798908a379df06073befee1973b" title="hmac_final" alt="" coords="563,107,648,133"/>
+<area shape="rect" id="node8" href="$lib_2picotls_8c.html#a4184a8e63a098ef29aea464c551a8d14" title="hmac_apply_key" alt="" coords="704,132,824,159"/>
+<area shape="rect" id="node11" href="$picotls_8h.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="368,201,507,242"/>
+</map>

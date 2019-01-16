@@ -1,0 +1,5 @@
+<map id="decode_key_share_entry" name="decode_key_share_entry">
+<area shape="rect" id="node2" href="$lib_2picotls_8c.html#a2d02d6f477c8fa36dfe14c425c884762" title="ptls_decode16" alt="" coords="221,5,328,32"/>
+<area shape="rect" id="node4" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="222,56,327,83"/>
+<area shape="rect" id="node3" href="$lib_2picotls_8c.html#a88911502068ceae20b044ee0ace4db11" title="ntoh16" alt="" coords="376,5,437,32"/>
+</map>

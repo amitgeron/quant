@@ -1,0 +1,51 @@
+<map id="test_secp256r1_sign" name="test_secp256r1_sign">
+<area shape="rect" id="node2" href="$uecc_8c.html#a1c71808a34a9341331cf6b5ba7116008" title="secp256r1sha256_sign" alt="" coords="197,1083,352,1110"/>
+<area shape="rect" id="node43" href="$uECC_8h.html#a3595e0db86484273462b72b76898df7e" title="uECC_secp256r1" alt="" coords="415,1210,540,1237"/>
+<area shape="rect" id="node45" href="$uECC_8c.html#aa2ff6277175a7f996af3fc39c24895a5" title="uECC_make_key" alt="" coords="415,755,540,782"/>
+<area shape="rect" id="node47" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="221,1185,328,1211"/>
+<area shape="rect" id="node48" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="222,1235,327,1262"/>
+<area shape="rect" id="node49" href="$picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="207,1286,342,1313"/>
+<area shape="rect" id="node3" href="$sha2_8h.html#a59978534d4f783f64f7c9682f5741185" title="cf_sha256_init" alt="" coords="424,1159,531,1186"/>
+<area shape="rect" id="node4" href="$sha2_8h.html#af10f1c0e0e16af6de778466790d826b6" title="cf_sha256_update" alt="" coords="640,1169,768,1195"/>
+<area shape="rect" id="node10" href="$sha2_8h.html#afbc4203cf92705c5bf136b55d944ef8b" title="cf_sha256_digest_final" alt="" coords="400,991,555,1018"/>
+<area shape="rect" id="node16" href="$uECC_8c.html#ad36359ab5b0c69243105a39e054a85f6" title="uECC_sign" alt="" coords="433,857,522,883"/>
+<area shape="rect" id="node44" href="$picotls_8h.html#a4f664904be533a2bddea5e4c98838497" title="pushes an unsigned bigint " alt="" coords="401,1093,554,1135"/>
+<area shape="rect" id="node5" href="$blockwise_8c.html#ac912f4cce505dcb0ad9ef20fa5ca7103" title="cf_blockwise_accumulate" alt="" coords="861,1118,1033,1145"/>
+<area shape="rect" id="node8" href="$sha256_8c.html#acfcf3a9ccddc721b4ed5e981a78678a5" title="sha256_update_block" alt="" coords="873,1169,1021,1195"/>
+<area shape="rect" id="node6" href="$blockwise_8c.html#a62cef6847331140b5bb0ed2363b81846" title="cf_blockwise_accumulate\l_final" alt="" coords="1089,1111,1261,1152"/>
+<area shape="rect" id="node7" href="$chacha20poly1305_8c.html#a5dac71fccc0b105443f2ebf1194a4bf9" title="process" alt="" coords="1342,1089,1410,1115"/>
+<area shape="rect" id="node9" href="$bitops_8h.html#a4558958d044593a88485bbb67e578453" title="Read 4 bytes from buf, as a 32&#45;bit big endian quantity. " alt="" coords="1133,1177,1216,1203"/>
+<area shape="rect" id="node11" href="$blockwise_8c.html#a3be3107d826f1761d7db9086e9c56f2b" title="cf_blockwise_acc_pad" alt="" coords="627,915,781,942"/>
+<area shape="rect" id="node13" href="$bitops_8h.html#aaab38b39730246f8b4d2a47c10dfcbd9" title="Encode v as a 64&#45;bit big endian quantity into buf. " alt="" coords="661,1067,747,1094"/>
+<area shape="rect" id="node14" href="$sha256_8c.html#af10f1c0e0e16af6de778466790d826b6" title="cf_sha256_update" alt="" coords="640,1118,768,1145"/>
+<area shape="rect" id="node15" href="$bitops_8h.html#abe267c3df623a1ec6be994c93660a368" title="Encode v as a 32&#45;bit big endian quantity into buf. " alt="" coords="661,1017,747,1043"/>
+<area shape="rect" id="node12" href="$blockwise_8c.html#a59b63cf64d00a030126317b0fc60afae" title="cf_blockwise_acc_byte" alt="" coords="867,1059,1026,1086"/>
+<area shape="rect" id="node17" href="$uECC_8c.html#a4139d033250448f693ae794bf6515d35" title="uECC_generate_random_int" alt="" coords="853,857,1040,883"/>
+<area shape="rect" id="node23" href="$uECC_8c.html#a08a642d03b083a5ead16c8d7db0a6458" title="uECC_sign_with_k" alt="" coords="637,654,771,681"/>
+<area shape="rect" id="node18" href="$uECC_8c.html#a4c3ea32c9f641d1a972645310b7c4ab5" title="uECC_vli_numBits" alt="" coords="1108,806,1241,833"/>
+<area shape="rect" id="node20" href="$uECC_8c.html#a7fc1e69344e9f429adc4b355189a0832" title="uECC_vli_isZero" alt="" coords="1315,907,1437,934"/>
+<area shape="rect" id="node21" href="$uECC_8c.html#a2a1b3156650605109c8596b59a4eb0c4" title="uECC_vli_cmp" alt="" coords="1119,857,1230,883"/>
+<area shape="rect" id="node19" href="$uECC_8c.html#a389707237395538033274783d16ae112" title="vli_numDigits" alt="" coords="1325,806,1427,833"/>
+<area shape="rect" id="node22" href="$uECC_8c.html#a2a15830c6ec1bc8389b51774a9f4aa48" title="uECC_vli_sub" alt="" coords="1520,553,1627,579"/>
+<area shape="rect" id="node24" href="$uECC_8c.html#a37c1a383e4ea7b47bb49b751a299dad9" title="regularize_k" alt="" coords="901,249,993,275"/>
+<area shape="rect" id="node27" href="$uECC_8c.html#a08fb3c91cc131ead464a51dc56456fa7" title="EccPoint_mult" alt="" coords="893,299,1000,326"/>
+<area shape="rect" id="node28" href="$uECC_8c.html#a706eae58ec0ec7d5384276842a08c413" title="uECC_vli_set" alt="" coords="1325,299,1427,326"/>
+<area shape="rect" id="node30" href="$uECC_8c.html#a3ab6617d7cc2e9338830ffd918e53b3e" title="uECC_vli_clear" alt="" coords="1319,603,1433,630"/>
+<area shape="rect" id="node36" href="$uECC_8c.html#ab1e15c3f5219c350748b4ecf335e1c57" title="uECC_vli_modAdd" alt="" coords="1309,451,1443,478"/>
+<area shape="rect" id="node38" href="$uECC_8c.html#a9a063e745ff11584c74382ee9282dd44" title="uECC_vli_modInv" alt="" coords="1111,553,1239,579"/>
+<area shape="rect" id="node39" href="$uECC_8c.html#acd1a5c391c5c242f70964a6cad9232cd" title="uECC_vli_modMult" alt="" coords="1506,806,1641,833"/>
+<area shape="rect" id="node40" href="$uECC_8c.html#ab482fb7657036c22381178933c42756b" title="uECC_vli_nativeToBytes" alt="" coords="862,198,1031,225"/>
+<area shape="rect" id="node41" href="$uECC_8c.html#ac09542159920b53beffd4479e82acca4" title="uECC_vli_bytesToNative" alt="" coords="1089,654,1260,681"/>
+<area shape="rect" id="node42" href="$uECC_8c.html#a3ef4ada41b4a250680f39cf26b12d3cf" title="bits2int" alt="" coords="915,705,979,731"/>
+<area shape="rect" id="node25" href="$uECC_8c.html#abc8686b07575ea9382eb3583e09f1f0a" title="uECC_vli_add" alt="" coords="1520,426,1627,453"/>
+<area shape="rect" id="node26" href="$uECC_8c.html#a76f6c35f118970e235618080f3424a74" title="uECC_vli_testBit" alt="" coords="1113,46,1236,73"/>
+<area shape="rect" id="node29" href="$uECC_8c.html#ae0180c7182575b1e7d13bd869307042c" title="XYcZ_initial_double" alt="" coords="1106,299,1243,326"/>
+<area shape="rect" id="node31" href="$uECC_8c.html#aa1092ba47dd6f5fa39fa6e3d5fa75103" title="apply_z" alt="" coords="1343,198,1409,225"/>
+<area shape="rect" id="node32" href="$uECC_8c.html#a4f8e7afb371e7085a71cc16a14cb159d" title="uECC_vli_modMult_fast" alt="" coords="1491,249,1655,275"/>
+<area shape="rect" id="node34" href="$uECC_8c.html#abfd0a9168fb5d2387f49d0c0284bd0a2" title="XYcZ_addC" alt="" coords="1128,401,1221,427"/>
+<area shape="rect" id="node35" href="$uECC_8c.html#a860094253f0996a477aa354157b5c0ba" title="uECC_vli_modSub" alt="" coords="1309,401,1443,427"/>
+<area shape="rect" id="node37" href="$uECC_8c.html#a34399b1b1a2ae5cd12d01119313fc417" title="XYcZ_add" alt="" coords="1133,198,1216,225"/>
+<area shape="rect" id="node33" href="$uECC_8c.html#a4d61977904cd68f80fcf972e842429ae" title="uECC_vli_mult" alt="" coords="1705,527,1815,554"/>
+<area shape="rect" id="node46" href="$uECC_8c.html#a6f9ca1cd017d0b4561d5890780a5feb9" title="EccPoint_compute_public_key" alt="" coords="603,299,805,326"/>
+<area shape="rect" id="node50" href="$picotls_8h.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="408,1279,547,1320"/>
+</map>

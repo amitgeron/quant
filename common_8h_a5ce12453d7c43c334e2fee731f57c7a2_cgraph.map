@@ -1,0 +1,51 @@
+<map id="init" name="init">
+<area shape="rect" id="node2" href="$warpcore_8h.html#a045f4826ff2a8917693126c9d27455e4" title="Initialize a warpcore engine on the given interface. " alt="" coords="687,183,743,209"/>
+<area shape="rect" id="node18" href="$warpcore_8h.html#a74b39fb3160debbd7c56314d8a990780" title="Bind a w_sock to the given local UDP port number. " alt="" coords="111,411,174,437"/>
+<area shape="rect" id="node24" href="$warpcore_8h.html#ab31d23fb4fa64de58aef6c688ea6563a" title="Connect a bound socket to a remote IP address and port. " alt="" coords="100,461,185,488"/>
+<area shape="rect" id="node50" href="$warpcore_8h.html#a25db095b03b04843ed074c604c85c27d" title="Return whether a socket is connected (i.e., w_connect() has been called on it) or not..." alt="" coords="93,512,192,539"/>
+<area shape="rect" id="node3" href="$klib_2krng_8h.html#aacc147637623ae1e16f7b8624975f2f9" title="kr_srand_r" alt="" coords="825,107,908,133"/>
+<area shape="rect" id="node5" href="$plat_8h.html#ac645a18d329f9204ceddb21bff751abd" title="Return the Ethernet MAC address of network interface i. " alt="" coords="817,157,917,184"/>
+<area shape="rect" id="node6" href="$plat_8h.html#aed8665163695e9a71d2d423f978c4b6a" title="Return the MTU of network interface i. " alt="" coords="818,259,915,285"/>
+<area shape="rect" id="node7" href="$plat_8h.html#a2f7eb56d857e3fc97476186dbf10d36b" title="Return the link status of network interface i. " alt="" coords="819,309,914,336"/>
+<area shape="rect" id="node8" href="$plat_8h.html#ac97867bf57fe48eb27fa344a9efc6168" title="Return the link speed in Mb/s of network interface i. " alt="" coords="813,5,920,32"/>
+<area shape="rect" id="node9" href="$plat_8h.html#aed348bdab1fec90be8e2a1ef3ef5b2cc" title="Return the short name of the driver associated with interface i. " alt="" coords="795,56,938,83"/>
+<area shape="rect" id="node10" href="$backend_8h.html#a1efe6c54e4e30260d1c2630726b98eb5" title="Initialize the warpcore netmap backend for engine w. " alt="" coords="819,208,914,235"/>
+<area shape="rect" id="node4" href="$klib_2krng_8h.html#afb1117d9208c7537b22d596371cc40f1" title="kr_splitmix64" alt="" coords="1001,107,1100,133"/>
+<area shape="rect" id="node11" href="$arp_8c.html#a5857d8f27a0bcfa2b9dfe8308ac7befb" title="Update the MAC address associated with IPv4 address ip in the ARP cache. " alt="" coords="987,411,1115,437"/>
+<area shape="rect" id="node13" href="$warpcore_8h.html#ad806746e44b2d45c3919f986bc7d392c" title="Return name of interface associated with a warpcore engine. " alt="" coords="1011,259,1090,285"/>
+<area shape="rect" id="node14" href="$backend_8h.html#a5bca37c30d432e0c16c44d8e0c087e5f" title="init_iov" alt="" coords="1533,461,1595,488"/>
+<area shape="rect" id="node16" href="$warpcore_8h.html#a61040d6a1057690cce90907f628a0e16" title="Return a random number. " alt="" coords="1019,309,1083,336"/>
+<area shape="rect" id="node12" href="$arp_8c.html#ab57d1a0513207babcdb2f6a8a8295fae" title="Find the ARP cache entry associated with IPv4 address ip. " alt="" coords="1163,436,1274,463"/>
+<area shape="rect" id="node15" href="$backend_8h.html#a7f3566b6a4f34920186abe13e80a2760" title="For a given buffer index, get a pointer to its beginning. " alt="" coords="1680,461,1763,488"/>
+<area shape="rect" id="node17" href="$klib_2krng_8h.html#a3864312439c8a4b1ca75c8f0cbb9ccff" title="kr_rand_r" alt="" coords="1181,309,1257,336"/>
+<area shape="rect" id="node19" href="$warpcore_8c.html#a69efb41e98d6e0b055364a6991d415a9" title="Get the socket bound to the &lt;sport, dport&gt; pair. " alt="" coords="257,309,349,336"/>
+<area shape="rect" id="node20" href="$ip_8h.html#ab8a5dee15d15e993f85e4a49f76a837b" title="Initialize the static fields in an IPv4 ip_hdr header. " alt="" coords="1345,664,1426,691"/>
+<area shape="rect" id="node21" href="$backend_8h.html#a495a4a69dd158694e972166b9c0ddcb7" title="Netmap&#45;specific code to bind a warpcore socket. " alt="" coords="815,411,918,437"/>
+<area shape="rect" id="node23" href="$warpcore_8c.html#ae6cde508226de2f701d477f4f6a5e700" title="ins_sock" alt="" coords="265,461,340,488"/>
+<area shape="rect" id="node22" href="$warpcore_8h.html#a69efb41e98d6e0b055364a6991d415a9" title="Get the socket bound to the &lt;sport, dport&gt; pair. " alt="" coords="1173,968,1265,995"/>
+<area shape="rect" id="node25" href="$warpcore_8c.html#aaba6abd34e39730ddd4f560b090c6b5f" title="rem_sock" alt="" coords="263,613,342,640"/>
+<area shape="rect" id="node26" href="$backend_8h.html#af5df52522d52bfed04aa270094deaa78" title="Connect the given w_sock, using the netmap backend. " alt="" coords="241,563,365,589"/>
+<area shape="rect" id="node27" href="$backend_8h.html#a03bc21b220cd1dbb450c6d3ea4f838c9" title="The IPv4 network prefix for the given IPv4 address and netmask. " alt="" coords="1018,943,1083,969"/>
+<area shape="rect" id="node28" href="$arp_8c.html#aad7ca3e847867c4dcc618d034aa42739" title="Return the Ethernet MAC address for target IP address dip. " alt="" coords="413,613,512,640"/>
+<area shape="rect" id="node29" href="$backend_8h.html#a3ea12851bfb4f83f0843560797d0241e" title="w_alloc_iov_base" alt="" coords="1323,715,1448,741"/>
+<area shape="rect" id="node30" href="$eth_8h.html#a01df29c04e9962e458497dc6d3ea7da3" title="Return a pointer to the first data byte inside the Ethernet frame in buf. " alt="" coords="1528,1095,1600,1121"/>
+<area shape="rect" id="node31" href="$eth__tx_8h.html#a77ddf822dd36e3ef625a1e446c9f7b15" title="Places an Ethernet frame into a TX ring. " alt="" coords="1189,512,1248,539"/>
+<area shape="rect" id="node33" href="$warpcore_8h.html#a3fba5669717435248ca7b7945a9b9d75" title="Push data placed in the TX rings via udp_tx() and similar methods out onto the link. " alt="" coords="1348,917,1423,944"/>
+<area shape="rect" id="node34" href="$warpcore_8h.html#ab0508cfebe874ba0f3f2f230b4120e0d" title="Trigger netmap to make new received data available to w_rx(). " alt="" coords="560,613,635,640"/>
+<area shape="rect" id="node32" href="$eth_8c.html#a84b1cdcdafabcab37d01ffff5a0e1938" title="ether_ntoa_r" alt="" coords="1338,537,1433,564"/>
+<area shape="rect" id="node35" href="$eth_8c.html#a659282bc0d2ea46d2d4817aa9a2f46e7" title="Receive an Ethernet frame. " alt="" coords="685,639,744,665"/>
+<area shape="rect" id="node49" href="$backend_8h.html#a2242871306406e5b7f993f173bb9ff4a" title="is_pipe" alt="" coords="683,588,746,615"/>
+<area shape="rect" id="node36" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="829,613,905,640"/>
+<area shape="rect" id="node37" href="$ip_8c.html#a83c3b73e5ae32815530bdb103a0a59ee" title="Receive processing for an IPv4 packet. " alt="" coords="841,1145,892,1172"/>
+<area shape="rect" id="node47" href="$arp_8c.html#adfea277e13c34a07fc16cb4455988d71" title="Receive an ARP packet, and react to it. " alt="" coords="837,664,896,691"/>
+<area shape="rect" id="node38" href="$backend_8h.html#ad7729f17279f9d1a8ec331c6060a7c1a" title="Compute the IPv4 broadcast address for the given IPv4 address and netmask. " alt="" coords="1011,1044,1090,1071"/>
+<area shape="rect" id="node39" href="$in__cksum_8c.html#a262ae86742cd94bef7aa644688a88816" title="Compute the Internet checksum over buffer buf of length len. " alt="" coords="1346,1424,1425,1451"/>
+<area shape="rect" id="node42" href="$ip_8h.html#a147f3deb53c55c2206bfa17c72ecae6f" title="Extract the IP header length out of an ip_hdr::vhl field. " alt="" coords="1539,1323,1589,1349"/>
+<area shape="rect" id="node43" href="$udp_8c.html#a06a9a6f02f44430b11f90693b72dc63a" title="Receive a UDP packet. " alt="" coords="1020,1095,1081,1121"/>
+<area shape="rect" id="node45" href="$icmp_8c.html#a07ccf7ab70e02d29731d2aea211c8a7d" title="Make an ICMP message with the given type and code based on the received packet in buf..." alt="" coords="1185,1120,1253,1147"/>
+<area shape="rect" id="node46" href="$icmp_8c.html#a151b4a3f6fc7181caeaf927e1062530a" title="Analyze an inbound ICMP packet and react to it. " alt="" coords="1017,1221,1085,1248"/>
+<area shape="rect" id="node40" href="$in__cksum_8c.html#aaa17fb4a5e6679ec512bab73d6121ecb" title="csum_oc16" alt="" coords="1519,1449,1609,1476"/>
+<area shape="rect" id="node41" href="$in__cksum_8c.html#a7ee8c766405745694128ec30e7c82f5a" title="csum_oc16_reduce" alt="" coords="1497,1399,1631,1425"/>
+<area shape="rect" id="node44" href="$ip_8h.html#ae9f26c7f5dc4d2ba6bd03e86a42783da" title="Return a pointer to the payload data of the IPv4 packet in a buffer. " alt="" coords="1353,1171,1417,1197"/>
+<area shape="rect" id="node48" href="$arp_8c.html#a07cb7432c1d2686ebba35e7f85bd7b42" title="Modifies the ARP request in buf into a corresponding ARP reply, and sends it. " alt="" coords="1013,715,1088,741"/>
+</map>

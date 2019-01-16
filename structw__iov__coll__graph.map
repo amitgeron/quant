@@ -1,0 +1,10 @@
+<map id="w_iov" name="w_iov">
+<area shape="rect" id="node2" href="$structw__engine.html" title="A warpcore backend engine. " alt="" coords="51,187,127,213"/>
+<area shape="rect" id="node5" href="$structw__sock.html" title="A warpcore socket. " alt="" coords="129,277,196,304"/>
+<area shape="rect" id="node3" href="$structw__iov__sq.html" title="A tail queue of w_iov I/O vectors. " alt="" coords="71,5,147,32"/>
+<area shape="rect" id="node4" href="$structw__backend.html" title="w_backend" alt="" coords="75,368,163,395"/>
+<area shape="rect" id="node6" href="$structw__hdr.html" title="A warpcore template packet header structure. " alt="" coords="254,187,311,213"/>
+<area shape="rect" id="node7" href="$structudp__hdr.html" title="A representation of a UDP header; see RFC768. " alt="" coords="206,96,273,123"/>
+<area shape="rect" id="node8" href="$structip__hdr.html" title="An IPv4 header representation; see RFC791 " alt="" coords="298,96,355,123"/>
+<area shape="rect" id="node9" href="$structeth__hdr.html" title="An Ethernet II MAC header. " alt="" coords="379,96,444,123"/>
+</map>

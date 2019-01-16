@@ -1,5 +1,6 @@
 <map id="free_pn" name="free_pn">
-<area shape="rect" id="node2" href="$pn_8c.html#a2a52ace3d6774524e581f1411c0da8f7" title="do_free_pn" alt="" coords="121,31,207,57"/>
+<area shape="rect" id="node2" href="$pn_8c.html#a2a52ace3d6774524e581f1411c0da8f7" title="do_free_pn" alt="" coords="121,56,207,83"/>
 <area shape="rect" id="node3" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="257,5,367,32"/>
-<area shape="rect" id="node4" href="$diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="diet_free" alt="" coords="276,56,348,83"/>
+<area shape="rect" id="node4" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="284,56,340,83"/>
+<area shape="rect" id="node5" href="$diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="diet_free" alt="" coords="276,107,348,133"/>
 </map>

@@ -1,0 +1,26 @@
+<map id="openPemTest" name="openPemTest">
+<area shape="rect" id="node2" href="$pembase64_8h.html#a7e21e4ccfeae1ad622cc1c15051ed14c" title="ptls_load_pem_objects" alt="" coords="157,165,312,192"/>
+<area shape="rect" id="node14" href="$picotlsvs_8c.html#a8ee7ca10e770dbf46aac0377caf5c302" title="ptls_minicrypto_asn1\l_decode_private_key" alt="" coords="162,306,307,347"/>
+<area shape="rect" id="node3" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="391,191,497,217"/>
+<area shape="rect" id="node4" href="$pembase64_8c.html#a11e1c8a84090aee10bc39187c5b031c8" title="ptls_get_pem_object" alt="" coords="373,73,515,100"/>
+<area shape="rect" id="node12" href="$picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="377,140,511,167"/>
+<area shape="rect" id="node5" href="$pembase64_8c.html#a7e34449e8ac93489d75f9394e270a278" title="ptls_compare_separator_line" alt="" coords="577,107,765,133"/>
+<area shape="rect" id="node7" href="$pembase64_8c.html#a3a529c67f1cd8bc7ab7099263b56c852" title="ptls_base64_decode_init" alt="" coords="588,5,753,32"/>
+<area shape="rect" id="node8" href="$pembase64_8c.html#a8e90050739baab56987c5a880572a9b6" title="ptls_base64_decode" alt="" coords="600,56,741,83"/>
+<area shape="rect" id="node6" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="871,107,926,133"/>
+<area shape="rect" id="node9" href="$picotls_8h.html#a6d73fdc0d0da73a43906921c57a452ad" title="internal " alt="" coords="822,56,975,83"/>
+<area shape="rect" id="node10" href="$lib_2picotls_8c.html#ac3aed9c2ae399575c55bf3447b0c72fe" title="reserves space for additional amount of memory " alt="" coords="1041,56,1175,83"/>
+<area shape="rect" id="node11" href="$lib_2picotls_8c.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="1232,49,1371,90"/>
+<area shape="rect" id="node13" href="$picotls_8h.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="601,158,740,199"/>
+<area shape="rect" id="node15" href="$asn1_8h.html#a325bbd25be5f4d186c4f88baed2e6673" title="ptls_asn1_get_expected\l_type_and_length" alt="" coords="363,538,525,579"/>
+<area shape="rect" id="node20" href="$asn1_8h.html#af00cff6b468e0863d46c8ba60b594a75" title="ptls_asn1_error_message" alt="" coords="813,241,984,268"/>
+<area shape="rect" id="node21" href="$asn1_8h.html#a30fd9c1ba60aa7a717775b9be2bc6618" title="ptls_asn1_dump_content" alt="" coords="361,313,527,340"/>
+<area shape="rect" id="node22" href="$asn1_8h.html#aa0b441aa2fe939c65838287f566e3ef1" title="ptls_asn1_validation\l_recursive" alt="" coords="374,386,514,427"/>
+<area shape="rect" id="node16" href="$asn1_8c.html#af00cff6b468e0863d46c8ba60b594a75" title="ptls_asn1_error_message" alt="" coords="813,495,984,521"/>
+<area shape="rect" id="node19" href="$asn1_8c.html#a2debb1c4f0914bf13a5e2206a21adbba" title="ptls_asn1_read_length" alt="" coords="595,545,747,572"/>
+<area shape="rect" id="node17" href="$asn1_8c.html#adc19fea8399d879c235c8469945dd14f" title="ptls_asn1_print_indent" alt="" coords="1032,317,1184,344"/>
+<area shape="rect" id="node18" href="$picotest_8c.html#a119f8de9482f0ea3ee07d84d8b2d51bf" title="indent" alt="" coords="1273,317,1330,344"/>
+<area shape="rect" id="node23" href="$asn1_8c.html#a81877d9eeb925154e11a7dcb0182775e" title="ptls_asn1_read_type" alt="" coords="599,495,742,521"/>
+<area shape="rect" id="node24" href="$asn1_8c.html#ae3575ed0eee765b1e9fbad392be5c256" title="ptls_asn1_print_type" alt="" coords="827,343,970,369"/>
+<area shape="rect" id="node25" href="$asn1_8c.html#a30fd9c1ba60aa7a717775b9be2bc6618" title="ptls_asn1_dump_content" alt="" coords="587,393,754,420"/>
+</map>

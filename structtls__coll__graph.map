@@ -1,0 +1,24 @@
+<map id="tls" name="tls">
+<area shape="rect" id="node2" href="$structst__ptls__t.html" title="st_ptls_t" alt="" coords="1709,367,1781,393"/>
+<area shape="rect" id="node3" href="$structst__ptls__key__exchange__context__t.html" title="key exchange context built by ptls_key_exchange_algorithm::create. " alt="" coords="669,409,821,450"/>
+<area shape="rect" id="node8" href="$structst__ptls__esni__context__t.html" title="holds ESNIKeys and the private key (instantiated by ptls_esni_parse, freed using ptls_esni_dispose) ..." alt="" coords="1033,500,1186,527"/>
+<area shape="rect" id="node4" href="$structst__ptls__iovec__t.html" title="represents a sequence of octets " alt="" coords="335,269,446,296"/>
+<area shape="rect" id="node7" href="$structst__ptls__context__t.html" title="the configuration " alt="" coords="1445,471,1568,497"/>
+<area shape="rect" id="node19" href="$structst__ptls__esni__secret__t.html" title="st_ptls_esni_secret_t" alt="" coords="1036,601,1183,628"/>
+<area shape="rect" id="node20" href="$structst__ptls__certificate__request__t.html" title="st_ptls_certificate\l_request_t" alt="" coords="683,230,808,271"/>
+<area shape="rect" id="node22" href="$structst__ptls__raw__extension__t.html" title="st_ptls_raw_extension_t" alt="" coords="664,72,827,99"/>
+<area shape="rect" id="node23" href="$structst__ptls__handshake__properties__t.html" title="optional arguments to client&#45;driven handshake " alt="" coords="1006,72,1213,99"/>
+<area shape="rect" id="node5" href="$structst__ptls__key__exchange__algorithm__t.html" title="A key exchange algorithm. " alt="" coords="315,451,467,493"/>
+<area shape="rect" id="node6" href="$structst__ptls__buffer__t.html" title="used for storing output " alt="" coords="1451,119,1563,145"/>
+<area shape="rect" id="node9" href="$structst__ptls__cipher__suite__t.html" title="st_ptls_cipher_suite_t" alt="" coords="671,680,820,707"/>
+<area shape="rect" id="node10" href="$structst__ptls__aead__algorithm__t.html" title="An AEAD cipher. " alt="" coords="307,719,474,745"/>
+<area shape="rect" id="node16" href="$structst__ptls__aead__context__t.html" title="AEAD context. " alt="" coords="667,772,824,799"/>
+<area shape="rect" id="node11" href="$structst__ptls__cipher__algorithm__t.html" title="a symmetric cipher " alt="" coords="6,719,181,745"/>
+<area shape="rect" id="node12" href="$structst__ptls__hash__algorithm__t.html" title="A hash algorithm and its properties. " alt="" coords="307,808,474,835"/>
+<area shape="rect" id="node17" href="$structst__ptls__key__schedule__t.html" title="st_ptls_key_schedule_t" alt="" coords="666,837,825,864"/>
+<area shape="rect" id="node13" href="$structst__ptls__hash__context__t.html" title="A hash context. " alt="" coords="15,836,172,863"/>
+<area shape="rect" id="node14" href="$structst__ptls__decompress__certificate__t.html" title="st_ptls_decompress\l_certificate_t" alt="" coords="1040,434,1179,475"/>
+<area shape="rect" id="node15" href="$structst__ptls__traffic__protection__t.html" title="st_ptls_traffic_protection_t" alt="" coords="1237,773,1413,800"/>
+<area shape="rect" id="node18" href="$structst__ptls__early__data__t.html" title="st_ptls_early_data_t" alt="" coords="1437,169,1576,196"/>
+<area shape="rect" id="node21" href="$structst__ptls__signature__algorithms__t.html" title="st_ptls_signature_algorithms_t" alt="" coords="291,79,490,105"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="ptls_load_pem_objects" name="ptls_load_pem_objects">
+<area shape="rect" id="node2" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="227,31,333,57"/>
+<area shape="rect" id="node3" href="$pembase64_8c.html#a11e1c8a84090aee10bc39187c5b031c8" title="ptls_get_pem_object" alt="" coords="209,81,351,108"/>
+<area shape="rect" id="node11" href="$picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="213,136,347,163"/>
+<area shape="rect" id="node4" href="$pembase64_8c.html#a7e34449e8ac93489d75f9394e270a278" title="ptls_compare_separator_line" alt="" coords="401,5,589,32"/>
+<area shape="rect" id="node6" href="$pembase64_8c.html#a3a529c67f1cd8bc7ab7099263b56c852" title="ptls_base64_decode_init" alt="" coords="412,56,577,83"/>
+<area shape="rect" id="node7" href="$pembase64_8c.html#a8e90050739baab56987c5a880572a9b6" title="ptls_base64_decode" alt="" coords="424,107,565,133"/>
+<area shape="rect" id="node5" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="687,5,742,32"/>
+<area shape="rect" id="node8" href="$picotls_8h.html#a6d73fdc0d0da73a43906921c57a452ad" title="internal " alt="" coords="638,107,791,133"/>
+<area shape="rect" id="node9" href="$lib_2picotls_8c.html#ac3aed9c2ae399575c55bf3447b0c72fe" title="reserves space for additional amount of memory " alt="" coords="840,107,973,133"/>
+<area shape="rect" id="node10" href="$lib_2picotls_8c.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="1021,99,1160,141"/>
+<area shape="rect" id="node12" href="$picotls_8h.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="425,158,564,199"/>
+</map>

@@ -1,3 +1,4 @@
 <map id="conn_needs_ctrl" name="conn_needs_ctrl">
 <area shape="rect" id="node2" href="$conn_8h.html#a90b995546c499b521dcb4bf6cc7e39f1" title="epoch_in" alt="" coords="171,5,245,32"/>
+<area shape="rect" id="node3" href="$picotls_8h.html#aa6a0008d415e04f0d67db03fdb2113de" title="Return the current read epoch. " alt="" coords="294,5,437,32"/>
 </map>

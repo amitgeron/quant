@@ -1,0 +1,10 @@
+<map id="cf_poly1305_finish" name="cf_poly1305_finish">
+<area shape="rect" id="node2" href="$poly1305_8c.html#ab4e5f578f7fa2a66abbc26489d6f24ae" title="poly1305_last_block" alt="" coords="186,5,326,32"/>
+<area shape="rect" id="node4" href="$poly1305_8c.html#a234cdf38cbd09f9be5b48367cfa5ac73" title="poly1305_add" alt="" coords="537,56,639,83"/>
+<area shape="rect" id="node7" href="$poly1305_8c.html#ade1fb0d5d604b0534e66938721a70eea" title="poly1305_full_reduce" alt="" coords="184,107,328,133"/>
+<area shape="rect" id="node9" href="$handy_8h.html#ad453ec2c6196a70300020477df38ab89" title="Like memset(ptr, 0, len), but not allowed to be removed by compilers. " alt="" coords="211,157,301,184"/>
+<area shape="rect" id="node3" href="$poly1305_8c.html#a6042e63fc42e5f7d596b55ab1438de7a" title="poly1305_block" alt="" coords="376,5,488,32"/>
+<area shape="rect" id="node5" href="$poly1305_8c.html#acaf640ec3c5238790803dfe21fdd7829" title="poly1305_mul" alt="" coords="537,5,639,32"/>
+<area shape="rect" id="node6" href="$poly1305_8c.html#aef9d6fdbb049e9e4257e683f1d3d6aca" title="poly1305_min_reduce" alt="" coords="689,5,837,32"/>
+<area shape="rect" id="node8" href="$bitops_8h.html#a85fb2c93be815f2fb0f5854781e6821b" title="Produce 0xffffffff if x == y, zero otherwise, without branching. " alt="" coords="391,157,473,184"/>
+</map>

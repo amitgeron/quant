@@ -1,0 +1,13 @@
+<map id="ocb_encrypt_block" name="ocb_encrypt_block">
+<area shape="rect" id="node2" href="$ocb_8c.html#aa4510e42e499519b85ec15547333d451" title="ocb_add_Ln" alt="" coords="218,56,310,83"/>
+<area shape="rect" id="node3" href="$gf128_8c.html#af8a1e2e603016e12cbb655bbce241628" title="cf_gf128_add" alt="" coords="401,5,501,32"/>
+<area shape="rect" id="node7" href="$bitops_8h.html#a23b7005462dddcdea6a802d120f57418" title="count_trailing_zeroes" alt="" coords="191,107,337,133"/>
+<area shape="rect" id="node8" href="$gf128_8c.html#aa623b11a6879f8d1921afa002bbcd420" title="cf_gf128_tobytes_be" alt="" coords="193,157,335,184"/>
+<area shape="rect" id="node10" href="$bitops_8h.html#a31f7f072f29d5a278a573275c14aae7f" title="out = x ^ y. " alt="" coords="233,208,295,235"/>
+<area shape="rect" id="node11" href="$gf128_8c.html#afba50a057c856e6989a1efc78f4426e3" title="cf_gf128_frombytes_be" alt="" coords="185,259,343,285"/>
+<area shape="rect" id="node4" href="$gf128_8c.html#af1dd33acfb5aa089fd8b8ea435c4a75e" title="cf_gf128_double" alt="" coords="392,56,509,83"/>
+<area shape="rect" id="node5" href="$bitops_8h.html#ac73e349143c697f2058d5eae0a27365d" title="Select the ith entry from the given table of n values, in a side channel&#45;silent way. " alt="" coords="558,56,637,83"/>
+<area shape="rect" id="node6" href="$bitops_8h.html#ad8cec031b7eccb98c5c1d0ddb368aad2" title="Product 0xff if x == y, zero otherwise, without branching. " alt="" coords="685,56,760,83"/>
+<area shape="rect" id="node9" href="$bitops_8h.html#abe267c3df623a1ec6be994c93660a368" title="Encode v as a 32&#45;bit big endian quantity into buf. " alt="" coords="408,157,493,184"/>
+<area shape="rect" id="node12" href="$bitops_8h.html#a4558958d044593a88485bbb67e578453" title="Read 4 bytes from buf, as a 32&#45;bit big endian quantity. " alt="" coords="409,259,492,285"/>
+</map>

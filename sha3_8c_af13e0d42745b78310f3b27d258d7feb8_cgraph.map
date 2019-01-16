@@ -1,0 +1,12 @@
+<map id="sha3_block" name="sha3_block">
+<area shape="rect" id="node2" href="$sha3_8c.html#a7b0476b4d7fe00494a1b3620dd647279" title="absorb" alt="" coords="145,56,207,83"/>
+<area shape="rect" id="node6" href="$sha3_8c.html#a152d08b75af1696fc88603e49169640b" title="permute" alt="" coords="141,107,211,133"/>
+<area shape="rect" id="node3" href="$sha3_8c.html#ad4e7424cd1c5bdedc7f177f30967fb92" title="read64_bi" alt="" coords="261,56,339,83"/>
+<area shape="rect" id="node4" href="$bitops_8h.html#a53b9f25069cc1b9fd72d421715d13aad" title="Read 4 bytes from buf, as a 32&#45;bit little endian quantity. " alt="" coords="394,5,473,32"/>
+<area shape="rect" id="node5" href="$sha3_8c.html#af6722874eff4aa635f3c4ba2363e3f27" title="shuffle_out" alt="" coords="390,56,477,83"/>
+<area shape="rect" id="node7" href="$sha3_8c.html#ae086b952fc80787190e7ea27a52f72e0" title="theta" alt="" coords="275,107,325,133"/>
+<area shape="rect" id="node10" href="$sha3_8c.html#a108db4e6fa065760cdaa32361ab55180" title="rho_pi_chi" alt="" coords="259,157,341,184"/>
+<area shape="rect" id="node8" href="$sha3_8c.html#a555c96185522002434108b1e27213683" title="rotl_bi_1" alt="" coords="398,107,469,133"/>
+<area shape="rect" id="node9" href="$bitops_8h.html#a357870f3f6726b49c6ec691c00d1099c" title="Circularly rotate left x by n bits. " alt="" coords="526,132,581,159"/>
+<area shape="rect" id="node11" href="$sha3_8c.html#a008ef7dd2a3f37fa94cbce28dcff03fe" title="rotl_bi_n" alt="" coords="398,157,469,184"/>
+</map>

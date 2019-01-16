@@ -1,0 +1,28 @@
+<map id="try_psk_handshake" name="try_psk_handshake">
+<area shape="rect" id="node2" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="820,27,927,54"/>
+<area shape="rect" id="node3" href="$lib_2picotls_8c.html#a004db46677e550e5f235a85bfbe6f8c4" title="decode_session_identifier" alt="" coords="190,216,362,243"/>
+<area shape="rect" id="node12" href="$lib_2picotls_8c.html#ac423c785b7146f7e78accc8d11801553" title="vec_is_string" alt="" coords="227,166,325,192"/>
+<area shape="rect" id="node13" href="$lib_2picotls_8c.html#a42a434fed7c689f5af03e95f873232bc" title="key_schedule_extract" alt="" coords="420,495,569,522"/>
+<area shape="rect" id="node21" href="$picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="806,154,941,180"/>
+<area shape="rect" id="node24" href="$lib_2picotls_8c.html#a363a3e1f1cd42666a1ee1697470a262c" title="derive_secret" alt="" coords="226,318,326,344"/>
+<area shape="rect" id="node26" href="$lib_2picotls_8c.html#a0129a2c9d51477ddaa75205b3f2072ee" title="internal " alt="" coords="207,369,345,410"/>
+<area shape="rect" id="node27" href="$lib_2picotls_8c.html#ad6358008656a77ef84d74fd4012c075e" title="calc_verify_data" alt="" coords="436,292,553,319"/>
+<area shape="rect" id="node4" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="457,90,533,116"/>
+<area shape="rect" id="node5" href="$lib_2picotls_8c.html#a50aa9860710e7b2a1002ecbd4438c69e" title="ptls_decode64" alt="" coords="441,140,548,167"/>
+<area shape="rect" id="node7" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="821,419,926,446"/>
+<area shape="rect" id="node8" href="$lib_2picotls_8c.html#a2d02d6f477c8fa36dfe14c425c884762" title="ptls_decode16" alt="" coords="441,191,548,218"/>
+<area shape="rect" id="node10" href="$lib_2picotls_8c.html#a6293010526fd7ac9dcaf83821e2e591d" title="ptls_decode32" alt="" coords="441,242,548,268"/>
+<area shape="rect" id="node6" href="$lib_2picotls_8c.html#a639de81443b6f8fee79a78d096f9bdbf" title="ntoh64" alt="" coords="661,90,723,116"/>
+<area shape="rect" id="node9" href="$lib_2picotls_8c.html#a88911502068ceae20b044ee0ace4db11" title="ntoh16" alt="" coords="661,140,723,167"/>
+<area shape="rect" id="node11" href="$lib_2picotls_8c.html#acb83ed5920da4420e22852077692babb" title="ntoh32" alt="" coords="661,191,723,218"/>
+<area shape="rect" id="node14" href="$lib_2picotls_8c.html#a7011e70930ac9119a3e9d9a2b4a1d5f6" title="hkdf_expand_label" alt="" coords="627,292,757,319"/>
+<area shape="rect" id="node23" href="$lib_2picotls_8c.html#ab1826e739c652ff34dc3c7f1f6642cf8" title="ptls_hkdf_extract" alt="" coords="631,546,753,572"/>
+<area shape="rect" id="node15" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="846,292,901,319"/>
+<area shape="rect" id="node16" href="$lib_2picotls_8c.html#ad066e549d3eadb8071666a295b3d286d" title="ptls_hkdf_expand" alt="" coords="811,343,935,370"/>
+<area shape="rect" id="node17" href="$lib_2picotls_8c.html#a5db4538399b7412c4dc994ed9041e952" title="ptls_hmac_create" alt="" coords="996,343,1121,370"/>
+<area shape="rect" id="node18" href="$lib_2picotls_8c.html#a4291f2257a1f1c0d5aabb5c1bf782715" title="hmac_update" alt="" coords="1177,292,1277,319"/>
+<area shape="rect" id="node19" href="$lib_2picotls_8c.html#a22286798908a379df06073befee1973b" title="hmac_final" alt="" coords="1184,394,1269,420"/>
+<area shape="rect" id="node20" href="$lib_2picotls_8c.html#a4184a8e63a098ef29aea464c551a8d14" title="hmac_apply_key" alt="" coords="1325,368,1445,395"/>
+<area shape="rect" id="node22" href="$picotls_8h.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="989,146,1128,188"/>
+<area shape="rect" id="node25" href="$lib_2picotls_8c.html#a6dc4d9606e324b70fe5d578895e6dde3" title="derive_secret_with_hash" alt="" coords="411,444,578,471"/>
+</map>

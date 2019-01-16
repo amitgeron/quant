@@ -1,0 +1,6 @@
+<map id="w_alloc_cnt" name="w_alloc_cnt">
+<area shape="rect" id="node2" href="$warpcore_8c.html#a8e3e3376b3f23f1a1a8fc4be642f7710" title="Return a spare w_iov from the pool of the given warpcore engine. " alt="" coords="144,5,235,32"/>
+<area shape="rect" id="node3" href="$backend_8h.html#a3ea12851bfb4f83f0843560797d0241e" title="w_alloc_iov_base" alt="" coords="283,5,408,32"/>
+<area shape="rect" id="node4" href="$backend_8h.html#a5bca37c30d432e0c16c44d8e0c087e5f" title="init_iov" alt="" coords="457,5,519,32"/>
+<area shape="rect" id="node5" href="$backend_8h.html#a7f3566b6a4f34920186abe13e80a2760" title="For a given buffer index, get a pointer to its beginning. " alt="" coords="568,5,651,32"/>
+</map>

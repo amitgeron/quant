@@ -1,0 +1,51 @@
+<map id="test_all_handshakes" name="test_all_handshakes">
+<area shape="rect" id="node2" href="$t_2picotls_8c.html#a92c4cf2f6955efa70d8a22e1afe8f735" title="sign_certificate" alt="" coords="229,261,339,288"/>
+<area shape="rect" id="node3" href="$t_2picotls_8c.html#a56a8f531d5685707b2d2b9d17d91863d" title="second_sign_certificate" alt="" coords="205,312,363,339"/>
+<area shape="rect" id="node4" href="$picotest_8c.html#a1597378c4dd23f5925c808318a585071" title="subtest" alt="" coords="251,363,317,389"/>
+<area shape="rect" id="node9" href="$t_2picotls_8c.html#a003e4ada4d81c4100d5e78c4d4e0d642" title="test_full_handshake" alt="" coords="215,440,353,467"/>
+<area shape="rect" id="node30" href="$t_2picotls_8c.html#abf57285e78accc337fe45fd7b55991bb" title="test_full_handshake\l_with_client_authentication" alt="" coords="195,491,373,533"/>
+<area shape="rect" id="node31" href="$t_2picotls_8c.html#ad207e5f0dc25d8fad10b65aaafac698d" title="test_hrr_handshake" alt="" coords="439,553,575,580"/>
+<area shape="rect" id="node32" href="$t_2picotls_8c.html#afa61961c90229614b7e8cd19d15af1e0" title="test_hrr_stateless\l_handshake" alt="" coords="443,655,570,697"/>
+<area shape="rect" id="node33" href="$t_2picotls_8c.html#aa4e2b39134de6bae9a250dfe73685588" title="test_resumption" alt="" coords="227,841,341,868"/>
+<area shape="rect" id="node37" href="$t_2picotls_8c.html#ae4f9dd2c8f6b7a0ec78fec3a3a5b3f5a" title="test_resumption_different\l_preferred_key_share" alt="" coords="199,893,369,934"/>
+<area shape="rect" id="node38" href="$t_2picotls_8c.html#a0458af5ee2c471f48f64deafe04942ab" title="test_resumption_with\l_client_authentication" alt="" coords="210,958,358,999"/>
+<area shape="rect" id="node39" href="$t_2picotls_8c.html#a8aa79bafb191eff7f46f1592fa6ce0a5" title="test_enforce_retry\l_stateful" alt="" coords="221,775,347,817"/>
+<area shape="rect" id="node41" href="$t_2picotls_8c.html#ac99fa80843540b757ccd2bd62ad78a91" title="test_enforce_retry\l_stateless" alt="" coords="221,710,347,751"/>
+<area shape="rect" id="node42" href="$t_2picotls_8c.html#ae02a3d07cbdd10fd5ed9daee444b55f0" title="test_stateless_hrr\l_aad_change" alt="" coords="443,1255,570,1297"/>
+<area shape="rect" id="node44" href="$t_2picotls_8c.html#a056e4d383632ec2638acdbc5480e9a6e" title="test_key_update" alt="" coords="447,604,566,631"/>
+<area shape="rect" id="node45" href="$t_2picotls_8c.html#af562558c1f9d2a5a3df2357da000e23f" title="test_handshake_api" alt="" coords="644,1744,783,1771"/>
+<area shape="rect" id="node5" href="$picotest_8c.html#a4502a32a6f7952faad96b8e5c758a7f7" title="note" alt="" coords="483,33,530,60"/>
+<area shape="rect" id="node7" href="$picotest_8c.html#aaa1e239d4270f8486e3ebf26785403ce" title="done_testing" alt="" coords="459,149,555,176"/>
+<area shape="rect" id="node8" href="$picotest_8c.html#ae20801e1b2d9a67918ed1e7c6d847d16" title="_ok" alt="" coords="485,331,528,357"/>
+<area shape="rect" id="node6" href="$picotest_8c.html#a119f8de9482f0ea3ee07d84d8b2d51bf" title="indent" alt="" coords="685,5,742,32"/>
+<area shape="rect" id="node10" href="$t_2picotls_8c.html#a7acc8abd52a6f3b3c9d659220e9a1f3a" title="test_full_handshake_impl" alt="" coords="422,473,591,500"/>
+<area shape="rect" id="node11" href="$t_2picotls_8c.html#ac76bece5d9428f853b1b8bfc606417eb" title="test_handshake" alt="" coords="656,604,771,631"/>
+<area shape="rect" id="node17" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="1098,832,1203,859"/>
+<area shape="rect" id="node12" href="$lib_2picotls_8c.html#aa142dbaa5d99942c25847febf894a1f4" title="create a object to handle new TLS connection. " alt="" coords="893,1541,968,1568"/>
+<area shape="rect" id="node13" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="1097,1389,1204,1416"/>
+<area shape="rect" id="node14" href="$t_2picotls_8c.html#a5c7a85ea427aad387707b36c2c59692e" title="save_client_hello" alt="" coords="869,208,992,235"/>
+<area shape="rect" id="node15" href="$lib_2picotls_8c.html#abc4124b1bc5642960e94ebc06686a614" title="sets the server&#45;name associated to the TLS connection. " alt="" coords="1075,208,1226,235"/>
+<area shape="rect" id="node16" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="1275,107,1330,133"/>
+<area shape="rect" id="node18" href="$lib_2picotls_8c.html#a0726ca9674d92e6975c922c97566fb41" title="proceeds with the handshake, optionally taking some input from peer. " alt="" coords="874,1136,987,1163"/>
+<area shape="rect" id="node19" href="$picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="1083,1237,1218,1264"/>
+<area shape="rect" id="node20" href="$lib_2picotls_8c.html#afbd373f266a52a1718a3476b24c3a295" title="releases all resources associated to the object " alt="" coords="895,1237,967,1264"/>
+<area shape="rect" id="node21" href="$lib_2picotls_8c.html#a17b1f731fc08806d7911d6dbad06a46b" title="encrypts given buffer into multiple TLS records " alt="" coords="891,933,970,960"/>
+<area shape="rect" id="node22" href="$lib_2picotls_8c.html#a48da6806321331d00677c66444d7143d" title="returns if a PSK (or PSK&#45;DHE) handshake was performed " alt="" coords="851,360,1010,387"/>
+<area shape="rect" id="node23" href="$lib_2picotls_8c.html#aa889677e26863e1a37b216aedac72c67" title="returns the server&#45;name (NULL if SNI is not used or failed to negotiate) " alt="" coords="855,461,1006,488"/>
+<area shape="rect" id="node24" href="$lib_2picotls_8c.html#ab8af003866ffad57334b31bf5290cbe8" title="returns the negotiated protocol (or NULL) " alt="" coords="863,513,998,554"/>
+<area shape="rect" id="node25" href="$boot_8c.html#a1b021cbd45ae7a424f02e7d646205a00" title="memmove" alt="" coords="889,579,972,605"/>
+<area shape="rect" id="node26" href="$lib_2picotls_8c.html#a2afe8a29e8baf3c764fb561d17bf29c6" title="decrypts the first record within given buffer " alt="" coords="885,984,977,1011"/>
+<area shape="rect" id="node27" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="1113,1668,1189,1695"/>
+<area shape="rect" id="node28" href="$lib_2picotls_8c.html#a191fd22eb98e7eb3de49e83620d30015" title="returns if the handshake has been completed " alt="" coords="835,1187,1026,1213"/>
+<area shape="rect" id="node29" href="$lib_2picotls_8c.html#ad29f9c5575e2c4123927d796e4921e7e" title="updates the send traffic key (as well as asks the peer to update) " alt="" coords="872,309,989,336"/>
+<area shape="rect" id="node34" href="$t_2picotls_8c.html#a524ca93b831fcdf06818c270f0366651" title="test_resumption_impl" alt="" coords="433,900,580,927"/>
+<area shape="rect" id="node35" href="$t_2picotls_8c.html#a5739276c86027238b960d7c31f60a647" title="on_copy_ticket" alt="" coords="875,1592,986,1619"/>
+<area shape="rect" id="node36" href="$t_2picotls_8c.html#a320ce096c802d3522e889b0f9a353c03" title="on_save_ticket" alt="" coords="875,1643,986,1669"/>
+<area shape="rect" id="node40" href="$t_2picotls_8c.html#ad779ebb9faec6bf8db6a7a9f710bdcf3" title="test_enforce_retry" alt="" coords="650,1085,777,1112"/>
+<area shape="rect" id="node43" href="$t_2picotls_8c.html#aa10184ec4a879d5ea1e1eab560d2366a" title="stateless_hrr_prepare" alt="" coords="640,1339,787,1365"/>
+<area shape="rect" id="node46" href="$lib_2picotls_8c.html#a7e917599d9876a6c3fa9e470c64fcf67" title="update_traffic_key" alt="" coords="866,1744,995,1771"/>
+<area shape="rect" id="node47" href="$t_2picotls_8c.html#ab3529f3d46261a9f52977674b324e42b" title="on_update_traffic_key" alt="" coords="855,1997,1006,2024"/>
+<area shape="rect" id="node48" href="$lib_2picotls_8c.html#aefec8568e3aed02938b396752d54d5e5" title="returns a pointer to user data pointer (client is reponsible for freeing the associated data prior to..." alt="" coords="1089,2023,1212,2049"/>
+<area shape="rect" id="node49" href="$lib_2picotls_8c.html#aaf66968e2ad59ebf0f264cbb9d2f84f9" title="Runs the handshake by dealing directly with handshake messages. " alt="" coords="1077,2124,1225,2151"/>
+<area shape="rect" id="node50" href="$t_2picotls_8c.html#a0caf4ea30eded4536d10f99595c361e4" title="feed_messages" alt="" coords="873,2099,988,2125"/>
+</map>

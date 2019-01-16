@@ -1,0 +1,8 @@
+<map id="ftp_open" name="ftp_open">
+<area shape="rect" id="node2" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="326,5,381,32"/>
+<area shape="rect" id="node3" href="$warpcore_2lib_2src_2klib_2kopen_8c.html#ae85946056622793c4dfc723e0d26c929" title="socket_connect" alt="" coords="125,31,240,57"/>
+<area shape="rect" id="node4" href="$warpcore_2lib_2src_2klib_2kopen_8c.html#a9408a09574df32b8f495c411687901cc" title="kftp_get_response" alt="" coords="289,132,418,159"/>
+<area shape="rect" id="node7" href="$warpcore_2lib_2src_2klib_2kopen_8c.html#a468693c34fc9e97c91883a534abf4706" title="kftp_send_cmd" alt="" coords="127,81,238,108"/>
+<area shape="rect" id="node5" href="$warpcore_2lib_2src_2klib_2kopen_8c.html#a75f457b9ed5457c30b725695d120b932" title="socket_wait" alt="" coords="467,107,559,133"/>
+<area shape="rect" id="node6" href="$curve25519_8naclref_8c.html#aaadabd431d8a32125f515700f5ced9d7" title="select" alt="" coords="609,107,666,133"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="ptls_minicrypto_random_bytes" name="ptls_minicrypto_random_bytes">
+<area shape="rect" id="node2" href="$drbg_8c.html#a3d96d46fc2b09859f7d161cd321f2b30" title="cf_hash_drbg_sha256\l_needs_reseed" alt="" coords="813,145,963,186"/>
+<area shape="rect" id="node3" href="$cifra_8c.html#a086d6f716855b73e24c48cf5672ce607" title="read_entropy" alt="" coords="254,31,351,57"/>
+<area shape="rect" id="node5" href="$drbg_8c.html#a5554970693c632001ffcbe19bccb9a7f" title="cf_hash_drbg_sha256_init" alt="" coords="216,107,389,133"/>
+<area shape="rect" id="node9" href="$drbg_8c.html#ac688ec437860cba2eb2fb10f10a0d598" title="cf_hash_drbg_sha256_gen" alt="" coords="214,212,391,239"/>
+<area shape="rect" id="node4" href="$boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="489,5,540,32"/>
+<area shape="rect" id="node6" href="$handy_8h.html#ad453ec2c6196a70300020477df38ab89" title="Like memset(ptr, 0, len), but not allowed to be removed by compilers. " alt="" coords="470,107,559,133"/>
+<area shape="rect" id="node7" href="$drbg_8c.html#aaf4b3ad2b1d1d56e012ba911dded6a9d" title="hash_df" alt="" coords="667,77,735,104"/>
+<area shape="rect" id="node8" href="$bitops_8h.html#abe267c3df623a1ec6be994c93660a368" title="Encode v as a 32&#45;bit big endian quantity into buf. " alt="" coords="1011,149,1096,176"/>
+<area shape="rect" id="node10" href="$drbg_8c.html#a0923030217c81f121ef78956b0819c33" title="cf_hash_drbg_sha256\l_gen_additional" alt="" coords="440,209,589,250"/>
+<area shape="rect" id="node11" href="$drbg_8c.html#aa69e8b5e9309587716e6aead404a7b93" title="hash_gen_request" alt="" coords="637,216,765,243"/>
+<area shape="rect" id="node12" href="$drbg_8c.html#ab56b9d52a4eeec6a7b39e4a6d9dd97fb" title="hash_process_addnl" alt="" coords="817,312,959,339"/>
+<area shape="rect" id="node14" href="$drbg_8c.html#a2e6b9b162635574e0fedafcb05d954cf" title="hash_generate" alt="" coords="835,261,941,288"/>
+<area shape="rect" id="node15" href="$drbg_8c.html#ac2b14a1899eed2eb8408bbf4aa2365fa" title="hash_step" alt="" coords="847,211,929,237"/>
+<area shape="rect" id="node13" href="$drbg_8c.html#ab13fd51f4f95f86b20c4ec0d97718df9" title="add" alt="" coords="1032,261,1075,288"/>
+</map>

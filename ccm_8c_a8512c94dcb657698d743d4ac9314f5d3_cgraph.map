@@ -1,0 +1,36 @@
+<map id="add_aad" name="add_aad">
+<area shape="rect" id="node2" href="$ccm_8c.html#a605444fbc55ae21891e5c2c05bc29f64" title="write_be" alt="" coords="179,41,250,68"/>
+<area shape="rect" id="node3" href="$cbcmac_8c.html#a95bb94fb3514d9082fb1c980ad370732" title="cf_cbcmac_stream_update" alt="" coords="125,147,304,173"/>
+<area shape="rect" id="node34" href="$ccm_8c.html#a36911756d0365b47ef5a0cc03ef6f26b" title="zero_pad" alt="" coords="177,92,252,119"/>
+<area shape="rect" id="node4" href="$blockwise_8c.html#ac912f4cce505dcb0ad9ef20fa5ca7103" title="cf_blockwise_accumulate" alt="" coords="353,233,525,260"/>
+<area shape="rect" id="node32" href="$cbcmac_8c.html#a4d5fbf8db33d29bf1eb252ed57e5ec2d" title="cbcmac_process" alt="" coords="599,88,721,115"/>
+<area shape="rect" id="node5" href="$blockwise_8c.html#a62cef6847331140b5bb0ed2363b81846" title="cf_blockwise_accumulate\l_final" alt="" coords="574,226,746,267"/>
+<area shape="rect" id="node6" href="$chacha20poly1305_8c.html#a5dac71fccc0b105443f2ebf1194a4bf9" title="process" alt="" coords="817,233,885,260"/>
+<area shape="rect" id="node7" href="$chacha20_8c.html#af1634c7720c98a79503033fd7176c3a4" title="cf_chacha20_init_custom" alt="" coords="955,183,1125,209"/>
+<area shape="rect" id="node10" href="$chacha20_8c.html#a87c339940ceaef83402f61b431d4268a" title="cf_chacha20_cipher" alt="" coords="971,132,1109,159"/>
+<area shape="rect" id="node18" href="$poly1305_8c.html#a527c126357d81c557f8875f8990b1a78" title="cf_poly1305_init" alt="" coords="982,81,1098,108"/>
+<area shape="rect" id="node19" href="$handy_8h.html#ad453ec2c6196a70300020477df38ab89" title="Like memset(ptr, 0, len), but not allowed to be removed by compilers. " alt="" coords="1213,309,1302,336"/>
+<area shape="rect" id="node20" href="$poly1305_8c.html#ad936dd169a7628b1e1857f9c44f4e1da" title="cf_poly1305_update" alt="" coords="971,436,1109,463"/>
+<area shape="rect" id="node26" href="$bitops_8h.html#ac8d68de87ac89105df4ba7df80abb82e" title="Encode v as a 64&#45;bit little endian quantity into buf. " alt="" coords="999,233,1081,260"/>
+<area shape="rect" id="node27" href="$poly1305_8c.html#a065cff3599c6fa947d59561adef3d7be" title="cf_poly1305_finish" alt="" coords="975,385,1105,412"/>
+<area shape="rect" id="node31" href="$handy_8h.html#aa8704403e669f432e8c2be9712678a6f" title="Returns 1 if len bytes at va equal len bytes at vb, 0 if they do not. " alt="" coords="1004,284,1076,311"/>
+<area shape="rect" id="node8" href="$chacha20_8c.html#a60f9e96d533c4d3c2e59d54996284dbd" title="set_key" alt="" coords="1223,183,1291,209"/>
+<area shape="rect" id="node9" href="$boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="1428,183,1479,209"/>
+<area shape="rect" id="node11" href="$blockwise_8c.html#aae1f38dc3f3428ff848bb4f006234197" title="cf_blockwise_xor" alt="" coords="1196,31,1319,57"/>
+<area shape="rect" id="node13" href="$chacha20_8c.html#a228d6f1b83dc3c313ed1be9361830fc3" title="cf_chacha20_next_block" alt="" coords="1174,132,1341,159"/>
+<area shape="rect" id="node12" href="$bitops_8h.html#a31f7f072f29d5a278a573275c14aae7f" title="out = x ^ y. " alt="" coords="1423,5,1484,32"/>
+<area shape="rect" id="node14" href="$chacha20_8c.html#a341d892e9321f283258d12d142ce7a39" title="cf_chacha20_core" alt="" coords="1389,132,1517,159"/>
+<area shape="rect" id="node17" href="$bitops_8h.html#a22ef99af5088ae2a378b67c4190ad64c" title="Increments the integer stored at v (of non&#45;zero length len) with the least significant byte first..." alt="" coords="1423,81,1483,108"/>
+<area shape="rect" id="node15" href="$bitops_8h.html#a53b9f25069cc1b9fd72d421715d13aad" title="Read 4 bytes from buf, as a 32&#45;bit little endian quantity. " alt="" coords="1578,107,1657,133"/>
+<area shape="rect" id="node16" href="$bitops_8h.html#a467162e933d03f7220bfda986d373992" title="Encode v as a 32&#45;bit little endian quantity into buf. " alt="" coords="1577,157,1658,184"/>
+<area shape="rect" id="node21" href="$poly1305_8c.html#aee335a41aef37cc1bbc5435b78943950" title="poly1305_whole_block" alt="" coords="1181,512,1334,539"/>
+<area shape="rect" id="node22" href="$poly1305_8c.html#a6042e63fc42e5f7d596b55ab1438de7a" title="poly1305_block" alt="" coords="1397,512,1509,539"/>
+<area shape="rect" id="node23" href="$poly1305_8c.html#a234cdf38cbd09f9be5b48367cfa5ac73" title="poly1305_add" alt="" coords="1566,411,1669,437"/>
+<area shape="rect" id="node24" href="$poly1305_8c.html#acaf640ec3c5238790803dfe21fdd7829" title="poly1305_mul" alt="" coords="1566,512,1669,539"/>
+<area shape="rect" id="node25" href="$poly1305_8c.html#aef9d6fdbb049e9e4257e683f1d3d6aca" title="poly1305_min_reduce" alt="" coords="1718,512,1866,539"/>
+<area shape="rect" id="node28" href="$poly1305_8c.html#ab4e5f578f7fa2a66abbc26489d6f24ae" title="poly1305_last_block" alt="" coords="1187,461,1327,488"/>
+<area shape="rect" id="node29" href="$poly1305_8c.html#ade1fb0d5d604b0534e66938721a70eea" title="poly1305_full_reduce" alt="" coords="1185,411,1329,437"/>
+<area shape="rect" id="node30" href="$bitops_8h.html#a85fb2c93be815f2fb0f5854781e6821b" title="Produce 0xffffffff if x == y, zero otherwise, without branching. " alt="" coords="1412,461,1495,488"/>
+<area shape="rect" id="node33" href="$modes_8c.html#a8c4f0efae1a3bf5da8811c988a537e70" title="cf_cbc_encrypt" alt="" coords="795,16,906,43"/>
+<area shape="rect" id="node35" href="$cbcmac_8c.html#a12239e9027161e706ad4e7f6409a7c38" title="cf_cbcmac_stream_finish\l_block_zero" alt="" coords="353,81,524,122"/>
+</map>

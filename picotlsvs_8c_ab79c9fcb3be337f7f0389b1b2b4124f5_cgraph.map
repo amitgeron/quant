@@ -1,0 +1,22 @@
+<map id="openssl_init_test_server" name="openssl_init_test_server">
+<area shape="rect" id="node2" href="$openssl_8h.html#a2514cd53d441b44478641a1643af622d" title="ptls_openssl_random\l_bytes" alt="" coords="217,101,362,142"/>
+<area shape="rect" id="node4" href="$picotls_8h.html#a81fafd2f07929ad23e495dc140b61ea2" title="ptls_load_certificates" alt="" coords="217,167,362,193"/>
+<area shape="rect" id="node17" href="$picotlsvs_8c.html#a5ed1766e882278bf569fb1a1b5f877cc" title="SetSignCertificate" alt="" coords="225,219,353,245"/>
+<area shape="rect" id="node3" href="$boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="463,108,513,135"/>
+<area shape="rect" id="node5" href="$pembase64_8c.html#a7e21e4ccfeae1ad622cc1c15051ed14c" title="ptls_load_pem_objects" alt="" coords="411,159,565,185"/>
+<area shape="rect" id="node6" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="632,56,739,83"/>
+<area shape="rect" id="node7" href="$pembase64_8c.html#a11e1c8a84090aee10bc39187c5b031c8" title="ptls_get_pem_object" alt="" coords="614,107,757,133"/>
+<area shape="rect" id="node15" href="$picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="618,159,753,185"/>
+<area shape="rect" id="node8" href="$pembase64_8c.html#a7e34449e8ac93489d75f9394e270a278" title="ptls_compare_separator_line" alt="" coords="806,5,994,32"/>
+<area shape="rect" id="node10" href="$pembase64_8c.html#a3a529c67f1cd8bc7ab7099263b56c852" title="ptls_base64_decode_init" alt="" coords="817,56,983,83"/>
+<area shape="rect" id="node11" href="$pembase64_8c.html#a8e90050739baab56987c5a880572a9b6" title="ptls_base64_decode" alt="" coords="829,107,971,133"/>
+<area shape="rect" id="node9" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="1093,5,1147,32"/>
+<area shape="rect" id="node12" href="$picotls_8h.html#a6d73fdc0d0da73a43906921c57a452ad" title="internal " alt="" coords="1043,140,1197,167"/>
+<area shape="rect" id="node13" href="$lib_2picotls_8c.html#ac3aed9c2ae399575c55bf3447b0c72fe" title="reserves space for additional amount of memory " alt="" coords="1245,156,1379,183"/>
+<area shape="rect" id="node14" href="$lib_2picotls_8c.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="1427,178,1565,219"/>
+<area shape="rect" id="node16" href="$picotls_8h.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="831,158,969,199"/>
+<area shape="rect" id="node18" href="$openssl_8h.html#af7c98d7cf780b4551d8336dac70d984e" title="ptls_openssl_init_sign\l_certificate" alt="" coords="413,211,563,253"/>
+<area shape="rect" id="node19" href="$lib_2openssl_8c.html#af035e4d439e5efcf2108c1ebdf82c39f" title="sign_certificate" alt="" coords="630,220,741,247"/>
+<area shape="rect" id="node20" href="$lib_2openssl_8c.html#a74358f7c06fb84faf7259d0674e7a7d3" title="do_sign" alt="" coords="1087,219,1153,245"/>
+<area shape="rect" id="node21" href="$picotls_8h.html#ac3aed9c2ae399575c55bf3447b0c72fe" title="reserves space for additional amount of memory " alt="" coords="1245,215,1379,241"/>
+</map>

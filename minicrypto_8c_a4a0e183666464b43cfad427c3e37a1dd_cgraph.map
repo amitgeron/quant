@@ -1,0 +1,51 @@
+<map id="test_hrr" name="test_hrr">
+<area shape="rect" id="node2" href="$minicrypto_8h.html#a35a068ba23b50e2c8ba2dd0a362ed38c" title="ptls_minicrypto_random\l_bytes" alt="" coords="120,162,280,203"/>
+<area shape="rect" id="node11" href="$picotls_8h.html#aa142dbaa5d99942c25847febf894a1f4" title="create a object to handle new TLS connection. " alt="" coords="163,799,237,825"/>
+<area shape="rect" id="node13" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="829,1379,936,1405"/>
+<area shape="rect" id="node14" href="$picotls_8h.html#a05579d145dabba449415ded660d855c0" title="proceeds with the handshake, optionally taking some input from peer. " alt="" coords="143,1404,257,1431"/>
+<area shape="rect" id="node41" href="$picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="579,1581,714,1608"/>
+<area shape="rect" id="node44" href="$picotls_8h.html#a17b1f731fc08806d7911d6dbad06a46b" title="encrypts given buffer into multiple TLS records " alt="" coords="161,1269,239,1296"/>
+<area shape="rect" id="node47" href="$picotls_8h.html#ab1279dc8d5b7b0d1dff091118eddc322" title="decrypts the first record within given buffer " alt="" coords="154,1468,246,1495"/>
+<area shape="rect" id="node48" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="162,1519,238,1545"/>
+<area shape="rect" id="node49" href="$picotls_8h.html#afbd373f266a52a1718a3476b24c3a295" title="releases all resources associated to the object " alt="" coords="381,624,453,651"/>
+<area shape="rect" id="node3" href="$drbg_8c.html#a3d96d46fc2b09859f7d161cd321f2b30" title="cf_hash_drbg_sha256\l_needs_reseed" alt="" coords="343,162,492,203"/>
+<area shape="rect" id="node4" href="$cifra_8c.html#a086d6f716855b73e24c48cf5672ce607" title="read_entropy" alt="" coords="369,228,466,255"/>
+<area shape="rect" id="node6" href="$drbg_8c.html#a5554970693c632001ffcbe19bccb9a7f" title="cf_hash_drbg_sha256_init" alt="" coords="331,56,504,83"/>
+<area shape="rect" id="node9" href="$drbg_8c.html#ac688ec437860cba2eb2fb10f10a0d598" title="cf_hash_drbg_sha256_gen" alt="" coords="329,111,506,137"/>
+<area shape="rect" id="node5" href="$boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="621,200,672,227"/>
+<area shape="rect" id="node7" href="$handy_8h.html#ad453ec2c6196a70300020477df38ab89" title="Like memset(ptr, 0, len), but not allowed to be removed by compilers. " alt="" coords="602,56,691,83"/>
+<area shape="rect" id="node8" href="$drbg_8c.html#aaf4b3ad2b1d1d56e012ba911dded6a9d" title="hash_df" alt="" coords="613,5,681,32"/>
+<area shape="rect" id="node10" href="$drbg_8c.html#a0923030217c81f121ef78956b0819c33" title="cf_hash_drbg_sha256\l_gen_additional" alt="" coords="572,107,721,149"/>
+<area shape="rect" id="node12" href="$lib_2picotls_8c.html#a14c83de31e76992b20510eef18075173" title="update_open_count" alt="" coords="579,317,714,344"/>
+<area shape="rect" id="node15" href="$lib_2picotls_8c.html#ad80ad5da4165c267f6e8fa526d1f2261" title="init_record_message\l_emmitter" alt="" coords="575,251,718,293"/>
+<area shape="rect" id="node18" href="$lib_2picotls_8c.html#ae56d8f8053af71e29360e8b2343036f8" title="send_client_hello" alt="" coords="356,957,479,984"/>
+<area shape="rect" id="node34" href="$norx_8c.html#ad53dd54175d41b74c6be656ddd32c8fd" title="input" alt="" coords="392,1632,443,1659"/>
+<area shape="rect" id="node38" href="$lib_2picotls_8c.html#aec4ad30f4058cebb489a31c18304397d" title="handle_input" alt="" coords="370,1480,465,1507"/>
+<area shape="rect" id="node43" href="$lib_2picotls_8c.html#a8b8404e6fcc69862fa300c3a36de5c6c" title="sends an alert " alt="" coords="362,1379,473,1405"/>
+<area shape="rect" id="node16" href="$lib_2picotls_8c.html#a163ee11b249dae71363886fbbdffeee1" title="begin_record_message" alt="" coords="805,284,961,311"/>
+<area shape="rect" id="node17" href="$lib_2picotls_8c.html#aec882159200a8f83ecb820626a94ddfe" title="commit_record_message" alt="" coords="799,233,967,260"/>
+<area shape="rect" id="node19" href="$lib_2picotls_8c.html#a55b4668776166a96a7acbfe0c90d1ca8" title="checks if given name looks like an IP address " alt="" coords="575,1161,718,1202"/>
+<area shape="rect" id="node20" href="$lib_2picotls_8c.html#aa82467a6e9fa0951ddaf9cc7e0ca3839" title="client_setup_esni" alt="" coords="585,485,708,512"/>
+<area shape="rect" id="node22" href="$lib_2picotls_8c.html#a0a127b7fb64bfe51e22a3f09ab851d4c" title="decode_stored_session\l_ticket" alt="" coords="567,790,726,831"/>
+<area shape="rect" id="node23" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="830,743,935,769"/>
+<area shape="rect" id="node24" href="$lib_2picotls_8c.html#a8e6c870c991668cf04334390a17a750e" title="key_schedule_new" alt="" coords="580,587,713,613"/>
+<area shape="rect" id="node26" href="$lib_2picotls_8c.html#a42a434fed7c689f5af03e95f873232bc" title="key_schedule_extract" alt="" coords="572,688,721,715"/>
+<area shape="rect" id="node27" href="$lib_2picotls_8c.html#a5a5bebfd858dd25e2fb7b28bdfd11429" title="push_key_share_entry" alt="" coords="806,932,959,959"/>
+<area shape="rect" id="node28" href="$lib_2picotls_8c.html#a30284014e2b5a8066b17bbd70ac76e3a" title="emit_esni_extension" alt="" coords="576,957,717,984"/>
+<area shape="rect" id="node29" href="$lib_2picotls_8c.html#ac92ac12c36e40056e83388420bcf4753" title="emit_server_name_extension" alt="" coords="787,1047,979,1073"/>
+<area shape="rect" id="node30" href="$lib_2picotls_8c.html#ac3aed9c2ae399575c55bf3447b0c72fe" title="reserves space for additional amount of memory " alt="" coords="816,1277,949,1304"/>
+<area shape="rect" id="node32" href="$lib_2picotls_8c.html#aea33d8f225ee2ce6271775db5a596e19" title="push_signature_algorithms" alt="" coords="558,1008,735,1035"/>
+<area shape="rect" id="node33" href="$lib_2picotls_8c.html#aacb702a94a4a82424ba632eff52d32ef" title="push_additional_extensions" alt="" coords="555,1059,738,1085"/>
+<area shape="rect" id="node21" href="$lib_2picotls_8c.html#a5aa1666c3755a9802eee2c457c5ee410" title="free_esni_secret" alt="" coords="823,427,942,453"/>
+<area shape="rect" id="node25" href="$lib_2picotls_8c.html#aa01f986a7fd99cb6e0f405dbdc309e23" title="key_schedule_free" alt="" coords="817,561,948,588"/>
+<area shape="rect" id="node31" href="$lib_2picotls_8c.html#aadec89f296f10258b21ce9daa255d485" title="destroys an AEAD cipher context " alt="" coords="829,823,936,849"/>
+<area shape="rect" id="node35" href="$blockwise_8c.html#ac912f4cce505dcb0ad9ef20fa5ca7103" title="cf_blockwise_accumulate" alt="" coords="561,1733,733,1760"/>
+<area shape="rect" id="node36" href="$norx_8c.html#a8c8d49b309b9dd5cb96c04b7cd53dcc9" title="input_block" alt="" coords="603,1632,691,1659"/>
+<area shape="rect" id="node37" href="$norx_8c.html#a1d9cf87de46e523c2c739b42ee1e8fd2" title="input_block_final" alt="" coords="823,1661,942,1688"/>
+<area shape="rect" id="node39" href="$lib_2picotls_8c.html#a16069863e5584a30db458f188c632923" title="parse_record" alt="" coords="598,1480,695,1507"/>
+<area shape="rect" id="node40" href="$lib_2picotls_8c.html#a665cd6251f07e206ff383a8265db85c8" title="aead_decrypt" alt="" coords="597,1531,697,1557"/>
+<area shape="rect" id="node42" href="$picotls_8h.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="813,1574,952,1615"/>
+<area shape="rect" id="node45" href="$lib_2picotls_8c.html#a3ad8d3d3fcdf1974349f723a52e31488" title="update_send_key" alt="" coords="355,300,479,327"/>
+<area shape="rect" id="node46" href="$lib_2picotls_8c.html#a965b8bd200c1debdcd0ee91d2cf543e3" title="buffer_push_encrypted\l_records" alt="" coords="340,1262,495,1303"/>
+<area shape="rect" id="node50" href="$lib_2picotls_8c.html#a5e886ea709e0a30c1e43d060cac09204" title="free_exporter_master\l_secret" alt="" coords="574,419,719,461"/>
+</map>

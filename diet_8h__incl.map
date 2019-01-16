@@ -1,2 +1,8 @@
 <map id="src/diet.h" name="src/diet.h">
+<area shape="rect" id="node6" href="$warpcore_8h.html" title="warpcore/warpcore.h" alt="" coords="309,80,451,107"/>
+<area shape="rect" id="node8" href="$deps_2warpcore_2lib_2include_2warpcore_2config_8h.html" title="warpcore/config.h" alt="" coords="318,155,443,181"/>
+<area shape="rect" id="node9" href="$plat_8h.html" title="warpcore/plat.h" alt="" coords="468,155,578,181"/>
+<area shape="rect" id="node11" href="$queue_8h.html" title="warpcore/queue.h" alt="" coords="603,155,728,181"/>
+<area shape="rect" id="node12" href="$tree_8h.html" title="warpcore/tree.h" alt="" coords="24,155,135,181"/>
+<area shape="rect" id="node13" href="$warpcore_2lib_2include_2warpcore_2util_8h.html" title="warpcore/util.h" alt="" coords="803,155,910,181"/>
 </map>

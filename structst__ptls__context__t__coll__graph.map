@@ -1,0 +1,12 @@
+<map id="st_ptls_context_t" name="st_ptls_context_t">
+<area shape="rect" id="node2" href="$structst__ptls__esni__context__t.html" title="holds ESNIKeys and the private key (instantiated by ptls_esni_parse, freed using ptls_esni_dispose) ..." alt="" coords="851,127,1005,153"/>
+<area shape="rect" id="node3" href="$structst__ptls__key__exchange__context__t.html" title="key exchange context built by ptls_key_exchange_algorithm::create. " alt="" coords="555,111,707,153"/>
+<area shape="rect" id="node4" href="$structst__ptls__iovec__t.html" title="represents a sequence of octets " alt="" coords="319,5,430,32"/>
+<area shape="rect" id="node5" href="$structst__ptls__key__exchange__algorithm__t.html" title="A key exchange algorithm. " alt="" coords="299,65,451,106"/>
+<area shape="rect" id="node6" href="$structst__ptls__cipher__suite__t.html" title="st_ptls_cipher_suite_t" alt="" coords="556,187,705,213"/>
+<area shape="rect" id="node7" href="$structst__ptls__aead__algorithm__t.html" title="An AEAD cipher. " alt="" coords="291,148,458,175"/>
+<area shape="rect" id="node8" href="$structst__ptls__cipher__algorithm__t.html" title="a symmetric cipher " alt="" coords="6,143,181,169"/>
+<area shape="rect" id="node9" href="$structst__ptls__hash__algorithm__t.html" title="A hash algorithm and its properties. " alt="" coords="291,220,458,247"/>
+<area shape="rect" id="node10" href="$structst__ptls__hash__context__t.html" title="A hash context. " alt="" coords="15,232,172,259"/>
+<area shape="rect" id="node11" href="$structst__ptls__decompress__certificate__t.html" title="st_ptls_decompress\l_certificate_t" alt="" coords="859,257,997,298"/>
+</map>

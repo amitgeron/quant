@@ -1,0 +1,5 @@
+<map id="st_picotls_vs_test_context_t" name="st_picotls_vs_test_context_t">
+<area shape="rect" id="node2" href="$structst__ptls__raw__extension__t.html" title="st_ptls_raw_extension_t" alt="" coords="5,112,168,139"/>
+<area shape="rect" id="node4" href="$structst__ptls__handshake__properties__t.html" title="optional arguments to client&#45;driven handshake " alt="" coords="90,219,296,245"/>
+<area shape="rect" id="node3" href="$structst__ptls__iovec__t.html" title="represents a sequence of octets " alt="" coords="131,5,241,32"/>
+</map>

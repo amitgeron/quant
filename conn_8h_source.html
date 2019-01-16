@@ -81,7 +81,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_a065c5f60305fee3569f887679366939.html">src</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_f926052f71c4b908188a3093db7cac0c.html">src</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -129,8 +129,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#include &lt;ev.h&gt;</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#include &lt;khash.h&gt;</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#include &lt;picotls.h&gt;</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#include &lt;warpcore/warpcore.h&gt;</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="picotls_8h.html">picotls.h</a>&gt;</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="warpcore_8h.html">warpcore/warpcore.h</a>&gt;</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="diet_8h.html">diet.h</a>&quot;</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="fnv1a_8h.html">fnv1a.h</a>&quot;</span></div>
@@ -154,7 +154,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<a class="code" href="conn_8h.html#afb136e59b4e0b39256bab454baeb37a5">KHASH_MAP_INIT_INT64</a>(conns_by_ipnp, struct q_conn *)   <span class="comment">// NOLINT</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;static inline khint_t __attribute__((always_inline, nonnull))</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;static inline <a class="code" href="klib_2khash_8h.html#a462aab2091dad69a2f14718fbe9fffa0">khint_t</a> __attribute__((always_inline, nonnull))</div>
 <div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="conn_8h.html#a757f786fa765f549ba00fa032e614e82">   67</a></span>&#160;<a class="code" href="conn_8h.html#a757f786fa765f549ba00fa032e614e82">hash_cid</a>(const struct <a class="code" href="structcid.html">cid</a> * const <span class="keywordtype">id</span>)</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;{</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="fnv1a_8h.html#a3bf0a406ef6f462a25ef67e5a6ec33f9">fnv1a_32</a>(id-&gt;id, id-&gt;len);</div>
@@ -162,13 +162,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">int</span> __attribute__((always_inline, nonnull))</div>
-<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1">   74</a></span>&#160;<a class="code" href="conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1">cid_cmp</a>(const struct <a class="code" href="structcid.html">cid</a> * const a, const struct <a class="code" href="structcid.html">cid</a> * const b)</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1">   74</a></span>&#160;<a class="code" href="conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1">cid_cmp</a>(const struct <a class="code" href="structcid.html">cid</a> * const a, const struct <a class="code" href="structcid.html">cid</a> * const <a class="code" href="fuzz_8c.html#a84e99af7d0f536bd90cb3dab5c874749">b</a>)</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;{</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">return</span> memcmp(&amp;a-&gt;len, &amp;b-&gt;len, MIN(a-&gt;len, b-&gt;len) + <span class="keyword">sizeof</span>(a-&gt;len));</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="boot_8c.html#a3c48b0d616482494ace467ca05e01642">memcmp</a>(&amp;a-&gt;len, &amp;b-&gt;len, <a class="code" href="handy_8h.html#a74e75242132eaabbc1c512488a135926">MIN</a>(a-&gt;len, b-&gt;len) + <span class="keyword">sizeof</span>(a-&gt;len));</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;}</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">int</span> __attribute__((always_inline, nonnull))</div>
-<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="conn_8h.html#a90115a99b400e667c2ea225b0942ebcf">   80</a></span>&#160;<a class="code" href="conn_8h.html#a90115a99b400e667c2ea225b0942ebcf">kh_cid_cmp</a>(const struct <a class="code" href="structcid.html">cid</a> * const a, const struct <a class="code" href="structcid.html">cid</a> * const b)</div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="conn_8h.html#a90115a99b400e667c2ea225b0942ebcf">   80</a></span>&#160;<a class="code" href="conn_8h.html#a90115a99b400e667c2ea225b0942ebcf">kh_cid_cmp</a>(const struct <a class="code" href="structcid.html">cid</a> * const a, const struct <a class="code" href="structcid.html">cid</a> * const <a class="code" href="fuzz_8c.html#a84e99af7d0f536bd90cb3dab5c874749">b</a>)</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;{</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1">cid_cmp</a>(a, b) == 0;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div>
@@ -241,9 +241,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;struct q_conn {</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    sl_entry(q_conn) node_rx_int; </div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    sl_entry(q_conn) node_rx_ext; </div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    sl_entry(q_conn) node_aq;     </div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <a class="code" href="queue_8h.html#a21968bf6fb00e216ead3f3c2ab62effc">sl_entry</a>(q_conn) node_rx_int; </div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <a class="code" href="queue_8h.html#a21968bf6fb00e216ead3f3c2ab62effc">sl_entry</a>(q_conn) node_rx_ext; </div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <a class="code" href="queue_8h.html#a21968bf6fb00e216ead3f3c2ab62effc">sl_entry</a>(q_conn) node_aq;     </div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="keyword">struct </span>cids_by_seq dcids_by_seq;   </div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="keyword">struct </span>cids_by_seq scids_by_seq;   </div>
@@ -290,7 +290,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    uint8_t err_reason_len;</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <span class="keywordtype">char</span> err_reason[<a class="code" href="conn_8h.html#a31898c1d24d16b8da39d1f5c0500345e">MAX_ERR_REASON_LEN</a>];</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keyword">struct </span>w_engine * w; </div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keyword">struct </span><a class="code" href="structw__engine.html">w_engine</a> * <a class="code" href="fuzz_8c.html#a8bedaecc1f0b28f6c3ec357ca967b33a">w</a>; </div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    uint32_t vers;         </div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    uint32_t vers_initial; </div>
@@ -321,7 +321,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <a class="code" href="conn_8h.html#a72a3242eac371fd1d496e8f0f26fd64a">khash_t</a>(streams_by_id) * streams_by_id;  </div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <span class="keyword">struct </span>diet closed_streams;</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="keyword">struct </span>w_sock * sock; </div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="keyword">struct </span><a class="code" href="structw__sock.html">w_sock</a> * sock; </div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    ev_io rx_w;           </div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    ev_async <a class="code" href="conn_8h.html#ae7ad1167799a2920119487df92e81b85">tx_w</a>;        </div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;</div>
@@ -338,7 +338,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keyword">struct </span><a class="code" href="structcid.html">cid</a> odcid; </div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keyword">struct </span>w_iov_sq txq;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keyword">struct </span><a class="code" href="structw__iov__sq.html">w_iov_sq</a> txq;</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    uint8_t tok[<a class="code" href="conn_8h.html#a4c4dda142699d1cf6e5434ab2ca6c406">MAX_TOK_LEN</a>]; <span class="comment">// some stacks send ungodly large tokens</span></div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;};</div>
@@ -367,7 +367,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">bool</span> __attribute__((<span class="keyword">const</span>)) <a class="code" href="conn_8h.html#a1ae0706a577e85efbcfacf517a329dbe">vers_supported</a>(const uint32_t v);</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<a class="code" href="conn_8h.html#ae7ad1167799a2920119487df92e81b85">tx_w</a>(struct ev_loop * const l, ev_async * const w, <span class="keywordtype">int</span> e);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<a class="code" href="conn_8h.html#ae7ad1167799a2920119487df92e81b85">tx_w</a>(struct ev_loop * const l, ev_async * const <a class="code" href="fuzz_8c.html#a8bedaecc1f0b28f6c3ec357ca967b33a">w</a>, <span class="keywordtype">int</span> e);</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<a class="code" href="conn_8h.html#a1a9a96efc3be558373804c33a60df6b9">tx</a>(struct q_conn * const c, const uint32_t limit);</div>
@@ -389,7 +389,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;</div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="conn_8h.html#afd38904c68cab87424e6aa8db723fd38">enter_closing</a>(struct q_conn * const c);</div>
 <div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;extern struct q_conn * <a class="code" href="conn_8h.html#a51850847894ca6bd5bd7a3f06fc9f1ff">new_conn</a>(struct w_engine * const w,</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;extern struct q_conn * <a class="code" href="conn_8h.html#a51850847894ca6bd5bd7a3f06fc9f1ff">new_conn</a>(struct <a class="code" href="structw__engine.html">w_engine</a> * const w,</div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                                const uint32_t vers,</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                                const struct <a class="code" href="structcid.html">cid</a> * const dcid,</div>
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                                const struct <a class="code" href="structcid.html">cid</a> * const scid,</div>
@@ -421,9 +421,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<a class="code" href="conn_8h.html#a8b3f561241f82fe8b840ed7655d13ffe">update_conn_conf</a>(struct q_conn * const c, const struct <a class="code" href="structq__conn__conf.html">q_conn_conf</a> * const cc);</div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;</div>
 <div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<span class="preprocessor">#ifdef FUZZING</span></div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="preprocessor"></span><span class="keyword">extern</span> <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="conn_8c.html#a743c431b40b906bbe9baad4456a0e7c5">rx_pkts</a>(struct w_iov_sq * const x,</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="preprocessor"></span><span class="keyword">extern</span> <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="conn_8c.html#a743c431b40b906bbe9baad4456a0e7c5">rx_pkts</a>(struct <a class="code" href="structw__iov__sq.html">w_iov_sq</a> * const x,</div>
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                                             struct q_conn_sl * const crx,</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                                             const struct w_sock * const ws);</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                                             const struct <a class="code" href="structw__sock.html">w_sock</a> * const ws);</div>
 <div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keyword">struct </span><a class="code" href="structpn__space.html">pn_space</a> * __attribute__((always_inline, nonnull))</div>
@@ -445,7 +445,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <a class="code" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46">epoch_t</a> __attribute__((always_inline, nonnull))</div>
 <div class="line"><a name="l00358"></a><span class="lineno"><a class="line" href="conn_8h.html#a90b995546c499b521dcb4bf6cc7e39f1">  358</a></span>&#160;<a class="code" href="conn_8h.html#a90b995546c499b521dcb4bf6cc7e39f1">epoch_in</a>(const struct q_conn * const c)</div>
 <div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;{</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">size_t</span> epoch = ptls_get_read_epoch(c-&gt;tls.t);</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">size_t</span> epoch = <a class="code" href="picotls_8h.html#aa6a0008d415e04f0d67db03fdb2113de">ptls_get_read_epoch</a>(c-&gt;tls.t);</div>
 <div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    <span class="keywordflow">switch</span> (epoch) {</div>
 <div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keywordflow">case</span> 0:</div>
 <div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a6c1fd68888a7d434a18abddfe2fe5f2a">ep_init</a>;</div>
@@ -456,7 +456,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    <span class="keywordflow">case</span> 3:</div>
 <div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a030d34ca4ffa3a300c995276c165043f">ep_data</a>;</div>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        die(<span class="stringliteral">&quot;unhandled epoch %u&quot;</span>, epoch);</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a0b2164ee75646f16a7388a36e6800c35">die</a>(<span class="stringliteral">&quot;unhandled epoch %u&quot;</span>, epoch);</div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    }</div>
 <div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;}</div>
 <div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;</div>
@@ -465,7 +465,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00377"></a><span class="lineno"><a class="line" href="conn_8h.html#af4bcebc8568f27694df841f3045749fb">  377</a></span>&#160;<a class="code" href="conn_8h.html#af4bcebc8568f27694df841f3045749fb">has_wnd</a>(const struct q_conn * const c)</div>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;{</div>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    <span class="keywordflow">return</span> !c-&gt;blocked &amp;&amp;</div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;           (c-&gt;rec.in_flight + (unlikely(c-&gt;try_0rtt) ? 0 : w_mtu(c-&gt;w)) &lt;</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;           (c-&gt;rec.in_flight + (<a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(c-&gt;try_0rtt) ? 0 : <a class="code" href="warpcore_8h.html#a280e62a55aab21fe0b23a7e9ade1a588">w_mtu</a>(c-&gt;w)) &lt;</div>
 <div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;            c-&gt;rec.cwnd);</div>
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;}</div>
 <div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;</div>
@@ -480,16 +480,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;</div>
 <div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;</div>
 <div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> __attribute__((nonnull))</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;<a class="code" href="conn_8h.html#a80d90113c6ae61c657e6546d30f0e844">conns_by_ipnp_cmp</a>(const struct q_conn * const a, const struct q_conn * const b);</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;<a class="code" href="conn_8h.html#a80d90113c6ae61c657e6546d30f0e844">conns_by_ipnp_cmp</a>(const struct q_conn * const a, const struct q_conn * const <a class="code" href="fuzz_8c.html#a84e99af7d0f536bd90cb3dab5c874749">b</a>);</div>
 <div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;</div>
 <div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;SPLAY_PROTOTYPE(cids_by_seq, <a class="code" href="structcid.html">cid</a>, node_seq, <a class="code" href="quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb">cids_by_seq_cmp</a>)</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;<a class="code" href="tree_8h.html#a75ee3833aa4387ba31979341c84b6954">SPLAY_PROTOTYPE</a>(cids_by_seq, <a class="code" href="structcid.html">cid</a>, node_seq, <a class="code" href="quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb">cids_by_seq_cmp</a>)</div>
 <div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;</div>
 <div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;</div>
 <div class="line"><a name="l00401"></a><span class="lineno"><a class="line" href="structooo__0rtt.html">  401</a></span>&#160;struct <a class="code" href="structooo__0rtt.html">ooo_0rtt</a> {</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;    splay_entry(ooo_0rtt) node;</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;    <a class="code" href="tree_8h.html#a577ab0c7c03e7caae9b2c4b828027ecb">splay_entry</a>(ooo_0rtt) node;</div>
 <div class="line"><a name="l00403"></a><span class="lineno"><a class="line" href="structooo__0rtt.html#a9a8841c9488245645e26408553d567b4">  403</a></span>&#160;    <span class="keyword">struct </span>cid cid;   </div>
-<div class="line"><a name="l00404"></a><span class="lineno"><a class="line" href="structooo__0rtt.html#a319320b309830c73f3fea5642475bf18">  404</a></span>&#160;    <span class="keyword">struct </span>w_iov * <a class="code" href="structooo__0rtt.html#a319320b309830c73f3fea5642475bf18">v</a>; </div>
+<div class="line"><a name="l00404"></a><span class="lineno"><a class="line" href="structooo__0rtt.html#a319320b309830c73f3fea5642475bf18">  404</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="structw__iov.html">w_iov</a> * <a class="code" href="structooo__0rtt.html#a319320b309830c73f3fea5642475bf18">v</a>; </div>
 <div class="line"><a name="l00405"></a><span class="lineno"><a class="line" href="structooo__0rtt.html#aab3e12c6cd7071393deb901e5bd2d9a4">  405</a></span>&#160;    ev_tstamp <a class="code" href="structooo__0rtt.html#aab3e12c6cd7071393deb901e5bd2d9a4">t</a>;      </div>
 <div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;};</div>
 <div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;</div>
@@ -499,13 +499,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;</div>
 <div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;static inline <span class="keywordtype">int</span> __attribute__((always_inline, nonnull))</div>
 <div class="line"><a name="l00413"></a><span class="lineno"><a class="line" href="conn_8h.html#a661935e5f13fe656b889698521a6450f">  413</a></span>&#160;<a class="code" href="conn_8h.html#a661935e5f13fe656b889698521a6450f">ooo_0rtt_by_cid_cmp</a>(const struct <a class="code" href="structooo__0rtt.html">ooo_0rtt</a> * const a,</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;                    const struct <a class="code" href="structooo__0rtt.html">ooo_0rtt</a> * const b)</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;                    const struct <a class="code" href="structooo__0rtt.html">ooo_0rtt</a> * const <a class="code" href="fuzz_8c.html#a84e99af7d0f536bd90cb3dab5c874749">b</a>)</div>
 <div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;{</div>
 <div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1">cid_cmp</a>(&amp;a-&gt;cid, &amp;b-&gt;cid);</div>
 <div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;}</div>
 <div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;</div>
 <div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;SPLAY_PROTOTYPE(<a class="code" href="conn_8c.html#a001da71d92caff5772399a0d5512d8c3">ooo_0rtt_by_cid</a>, <a class="code" href="structooo__0rtt.html">ooo_0rtt</a>, node, <a class="code" href="conn_8h.html#a661935e5f13fe656b889698521a6450f">ooo_0rtt_by_cid_cmp</a>)</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;<a class="code" href="tree_8h.html#a75ee3833aa4387ba31979341c84b6954">SPLAY_PROTOTYPE</a>(<a class="code" href="conn_8c.html#a001da71d92caff5772399a0d5512d8c3">ooo_0rtt_by_cid</a>, <a class="code" href="structooo__0rtt.html">ooo_0rtt</a>, node, <a class="code" href="conn_8h.html#a661935e5f13fe656b889698521a6450f">ooo_0rtt_by_cid_cmp</a>)</div>
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;</div>
 <div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;</div>
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;static inline __attribute__((always_inline, nonnull)) const <span class="keywordtype">char</span> *</div>
@@ -549,17 +549,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structooo__0rtt_html_a319320b309830c73f3fea5642475bf18"><div class="ttname"><a href="structooo__0rtt.html#a319320b309830c73f3fea5642475bf18">ooo_0rtt::v</a></div><div class="ttdeci">struct w_iov * v</div><div class="ttdoc">the buffer containing the 0-RTT pkt </div><div class="ttdef"><b>Definition:</b> conn.h:404</div></div>
 <div class="ttc" id="structrecovery_html"><div class="ttname"><a href="structrecovery.html">recovery</a></div><div class="ttdef"><b>Definition:</b> recovery.h:43</div></div>
 <div class="ttc" id="conn_8h_html_afb136e59b4e0b39256bab454baeb37a5"><div class="ttname"><a href="conn_8h.html#afb136e59b4e0b39256bab454baeb37a5">KHASH_MAP_INIT_INT64</a></div><div class="ttdeci">KHASH_MAP_INIT_INT64(streams_by_id, struct q_stream *) KHASH_MAP_INIT_INT64(conns_by_ipnp</div></div>
+<div class="ttc" id="warpcore_8h_html_a280e62a55aab21fe0b23a7e9ade1a588"><div class="ttname"><a href="warpcore_8h.html#a280e62a55aab21fe0b23a7e9ade1a588">w_mtu</a></div><div class="ttdeci">static uint16_t w_mtu(const struct w_engine *const w)</div><div class="ttdoc">Return MTU of w_engine w. </div><div class="ttdef"><b>Definition:</b> warpcore.h:317</div></div>
+<div class="ttc" id="picotls_8h_html_aa6a0008d415e04f0d67db03fdb2113de"><div class="ttname"><a href="picotls_8h.html#aa6a0008d415e04f0d67db03fdb2113de">ptls_get_read_epoch</a></div><div class="ttdeci">size_t ptls_get_read_epoch(ptls_t *tls)</div><div class="ttdoc">Return the current read epoch. </div><div class="ttdef"><b>Definition:</b> picotls.c:4912</div></div>
 <div class="ttc" id="structooo__0rtt_html_aab3e12c6cd7071393deb901e5bd2d9a4"><div class="ttname"><a href="structooo__0rtt.html#aab3e12c6cd7071393deb901e5bd2d9a4">ooo_0rtt::t</a></div><div class="ttdeci">ev_tstamp t</div><div class="ttdoc">Insertion time. </div><div class="ttdef"><b>Definition:</b> conn.h:405</div></div>
 <div class="ttc" id="conn_8h_html_a1a9a96efc3be558373804c33a60df6b9"><div class="ttname"><a href="conn_8h.html#a1a9a96efc3be558373804c33a60df6b9">tx</a></div><div class="ttdeci">void tx(struct q_conn *const c, const uint32_t limit)</div><div class="ttdef"><b>Definition:</b> conn.c:426</div></div>
+<div class="ttc" id="warpcore_8h_html"><div class="ttname"><a href="warpcore_8h.html">warpcore.h</a></div></div>
 <div class="ttc" id="tls_8h_html_aaca089f79f64e61453953e09fd226e46a1a4cdb07d7b5dadfadc6244a5ee78d75"><div class="ttname"><a href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a1a4cdb07d7b5dadfadc6244a5ee78d75">ep_0rtt</a></div><div class="ttdef"><b>Definition:</b> tls.h:52</div></div>
 <div class="ttc" id="conn_8h_html_a90b995546c499b521dcb4bf6cc7e39f1"><div class="ttname"><a href="conn_8h.html#a90b995546c499b521dcb4bf6cc7e39f1">epoch_in</a></div><div class="ttdeci">static epoch_t epoch_in(const struct q_conn *const c)</div><div class="ttdef"><b>Definition:</b> conn.h:358</div></div>
 <div class="ttc" id="conn_8h_html_a2f3506018ac4d10d7d8e9a678e8c59a3"><div class="ttname"><a href="conn_8h.html#a2f3506018ac4d10d7d8e9a678e8c59a3">KHASH_INIT</a></div><div class="ttdeci">KHASH_INIT(conns_by_id, struct cid *, struct q_conn *, 1, hash_cid, kh_cid_cmp) extern khash_t(conns_by_ipnp)*conns_by_ipnp</div></div>
 <div class="ttc" id="conn_8h_html_a8b3f561241f82fe8b840ed7655d13ffe"><div class="ttname"><a href="conn_8h.html#a8b3f561241f82fe8b840ed7655d13ffe">update_conn_conf</a></div><div class="ttdeci">void update_conn_conf(struct q_conn *const c, const struct q_conn_conf *const cc)</div><div class="ttdef"><b>Definition:</b> conn.c:1258</div></div>
 <div class="ttc" id="tls_8h_html_aaca089f79f64e61453953e09fd226e46a030d34ca4ffa3a300c995276c165043f"><div class="ttname"><a href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a030d34ca4ffa3a300c995276c165043f">ep_data</a></div><div class="ttdef"><b>Definition:</b> tls.h:52</div></div>
 <div class="ttc" id="structtransport__params_html_a0c37d67483b1cb2082274f8901fe70c0"><div class="ttname"><a href="structtransport__params.html#a0c37d67483b1cb2082274f8901fe70c0">transport_params::idle_to</a></div><div class="ttdeci">uint64_t idle_to</div><div class="ttdef"><b>Definition:</b> conn.h:113</div></div>
+<div class="ttc" id="structw__iov_html"><div class="ttname"><a href="structw__iov.html">w_iov</a></div><div class="ttdoc">The I/O vector structure that warpcore uses at the center of its API. </div><div class="ttdef"><b>Definition:</b> warpcore.h:142</div></div>
 <div class="ttc" id="conn_8h_html_a76639ec987a700f45570a287b25025ea"><div class="ttname"><a href="conn_8h.html#a76639ec987a700f45570a287b25025ea">is_rsvd_vers</a></div><div class="ttdeci">static bool is_rsvd_vers(const uint32_t vers)</div><div class="ttdef"><b>Definition:</b> conn.h:438</div></div>
 <div class="ttc" id="conn_8h_html_a68c6b30b8665ce894ab5bed3c73a2d9d"><div class="ttname"><a href="conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d">is_zero</a></div><div class="ttdeci">static bool is_zero(const ev_tstamp t)</div><div class="ttdef"><b>Definition:</b> conn.h:445</div></div>
 <div class="ttc" id="conn_8h_html_a4a5deef512e20b125b45899c6c80c6fc"><div class="ttname"><a href="conn_8h.html#a4a5deef512e20b125b45899c6c80c6fc">free_conn</a></div><div class="ttdeci">void free_conn(struct q_conn *const c)</div><div class="ttdef"><b>Definition:</b> conn.c:1423</div></div>
+<div class="ttc" id="structw__sock_html"><div class="ttname"><a href="structw__sock.html">w_sock</a></div><div class="ttdoc">A warpcore socket. </div><div class="ttdef"><b>Definition:</b> warpcore.h:109</div></div>
 <div class="ttc" id="structooo__0rtt_html"><div class="ttname"><a href="structooo__0rtt.html">ooo_0rtt</a></div><div class="ttdef"><b>Definition:</b> conn.h:401</div></div>
 <div class="ttc" id="conn_8h_html_ab983b3d57ee0c84f0e70018a299033a8"><div class="ttname"><a href="conn_8h.html#ab983b3d57ee0c84f0e70018a299033a8">free_scid</a></div><div class="ttdeci">void free_scid(struct q_conn *const c, struct cid *const id)</div><div class="ttdef"><b>Definition:</b> conn.c:1407</div></div>
 <div class="ttc" id="conn_8h_html_a5618a89ddad38bdb55093279d8d3fbc5"><div class="ttname"><a href="conn_8h.html#a5618a89ddad38bdb55093279d8d3fbc5">conn_state_str</a></div><div class="ttdeci">const char *const conn_state_str[]</div><div class="ttdef"><b>Definition:</b> conn.c:59</div></div>
@@ -571,7 +576,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="tls_8h_html_aaca089f79f64e61453953e09fd226e46a6c1fd68888a7d434a18abddfe2fe5f2a"><div class="ttname"><a href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a6c1fd68888a7d434a18abddfe2fe5f2a">ep_init</a></div><div class="ttdef"><b>Definition:</b> tls.h:52</div></div>
 <div class="ttc" id="structq__conn__conf_html"><div class="ttname"><a href="structq__conn__conf.html">q_conn_conf</a></div><div class="ttdef"><b>Definition:</b> quant.h:56</div></div>
 <div class="ttc" id="quic_8h_html"><div class="ttname"><a href="quic_8h.html">quic.h</a></div></div>
+<div class="ttc" id="structw__iov__sq_html"><div class="ttname"><a href="structw__iov__sq.html">w_iov_sq</a></div><div class="ttdoc">A tail queue of w_iov I/O vectors. </div><div class="ttdef"><b>Definition:</b> warpcore.h:47</div></div>
 <div class="ttc" id="conn_8h_html_a4c4dda142699d1cf6e5434ab2ca6c406"><div class="ttname"><a href="conn_8h.html#a4c4dda142699d1cf6e5434ab2ca6c406">MAX_TOK_LEN</a></div><div class="ttdeci">#define MAX_TOK_LEN</div><div class="ttdef"><b>Definition:</b> conn.h:140</div></div>
+<div class="ttc" id="tree_8h_html_a75ee3833aa4387ba31979341c84b6954"><div class="ttname"><a href="tree_8h.html#a75ee3833aa4387ba31979341c84b6954">SPLAY_PROTOTYPE</a></div><div class="ttdeci">#define SPLAY_PROTOTYPE(name, type, field, cmp)</div><div class="ttdef"><b>Definition:</b> tree.h:155</div></div>
 <div class="ttc" id="fnv1a_8h_html_a3bf0a406ef6f462a25ef67e5a6ec33f9"><div class="ttname"><a href="fnv1a_8h.html#a3bf0a406ef6f462a25ef67e5a6ec33f9">fnv1a_32</a></div><div class="ttdeci">static uint32_t fnv1a_32(const void *const buf, const size_t len)</div><div class="ttdoc">Compute an FNV-1a 32-bit hash over the given buffer. </div><div class="ttdef"><b>Definition:</b> fnv1a.h:78</div></div>
 <div class="ttc" id="structtransport__params_html_aadfe2ff62d5b27e457e3a07e2939536c"><div class="ttname"><a href="structtransport__params.html#aadfe2ff62d5b27e457e3a07e2939536c">transport_params::max_streams_bidi</a></div><div class="ttdeci">int64_t max_streams_bidi</div><div class="ttdef"><b>Definition:</b> conn.h:111</div></div>
 <div class="ttc" id="conn_8h_html_a51850847894ca6bd5bd7a3f06fc9f1ff"><div class="ttname"><a href="conn_8h.html#a51850847894ca6bd5bd7a3f06fc9f1ff">new_conn</a></div><div class="ttdeci">struct q_conn * new_conn(struct w_engine *const w, const uint32_t vers, const struct cid *const dcid, const struct cid *const scid, const struct sockaddr_in *const peer, const char *const peer_name, const uint16_t port, const struct q_conn_conf *const cc)</div><div class="ttdef"><b>Definition:</b> conn.c:1284</div></div>
@@ -581,18 +588,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structtransport__params_html_a4d023c78b1088065178d615d1c51d175"><div class="ttname"><a href="structtransport__params.html#a4d023c78b1088065178d615d1c51d175">transport_params::new_max_streams_bidi</a></div><div class="ttdeci">int64_t new_max_streams_bidi</div><div class="ttdef"><b>Definition:</b> conn.h:112</div></div>
 <div class="ttc" id="conn_8h_html_a90115a99b400e667c2ea225b0942ebcf"><div class="ttname"><a href="conn_8h.html#a90115a99b400e667c2ea225b0942ebcf">kh_cid_cmp</a></div><div class="ttdeci">static int kh_cid_cmp(const struct cid *const a, const struct cid *const b)</div><div class="ttdef"><b>Definition:</b> conn.h:80</div></div>
 <div class="ttc" id="conn_8h_html_a1c73802c8005ac4f60cf1c0003972d56"><div class="ttname"><a href="conn_8h.html#a1c73802c8005ac4f60cf1c0003972d56">free_dcid</a></div><div class="ttdeci">void free_dcid(struct q_conn *const c, struct cid *const id)</div><div class="ttdef"><b>Definition:</b> conn.c:1416</div></div>
+<div class="ttc" id="tree_8h_html_a577ab0c7c03e7caae9b2c4b828027ecb"><div class="ttname"><a href="tree_8h.html#a577ab0c7c03e7caae9b2c4b828027ecb">splay_entry</a></div><div class="ttdeci">#define splay_entry(type)</div><div class="ttdef"><b>Definition:</b> tree.h:104</div></div>
 <div class="ttc" id="structtransport__params_html_a1e971701bc5477fc75408d11416d702b"><div class="ttname"><a href="structtransport__params.html#a1e971701bc5477fc75408d11416d702b">transport_params::max_ack_del</a></div><div class="ttdeci">uint64_t max_ack_del</div><div class="ttdef"><b>Definition:</b> conn.h:114</div></div>
 <div class="ttc" id="conn_8h_html_ab12c601471f4fcfae92c53fbca85b32e"><div class="ttname"><a href="conn_8h.html#ab12c601471f4fcfae92c53fbca85b32e">conn_needs_ctrl</a></div><div class="ttdeci">static bool conn_needs_ctrl(const struct q_conn *const c)</div><div class="ttdef"><b>Definition:</b> conn.h:386</div></div>
 <div class="ttc" id="structpn__hshk__space_html"><div class="ttname"><a href="structpn__hshk__space.html">pn_hshk_space</a></div><div class="ttdef"><b>Definition:</b> pn.h:73</div></div>
 <div class="ttc" id="structtransport__params_html"><div class="ttname"><a href="structtransport__params.html">transport_params</a></div><div class="ttdef"><b>Definition:</b> conn.h:103</div></div>
+<div class="ttc" id="boot_8c_html_a3c48b0d616482494ace467ca05e01642"><div class="ttname"><a href="boot_8c.html#a3c48b0d616482494ace467ca05e01642">memcmp</a></div><div class="ttdeci">int memcmp(const void *va, const void *vb, size_t len)</div><div class="ttdef"><b>Definition:</b> boot.c:120</div></div>
+<div class="ttc" id="structw__engine_html"><div class="ttname"><a href="structw__engine.html">w_engine</a></div><div class="ttdoc">A warpcore backend engine. </div><div class="ttdef"><b>Definition:</b> warpcore.h:67</div></div>
 <div class="ttc" id="conn_8h_html_ada89723c147c3959024e404cea1cd2f4"><div class="ttname"><a href="conn_8h.html#ada89723c147c3959024e404cea1cd2f4">update_act_scid</a></div><div class="ttdeci">void update_act_scid(struct q_conn *const c, struct cid *const id)</div><div class="ttdef"><b>Definition:</b> conn.c:510</div></div>
 <div class="ttc" id="conn_8h_html_ae5beee50c7414b14d1efb1e3e8ebe1ee"><div class="ttname"><a href="conn_8h.html#ae5beee50c7414b14d1efb1e3e8ebe1ee">add_dcid</a></div><div class="ttdeci">void add_dcid(struct q_conn *const c, const struct cid *const id)</div><div class="ttdef"><b>Definition:</b> conn.c:542</div></div>
 <div class="ttc" id="structtransport__params_html_a5719da04011349b3cdde407995caff03"><div class="ttname"><a href="structtransport__params.html#a5719da04011349b3cdde407995caff03">transport_params::max_data</a></div><div class="ttdeci">uint64_t max_data</div><div class="ttdef"><b>Definition:</b> conn.h:107</div></div>
+<div class="ttc" id="handy_8h_html_a74e75242132eaabbc1c512488a135926"><div class="ttname"><a href="handy_8h.html#a74e75242132eaabbc1c512488a135926">MIN</a></div><div class="ttdeci">#define MIN(x, y)</div><div class="ttdef"><b>Definition:</b> handy.h:16</div></div>
 <div class="ttc" id="conn_8h_html_afd38904c68cab87424e6aa8db723fd38"><div class="ttname"><a href="conn_8h.html#afd38904c68cab87424e6aa8db723fd38">enter_closing</a></div><div class="ttdeci">void enter_closing(struct q_conn *const c)</div><div class="ttdef"><b>Definition:</b> conn.c:1200</div></div>
 <div class="ttc" id="conn_8h_html_af4bcebc8568f27694df841f3045749fb"><div class="ttname"><a href="conn_8h.html#af4bcebc8568f27694df841f3045749fb">has_wnd</a></div><div class="ttdeci">static bool has_wnd(const struct q_conn *const c)</div><div class="ttdef"><b>Definition:</b> conn.h:377</div></div>
 <div class="ttc" id="conn_8h_html_ac613aa6cd184e9b2bab8496502275125"><div class="ttname"><a href="conn_8h.html#ac613aa6cd184e9b2bab8496502275125">conn_state_t</a></div><div class="ttdeci">conn_state_t</div><div class="ttdoc">Define connection states. </div><div class="ttdef"><b>Definition:</b> conn.h:136</div></div>
 <div class="ttc" id="structtransport__params_html_a1ef8341121e76946446e36f1f7a8c818"><div class="ttname"><a href="structtransport__params.html#a1ef8341121e76946446e36f1f7a8c818">transport_params::max_strm_data_bidi_remote</a></div><div class="ttdeci">uint64_t max_strm_data_bidi_remote</div><div class="ttdef"><b>Definition:</b> conn.h:106</div></div>
+<div class="ttc" id="queue_8h_html_a21968bf6fb00e216ead3f3c2ab62effc"><div class="ttname"><a href="queue_8h.html#a21968bf6fb00e216ead3f3c2ab62effc">sl_entry</a></div><div class="ttdeci">#define sl_entry(type)</div><div class="ttdef"><b>Definition:</b> queue.h:249</div></div>
 <div class="ttc" id="conn_8h_html_a72a3242eac371fd1d496e8f0f26fd64a"><div class="ttname"><a href="conn_8h.html#a72a3242eac371fd1d496e8f0f26fd64a">khash_t</a></div><div class="ttdeci">khash_t(conns_by_id)*conns_by_id</div></div>
+<div class="ttc" id="warpcore_2lib_2include_2warpcore_2util_8h_html_ac6c45889010c1bd68631771b64f18101"><div class="ttname"><a href="warpcore_2lib_2include_2warpcore_2util_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a></div><div class="ttdeci">#define unlikely(x)</div><div class="ttdef"><b>Definition:</b> util.h:60</div></div>
 <div class="ttc" id="conn_8h_html_aa16d30297b5b1ceed9c3fef11b6a5026"><div class="ttname"><a href="conn_8h.html#aa16d30297b5b1ceed9c3fef11b6a5026">add_scid</a></div><div class="ttdeci">void add_scid(struct q_conn *const c, struct cid *const id)</div><div class="ttdef"><b>Definition:</b> conn.c:522</div></div>
 <div class="ttc" id="structq__stream_html"><div class="ttname"><a href="structq__stream.html">q_stream</a></div><div class="ttdef"><b>Definition:</b> stream.h:61</div></div>
 <div class="ttc" id="conn_8h_html_a3f567945c3f8d5d518f5463ec30776d0"><div class="ttname"><a href="conn_8h.html#a3f567945c3f8d5d518f5463ec30776d0">CONN_STATES</a></div><div class="ttdeci">#define CONN_STATES</div><div class="ttdef"><b>Definition:</b> conn.h:127</div></div>
@@ -603,11 +616,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="conn_8h_html_ae7ad1167799a2920119487df92e81b85"><div class="ttname"><a href="conn_8h.html#ae7ad1167799a2920119487df92e81b85">tx_w</a></div><div class="ttdeci">void tx_w(struct ev_loop *const l, ev_async *const w, int e)</div><div class="ttdef"><b>Definition:</b> conn.c:483</div></div>
 <div class="ttc" id="conn_8h_html_a02d7b0c5a072e1b673358b52ac71f160"><div class="ttname"><a href="conn_8h.html#a02d7b0c5a072e1b673358b52ac71f160">err_close</a></div><div class="ttdeci">void err_close(struct q_conn *const c, const uint16_t code, const uint8_t frm, const char *const fmt,...)</div><div class="ttdef"><b>Definition:</b> conn.c:1141</div></div>
 <div class="ttc" id="conn_8h_html_a07cb3f3bb2c38f820f0a7fd74de25d6d"><div class="ttname"><a href="conn_8h.html#a07cb3f3bb2c38f820f0a7fd74de25d6d">is_inf</a></div><div class="ttdeci">static bool is_inf(const ev_tstamp t)</div><div class="ttdef"><b>Definition:</b> conn.h:452</div></div>
+<div class="ttc" id="klib_2khash_8h_html_a462aab2091dad69a2f14718fbe9fffa0"><div class="ttname"><a href="klib_2khash_8h.html#a462aab2091dad69a2f14718fbe9fffa0">khint_t</a></div><div class="ttdeci">khint32_t khint_t</div><div class="ttdef"><b>Definition:</b> khash.h:162</div></div>
 <div class="ttc" id="structtransport__params_html_ada77b0a712c3a04c901ef49001f358a5"><div class="ttname"><a href="structtransport__params.html#ada77b0a712c3a04c901ef49001f358a5">transport_params::orig_cid</a></div><div class="ttdeci">struct cid orig_cid</div><div class="ttdef"><b>Definition:</b> conn.h:119</div></div>
 <div class="ttc" id="conn_8h_html_a526357c19864e7579573160573a55c33"><div class="ttname"><a href="conn_8h.html#a526357c19864e7579573160573a55c33">pn_for_epoch</a></div><div class="ttdeci">static struct pn_space * pn_for_epoch(struct q_conn *const c, const epoch_t e)</div><div class="ttdef"><b>Definition:</b> conn.h:342</div></div>
 <div class="ttc" id="structtransport__params_html_a28a8f4aaf5af009275757c0bbfa9a3d3"><div class="ttname"><a href="structtransport__params.html#a28a8f4aaf5af009275757c0bbfa9a3d3">transport_params::new_max_streams_uni</a></div><div class="ttdeci">int64_t new_max_streams_uni</div><div class="ttdef"><b>Definition:</b> conn.h:110</div></div>
 <div class="ttc" id="quic_8h_html_a55f8a6b9dc42515f0088dc692c2a1dfb"><div class="ttname"><a href="quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb">cids_by_seq_cmp</a></div><div class="ttdeci">static int cids_by_seq_cmp(const struct cid *const a, const struct cid *const b)</div><div class="ttdef"><b>Definition:</b> quic.h:69</div></div>
 <div class="ttc" id="structtransport__params_html_ae962b4557ad4830b036a82c53316d89a"><div class="ttname"><a href="structtransport__params.html#ae962b4557ad4830b036a82c53316d89a">transport_params::new_max_data</a></div><div class="ttdeci">uint64_t new_max_data</div><div class="ttdef"><b>Definition:</b> conn.h:108</div></div>
+<div class="ttc" id="fuzz_8c_html_a8bedaecc1f0b28f6c3ec357ca967b33a"><div class="ttname"><a href="fuzz_8c.html#a8bedaecc1f0b28f6c3ec357ca967b33a">w</a></div><div class="ttdeci">static struct w_engine w</div><div class="ttdef"><b>Definition:</b> fuzz.c:48</div></div>
 <div class="ttc" id="structtransport__params_html_ae386de9dcd0300644d51ee3f657ecb32"><div class="ttname"><a href="structtransport__params.html#ae386de9dcd0300644d51ee3f657ecb32">transport_params::max_strm_data_uni</a></div><div class="ttdeci">uint64_t max_strm_data_uni</div><div class="ttdef"><b>Definition:</b> conn.h:104</div></div>
 <div class="ttc" id="conn_8h_html_a23b98218d38ba7ad85c7d40ed1ca5546"><div class="ttname"><a href="conn_8h.html#a23b98218d38ba7ad85c7d40ed1ca5546">loop_update</a></div><div class="ttdeci">void loop_update(struct ev_loop *const l, ev_async *const w, int e)</div></div>
 <div class="ttc" id="structtls_html"><div class="ttname"><a href="structtls.html">tls</a></div><div class="ttdef"><b>Definition:</b> tls.h:55</div></div>
@@ -622,15 +637,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="conn_8h_html_a80d90113c6ae61c657e6546d30f0e844"><div class="ttname"><a href="conn_8h.html#a80d90113c6ae61c657e6546d30f0e844">conns_by_ipnp_cmp</a></div><div class="ttdeci">int conns_by_ipnp_cmp(const struct q_conn *const a, const struct q_conn *const b)</div></div>
 <div class="ttc" id="structpn__data__space_html"><div class="ttname"><a href="structpn__data__space.html">pn_data_space</a></div><div class="ttdef"><b>Definition:</b> pn.h:80</div></div>
 <div class="ttc" id="fnv1a_8h_html"><div class="ttname"><a href="fnv1a_8h.html">fnv1a.h</a></div></div>
+<div class="ttc" id="fuzz_8c_html_a84e99af7d0f536bd90cb3dab5c874749"><div class="ttname"><a href="fuzz_8c.html#a84e99af7d0f536bd90cb3dab5c874749">b</a></div><div class="ttdeci">static struct w_backend b</div><div class="ttdef"><b>Definition:</b> fuzz.c:47</div></div>
 <div class="ttc" id="conn_8h_html_a31898c1d24d16b8da39d1f5c0500345e"><div class="ttname"><a href="conn_8h.html#a31898c1d24d16b8da39d1f5c0500345e">MAX_ERR_REASON_LEN</a></div><div class="ttdeci">#define MAX_ERR_REASON_LEN</div><div class="ttdef"><b>Definition:</b> conn.h:141</div></div>
 <div class="ttc" id="conn_8h_html_a757f786fa765f549ba00fa032e614e82"><div class="ttname"><a href="conn_8h.html#a757f786fa765f549ba00fa032e614e82">hash_cid</a></div><div class="ttdeci">struct q_conn *static khint_t hash_cid(const struct cid *const id)</div><div class="ttdef"><b>Definition:</b> conn.h:67</div></div>
 <div class="ttc" id="structtransport__params_html_a968b110802da3aacaaca928570c69dd4"><div class="ttname"><a href="structtransport__params.html#a968b110802da3aacaaca928570c69dd4">transport_params::max_streams_uni</a></div><div class="ttdeci">int64_t max_streams_uni</div><div class="ttdef"><b>Definition:</b> conn.h:109</div></div>
+<div class="ttc" id="picotls_8h_html"><div class="ttname"><a href="picotls_8h.html">picotls.h</a></div></div>
+<div class="ttc" id="warpcore_2lib_2include_2warpcore_2util_8h_html_a0b2164ee75646f16a7388a36e6800c35"><div class="ttname"><a href="warpcore_2lib_2include_2warpcore_2util_8h.html#a0b2164ee75646f16a7388a36e6800c35">die</a></div><div class="ttdeci">#define die(...)</div><div class="ttdoc">Abort execution with a message. </div><div class="ttdef"><b>Definition:</b> util.h:74</div></div>
 <div class="ttc" id="conn_8c_html_a001da71d92caff5772399a0d5512d8c3"><div class="ttname"><a href="conn_8c.html#a001da71d92caff5772399a0d5512d8c3">ooo_0rtt_by_cid</a></div><div class="ttdeci">struct ooo_0rtt_by_cid ooo_0rtt_by_cid</div><div class="ttdef"><b>Definition:</b> conn.c:103</div></div>
 <div class="ttc" id="conn_8h_html_a5749bce479cdde76574b7a1845be7fec"><div class="ttname"><a href="conn_8h.html#a5749bce479cdde76574b7a1845be7fec">rx</a></div><div class="ttdeci">void rx(struct ev_loop *const l, ev_io *const rx_w, int e)</div><div class="ttdef"><b>Definition:</b> conn.c:1099</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 16 2019 10:17:19 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 16 2019 17:47:42 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

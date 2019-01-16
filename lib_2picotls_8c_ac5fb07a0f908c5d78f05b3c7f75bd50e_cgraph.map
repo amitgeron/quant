@@ -1,0 +1,12 @@
+<map id="parse_esni_keys" name="parse_esni_keys">
+<area shape="rect" id="node2" href="$lib_2picotls_8c.html#a2d02d6f477c8fa36dfe14c425c884762" title="ptls_decode16" alt="" coords="595,134,701,161"/>
+<area shape="rect" id="node4" href="$lib_2picotls_8c.html#a88bb2917b39c3d3e84607a8fec007d4e" title="create_sha256_context" alt="" coords="173,33,331,59"/>
+<area shape="rect" id="node5" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="214,83,290,110"/>
+<area shape="rect" id="node6" href="$lib_2picotls_8c.html#add862b29401e87765b450e4e9d5aea08" title="select_key_share" alt="" coords="190,185,314,211"/>
+<area shape="rect" id="node9" href="$lib_2picotls_8c.html#a478f7042609e15ff8857ecbdd220a9f2" title="select_cipher" alt="" coords="413,134,512,161"/>
+<area shape="rect" id="node10" href="$lib_2picotls_8c.html#a50aa9860710e7b2a1002ecbd4438c69e" title="ptls_decode64" alt="" coords="199,235,305,262"/>
+<area shape="rect" id="node3" href="$lib_2picotls_8c.html#a88911502068ceae20b044ee0ace4db11" title="ntoh16" alt="" coords="749,134,811,161"/>
+<area shape="rect" id="node7" href="$lib_2picotls_8c.html#a5190f0f99837bb593116b26eb6378b57" title="decode_key_share_entry" alt="" coords="379,185,546,211"/>
+<area shape="rect" id="node8" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="595,185,701,211"/>
+<area shape="rect" id="node11" href="$lib_2picotls_8c.html#a639de81443b6f8fee79a78d096f9bdbf" title="ntoh64" alt="" coords="432,235,493,262"/>
+</map>

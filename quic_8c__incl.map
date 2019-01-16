@@ -1,15 +1,22 @@
 <map id="src/quic.c" name="src/quic.c">
-<area shape="rect" id="node11" href="$quant_8h.html" title="quant/quant.h" alt="" coords="372,155,473,181"/>
-<area shape="rect" id="node22" href="$conn_8h.html" title="conn.h" alt="" coords="1493,155,1555,181"/>
-<area shape="rect" id="node27" href="$diet_8h.html" title="diet.h" alt="" coords="806,304,860,331"/>
-<area shape="rect" id="node29" href="$pn_8h.html" title="pn.h" alt="" coords="955,229,1001,256"/>
-<area shape="rect" id="node30" href="$quic_8h.html" title="quic.h" alt="" coords="1483,304,1540,331"/>
-<area shape="rect" id="node33" href="$tls_8h.html" title="tls.h" alt="" coords="735,304,781,331"/>
-<area shape="rect" id="node35" href="$pkt_8h.html" title="pkt.h" alt="" coords="1444,80,1495,107"/>
-<area shape="rect" id="node36" href="$stream_8h.html" title="stream.h" alt="" coords="1105,80,1177,107"/>
-<area shape="rect" id="node13" href="$config_8h.html" title="quant/config.h" alt="" coords="556,304,660,331"/>
-<area shape="rect" id="node28" href="$fnv1a_8h.html" title="fnv1a.h" alt="" coords="937,304,1001,331"/>
-<area shape="rect" id="node34" href="$recovery_8h.html" title="recovery.h" alt="" coords="1483,229,1564,256"/>
-<area shape="rect" id="node31" href="$bitset_8h.html" title="bitset.h" alt="" coords="1434,453,1499,480"/>
-<area shape="rect" id="node32" href="$frame_8h.html" title="frame.h" alt="" coords="1373,379,1440,405"/>
+<area shape="rect" id="node10" href="$picotls_8h.html" title="picotls.h" alt="" coords="877,379,947,405"/>
+<area shape="rect" id="node13" href="$quant_8h.html" title="quant/quant.h" alt="" coords="324,155,425,181"/>
+<area shape="rect" id="node17" href="$warpcore_8h.html" title="warpcore/warpcore.h" alt="" coords="1701,379,1843,405"/>
+<area shape="rect" id="node33" href="$conn_8h.html" title="conn.h" alt="" coords="1429,155,1491,181"/>
+<area shape="rect" id="node36" href="$diet_8h.html" title="diet.h" alt="" coords="1218,304,1272,331"/>
+<area shape="rect" id="node38" href="$pn_8h.html" title="pn.h" alt="" coords="1441,229,1487,256"/>
+<area shape="rect" id="node39" href="$quic_8h.html" title="quic.h" alt="" coords="2009,304,2065,331"/>
+<area shape="rect" id="node42" href="$tls_8h.html" title="tls.h" alt="" coords="994,304,1040,331"/>
+<area shape="rect" id="node44" href="$pkt_8h.html" title="pkt.h" alt="" coords="2007,80,2057,107"/>
+<area shape="rect" id="node45" href="$stream_8h.html" title="stream.h" alt="" coords="1566,80,1639,107"/>
+<area shape="rect" id="node15" href="$include_2quant_2config_8h.html" title="quant/config.h" alt="" coords="277,304,381,331"/>
+<area shape="rect" id="node19" href="$deps_2warpcore_2lib_2include_2warpcore_2config_8h.html" title="warpcore/config.h" alt="" coords="1564,453,1689,480"/>
+<area shape="rect" id="node20" href="$plat_8h.html" title="warpcore/plat.h" alt="" coords="1277,453,1387,480"/>
+<area shape="rect" id="node21" href="$queue_8h.html" title="warpcore/queue.h" alt="" coords="1713,453,1839,480"/>
+<area shape="rect" id="node22" href="$tree_8h.html" title="warpcore/tree.h" alt="" coords="1863,453,1973,480"/>
+<area shape="rect" id="node23" href="$warpcore_2lib_2include_2warpcore_2util_8h.html" title="warpcore/util.h" alt="" coords="2207,453,2313,480"/>
+<area shape="rect" id="node37" href="$fnv1a_8h.html" title="fnv1a.h" alt="" coords="905,304,969,331"/>
+<area shape="rect" id="node43" href="$recovery_8h.html" title="recovery.h" alt="" coords="1516,229,1597,256"/>
+<area shape="rect" id="node40" href="$bitset_8h.html" title="bitset.h" alt="" coords="2490,453,2555,480"/>
+<area shape="rect" id="node41" href="$frame_8h.html" title="frame.h" alt="" coords="2268,379,2335,405"/>
 </map>

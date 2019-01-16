@@ -1,0 +1,5 @@
+<map id="w_alloc_iov" name="w_alloc_iov">
+<area shape="rect" id="node2" href="$backend_8h.html#a3ea12851bfb4f83f0843560797d0241e" title="w_alloc_iov_base" alt="" coords="144,5,269,32"/>
+<area shape="rect" id="node3" href="$backend_8h.html#a5bca37c30d432e0c16c44d8e0c087e5f" title="init_iov" alt="" coords="318,5,381,32"/>
+<area shape="rect" id="node4" href="$backend_8h.html#a7f3566b6a4f34920186abe13e80a2760" title="For a given buffer index, get a pointer to its beginning. " alt="" coords="429,5,512,32"/>
+</map>

@@ -1,0 +1,3 @@
+<map id="ip_data_len" name="ip_data_len">
+<area shape="rect" id="node2" href="$ip_8h.html#a147f3deb53c55c2206bfa17c72ecae6f" title="Extract the IP header length out of an ip_hdr::vhl field. " alt="" coords="142,5,191,32"/>
+</map>

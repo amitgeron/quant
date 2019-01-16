@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['recovery',['recovery',['../structrecovery.html',1,'']]]
+  ['feeder',['feeder',['../structfeeder.html',1,'']]],
+  ['ftpaux_5ft',['ftpaux_t',['../structftpaux__t.html',1,'']]]
 ];

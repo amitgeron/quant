@@ -1,0 +1,5 @@
+<map id="chacha20_context_t" name="chacha20_context_t">
+<area shape="rect" id="node2" href="$structcf__salsa20__ctx.html" title="cf_salsa20_ctx" alt="" coords="5,96,115,123"/>
+<area shape="rect" id="node3" href="$structst__ptls__cipher__context__t.html" title="context of a symmetric cipher " alt="" coords="139,96,303,123"/>
+<area shape="rect" id="node4" href="$structst__ptls__cipher__algorithm__t.html" title="a symmetric cipher " alt="" coords="134,5,308,32"/>
+</map>

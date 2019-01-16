@@ -1,0 +1,5 @@
+<map id="poly1305_block" name="poly1305_block">
+<area shape="rect" id="node2" href="$poly1305_8c.html#a234cdf38cbd09f9be5b48367cfa5ac73" title="poly1305_add" alt="" coords="166,5,269,32"/>
+<area shape="rect" id="node3" href="$poly1305_8c.html#acaf640ec3c5238790803dfe21fdd7829" title="poly1305_mul" alt="" coords="166,56,269,83"/>
+<area shape="rect" id="node4" href="$poly1305_8c.html#aef9d6fdbb049e9e4257e683f1d3d6aca" title="poly1305_min_reduce" alt="" coords="318,56,466,83"/>
+</map>

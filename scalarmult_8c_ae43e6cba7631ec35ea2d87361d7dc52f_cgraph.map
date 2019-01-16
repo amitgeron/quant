@@ -1,0 +1,5 @@
+<map id="fe25519_invert_useProvidedScratchBuffers" name="fe25519_invert_useProvidedScratchBuffers">
+<area shape="rect" id="node2" href="$scalarmult_8c.html#a9e76e261b5b1e7006a0bee44aa090f91" title="fe25519_square" alt="" coords="240,5,355,32"/>
+<area shape="rect" id="node4" href="$scalarmult_8c.html#a7f7af83a387a0d3e2381100b29d65949" title="fe25519_mul" alt="" coords="249,56,345,83"/>
+<area shape="rect" id="node3" href="$scalarmult_8c.html#a0acc0b27d478441a5c933576c7c776ac" title="fe25519_reduceTo256Bits_asm" alt="" coords="403,31,608,57"/>
+</map>

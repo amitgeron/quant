@@ -1,0 +1,5 @@
+<map id="worker_pipeline" name="worker_pipeline">
+<area shape="rect" id="node2" href="$klib_2test_2kthread__test2_8c.html#ae02913e55f3f6f46cb968048caca17ec" title="kt_for" alt="" coords="179,5,234,32"/>
+<area shape="rect" id="node3" href="$klib_2test_2kthread__test2_8c.html#a0649fa8760d02f27628f79dc89a6034b" title="worker_for" alt="" coords="165,56,248,83"/>
+<area shape="rect" id="node4" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="297,56,351,83"/>
+</map>

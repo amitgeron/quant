@@ -1,0 +1,4 @@
+<map id="cf_gf128_double" name="cf_gf128_double">
+<area shape="rect" id="node2" href="$bitops_8h.html#ac73e349143c697f2058d5eae0a27365d" title="Select the ith entry from the given table of n values, in a side channel&#45;silent way. " alt="" coords="171,5,250,32"/>
+<area shape="rect" id="node3" href="$bitops_8h.html#ad8cec031b7eccb98c5c1d0ddb368aad2" title="Product 0xff if x == y, zero otherwise, without branching. " alt="" coords="299,5,373,32"/>
+</map>

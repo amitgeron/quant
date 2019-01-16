@@ -1,0 +1,37 @@
+<map id="secp256r1_create_key_exchange" name="secp256r1_create_key_exchange">
+<area shape="rect" id="node2" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="473,5,578,32"/>
+<area shape="rect" id="node3" href="$uecc_8c.html#a6e188f84c45729198d9d1c299a3282e1" title="secp256r1_on_exchange" alt="" coords="209,107,375,133"/>
+<area shape="rect" id="node34" href="$uECC_8h.html#a3595e0db86484273462b72b76898df7e" title="uECC_secp256r1" alt="" coords="463,157,588,184"/>
+<area shape="rect" id="node35" href="$uECC_8c.html#aa2ff6277175a7f996af3fc39c24895a5" title="uECC_make_key" alt="" coords="229,208,355,235"/>
+<area shape="rect" id="node4" href="$uECC_8c.html#a272443964d721cf833fd429c94e19957" title="uECC_shared_secret" alt="" coords="452,107,599,133"/>
+<area shape="rect" id="node5" href="$uECC_8c.html#ac09542159920b53beffd4479e82acca4" title="uECC_vli_bytesToNative" alt="" coords="893,157,1064,184"/>
+<area shape="rect" id="node7" href="$uECC_8c.html#a37c1a383e4ea7b47bb49b751a299dad9" title="regularize_k" alt="" coords="714,259,806,285"/>
+<area shape="rect" id="node10" href="$uECC_8c.html#a4139d033250448f693ae794bf6515d35" title="uECC_generate_random_int" alt="" coords="1112,56,1299,83"/>
+<area shape="rect" id="node16" href="$uECC_8c.html#a08fb3c91cc131ead464a51dc56456fa7" title="EccPoint_mult" alt="" coords="707,512,813,539"/>
+<area shape="rect" id="node33" href="$uECC_8c.html#ab482fb7657036c22381178933c42756b" title="uECC_vli_nativeToBytes" alt="" coords="675,208,845,235"/>
+<area shape="rect" id="node6" href="$uECC_8c.html#a3ab6617d7cc2e9338830ffd918e53b3e" title="uECC_vli_clear" alt="" coords="1970,335,2083,361"/>
+<area shape="rect" id="node8" href="$uECC_8c.html#abc8686b07575ea9382eb3583e09f1f0a" title="uECC_vli_add" alt="" coords="1797,259,1904,285"/>
+<area shape="rect" id="node9" href="$uECC_8c.html#a76f6c35f118970e235618080f3424a74" title="uECC_vli_testBit" alt="" coords="917,259,1040,285"/>
+<area shape="rect" id="node11" href="$uECC_8c.html#a4c3ea32c9f641d1a972645310b7c4ab5" title="uECC_vli_numBits" alt="" coords="1960,44,2093,71"/>
+<area shape="rect" id="node13" href="$uECC_8c.html#a7fc1e69344e9f429adc4b355189a0832" title="uECC_vli_isZero" alt="" coords="1598,56,1719,83"/>
+<area shape="rect" id="node14" href="$uECC_8c.html#a2a1b3156650605109c8596b59a4eb0c4" title="uECC_vli_cmp" alt="" coords="1382,81,1493,108"/>
+<area shape="rect" id="node12" href="$uECC_8c.html#a389707237395538033274783d16ae112" title="vli_numDigits" alt="" coords="2141,44,2243,71"/>
+<area shape="rect" id="node15" href="$uECC_8c.html#a2a15830c6ec1bc8389b51774a9f4aa48" title="uECC_vli_sub" alt="" coords="1605,461,1712,488"/>
+<area shape="rect" id="node17" href="$uECC_8c.html#a706eae58ec0ec7d5384276842a08c413" title="uECC_vli_set" alt="" coords="1975,715,2078,741"/>
+<area shape="rect" id="node18" href="$uECC_8c.html#ae0180c7182575b1e7d13bd869307042c" title="XYcZ_initial_double" alt="" coords="910,765,1047,792"/>
+<area shape="rect" id="node19" href="$uECC_8c.html#aa1092ba47dd6f5fa39fa6e3d5fa75103" title="apply_z" alt="" coords="1172,765,1239,792"/>
+<area shape="rect" id="node21" href="$uECC_8c.html#a4f8e7afb371e7085a71cc16a14cb159d" title="uECC_vli_modMult_fast" alt="" coords="1577,765,1741,792"/>
+<area shape="rect" id="node26" href="$uECC_8c.html#abfd0a9168fb5d2387f49d0c0284bd0a2" title="XYcZ_addC" alt="" coords="1159,512,1252,539"/>
+<area shape="rect" id="node27" href="$uECC_8c.html#a860094253f0996a477aa354157b5c0ba" title="uECC_vli_modSub" alt="" coords="1371,461,1504,488"/>
+<area shape="rect" id="node30" href="$uECC_8c.html#a34399b1b1a2ae5cd12d01119313fc417" title="XYcZ_add" alt="" coords="1164,715,1247,741"/>
+<area shape="rect" id="node31" href="$uECC_8c.html#a9a063e745ff11584c74382ee9282dd44" title="uECC_vli_modInv" alt="" coords="1373,360,1501,387"/>
+<area shape="rect" id="node20" href="$uECC_8c.html#aaf11fb2180ba05f9dfffce2d51b057e7" title="uECC_vli_modSquare_fast" alt="" coords="1347,765,1527,792"/>
+<area shape="rect" id="node22" href="$uECC_8c.html#a4d61977904cd68f80fcf972e842429ae" title="uECC_vli_mult" alt="" coords="1795,765,1906,792"/>
+<area shape="rect" id="node24" href="$uECC_8c.html#a35d5ba7ca550f2932d85a675ee2d88e8" title="uECC_vli_mmod" alt="" coords="1790,309,1911,336"/>
+<area shape="rect" id="node23" href="$uECC_8c.html#ac11de6cf552a968a38a89a62264bd6f8" title="muladd" alt="" coords="1995,765,2059,792"/>
+<area shape="rect" id="node25" href="$uECC_8c.html#a0ca41081385efb86dd7667dfec1edb94" title="uECC_vli_rshift1" alt="" coords="1966,157,2087,184"/>
+<area shape="rect" id="node28" href="$uECC_8c.html#ab1e15c3f5219c350748b4ecf335e1c57" title="uECC_vli_modAdd" alt="" coords="1371,411,1504,437"/>
+<area shape="rect" id="node29" href="$uECC_8c.html#afdd514a9329b3ff5336bb8a923e97487" title="uECC_vli_cmp_unsafe" alt="" coords="1581,512,1737,539"/>
+<area shape="rect" id="node32" href="$uECC_8c.html#a55e7d71ad0245152ffcb03ebb2d98bf5" title="vli_modInv_update" alt="" coords="1593,259,1724,285"/>
+<area shape="rect" id="node36" href="$uECC_8c.html#a6f9ca1cd017d0b4561d5890780a5feb9" title="EccPoint_compute_public_key" alt="" coords="425,259,626,285"/>
+</map>

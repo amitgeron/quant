@@ -1,0 +1,51 @@
+<map id="io" name="io">
+<area shape="rect" id="node2" href="$warpcore_8h.html#a051f32842ef97201707eb59c85f9dc03" title="Allocate a w_iov tail queue of count packets, for eventual use with w_tx(). " alt="" coords="100,245,191,272"/>
+<area shape="rect" id="node7" href="$warpcore_8h.html#ad6f445cb65cb33cf6950d6f432366d3b" title="Return the number of w_iov structures in the w_iov tail queue c. " alt="" coords="94,853,197,880"/>
+<area shape="rect" id="node8" href="$warpcore_8h.html#a960d81cdf30fb1dc693447ba4763f977" title="Return a w_iov tail queue obtained via w_alloc_len(), w_alloc_cnt() or w_rx() back to warpcore..." alt="" coords="115,904,176,931"/>
+<area shape="rect" id="node9" href="$testmodes_8c.html#a6eb24af80124e893b2d091359fd40d97" title="fill" alt="" coords="126,955,165,981"/>
+<area shape="rect" id="node10" href="$warpcore_8h.html#a7431226c76bc23225482a4ced534db6d" title="Return the total payload length of w_iov tail queue c. " alt="" coords="95,1005,196,1032"/>
+<area shape="rect" id="node11" href="$warpcore_8h.html#ac4f053bd8ffef52d164823134d732f51" title="Loops over the w_iov structures in the w_iov_sq o, sending them all over w_sock s. " alt="" coords="120,803,171,829"/>
+<area shape="rect" id="node21" href="$warpcore_8h.html#a3fba5669717435248ca7b7945a9b9d75" title="Push data placed in the TX rings via udp_tx() and similar methods out onto the link. " alt="" coords="1220,853,1295,880"/>
+<area shape="rect" id="node22" href="$warpcore_8h.html#ab0508cfebe874ba0f3f2f230b4120e0d" title="Trigger netmap to make new received data available to w_rx(). " alt="" coords="523,701,597,728"/>
+<area shape="rect" id="node24" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="766,296,842,323"/>
+<area shape="rect" id="node47" href="$warpcore_8h.html#a0c90e71507fd384ce951e600da9f04f6" title="Return the number of w_iov structs in q that are still waiting for transmission. " alt="" coords="94,1056,197,1083"/>
+<area shape="rect" id="node48" href="$warpcore_8h.html#af21a4e848c9199be729d01d20b8eea3d" title="Return any new data that has been received on a socket by appending it to the w_iov tail queue i..." alt="" coords="257,195,308,221"/>
+<area shape="rect" id="node50" href="$warpcore_8h.html#a850fab047a974d4b7abfd68ceb87665d" title="Return the local port a w_sock is bound to. " alt="" coords="99,1107,192,1133"/>
+<area shape="rect" id="node3" href="$warpcore_8c.html#a8e3e3376b3f23f1a1a8fc4be642f7710" title="Return a spare w_iov from the pool of the given warpcore engine. " alt="" coords="515,169,605,196"/>
+<area shape="rect" id="node4" href="$backend_8h.html#a3ea12851bfb4f83f0843560797d0241e" title="w_alloc_iov_base" alt="" coords="1195,169,1320,196"/>
+<area shape="rect" id="node5" href="$backend_8h.html#a5bca37c30d432e0c16c44d8e0c087e5f" title="init_iov" alt="" coords="1382,169,1445,196"/>
+<area shape="rect" id="node6" href="$backend_8h.html#a7f3566b6a4f34920186abe13e80a2760" title="For a given buffer index, get a pointer to its beginning. " alt="" coords="1533,169,1616,196"/>
+<area shape="rect" id="node12" href="$warpcore_8h.html#a25db095b03b04843ed074c604c85c27d" title="Return whether a socket is connected (i.e., w_connect() has been called on it) or not..." alt="" coords="368,1512,467,1539"/>
+<area shape="rect" id="node13" href="$udp_8c.html#a5ff6c06e976086b17457bc7766bb8e0c" title="Sends a payload contained in a w_sock::ov via UDP. " alt="" coords="252,1259,313,1285"/>
+<area shape="rect" id="node46" href="$backend__netmap_8c.html#a3fba5669717435248ca7b7945a9b9d75" title="Push data placed in the TX rings via udp_tx() and similar methods out onto the link. " alt="" coords="245,803,320,829"/>
+<area shape="rect" id="node14" href="$eth_8h.html#a01df29c04e9962e458497dc6d3ea7da3" title="Return a pointer to the first data byte inside the Ethernet frame in buf. " alt="" coords="1377,853,1449,880"/>
+<area shape="rect" id="node15" href="$ip_8h.html#ae9f26c7f5dc4d2ba6bd03e86a42783da" title="Return a pointer to the payload data of the IPv4 packet in a buffer. " alt="" coords="1225,397,1289,424"/>
+<area shape="rect" id="node17" href="$arp_8c.html#aad7ca3e847867c4dcc618d034aa42739" title="Return the Ethernet MAC address for target IP address dip. " alt="" coords="368,1107,467,1133"/>
+<area shape="rect" id="node31" href="$in__cksum_8c.html#a91b5a9539546f7879e7f3183e8db41af" title="udp_cksum" alt="" coords="1369,1259,1458,1285"/>
+<area shape="rect" id="node36" href="$ip_8c.html#ad5934c09781e39f8bec7f5eae021f791" title="IPv4 transmit processing for the w_iov v of length len. " alt="" coords="1232,1157,1283,1184"/>
+<area shape="rect" id="node16" href="$ip_8h.html#a147f3deb53c55c2206bfa17c72ecae6f" title="Extract the IP header length out of an ip_hdr::vhl field. " alt="" coords="1389,321,1438,348"/>
+<area shape="rect" id="node18" href="$arp_8c.html#ab57d1a0513207babcdb2f6a8a8295fae" title="Find the ARP cache entry associated with IPv4 address ip. " alt="" coords="1202,1309,1313,1336"/>
+<area shape="rect" id="node19" href="$eth__tx_8h.html#a77ddf822dd36e3ef625a1e446c9f7b15" title="Places an Ethernet frame into a TX ring. " alt="" coords="1384,1208,1443,1235"/>
+<area shape="rect" id="node20" href="$eth_8c.html#a84b1cdcdafabcab37d01ffff5a0e1938" title="ether_ntoa_r" alt="" coords="1527,1335,1622,1361"/>
+<area shape="rect" id="node23" href="$eth_8c.html#a659282bc0d2ea46d2d4817aa9a2f46e7" title="Receive an Ethernet frame. " alt="" coords="656,651,715,677"/>
+<area shape="rect" id="node45" href="$backend_8h.html#a2242871306406e5b7f993f173bb9ff4a" title="is_pipe" alt="" coords="654,701,717,728"/>
+<area shape="rect" id="node25" href="$ip_8c.html#a83c3b73e5ae32815530bdb103a0a59ee" title="Receive processing for an IPv4 packet. " alt="" coords="779,575,829,601"/>
+<area shape="rect" id="node41" href="$arp_8c.html#adfea277e13c34a07fc16cb4455988d71" title="Receive an ARP packet, and react to it. " alt="" coords="901,1005,960,1032"/>
+<area shape="rect" id="node26" href="$backend_8h.html#ad7729f17279f9d1a8ec331c6060a7c1a" title="Compute the IPv4 broadcast address for the given IPv4 address and netmask. " alt="" coords="891,499,970,525"/>
+<area shape="rect" id="node27" href="$in__cksum_8c.html#a262ae86742cd94bef7aa644688a88816" title="Compute the Internet checksum over buffer buf of length len. " alt="" coords="1374,727,1453,753"/>
+<area shape="rect" id="node30" href="$udp_8c.html#a06a9a6f02f44430b11f90693b72dc63a" title="Receive a UDP packet. " alt="" coords="900,651,961,677"/>
+<area shape="rect" id="node33" href="$icmp_8c.html#a07ccf7ab70e02d29731d2aea211c8a7d" title="Make an ICMP message with the given type and code based on the received packet in buf..." alt="" coords="1049,549,1117,576"/>
+<area shape="rect" id="node39" href="$icmp_8c.html#a151b4a3f6fc7181caeaf927e1062530a" title="Analyze an inbound ICMP packet and react to it. " alt="" coords="897,549,965,576"/>
+<area shape="rect" id="node28" href="$in__cksum_8c.html#aaa17fb4a5e6679ec512bab73d6121ecb" title="csum_oc16" alt="" coords="1530,1024,1619,1051"/>
+<area shape="rect" id="node29" href="$in__cksum_8c.html#a7ee8c766405745694128ec30e7c82f5a" title="csum_oc16_reduce" alt="" coords="1507,891,1642,917"/>
+<area shape="rect" id="node32" href="$warpcore_8h.html#a69efb41e98d6e0b055364a6991d415a9" title="Get the socket bound to the &lt;sport, dport&gt; pair. " alt="" coords="1037,651,1129,677"/>
+<area shape="rect" id="node34" href="$warpcore_8h.html#a9ef58000f78363a1127c6f5e1da38bb6" title="Return the maximum size a given w_iov may have for the given engine. " alt="" coords="1201,499,1313,525"/>
+<area shape="rect" id="node35" href="$ip_8h.html#ab8a5dee15d15e993f85e4a49f76a837b" title="Initialize the static fields in an IPv4 ip_hdr header. " alt="" coords="1217,549,1298,576"/>
+<area shape="rect" id="node37" href="$warpcore_8h.html#a61040d6a1057690cce90907f628a0e16" title="Return a random number. " alt="" coords="1381,1157,1445,1184"/>
+<area shape="rect" id="node38" href="$klib_2krng_8h.html#a3864312439c8a4b1ca75c8f0cbb9ccff" title="kr_rand_r" alt="" coords="1537,1157,1613,1184"/>
+<area shape="rect" id="node40" href="$ip_8h.html#ac579e04a6820b6016d95860e5ede0a5d" title="Calculates the length of the payload data for the given IPv4 header ip. " alt="" coords="1039,245,1127,272"/>
+<area shape="rect" id="node42" href="$arp_8c.html#a07cb7432c1d2686ebba35e7f85bd7b42" title="Modifies the ARP request in buf into a corresponding ARP reply, and sends it. " alt="" coords="1045,904,1120,931"/>
+<area shape="rect" id="node43" href="$arp_8c.html#a5857d8f27a0bcfa2b9dfe8308ac7befb" title="Update the MAC address associated with IPv4 address ip in the ARP cache. " alt="" coords="1019,1107,1147,1133"/>
+<area shape="rect" id="node44" href="$backend_8h.html#a03bc21b220cd1dbb450c6d3ea4f838c9" title="The IPv4 network prefix for the given IPv4 address and netmask. " alt="" coords="1050,1005,1115,1032"/>
+<area shape="rect" id="node49" href="$warpcore_8h.html#aa17e20ed409edbfe18aa79ae5da640ff" title="Return a spare w_iov from the pool of the given warpcore engine. " alt="" coords="372,93,463,120"/>
+</map>

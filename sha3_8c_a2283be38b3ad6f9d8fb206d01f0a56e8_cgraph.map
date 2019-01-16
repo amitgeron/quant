@@ -1,0 +1,12 @@
+<map id="squeeze" name="squeeze">
+<area shape="rect" id="node2" href="$sha3_8c.html#acfb0a2020b44300176c7528695ed1bbb" title="extract" alt="" coords="129,56,191,83"/>
+<area shape="rect" id="node6" href="$sha3_8c.html#a152d08b75af1696fc88603e49169640b" title="permute" alt="" coords="125,107,195,133"/>
+<area shape="rect" id="node3" href="$sha3_8c.html#a24fda54ba963aba62b2d11f7d121e83f" title="write64_bi" alt="" coords="243,56,325,83"/>
+<area shape="rect" id="node4" href="$sha3_8c.html#ac120220453051c9dd1782b1ca5105d91" title="shuffle_in" alt="" coords="375,5,454,32"/>
+<area shape="rect" id="node5" href="$bitops_8h.html#a467162e933d03f7220bfda986d373992" title="Encode v as a 32&#45;bit little endian quantity into buf. " alt="" coords="374,56,455,83"/>
+<area shape="rect" id="node7" href="$sha3_8c.html#ae086b952fc80787190e7ea27a52f72e0" title="theta" alt="" coords="259,107,309,133"/>
+<area shape="rect" id="node10" href="$sha3_8c.html#a108db4e6fa065760cdaa32361ab55180" title="rho_pi_chi" alt="" coords="243,157,325,184"/>
+<area shape="rect" id="node8" href="$sha3_8c.html#a555c96185522002434108b1e27213683" title="rotl_bi_1" alt="" coords="379,107,450,133"/>
+<area shape="rect" id="node9" href="$bitops_8h.html#a357870f3f6726b49c6ec691c00d1099c" title="Circularly rotate left x by n bits. " alt="" coords="505,132,559,159"/>
+<area shape="rect" id="node11" href="$sha3_8c.html#a008ef7dd2a3f37fa94cbce28dcff03fe" title="rotl_bi_n" alt="" coords="379,157,450,184"/>
+</map>

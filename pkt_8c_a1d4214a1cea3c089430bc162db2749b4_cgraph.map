@@ -1,8 +1,10 @@
 <map id="undo_hp" name="undo_hp">
-<area shape="rect" id="node2" href="$pkt_8c.html#a90cce9975ffcab8b2dac5081645823ad" title="xor_hp" alt="" coords="152,56,213,83"/>
-<area shape="rect" id="node4" href="$pkt_8h.html#a8d063c693439da5fd45d03d8112fda9f" title="pkt_nr_len" alt="" coords="288,93,371,120"/>
-<area shape="rect" id="node5" href="$pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="147,5,219,32"/>
-<area shape="rect" id="node6" href="$pkt_8h.html#a13f2d88ad76ff338e531972ca1c0449e" title="pn_for_pkt_type" alt="" coords="125,157,240,184"/>
-<area shape="rect" id="node7" href="$diet_8h.html#aacb91382dbbe6f6f29721c4c620c9dbf" title="diet_max" alt="" coords="145,208,220,235"/>
-<area shape="rect" id="node3" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="305,31,354,57"/>
+<area shape="rect" id="node2" href="$pkt_8c.html#a90cce9975ffcab8b2dac5081645823ad" title="xor_hp" alt="" coords="152,93,213,120"/>
+<area shape="rect" id="node6" href="$pkt_8h.html#a8d063c693439da5fd45d03d8112fda9f" title="pkt_nr_len" alt="" coords="315,157,397,184"/>
+<area shape="rect" id="node7" href="$pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="147,17,219,44"/>
+<area shape="rect" id="node8" href="$pkt_8h.html#a13f2d88ad76ff338e531972ca1c0449e" title="pn_for_pkt_type" alt="" coords="125,195,240,221"/>
+<area shape="rect" id="node9" href="$diet_8h.html#aacb91382dbbe6f6f29721c4c620c9dbf" title="diet_max" alt="" coords="145,245,220,272"/>
+<area shape="rect" id="node3" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="331,5,381,32"/>
+<area shape="rect" id="node4" href="$picotls_8h.html#aa77dcaa131915406a4a03be70e268ff0" title="initializes the IV; this function must be called prior to calling ptls_cipher_encrypt ..." alt="" coords="301,56,411,83"/>
+<area shape="rect" id="node5" href="$picotls_8h.html#a2d3ae9c9f2704efb7abae1637cb97241" title="encrypts given text " alt="" coords="289,107,423,133"/>
 </map>

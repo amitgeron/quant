@@ -2,5 +2,6 @@
 <area shape="rect" id="node2" href="$stream_8c.html#a300bcafbad60488eb0b6b0560eb1b645" title="new_stream" alt="" coords="155,56,248,83"/>
 <area shape="rect" id="node3" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="320,5,411,32"/>
 <area shape="rect" id="node4" href="$stream_8c.html#a2853c95f04e70a8c7e836f881eedff8d" title="apply_stream_limits" alt="" coords="296,56,435,83"/>
-<area shape="rect" id="node5" href="$stream_8c.html#abd56ea788d8872433901695928a944ab" title="do_stream_id_fc" alt="" coords="306,107,425,133"/>
+<area shape="rect" id="node6" href="$stream_8c.html#abd56ea788d8872433901695928a944ab" title="do_stream_id_fc" alt="" coords="306,107,425,133"/>
+<area shape="rect" id="node5" href="$warpcore_8h.html#a280e62a55aab21fe0b23a7e9ade1a588" title="Return MTU of w_engine w. " alt="" coords="483,56,544,83"/>
 </map>

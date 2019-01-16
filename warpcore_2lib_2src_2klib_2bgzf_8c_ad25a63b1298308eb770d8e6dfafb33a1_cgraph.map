@@ -1,0 +1,7 @@
+<map id="bgzf_read_block" name="bgzf_read_block">
+<area shape="rect" id="node2" href="$klib_2bgzf_8c.html#a288f10ba7969226e376648cb982cdf39" title="load_block_from_cache" alt="" coords="171,5,330,32"/>
+<area shape="rect" id="node3" href="$klib_2bgzf_8c.html#acfa2ff4af09fdcadd96deff659cde9aa" title="check_header" alt="" coords="199,56,302,83"/>
+<area shape="rect" id="node4" href="$klib_2bgzf_8c.html#a5665b515edc8c3fd9f8fb81863de2c11" title="unpackInt16" alt="" coords="379,81,472,108"/>
+<area shape="rect" id="node5" href="$klib_2bgzf_8c.html#a04ff05cb55415a762fcdb70bcab13d66" title="inflate_block" alt="" coords="203,157,298,184"/>
+<area shape="rect" id="node6" href="$klib_2bgzf_8c.html#a77ffa0855cc877d9f372ecbea4e56273" title="cache_block" alt="" coords="203,208,298,235"/>
+</map>

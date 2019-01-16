@@ -1,0 +1,12 @@
+<map id="crypto_scalarmult" name="crypto_scalarmult">
+<area shape="rect" id="node2" href="$curve25519_8naclref_8c.html#affef7ff5b3e87c52042333c772bffd48" title="mainloop" alt="" coords="179,157,253,184"/>
+<area shape="rect" id="node8" href="$curve25519_8naclref_8c.html#a0e278dc68e20c984208be2688d0d4165" title="mult" alt="" coords="323,259,370,285"/>
+<area shape="rect" id="node10" href="$curve25519_8naclref_8c.html#a995ba348f0144c42e2ed24cf0e240336" title="recip" alt="" coords="191,208,241,235"/>
+<area shape="rect" id="node11" href="$curve25519_8naclref_8c.html#ad08a0cb116d5133fdb813c83b884d67f" title="freeze" alt="" coords="187,56,245,83"/>
+<area shape="rect" id="node3" href="$curve25519_8naclref_8c.html#aaadabd431d8a32125f515700f5ced9d7" title="select" alt="" coords="318,56,375,83"/>
+<area shape="rect" id="node4" href="$curve25519_8naclref_8c.html#a632ddf968f189e43034312b67c0ddce9" title="add" alt="" coords="325,5,368,32"/>
+<area shape="rect" id="node5" href="$curve25519_8naclref_8c.html#ae86789cbba0e2cf7f9cbacd3f219c3c9" title="sub" alt="" coords="325,107,368,133"/>
+<area shape="rect" id="node6" href="$curve25519_8naclref_8c.html#a7471add6b1c020d4b0723d75f6cfb163" title="square" alt="" coords="316,208,377,235"/>
+<area shape="rect" id="node9" href="$curve25519_8naclref_8c.html#a9034855396bf7bd0019343b5e0de43b1" title="mult121665" alt="" coords="302,157,391,184"/>
+<area shape="rect" id="node7" href="$curve25519_8naclref_8c.html#a09a395b398c3655ed92bd8552713aa70" title="squeeze" alt="" coords="441,233,511,260"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="x25519_create_keypair" name="x25519_create_keypair">
+<area shape="rect" id="node2" href="$cifra_8c.html#a35a068ba23b50e2c8ba2dd0a362ed38c" title="ptls_minicrypto_random\l_bytes" alt="" coords="216,125,376,166"/>
+<area shape="rect" id="node17" href="$curve25519_8donna_8c.html#a609c9750c4f5c10b90b55136ceb108fd" title="cf_curve25519_mul_base" alt="" coords="211,191,381,217"/>
+<area shape="rect" id="node3" href="$drbg_8c.html#a3d96d46fc2b09859f7d161cd321f2b30" title="cf_hash_drbg_sha256\l_needs_reseed" alt="" coords="1029,145,1179,186"/>
+<area shape="rect" id="node4" href="$cifra_8c.html#a086d6f716855b73e24c48cf5672ce607" title="read_entropy" alt="" coords="470,31,567,57"/>
+<area shape="rect" id="node6" href="$drbg_8c.html#a5554970693c632001ffcbe19bccb9a7f" title="cf_hash_drbg_sha256_init" alt="" coords="432,107,605,133"/>
+<area shape="rect" id="node10" href="$drbg_8c.html#ac688ec437860cba2eb2fb10f10a0d598" title="cf_hash_drbg_sha256_gen" alt="" coords="430,212,607,239"/>
+<area shape="rect" id="node5" href="$boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="705,5,756,32"/>
+<area shape="rect" id="node7" href="$handy_8h.html#ad453ec2c6196a70300020477df38ab89" title="Like memset(ptr, 0, len), but not allowed to be removed by compilers. " alt="" coords="686,107,775,133"/>
+<area shape="rect" id="node8" href="$drbg_8c.html#aaf4b3ad2b1d1d56e012ba911dded6a9d" title="hash_df" alt="" coords="883,77,951,104"/>
+<area shape="rect" id="node9" href="$bitops_8h.html#abe267c3df623a1ec6be994c93660a368" title="Encode v as a 32&#45;bit big endian quantity into buf. " alt="" coords="1227,149,1312,176"/>
+<area shape="rect" id="node11" href="$drbg_8c.html#a0923030217c81f121ef78956b0819c33" title="cf_hash_drbg_sha256\l_gen_additional" alt="" coords="656,209,805,250"/>
+<area shape="rect" id="node12" href="$drbg_8c.html#aa69e8b5e9309587716e6aead404a7b93" title="hash_gen_request" alt="" coords="853,216,981,243"/>
+<area shape="rect" id="node13" href="$drbg_8c.html#ab56b9d52a4eeec6a7b39e4a6d9dd97fb" title="hash_process_addnl" alt="" coords="1033,312,1175,339"/>
+<area shape="rect" id="node15" href="$drbg_8c.html#a2e6b9b162635574e0fedafcb05d954cf" title="hash_generate" alt="" coords="1051,261,1157,288"/>
+<area shape="rect" id="node16" href="$drbg_8c.html#ac2b14a1899eed2eb8408bbf4aa2365fa" title="hash_step" alt="" coords="1063,211,1145,237"/>
+<area shape="rect" id="node14" href="$drbg_8c.html#ab13fd51f4f95f86b20c4ec0d97718df9" title="add" alt="" coords="1248,261,1291,288"/>
+</map>

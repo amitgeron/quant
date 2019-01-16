@@ -1,0 +1,10 @@
+<map id="buffer_push_encrypted_records" name="buffer_push_encrypted_records">
+<area shape="rect" id="node2" href="$lib_2picotls_8c.html#ac3aed9c2ae399575c55bf3447b0c72fe" title="reserves space for additional amount of memory " alt="" coords="208,41,341,68"/>
+<area shape="rect" id="node4" href="$lib_2picotls_8c.html#a1f73f4a09fc9f79bda163bc31c86d7ee" title="aead_encrypt" alt="" coords="225,121,325,148"/>
+<area shape="rect" id="node3" href="$lib_2picotls_8c.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="408,5,547,46"/>
+<area shape="rect" id="node5" href="$lib_2picotls_8c.html#a070d64bc0fd2fde37aca38994e6419bb" title="build_aad" alt="" coords="439,71,516,97"/>
+<area shape="rect" id="node6" href="$picotls_8h.html#a93aa51d621b1cf204e5ea455db7e747e" title="initializes the internal state of the encryptor " alt="" coords="401,121,553,148"/>
+<area shape="rect" id="node8" href="$picotls_8h.html#ac80d132d2606d2af959cf5ab4f574766" title="encrypts the input and updates the GCM state " alt="" coords="390,172,565,199"/>
+<area shape="rect" id="node9" href="$picotls_8h.html#ad44b4fd94d7f19cdf846abf90260255c" title="emits buffered data (if any) and the GCM tag " alt="" coords="398,223,557,249"/>
+<area shape="rect" id="node7" href="$picotls_8h.html#a850d1876076b7a5061ffae37aa929b41" title="internal " alt="" coords="613,121,749,148"/>
+</map>

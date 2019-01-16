@@ -1,4 +1,6 @@
 <map id="xor_hp" name="xor_hp">
-<area shape="rect" id="node2" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="131,5,181,32"/>
-<area shape="rect" id="node3" href="$pkt_8h.html#a8d063c693439da5fd45d03d8112fda9f" title="pkt_nr_len" alt="" coords="115,56,197,83"/>
+<area shape="rect" id="node2" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="158,5,207,32"/>
+<area shape="rect" id="node3" href="$picotls_8h.html#aa77dcaa131915406a4a03be70e268ff0" title="initializes the IV; this function must be called prior to calling ptls_cipher_encrypt ..." alt="" coords="128,56,237,83"/>
+<area shape="rect" id="node4" href="$picotls_8h.html#a2d3ae9c9f2704efb7abae1637cb97241" title="encrypts given text " alt="" coords="115,107,250,133"/>
+<area shape="rect" id="node5" href="$pkt_8h.html#a8d063c693439da5fd45d03d8112fda9f" title="pkt_nr_len" alt="" coords="141,157,224,184"/>
 </map>

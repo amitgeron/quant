@@ -1,0 +1,11 @@
+<map id="kopen" name="kopen">
+<area shape="rect" id="node2" href="$klib_2kopen_8c.html#a342f0fa198ae8dc2d302478f45d7f833" title="http_open" alt="" coords="113,19,191,45"/>
+<area shape="rect" id="node4" href="$klib_2kopen_8c.html#a57edb11a37f84eba448aca84bc490d45" title="ftp_open" alt="" coords="116,95,188,121"/>
+<area shape="rect" id="node10" href="$klib_2kopen_8c.html#ac870ed076fca77a9eda735d8f7de8b86" title="cmd2argv" alt="" coords="258,208,337,235"/>
+<area shape="rect" id="node3" href="$klib_2kopen_8c.html#ae85946056622793c4dfc723e0d26c929" title="socket_connect" alt="" coords="240,5,355,32"/>
+<area shape="rect" id="node5" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="441,157,495,184"/>
+<area shape="rect" id="node6" href="$klib_2kopen_8c.html#a9408a09574df32b8f495c411687901cc" title="kftp_get_response" alt="" coords="403,56,533,83"/>
+<area shape="rect" id="node9" href="$klib_2kopen_8c.html#a468693c34fc9e97c91883a534abf4706" title="kftp_send_cmd" alt="" coords="242,107,353,133"/>
+<area shape="rect" id="node7" href="$klib_2kopen_8c.html#a75f457b9ed5457c30b725695d120b932" title="socket_wait" alt="" coords="582,81,674,108"/>
+<area shape="rect" id="node8" href="$curve25519_8naclref_8c.html#aaadabd431d8a32125f515700f5ced9d7" title="select" alt="" coords="723,81,781,108"/>
+</map>

@@ -1,0 +1,33 @@
+<map id="uECC_sign_with_k" name="uECC_sign_with_k">
+<area shape="rect" id="node2" href="$uECC_8c.html#a7fc1e69344e9f429adc4b355189a0832" title="uECC_vli_isZero" alt="" coords="849,97,970,123"/>
+<area shape="rect" id="node3" href="$uECC_8c.html#a2a1b3156650605109c8596b59a4eb0c4" title="uECC_vli_cmp" alt="" coords="651,97,762,123"/>
+<area shape="rect" id="node5" href="$uECC_8c.html#a37c1a383e4ea7b47bb49b751a299dad9" title="regularize_k" alt="" coords="229,553,321,579"/>
+<area shape="rect" id="node8" href="$uECC_8c.html#a08fb3c91cc131ead464a51dc56456fa7" title="EccPoint_mult" alt="" coords="221,730,328,757"/>
+<area shape="rect" id="node9" href="$uECC_8c.html#a706eae58ec0ec7d5384276842a08c413" title="uECC_vli_set" alt="" coords="1453,755,1555,782"/>
+<area shape="rect" id="node11" href="$uECC_8c.html#a3ab6617d7cc2e9338830ffd918e53b3e" title="uECC_vli_clear" alt="" coords="1447,1223,1561,1250"/>
+<area shape="rect" id="node18" href="$uECC_8c.html#a4c3ea32c9f641d1a972645310b7c4ab5" title="uECC_vli_numBits" alt="" coords="1437,958,1571,985"/>
+<area shape="rect" id="node23" href="$uECC_8c.html#ab1e15c3f5219c350748b4ecf335e1c57" title="uECC_vli_modAdd" alt="" coords="843,654,976,681"/>
+<area shape="rect" id="node26" href="$uECC_8c.html#a9a063e745ff11584c74382ee9282dd44" title="uECC_vli_modInv" alt="" coords="643,362,771,389"/>
+<area shape="rect" id="node28" href="$uECC_8c.html#a4139d033250448f693ae794bf6515d35" title="uECC_generate_random_int" alt="" coords="408,186,595,213"/>
+<area shape="rect" id="node29" href="$uECC_8c.html#acd1a5c391c5c242f70964a6cad9232cd" title="uECC_vli_modMult" alt="" coords="1066,1059,1201,1086"/>
+<area shape="rect" id="node30" href="$uECC_8c.html#ab482fb7657036c22381178933c42756b" title="uECC_vli_nativeToBytes" alt="" coords="190,1465,359,1491"/>
+<area shape="rect" id="node31" href="$uECC_8c.html#ac09542159920b53beffd4479e82acca4" title="uECC_vli_bytesToNative" alt="" coords="1048,1338,1219,1365"/>
+<area shape="rect" id="node32" href="$uECC_8c.html#a3ef4ada41b4a250680f39cf26b12d3cf" title="bits2int" alt="" coords="877,1262,941,1289"/>
+<area shape="rect" id="node4" href="$uECC_8c.html#a2a15830c6ec1bc8389b51774a9f4aa48" title="uECC_vli_sub" alt="" coords="1080,654,1187,681"/>
+<area shape="rect" id="node6" href="$uECC_8c.html#abc8686b07575ea9382eb3583e09f1f0a" title="uECC_vli_add" alt="" coords="1080,451,1187,478"/>
+<area shape="rect" id="node7" href="$uECC_8c.html#a76f6c35f118970e235618080f3424a74" title="uECC_vli_testBit" alt="" coords="440,553,563,579"/>
+<area shape="rect" id="node10" href="$uECC_8c.html#ae0180c7182575b1e7d13bd869307042c" title="XYcZ_initial_double" alt="" coords="433,1009,570,1035"/>
+<area shape="rect" id="node12" href="$uECC_8c.html#aa1092ba47dd6f5fa39fa6e3d5fa75103" title="apply_z" alt="" coords="673,983,740,1010"/>
+<area shape="rect" id="node14" href="$uECC_8c.html#a4f8e7afb371e7085a71cc16a14cb159d" title="uECC_vli_modMult_fast" alt="" coords="1051,958,1215,985"/>
+<area shape="rect" id="node21" href="$uECC_8c.html#abfd0a9168fb5d2387f49d0c0284bd0a2" title="XYcZ_addC" alt="" coords="660,755,753,782"/>
+<area shape="rect" id="node22" href="$uECC_8c.html#a860094253f0996a477aa354157b5c0ba" title="uECC_vli_modSub" alt="" coords="843,705,976,731"/>
+<area shape="rect" id="node25" href="$uECC_8c.html#a34399b1b1a2ae5cd12d01119313fc417" title="XYcZ_add" alt="" coords="665,857,748,883"/>
+<area shape="rect" id="node13" href="$uECC_8c.html#aaf11fb2180ba05f9dfffce2d51b057e7" title="uECC_vli_modSquare_fast" alt="" coords="819,958,999,985"/>
+<area shape="rect" id="node15" href="$uECC_8c.html#a4d61977904cd68f80fcf972e842429ae" title="uECC_vli_mult" alt="" coords="1273,1059,1383,1086"/>
+<area shape="rect" id="node17" href="$uECC_8c.html#a35d5ba7ca550f2932d85a675ee2d88e8" title="uECC_vli_mmod" alt="" coords="1267,958,1389,985"/>
+<area shape="rect" id="node16" href="$uECC_8c.html#ac11de6cf552a968a38a89a62264bd6f8" title="muladd" alt="" coords="1472,1059,1536,1086"/>
+<area shape="rect" id="node20" href="$uECC_8c.html#a0ca41081385efb86dd7667dfec1edb94" title="uECC_vli_rshift1" alt="" coords="1443,186,1565,213"/>
+<area shape="rect" id="node19" href="$uECC_8c.html#a389707237395538033274783d16ae112" title="vli_numDigits" alt="" coords="1619,958,1720,985"/>
+<area shape="rect" id="node24" href="$uECC_8c.html#afdd514a9329b3ff5336bb8a923e97487" title="uECC_vli_cmp_unsafe" alt="" coords="1055,705,1211,731"/>
+<area shape="rect" id="node27" href="$uECC_8c.html#a55e7d71ad0245152ffcb03ebb2d98bf5" title="vli_modInv_update" alt="" coords="844,299,975,326"/>
+</map>

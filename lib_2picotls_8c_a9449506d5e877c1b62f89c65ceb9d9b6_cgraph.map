@@ -1,0 +1,5 @@
+<map id="server_handle_certificate" name="server_handle_certificate">
+<area shape="rect" id="node2" href="$lib_2picotls_8c.html#a92fb69a93cea9073065d7289a445ddc2" title="handle_certificate" alt="" coords="229,5,353,32"/>
+<area shape="rect" id="node4" href="$lib_2picotls_8c.html#a0129a2c9d51477ddaa75205b3f2072ee" title="internal " alt="" coords="222,57,359,98"/>
+<area shape="rect" id="node3" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="409,5,514,32"/>
+</map>

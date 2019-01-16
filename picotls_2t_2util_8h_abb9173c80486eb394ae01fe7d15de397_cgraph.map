@@ -1,0 +1,6 @@
+<map id="setup_esni" name="setup_esni">
+<area shape="rect" id="node2" href="$picotls_8h.html#add70aeed61db77e5f28c6970f1463681" title="ptls_esni_init_context" alt="" coords="139,5,287,32"/>
+<area shape="rect" id="node5" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="161,56,266,83"/>
+<area shape="rect" id="node3" href="$lib_2picotls_8c.html#a2d02d6f477c8fa36dfe14c425c884762" title="ptls_decode16" alt="" coords="336,5,443,32"/>
+<area shape="rect" id="node4" href="$lib_2picotls_8c.html#a88911502068ceae20b044ee0ace4db11" title="ntoh16" alt="" coords="491,5,552,32"/>
+</map>
