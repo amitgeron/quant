@@ -79,12 +79,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">quant Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>QUANT is a BSD-licensed C11 implementation of the emerging IETF <a href="https://quicwg.github.io/">QUIC</a> standard for a new HTTP/2 transport over UDP. QUANT uses the <a href="https://github.com/NTAP/warpcore">warpcore</a> zero-copy userspace UDP/IPv4 stack on top of the <a href="http://info.iet.unipi.it/~luigi/netmap/">netmap</a> packet I/O framework. It can also operate over the regular Socket API.</p>
-<p>The quant repository is <a href="https://github.com/NTAP/quant">on GitHub</a>, as is the <a href="https://ntap.github.io/quant/">documentation</a>.</p>
-<p>We use <a href="https://github.com/h2o/picotls">picotls</a> for its <a href="https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/">TLS 1.3</a> implementation. Picotls will be built automatically.</p>
+<div class="textblock"><p>QUANT is a BSD-licensed C11 implementation of the emerging IETF <a href="https://quicwg.github.io/">QUIC</a> standard for a new transport protocol over UDP, intending to support the new HTTP/3 standard. QUANT uses the <a href="https://github.com/NTAP/warpcore">warpcore</a> zero-copy userspace UDP/IPv4 stack on top of the <a href="http://info.iet.unipi.it/~luigi/netmap/">netmap</a> packet I/O framework. It can also operate over the regular Socket API.</p>
+<p>The quant repository is <a href="https://github.com/NTAP/quant">on GitHub</a>, as is the (limited) <a href="https://ntap.github.io/quant/">documentation</a>.</p>
+<p>quant uses <a href="https://github.com/h2o/picotls">picotls</a> for its <a href="https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/">TLS 1.3</a> implementation. quant also uses <a href="https://github.com/attractivechaos/klib">klib</a> for some data structures and functions. These dependencies will be built automatically.</p>
 <h2>Prerequisites</h2>
-<p>We use the <a href="https://cmake.org/">cmake</a> build system.</p>
-<p>We use <a href="http://software.schmorp.de/pkg/libev.html">libev</a> as a basis for the event loop that underlies this implementation.</p>
+<p>quant uses the <a href="https://cmake.org/">cmake</a> build system and <a href="http://www.doxygen.nl/">Doxygen</a> to generate the documentation.</p>
+<p>quant uses <a href="http://software.schmorp.de/pkg/libev.html">libev</a> as a basis for the event loop that underlies this implementation, and <a href="https://github.com/nodejs/http-parser">http-parser</a> for the example HTTP/0.9 client and server.</p>
 <p>So you need to install some dependencies. On the Mac, the easiest way is via <a href="http://brew.sh/">Homebrew</a>, so install that first. Then, do </p>
 <pre class="fragment">brew install cmake libev http-parser doxygen
 </pre><p>On Debian-based Linux systems, do </p>
@@ -92,7 +92,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </pre><p>On Darwin, you <em>must</em> also install the Xcode command line tools first: </p>
 <pre class="fragment">xcode-select --install
 </pre><h2>Building</h2>
-<p>To do an out-of-source build of warpcore (best practice with <code>cmake</code>), do the following to build with <code>make</code> as a generator: </p>
+<p>To do an out-of-source build of quant (best practice with <code>cmake</code>), do the following to build with <code>make</code> as a generator: </p>
 <pre class="fragment">git submodule update --init --recursive
 mkdir Debug
 cd Debug
@@ -110,7 +110,7 @@ make
 </pre><p>should download the latest build on the <code>master</code> branch. The docker container by default exposes a QUIC server on port 4433 that can serve <code>/index.html</code> and possibly other resources.</p>
 <h2>Testing</h2>
 <p>The <code>libquant</code> library will be in <code>lib</code>. There are <code>client</code> and <code>server</code> examples in <code>bin</code>. They explain their usage when called with a <code>-h</code> argument.</p>
-<p>The current interop status of quant against <a href="https://github.com/quicwg/base-drafts/wiki/Implementations">other stacks</a> is captured in <a href="https://docs.google.com/spreadsheets/d/1D0tW89vOoaScs3IY9RGC0UesWGAwE6xyLk0l4JtvTVg/edit?usp=sharing">this spreadsheet</a>.</p>
+<p>The current interop status of quant against <a href="https://github.com/quicwg/base-drafts/wiki/Implementations">other stacks</a> is captured in <a href="https://docs.google.com/spreadsheets/d/1D0tW89vOoaScs3IY9RGC0UesWGAwE6xyLk0l4JtvTVg/edit#gid=11370678">this spreadsheet</a>.</p>
 <p>At the moment, development happens in branches other than <code>master</code>, which are numbered according to the <a href="https://quicwg.github.io/">IETF Internet Drafts</a> they implement. The <code>master</code> branch is updated whenever such a per-draft branch is stable.</p>
 <h2>Contributing</h2>
 <p>I'm happy to merge contributions that fix <a href="https://github.com/NTAP/quant/issues?q=is%3Aopen+is%3Aissue+label%3Abug">bugs</a> or add <a href="https://github.com/NTAP/quant/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement">features</a>. Please send pull requests.</p>
@@ -128,7 +128,7 @@ make
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 16 2019 09:54:16 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 16 2019 10:17:19 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
