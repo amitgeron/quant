@@ -252,22 +252,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<a class="code" href="tree_8h.html#a75ee3833aa4387ba31979341c84b6954">SPLAY_PROTOTYPE</a>(ooo_by_off, <a class="code" href="structpkt__meta.html">pkt_meta</a>, off_node, <a class="code" href="quic_8h.html#aca71d46cdbaf72a0eaa6cd9677e8ab32">ooo_by_off_cmp</a>)</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;extern struct <a class="code" href="structpkt__meta.html">pkt_meta</a> * <a class="code" href="quic_8h.html#a0ea1870a8b2233033ea3d196c8206ac0">pm</a>;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;extern struct <a class="code" href="structpkt__meta.html">pkt_meta</a> * <a class="code" href="structpkt__meta.html">pkt_meta</a>;</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;</div>
-<div class="line"><a name="l00183"></a><span class="lineno"><a class="line" href="quic_8h.html#a01ed57991bea53afa1ece4452d16b568">  183</a></span>&#160;<span class="preprocessor">#define meta(v) pm[w_iov_idx(v)]</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno"><a class="line" href="quic_8h.html#a01ed57991bea53afa1ece4452d16b568">  183</a></span>&#160;<span class="preprocessor">#define meta(v) pkt_meta[w_iov_idx(v)]</span></div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
-<div class="line"><a name="l00193"></a><span class="lineno"><a class="line" href="quic_8h.html#a1f8792ee4a5316407d254ad349fd362d">  193</a></span>&#160;<span class="preprocessor">#define pm_idx(m) (uint32_t)((m)-pm)</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno"><a class="line" href="quic_8h.html#a1f8792ee4a5316407d254ad349fd362d">  193</a></span>&#160;<span class="preprocessor">#define pm_idx(m) (uint32_t)((m)-pkt_meta)</span></div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> __attribute__((nonnull))</div>
-<div class="line"><a name="l00197"></a><span class="lineno"><a class="line" href="quic_8h.html#ab139ac46901fa03632f8075e6f800930">  197</a></span>&#160;<a class="code" href="quic_8h.html#ab139ac46901fa03632f8075e6f800930">pm_cpy</a>(struct <a class="code" href="structpkt__meta.html">pkt_meta</a> * const dst,</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;       const struct <a class="code" href="structpkt__meta.html">pkt_meta</a> * const src,</div>
+<div class="line"><a name="l00197"></a><span class="lineno"><a class="line" href="quic_8h.html#ab139ac46901fa03632f8075e6f800930">  197</a></span>&#160;<a class="code" href="quic_8h.html#ab139ac46901fa03632f8075e6f800930">pm_cpy</a>(struct pkt_meta * const dst,</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;       const struct pkt_meta * const src,</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;       const <span class="keywordtype">bool</span> also_frame_info)</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;{</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">size_t</span> off = also_frame_info ? offsetof(<span class="keyword">struct</span> <a class="code" href="structpkt__meta.html">pkt_meta</a>, stream)</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                                       : offsetof(<span class="keyword">struct</span> <a class="code" href="structpkt__meta.html">pkt_meta</a>, tx_t);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">size_t</span> off = also_frame_info ? offsetof(<span class="keyword">struct</span> pkt_meta, stream)</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                                       : offsetof(<span class="keyword">struct</span> pkt_meta, tx_t);</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    memcpy((uint8_t *)dst + off, (<span class="keyword">const</span> uint8_t *)src + off,</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;           <span class="keyword">sizeof</span>(*dst) - off);</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;}</div>
@@ -419,7 +419,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;<span class="preprocessor">    })</span></div>
 <div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="quic_8h.html#aed433a65a751df6b54c091d8facbfb57">pm_free</a>(struct <a class="code" href="structpkt__meta.html">pkt_meta</a> * const m);</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="quic_8h.html#aed433a65a751df6b54c091d8facbfb57">pm_free</a>(struct pkt_meta * const m);</div>
 <div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;</div>
 <div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;</div>
 <div class="line"><a name="l00388"></a><span class="lineno"><a class="line" href="quic_8h.html#a98dd92860af790cc62791a991d5d8fbe">  388</a></span>&#160;<span class="preprocessor">#define free_iov(v)                                                            \</span></div>
@@ -592,11 +592,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="quic_8h_html_aed433a65a751df6b54c091d8facbfb57"><div class="ttname"><a href="quic_8h.html#aed433a65a751df6b54c091d8facbfb57">pm_free</a></div><div class="ttdeci">void pm_free(struct pkt_meta *const m)</div><div class="ttdef"><b>Definition:</b> quic.c:129</div></div>
 <div class="ttc" id="quic_8h_html_a51e2b7dfe290cfc0a139b3768427de79"><div class="ttname"><a href="quic_8h.html#a51e2b7dfe290cfc0a139b3768427de79">api_strm</a></div><div class="ttdeci">void * api_strm</div><div class="ttdef"><b>Definition:</b> quic.c:90</div></div>
 <div class="ttc" id="quic_8h_html_aca71d46cdbaf72a0eaa6cd9677e8ab32"><div class="ttname"><a href="quic_8h.html#aca71d46cdbaf72a0eaa6cd9677e8ab32">ooo_by_off_cmp</a></div><div class="ttdeci">static int ooo_by_off_cmp(const struct pkt_meta *const a, const struct pkt_meta *const b)</div><div class="ttdef"><b>Definition:</b> quic.h:163</div></div>
-<div class="ttc" id="quic_8h_html_a0ea1870a8b2233033ea3d196c8206ac0"><div class="ttname"><a href="quic_8h.html#a0ea1870a8b2233033ea3d196c8206ac0">pm</a></div><div class="ttdeci">struct pkt_meta * pm</div><div class="ttdef"><b>Definition:</b> quic.c:86</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 17 2019 10:27:33 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jan 17 2019 10:56:13 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

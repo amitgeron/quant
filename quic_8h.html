@@ -147,10 +147,10 @@ Macros</h2></td></tr>
 <tr class="memitem:a2e19342e141828d7fe9b2870e5d7d70a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a2e19342e141828d7fe9b2870e5d7d70a">is_set</a>(f, v)&#160;&#160;&#160;(((v) &amp; (f)) == (f))</td></tr>
 <tr class="memdesc:a2e19342e141828d7fe9b2870e5d7d70a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is flag <code>f</code> set in flags variable <code>v</code>?  <a href="#a2e19342e141828d7fe9b2870e5d7d70a">More...</a><br/></td></tr>
 <tr class="separator:a2e19342e141828d7fe9b2870e5d7d70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01ed57991bea53afa1ece4452d16b568"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a01ed57991bea53afa1ece4452d16b568">meta</a>(v)&#160;&#160;&#160;<a class="el" href="quic_8h.html#a0ea1870a8b2233033ea3d196c8206ac0">pm</a>[<a class="el" href="warpcore_8h.html#af82d2bc9bb47d5a72795267fe6ef3af3">w_iov_idx</a>(v)]</td></tr>
+<tr class="memitem:a01ed57991bea53afa1ece4452d16b568"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a01ed57991bea53afa1ece4452d16b568">meta</a>(v)&#160;&#160;&#160;<a class="el" href="structpkt__meta.html">pkt_meta</a>[<a class="el" href="warpcore_8h.html#af82d2bc9bb47d5a72795267fe6ef3af3">w_iov_idx</a>(v)]</td></tr>
 <tr class="memdesc:a01ed57991bea53afa1ece4452d16b568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="structpkt__meta.html" title="Packet meta-data information associated with w_iov buffers. ">pkt_meta</a> entry for a given <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a>.  <a href="#a01ed57991bea53afa1ece4452d16b568">More...</a><br/></td></tr>
 <tr class="separator:a01ed57991bea53afa1ece4452d16b568"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f8792ee4a5316407d254ad349fd362d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a1f8792ee4a5316407d254ad349fd362d">pm_idx</a>(m)&#160;&#160;&#160;(uint32_t)((m)-<a class="el" href="quic_8h.html#a0ea1870a8b2233033ea3d196c8206ac0">pm</a>)</td></tr>
+<tr class="memitem:a1f8792ee4a5316407d254ad349fd362d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a1f8792ee4a5316407d254ad349fd362d">pm_idx</a>(m)&#160;&#160;&#160;(uint32_t)((m)-<a class="el" href="structpkt__meta.html">pkt_meta</a>)</td></tr>
 <tr class="memdesc:a1f8792ee4a5316407d254ad349fd362d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> index of a given <a class="el" href="structpkt__meta.html" title="Packet meta-data information associated with w_iov buffers. ">pkt_meta</a>.  <a href="#a1f8792ee4a5316407d254ad349fd362d">More...</a><br/></td></tr>
 <tr class="separator:a1f8792ee4a5316407d254ad349fd362d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc6ffc33fe2d9609c18a0433d8ad8d78"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#afc6ffc33fe2d9609c18a0433d8ad8d78">OFFSET_ESTB</a>&#160;&#160;&#160;48</td></tr>
@@ -287,8 +287,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a0ea1870a8b2233033ea3d196c8206ac0"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structpkt__meta.html">pkt_meta</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a0ea1870a8b2233033ea3d196c8206ac0">pm</a></td></tr>
-<tr class="separator:a0ea1870a8b2233033ea3d196c8206ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabb5a1d5e2a08b1a9c0a54ba99aae86c"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structpkt__meta.html">pkt_meta</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#aabb5a1d5e2a08b1a9c0a54ba99aae86c">pkt_meta</a></td></tr>
+<tr class="separator:aabb5a1d5e2a08b1a9c0a54ba99aae86c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a855923b555731173d3509ecb645de0e0"><td class="memItemLeft" align="right" valign="top">struct ev_loop *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a855923b555731173d3509ecb645de0e0">loop</a></td></tr>
 <tr class="separator:a855923b555731173d3509ecb645de0e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a529b3e85be5e0f15a6af3227e3f7c445"><td class="memItemLeft" align="right" valign="top">struct q_conn_sl&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a529b3e85be5e0f15a6af3227e3f7c445">accept_queue</a></td></tr>
@@ -1093,7 +1093,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">v</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="quic_8h.html#a0ea1870a8b2233033ea3d196c8206ac0">pm</a>[<a class="el" href="warpcore_8h.html#af82d2bc9bb47d5a72795267fe6ef3af3">w_iov_idx</a>(v)]</td>
+          <td>&#160;&#160;&#160;<a class="el" href="structpkt__meta.html">pkt_meta</a>[<a class="el" href="warpcore_8h.html#af82d2bc9bb47d5a72795267fe6ef3af3">w_iov_idx</a>(v)]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1236,7 +1236,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">m</td><td>)</td>
-          <td>&#160;&#160;&#160;(uint32_t)((m)-<a class="el" href="quic_8h.html#a0ea1870a8b2233033ea3d196c8206ac0">pm</a>)</td>
+          <td>&#160;&#160;&#160;(uint32_t)((m)-<a class="el" href="structpkt__meta.html">pkt_meta</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1860,12 +1860,12 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a0ea1870a8b2233033ea3d196c8206ac0"></a>
+<a class="anchor" id="aabb5a1d5e2a08b1a9c0a54ba99aae86c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="structpkt__meta.html">pkt_meta</a>* pm</td>
+          <td class="memname">struct <a class="el" href="structpkt__meta.html">pkt_meta</a>* <a class="el" href="structpkt__meta.html">pkt_meta</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1875,7 +1875,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 17 2019 10:27:36 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jan 17 2019 10:56:16 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
