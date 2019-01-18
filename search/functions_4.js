@@ -32,7 +32,7 @@ var searchData=
   ['decompress_5fcertificate',['decompress_certificate',['../certificate__compression_8c.html#ac0230819b1f23859531e308e128b278b',1,'certificate_compression.c']]],
   ['decrypt_5fbody',['decrypt_body',['../norx_8c.html#a981f8f534282c0c6ccafb5223927fa90',1,'norx.c']]],
   ['default_5femit_5fcertificate_5fcb',['default_emit_certificate_cb',['../lib_2picotls_8c.html#a597c5d5692eaef38a74699d0ab78077f',1,'picotls.c']]],
-  ['deflate_5fblock',['deflate_block',['../klib_2bgzf_8c.html#a370fddbee667cb20fccc6d8835fc47ad',1,'deflate_block(BGZF *fp, int block_length):&#160;bgzf.c'],['../warpcore_2lib_2src_2klib_2bgzf_8c.html#a370fddbee667cb20fccc6d8835fc47ad',1,'deflate_block(BGZF *fp, int block_length):&#160;bgzf.c']]],
+  ['deflate_5fblock',['deflate_block',['../klib_2bgzf_8c.html#a370fddbee667cb20fccc6d8835fc47ad',1,'deflate_block(BGZF *fp, int block_length):&#160;bgzf.c'],['../warpcore_2lib_2deps_2klib_2bgzf_8c.html#a370fddbee667cb20fccc6d8835fc47ad',1,'deflate_block(BGZF *fp, int block_length):&#160;bgzf.c']]],
   ['derive_5fexporter_5fsecret',['derive_exporter_secret',['../lib_2picotls_8c.html#af14dc1c84e5e4abfc0febc5f01a4c2f6',1,'picotls.c']]],
   ['derive_5fresumption_5fsecret',['derive_resumption_secret',['../lib_2picotls_8c.html#a5d60a6d8d84c63032a421b7a784d667f',1,'picotls.c']]],
   ['derive_5fsecret',['derive_secret',['../lib_2picotls_8c.html#a363a3e1f1cd42666a1ee1697470a262c',1,'picotls.c']]],

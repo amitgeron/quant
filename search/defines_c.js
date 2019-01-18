@@ -2,7 +2,7 @@ var searchData=
 [
   ['mag',['MAG',['../deps_2warpcore_2lib_2src_2util_8c.html#af54a5a977c0c499323d656315f008ee0',1,'MAG():&#160;util.c'],['../quic_8h.html#af54a5a977c0c499323d656315f008ee0',1,'MAG():&#160;quic.h']]],
   ['maj',['MAJ',['../sha256_8c.html#ae2f6c7a0b4fdb15387259356b16854c9',1,'MAJ():&#160;sha256.c'],['../sha512_8c.html#ae2f6c7a0b4fdb15387259356b16854c9',1,'MAJ():&#160;sha512.c']]],
-  ['malloc',['MALLOC',['../klib_2keigen_8c.html#a7f8bd596a3cf1738abbb22cc7dfc921e',1,'MALLOC():&#160;keigen.c'],['../warpcore_2lib_2src_2klib_2keigen_8c.html#a7f8bd596a3cf1738abbb22cc7dfc921e',1,'MALLOC():&#160;keigen.c']]],
+  ['malloc',['MALLOC',['../klib_2keigen_8c.html#a7f8bd596a3cf1738abbb22cc7dfc921e',1,'MALLOC():&#160;keigen.c'],['../warpcore_2lib_2deps_2klib_2keigen_8c.html#a7f8bd596a3cf1738abbb22cc7dfc921e',1,'MALLOC():&#160;keigen.c']]],
   ['match',['MATCH',['../cli_8c.html#a311d558bb2dfc8be0bfb337094753c7f',1,'cli.c']]],
   ['max_5fcid_5flen',['MAX_CID_LEN',['../quic_8h.html#a9182b20a4ab9449d0efbd6d873c2aecf',1,'quic.h']]],
   ['max_5fdrbg_5fgenerate',['MAX_DRBG_GENERATE',['../drbg_8c.html#af8c87f04eb94b47a0379db73544ea2cf',1,'drbg.c']]],
@@ -20,10 +20,10 @@ var searchData=
   ['mcu_5ftarget',['MCU_TARGET',['../testmodes_8c.html#a11e338d050bfe56152bee411df0e7590',1,'testmodes.c']]],
   ['meta',['meta',['../quic_8h.html#a01ed57991bea53afa1ece4452d16b568',1,'quic.h']]],
   ['min',['MIN',['../handy_8h.html#a74e75242132eaabbc1c512488a135926',1,'handy.h']]],
-  ['min_5fcore_5fsize',['MIN_CORE_SIZE',['../klib_2kalloc_8c.html#a8082bbc2150b31a61346a7e6dbd3b19b',1,'MIN_CORE_SIZE():&#160;kalloc.c'],['../warpcore_2lib_2src_2klib_2kalloc_8c.html#a8082bbc2150b31a61346a7e6dbd3b19b',1,'MIN_CORE_SIZE():&#160;kalloc.c']]],
+  ['min_5fcore_5fsize',['MIN_CORE_SIZE',['../klib_2kalloc_8c.html#a8082bbc2150b31a61346a7e6dbd3b19b',1,'MIN_CORE_SIZE():&#160;kalloc.c'],['../warpcore_2lib_2deps_2klib_2kalloc_8c.html#a8082bbc2150b31a61346a7e6dbd3b19b',1,'MIN_CORE_SIZE():&#160;kalloc.c']]],
   ['min_5fini_5flen',['MIN_INI_LEN',['../pkt_8h.html#ae05e8e856810ed8b7911d43457b16e05',1,'pkt.h']]],
-  ['minus_5finf',['MINUS_INF',['../klib_2ksw_8c.html#aa48b28e62c168ecef26792b023bedb09',1,'MINUS_INF():&#160;ksw.c'],['../warpcore_2lib_2src_2klib_2ksw_8c.html#aa48b28e62c168ecef26792b023bedb09',1,'MINUS_INF():&#160;ksw.c']]],
+  ['minus_5finf',['MINUS_INF',['../klib_2ksw_8c.html#aa48b28e62c168ecef26792b023bedb09',1,'MINUS_INF():&#160;ksw.c'],['../warpcore_2lib_2deps_2klib_2ksw_8c.html#aa48b28e62c168ecef26792b023bedb09',1,'MINUS_INF():&#160;ksw.c']]],
   ['mod5',['MOD5',['../sha3_8c.html#a1957c4d81bf38856328105ceefe1e0c5',1,'sha3.c']]],
   ['multiply256x256',['multiply256x256',['../scalarmult_8c.html#abf88a5ca89b050c32e29840f81c81cbb',1,'scalarmult.c']]],
-  ['my_5fcmp',['my_cmp',['../klib_2test_2kavl__test_8c.html#a078995e3ea718d54ba31224c8ef03241',1,'my_cmp():&#160;kavl_test.c'],['../warpcore_2lib_2src_2klib_2test_2kavl__test_8c.html#a078995e3ea718d54ba31224c8ef03241',1,'my_cmp():&#160;kavl_test.c']]]
+  ['my_5fcmp',['my_cmp',['../klib_2test_2kavl__test_8c.html#a078995e3ea718d54ba31224c8ef03241',1,'my_cmp():&#160;kavl_test.c'],['../warpcore_2lib_2deps_2klib_2test_2kavl__test_8c.html#a078995e3ea718d54ba31224c8ef03241',1,'my_cmp():&#160;kavl_test.c']]]
 ];

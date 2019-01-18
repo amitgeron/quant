@@ -1,8 +1,0 @@
-<map id="main" name="main">
-<area shape="rect" id="node2" href="$warpcore_2lib_2src_2klib_2test_2ketopt__test_8c.html#ac679106ffdf40755c3cdbb38ae0f2724" title="test_ketopt" alt="" coords="105,56,191,83"/>
-<area shape="rect" id="node7" href="$warpcore_2lib_2src_2klib_2test_2ketopt__test_8c.html#a1c5d854fa56c2ec5a6eca504c6f0e9e9" title="test_getopt" alt="" coords="105,107,191,133"/>
-<area shape="rect" id="node3" href="$klib_2ketopt_8h.html#a1f5ec2cf36bcbf952049da160c2955d0" title="Parse command&#45;line options and arguments. " alt="" coords="251,5,309,32"/>
-<area shape="rect" id="node5" href="$warpcore_2lib_2src_2klib_2test_2ketopt__test_8c.html#a7e7d94c76afdeefbaafb0950e1c43d04" title="test_opt" alt="" coords="245,107,315,133"/>
-<area shape="rect" id="node6" href="$warpcore_2lib_2src_2klib_2test_2ketopt__test_8c.html#a9bc81e7e75fa2879e620e4ae7a7416ba" title="print_cmd" alt="" coords="241,56,319,83"/>
-<area shape="rect" id="node4" href="$klib_2ketopt_8h.html#a11ff15ab2935039801cbdbe484d5ca51" title="ketopt_permute" alt="" coords="368,5,480,32"/>
-</map>

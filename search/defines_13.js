@@ -26,7 +26,7 @@ var searchData=
   ['tracebuf_5finitializer',['TRACEBUF_INITIALIZER',['../queue_8h.html#a0397af84b4a238c2b678721a88b6eccc',1,'queue.h']]],
   ['track_5fframe',['track_frame',['../frame_8c.html#ae76224c6a0d2a18c20145c46619f0d28',1,'frame.c']]],
   ['trashit',['TRASHIT',['../queue_8h.html#adee7bf054da0ade68bb853732c665a2b',1,'queue.h']]],
-  ['traverse_5ff',['traverse_f',['../klib_2test_2kbtree__test_8c.html#acc87412213172e8843ddfc5c6e935b8b',1,'traverse_f():&#160;kbtree_test.c'],['../warpcore_2lib_2src_2klib_2test_2kbtree__test_8c.html#acc87412213172e8843ddfc5c6e935b8b',1,'traverse_f():&#160;kbtree_test.c']]],
+  ['traverse_5ff',['traverse_f',['../klib_2test_2kbtree__test_8c.html#acc87412213172e8843ddfc5c6e935b8b',1,'traverse_f():&#160;kbtree_test.c'],['../warpcore_2lib_2deps_2klib_2test_2kbtree__test_8c.html#acc87412213172e8843ddfc5c6e935b8b',1,'traverse_f():&#160;kbtree_test.c']]],
   ['twarn',['twarn',['../warpcore_2lib_2include_2warpcore_2util_8h.html#a917626b48701b5143bb6b9d8fe4be423',1,'util.h']]],
   ['type_5funcompressed_5fpublic_5fkey',['TYPE_UNCOMPRESSED_PUBLIC_KEY',['../uecc_8c.html#ad2b4e64becda2ae88156b723e935b503',1,'uecc.c']]]
 ];

@@ -21,7 +21,7 @@ var searchData=
   ['resolve_5faddress',['resolve_address',['../picotls_2t_2util_8h.html#a71c360687dbf82488c7179bd0e14ca56',1,'util.h']]],
   ['resolve_5fesni_5fkeys',['resolve_esni_keys',['../picotls_2t_2util_8h.html#aa7ddee1c4e60704d108585332220e8d8',1,'util.h']]],
   ['retire_5fearly_5fdata_5fsecret',['retire_early_data_secret',['../lib_2picotls_8c.html#ac0ed85b45736391bfd32bca958c1bd9f',1,'picotls.c']]],
-  ['revseq',['revseq',['../klib_2ksw_8c.html#a9b86b0e1cab2423ed292be074a3c5c27',1,'revseq(int l, uint8_t *s):&#160;ksw.c'],['../warpcore_2lib_2src_2klib_2ksw_8c.html#a9b86b0e1cab2423ed292be074a3c5c27',1,'revseq(int l, uint8_t *s):&#160;ksw.c']]],
+  ['revseq',['revseq',['../klib_2ksw_8c.html#a9b86b0e1cab2423ed292be074a3c5c27',1,'revseq(int l, uint8_t *s):&#160;ksw.c'],['../warpcore_2lib_2deps_2klib_2ksw_8c.html#a9b86b0e1cab2423ed292be074a3c5c27',1,'revseq(int l, uint8_t *s):&#160;ksw.c']]],
   ['rho_5fpi_5fchi',['rho_pi_chi',['../sha3_8c.html#a108db4e6fa065760cdaa32361ab55180',1,'sha3.c']]],
   ['rotl32',['rotl32',['../bitops_8h.html#a357870f3f6726b49c6ec691c00d1099c',1,'bitops.h']]],
   ['rotl64',['rotl64',['../bitops_8h.html#aec90a095a4ecc962251ed429e30b4954',1,'bitops.h']]],

@@ -1,11 +1,11 @@
 var searchData=
 [
   ['pack25519',['pack25519',['../curve25519_8tweetnacl_8c.html#a1d4fb4c28e5dfcfde28ebc4da138b387',1,'curve25519.tweetnacl.c']]],
-  ['packint16',['packInt16',['../klib_2bgzf_8c.html#a49f553aab674a026d7782749af45a615',1,'packInt16(uint8_t *buffer, uint16_t value):&#160;bgzf.c'],['../warpcore_2lib_2src_2klib_2bgzf_8c.html#a49f553aab674a026d7782749af45a615',1,'packInt16(uint8_t *buffer, uint16_t value):&#160;bgzf.c']]],
-  ['packint32',['packInt32',['../klib_2bgzf_8c.html#ab3acf8376fc92b0071fa0ec60005e770',1,'packInt32(uint8_t *buffer, uint32_t value):&#160;bgzf.c'],['../warpcore_2lib_2src_2klib_2bgzf_8c.html#ab3acf8376fc92b0071fa0ec60005e770',1,'packInt32(uint8_t *buffer, uint32_t value):&#160;bgzf.c']]],
+  ['packint16',['packInt16',['../klib_2bgzf_8c.html#a49f553aab674a026d7782749af45a615',1,'packInt16(uint8_t *buffer, uint16_t value):&#160;bgzf.c'],['../warpcore_2lib_2deps_2klib_2bgzf_8c.html#a49f553aab674a026d7782749af45a615',1,'packInt16(uint8_t *buffer, uint16_t value):&#160;bgzf.c']]],
+  ['packint32',['packInt32',['../klib_2bgzf_8c.html#ab3acf8376fc92b0071fa0ec60005e770',1,'packInt32(uint8_t *buffer, uint32_t value):&#160;bgzf.c'],['../warpcore_2lib_2deps_2klib_2bgzf_8c.html#ab3acf8376fc92b0071fa0ec60005e770',1,'packInt32(uint8_t *buffer, uint32_t value):&#160;bgzf.c']]],
   ['pad',['pad',['../sha3_8c.html#a9378b099158e41990b7010c717e84889',1,'sha3.c']]],
   ['pad_5fand_5fsqueeze',['pad_and_squeeze',['../sha3_8c.html#a0bcdc4b1d734e4173c179528a3ab8fc0',1,'sha3.c']]],
-  ['panic',['panic',['../klib_2kalloc_8c.html#a3ba075b102d51c726de00617307f186a',1,'panic(const char *s):&#160;kalloc.c'],['../warpcore_2lib_2src_2klib_2kalloc_8c.html#a3ba075b102d51c726de00617307f186a',1,'panic(const char *s):&#160;kalloc.c']]],
+  ['panic',['panic',['../klib_2kalloc_8c.html#a3ba075b102d51c726de00617307f186a',1,'panic(const char *s):&#160;kalloc.c'],['../warpcore_2lib_2deps_2klib_2kalloc_8c.html#a3ba075b102d51c726de00617307f186a',1,'panic(const char *s):&#160;kalloc.c']]],
   ['parse_5fesni_5fkeys',['parse_esni_keys',['../lib_2picotls_8c.html#ac5fb07a0f908c5d78f05b3c7f75bd50e',1,'picotls.c']]],
   ['parse_5frecord',['parse_record',['../lib_2picotls_8c.html#a16069863e5584a30db458f188c632923',1,'picotls.c']]],
   ['parse_5frecord_5fheader',['parse_record_header',['../lib_2picotls_8c.html#ab015cf60389fcdf1788e0b58c75e2a57',1,'picotls.c']]],
@@ -38,8 +38,8 @@ var searchData=
   ['postmain',['postmain',['../deps_2warpcore_2lib_2src_2util_8c.html#a7231b8f0252e60cce4c383e16304544d',1,'util.c']]],
   ['premain',['premain',['../deps_2warpcore_2lib_2src_2util_8c.html#aedc1b378c084c11d8bbd5a74bb91a2dc',1,'util.c']]],
   ['prep_5fhash_5fctx',['prep_hash_ctx',['../tls_8c.html#a964f3cc6e0351969e0db618a8c2b722b',1,'tls.c']]],
-  ['prepare',['prepare',['../klib_2kurl_8c.html#af7a8bc319b72a33a061ed86a9de009b5',1,'prepare(kurl_t *ku, int do_seek):&#160;kurl.c'],['../warpcore_2lib_2src_2klib_2kurl_8c.html#af7a8bc319b72a33a061ed86a9de009b5',1,'prepare(kurl_t *ku, int do_seek):&#160;kurl.c']]],
-  ['print_5fcmd',['print_cmd',['../klib_2test_2ketopt__test_8c.html#a9bc81e7e75fa2879e620e4ae7a7416ba',1,'print_cmd(int argc, char *argv[], int ind):&#160;ketopt_test.c'],['../warpcore_2lib_2src_2klib_2test_2ketopt__test_8c.html#a9bc81e7e75fa2879e620e4ae7a7416ba',1,'print_cmd(int argc, char *argv[], int ind):&#160;ketopt_test.c']]],
+  ['prepare',['prepare',['../klib_2kurl_8c.html#af7a8bc319b72a33a061ed86a9de009b5',1,'prepare(kurl_t *ku, int do_seek):&#160;kurl.c'],['../warpcore_2lib_2deps_2klib_2kurl_8c.html#af7a8bc319b72a33a061ed86a9de009b5',1,'prepare(kurl_t *ku, int do_seek):&#160;kurl.c']]],
+  ['print_5fcmd',['print_cmd',['../klib_2test_2ketopt__test_8c.html#a9bc81e7e75fa2879e620e4ae7a7416ba',1,'print_cmd(int argc, char *argv[], int ind):&#160;ketopt_test.c'],['../warpcore_2lib_2deps_2klib_2test_2ketopt__test_8c.html#a9bc81e7e75fa2879e620e4ae7a7416ba',1,'print_cmd(int argc, char *argv[], int ind):&#160;ketopt_test.c']]],
   ['printhex',['printhex',['../openssl-hash_8c.html#ad6059b550da8f31212a5d028e1cc003e',1,'openssl-hash.c']]],
   ['process',['process',['../chacha20poly1305_8c.html#a5dac71fccc0b105443f2ebf1194a4bf9',1,'chacha20poly1305.c']]],
   ['ptls_5f_5fkey_5fschedule_5fupdate_5fhash',['ptls__key_schedule_update_hash',['../picotls_8h.html#a0129a2c9d51477ddaa75205b3f2072ee',1,'ptls__key_schedule_update_hash(ptls_key_schedule_t *sched, const uint8_t *msg, size_t msglen):&#160;picotls.c'],['../lib_2picotls_8c.html#a0129a2c9d51477ddaa75205b3f2072ee',1,'ptls__key_schedule_update_hash(ptls_key_schedule_t *sched, const uint8_t *msg, size_t msglen):&#160;picotls.c']]],
@@ -139,9 +139,9 @@ var searchData=
   ['ptls_5fset_5fserver_5fname',['ptls_set_server_name',['../picotls_8h.html#abc4124b1bc5642960e94ebc06686a614',1,'ptls_set_server_name(ptls_t *tls, const char *server_name, size_t server_name_len):&#160;picotls.c'],['../lib_2picotls_8c.html#abc4124b1bc5642960e94ebc06686a614',1,'ptls_set_server_name(ptls_t *tls, const char *server_name, size_t server_name_len):&#160;picotls.c']]],
   ['ptls_5fupdate_5fkey',['ptls_update_key',['../picotls_8h.html#ad29f9c5575e2c4123927d796e4921e7e',1,'ptls_update_key(ptls_t *tls, int request_update):&#160;picotls.c'],['../lib_2picotls_8c.html#ad29f9c5575e2c4123927d796e4921e7e',1,'ptls_update_key(ptls_t *tls, int request_update):&#160;picotls.c']]],
   ['push_5fadditional_5fextensions',['push_additional_extensions',['../lib_2picotls_8c.html#aacb702a94a4a82424ba632eff52d32ef',1,'picotls.c']]],
-  ['push_5fback',['push_back',['../klib_2kexpr_8c.html#a176685c3b91dd87ee167249a356d1bd2',1,'push_back(ke1_t **a, int *n, int *m):&#160;kexpr.c'],['../warpcore_2lib_2src_2klib_2kexpr_8c.html#a176685c3b91dd87ee167249a356d1bd2',1,'push_back(ke1_t **a, int *n, int *m):&#160;kexpr.c']]],
+  ['push_5fback',['push_back',['../klib_2kexpr_8c.html#a176685c3b91dd87ee167249a356d1bd2',1,'push_back(ke1_t **a, int *n, int *m):&#160;kexpr.c'],['../warpcore_2lib_2deps_2klib_2kexpr_8c.html#a176685c3b91dd87ee167249a356d1bd2',1,'push_back(ke1_t **a, int *n, int *m):&#160;kexpr.c']]],
   ['push_5fchange_5fcipher_5fspec',['push_change_cipher_spec',['../lib_2picotls_8c.html#ac57890034ac79e3ffca97fc0a81d097a',1,'picotls.c']]],
-  ['push_5fcigar',['push_cigar',['../klib_2ksw_8c.html#a826957eb948116d000d8514b3cd85202',1,'push_cigar(int *n_cigar, int *m_cigar, uint32_t *cigar, int op, int len):&#160;ksw.c'],['../warpcore_2lib_2src_2klib_2ksw_8c.html#a826957eb948116d000d8514b3cd85202',1,'push_cigar(int *n_cigar, int *m_cigar, uint32_t *cigar, int op, int len):&#160;ksw.c']]],
+  ['push_5fcigar',['push_cigar',['../klib_2ksw_8c.html#a826957eb948116d000d8514b3cd85202',1,'push_cigar(int *n_cigar, int *m_cigar, uint32_t *cigar, int op, int len):&#160;ksw.c'],['../warpcore_2lib_2deps_2klib_2ksw_8c.html#a826957eb948116d000d8514b3cd85202',1,'push_cigar(int *n_cigar, int *m_cigar, uint32_t *cigar, int op, int len):&#160;ksw.c']]],
   ['push_5fkey_5fshare_5fentry',['push_key_share_entry',['../lib_2picotls_8c.html#a5a5bebfd858dd25e2fb7b28bdfd11429',1,'picotls.c']]],
   ['push_5fsignature_5falgorithms',['push_signature_algorithms',['../lib_2picotls_8c.html#aea33d8f225ee2ce6271775db5a596e19',1,'picotls.c']]]
 ];

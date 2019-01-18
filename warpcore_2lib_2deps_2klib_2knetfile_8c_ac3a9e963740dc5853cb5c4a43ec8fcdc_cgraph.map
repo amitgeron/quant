@@ -1,0 +1,6 @@
+<map id="kftp_send_cmd" name="kftp_send_cmd">
+<area shape="rect" id="node2" href="$warpcore_2lib_2deps_2klib_2knetfile_8c.html#a75f457b9ed5457c30b725695d120b932" title="socket_wait" alt="" coords="345,23,437,50"/>
+<area shape="rect" id="node4" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="203,23,258,50"/>
+<area shape="rect" id="node5" href="$warpcore_2lib_2deps_2klib_2knetfile_8c.html#aedd234f581cb7c1af5a5c5e0b19fa6e7" title="kftp_get_response" alt="" coords="166,74,295,100"/>
+<area shape="rect" id="node3" href="$curve25519_8naclref_8c.html#aaadabd431d8a32125f515700f5ced9d7" title="select" alt="" coords="486,23,543,50"/>
+</map>

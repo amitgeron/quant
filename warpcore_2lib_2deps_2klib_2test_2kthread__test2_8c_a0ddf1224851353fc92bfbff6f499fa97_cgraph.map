@@ -1,0 +1,7 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$klib_2test_2kthread__test2_8c.html#af1a5b1fa2f6d1316097ca48695475fec" title="kt_pipeline" alt="" coords="118,5,202,32"/>
+<area shape="rect" id="node3" href="$warpcore_2lib_2deps_2klib_2test_2kthread__test2_8c.html#af9c03cbe097e7e79e77b2f25115fa83e" title="worker_pipeline" alt="" coords="104,56,216,83"/>
+<area shape="rect" id="node4" href="$klib_2test_2kthread__test2_8c.html#ae02913e55f3f6f46cb968048caca17ec" title="kt_for" alt="" coords="278,31,333,57"/>
+<area shape="rect" id="node5" href="$warpcore_2lib_2deps_2klib_2test_2kthread__test2_8c.html#a0649fa8760d02f27628f79dc89a6034b" title="worker_for" alt="" coords="264,81,347,108"/>
+<area shape="rect" id="node6" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="395,81,450,108"/>
+</map>

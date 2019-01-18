@@ -1,7 +1,7 @@
 var searchData=
 [
   ['u8',['u8',['../curve25519_8donna_8c.html#a92c50087ca0e64fa93fc59402c55f8ca',1,'curve25519.donna.c']]],
-  ['ubyte_5ft',['ubyte_t',['../klib_2kstring_8c.html#ad40767aaeb0833664755ddfb1628be6c',1,'ubyte_t():&#160;kstring.c'],['../warpcore_2lib_2src_2klib_2kstring_8c.html#ad40767aaeb0833664755ddfb1628be6c',1,'ubyte_t():&#160;kstring.c']]],
+  ['ubyte_5ft',['ubyte_t',['../klib_2kstring_8c.html#ad40767aaeb0833664755ddfb1628be6c',1,'ubyte_t():&#160;kstring.c'],['../warpcore_2lib_2deps_2klib_2kstring_8c.html#ad40767aaeb0833664755ddfb1628be6c',1,'ubyte_t():&#160;kstring.c']]],
   ['uecc_5fcurve',['uECC_Curve',['../uECC_8h.html#a9c7dae14a33f80e00cd09e2cf2abfcff',1,'uECC.h']]],
   ['uecc_5fdword_5ft',['uECC_dword_t',['../types_8h.html#a2dd48675d833dbe67f803b67fc8b1f11',1,'types.h']]],
   ['uecc_5fhashcontext',['uECC_HashContext',['../uECC_8h.html#a5ac71b82c9e2d21278a84541c7b66c3a',1,'uECC.h']]],

@@ -16,7 +16,7 @@ var searchData=
   ['repeatm_5fname_5fsome',['REPEATM_NAME_SOME',['../uECC_8c.html#a16384b1a31feb4441bcad06fac01738d',1,'uECC.c']]],
   ['repeatm_5fsome',['REPEATM_SOME',['../uECC_8c.html#adec101a71fc486186cd45026846a1b23',1,'uECC.c']]],
   ['rev',['REV',['../quic_8h.html#a33a42d6bfefe54ae2384f5c28dd87340',1,'quic.h']]],
-  ['rol32',['rol32',['../klib_2kurl_8c.html#a8309db2e24a91f68774f5917bb413cea',1,'rol32():&#160;kurl.c'],['../warpcore_2lib_2src_2klib_2kurl_8c.html#a8309db2e24a91f68774f5917bb413cea',1,'rol32():&#160;kurl.c']]],
+  ['rol32',['rol32',['../klib_2kurl_8c.html#a8309db2e24a91f68774f5917bb413cea',1,'rol32():&#160;kurl.c'],['../warpcore_2lib_2deps_2klib_2kurl_8c.html#a8309db2e24a91f68774f5917bb413cea',1,'rol32():&#160;kurl.c']]],
   ['rot_5fword',['rot_word',['../aes_8c.html#ad6a26b1daa176db035270918b4953b9a',1,'aes.c']]],
   ['round_5fconstant',['round_constant',['../aes_8c.html#aa10955a365035391d383d37be3aa1560',1,'aes.c']]],
   ['rounds',['ROUNDS',['../norx_8c.html#a69479655ab94c875413d38689002ff98',1,'norx.c']]],

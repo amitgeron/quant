@@ -1,7 +1,7 @@
 var searchData=
 [
   ['c2s',['c2s',['../pkt_8c.html#a7607f623b4a5d2b165dd1105636242d9',1,'pkt.c']]],
-  ['calloc',['CALLOC',['../klib_2test_2kavl__test_8c.html#a70b6fad82d4c33a0fc9227f652aa02fb',1,'CALLOC():&#160;kavl_test.c'],['../warpcore_2lib_2src_2klib_2test_2kavl__test_8c.html#a70b6fad82d4c33a0fc9227f652aa02fb',1,'CALLOC():&#160;kavl_test.c']]],
+  ['calloc',['CALLOC',['../klib_2test_2kavl__test_8c.html#a70b6fad82d4c33a0fc9227f652aa02fb',1,'CALLOC():&#160;kavl_test.c'],['../warpcore_2lib_2deps_2klib_2test_2kavl__test_8c.html#a70b6fad82d4c33a0fc9227f652aa02fb',1,'CALLOC():&#160;kavl_test.c']]],
   ['ccm_5fadata_5fpresent',['CCM_ADATA_PRESENT',['../ccm_8c.html#a7f62922a184369eb3e2fd60be5ce7632',1,'ccm.c']]],
   ['cf_5faes_5fencrypt_5fonly',['CF_AES_ENCRYPT_ONLY',['../aes_8h.html#a776e11fbdf9134d57b5d3f8c744401b5',1,'aes.h']]],
   ['cf_5faes_5fmaxrounds',['CF_AES_MAXROUNDS',['../aes_8h.html#a766bd76fb34593d9440ac12c20a68fa7',1,'aes.h']]],
@@ -34,7 +34,7 @@ var searchData=
   ['check',['CHECK',['../testaes_8c.html#a9b5858af5a58806c4bb5a71523ca1360',1,'testaes.c']]],
   ['check_5fbe',['CHECK_BE',['../testaes_8c.html#a5902ed7fd3f1531bd8a52b9183646e4e',1,'testaes.c']]],
   ['check_5fle',['CHECK_LE',['../testaes_8c.html#add9bed4abee93f08b687c3629225c889',1,'testaes.c']]],
-  ['chr',['chr',['../klib_2ksa_8c.html#a2f6dbba067757987cb938a36d60d755f',1,'chr():&#160;ksa.c'],['../warpcore_2lib_2src_2klib_2ksa_8c.html#a2f6dbba067757987cb938a36d60d755f',1,'chr():&#160;ksa.c']]],
+  ['chr',['chr',['../klib_2ksa_8c.html#a2f6dbba067757987cb938a36d60d755f',1,'chr():&#160;ksa.c'],['../warpcore_2lib_2deps_2klib_2ksa_8c.html#a2f6dbba067757987cb938a36d60d755f',1,'chr():&#160;ksa.c']]],
   ['cid2str',['cid2str',['../conn_8h.html#ade2abf64e3b30fc0b5e1b95735ab6677',1,'conn.h']]],
   ['cipher_5fsuite',['CIPHER_SUITE',['../tls_8c.html#a67bb64934a4420a93ed8859153c5c186',1,'tls.c']]],
   ['clnt_5fscid_5flen',['CLNT_SCID_LEN',['../quic_8h.html#a49e4c470b958fb2a5b79187292698c94',1,'quic.h']]],

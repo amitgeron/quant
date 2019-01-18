@@ -1,6 +1,0 @@
-<map id="khttp_connect_file" name="khttp_connect_file">
-<area shape="rect" id="node2" href="$warpcore_2lib_2src_2klib_2knetfile_8c.html#ae85946056622793c4dfc723e0d26c929" title="socket_connect" alt="" coords="181,5,296,32"/>
-<area shape="rect" id="node3" href="$warpcore_2lib_2src_2klib_2knetfile_8c.html#a1368b92534b3678d6846cfe27ccf1dc0" title="my_netread" alt="" coords="193,56,284,83"/>
-<area shape="rect" id="node4" href="$warpcore_2lib_2src_2klib_2knetfile_8c.html#a75f457b9ed5457c30b725695d120b932" title="socket_wait" alt="" coords="345,56,437,83"/>
-<area shape="rect" id="node5" href="$curve25519_8naclref_8c.html#aaadabd431d8a32125f515700f5ced9d7" title="select" alt="" coords="486,56,543,83"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="morecore" name="morecore">
-<area shape="rect" id="node2" href="$warpcore_2lib_2src_2klib_2kalloc_8c.html#a3ba075b102d51c726de00617307f186a" title="panic" alt="" coords="131,5,184,32"/>
-<area shape="rect" id="node4" href="$klib_2kalloc_8c.html#a5078e5824344fb7ab015360d14ee89a2" title="kfree" alt="" coords="132,56,183,83"/>
-<area shape="rect" id="node3" href="$boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="232,5,283,32"/>
-</map>
