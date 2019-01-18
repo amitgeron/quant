@@ -14,7 +14,7 @@
 <area shape="rect" id="node43" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type t into the diet tree t. " alt="" coords="603,930,685,957"/>
 <area shape="rect" id="node44" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree t. " alt="" coords="805,981,875,1008"/>
 <area shape="rect" id="node3" href="$pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="428,69,500,96"/>
-<area shape="rect" id="node6" href="$pkt_8c.html#a90cce9975ffcab8b2dac5081645823ad" title="xor_hp" alt="" coords="433,170,495,197"/>
+<area shape="rect" id="node6" href="$pkt_8c.html#a70683b8c3bd39a36a1491102c86ee909" title="xor_hp" alt="" coords="433,170,495,197"/>
 <area shape="rect" id="node7" href="$picotls_8h.html#aa77dcaa131915406a4a03be70e268ff0" title="initializes the IV; this function must be called prior to calling ptls_cipher_encrypt ..." alt="" coords="589,120,699,146"/>
 <area shape="rect" id="node8" href="$picotls_8h.html#a2d3ae9c9f2704efb7abae1637cb97241" title="encrypts given text " alt="" coords="577,170,711,197"/>
 <area shape="rect" id="node13" href="$picotls_8h.html#a724ff019ff3a867c90b28e4d3e8b6e53" title="returns the cipher&#45;suite being used " alt="" coords="409,373,519,400"/>

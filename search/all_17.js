@@ -26,7 +26,7 @@ var searchData=
   ['xmm_5fshift_5fright',['xmm_shift_right',['../in__cksum_8c.html#abff563ca718f2c5d4012f12af289b5b1',1,'in_cksum.c']]],
   ['xor_5fb8',['xor_b8',['../bitops_8h.html#ad1aa9427ef9c98228978ad0d88683e54',1,'bitops.h']]],
   ['xor_5fbb',['xor_bb',['../bitops_8h.html#a31f7f072f29d5a278a573275c14aae7f',1,'bitops.h']]],
-  ['xor_5fhp',['xor_hp',['../pkt_8c.html#a90cce9975ffcab8b2dac5081645823ad',1,'xor_hp(const struct w_iov *const xv, const struct w_iov *const v, const struct cipher_ctx *const ctx, const uint16_t pkt_nr_pos, const bool is_enc):&#160;pkt.c'],['../pkt_8h.html#a90cce9975ffcab8b2dac5081645823ad',1,'xor_hp(const struct w_iov *const xv, const struct w_iov *const v, const struct cipher_ctx *const ctx, const uint16_t pkt_nr_pos, const bool is_enc):&#160;pkt.c']]],
+  ['xor_5fhp',['xor_hp',['../pkt_8c.html#a70683b8c3bd39a36a1491102c86ee909',1,'xor_hp(const struct w_iov *const xv, const struct w_iov *const v, const struct cipher_ctx *const ctx, const uint16_t pkt_nr_pos, const bool is_enc):&#160;pkt.c'],['../pkt_8h.html#a70683b8c3bd39a36a1491102c86ee909',1,'xor_hp(const struct w_iov *const xv, const struct w_iov *const v, const struct cipher_ctx *const ctx, const uint16_t pkt_nr_pos, const bool is_enc):&#160;pkt.c']]],
   ['xor_5fwords',['xor_words',['../bitops_8h.html#a67ae9f7f20020d9ff95ba675cfadbf1d',1,'bitops.h']]],
   ['xp',['xp',['../struct__ST__curve25519ladderstepWorkingState.html#a277dcbfecfe75025c4e98a0ae003a79d',1,'_ST_curve25519ladderstepWorkingState']]],
   ['xq',['xq',['../struct__ST__curve25519ladderstepWorkingState.html#ae791802cde8fcd6de37c63705bb55b0e',1,'_ST_curve25519ladderstepWorkingState']]],
