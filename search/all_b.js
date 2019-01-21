@@ -49,6 +49,5 @@ var searchData=
   ['loop',['loop',['../quic_8c.html#a855923b555731173d3509ecb645de0e0',1,'loop():&#160;quic.c'],['../quic_8h.html#a855923b555731173d3509ecb645de0e0',1,'loop():&#160;quic.c']]],
   ['loop_5fhead',['loop_head',['../structkmem__t.html#a2f5d22995bb1507ea191f20f9fff2a85',1,'kmem_t']]],
   ['loop_5frun',['loop_run',['../quic_8c.html#a7890c6fb9ffd79d2073edcdc00d600af',1,'quic.c']]],
-  ['loop_5fupdate',['loop_update',['../conn_8h.html#a23b98218d38ba7ad85c7d40ed1ca5546',1,'conn.h']]],
   ['loss_5ft',['loss_t',['../structrecovery.html#a2394e577c3fc53d34bb35b44b7113fe7',1,'recovery']]]
 ];
