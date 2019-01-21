@@ -367,7 +367,6 @@ var searchData=
   ['swap16b',['swap16b',['../in__cksum_8c.html#a588567a7e17a25cd8a291e9c2b8edd09',1,'in_cksum.c']]],
   ['swap_5fconditional',['swap_conditional',['../curve25519_8donna_8c.html#ab8f407d4dd12852b446324e5a76acc99',1,'curve25519.donna.c']]],
   ['switch_5fdomain',['switch_domain',['../norx_8c.html#a27061a68ab77f6087674badcb01354eb',1,'norx.c']]],
-  ['switch_5fscid',['switch_scid',['../conn_8c.html#a21ac225dbc25a2bb01d9b487bdc6f35b',1,'conn.c']]],
   ['swp',['swp',['../test__queue_8c.html#a46dad32ca0e2be7910bc2f43e88f8b1e',1,'test_queue.c']]],
   ['systick',['systick',['../structsystick.html',1,'systick'],['../structvectors__t.html#a36458da6b656908586197dd6f3729f82',1,'vectors_t::systick()'],['../semihost_8c.html#acd96c53beeaff8f603fcda425eb295de',1,'SysTick():&#160;semihost.c']]],
   ['systick_5fhandler',['SysTick_Handler',['../boot_8c.html#ab5e09814056d617c521549e542639b7e',1,'boot.c']]]

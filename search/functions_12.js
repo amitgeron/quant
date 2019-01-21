@@ -111,7 +111,6 @@ var searchData=
   ['subtest',['subtest',['../picotest_8c.html#a1597378c4dd23f5925c808318a585071',1,'subtest(const char *name, void(*cb)(void)):&#160;picotest.c'],['../picotest_8h.html#a1597378c4dd23f5925c808318a585071',1,'subtest(const char *name, void(*cb)(void)):&#160;picotest.c']]],
   ['swap_5fconditional',['swap_conditional',['../curve25519_8donna_8c.html#ab8f407d4dd12852b446324e5a76acc99',1,'curve25519.donna.c']]],
   ['switch_5fdomain',['switch_domain',['../norx_8c.html#a27061a68ab77f6087674badcb01354eb',1,'norx.c']]],
-  ['switch_5fscid',['switch_scid',['../conn_8c.html#a21ac225dbc25a2bb01d9b487bdc6f35b',1,'conn.c']]],
   ['swp',['swp',['../test__queue_8c.html#a46dad32ca0e2be7910bc2f43e88f8b1e',1,'test_queue.c']]],
   ['systick_5fhandler',['SysTick_Handler',['../boot_8c.html#ab5e09814056d617c521549e542639b7e',1,'boot.c']]]
 ];
