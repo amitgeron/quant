@@ -2,7 +2,6 @@ var searchData=
 [
   ['w_5fiov_5fsq_5finitializer',['w_iov_sq_initializer',['../warpcore_8h.html#adb7cefb61123a68cf87f6e33270af1dc',1,'warpcore.h']]],
   ['w_5fsock_5fslist_5finitializer',['w_sock_slist_initializer',['../warpcore_8h.html#a6c8c618c1c3811f7c7d8350c1c073567',1,'warpcore.h']]],
-  ['w_5fzero_5fchksum',['W_ZERO_CHKSUM',['../warpcore_8h.html#a1dc8f24f3aece4066bc8ff8fceeb54f3',1,'warpcore.h']]],
   ['warn',['warn',['../warpcore_2lib_2include_2warpcore_2util_8h.html#a75fb9e13fe5fdbdbf4f0b7f34d25a887',1,'util.h']]],
   ['warn_5foverrun',['warn_overrun',['../marshall_8c.html#a3174b10b1e6faa4ee79aebf5a49f60ce',1,'marshall.c']]],
   ['warpcore_5fversion_5fmajor',['WARPCORE_VERSION_MAJOR',['../deps_2warpcore_2lib_2include_2warpcore_2config_8h.html#a0b885defc8f5c2974b7c322a5d8029d2',1,'config.h']]],

@@ -38,7 +38,7 @@
 <area shape="rect" id="node31" href="$recovery_8c.html#a60784c1a11f52e1b091994e1cfcc4609" title="init_rec" alt="" coords="525,1288,589,1315"/>
 <area shape="rect" id="node32" href="$conn_8c.html#ae7ad1167799a2920119487df92e81b85" title="tx_w" alt="" coords="532,613,583,640"/>
 <area shape="rect" id="node33" href="$warpcore_8h.html#a69efb41e98d6e0b055364a6991d415a9" title="Get the socket bound to the &lt;sport, dport&gt; pair. " alt="" coords="511,664,603,691"/>
-<area shape="rect" id="node34" href="$warpcore_8h.html#a74b39fb3160debbd7c56314d8a990780" title="Bind a w_sock to the given local UDP port number. " alt="" coords="526,715,589,741"/>
+<area shape="rect" id="node34" href="$warpcore_8h.html#a8f5c782e319686927159612d3f455b7b" title="Bind a w_sock to the given local UDP port number. " alt="" coords="526,715,589,741"/>
 <area shape="rect" id="node35" href="$conn_8c.html#a5749bce479cdde76574b7a1845be7fec" title="rx" alt="" coords="538,512,577,539"/>
 <area shape="rect" id="node36" href="$warpcore_8h.html#aaf46056f39cb452d908ddac8cf6e57c5" title="Return the file descriptor associated with a w_sock. " alt="" coords="532,765,583,792"/>
 <area shape="rect" id="node37" href="$warpcore_8h.html#a850fab047a974d4b7abfd68ceb87665d" title="Return the local port a w_sock is bound to. " alt="" coords="511,816,604,843"/>

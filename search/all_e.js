@@ -59,7 +59,7 @@ var searchData=
   ['openssl_5finit_5fcert_5fstore',['openssl_init_cert_store',['../picotlsvs_8c.html#abc7c3d0068b82e63bacc44129a4fc2bc',1,'picotlsvs.c']]],
   ['openssl_5finit_5ftest_5fclient',['openssl_init_test_client',['../picotlsvs_8c.html#a8381d198294634a7fa25dad0b64809ba',1,'picotlsvs.c']]],
   ['openssl_5finit_5ftest_5fserver',['openssl_init_test_server',['../picotlsvs_8c.html#ab79c9fcb3be337f7f0389b1b2b4124f5',1,'picotlsvs.c']]],
-  ['opt',['opt',['../structketopt__t.html#abdd50b8740babed34e247066ce0fc2a0',1,'ketopt_t']]],
+  ['opt',['opt',['../structketopt__t.html#abdd50b8740babed34e247066ce0fc2a0',1,'ketopt_t::opt()'],['../structw__sock.html#a1f147af47c61e032ea3974c13da8b0dc',1,'w_sock::opt()']]],
   ['orig_5fcid',['orig_cid',['../structtransport__params.html#ada77b0a712c3a04c901ef49001f358a5',1,'transport_params']]],
   ['out',['out',['../structocb.html#a44320f7362befa20613f674ac9f92e63',1,'ocb::out()'],['../structpn__hshk__space.html#a7b5d9b211f2a2b794dbbd36fef051d20',1,'pn_hshk_space::out()'],['../structq__stream.html#ad6bc293a8f8e054b500882d8ef57b1b6',1,'q_stream::out()']]],
   ['out_5f0rtt',['out_0rtt',['../structpn__data__space.html#a27cff102e25dcc1a37a963309a6e5fe9',1,'pn_data_space']]],

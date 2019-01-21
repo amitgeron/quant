@@ -47,7 +47,7 @@ var searchData=
   ['find_5fsent_5fpkt',['find_sent_pkt',['../recovery_8c.html#a078d446c5244577b054aed3abda0d694',1,'find_sent_pkt(struct q_conn *const c, struct pn_space *const pn, const uint64_t nr):&#160;recovery.c'],['../recovery_8h.html#a078d446c5244577b054aed3abda0d694',1,'find_sent_pkt(struct q_conn *const c, struct pn_space *const pn, const uint64_t nr):&#160;recovery.c']]],
   ['finish_5fhash',['finish_hash',['../structuECC__HashContext.html#a921bea27accba974de4ea552f72b74ef',1,'uECC_HashContext']]],
   ['finished',['finished',['../structks__tokaux__t.html#a147badd5a68dbfd2e83a7a84150aef2a',1,'ks_tokaux_t']]],
-  ['flags',['flags',['../structw__sock.html#aeb9b6b81f779f7b21ba82a9a305b9687',1,'w_sock::flags()'],['../structw__iov.html#aa2e95068f4bef17d199d6b3cb6f89323',1,'w_iov::flags()'],['../structpkt__hdr.html#a1632f4a27e52dde0274278ea83fc3dd6',1,'pkt_hdr::flags()']]],
+  ['flags',['flags',['../structw__iov.html#aa2e95068f4bef17d199d6b3cb6f89323',1,'w_iov::flags()'],['../structpkt__hdr.html#a1632f4a27e52dde0274278ea83fc3dd6',1,'pkt_hdr::flags()']]],
   ['flip_5fkeys',['flip_keys',['../tls_8c.html#a4faeebf5e3d33bfea46325d8fa7343d6',1,'flip_keys(struct q_conn *const c, const bool out):&#160;tls.c'],['../tls_8h.html#a4faeebf5e3d33bfea46325d8fa7343d6',1,'flip_keys(struct q_conn *const c, const bool out):&#160;tls.c']]],
   ['float',['FLOAT',['../klib_2khmm_8h.html#ae8690abbffa85934d64d545920e2b108',1,'FLOAT():&#160;khmm.h'],['../warpcore_2lib_2deps_2klib_2khmm_8h.html#ae8690abbffa85934d64d545920e2b108',1,'FLOAT():&#160;khmm.h']]],
   ['fmonty',['fmonty',['../curve25519_8donna_8c.html#a549a5b49bf6c0e6eadaef2f69144fb89',1,'curve25519.donna.c']]],

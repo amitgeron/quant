@@ -107,7 +107,7 @@ var searchData=
   ['ip_5fp_5ficmp',['IP_P_ICMP',['../ip_8h.html#a1bcfc7e2e9c527ffd1915f78219b8d6d',1,'ip.h']]],
   ['ip_5fp_5fudp',['IP_P_UDP',['../ip_8h.html#a0a2d72ff4c961f5e8b58c40cc4e1987c',1,'ip.h']]],
   ['ip_5frx',['ip_rx',['../ip_8c.html#a83c3b73e5ae32815530bdb103a0a59ee',1,'ip_rx(struct w_engine *const w, struct netmap_slot *const s, uint8_t *const buf):&#160;ip.c'],['../ip_8h.html#a83c3b73e5ae32815530bdb103a0a59ee',1,'ip_rx(struct w_engine *const w, struct netmap_slot *const s, uint8_t *const buf):&#160;ip.c']]],
-  ['ip_5ftx',['ip_tx',['../ip_8c.html#ad5934c09781e39f8bec7f5eae021f791',1,'ip_tx(struct w_engine *const w, struct w_iov *const v, const uint16_t len):&#160;ip.c'],['../ip_8h.html#ad5934c09781e39f8bec7f5eae021f791',1,'ip_tx(struct w_engine *const w, struct w_iov *const v, const uint16_t len):&#160;ip.c']]],
+  ['ip_5ftx',['ip_tx',['../ip_8c.html#a9bf23175bbad85abeaf5f7242a3477e9',1,'ip_tx(struct w_engine *const w, struct w_iov *const v, const uint16_t len, const bool enable_ecn):&#160;ip.c'],['../ip_8h.html#a9bf23175bbad85abeaf5f7242a3477e9',1,'ip_tx(struct w_engine *const w, struct w_iov *const v, const uint16_t len, const bool enable_ecn):&#160;ip.c']]],
   ['ip_5ftx_5fwith_5frx_5fbuf',['ip_tx_with_rx_buf',['../ip_8h.html#abce4a5aefa4ece9002ca4499828716ee',1,'ip.h']]],
   ['ip_5fv',['ip_v',['../ip_8h.html#a5b7259dc8ff553a71d123d57f13fd819',1,'ip.h']]],
   ['irq',['irq',['../structvectors__t.html#aca851342338f783c08bd367ee39ce3a8',1,'vectors_t']]],

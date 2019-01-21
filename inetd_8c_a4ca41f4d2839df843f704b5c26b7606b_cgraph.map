@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$inetd_8c.html#a4defb3f785ed2f3dbd5c1d5291215642" title="usage" alt="" coords="126,157,183,184"/>
 <area shape="rect" id="node3" href="$warpcore_8h.html#a045f4826ff2a8917693126c9d27455e4" title="Initialize a warpcore engine on the given interface. " alt="" coords="127,208,183,235"/>
 <area shape="rect" id="node16" href="$inetd_8c.html#ac450f7037a3bca05e261235cd70c0fc2" title="terminate" alt="" coords="117,588,193,615"/>
-<area shape="rect" id="node17" href="$warpcore_8h.html#a74b39fb3160debbd7c56314d8a990780" title="Bind a w_sock to the given local UDP port number. " alt="" coords="123,461,186,488"/>
+<area shape="rect" id="node17" href="$warpcore_8h.html#a8f5c782e319686927159612d3f455b7b" title="Bind a w_sock to the given local UDP port number. " alt="" coords="123,461,186,488"/>
 <area shape="rect" id="node23" href="$warpcore_8h.html#ab0508cfebe874ba0f3f2f230b4120e0d" title="Trigger netmap to make new received data available to w_rx(). " alt="" coords="117,639,192,665"/>
 <area shape="rect" id="node27" href="$warpcore_8h.html#a10a4664235583c583eee0a08a35a9c71" title="Fill a w_sock_slist with pointers to some sockets with pending inbound data. " alt="" coords="110,715,199,741"/>
 <area shape="rect" id="node28" href="$warpcore_8h.html#af21a4e848c9199be729d01d20b8eea3d" title="Return any new data that has been received on a socket by appending it to the w_iov tail queue i..." alt="" coords="129,765,180,792"/>

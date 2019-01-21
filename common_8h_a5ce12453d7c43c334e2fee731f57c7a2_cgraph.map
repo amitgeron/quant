@@ -1,6 +1,6 @@
 <map id="init" name="init">
 <area shape="rect" id="node2" href="$warpcore_8h.html#a045f4826ff2a8917693126c9d27455e4" title="Initialize a warpcore engine on the given interface. " alt="" coords="687,183,743,209"/>
-<area shape="rect" id="node18" href="$warpcore_8h.html#a74b39fb3160debbd7c56314d8a990780" title="Bind a w_sock to the given local UDP port number. " alt="" coords="111,411,174,437"/>
+<area shape="rect" id="node18" href="$warpcore_8h.html#a8f5c782e319686927159612d3f455b7b" title="Bind a w_sock to the given local UDP port number. " alt="" coords="111,411,174,437"/>
 <area shape="rect" id="node24" href="$warpcore_8h.html#ab31d23fb4fa64de58aef6c688ea6563a" title="Connect a bound socket to a remote IP address and port. " alt="" coords="100,461,185,488"/>
 <area shape="rect" id="node50" href="$warpcore_8h.html#a25db095b03b04843ed074c604c85c27d" title="Return whether a socket is connected (i.e., w_connect() has been called on it) or not..." alt="" coords="93,512,192,539"/>
 <area shape="rect" id="node3" href="$klib_2krng_8h.html#aacc147637623ae1e16f7b8624975f2f9" title="kr_srand_r" alt="" coords="825,107,908,133"/>

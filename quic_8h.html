@@ -397,7 +397,7 @@ Variables</h2></td></tr>
 <div class="line">    })</div>
 <div class="ttc" id="warpcore_2lib_2include_2warpcore_2util_8h_html_a1011ec002411388144b5eea764f90d83"><div class="ttname"><a href="warpcore_2lib_2include_2warpcore_2util_8h.html#a1011ec002411388144b5eea764f90d83">ensure</a></div><div class="ttdeci">#define ensure(e,...)</div><div class="ttdoc">A version of the C assert() macro that isn&#39;t disabled by NDEBUG and that ties in with warn()...</div><div class="ttdef"><b>Definition:</b> util.h:217</div></div>
 <div class="ttc" id="quic_8h_html_a22a934c8c4d79c27dffbe21e3fb733a4"><div class="ttname"><a href="quic_8h.html#a22a934c8c4d79c27dffbe21e3fb733a4">ASAN_UNPOISON_MEMORY_REGION</a></div><div class="ttdeci">#define ASAN_UNPOISON_MEMORY_REGION(x, y)</div><div class="ttdef"><b>Definition:</b> quic.h:44</div></div>
-<div class="ttc" id="structw__iov_html"><div class="ttname"><a href="structw__iov.html">w_iov</a></div><div class="ttdoc">The I/O vector structure that warpcore uses at the center of its API. </div><div class="ttdef"><b>Definition:</b> warpcore.h:142</div></div>
+<div class="ttc" id="structw__iov_html"><div class="ttname"><a href="structw__iov.html">w_iov</a></div><div class="ttdoc">The I/O vector structure that warpcore uses at the center of its API. </div><div class="ttdef"><b>Definition:</b> warpcore.h:147</div></div>
 <div class="ttc" id="quic_8h_html_a01ed57991bea53afa1ece4452d16b568"><div class="ttname"><a href="quic_8h.html#a01ed57991bea53afa1ece4452d16b568">meta</a></div><div class="ttdeci">#define meta(v)</div><div class="ttdoc">Return the pkt_meta entry for a given w_iov. </div><div class="ttdef"><b>Definition:</b> quic.h:183</div></div>
 <div class="ttc" id="warpcore_8h_html_aa17e20ed409edbfe18aa79ae5da640ff"><div class="ttname"><a href="warpcore_8h.html#aa17e20ed409edbfe18aa79ae5da640ff">w_alloc_iov</a></div><div class="ttdeci">struct w_iov * w_alloc_iov(struct w_engine *const w, const uint16_t len, const uint16_t off)</div><div class="ttdoc">Return a spare w_iov from the pool of the given warpcore engine. </div><div class="ttdef"><b>Definition:</b> warpcore.c:122</div></div>
 <div class="ttc" id="fuzz_8c_html_a8bedaecc1f0b28f6c3ec357ca967b33a"><div class="ttname"><a href="fuzz_8c.html#a8bedaecc1f0b28f6c3ec357ca967b33a">w</a></div><div class="ttdeci">static struct w_engine w</div><div class="ttdef"><b>Definition:</b> fuzz.c:51</div></div>
@@ -680,7 +680,7 @@ Variables</h2></td></tr>
 <div class="line"><a class="code" href="warpcore_8h.html#a92bb31feffd5e9e2cda91aa4612bc103">        w_free_iov</a>(v);                                                         \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
 <div class="ttc" id="quic_8h_html_a01ed57991bea53afa1ece4452d16b568"><div class="ttname"><a href="quic_8h.html#a01ed57991bea53afa1ece4452d16b568">meta</a></div><div class="ttdeci">#define meta(v)</div><div class="ttdoc">Return the pkt_meta entry for a given w_iov. </div><div class="ttdef"><b>Definition:</b> quic.h:183</div></div>
-<div class="ttc" id="warpcore_8h_html_a92bb31feffd5e9e2cda91aa4612bc103"><div class="ttname"><a href="warpcore_8h.html#a92bb31feffd5e9e2cda91aa4612bc103">w_free_iov</a></div><div class="ttdeci">void w_free_iov(struct w_iov *const v)</div><div class="ttdoc">Return a single w_iov obtained via w_alloc_len(), w_alloc_cnt() or w_rx() back to warpcore...</div><div class="ttdef"><b>Definition:</b> warpcore.c:543</div></div>
+<div class="ttc" id="warpcore_8h_html_a92bb31feffd5e9e2cda91aa4612bc103"><div class="ttname"><a href="warpcore_8h.html#a92bb31feffd5e9e2cda91aa4612bc103">w_free_iov</a></div><div class="ttdeci">void w_free_iov(struct w_iov *const v)</div><div class="ttdoc">Return a single w_iov obtained via w_alloc_len(), w_alloc_cnt() or w_rx() back to warpcore...</div><div class="ttdef"><b>Definition:</b> warpcore.c:545</div></div>
 <div class="ttc" id="quic_8h_html_a1a737158b6f126742d911591ded5ad78"><div class="ttname"><a href="quic_8h.html#a1a737158b6f126742d911591ded5ad78">ASAN_POISON_MEMORY_REGION</a></div><div class="ttdeci">#define ASAN_POISON_MEMORY_REGION(x, y)</div><div class="ttdef"><b>Definition:</b> quic.h:43</div></div>
 <div class="ttc" id="quic_8h_html_aed433a65a751df6b54c091d8facbfb57"><div class="ttname"><a href="quic_8h.html#aed433a65a751df6b54c091d8facbfb57">pm_free</a></div><div class="ttdeci">void pm_free(struct pkt_meta *const m)</div><div class="ttdef"><b>Definition:</b> quic.c:129</div></div>
 </div><!-- fragment -->
@@ -1875,7 +1875,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 21 2019 13:09:28 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jan 21 2019 13:45:59 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
