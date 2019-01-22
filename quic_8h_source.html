@@ -352,7 +352,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00286"></a><span class="lineno"><a class="line" href="quic_8h.html#a9a5858cdd4682999fab57dbf6db748b1">  286</a></span>&#160;<span class="preprocessor">#define kGranularity 0.001</span></div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="comment">// The RTT used before an RTT sample is taken. The RECOMMENDED value is 100ms.</span></div>
-<div class="line"><a name="l00289"></a><span class="lineno"><a class="line" href="quic_8h.html#af47b8eb7e21dfad9602ccaa933ff97dd">  289</a></span>&#160;<span class="preprocessor">#define kInitialRtt 0.1</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno"><a class="line" href="quic_8h.html#af47b8eb7e21dfad9602ccaa933ff97dd">  289</a></span>&#160;<span class="preprocessor">#define kInitialRtt (3 * 0.1) // TODO reduce this once we deal with spurious RTO</span></div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00294"></a><span class="lineno"><a class="line" href="quic_8h.html#aebba1773417b74b712e12052021ac07a">  294</a></span>&#160;<span class="preprocessor">#define kMaxDatagramSize 1200</span></div>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="preprocessor"></span></div>
@@ -595,7 +595,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 22 2019 07:41:50 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 22 2019 08:13:10 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
