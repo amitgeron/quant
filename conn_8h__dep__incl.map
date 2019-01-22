@@ -1,12 +1,12 @@
 <map id="src/conn.h" name="src/conn.h">
 <area shape="rect" id="node2" href="$conn_8c.html" title="src/conn.c" alt="" coords="5,155,87,181"/>
-<area shape="rect" id="node3" href="$pkt_8h.html" title="src/pkt.h" alt="" coords="258,80,331,107"/>
+<area shape="rect" id="node3" href="$pkt_8h.html" title="src/pkt.h" alt="" coords="253,80,325,107"/>
 <area shape="rect" id="node4" href="$frame_8c.html" title="src/frame.c" alt="" coords="211,155,299,181"/>
 <area shape="rect" id="node5" href="$pkt_8c.html" title="src/pkt.c" alt="" coords="113,155,185,181"/>
 <area shape="rect" id="node6" href="$quic_8c.html" title="src/quic.c" alt="" coords="323,155,401,181"/>
 <area shape="rect" id="node7" href="$recovery_8c.html" title="src/recovery.c" alt="" coords="426,155,531,181"/>
-<area shape="rect" id="node8" href="$stream_8c.html" title="src/stream.c" alt="" coords="650,155,744,181"/>
-<area shape="rect" id="node9" href="$tls_8c.html" title="src/tls.c" alt="" coords="556,155,625,181"/>
-<area shape="rect" id="node10" href="$stream_8h.html" title="src/stream.h" alt="" coords="407,80,501,107"/>
-<area shape="rect" id="node11" href="$pn_8c.html" title="src/pn.c" alt="" coords="769,155,839,181"/>
+<area shape="rect" id="node8" href="$tls_8c.html" title="src/tls.c" alt="" coords="556,155,625,181"/>
+<area shape="rect" id="node9" href="$stream_8h.html" title="src/stream.h" alt="" coords="402,80,496,107"/>
+<area shape="rect" id="node10" href="$pn_8c.html" title="src/pn.c" alt="" coords="649,155,719,181"/>
+<area shape="rect" id="node11" href="$stream_8c.html" title="src/stream.c" alt="" coords="743,155,837,181"/>
 </map>
