@@ -4,7 +4,7 @@
 <area shape="rect" id="node4" href="$picotls_8h.html#aaf66968e2ad59ebf0f264cbb9d2f84f9" title="Runs the handshake by dealing directly with handshake messages. " alt="" coords="115,233,263,260"/>
 <area shape="rect" id="node40" href="$picotls_8h.html#a48da6806321331d00677c66444d7143d" title="returns if a PSK (or PSK&#45;DHE) handshake was performed " alt="" coords="110,284,269,311"/>
 <area shape="rect" id="node41" href="$conn_8c.html#a02d7b0c5a072e1b673358b52ac71f160" title="err_close" alt="" coords="152,335,227,361"/>
-<area shape="rect" id="node47" href="$quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="154,385,225,412"/>
+<area shape="rect" id="node46" href="$quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="154,385,225,412"/>
 <area shape="rect" id="node49" href="$warpcore_8h.html#a5ac8908312be71047433d7e51059e240" title="Return warpcore engine serving w_sock s. " alt="" coords="151,436,228,463"/>
 <area shape="rect" id="node50" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="146,487,233,513"/>
 <area shape="rect" id="node5" href="$lib_2picotls_8c.html#a029da88bc71cbd5379a2bb29ad40ed6c" title="begin_raw_message" alt="" coords="343,107,484,133"/>
@@ -43,9 +43,9 @@
 <area shape="rect" id="node38" href="$lib_2picotls_8c.html#a6b012c4c97a534e2d438f9e2a339ae76" title="client_handle_new_session\l_ticket" alt="" coords="775,493,956,534"/>
 <area shape="rect" id="node39" href="$lib_2picotls_8c.html#a53924e83d858225421f3427953bef42f" title="handle_key_update" alt="" coords="574,761,709,788"/>
 <area shape="rect" id="node42" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="364,1020,463,1047"/>
-<area shape="rect" id="node43" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="591,1147,691,1173"/>
-<area shape="rect" id="node44" href="$pn_8c.html#a8cb6a54f35c8a70e940f624856a0f7ab" title="ack_alarm" alt="" coords="600,995,683,1021"/>
-<area shape="rect" id="node45" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="609,1045,673,1072"/>
-<area shape="rect" id="node46" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="593,1096,689,1123"/>
-<area shape="rect" id="node48" href="$warpcore_8h.html#a7b0a4ce49d35d188ceaaef1076ad831d" title="Allocate a w_iov tail queue for plen payload bytes, for eventual use with w_tx(). ..." alt="" coords="368,1071,459,1097"/>
+<area shape="rect" id="node43" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="609,995,673,1021"/>
+<area shape="rect" id="node44" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="593,1045,689,1072"/>
+<area shape="rect" id="node45" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="600,1096,683,1123"/>
+<area shape="rect" id="node47" href="$warpcore_8h.html#a7b0a4ce49d35d188ceaaef1076ad831d" title="Allocate a w_iov tail queue for plen payload bytes, for eventual use with w_tx(). ..." alt="" coords="368,1096,459,1123"/>
+<area shape="rect" id="node48" href="$warpcore_8c.html#a8e3e3376b3f23f1a1a8fc4be642f7710" title="Return a spare w_iov from the pool of the given warpcore engine. " alt="" coords="596,1147,687,1173"/>
 </map>

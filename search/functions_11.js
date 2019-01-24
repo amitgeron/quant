@@ -33,7 +33,7 @@ var searchData=
   ['run_5fclient',['run_client',['../cli_8c.html#aac532db3396391aca5e2900e9e83b86d',1,'cli.c']]],
   ['run_5fserver',['run_server',['../cli_8c.html#a5eac3ee1b4628c1fdd2ddef656852f75',1,'cli.c']]],
   ['run_5ftest_5f_5f',['run_test__',['../arm_2ext_2cutest_8h.html#aad5ab6e964845c594151a1a6f64e6a0c',1,'cutest.h']]],
-  ['rx',['rx',['../conn_8c.html#a5749bce479cdde76574b7a1845be7fec',1,'rx(struct ev_loop *const l, ev_io *const rx_w, int e):&#160;conn.c'],['../conn_8h.html#a5749bce479cdde76574b7a1845be7fec',1,'rx(struct ev_loop *const l, ev_io *const rx_w, int e):&#160;conn.c']]],
+  ['rx',['rx',['../conn_8c.html#a69924c834acb11f94887f781e4241397',1,'conn.c']]],
   ['rx_5fcrypto',['rx_crypto',['../conn_8c.html#a5d6639a237bb88d66f93760fc93000a5',1,'conn.c']]],
   ['rx_5fpkt',['rx_pkt',['../conn_8c.html#a9ef5d7dd45e20cc2cf7504fac35c37e0',1,'conn.c']]],
   ['rx_5fpkts',['rx_pkts',['../conn_8c.html#a743c431b40b906bbe9baad4456a0e7c5',1,'conn.c']]]

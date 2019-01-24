@@ -103,7 +103,6 @@ Data Fields</h2></td></tr>
 <tr class="memdesc:a258b213b1fbb488b1d1dda308dcade45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sent packet numbers already ACKed.  <a href="#a258b213b1fbb488b1d1dda308dcade45">More...</a><br/></td></tr>
 <tr class="separator:a258b213b1fbb488b1d1dda308dcade45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ac99b6feec118ea3941813d8ee9a55a"><td class="memItemLeft" align="right" valign="top">struct pm_by_nr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpn__space.html#a7ac99b6feec118ea3941813d8ee9a55a">sent_pkts</a></td></tr>
-<tr class="memdesc:a7ac99b6feec118ea3941813d8ee9a55a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sent-but-unACKed packets.  <a href="#a7ac99b6feec118ea3941813d8ee9a55a">More...</a><br/></td></tr>
 <tr class="separator:a7ac99b6feec118ea3941813d8ee9a55a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cda5671fa87d3027ef73c40c8ff4e5f"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpn__space.html#a9cda5671fa87d3027ef73c40c8ff4e5f">lg_sent</a></td></tr>
 <tr class="separator:a9cda5671fa87d3027ef73c40c8ff4e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -111,8 +110,8 @@ Data Fields</h2></td></tr>
 <tr class="separator:a825467fc133c8e0c9c8a15152d089c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8026a26cf8a868e9243423fb83862ef"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpn__space.html#ab8026a26cf8a868e9243423fb83862ef">lg_sent_before_rto</a></td></tr>
 <tr class="separator:ab8026a26cf8a868e9243423fb83862ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb316f3b0ea75c1e0da6547a7b7334c9"><td class="memItemLeft" align="right" valign="top">ev_timer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpn__space.html#aeb316f3b0ea75c1e0da6547a7b7334c9">ack_alarm</a></td></tr>
-<tr class="separator:aeb316f3b0ea75c1e0da6547a7b7334c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6375783a5041f8c5eff2c3210f813777"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpn__space.html#a6375783a5041f8c5eff2c3210f813777">pkts_rxed_since_last_ack_tx</a></td></tr>
+<tr class="separator:a6375783a5041f8c5eff2c3210f813777"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a512280bf863a717677a82d02923fbf75"><td class="memItemLeft" align="right" valign="top">struct q_conn *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpn__space.html#a512280bf863a717677a82d02923fbf75">c</a></td></tr>
 <tr class="separator:a512280bf863a717677a82d02923fbf75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a249f8d1e0db4507220a831f7062bbbdd"><td class="memItemLeft" align="right" valign="top">struct frames&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpn__space.html#a249f8d1e0db4507220a831f7062bbbdd">rx_frames</a></td></tr>
@@ -126,18 +125,6 @@ Data Fields</h2></td></tr>
 <tr class="separator:a96550827186645aeec33f09adf1719de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Field Documentation</h2>
-<a class="anchor" id="aeb316f3b0ea75c1e0da6547a7b7334c9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ev_timer pn_space::ack_alarm</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a258b213b1fbb488b1d1dda308dcade45"></a>
 <div class="memitem">
 <div class="memproto">
@@ -236,6 +223,18 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a6375783a5041f8c5eff2c3210f813777"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t pn_space::pkts_rxed_since_last_ack_tx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a7227a74b96300049e4716959528092df"></a>
 <div class="memitem">
 <div class="memproto">
@@ -288,9 +287,6 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sent-but-unACKed packets. </p>
-<p>The <code>buf</code> and <code>len</code> fields of the <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> structs are relative to any stream or crypto data. </p>
-
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
@@ -299,7 +295,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 22 2019 12:52:51 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jan 24 2019 13:02:00 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

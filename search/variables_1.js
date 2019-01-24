@@ -4,7 +4,6 @@ var searchData=
   ['a0',['a0',['../structhmm__par__t.html#a89a3771f087a1352eed089aa5588d9be',1,'hmm_par_t::a0()'],['../structhmm__exp__t.html#a3e478104df486ba13c46f76205dce341',1,'hmm_exp_t::A0()']]],
   ['aadlen',['aadlen',['../structchacha20poly1305__context__t.html#a72095289116de2d513b03187f5592eb8',1,'chacha20poly1305_context_t']]],
   ['accept_5fqueue',['accept_queue',['../quic_8c.html#a529b3e85be5e0f15a6af3227e3f7c445',1,'accept_queue():&#160;quic.c'],['../quic_8h.html#a529b3e85be5e0f15a6af3227e3f7c445',1,'accept_queue():&#160;quic.c']]],
-  ['ack_5falarm',['ack_alarm',['../structpn__space.html#aeb316f3b0ea75c1e0da6547a7b7334c9',1,'pn_space']]],
   ['ack_5fblock_5fcnt',['ack_block_cnt',['../structpkt__meta.html#ad1832e1307ec64c29a877455b5f78000',1,'pkt_meta']]],
   ['ack_5fblock_5fpos',['ack_block_pos',['../structpkt__meta.html#aeffe2a16e53c9eb4d1a6080436c7de4c',1,'pkt_meta']]],
   ['ack_5fdel_5fexp',['ack_del_exp',['../structtransport__params.html#ae332eb1c8176a3916959caa35f810278',1,'transport_params']]],

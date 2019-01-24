@@ -44,8 +44,8 @@
 <area shape="rect" id="node39" href="$lib_2picotls_8c.html#a6b012c4c97a534e2d438f9e2a339ae76" title="client_handle_new_session\l_ticket" alt="" coords="656,259,837,301"/>
 <area shape="rect" id="node40" href="$lib_2picotls_8c.html#a53924e83d858225421f3427953bef42f" title="handle_key_update" alt="" coords="679,895,814,921"/>
 <area shape="rect" id="node43" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="463,1113,561,1140"/>
-<area shape="rect" id="node44" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="697,1113,797,1140"/>
-<area shape="rect" id="node45" href="$pn_8c.html#a8cb6a54f35c8a70e940f624856a0f7ab" title="ack_alarm" alt="" coords="705,1164,788,1191"/>
-<area shape="rect" id="node46" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="715,1215,779,1241"/>
+<area shape="rect" id="node44" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="715,1113,779,1140"/>
+<area shape="rect" id="node45" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="699,1164,795,1191"/>
+<area shape="rect" id="node46" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="705,1215,788,1241"/>
 <area shape="rect" id="node48" href="$warpcore_8h.html#a7b0a4ce49d35d188ceaaef1076ad831d" title="Allocate a w_iov tail queue for plen payload bytes, for eventual use with w_tx(). ..." alt="" coords="467,1164,557,1191"/>
 </map>

@@ -3,7 +3,7 @@ var searchData=
   ['abandon_5fpn',['abandon_pn',['../pn_8c.html#a01a6deaf5b4cd84917145356378f1004',1,'abandon_pn(struct q_conn *const c, const epoch_t e):&#160;pn.c'],['../pn_8h.html#a01a6deaf5b4cd84917145356378f1004',1,'abandon_pn(struct q_conn *const c, const epoch_t e):&#160;pn.c']]],
   ['abort',['abort',['../boot_8c.html#a8dec7c95227ff149687066cf04029191',1,'boot.c']]],
   ['absorb',['absorb',['../sha3_8c.html#a7b0476b4d7fe00494a1b3620dd647279',1,'sha3.c']]],
-  ['ack_5falarm',['ack_alarm',['../pn_8c.html#a8cb6a54f35c8a70e940f624856a0f7ab',1,'ack_alarm(struct ev_loop *const l, ev_timer *const w, int e):&#160;pn.c'],['../pn_8h.html#a8cb6a54f35c8a70e940f624856a0f7ab',1,'ack_alarm(struct ev_loop *const l, ev_timer *const w, int e):&#160;pn.c']]],
+  ['ack_5falarm',['ack_alarm',['../conn_8c.html#a4ba022a58c8ecd77d29357f7d1c30520',1,'conn.c']]],
   ['add',['add',['../curve25519_8naclref_8c.html#a632ddf968f189e43034312b67c0ddce9',1,'add(unsigned int out[32], const unsigned int a[32], const unsigned int b[32]):&#160;curve25519.naclref.c'],['../curve25519_8tweetnacl_8c.html#a9fdc9281352967dd0424ded0ae37818b',1,'add(gf o, const gf a, const gf b):&#160;curve25519.tweetnacl.c'],['../drbg_8c.html#ab13fd51f4f95f86b20c4ec0d97718df9',1,'add(uint8_t *out, size_t nout, const uint8_t *in, size_t nin):&#160;drbg.c']]],
   ['add_5faad',['add_aad',['../ccm_8c.html#a8512c94dcb657698d743d4ac9314f5d3',1,'ccm.c']]],
   ['add_5fblock0',['add_block0',['../ccm_8c.html#a1ab87bc41413bb4c373ac9ce853abf4d',1,'ccm.c']]],

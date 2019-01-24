@@ -242,7 +242,7 @@ var searchData=
   ['ttype',['ttype',['../structke1__s.html#ab359ccf386a6f97ced353228e69ab0a8',1,'ke1_s']]],
   ['twarn',['twarn',['../warpcore_2lib_2include_2warpcore_2util_8h.html#a917626b48701b5143bb6b9d8fe4be423',1,'util.h']]],
   ['tx',['tx',['../conn_8c.html#a1a9a96efc3be558373804c33a60df6b9',1,'tx(struct q_conn *const c, const uint32_t limit):&#160;conn.c'],['../conn_8h.html#a1a9a96efc3be558373804c33a60df6b9',1,'tx(struct q_conn *const c, const uint32_t limit):&#160;conn.c']]],
-  ['tx_5fack',['tx_ack',['../conn_8c.html#a87cb12b0afa8cdb9f2a41ce602d8ff96',1,'tx_ack(struct q_conn *const c, const epoch_t e):&#160;conn.c'],['../conn_8h.html#a87cb12b0afa8cdb9f2a41ce602d8ff96',1,'tx_ack(struct q_conn *const c, const epoch_t e):&#160;conn.c']]],
+  ['tx_5fack',['tx_ack',['../conn_8c.html#a707d9d89ae0b67ec0bac83dd24c21708',1,'conn.c']]],
   ['tx_5ffin',['tx_fin',['../structq__stream.html#aeb05fed803ecbed26b49a4deaf4503ea',1,'q_stream']]],
   ['tx_5fmax_5fstream_5fdata',['tx_max_stream_data',['../structq__stream.html#a2756b454995958d339e91b6de2c25551',1,'q_stream']]],
   ['tx_5fpending',['tx_pending',['../structw__iov__sq.html#ab9f873b767f2b85625cadd2cf8d17d8f',1,'w_iov_sq']]],

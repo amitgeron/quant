@@ -24,7 +24,7 @@ var searchData=
   ['plat_5fget_5fmtu',['plat_get_mtu',['../plat_8h.html#aed8665163695e9a71d2d423f978c4b6a',1,'plat_get_mtu(const struct ifaddrs *const i):&#160;plat.c'],['../plat_8c.html#ababcbad22db97091f566216a5b2b849f',1,'plat_get_mtu(const struct ifaddrs *i):&#160;plat.c']]],
   ['pm_5fby_5fnr_5fcmp',['pm_by_nr_cmp',['../pn_8h.html#a6ade5a95f9757fcb4e9098b1d5cf6ee2',1,'pn.h']]],
   ['pm_5fcpy',['pm_cpy',['../quic_8h.html#ab139ac46901fa03632f8075e6f800930',1,'quic.h']]],
-  ['pm_5ffree',['pm_free',['../quic_8c.html#aed433a65a751df6b54c091d8facbfb57',1,'pm_free(struct pkt_meta *const m):&#160;quic.c'],['../quic_8h.html#aed433a65a751df6b54c091d8facbfb57',1,'pm_free(struct pkt_meta *const m):&#160;quic.c']]],
+  ['pm_5ffree',['pm_free',['../quic_8c.html#afdf1ca29294e1d68ee999d1190c948ab',1,'pm_free(struct pkt_meta *const m, const bool do_free):&#160;quic.c'],['../quic_8h.html#afdf1ca29294e1d68ee999d1190c948ab',1,'pm_free(struct pkt_meta *const m, const bool do_free):&#160;quic.c']]],
   ['pn_5ffor_5fepoch',['pn_for_epoch',['../conn_8h.html#a526357c19864e7579573160573a55c33',1,'conn.h']]],
   ['pn_5ffor_5fpkt_5ftype',['pn_for_pkt_type',['../pkt_8h.html#a13f2d88ad76ff338e531972ca1c0449e',1,'pkt.h']]],
   ['poly1305_5fadd',['poly1305_add',['../poly1305_8c.html#a234cdf38cbd09f9be5b48367cfa5ac73',1,'poly1305.c']]],

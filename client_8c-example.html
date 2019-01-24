@@ -293,6 +293,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">        <span class="keywordflow">if</span> (do_h3) {</div>
 <div class="line">            <span class="comment">// we need to open a uni stream for an empty H/3 SETTINGS frame</span></div>
 <div class="line">            <span class="keyword">struct </span><a class="code" href="structq__stream.html">q_stream</a> * <span class="keyword">const</span> ss = <a name="a28"></a><a class="code" href="quant_8h.html#a7882234166a0aaac582c25c4c8a581b8">q_rsv_stream</a>(cce-&gt;c, <span class="keyword">false</span>);</div>
+<div class="line">            <span class="keywordflow">if</span> (ss == 0)</div>
+<div class="line">                <span class="keywordflow">return</span> 0;</div>
 <div class="line">            <span class="keyword">static</span> <span class="keyword">const</span> uint8_t h3_empty_settings[] = {0x43, 0x00, 0x04};</div>
 <div class="line">            <span class="comment">// XXX lsquic doesn&#39;t like a FIN on this stream</span></div>
 <div class="line">            <a name="a29"></a><a class="code" href="quant_8h.html#a3fe837399476c6ae443a5f17b5eb644f">q_write_str</a>(w, ss, (<span class="keyword">const</span> <span class="keywordtype">char</span> *)h3_empty_settings,</div>
@@ -302,6 +304,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"></div>
 <div class="line">    } <span class="keywordflow">else</span> {</div>
 <div class="line">        se-&gt;s = <a class="code" href="quant_8h.html#a7882234166a0aaac582c25c4c8a581b8">q_rsv_stream</a>(cce-&gt;c, <span class="keyword">true</span>);</div>
+<div class="line">        <span class="keywordflow">if</span> (se-&gt;s == 0)</div>
+<div class="line">            <span class="keywordflow">return</span> 0;</div>
 <div class="line">        <a name="a30"></a><a class="code" href="quant_8h.html#a84a599e3fc846bd85dae279762ca9851">q_write</a>(se-&gt;s, &amp;req, <span class="keyword">true</span>);</div>
 <div class="line">    }</div>
 <div class="line">    se-&gt;c = cce-&gt;c;</div>
@@ -448,13 +452,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">        uint32_t n = 0;</div>
 <div class="line">        <a name="a52"></a><a class="code" href="queue_8h.html#a761acddd0a38de75bf2777998f69add5">sq_foreach</a> (v, &amp;i, next) {</div>
 <div class="line">            <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a1011ec002411388144b5eea764f90d83">ensure</a>(write(fd, v-&gt;<a name="a53"></a><a class="code" href="structw__iov.html#a2b33510e8a5b556deef4fb2b29b62a9e">buf</a>, v-&gt;<a name="a54"></a><a class="code" href="structw__iov.html#a362d3a1b5838b941b52350f86be23f4d">len</a>) != -1, <span class="stringliteral">&quot;cannot write&quot;</span>);</div>
-<div class="line">            <span class="keywordflow">if</span> (n &lt; 4 || v == <a name="a55"></a><a class="code" href="queue_8h.html#a96983e6ad7b9e7685c799540b7f78e8b">sq_last</a>(&amp;i, <a class="code" href="structw__iov.html">w_iov</a>, next)) {</div>
+<div class="line">            <span class="comment">// XXX the strnlen() test is super-hacky</span></div>
+<div class="line">            <span class="keywordflow">if</span> (do_h3 &amp;&amp; n == 0 &amp;&amp; strnlen((<span class="keywordtype">char</span> *)v-&gt;<a class="code" href="structw__iov.html#a2b33510e8a5b556deef4fb2b29b62a9e">buf</a>, v-&gt;<a class="code" href="structw__iov.html#a362d3a1b5838b941b52350f86be23f4d">len</a>) == v-&gt;<a class="code" href="structw__iov.html#a362d3a1b5838b941b52350f86be23f4d">len</a>)</div>
+<div class="line">                <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a75fb9e13fe5fdbdbf4f0b7f34d25a887">warn</a>(<a name="a55"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a5806c572b7b8636004096dc51a03ff88">WRN</a>, <span class="stringliteral">&quot;no h3 payload&quot;</span>);</div>
+<div class="line">            <span class="keywordflow">if</span> (n &lt; 4 || v == <a name="a56"></a><a class="code" href="queue_8h.html#a96983e6ad7b9e7685c799540b7f78e8b">sq_last</a>(&amp;i, <a class="code" href="structw__iov.html">w_iov</a>, next)) {</div>
 <div class="line">                <span class="comment">// don&#39;t print newlines to console log</span></div>
 <div class="line">                <span class="keywordflow">for</span> (uint16_t p = 0; p &lt; v-&gt;<a class="code" href="structw__iov.html#a362d3a1b5838b941b52350f86be23f4d">len</a>; p++)</div>
 <div class="line">                    <span class="keywordflow">if</span> (v-&gt;<a class="code" href="structw__iov.html#a2b33510e8a5b556deef4fb2b29b62a9e">buf</a>[p] == <span class="charliteral">&#39;\n&#39;</span> || v-&gt;<a class="code" href="structw__iov.html#a2b33510e8a5b556deef4fb2b29b62a9e">buf</a>[p] == <span class="charliteral">&#39;\r&#39;</span>)</div>
 <div class="line">                        v-&gt;<a class="code" href="structw__iov.html#a2b33510e8a5b556deef4fb2b29b62a9e">buf</a>[p] = <span class="charliteral">&#39; &#39;</span>;</div>
 <div class="line">                <span class="keywordflow">if</span> (do_h3)</div>
-<div class="line">                    <a name="a56"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a1ecaf849af500832b2da48e3c60794de">hexdump</a>(v-&gt;<a class="code" href="structw__iov.html#a2b33510e8a5b556deef4fb2b29b62a9e">buf</a>, v-&gt;<a class="code" href="structw__iov.html#a362d3a1b5838b941b52350f86be23f4d">len</a>);</div>
+<div class="line">                    <a name="a57"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a1ecaf849af500832b2da48e3c60794de">hexdump</a>(v-&gt;<a class="code" href="structw__iov.html#a2b33510e8a5b556deef4fb2b29b62a9e">buf</a>, v-&gt;<a class="code" href="structw__iov.html#a362d3a1b5838b941b52350f86be23f4d">len</a>);</div>
 <div class="line">                <span class="keywordflow">else</span></div>
 <div class="line">                    printf(<span class="stringliteral">&quot;%.*s&quot;</span>, v-&gt;<a class="code" href="structw__iov.html#a362d3a1b5838b941b52350f86be23f4d">len</a>, v-&gt;<a class="code" href="structw__iov.html#a2b33510e8a5b556deef4fb2b29b62a9e">buf</a>);</div>
 <div class="line">            } <span class="keywordflow">else</span></div>
@@ -463,20 +470,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">        }</div>
 <div class="line">        printf(<span class="stringliteral">&quot;\n&quot;</span>);</div>
 <div class="line">        close(fd);</div>
-<div class="line">        <a name="a57"></a><a class="code" href="quant_8h.html#a4a7935a14e509d989eda300f16daf086">q_free</a>(&amp;i);</div>
+<div class="line">        <a name="a58"></a><a class="code" href="quant_8h.html#a4a7935a14e509d989eda300f16daf086">q_free</a>(&amp;i);</div>
 <div class="line">    }</div>
 <div class="line"></div>
 <div class="line"><a class="code" href="inetd_8c.html#a1d39aac66e12dae50a24cd7a9100ef33">done</a>:</div>
-<div class="line">    <a name="a58"></a><a class="code" href="quant_8h.html#a22f108de18d6532a45071881f7fb4dca">q_cleanup</a>(w);</div>
+<div class="line">    <a name="a59"></a><a class="code" href="quant_8h.html#a22f108de18d6532a45071881f7fb4dca">q_cleanup</a>(w);</div>
 <div class="line">    free_cc(&amp;cc);</div>
 <div class="line">    free_sl();</div>
-<div class="line">    <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a75fb9e13fe5fdbdbf4f0b7f34d25a887">warn</a>(<a name="a59"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a49606be7356624568932ec81c0d429f4">DBG</a>, <span class="stringliteral">&quot;%s exiting&quot;</span>, <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#abf5f17d3254f2e930aee0dc34dbff071">basename</a>(argv[0]));</div>
+<div class="line">    <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a75fb9e13fe5fdbdbf4f0b7f34d25a887">warn</a>(<a name="a60"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a49606be7356624568932ec81c0d429f4">DBG</a>, <span class="stringliteral">&quot;%s exiting&quot;</span>, <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#abf5f17d3254f2e930aee0dc34dbff071">basename</a>(argv[0]));</div>
 <div class="line">    <span class="keywordflow">return</span> ret;</div>
 <div class="line">}</div>
 </div><!-- fragment --> </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 22 2019 12:52:47 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jan 24 2019 13:01:56 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

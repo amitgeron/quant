@@ -1,16 +1,16 @@
 <map id="src/frame.h" name="src/frame.h">
-<area shape="rect" id="node2" href="$quic_8h.html" title="src/quic.h" alt="" coords="769,80,847,107"/>
-<area shape="rect" id="node5" href="$conn_8c.html" title="src/conn.c" alt="" coords="213,379,295,405"/>
-<area shape="rect" id="node7" href="$frame_8c.html" title="src/frame.c" alt="" coords="367,379,455,405"/>
-<area shape="rect" id="node8" href="$pkt_8c.html" title="src/pkt.c" alt="" coords="526,379,599,405"/>
-<area shape="rect" id="node10" href="$recovery_8c.html" title="src/recovery.c" alt="" coords="1258,379,1363,405"/>
-<area shape="rect" id="node11" href="$tls_8c.html" title="src/tls.c" alt="" coords="1507,379,1576,405"/>
-<area shape="rect" id="node3" href="$pn_8h.html" title="src/pn.h" alt="" coords="845,155,915,181"/>
-<area shape="rect" id="node4" href="$conn_8h.html" title="src/conn.h" alt="" coords="803,229,884,256"/>
-<area shape="rect" id="node6" href="$pkt_8h.html" title="src/pkt.h" alt="" coords="702,304,775,331"/>
-<area shape="rect" id="node9" href="$quic_8c.html" title="src/quic.c" alt="" coords="1037,379,1115,405"/>
-<area shape="rect" id="node12" href="$stream_8h.html" title="src/stream.h" alt="" coords="953,304,1047,331"/>
-<area shape="rect" id="node14" href="$stream_8c.html" title="src/stream.c" alt="" coords="1139,379,1233,405"/>
-<area shape="rect" id="node15" href="$recovery_8h.html" title="src/recovery.h" alt="" coords="521,155,625,181"/>
-<area shape="rect" id="node13" href="$pn_8c.html" title="src/pn.c" alt="" coords="855,379,924,405"/>
+<area shape="rect" id="node2" href="$quic_8h.html" title="src/quic.h" alt="" coords="859,80,937,107"/>
+<area shape="rect" id="node5" href="$conn_8c.html" title="src/conn.c" alt="" coords="1380,379,1461,405"/>
+<area shape="rect" id="node7" href="$frame_8c.html" title="src/frame.c" alt="" coords="316,379,404,405"/>
+<area shape="rect" id="node8" href="$pkt_8c.html" title="src/pkt.c" alt="" coords="1146,379,1219,405"/>
+<area shape="rect" id="node10" href="$recovery_8c.html" title="src/recovery.c" alt="" coords="982,379,1087,405"/>
+<area shape="rect" id="node11" href="$tls_8c.html" title="src/tls.c" alt="" coords="172,379,241,405"/>
+<area shape="rect" id="node3" href="$pn_8h.html" title="src/pn.h" alt="" coords="603,155,672,181"/>
+<area shape="rect" id="node4" href="$conn_8h.html" title="src/conn.h" alt="" coords="772,229,853,256"/>
+<area shape="rect" id="node6" href="$pkt_8h.html" title="src/pkt.h" alt="" coords="601,304,673,331"/>
+<area shape="rect" id="node9" href="$quic_8c.html" title="src/quic.c" alt="" coords="598,379,676,405"/>
+<area shape="rect" id="node12" href="$stream_8h.html" title="src/stream.h" alt="" coords="851,304,945,331"/>
+<area shape="rect" id="node14" href="$stream_8c.html" title="src/stream.c" alt="" coords="1243,379,1337,405"/>
+<area shape="rect" id="node15" href="$recovery_8h.html" title="src/recovery.h" alt="" coords="965,155,1069,181"/>
+<area shape="rect" id="node13" href="$pn_8c.html" title="src/pn.c" alt="" coords="728,379,797,405"/>
 </map>

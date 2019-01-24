@@ -1,4 +1,5 @@
 <map id="on_ack_received_1" name="on_ack_received_1">
-<area shape="rect" id="node2" href="$recovery_8c.html#a12dab1a1456c6b3039d1ab3c390106a0" title="update_rtt" alt="" coords="189,5,269,32"/>
-<area shape="rect" id="node3" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="317,5,381,32"/>
+<area shape="rect" id="node2" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="190,5,301,32"/>
+<area shape="rect" id="node3" href="$recovery_8c.html#a8c66bae29e49c4b7408c983d65f0a1ac" title="update_rtt" alt="" coords="205,56,285,83"/>
+<area shape="rect" id="node4" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="349,56,413,83"/>
 </map>

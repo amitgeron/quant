@@ -91,34 +91,30 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">pn.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="pn_8h_source.html">pn.h</a>&quot;</code><br/>
+<div class="textblock"><code>#include &lt;stdbool.h&gt;</code><br/>
 <code>#include &quot;<a class="el" href="conn_8h_source.html">conn.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="recovery_8h_source.html">recovery.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="pn_8h_source.html">pn.h</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="stream_8h_source.html">stream.h</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for pn.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="pn_8c__incl.png" border="0" usemap="#src_2pn_8c" alt=""/></div>
 <map name="src_2pn_8c" id="src_2pn_8c">
-<area shape="rect" id="node2" href="pn_8h.html" title="pn.h" alt="" coords="935,229,981,256"/><area shape="rect" id="node28" href="conn_8h.html" title="conn.h" alt="" coords="714,155,775,181"/><area shape="rect" id="node34" href="recovery_8h.html" title="recovery.h" alt="" coords="1125,229,1206,256"/><area shape="rect" id="node35" href="stream_8h.html" title="stream.h" alt="" coords="1297,80,1370,107"/><area shape="rect" id="node6" href="warpcore_8h.html" title="warpcore/warpcore.h" alt="" coords="1153,379,1295,405"/><area shape="rect" id="node17" href="diet_8h.html" title="diet.h" alt="" coords="804,304,858,331"/><area shape="rect" id="node19" href="quic_8h.html" title="quic.h" alt="" coords="1137,304,1194,331"/><area shape="rect" id="node24" href="tls_8h.html" title="tls.h" alt="" coords="167,304,213,331"/><area shape="rect" id="node8" href="deps_2warpcore_2lib_2include_2warpcore_2config_8h.html" title="warpcore/config.h" alt="" coords="870,453,995,480"/><area shape="rect" id="node9" href="plat_8h.html" title="warpcore/plat.h" alt="" coords="1407,453,1517,480"/><area shape="rect" id="node11" href="queue_8h.html" title="warpcore/queue.h" alt="" coords="1019,453,1145,480"/><area shape="rect" id="node12" href="tree_8h.html" title="warpcore/tree.h" alt="" coords="1169,453,1279,480"/><area shape="rect" id="node13" href="warpcore_2lib_2include_2warpcore_2util_8h.html" title="warpcore/util.h" alt="" coords="1835,453,1942,480"/><area shape="rect" id="node22" href="bitset_8h.html" title="bitset.h" alt="" coords="1593,453,1658,480"/><area shape="rect" id="node23" href="frame_8h.html" title="frame.h" alt="" coords="1375,379,1442,405"/><area shape="rect" id="node25" href="picotls_8h.html" title="picotls.h" alt="" coords="149,379,219,405"/><area shape="rect" id="node33" href="fnv1a_8h.html" title="fnv1a.h" alt="" coords="469,304,534,331"/></map>
+<area shape="rect" id="node3" href="conn_8h.html" title="conn.h" alt="" coords="839,155,900,181"/><area shape="rect" id="node26" href="pn_8h.html" title="pn.h" alt="" coords="1233,229,1279,256"/><area shape="rect" id="node35" href="stream_8h.html" title="stream.h" alt="" coords="1103,80,1176,107"/><area shape="rect" id="node13" href="warpcore_8h.html" title="warpcore/warpcore.h" alt="" coords="1039,379,1181,405"/><area shape="rect" id="node23" href="diet_8h.html" title="diet.h" alt="" coords="1229,304,1283,331"/><area shape="rect" id="node25" href="fnv1a_8h.html" title="fnv1a.h" alt="" coords="1359,304,1424,331"/><area shape="rect" id="node27" href="quic_8h.html" title="quic.h" alt="" coords="581,304,637,331"/><area shape="rect" id="node30" href="tls_8h.html" title="tls.h" alt="" coords="1449,304,1495,331"/><area shape="rect" id="node34" href="recovery_8h.html" title="recovery.h" alt="" coords="483,229,564,256"/><area shape="rect" id="node15" href="deps_2warpcore_2lib_2include_2warpcore_2config_8h.html" title="warpcore/config.h" alt="" coords="1048,453,1173,480"/><area shape="rect" id="node16" href="plat_8h.html" title="warpcore/plat.h" alt="" coords="755,453,865,480"/><area shape="rect" id="node18" href="queue_8h.html" title="warpcore/queue.h" alt="" coords="1197,453,1323,480"/><area shape="rect" id="node19" href="tree_8h.html" title="warpcore/tree.h" alt="" coords="1347,453,1457,480"/><area shape="rect" id="node20" href="warpcore_2lib_2include_2warpcore_2util_8h.html" title="warpcore/util.h" alt="" coords="75,453,181,480"/><area shape="rect" id="node28" href="bitset_8h.html" title="bitset.h" alt="" coords="462,453,527,480"/><area shape="rect" id="node29" href="frame_8h.html" title="frame.h" alt="" coords="659,379,725,405"/><area shape="rect" id="node31" href="picotls_8h.html" title="picotls.h" alt="" coords="1742,379,1812,405"/></map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a805597624cb1f11414c53599dd3743e2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46">epoch_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pn_8c.html#a805597624cb1f11414c53599dd3743e2">epoch_for_pn</a> (const struct <a class="el" href="structpn__space.html">pn_space</a> *pn)</td></tr>
-<tr class="separator:a805597624cb1f11414c53599dd3743e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cb6a54f35c8a70e940f624856a0f7ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pn_8c.html#a8cb6a54f35c8a70e940f624856a0f7ab">ack_alarm</a> (struct ev_loop *const l, ev_timer *const <a class="el" href="fuzz_8c.html#a8bedaecc1f0b28f6c3ec357ca967b33a">w</a>, int e)</td></tr>
-<tr class="separator:a8cb6a54f35c8a70e940f624856a0f7ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68ef34c8ed7a49ffc9f0d08be962dcfe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pn_8c.html#a68ef34c8ed7a49ffc9f0d08be962dcfe">init_pn</a> (struct <a class="el" href="structpn__space.html">pn_space</a> *const pn, struct q_conn *const c, const ev_tstamp ack_del)</td></tr>
-<tr class="separator:a68ef34c8ed7a49ffc9f0d08be962dcfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a52ace3d6774524e581f1411c0da8f7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pn_8c.html#a2a52ace3d6774524e581f1411c0da8f7">do_free_pn</a> (struct <a class="el" href="structpn__space.html">pn_space</a> *const pn, const bool <a class="el" href="quic_8h.html#a98dd92860af790cc62791a991d5d8fbe">free_iov</a>, const bool remove_iov)</td></tr>
-<tr class="separator:a2a52ace3d6774524e581f1411c0da8f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad39de552086c127310c3250f2982dcb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pn_8c.html#ad39de552086c127310c3250f2982dcb5">reset_pn</a> (struct <a class="el" href="structpn__space.html">pn_space</a> *const pn)</td></tr>
-<tr class="separator:ad39de552086c127310c3250f2982dcb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08111eb107b4ea7f913acc44b761bda0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pn_8c.html#a08111eb107b4ea7f913acc44b761bda0">init_pn</a> (struct <a class="el" href="structpn__space.html">pn_space</a> *const pn, struct q_conn *const c)</td></tr>
+<tr class="separator:a08111eb107b4ea7f913acc44b761bda0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b132beb2506faada16af74535e27fec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pn_8c.html#a3b132beb2506faada16af74535e27fec">free_pn</a> (struct <a class="el" href="structpn__space.html">pn_space</a> *const pn)</td></tr>
 <tr class="separator:a3b132beb2506faada16af74535e27fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad39de552086c127310c3250f2982dcb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pn_8c.html#ad39de552086c127310c3250f2982dcb5">reset_pn</a> (struct <a class="el" href="structpn__space.html">pn_space</a> *const pn)</td></tr>
+<tr class="separator:ad39de552086c127310c3250f2982dcb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01a6deaf5b4cd84917145356378f1004"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pn_8c.html#a01a6deaf5b4cd84917145356378f1004">abandon_pn</a> (struct q_conn *const c, const <a class="el" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46">epoch_t</a> e)</td></tr>
 <tr class="separator:a01a6deaf5b4cd84917145356378f1004"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f1a6720a0e3506c0553d13ad865510f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="pn_8h.html#a49344ebbbbc537e07a72eeb725db4246">ack_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pn_8c.html#a7f1a6720a0e3506c0553d13ad865510f">needs_ack</a> (const struct <a class="el" href="structpn__space.html">pn_space</a> *const pn)</td></tr>
+<tr class="separator:a7f1a6720a0e3506c0553d13ad865510f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a01a6deaf5b4cd84917145356378f1004"></a>
@@ -150,123 +146,9 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="pn_8c_a01a6deaf5b4cd84917145356378f1004_cgraph.png" border="0" usemap="#pn_8c_a01a6deaf5b4cd84917145356378f1004_cgraph" alt=""/></div>
 <map name="pn_8c_a01a6deaf5b4cd84917145356378f1004_cgraph" id="pn_8c_a01a6deaf5b4cd84917145356378f1004_cgraph">
-<area shape="rect" id="node2" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="320,157,403,184"/><area shape="rect" id="node3" href="pn_8c.html#a2a52ace3d6774524e581f1411c0da8f7" title="do_free_pn" alt="" coords="158,81,245,108"/><area shape="rect" id="node7" href="stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="156,208,247,235"/><area shape="rect" id="node15" href="tls_8c.html#a0e432c22353f0539562e3eb2382001e2" title="dispose_cipher" alt="" coords="147,360,256,387"/><area shape="rect" id="node4" href="quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="306,5,417,32"/><area shape="rect" id="node5" href="warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="333,107,389,133"/><area shape="rect" id="node6" href="diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="diet_free" alt="" coords="325,56,397,83"/><area shape="rect" id="node8" href="diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type t into the diet tree t. " alt="" coords="320,208,403,235"/><area shape="rect" id="node13" href="stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="316,259,407,285"/><area shape="rect" id="node14" href="quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="332,309,391,336"/><area shape="rect" id="node9" href="diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree t. " alt="" coords="473,132,543,159"/><area shape="rect" id="node10" href="diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="471,183,545,209"/><area shape="rect" id="node11" href="diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="473,233,543,260"/><area shape="rect" id="node12" href="diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="467,284,549,311"/><area shape="rect" id="node16" href="picotls_8h.html#aadec89f296f10258b21ce9daa255d485" title="destroys an AEAD cipher context " alt="" coords="308,360,415,387"/><area shape="rect" id="node17" href="picotls_8h.html#ae57011fb3506f15237ead4f3146acc01" title="destroys a symmetric cipher " alt="" coords="304,411,419,437"/></map>
+<area shape="rect" id="node2" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="320,56,403,83"/><area shape="rect" id="node3" href="pn_8c.html#a3b132beb2506faada16af74535e27fec" title="free_pn" alt="" coords="169,12,234,39"/><area shape="rect" id="node5" href="stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="156,151,247,177"/><area shape="rect" id="node14" href="tls_8c.html#a0e432c22353f0539562e3eb2382001e2" title="dispose_cipher" alt="" coords="147,309,256,336"/><area shape="rect" id="node4" href="diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="diet_free" alt="" coords="325,5,397,32"/><area shape="rect" id="node6" href="diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type t into the diet tree t. " alt="" coords="320,107,403,133"/><area shape="rect" id="node11" href="stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="316,157,407,184"/><area shape="rect" id="node12" href="warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="333,208,389,235"/><area shape="rect" id="node13" href="quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="332,259,391,285"/><area shape="rect" id="node7" href="diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree t. " alt="" coords="473,31,543,57"/><area shape="rect" id="node8" href="diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="471,81,545,108"/><area shape="rect" id="node9" href="diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="473,132,543,159"/><area shape="rect" id="node10" href="diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="467,183,549,209"/><area shape="rect" id="node15" href="picotls_8h.html#aadec89f296f10258b21ce9daa255d485" title="destroys an AEAD cipher context " alt="" coords="308,309,415,336"/><area shape="rect" id="node16" href="picotls_8h.html#ae57011fb3506f15237ead4f3146acc01" title="destroys a symmetric cipher " alt="" coords="304,360,419,387"/></map>
 </div>
 </p>
-
-</div>
-</div>
-<a class="anchor" id="a8cb6a54f35c8a70e940f624856a0f7ab"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ack_alarm </td>
-          <td>(</td>
-          <td class="paramtype">struct ev_loop *const&#160;</td>
-          <td class="paramname"><em>l</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ev_timer *const&#160;</td>
-          <td class="paramname"><em>w</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="pn_8c_a8cb6a54f35c8a70e940f624856a0f7ab_cgraph.png" border="0" usemap="#pn_8c_a8cb6a54f35c8a70e940f624856a0f7ab_cgraph" alt=""/></div>
-<map name="pn_8c_a8cb6a54f35c8a70e940f624856a0f7ab_cgraph" id="pn_8c_a8cb6a54f35c8a70e940f624856a0f7ab_cgraph">
-<area shape="rect" id="node2" href="pn_8h.html#aa7ed02733032177ff456b060fa0eed8e" title="needs_ack" alt="" coords="436,107,521,133"/><area shape="rect" id="node5" href="conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0" title="has_pval_wnd" alt="" coords="798,512,903,539"/><area shape="rect" id="node6" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="983,588,1065,615"/><area shape="rect" id="node7" href="pn_8c.html#a805597624cb1f11414c53599dd3743e2" title="epoch_for_pn" alt="" coords="137,1608,237,1635"/><area shape="rect" id="node8" href="conn_8c.html#a87cb12b0afa8cdb9f2a41ce602d8ff96" title="tx_ack" alt="" coords="156,208,217,235"/><area shape="rect" id="node3" href="diet_8h.html#aad21e3b897b17d0c86fce4a174e80ab0" title="diet_empty" alt="" coords="633,5,719,32"/><area shape="rect" id="node4" href="quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="621,563,731,589"/><area shape="rect" id="node9" href="conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="801,1136,901,1163"/><area shape="rect" id="node10" href="conn_8h.html#ab12c601471f4fcfae92c53fbca85b32e" title="conn_needs_ctrl" alt="" coords="617,56,735,83"/><area shape="rect" id="node13" href="pkt_8c.html#a13f259191e295bb7cf7d34bb79d76bc5" title="enc_pkt" alt="" coords="286,816,354,843"/><area shape="rect" id="node32" href="conn_8c.html#a061f6268bdb3054227eedf2ca20cb8a1" title="do_tx" alt="" coords="649,208,703,235"/><area shape="rect" id="node11" href="conn_8h.html#a90b995546c499b521dcb4bf6cc7e39f1" title="epoch_in" alt="" coords="813,56,888,83"/><area shape="rect" id="node12" href="picotls_8h.html#aa6a0008d415e04f0d67db03fdb2113de" title="Return the current read epoch. " alt="" coords="953,56,1095,83"/><area shape="rect" id="node14" href="stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="631,816,721,843"/><area shape="rect" id="node15" href="openssl_8h.html#a2514cd53d441b44478641a1643af622d" title="ptls_openssl_random\l_bytes" alt="" coords="406,1019,551,1061"/><area shape="rect" id="node17" href="quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="643,883,709,909"/><area shape="rect" id="node18" href="conn_8c.html#ada89723c147c3959024e404cea1cd2f4" title="update_act_scid" alt="" coords="420,1187,537,1213"/><area shape="rect" id="node23" href="pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="1145,1393,1194,1420"/><area shape="rect" id="node24" href="pkt_8c.html#adb9f7ed98b4a9aa5dbab4df08c78ea0c" title="needed_pkt_nr_len" alt="" coords="413,1085,544,1112"/><area shape="rect" id="node25" href="pkt_8c.html#a6419e978eb233947f0bf7805663171fc" title="enc_lh_cids" alt="" coords="433,917,524,944"/><area shape="rect" id="node26" href="pkt_8c.html#aad4456e4786b31e02e1e4c81e265d442" title="log_pkt" alt="" coords="819,1557,883,1584"/><area shape="rect" id="node28" href="conn_8c.html#a1a9a96efc3be558373804c33a60df6b9" title="tx" alt="" coords="459,157,498,184"/><area shape="rect" id="node38" href="frame_8c.html#ad33d4ffd79b410b355647b882fcecd94" title="enc_ack_frame" alt="" coords="423,1136,534,1163"/><area shape="rect" id="node39" href="frame_8c.html#a35e96a60869ff030118503cb8a81f715" title="enc_close_frame" alt="" coords="418,411,539,437"/><area shape="rect" id="node40" href="warpcore_8h.html#a280e62a55aab21fe0b23a7e9ade1a588" title="Return MTU of w_engine w. " alt="" coords="448,461,509,488"/><area shape="rect" id="node41" href="frame_8c.html#a424f6073840f8f7a1599dd1b197dc591" title="enc_ping_frame" alt="" coords="421,512,536,539"/><area shape="rect" id="node42" href="pkt_8c.html#a0123963315143471e2cc3a99881a3c66" title="enc_other_frames" alt="" coords="415,563,542,589"/><area shape="rect" id="node43" href="frame_8c.html#a0d8bea0a0a229b796505008855eb17f0" title="enc_padding_frame" alt="" coords="411,664,546,691"/><area shape="rect" id="node44" href="frame_8c.html#ae94d6f87955af69345cb46c9d03ad90f" title="log_stream_or_crypto\l_frame" alt="" coords="603,1289,749,1330"/><area shape="rect" id="node45" href="frame_8c.html#a6134c4faa49bbd6fbc29589f12350400" title="enc_stream_or_crypto\l_frame" alt="" coords="403,1339,554,1381"/><area shape="rect" id="node46" href="warpcore_8h.html#aa17e20ed409edbfe18aa79ae5da640ff" title="Return a spare w_iov from the pool of the given warpcore engine. " alt="" coords="433,715,524,741"/><area shape="rect" id="node47" href="tls_8c.html#a1193e69500fa37d706399a825b799526" title="enc_aead" alt="" coords="985,461,1063,488"/><area shape="rect" id="node48" href="recovery_8c.html#a9749ec5110f82cad7875d3ec8b94199d" title="on_pkt_sent" alt="" coords="432,765,525,792"/><area shape="rect" id="node49" href="tls_8c.html#a8984aa5b25b32bb8e40aef64f3164fc0" title="maybe_flip_keys" alt="" coords="419,968,539,995"/><area shape="rect" id="node50" href="pn_8c.html#a01a6deaf5b4cd84917145356378f1004" title="abandon_pn" alt="" coords="805,613,897,640"/><area shape="rect" id="node16" href="boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="651,933,701,960"/><area shape="rect" id="node19" href="conn_8c.html#a157de1b1117fd595bca3a0d2a82184db" title="conns_by_id_del" alt="" coords="617,1035,735,1061"/><area shape="rect" id="node20" href="conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78" title="cids_by_id_del" alt="" coords="622,1085,730,1112"/><area shape="rect" id="node21" href="conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8" title="cids_by_id_ins" alt="" coords="622,1136,730,1163"/><area shape="rect" id="node22" href="conn_8c.html#a3970d1f884f75ab86ab622e00bf9fce7" title="conns_by_id_ins" alt="" coords="617,1187,735,1213"/><area shape="rect" id="node27" href="pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="977,1431,1071,1457"/><area shape="rect" id="node29" href="conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="627,512,725,539"/><area shape="rect" id="node30" href="conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80" title="do_conn_mgmt" alt="" coords="621,107,731,133"/><area shape="rect" id="node31" href="conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87" title="tx_stream" alt="" coords="636,411,716,437"/><area shape="rect" id="node33" href="pkt_8c.html#a1f839697f5c2cb2a8b086249c85399bc" title="coalesce" alt="" coords="813,411,888,437"/><area shape="rect" id="node34" href="warpcore_8h.html#ac4f053bd8ffef52d164823134d732f51" title="Loops over the w_iov structures in the w_iov_sq o, sending them all over w_sock s. " alt="" coords="825,208,876,235"/><area shape="rect" id="node35" href="warpcore_8h.html#a0c90e71507fd384ce951e600da9f04f6" title="Return the number of w_iov structs in q that are still waiting for transmission. " alt="" coords="799,259,902,285"/><area shape="rect" id="node36" href="warpcore_8h.html#a3fba5669717435248ca7b7945a9b9d75" title="Push data placed in the TX rings via udp_tx() and similar methods out onto the link. " alt="" coords="813,309,888,336"/><area shape="rect" id="node37" href="warpcore_8h.html#a960d81cdf30fb1dc693447ba4763f977" title="Return a w_iov tail queue obtained via w_alloc_len(), w_alloc_cnt() or w_rx() back to warpcore..." alt="" coords="820,157,881,184"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a2a52ace3d6774524e581f1411c0da8f7"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void do_free_pn </td>
-          <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structpn__space.html">pn_space</a> *const&#160;</td>
-          <td class="paramname"><em>pn</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const bool&#160;</td>
-          <td class="paramname"><em>free_iov</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const bool&#160;</td>
-          <td class="paramname"><em>remove_iov</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="pn_8c_a2a52ace3d6774524e581f1411c0da8f7_cgraph.png" border="0" usemap="#pn_8c_a2a52ace3d6774524e581f1411c0da8f7_cgraph" alt=""/></div>
-<map name="pn_8c_a2a52ace3d6774524e581f1411c0da8f7_cgraph" id="pn_8c_a2a52ace3d6774524e581f1411c0da8f7_cgraph">
-<area shape="rect" id="node2" href="quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="142,5,253,32"/><area shape="rect" id="node3" href="warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="169,56,225,83"/><area shape="rect" id="node4" href="diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="diet_free" alt="" coords="161,107,233,133"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a805597624cb1f11414c53599dd3743e2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46">epoch_t</a> epoch_for_pn </td>
-          <td>(</td>
-          <td class="paramtype">const struct <a class="el" href="structpn__space.html">pn_space</a> *&#160;</td>
-          <td class="paramname"><em>pn</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -289,13 +171,13 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="pn_8c_a3b132beb2506faada16af74535e27fec_cgraph.png" border="0" usemap="#pn_8c_a3b132beb2506faada16af74535e27fec_cgraph" alt=""/></div>
 <map name="pn_8c_a3b132beb2506faada16af74535e27fec_cgraph" id="pn_8c_a3b132beb2506faada16af74535e27fec_cgraph">
-<area shape="rect" id="node2" href="pn_8c.html#a2a52ace3d6774524e581f1411c0da8f7" title="do_free_pn" alt="" coords="121,56,207,83"/><area shape="rect" id="node3" href="quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="257,5,367,32"/><area shape="rect" id="node4" href="warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="284,56,340,83"/><area shape="rect" id="node5" href="diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="diet_free" alt="" coords="276,107,348,133"/></map>
+<area shape="rect" id="node2" href="diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="diet_free" alt="" coords="120,5,192,32"/></map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a68ef34c8ed7a49ffc9f0d08be962dcfe"></a>
+<a class="anchor" id="a08111eb107b4ea7f913acc44b761bda0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -309,13 +191,7 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">struct q_conn *const&#160;</td>
-          <td class="paramname"><em>c</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const ev_tstamp&#160;</td>
-          <td class="paramname"><em>ack_del</em>&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -325,12 +201,28 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a class="anchor" id="a7f1a6720a0e3506c0553d13ad865510f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="pn_8h.html#a49344ebbbbc537e07a72eeb725db4246">ack_t</a> needs_ack </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="structpn__space.html">pn_space</a> *const&#160;</td>
+          <td class="paramname"><em>pn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="pn_8c_a68ef34c8ed7a49ffc9f0d08be962dcfe_cgraph.png" border="0" usemap="#pn_8c_a68ef34c8ed7a49ffc9f0d08be962dcfe_cgraph" alt=""/></div>
-<map name="pn_8c_a68ef34c8ed7a49ffc9f0d08be962dcfe_cgraph" id="pn_8c_a68ef34c8ed7a49ffc9f0d08be962dcfe_cgraph">
-<area shape="rect" id="node2" href="pn_8c.html#a8cb6a54f35c8a70e940f624856a0f7ab" title="ack_alarm" alt="" coords="115,1372,197,1399"/><area shape="rect" id="node3" href="pn_8h.html#aa7ed02733032177ff456b060fa0eed8e" title="needs_ack" alt="" coords="583,107,668,133"/><area shape="rect" id="node6" href="conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0" title="has_pval_wnd" alt="" coords="395,1608,501,1635"/><area shape="rect" id="node7" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="955,1389,1037,1416"/><area shape="rect" id="node8" href="pn_8c.html#a805597624cb1f11414c53599dd3743e2" title="epoch_for_pn" alt="" coords="246,1608,346,1635"/><area shape="rect" id="node9" href="conn_8c.html#a87cb12b0afa8cdb9f2a41ce602d8ff96" title="tx_ack" alt="" coords="265,208,327,235"/><area shape="rect" id="node4" href="diet_8h.html#aad21e3b897b17d0c86fce4a174e80ab0" title="diet_empty" alt="" coords="779,5,866,32"/><area shape="rect" id="node5" href="quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="767,271,878,297"/><area shape="rect" id="node10" href="conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="946,715,1046,741"/><area shape="rect" id="node11" href="conn_8h.html#ab12c601471f4fcfae92c53fbca85b32e" title="conn_needs_ctrl" alt="" coords="764,56,881,83"/><area shape="rect" id="node14" href="pkt_8c.html#a13f259191e295bb7cf7d34bb79d76bc5" title="enc_pkt" alt="" coords="414,715,482,741"/><area shape="rect" id="node32" href="conn_8c.html#a061f6268bdb3054227eedf2ca20cb8a1" title="do_tx" alt="" coords="795,208,850,235"/><area shape="rect" id="node12" href="conn_8h.html#a90b995546c499b521dcb4bf6cc7e39f1" title="epoch_in" alt="" coords="959,56,1033,83"/><area shape="rect" id="node13" href="picotls_8h.html#aa6a0008d415e04f0d67db03fdb2113de" title="Return the current read epoch. " alt="" coords="1097,56,1239,83"/><area shape="rect" id="node15" href="stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="777,765,868,792"/><area shape="rect" id="node16" href="openssl_8h.html#a2514cd53d441b44478641a1643af622d" title="ptls_openssl_random\l_bytes" alt="" coords="553,918,698,959"/><area shape="rect" id="node18" href="quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="789,867,856,893"/><area shape="rect" id="node19" href="conn_8c.html#ada89723c147c3959024e404cea1cd2f4" title="update_act_scid" alt="" coords="567,1085,684,1112"/><area shape="rect" id="node24" href="pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="1289,576,1338,603"/><area shape="rect" id="node25" href="pkt_8c.html#adb9f7ed98b4a9aa5dbab4df08c78ea0c" title="needed_pkt_nr_len" alt="" coords="560,1136,691,1163"/><area shape="rect" id="node26" href="pkt_8c.html#a6419e978eb233947f0bf7805663171fc" title="enc_lh_cids" alt="" coords="580,867,671,893"/><area shape="rect" id="node27" href="pkt_8c.html#aad4456e4786b31e02e1e4c81e265d442" title="log_pkt" alt="" coords="964,765,1028,792"/><area shape="rect" id="node29" href="conn_8c.html#a1a9a96efc3be558373804c33a60df6b9" title="tx" alt="" coords="606,157,645,184"/><area shape="rect" id="node38" href="frame_8c.html#ad33d4ffd79b410b355647b882fcecd94" title="enc_ack_frame" alt="" coords="570,1187,681,1213"/><area shape="rect" id="node39" href="frame_8c.html#a35e96a60869ff030118503cb8a81f715" title="enc_close_frame" alt="" coords="565,309,686,336"/><area shape="rect" id="node40" href="warpcore_8h.html#a280e62a55aab21fe0b23a7e9ade1a588" title="Return MTU of w_engine w. " alt="" coords="595,360,656,387"/><area shape="rect" id="node41" href="frame_8c.html#a424f6073840f8f7a1599dd1b197dc591" title="enc_ping_frame" alt="" coords="568,411,683,437"/><area shape="rect" id="node42" href="pkt_8c.html#a0123963315143471e2cc3a99881a3c66" title="enc_other_frames" alt="" coords="562,461,689,488"/><area shape="rect" id="node43" href="frame_8c.html#a0d8bea0a0a229b796505008855eb17f0" title="enc_padding_frame" alt="" coords="558,563,693,589"/><area shape="rect" id="node44" href="frame_8c.html#ae94d6f87955af69345cb46c9d03ad90f" title="log_stream_or_crypto\l_frame" alt="" coords="749,1441,896,1482"/><area shape="rect" id="node45" href="frame_8c.html#a6134c4faa49bbd6fbc29589f12350400" title="enc_stream_or_crypto\l_frame" alt="" coords="550,1441,701,1482"/><area shape="rect" id="node46" href="warpcore_8h.html#aa17e20ed409edbfe18aa79ae5da640ff" title="Return a spare w_iov from the pool of the given warpcore engine. " alt="" coords="580,613,671,640"/><area shape="rect" id="node47" href="tls_8c.html#a1193e69500fa37d706399a825b799526" title="enc_aead" alt="" coords="1129,411,1207,437"/><area shape="rect" id="node48" href="recovery_8c.html#a9749ec5110f82cad7875d3ec8b94199d" title="on_pkt_sent" alt="" coords="579,715,672,741"/><area shape="rect" id="node49" href="tls_8c.html#a8984aa5b25b32bb8e40aef64f3164fc0" title="maybe_flip_keys" alt="" coords="565,984,685,1011"/><area shape="rect" id="node50" href="pn_8c.html#a01a6deaf5b4cd84917145356378f1004" title="abandon_pn" alt="" coords="777,1389,869,1416"/><area shape="rect" id="node17" href="boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="797,925,848,952"/><area shape="rect" id="node20" href="conn_8c.html#a157de1b1117fd595bca3a0d2a82184db" title="conns_by_id_del" alt="" coords="763,1237,882,1264"/><area shape="rect" id="node21" href="conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78" title="cids_by_id_del" alt="" coords="769,1035,877,1061"/><area shape="rect" id="node22" href="conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8" title="cids_by_id_ins" alt="" coords="769,1085,877,1112"/><area shape="rect" id="node23" href="conn_8c.html#a3970d1f884f75ab86ab622e00bf9fce7" title="conns_by_id_ins" alt="" coords="763,1187,882,1213"/><area shape="rect" id="node28" href="pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="1121,639,1215,665"/><area shape="rect" id="node30" href="conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="773,1136,872,1163"/><area shape="rect" id="node31" href="conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80" title="do_conn_mgmt" alt="" coords="767,157,878,184"/><area shape="rect" id="node33" href="pkt_8c.html#a1f839697f5c2cb2a8b086249c85399bc" title="coalesce" alt="" coords="959,613,1033,640"/><area shape="rect" id="node34" href="warpcore_8h.html#ac4f053bd8ffef52d164823134d732f51" title="Loops over the w_iov structures in the w_iov_sq o, sending them all over w_sock s. " alt="" coords="971,259,1021,285"/><area shape="rect" id="node35" href="warpcore_8h.html#a0c90e71507fd384ce951e600da9f04f6" title="Return the number of w_iov structs in q that are still waiting for transmission. " alt="" coords="945,309,1047,336"/><area shape="rect" id="node36" href="warpcore_8h.html#a3fba5669717435248ca7b7945a9b9d75" title="Push data placed in the TX rings via udp_tx() and similar methods out onto the link. " alt="" coords="959,107,1033,133"/><area shape="rect" id="node37" href="warpcore_8h.html#a960d81cdf30fb1dc693447ba4763f977" title="Return a w_iov tail queue obtained via w_alloc_len(), w_alloc_cnt() or w_rx() back to warpcore..." alt="" coords="965,157,1027,184"/></map>
+<div class="center"><img src="pn_8c_a7f1a6720a0e3506c0553d13ad865510f_cgraph.png" border="0" usemap="#pn_8c_a7f1a6720a0e3506c0553d13ad865510f_cgraph" alt=""/></div>
+<map name="pn_8c_a7f1a6720a0e3506c0553d13ad865510f_cgraph" id="pn_8c_a7f1a6720a0e3506c0553d13ad865510f_cgraph">
+<area shape="rect" id="node2" href="quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="139,5,250,32"/></map>
 </div>
 </p>
 
@@ -355,7 +247,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="pn_8c_ad39de552086c127310c3250f2982dcb5_cgraph.png" border="0" usemap="#pn_8c_ad39de552086c127310c3250f2982dcb5_cgraph" alt=""/></div>
 <map name="pn_8c_ad39de552086c127310c3250f2982dcb5_cgraph" id="pn_8c_ad39de552086c127310c3250f2982dcb5_cgraph">
-<area shape="rect" id="node2" href="pn_8c.html#a2a52ace3d6774524e581f1411c0da8f7" title="do_free_pn" alt="" coords="126,56,213,83"/><area shape="rect" id="node3" href="quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="262,5,373,32"/><area shape="rect" id="node4" href="warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="289,56,345,83"/><area shape="rect" id="node5" href="diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="diet_free" alt="" coords="281,107,353,133"/></map>
+<area shape="rect" id="node2" href="pn_8c.html#a3b132beb2506faada16af74535e27fec" title="free_pn" alt="" coords="126,5,191,32"/><area shape="rect" id="node3" href="diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="diet_free" alt="" coords="240,5,312,32"/></map>
 </div>
 </p>
 
@@ -364,7 +256,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 22 2019 12:52:51 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jan 24 2019 13:02:00 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
