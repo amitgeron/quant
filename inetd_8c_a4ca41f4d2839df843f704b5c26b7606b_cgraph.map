@@ -8,10 +8,10 @@
 <area shape="rect" id="node30" href="$warpcore_8h.html#af21a4e848c9199be729d01d20b8eea3d" title="Return any new data that has been received on a socket by appending it to the w_iov tail queue i..." alt="" coords="129,689,180,716"/>
 <area shape="rect" id="node32" href="$warpcore_8h.html#a7431226c76bc23225482a4ced534db6d" title="Return the total payload length of w_iov tail queue c. " alt="" coords="104,740,205,767"/>
 <area shape="rect" id="node33" href="$conn_8c.html#a1a9a96efc3be558373804c33a60df6b9" title="tx" alt="" coords="135,968,174,995"/>
-<area shape="rect" id="node39" href="$warpcore_8h.html#ac4f053bd8ffef52d164823134d732f51" title="Loops over the w_iov structures in the w_iov_sq o, sending them all over w_sock s. " alt="" coords="648,867,699,893"/>
-<area shape="rect" id="node43" href="$warpcore_8h.html#a0c90e71507fd384ce951e600da9f04f6" title="Return the number of w_iov structs in q that are still waiting for transmission. " alt="" coords="622,1019,725,1045"/>
-<area shape="rect" id="node44" href="$warpcore_8h.html#a3fba5669717435248ca7b7945a9b9d75" title="Push data placed in the TX rings via udp_tx() and similar methods out onto the link. " alt="" coords="636,1120,711,1147"/>
-<area shape="rect" id="node45" href="$warpcore_8h.html#a960d81cdf30fb1dc693447ba4763f977" title="Return a w_iov tail queue obtained via w_alloc_len(), w_alloc_cnt() or w_rx() back to warpcore..." alt="" coords="643,1196,704,1223"/>
+<area shape="rect" id="node38" href="$warpcore_8h.html#ac4f053bd8ffef52d164823134d732f51" title="Loops over the w_iov structures in the w_iov_sq o, sending them all over w_sock s. " alt="" coords="648,867,699,893"/>
+<area shape="rect" id="node42" href="$warpcore_8h.html#a0c90e71507fd384ce951e600da9f04f6" title="Return the number of w_iov structs in q that are still waiting for transmission. " alt="" coords="622,1019,725,1045"/>
+<area shape="rect" id="node43" href="$warpcore_8h.html#a3fba5669717435248ca7b7945a9b9d75" title="Push data placed in the TX rings via udp_tx() and similar methods out onto the link. " alt="" coords="636,1120,711,1147"/>
+<area shape="rect" id="node44" href="$warpcore_8h.html#a960d81cdf30fb1dc693447ba4763f977" title="Return a w_iov tail queue obtained via w_alloc_len(), w_alloc_cnt() or w_rx() back to warpcore..." alt="" coords="643,1196,704,1223"/>
 <area shape="rect" id="node46" href="$warpcore_8h.html#a26c31751f7bb602b01bf00077ebd362d" title="Close a warpcore socket. " alt="" coords="290,1247,361,1273"/>
 <area shape="rect" id="node49" href="$warpcore_8h.html#a726b06c06493678f7f48c889bbcd30a5" title="Shut a warpcore engine down cleanly. " alt="" coords="113,1297,197,1324"/>
 <area shape="rect" id="node4" href="$klib_2krng_8h.html#aacc147637623ae1e16f7b8624975f2f9" title="kr_srand_r" alt="" coords="284,132,367,159"/>
@@ -38,13 +38,13 @@
 <area shape="rect" id="node27" href="$ip_8c.html#a83c3b73e5ae32815530bdb103a0a59ee" title="Receive processing for an IPv4 packet. " alt="" coords="484,588,535,615"/>
 <area shape="rect" id="node31" href="$warpcore_8h.html#aa17e20ed409edbfe18aa79ae5da640ff" title="Return a spare w_iov from the pool of the given warpcore engine. " alt="" coords="280,689,371,716"/>
 <area shape="rect" id="node34" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="276,892,375,919"/>
-<area shape="rect" id="node35" href="$conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80" title="do_conn_mgmt" alt="" coords="454,968,565,995"/>
-<area shape="rect" id="node36" href="$conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87" title="tx_stream" alt="" coords="285,993,365,1020"/>
-<area shape="rect" id="node37" href="$conn_8c.html#a707d9d89ae0b67ec0bac83dd24c21708" title="tx_ack" alt="" coords="295,1044,356,1071"/>
-<area shape="rect" id="node38" href="$conn_8c.html#a061f6268bdb3054227eedf2ca20cb8a1" title="do_tx" alt="" coords="482,1069,537,1096"/>
-<area shape="rect" id="node40" href="$warpcore_8h.html#a25db095b03b04843ed074c604c85c27d" title="Return whether a socket is connected (i.e., w_connect() has been called on it) or not..." alt="" coords="896,841,995,868"/>
-<area shape="rect" id="node41" href="$udp_8c.html#a5ff6c06e976086b17457bc7766bb8e0c" title="Sends a payload contained in a w_sock::ov via UDP. " alt="" coords="780,867,841,893"/>
-<area shape="rect" id="node42" href="$backend__netmap_8c.html#a3fba5669717435248ca7b7945a9b9d75" title="Push data placed in the TX rings via udp_tx() and similar methods out onto the link. " alt="" coords="773,917,848,944"/>
+<area shape="rect" id="node35" href="$conn_8c.html#a707d9d89ae0b67ec0bac83dd24c21708" title="tx_ack" alt="" coords="295,1044,356,1071"/>
+<area shape="rect" id="node36" href="$conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80" title="do_conn_mgmt" alt="" coords="454,968,565,995"/>
+<area shape="rect" id="node37" href="$conn_8c.html#a061f6268bdb3054227eedf2ca20cb8a1" title="do_tx" alt="" coords="482,1069,537,1096"/>
+<area shape="rect" id="node45" href="$conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87" title="tx_stream" alt="" coords="285,993,365,1020"/>
+<area shape="rect" id="node39" href="$warpcore_8h.html#a25db095b03b04843ed074c604c85c27d" title="Return whether a socket is connected (i.e., w_connect() has been called on it) or not..." alt="" coords="896,841,995,868"/>
+<area shape="rect" id="node40" href="$udp_8c.html#a5ff6c06e976086b17457bc7766bb8e0c" title="Sends a payload contained in a w_sock::ov via UDP. " alt="" coords="780,867,841,893"/>
+<area shape="rect" id="node41" href="$backend__netmap_8c.html#a3fba5669717435248ca7b7945a9b9d75" title="Push data placed in the TX rings via udp_tx() and similar methods out onto the link. " alt="" coords="773,917,848,944"/>
 <area shape="rect" id="node47" href="$backend_8h.html#a10352237f3cab978ad3dbe7f25acb8cc" title="The netmap backend performs no operation here. " alt="" coords="455,1247,564,1273"/>
 <area shape="rect" id="node48" href="$warpcore_8c.html#aaba6abd34e39730ddd4f560b090c6b5f" title="rem_sock" alt="" coords="470,1297,549,1324"/>
 <area shape="rect" id="node50" href="$warpcore_8c.html#a26c31751f7bb602b01bf00077ebd362d" title="Close a warpcore socket. " alt="" coords="290,1297,361,1324"/>

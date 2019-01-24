@@ -31,21 +31,21 @@
 <area shape="rect" id="node30" href="$uECC_8c.html#ac09542159920b53beffd4479e82acca4" title="uECC_vli_bytesToNative" alt="" coords="949,1171,1120,1197"/>
 <area shape="rect" id="node31" href="$uECC_8c.html#a3ef4ada41b4a250680f39cf26b12d3cf" title="bits2int" alt="" coords="801,1120,865,1147"/>
 <area shape="rect" id="node32" href="$uECC_8c.html#ab1e15c3f5219c350748b4ecf335e1c57" title="uECC_vli_modAdd" alt="" coords="767,867,900,893"/>
-<area shape="rect" id="node34" href="$conn_8c.html#a69924c834acb11f94887f781e4241397" title="rx" alt="" coords="814,1627,853,1653"/>
-<area shape="rect" id="node39" href="$conn_8c.html#a1a9a96efc3be558373804c33a60df6b9" title="tx" alt="" coords="1015,1424,1054,1451"/>
+<area shape="rect" id="node34" href="$conn_8c.html#a69924c834acb11f94887f781e4241397" title="rx" alt="" coords="814,1576,853,1603"/>
+<area shape="rect" id="node39" href="$conn_8c.html#a1a9a96efc3be558373804c33a60df6b9" title="tx" alt="" coords="1015,1829,1054,1856"/>
 <area shape="rect" id="node49" href="$uECC_8c.html#a8a7730481d59a5afb98d086c76de3412" title="smax" alt="" coords="806,1019,861,1045"/>
 <area shape="rect" id="node50" href="$uECC_8c.html#aafd536cd7b6119ea845335bd01ddc627" title="uECC_vli_equal" alt="" coords="775,1069,891,1096"/>
 <area shape="rect" id="node35" href="$warpcore_8h.html#ab0508cfebe874ba0f3f2f230b4120e0d" title="Trigger netmap to make new received data available to w_rx(). " alt="" coords="997,1525,1072,1552"/>
-<area shape="rect" id="node36" href="$warpcore_8h.html#a5ac8908312be71047433d7e51059e240" title="Return warpcore engine serving w_sock s. " alt="" coords="1187,1804,1264,1831"/>
+<area shape="rect" id="node36" href="$warpcore_8h.html#a5ac8908312be71047433d7e51059e240" title="Return warpcore engine serving w_sock s. " alt="" coords="1187,1652,1264,1679"/>
 <area shape="rect" id="node37" href="$warpcore_8h.html#af21a4e848c9199be729d01d20b8eea3d" title="Return any new data that has been received on a socket by appending it to the w_iov tail queue i..." alt="" coords="1009,1576,1060,1603"/>
-<area shape="rect" id="node38" href="$conn_8c.html#a743c431b40b906bbe9baad4456a0e7c5" title="rx_pkts" alt="" coords="1002,1779,1067,1805"/>
-<area shape="rect" id="node43" href="$conn_8c.html#a707d9d89ae0b67ec0bac83dd24c21708" title="tx_ack" alt="" coords="1195,1500,1256,1527"/>
+<area shape="rect" id="node38" href="$conn_8c.html#a743c431b40b906bbe9baad4456a0e7c5" title="rx_pkts" alt="" coords="1002,1677,1067,1704"/>
+<area shape="rect" id="node41" href="$conn_8c.html#a707d9d89ae0b67ec0bac83dd24c21708" title="tx_ack" alt="" coords="1195,1779,1256,1805"/>
 <area shape="rect" id="node45" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="985,1728,1085,1755"/>
-<area shape="rect" id="node46" href="$pn_8c.html#a7f1a6720a0e3506c0553d13ad865510f" title="needs_ack" alt="" coords="992,1880,1077,1907"/>
-<area shape="rect" id="node47" href="$conn_8c.html#a4a5deef512e20b125b45899c6c80c6fc" title="free_conn" alt="" coords="995,1475,1074,1501"/>
-<area shape="rect" id="node48" href="$quant_8h.html#a84a768c49cd352e1c8a109bda56ef3a6" title="q_rx_ready" alt="" coords="991,1677,1078,1704"/>
-<area shape="rect" id="node40" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="1176,1449,1275,1476"/>
-<area shape="rect" id="node41" href="$conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80" title="do_conn_mgmt" alt="" coords="1331,1525,1442,1552"/>
-<area shape="rect" id="node42" href="$conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87" title="tx_stream" alt="" coords="1185,1399,1265,1425"/>
-<area shape="rect" id="node44" href="$conn_8c.html#a061f6268bdb3054227eedf2ca20cb8a1" title="do_tx" alt="" coords="1359,1399,1414,1425"/>
+<area shape="rect" id="node46" href="$pn_8c.html#a7f1a6720a0e3506c0553d13ad865510f" title="needs_ack" alt="" coords="992,1373,1077,1400"/>
+<area shape="rect" id="node47" href="$conn_8c.html#a4a5deef512e20b125b45899c6c80c6fc" title="free_conn" alt="" coords="995,1424,1074,1451"/>
+<area shape="rect" id="node48" href="$quant_8h.html#a84a768c49cd352e1c8a109bda56ef3a6" title="q_rx_ready" alt="" coords="991,1475,1078,1501"/>
+<area shape="rect" id="node40" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="1176,1829,1275,1856"/>
+<area shape="rect" id="node42" href="$conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80" title="do_conn_mgmt" alt="" coords="1331,1753,1442,1780"/>
+<area shape="rect" id="node43" href="$conn_8c.html#a061f6268bdb3054227eedf2ca20cb8a1" title="do_tx" alt="" coords="1359,1855,1414,1881"/>
+<area shape="rect" id="node44" href="$conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87" title="tx_stream" alt="" coords="1185,1880,1265,1907"/>
 </map>

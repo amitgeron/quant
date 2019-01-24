@@ -4,9 +4,9 @@
 <area shape="rect" id="node6" href="$warpcore_8h.html#af21a4e848c9199be729d01d20b8eea3d" title="Return any new data that has been received on a socket by appending it to the w_iov tail queue i..." alt="" coords="112,1905,163,1932"/>
 <area shape="rect" id="node8" href="$conn_8c.html#a743c431b40b906bbe9baad4456a0e7c5" title="rx_pkts" alt="" coords="237,765,302,792"/>
 <area shape="rect" id="node40" href="$conn_8c.html#a1a9a96efc3be558373804c33a60df6b9" title="tx" alt="" coords="118,1728,157,1755"/>
-<area shape="rect" id="node43" href="$conn_8c.html#a707d9d89ae0b67ec0bac83dd24c21708" title="tx_ack" alt="" coords="239,1829,300,1856"/>
-<area shape="rect" id="node45" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="589,1981,689,2008"/>
-<area shape="rect" id="node46" href="$pn_8c.html#a7f1a6720a0e3506c0553d13ad865510f" title="needs_ack" alt="" coords="596,2032,681,2059"/>
+<area shape="rect" id="node41" href="$conn_8c.html#a707d9d89ae0b67ec0bac83dd24c21708" title="tx_ack" alt="" coords="239,1829,300,1856"/>
+<area shape="rect" id="node44" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="589,1981,689,2008"/>
+<area shape="rect" id="node45" href="$pn_8c.html#a7f1a6720a0e3506c0553d13ad865510f" title="needs_ack" alt="" coords="596,2032,681,2059"/>
 <area shape="rect" id="node48" href="$conn_8c.html#a4a5deef512e20b125b45899c6c80c6fc" title="free_conn" alt="" coords="230,1449,309,1476"/>
 <area shape="rect" id="node50" href="$quant_8h.html#a84a768c49cd352e1c8a109bda56ef3a6" title="q_rx_ready" alt="" coords="94,1576,181,1603"/>
 <area shape="rect" id="node3" href="$eth_8c.html#a659282bc0d2ea46d2d4817aa9a2f46e7" title="Receive an Ethernet frame. " alt="" coords="240,613,299,640"/>
@@ -43,9 +43,9 @@
 <area shape="rect" id="node27" href="$tls_8c.html#a2393aad5c0cf1cd399746ba5314e8c66" title="free_tls" alt="" coords="606,1053,671,1080"/>
 <area shape="rect" id="node35" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="589,1525,688,1552"/>
 <area shape="rect" id="node36" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="787,1829,898,1856"/>
-<area shape="rect" id="node41" href="$conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80" title="do_conn_mgmt" alt="" coords="379,1753,490,1780"/>
-<area shape="rect" id="node42" href="$conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87" title="tx_stream" alt="" coords="229,1677,309,1704"/>
-<area shape="rect" id="node47" href="$conn_8c.html#a061f6268bdb3054227eedf2ca20cb8a1" title="do_tx" alt="" coords="407,1829,462,1856"/>
-<area shape="rect" id="node44" href="$pkt_8c.html#a13f259191e295bb7cf7d34bb79d76bc5" title="enc_pkt" alt="" coords="401,1880,469,1907"/>
+<area shape="rect" id="node42" href="$conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80" title="do_conn_mgmt" alt="" coords="379,1753,490,1780"/>
+<area shape="rect" id="node46" href="$conn_8c.html#a061f6268bdb3054227eedf2ca20cb8a1" title="do_tx" alt="" coords="407,1829,462,1856"/>
+<area shape="rect" id="node47" href="$conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87" title="tx_stream" alt="" coords="229,1677,309,1704"/>
+<area shape="rect" id="node43" href="$pkt_8c.html#a13f259191e295bb7cf7d34bb79d76bc5" title="enc_pkt" alt="" coords="401,1880,469,1907"/>
 <area shape="rect" id="node49" href="$warpcore_8h.html#a26c31751f7bb602b01bf00077ebd362d" title="Close a warpcore socket. " alt="" coords="399,1525,470,1552"/>
 </map>
