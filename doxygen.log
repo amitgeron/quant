@@ -2556,6 +2556,12 @@ Generating call graph for/home/travis/build/NTAP/quant/lib/deps/warpcore/lib/inc
 /home/travis/build/NTAP/quant/lib/deps/warpcore/lib/include/warpcore/util.h:113: warning: explicit link request to 'dlevel' could not be resolved
 /home/travis/build/NTAP/quant/lib/deps/warpcore/lib/include/warpcore/util.h:113: warning: explicit link request to 'dlevel' could not be resolved
 /home/travis/build/NTAP/quant/lib/deps/warpcore/lib/include/warpcore/util.h:113: warning: argument 'fmt' of command @param is not found in the argument list of warn(dlevel,...)
+/home/travis/build/NTAP/quant/lib/deps/warpcore/lib/include/warpcore/warpcore.h:383: warning: The following parameters of w_set_sockopt(struct w_sock *const s, const struct w_sockopt *const opt) are not documented:
+  parameter 'opt'
+/home/travis/build/NTAP/quant/lib/deps/warpcore/lib/include/warpcore/warpcore.h:383: warning: The following parameters of w_set_sockopt(struct w_sock *const s, const struct w_sockopt *const opt) are not documented:
+  parameter 'opt'
+/home/travis/build/NTAP/quant/lib/deps/warpcore/lib/include/warpcore/warpcore.h:383: warning: The following parameters of w_set_sockopt(struct w_sock *const s, const struct w_sockopt *const opt) are not documented:
+  parameter 'opt'
  function main
 Generating call graph for function test_hrr
 Generating call graph for function test_secp256r1_key_exchange
@@ -5503,5 +5509,5 @@ Patching output file 410/413
 Patching output file 411/413
 Patching output file 412/413
 Patching output file 413/413
-lookup cache used 5353/65536 hits=59507 misses=5595
+lookup cache used 5359/65536 hits=59619 misses=5601
 finished...
