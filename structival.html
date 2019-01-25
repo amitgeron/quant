@@ -116,7 +116,6 @@ Data Fields</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This is a C adaptation of the "discrete interval encoding tree" (DIET) data structure described in: Martin Erwig, "Diets for fat sets", Journal of Functional Programming, Vol. </p>
 <p>8, No. 6, pp. 627–632, 1998. <a href="https://web.engr.oregonstate.edu/~erwig/papers/abstracts.html#JFP98">https://web.engr.oregonstate.edu/~erwig/papers/abstracts.html#JFP98</a></p>
-<p>This implementation extends the basic diet structure by adding a "class" field to each interval. Only intervals of the same class can be merged. This can be enabled by compiling with DIET_CLASS defined. (This was used by quant to handle ACKs for different packet types, which is no longer needed with different packet number spaces in -13 and beyond.)</p>
 <p>It also maintains a timestamp of the last insert operation into an <code>ival</code>, for the purposes of calculating the ACK delay. An interval [hi..lo] to be used with diet structures, of a given type. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a6a698a9c9019589e8c85e2899c7a7db5"></a>
@@ -186,7 +185,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 25 2019 12:23:45 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 25 2019 14:13:18 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

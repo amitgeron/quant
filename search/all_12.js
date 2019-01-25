@@ -216,6 +216,7 @@ var searchData=
   ['splay_5froot',['splay_root',['../tree_8h.html#ab461f701106d5ccb3d957bd7a1db8f71',1,'tree.h']]],
   ['splay_5frotate_5fleft',['splay_rotate_left',['../tree_8h.html#a5f9a82b102bd24b0d80f09b834975205',1,'tree.h']]],
   ['splay_5frotate_5fright',['splay_rotate_right',['../tree_8h.html#a579dfa179fe095d74960edbc76e2cb03',1,'tree.h']]],
+  ['split_5froot',['split_root',['../diet_8c.html#a129daa529cd3954dc970b4537801b939',1,'diet.c']]],
   ['sport',['sport',['../structudp__hdr.html#abea80c853cab93c249f23208662f8650',1,'udp_hdr']]],
   ['sq_5fclass_5fentry',['sq_class_entry',['../queue_8h.html#a46277c7a4933c097ac9e4b0f20e61966',1,'queue.h']]],
   ['sq_5fclass_5fhead',['sq_class_head',['../queue_8h.html#a3ff28d6aec567815c38981186a52645c',1,'queue.h']]],

@@ -110,6 +110,7 @@ var searchData=
   ['diet_5fmin',['diet_min',['../diet_8h.html#ab58da0e5386a1887876ab492f5214e8d',1,'diet.h']]],
   ['diet_5fmin_5fival',['diet_min_ival',['../diet_8h.html#a3e9bb9c8c3f8a8e1ba1673c93753a529',1,'diet.h']]],
   ['diet_5fremove',['diet_remove',['../diet_8c.html#a1ff8134cd224b1f148462bb051c75f1d',1,'diet_remove(struct diet *const d, const uint64_t n):&#160;diet.c'],['../diet_8h.html#a1ff8134cd224b1f148462bb051c75f1d',1,'diet_remove(struct diet *const d, const uint64_t n):&#160;diet.c']]],
+  ['diet_5fremove_5fival',['diet_remove_ival',['../diet_8c.html#ade2250a273d80b3420033544bd6f6fa7',1,'diet_remove_ival(struct diet *const d, const struct ival *const i):&#160;diet.c'],['../diet_8h.html#ade2250a273d80b3420033544bd6f6fa7',1,'diet_remove_ival(struct diet *const d, const struct ival *const i):&#160;diet.c']]],
   ['diet_5ftimestamp',['diet_timestamp',['../diet_8h.html#af0ddae2a11095bcdabe422dfc44f910a',1,'diet.h']]],
   ['diet_5fto_5fstr',['diet_to_str',['../diet_8c.html#aece76d9290a6c7d12958a2fa703fee87',1,'diet_to_str(char *const str, const size_t len, struct diet *const d):&#160;diet.c'],['../diet_8h.html#aece76d9290a6c7d12958a2fa703fee87',1,'diet_to_str(char *const str, const size_t len, struct diet *const d):&#160;diet.c']]],
   ['digest',['digest',['../structcf__chash.html#ab2c5b45d818c0699eb98303e4aa85fff',1,'cf_chash']]],

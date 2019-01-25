@@ -122,9 +122,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a9064e32f6b50901d8f5685e53d2e4041"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structival.html">ival</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041">diet_insert</a> (struct diet *const d, const uint64_t n, const ev_tstamp t)</td></tr>
 <tr class="memdesc:a9064e32f6b50901d8f5685e53d2e4041"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts integer <code>n</code> of type <code>t</code> into the diet tree <code>t</code>.  <a href="#a9064e32f6b50901d8f5685e53d2e4041">More...</a><br/></td></tr>
 <tr class="separator:a9064e32f6b50901d8f5685e53d2e4041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a129daa529cd3954dc970b4537801b939"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diet_8c.html#a129daa529cd3954dc970b4537801b939">split_root</a> (struct diet *const d, const uint64_t lo, const uint64_t hi)</td></tr>
+<tr class="separator:a129daa529cd3954dc970b4537801b939"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ff8134cd224b1f148462bb051c75f1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diet_8c.html#a1ff8134cd224b1f148462bb051c75f1d">diet_remove</a> (struct diet *const d, const uint64_t n)</td></tr>
 <tr class="memdesc:a1ff8134cd224b1f148462bb051c75f1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove integer <code>n</code> from the intervals stored in diet tree <code>t</code>.  <a href="#a1ff8134cd224b1f148462bb051c75f1d">More...</a><br/></td></tr>
 <tr class="separator:a1ff8134cd224b1f148462bb051c75f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade2250a273d80b3420033544bd6f6fa7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diet_8c.html#ade2250a273d80b3420033544bd6f6fa7">diet_remove_ival</a> (struct diet *const d, const struct <a class="el" href="structival.html">ival</a> *const <a class="el" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>)</td></tr>
+<tr class="separator:ade2250a273d80b3420033544bd6f6fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca2c7f843feefa74e9e6dca31bc41fd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7">diet_free</a> (struct diet *const d)</td></tr>
 <tr class="separator:aca2c7f843feefa74e9e6dca31bc41fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aece76d9290a6c7d12958a2fa703fee87"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diet_8c.html#aece76d9290a6c7d12958a2fa703fee87">diet_to_str</a> (char *const str, const size_t <a class="el" href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a>, struct diet *const d)</td></tr>
@@ -274,7 +278,42 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="diet_8c_a1ff8134cd224b1f148462bb051c75f1d_cgraph.png" border="0" usemap="#diet_8c_a1ff8134cd224b1f148462bb051c75f1d_cgraph" alt=""/></div>
 <map name="diet_8c_a1ff8134cd224b1f148462bb051c75f1d_cgraph" id="diet_8c_a1ff8134cd224b1f148462bb051c75f1d_cgraph">
-<area shape="rect" id="node2" href="diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree t. " alt="" coords="153,5,223,32"/><area shape="rect" id="node3" href="diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="147,56,229,83"/></map>
+<area shape="rect" id="node2" href="diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree t. " alt="" coords="149,5,219,32"/><area shape="rect" id="node3" href="diet_8c.html#a129daa529cd3954dc970b4537801b939" title="split_root" alt="" coords="147,56,221,83"/><area shape="rect" id="node4" href="diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="270,56,351,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ade2250a273d80b3420033544bd6f6fa7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void diet_remove_ival </td>
+          <td>(</td>
+          <td class="paramtype">struct diet *const&#160;</td>
+          <td class="paramname"><em>d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const struct <a class="el" href="structival.html">ival</a> *const&#160;</td>
+          <td class="paramname"><em>i</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="diet_8c_ade2250a273d80b3420033544bd6f6fa7_cgraph.png" border="0" usemap="#diet_8c_ade2250a273d80b3420033544bd6f6fa7_cgraph" alt=""/></div>
+<map name="diet_8c_ade2250a273d80b3420033544bd6f6fa7_cgraph" id="diet_8c_ade2250a273d80b3420033544bd6f6fa7_cgraph">
+<area shape="rect" id="node2" href="diet_8c.html#a129daa529cd3954dc970b4537801b939" title="split_root" alt="" coords="173,5,248,32"/><area shape="rect" id="node3" href="diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="297,5,378,32"/></map>
 </div>
 </p>
 
@@ -422,10 +461,59 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a129daa529cd3954dc970b4537801b939"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void split_root </td>
+          <td>(</td>
+          <td class="paramtype">struct diet *const&#160;</td>
+          <td class="paramname"><em>d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint64_t&#160;</td>
+          <td class="paramname"><em>lo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint64_t&#160;</td>
+          <td class="paramname"><em>hi</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="diet_8c_a129daa529cd3954dc970b4537801b939_cgraph.png" border="0" usemap="#diet_8c_a129daa529cd3954dc970b4537801b939_cgraph" alt=""/></div>
+<map name="diet_8c_a129daa529cd3954dc970b4537801b939_cgraph" id="diet_8c_a129daa529cd3954dc970b4537801b939_cgraph">
+<area shape="rect" id="node2" href="diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="129,5,210,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 25 2019 12:23:45 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 25 2019 14:13:18 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

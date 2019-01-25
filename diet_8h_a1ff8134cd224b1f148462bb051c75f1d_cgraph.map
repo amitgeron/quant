@@ -1,4 +1,5 @@
 <map id="diet_remove" name="diet_remove">
-<area shape="rect" id="node2" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree t. " alt="" coords="153,5,223,32"/>
-<area shape="rect" id="node3" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="147,56,229,83"/>
+<area shape="rect" id="node2" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree t. " alt="" coords="149,5,219,32"/>
+<area shape="rect" id="node3" href="$diet_8c.html#a129daa529cd3954dc970b4537801b939" title="split_root" alt="" coords="147,56,221,83"/>
+<area shape="rect" id="node4" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="270,56,351,83"/>
 </map>
