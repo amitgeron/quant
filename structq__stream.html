@@ -83,7 +83,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">q_stream Struct Reference</div>  </div>
@@ -99,15 +98,14 @@ Collaboration diagram for q_stream:</div>
 <area shape="rect" id="node2" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. " alt="" coords="128,97,183,124"/><area shape="rect" id="node3" href="structw__engine.html" title="A warpcore backend engine. " alt="" coords="183,203,259,229"/><area shape="rect" id="node6" href="structw__sock.html" title="A warpcore socket. " alt="" coords="267,293,333,320"/><area shape="rect" id="node4" href="structw__iov__sq.html" title="A tail queue of w_iov I/O vectors. " alt="" coords="173,5,249,32"/><area shape="rect" id="node5" href="structw__backend.html" title="w_backend" alt="" coords="208,384,296,411"/><area shape="rect" id="node7" href="structw__sockopt.html" title="Socket options. " alt="" coords="337,203,423,229"/><area shape="rect" id="node8" href="structw__hdr.html" title="A warpcore template packet header structure. " alt="" coords="447,203,504,229"/><area shape="rect" id="node9" href="structudp__hdr.html" title="A representation of a UDP header; see RFC768. " alt="" coords="355,97,423,124"/><area shape="rect" id="node10" href="structip__hdr.html" title="An IPv4 header representation; see RFC791 " alt="" coords="447,97,504,124"/><area shape="rect" id="node11" href="structeth__hdr.html" title="An Ethernet II MAC header. " alt="" coords="529,97,593,124"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a5158311e9a7391bcef4777907713b99a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__stream.html#a5158311e9a7391bcef4777907713b99a">splay_entry</a> (<a class="el" href="structq__stream.html">q_stream</a>) node</td></tr>
-<tr class="separator:a5158311e9a7391bcef4777907713b99a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
 <tr class="memitem:a5b8ba13474f46cc170e3ab67ce61816d"><td class="memItemLeft" align="right" valign="top">struct q_conn *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__stream.html#a5b8ba13474f46cc170e3ab67ce61816d">c</a></td></tr>
+<tr class="memdesc:a5b8ba13474f46cc170e3ab67ce61816d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connection this stream is a part of.  <a href="#a5b8ba13474f46cc170e3ab67ce61816d">More...</a><br/></td></tr>
 <tr class="separator:a5b8ba13474f46cc170e3ab67ce61816d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b0fce2373b57dc3ca4ff7b05cf1cd2c"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__stream.html#a5b0fce2373b57dc3ca4ff7b05cf1cd2c">id</a></td></tr>
+<tr class="memdesc:a5b0fce2373b57dc3ca4ff7b05cf1cd2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream ID.  <a href="#a5b0fce2373b57dc3ca4ff7b05cf1cd2c">More...</a><br/></td></tr>
+<tr class="separator:a5b0fce2373b57dc3ca4ff7b05cf1cd2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6bc293a8f8e054b500882d8ef57b1b6"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structw__iov__sq.html">w_iov_sq</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__stream.html#ad6bc293a8f8e054b500882d8ef57b1b6">out</a></td></tr>
 <tr class="memdesc:ad6bc293a8f8e054b500882d8ef57b1b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tail queue containing outbound data.  <a href="#ad6bc293a8f8e054b500882d8ef57b1b6">More...</a><br/></td></tr>
 <tr class="separator:ad6bc293a8f8e054b500882d8ef57b1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,18 +130,14 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a3efa630f78833bdfa5a5f16a18991d88"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__stream.html#a3efa630f78833bdfa5a5f16a18991d88">in_data_max</a></td></tr>
 <tr class="memdesc:a3efa630f78833bdfa5a5f16a18991d88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inbound max_stream_data.  <a href="#a3efa630f78833bdfa5a5f16a18991d88">More...</a><br/></td></tr>
 <tr class="separator:a3efa630f78833bdfa5a5f16a18991d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d0522f128527120ab29e423c90a461f"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__stream.html#a2d0522f128527120ab29e423c90a461f">new_in_data_max</a></td></tr>
-<tr class="memdesc:a2d0522f128527120ab29e423c90a461f"><td class="mdescLeft">&#160;</td><td class="mdescRight">New inbound max_stream_data (for update).  <a href="#a2d0522f128527120ab29e423c90a461f">More...</a><br/></td></tr>
-<tr class="separator:a2d0522f128527120ab29e423c90a461f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af571e4a21acbd83695fdd6843ec414a5"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__stream.html#af571e4a21acbd83695fdd6843ec414a5">in_data</a></td></tr>
 <tr class="memdesc:af571e4a21acbd83695fdd6843ec414a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">In-order stream data received (total).  <a href="#af571e4a21acbd83695fdd6843ec414a5">More...</a><br/></td></tr>
 <tr class="separator:af571e4a21acbd83695fdd6843ec414a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c1f40df9187a55af36ab90cbde31d5b"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__stream.html#a2c1f40df9187a55af36ab90cbde31d5b">in_data_off</a></td></tr>
 <tr class="memdesc:a2c1f40df9187a55af36ab90cbde31d5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next in-order stream data offset expected.  <a href="#a2c1f40df9187a55af36ab90cbde31d5b">More...</a><br/></td></tr>
 <tr class="separator:a2c1f40df9187a55af36ab90cbde31d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b0fce2373b57dc3ca4ff7b05cf1cd2c"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__stream.html#a5b0fce2373b57dc3ca4ff7b05cf1cd2c">id</a></td></tr>
-<tr class="separator:a5b0fce2373b57dc3ca4ff7b05cf1cd2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c163e13ed03a60a2c53ccfddc5929d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stream_8h.html#a711294f19cdaef709860ae8ff270d81e">strm_state_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__stream.html#a3c163e13ed03a60a2c53ccfddc5929d7">state</a></td></tr>
+<tr class="memdesc:a3c163e13ed03a60a2c53ccfddc5929d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream state.  <a href="#a3c163e13ed03a60a2c53ccfddc5929d7">More...</a><br/></td></tr>
 <tr class="separator:a3c163e13ed03a60a2c53ccfddc5929d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2756b454995958d339e91b6de2c25551"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__stream.html#a2756b454995958d339e91b6de2c25551">tx_max_stream_data</a>: 1</td></tr>
 <tr class="memdesc:a2756b454995958d339e91b6de2c25551"><td class="mdescLeft">&#160;</td><td class="mdescRight">We need to open the receive window.  <a href="#a2756b454995958d339e91b6de2c25551">More...</a><br/></td></tr>
@@ -161,24 +155,7 @@ Data Fields</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#_a8">client.c</a>, and <a class="el" href="server_8c-example.html#_a4">server.c</a>.</dd>
-</dl></div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a5158311e9a7391bcef4777907713b99a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">q_stream::splay_entry </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structq__stream.html">q_stream</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Field Documentation</h2>
+</dl></div><h2 class="groupheader">Field Documentation</h2>
 <a class="anchor" id="a390bee20353c18915d12fd30fa8672dc"></a>
 <div class="memitem">
 <div class="memproto">
@@ -227,6 +204,8 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Connection this stream is a part of. </p>
+
 </div>
 </div>
 <a class="anchor" id="a5b0fce2373b57dc3ca4ff7b05cf1cd2c"></a>
@@ -238,6 +217,8 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Stream ID. </p>
 
 </div>
 </div>
@@ -308,20 +289,6 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Out-of-order inbound data. </p>
-
-</div>
-</div>
-<a class="anchor" id="a2d0522f128527120ab29e423c90a461f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t q_stream::new_in_data_max</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>New inbound max_stream_data (for update). </p>
 
 </div>
 </div>
@@ -405,6 +372,8 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Stream state. </p>
+
 </div>
 </div>
 <a class="anchor" id="aeb05fed803ecbed26b49a4deaf4503ea"></a>
@@ -441,7 +410,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 25 2019 09:23:12 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 25 2019 12:23:45 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

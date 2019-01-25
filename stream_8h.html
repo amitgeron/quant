@@ -180,10 +180,10 @@ Functions</h2></td></tr>
 <tr class="separator:a23976e8cd7c5aecf8e137324fce993d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2853c95f04e70a8c7e836f881eedff8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8h.html#a2853c95f04e70a8c7e836f881eedff8d">apply_stream_limits</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s)</td></tr>
 <tr class="separator:a2853c95f04e70a8c7e836f881eedff8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4a57a5b73d68625c63574f6c4109bad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8h.html#ae4a57a5b73d68625c63574f6c4109bad">do_stream_fc</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s)</td></tr>
-<tr class="separator:ae4a57a5b73d68625c63574f6c4109bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd56ea788d8872433901695928a944ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8h.html#abd56ea788d8872433901695928a944ab">do_stream_id_fc</a> (struct q_conn *const c, const int64_t sid)</td></tr>
-<tr class="separator:abd56ea788d8872433901695928a944ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a222da12d0111c9dee46a6cfc676be209"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8h.html#a222da12d0111c9dee46a6cfc676be209">do_stream_fc</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s, const uint16_t <a class="el" href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a>)</td></tr>
+<tr class="separator:a222da12d0111c9dee46a6cfc676be209"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a848f253b1d052daeb064af9827ae2b31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8h.html#a848f253b1d052daeb064af9827ae2b31">do_stream_id_fc</a> (struct q_conn *const c, const int64_t <a class="el" href="test__queue_8c.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a>, const bool bidi, const bool local)</td></tr>
+<tr class="separator:a848f253b1d052daeb064af9827ae2b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a379b35c4c21ee31284e14338963fdd8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8h.html#a379b35c4c21ee31284e14338963fdd8f">concat_out</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s, struct <a class="el" href="structw__iov__sq.html">w_iov_sq</a> *const q)</td></tr>
 <tr class="separator:a379b35c4c21ee31284e14338963fdd8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38e0dc3cbebe5699ec573ab242b6f505"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8h.html#a38e0dc3cbebe5699ec573ab242b6f505">max_sid</a> (const int64_t sid, const struct q_conn *const c)</td></tr>
@@ -379,18 +379,18 @@ Variables</h2></td></tr>
 <div class="line">        }                                                                      \</div>
 <div class="line">        (s)-&gt;state = (new_state);                                              \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
-<div class="ttc" id="conn_8h_html_aa0fec7fdf46459b57e64dbe4e79a8dc4"><div class="ttname"><a href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a></div><div class="ttdeci">static const char * conn_type(const struct q_conn *const c)</div><div class="ttdef"><b>Definition:</b> conn.h:384</div></div>
+<div class="ttc" id="conn_8h_html_aa0fec7fdf46459b57e64dbe4e79a8dc4"><div class="ttname"><a href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a></div><div class="ttdeci">static const char * conn_type(const struct q_conn *const c)</div><div class="ttdef"><b>Definition:</b> conn.h:382</div></div>
 <div class="ttc" id="deps_2warpcore_2lib_2src_2util_8c_html_ade01bc98e1632cd645e0f33757d70d2e"><div class="ttname"><a href="deps_2warpcore_2lib_2src_2util_8c.html#ade01bc98e1632cd645e0f33757d70d2e">NRM</a></div><div class="ttdeci">#define NRM</div><div class="ttdoc">ANSI escape sequence: reset all to normal. </div><div class="ttdef"><b>Definition:</b> util.c:109</div></div>
 <div class="ttc" id="warpcore_2lib_2include_2warpcore_2util_8h_html_a75fb9e13fe5fdbdbf4f0b7f34d25a887"><div class="ttname"><a href="warpcore_2lib_2include_2warpcore_2util_8h.html#a75fb9e13fe5fdbdbf4f0b7f34d25a887">warn</a></div><div class="ttdeci">#define warn(dlevel,...)</div><div class="ttdoc">Print a debug message to stderr, including a black/white indicator whether the message comes from the...</div><div class="ttdef"><b>Definition:</b> util.h:122</div></div>
 <div class="ttc" id="quic_8h_html_a96fac03c4ab3363f06a0328e0e53a40c"><div class="ttname"><a href="quic_8h.html#a96fac03c4ab3363f06a0328e0e53a40c">YEL</a></div><div class="ttdeci">#define YEL</div><div class="ttdoc">ANSI escape sequence: yellow. </div><div class="ttdef"><b>Definition:</b> quic.h:444</div></div>
-<div class="ttc" id="stream_8h_html_aa6dd5679b354a793efc82cd45b5d3962"><div class="ttname"><a href="stream_8h.html#aa6dd5679b354a793efc82cd45b5d3962">strm_state_str</a></div><div class="ttdeci">const char *const strm_state_str[]</div><div class="ttdef"><b>Definition:</b> stream.c:50</div></div>
+<div class="ttc" id="stream_8h_html_aa6dd5679b354a793efc82cd45b5d3962"><div class="ttname"><a href="stream_8h.html#aa6dd5679b354a793efc82cd45b5d3962">strm_state_str</a></div><div class="ttdeci">const char *const strm_state_str[]</div><div class="ttdef"><b>Definition:</b> stream.c:51</div></div>
 <div class="ttc" id="conn_8h_html_ade2abf64e3b30fc0b5e1b95735ab6677"><div class="ttname"><a href="conn_8h.html#ade2abf64e3b30fc0b5e1b95735ab6677">cid2str</a></div><div class="ttdeci">#define cid2str(i)</div><div class="ttdef"><b>Definition:</b> conn.h:51</div></div>
 <div class="ttc" id="quic_8h_html_ab5f8d1e8c05400492619366d20559bfd"><div class="ttname"><a href="quic_8h.html#ab5f8d1e8c05400492619366d20559bfd">FMT_SID</a></div><div class="ttdeci">#define FMT_SID</div><div class="ttdef"><b>Definition:</b> quic.h:453</div></div>
-<div class="ttc" id="stream_8h_html_a1a43855d911c01eab5a29f74f0b8e4d3"><div class="ttname"><a href="stream_8h.html#a1a43855d911c01eab5a29f74f0b8e4d3">is_uni</a></div><div class="ttdeci">#define is_uni(id)</div><div class="ttdef"><b>Definition:</b> stream.h:110</div></div>
+<div class="ttc" id="stream_8h_html_a1a43855d911c01eab5a29f74f0b8e4d3"><div class="ttname"><a href="stream_8h.html#a1a43855d911c01eab5a29f74f0b8e4d3">is_uni</a></div><div class="ttdeci">#define is_uni(id)</div><div class="ttdef"><b>Definition:</b> stream.h:109</div></div>
 <div class="ttc" id="deps_2warpcore_2lib_2src_2util_8c_html_a6773bd84b2bf2a4f2118fc787f3a53fb"><div class="ttname"><a href="deps_2warpcore_2lib_2src_2util_8c.html#a6773bd84b2bf2a4f2118fc787f3a53fb">BLD</a></div><div class="ttdeci">#define BLD</div><div class="ttdoc">ANSI escape sequence: bold. </div><div class="ttdef"><b>Definition:</b> util.c:110</div></div>
 <div class="ttc" id="quic_8h_html_a8d23feea868a983c8c2b661e1e16972f"><div class="ttname"><a href="quic_8h.html#a8d23feea868a983c8c2b661e1e16972f">RED</a></div><div class="ttdeci">#define RED</div><div class="ttdoc">ANSI escape sequence: red. </div><div class="ttdef"><b>Definition:</b> quic.h:442</div></div>
 <div class="ttc" id="warpcore_2lib_2include_2warpcore_2util_8h_html_a49606be7356624568932ec81c0d429f4"><div class="ttname"><a href="warpcore_2lib_2include_2warpcore_2util_8h.html#a49606be7356624568932ec81c0d429f4">DBG</a></div><div class="ttdeci">#define DBG</div><div class="ttdoc">Debug. </div><div class="ttdef"><b>Definition:</b> util.h:94</div></div>
-<div class="ttc" id="stream_8h_html_a252b945d4c3e2382b66bc40894f9c440"><div class="ttname"><a href="stream_8h.html#a252b945d4c3e2382b66bc40894f9c440">is_srv_ini</a></div><div class="ttdeci">#define is_srv_ini(id)</div><div class="ttdef"><b>Definition:</b> stream.h:111</div></div>
+<div class="ttc" id="stream_8h_html_a252b945d4c3e2382b66bc40894f9c440"><div class="ttname"><a href="stream_8h.html#a252b945d4c3e2382b66bc40894f9c440">is_srv_ini</a></div><div class="ttdeci">#define is_srv_ini(id)</div><div class="ttdef"><b>Definition:</b> stream.h:110</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -431,7 +431,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="stream_8h_a2853c95f04e70a8c7e836f881eedff8d_cgraph.png" border="0" usemap="#stream_8h_a2853c95f04e70a8c7e836f881eedff8d_cgraph" alt=""/></div>
 <map name="stream_8h_a2853c95f04e70a8c7e836f881eedff8d_cgraph" id="stream_8h_a2853c95f04e70a8c7e836f881eedff8d_cgraph">
-<area shape="rect" id="node2" href="warpcore_8h.html#a280e62a55aab21fe0b23a7e9ade1a588" title="Return MTU of w_engine w. " alt="" coords="192,5,253,32"/></map>
+<area shape="rect" id="node2" href="stream_8c.html#a222da12d0111c9dee46a6cfc676be209" title="do_stream_fc" alt="" coords="192,5,293,32"/></map>
 </div>
 </p>
 
@@ -487,7 +487,7 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="ae4a57a5b73d68625c63574f6c4109bad"></a>
+<a class="anchor" id="a222da12d0111c9dee46a6cfc676be209"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -495,15 +495,25 @@ Here is the call graph for this function:</div>
           <td class="memname">void do_stream_fc </td>
           <td>(</td>
           <td class="paramtype">struct <a class="el" href="structq__stream.html">q_stream</a> *const&#160;</td>
-          <td class="paramname"><em>s</em></td><td>)</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const uint16_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="abd56ea788d8872433901695928a944ab"></a>
+<a class="anchor" id="a848f253b1d052daeb064af9827ae2b31"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -517,7 +527,19 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const int64_t&#160;</td>
-          <td class="paramname"><em>sid</em>&#160;</td>
+          <td class="paramname"><em>cnt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>bidi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>local</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -635,7 +657,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="stream_8h_a300bcafbad60488eb0b6b0560eb1b645_cgraph.png" border="0" usemap="#stream_8h_a300bcafbad60488eb0b6b0560eb1b645_cgraph" alt=""/></div>
 <map name="stream_8h_a300bcafbad60488eb0b6b0560eb1b645_cgraph" id="stream_8h_a300bcafbad60488eb0b6b0560eb1b645_cgraph">
-<area shape="rect" id="node2" href="stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="171,5,261,32"/><area shape="rect" id="node3" href="stream_8c.html#a2853c95f04e70a8c7e836f881eedff8d" title="apply_stream_limits" alt="" coords="147,56,285,83"/><area shape="rect" id="node5" href="stream_8c.html#abd56ea788d8872433901695928a944ab" title="do_stream_id_fc" alt="" coords="157,107,275,133"/><area shape="rect" id="node4" href="warpcore_8h.html#a280e62a55aab21fe0b23a7e9ade1a588" title="Return MTU of w_engine w. " alt="" coords="333,56,395,83"/></map>
+<area shape="rect" id="node2" href="stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="171,5,261,32"/><area shape="rect" id="node3" href="stream_8c.html#a2853c95f04e70a8c7e836f881eedff8d" title="apply_stream_limits" alt="" coords="147,56,285,83"/><area shape="rect" id="node5" href="stream_8c.html#a848f253b1d052daeb064af9827ae2b31" title="do_stream_id_fc" alt="" coords="157,107,275,133"/><area shape="rect" id="node4" href="stream_8c.html#a222da12d0111c9dee46a6cfc676be209" title="do_stream_fc" alt="" coords="333,56,435,83"/></map>
 </div>
 </p>
 
@@ -850,7 +872,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 25 2019 09:23:12 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 25 2019 12:23:45 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

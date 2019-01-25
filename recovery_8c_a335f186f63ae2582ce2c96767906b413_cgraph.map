@@ -21,7 +21,7 @@
 <area shape="rect" id="node46" href="$conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87" title="tx_stream" alt="" coords="359,1311,439,1337"/>
 <area shape="rect" id="node18" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="524,1463,620,1489"/>
 <area shape="rect" id="node23" href="$pkt_8c.html#a13f259191e295bb7cf7d34bb79d76bc5" title="enc_pkt" alt="" coords="707,911,775,937"/>
-<area shape="rect" id="node21" href="$stream_8c.html#abd56ea788d8872433901695928a944ab" title="do_stream_id_fc" alt="" coords="862,1311,981,1337"/>
+<area shape="rect" id="node21" href="$stream_8c.html#a848f253b1d052daeb064af9827ae2b31" title="do_stream_id_fc" alt="" coords="862,1311,981,1337"/>
 <area shape="rect" id="node22" href="$conn_8c.html#ad1e5e232a8372127e2130e85e7cdbb8d" title="use_next_dcid" alt="" coords="868,1361,975,1388"/>
 <area shape="rect" id="node24" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="876,1092,967,1119"/>
 <area shape="rect" id="node25" href="$openssl_8h.html#a2514cd53d441b44478641a1643af622d" title="ptls_openssl_random\l_bytes" alt="" coords="849,1143,994,1185"/>
