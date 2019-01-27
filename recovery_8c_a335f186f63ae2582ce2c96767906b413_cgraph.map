@@ -1,51 +1,51 @@
 <map id="on_ld_alarm" name="on_ld_alarm">
-<area shape="rect" id="node2" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="871,417,971,444"/>
-<area shape="rect" id="node3" href="$recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9" title="crypto_pkts_in_flight" alt="" coords="147,1021,290,1048"/>
-<area shape="rect" id="node5" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="1077,1437,1160,1464"/>
-<area shape="rect" id="node6" href="$recovery_8c.html#ae842cad0e5d3c7dae0bfb5abd97725b7" title="detect_lost_pkts" alt="" coords="339,341,458,368"/>
-<area shape="rect" id="node7" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="540,819,604,845"/>
-<area shape="rect" id="node15" href="$warpcore_8h.html#a281a85c5e2760b47cd28cde4e6a5109b" title="Set the socket options. " alt="" coords="163,1072,274,1099"/>
-<area shape="rect" id="node16" href="$conn_8c.html#a1a9a96efc3be558373804c33a60df6b9" title="tx" alt="" coords="199,971,238,997"/>
-<area shape="rect" id="node4" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="515,1564,629,1591"/>
-<area shape="rect" id="node8" href="$pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="1071,392,1166,419"/>
-<area shape="rect" id="node11" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="1063,139,1174,165"/>
-<area shape="rect" id="node12" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="544,265,600,292"/>
-<area shape="rect" id="node13" href="$recovery_8c.html#afb01a0d106bff6312c6309166da29fbb" title="congestion_event" alt="" coords="510,316,634,343"/>
-<area shape="rect" id="node9" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="1369,468,1418,495"/>
-<area shape="rect" id="node10" href="$pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="1244,367,1316,393"/>
-<area shape="rect" id="node14" href="$recovery_8c.html#ac36409c4a2b0380ad8c0b16d5fe819e4" title="in_recovery" alt="" coords="697,164,786,191"/>
-<area shape="rect" id="node17" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="349,1412,448,1439"/>
-<area shape="rect" id="node19" href="$conn_8c.html#a707d9d89ae0b67ec0bac83dd24c21708" title="tx_ack" alt="" coords="541,920,603,947"/>
-<area shape="rect" id="node20" href="$conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80" title="do_conn_mgmt" alt="" coords="686,1281,797,1308"/>
-<area shape="rect" id="node40" href="$conn_8c.html#a061f6268bdb3054227eedf2ca20cb8a1" title="do_tx" alt="" coords="714,215,769,241"/>
-<area shape="rect" id="node46" href="$conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87" title="tx_stream" alt="" coords="359,1311,439,1337"/>
-<area shape="rect" id="node18" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="524,1463,620,1489"/>
-<area shape="rect" id="node23" href="$pkt_8c.html#a13f259191e295bb7cf7d34bb79d76bc5" title="enc_pkt" alt="" coords="707,911,775,937"/>
-<area shape="rect" id="node21" href="$stream_8c.html#a848f253b1d052daeb064af9827ae2b31" title="do_stream_id_fc" alt="" coords="862,1311,981,1337"/>
-<area shape="rect" id="node22" href="$conn_8c.html#ad1e5e232a8372127e2130e85e7cdbb8d" title="use_next_dcid" alt="" coords="868,1361,975,1388"/>
-<area shape="rect" id="node24" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="876,1092,967,1119"/>
-<area shape="rect" id="node25" href="$openssl_8h.html#a2514cd53d441b44478641a1643af622d" title="ptls_openssl_random\l_bytes" alt="" coords="849,1143,994,1185"/>
-<area shape="rect" id="node26" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="1085,1209,1152,1236"/>
-<area shape="rect" id="node27" href="$conn_8c.html#ada89723c147c3959024e404cea1cd2f4" title="update_act_scid" alt="" coords="863,1260,980,1287"/>
-<area shape="rect" id="node28" href="$pkt_8c.html#adb9f7ed98b4a9aa5dbab4df08c78ea0c" title="needed_pkt_nr_len" alt="" coords="856,569,987,596"/>
-<area shape="rect" id="node29" href="$pkt_8c.html#a6419e978eb233947f0bf7805663171fc" title="enc_lh_cids" alt="" coords="876,1209,967,1236"/>
-<area shape="rect" id="node30" href="$pkt_8c.html#aad4456e4786b31e02e1e4c81e265d442" title="log_pkt" alt="" coords="889,823,953,849"/>
-<area shape="rect" id="node31" href="$pn_8c.html#a7f1a6720a0e3506c0553d13ad865510f" title="needs_ack" alt="" coords="879,265,964,292"/>
-<area shape="rect" id="node32" href="$frame_8c.html#ad33d4ffd79b410b355647b882fcecd94" title="enc_ack_frame" alt="" coords="866,620,977,647"/>
-<area shape="rect" id="node33" href="$frame_8c.html#a35e96a60869ff030118503cb8a81f715" title="enc_close_frame" alt="" coords="861,671,982,697"/>
-<area shape="rect" id="node34" href="$pkt_8c.html#a0123963315143471e2cc3a99881a3c66" title="enc_other_frames" alt="" coords="858,721,985,748"/>
-<area shape="rect" id="node35" href="$frame_8c.html#a0d8bea0a0a229b796505008855eb17f0" title="enc_padding_frame" alt="" coords="854,772,989,799"/>
-<area shape="rect" id="node36" href="$frame_8c.html#ae94d6f87955af69345cb46c9d03ad90f" title="log_stream_or_crypto\l_frame" alt="" coords="1045,929,1192,970"/>
-<area shape="rect" id="node37" href="$frame_8c.html#a6134c4faa49bbd6fbc29589f12350400" title="enc_stream_or_crypto\l_frame" alt="" coords="846,874,997,915"/>
-<area shape="rect" id="node38" href="$warpcore_8h.html#aa17e20ed409edbfe18aa79ae5da640ff" title="Return a spare w_iov from the pool of the given warpcore engine. " alt="" coords="876,940,967,967"/>
-<area shape="rect" id="node39" href="$tls_8c.html#a1193e69500fa37d706399a825b799526" title="enc_aead" alt="" coords="1241,468,1319,495"/>
-<area shape="rect" id="node41" href="$pkt_8c.html#a1f839697f5c2cb2a8b086249c85399bc" title="coalesce" alt="" coords="884,316,959,343"/>
-<area shape="rect" id="node42" href="$warpcore_8h.html#ac4f053bd8ffef52d164823134d732f51" title="Loops over the w_iov structures in the w_iov_sq o, sending them all over w_sock s. " alt="" coords="896,164,947,191"/>
-<area shape="rect" id="node43" href="$warpcore_8h.html#a0c90e71507fd384ce951e600da9f04f6" title="Return the number of w_iov structs in q that are still waiting for transmission. " alt="" coords="870,215,973,241"/>
-<area shape="rect" id="node44" href="$warpcore_8h.html#a3fba5669717435248ca7b7945a9b9d75" title="Push data placed in the TX rings via udp_tx() and similar methods out onto the link. " alt="" coords="884,63,959,89"/>
-<area shape="rect" id="node45" href="$warpcore_8h.html#a960d81cdf30fb1dc693447ba4763f977" title="Return a w_iov tail queue obtained via w_alloc_len(), w_alloc_cnt() or w_rx() back to warpcore..." alt="" coords="891,113,952,140"/>
-<area shape="rect" id="node47" href="$stream_8h.html#ae11750e72c5f654dd57041a830ee19a7" title="stream_needs_ctrl" alt="" coords="507,1412,637,1439"/>
-<area shape="rect" id="node48" href="$conn_8c.html#a339ba10eddd4e7a08c6ba9c685e98929" title="tx_stream_data" alt="" coords="516,1127,628,1153"/>
-<area shape="rect" id="node49" href="$conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0" title="has_pval_wnd" alt="" coords="689,1375,794,1401"/>
-<area shape="rect" id="node50" href="$conn_8c.html#a7bc1cf055ddc94c793f81fdfc52ecdbb" title="tx_stream_ctrl" alt="" coords="519,1040,625,1067"/>
+<area shape="rect" id="node2" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="1063,1443,1163,1469"/>
+<area shape="rect" id="node3" href="$recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9" title="crypto_pkts_in_flight" alt="" coords="147,575,290,601"/>
+<area shape="rect" id="node5" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="1072,119,1155,145"/>
+<area shape="rect" id="node6" href="$recovery_8c.html#ae842cad0e5d3c7dae0bfb5abd97725b7" title="detect_lost_pkts" alt="" coords="339,337,458,364"/>
+<area shape="rect" id="node7" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="537,423,601,449"/>
+<area shape="rect" id="node15" href="$warpcore_8h.html#a281a85c5e2760b47cd28cde4e6a5109b" title="Set the socket options. " alt="" coords="163,701,274,728"/>
+<area shape="rect" id="node16" href="$conn_8c.html#a1a9a96efc3be558373804c33a60df6b9" title="tx" alt="" coords="199,651,238,677"/>
+<area shape="rect" id="node4" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="513,575,626,601"/>
+<area shape="rect" id="node8" href="$pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="1066,655,1161,681"/>
+<area shape="rect" id="node11" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="1058,1240,1169,1267"/>
+<area shape="rect" id="node12" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="541,271,597,297"/>
+<area shape="rect" id="node13" href="$recovery_8c.html#afb01a0d106bff6312c6309166da29fbb" title="congestion_event" alt="" coords="507,207,631,233"/>
+<area shape="rect" id="node9" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="1363,651,1413,677"/>
+<area shape="rect" id="node10" href="$pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="1239,701,1311,728"/>
+<area shape="rect" id="node14" href="$recovery_8c.html#ac36409c4a2b0380ad8c0b16d5fe819e4" title="in_recovery" alt="" coords="691,195,781,221"/>
+<area shape="rect" id="node17" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="349,499,448,525"/>
+<area shape="rect" id="node19" href="$conn_8c.html#a707d9d89ae0b67ec0bac83dd24c21708" title="tx_ack" alt="" coords="539,828,600,855"/>
+<area shape="rect" id="node20" href="$conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80" title="do_conn_mgmt" alt="" coords="681,536,791,563"/>
+<area shape="rect" id="node43" href="$conn_8c.html#a061f6268bdb3054227eedf2ca20cb8a1" title="do_tx" alt="" coords="709,1519,763,1545"/>
+<area shape="rect" id="node49" href="$conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87" title="tx_stream" alt="" coords="359,625,439,652"/>
+<area shape="rect" id="node18" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="521,524,617,551"/>
+<area shape="rect" id="node23" href="$pkt_8c.html#a13f259191e295bb7cf7d34bb79d76bc5" title="enc_pkt" alt="" coords="702,815,770,841"/>
+<area shape="rect" id="node21" href="$stream_8c.html#a848f253b1d052daeb064af9827ae2b31" title="do_stream_id_fc" alt="" coords="857,195,975,221"/>
+<area shape="rect" id="node22" href="$conn_8c.html#ad1e5e232a8372127e2130e85e7cdbb8d" title="use_next_dcid" alt="" coords="863,144,969,171"/>
+<area shape="rect" id="node24" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="1068,1367,1159,1393"/>
+<area shape="rect" id="node25" href="$openssl_8h.html#a2514cd53d441b44478641a1643af622d" title="ptls_openssl_random\l_bytes" alt="" coords="843,819,989,861"/>
+<area shape="rect" id="node26" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="1080,397,1147,424"/>
+<area shape="rect" id="node27" href="$conn_8c.html#ada89723c147c3959024e404cea1cd2f4" title="update_act_scid" alt="" coords="857,296,975,323"/>
+<area shape="rect" id="node28" href="$pkt_8c.html#adb9f7ed98b4a9aa5dbab4df08c78ea0c" title="needed_pkt_nr_len" alt="" coords="851,885,981,912"/>
+<area shape="rect" id="node29" href="$pkt_8c.html#a6419e978eb233947f0bf7805663171fc" title="enc_lh_cids" alt="" coords="871,397,961,424"/>
+<area shape="rect" id="node30" href="$pkt_8c.html#aad4456e4786b31e02e1e4c81e265d442" title="log_pkt" alt="" coords="884,600,948,627"/>
+<area shape="rect" id="node31" href="$pn_8c.html#a7f1a6720a0e3506c0553d13ad865510f" title="needs_ack" alt="" coords="873,987,959,1013"/>
+<area shape="rect" id="node32" href="$frame_8c.html#ad33d4ffd79b410b355647b882fcecd94" title="enc_ack_frame" alt="" coords="861,936,971,963"/>
+<area shape="rect" id="node33" href="$frame_8c.html#a35e96a60869ff030118503cb8a81f715" title="enc_close_frame" alt="" coords="855,1037,977,1064"/>
+<area shape="rect" id="node34" href="$pkt_8c.html#a835c615f20b782d4454cd6657becd9c3" title="enc_other_frames" alt="" coords="853,1088,979,1115"/>
+<area shape="rect" id="node35" href="$frame_8c.html#a0d8bea0a0a229b796505008855eb17f0" title="enc_padding_frame" alt="" coords="849,1139,983,1165"/>
+<area shape="rect" id="node36" href="$frame_8c.html#ae94d6f87955af69345cb46c9d03ad90f" title="log_stream_or_crypto\l_frame" alt="" coords="1040,803,1187,845"/>
+<area shape="rect" id="node37" href="$frame_8c.html#a6134c4faa49bbd6fbc29589f12350400" title="enc_stream_or_crypto\l_frame" alt="" coords="841,651,991,693"/>
+<area shape="rect" id="node38" href="$warpcore_8h.html#aa17e20ed409edbfe18aa79ae5da640ff" title="Return a spare w_iov from the pool of the given warpcore engine. " alt="" coords="871,1189,961,1216"/>
+<area shape="rect" id="node39" href="$tls_8c.html#a1193e69500fa37d706399a825b799526" title="enc_aead" alt="" coords="1235,499,1314,525"/>
+<area shape="rect" id="node40" href="$recovery_8c.html#a9749ec5110f82cad7875d3ec8b94199d" title="on_pkt_sent" alt="" coords="869,1341,963,1368"/>
+<area shape="rect" id="node41" href="$tls_8c.html#a8984aa5b25b32bb8e40aef64f3164fc0" title="maybe_flip_keys" alt="" coords="856,768,976,795"/>
+<area shape="rect" id="node42" href="$pn_8c.html#a01a6deaf5b4cd84917145356378f1004" title="abandon_pn" alt="" coords="870,245,962,272"/>
+<area shape="rect" id="node44" href="$pkt_8c.html#a1f839697f5c2cb2a8b086249c85399bc" title="coalesce" alt="" coords="879,1291,953,1317"/>
+<area shape="rect" id="node45" href="$warpcore_8h.html#ac4f053bd8ffef52d164823134d732f51" title="Loops over the w_iov structures in the w_iov_sq o, sending them all over w_sock s. " alt="" coords="891,1595,941,1621"/>
+<area shape="rect" id="node46" href="$warpcore_8h.html#a0c90e71507fd384ce951e600da9f04f6" title="Return the number of w_iov structs in q that are still waiting for transmission. " alt="" coords="865,1645,967,1672"/>
+<area shape="rect" id="node47" href="$warpcore_8h.html#a3fba5669717435248ca7b7945a9b9d75" title="Push data placed in the TX rings via udp_tx() and similar methods out onto the link. " alt="" coords="879,1493,953,1520"/>
+<area shape="rect" id="node48" href="$warpcore_8h.html#a960d81cdf30fb1dc693447ba4763f977" title="Return a w_iov tail queue obtained via w_alloc_len(), w_alloc_cnt() or w_rx() back to warpcore..." alt="" coords="885,1544,947,1571"/>
+<area shape="rect" id="node50" href="$conn_8c.html#a339ba10eddd4e7a08c6ba9c685e98929" title="tx_stream_data" alt="" coords="513,727,625,753"/>
 </map>

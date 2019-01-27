@@ -1,17 +1,19 @@
 <map id="chk_tp" name="chk_tp">
-<area shape="rect" id="node2" href="$tls_8c.html#a4e5325f8fd6e8cca1d74250877d2ba02" title="chk_tp_clnt" alt="" coords="139,107,229,133"/>
+<area shape="rect" id="node2" href="$tls_8c.html#a4e5325f8fd6e8cca1d74250877d2ba02" title="chk_tp_clnt" alt="" coords="139,157,229,184"/>
 <area shape="rect" id="node3" href="$conn_8c.html#a02d7b0c5a072e1b673358b52ac71f160" title="err_close" alt="" coords="320,56,395,83"/>
-<area shape="rect" id="node11" href="$tls_8c.html#a0edf1dbf120fe0c438243d9d1a4b66c2" title="chk_tp_serv" alt="" coords="137,157,231,184"/>
+<area shape="rect" id="node11" href="$tls_8c.html#a0edf1dbf120fe0c438243d9d1a4b66c2" title="chk_tp_serv" alt="" coords="137,107,231,133"/>
 <area shape="rect" id="node13" href="$conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1" title="cid_cmp" alt="" coords="149,208,219,235"/>
 <area shape="rect" id="node15" href="$stream_8c.html#a2853c95f04e70a8c7e836f881eedff8d" title="apply_stream_limits" alt="" coords="115,259,253,285"/>
-<area shape="rect" id="node8" href="$pkt_8c.html#ad04b9f10bc7ad63422f56e3a4fe70e5e" title="clnt_vneg" alt="" coords="318,107,397,133"/>
+<area shape="rect" id="node8" href="$pkt_8c.html#ad04b9f10bc7ad63422f56e3a4fe70e5e" title="clnt_vneg" alt="" coords="318,157,397,184"/>
 <area shape="rect" id="node4" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="480,56,579,83"/>
 <area shape="rect" id="node5" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="661,5,725,32"/>
 <area shape="rect" id="node6" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="645,56,741,83"/>
 <area shape="rect" id="node7" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="652,107,735,133"/>
-<area shape="rect" id="node9" href="$conn_8h.html#a76639ec987a700f45570a287b25025ea" title="is_rsvd_vers" alt="" coords="481,107,577,133"/>
-<area shape="rect" id="node10" href="$conn_8h.html#a3b1788e29ec153bfcb2b7edc34c488a6" title="is_force_vneg_vers" alt="" coords="462,157,597,184"/>
-<area shape="rect" id="node12" href="$conn_8c.html#a1ae0706a577e85efbcfacf517a329dbe" title="vers_supported" alt="" coords="302,157,413,184"/>
+<area shape="rect" id="node9" href="$conn_8h.html#a76639ec987a700f45570a287b25025ea" title="is_rsvd_vers" alt="" coords="481,157,577,184"/>
+<area shape="rect" id="node10" href="$conn_8h.html#a3b1788e29ec153bfcb2b7edc34c488a6" title="is_force_vneg_vers" alt="" coords="462,107,597,133"/>
+<area shape="rect" id="node12" href="$conn_8c.html#a1ae0706a577e85efbcfacf517a329dbe" title="vers_supported" alt="" coords="302,107,413,133"/>
 <area shape="rect" id="node14" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="319,208,395,235"/>
 <area shape="rect" id="node16" href="$stream_8c.html#a222da12d0111c9dee46a6cfc676be209" title="do_stream_fc" alt="" coords="307,259,408,285"/>
+<area shape="rect" id="node17" href="$stream_8h.html#a452e1639a5e86a92fc0e5c9a96383d55" title="need_ctrl_ins" alt="" coords="480,259,579,285"/>
+<area shape="rect" id="node18" href="$stream_8h.html#a55033bb39f92f9963b52dd6d552ec723" title="needs_ctrl" alt="" coords="652,259,735,285"/>
 </map>

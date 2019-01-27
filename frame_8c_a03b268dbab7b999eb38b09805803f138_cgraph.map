@@ -1,3 +1,5 @@
 <map id="dec_max_stream_data_frame" name="dec_max_stream_data_frame">
-<area shape="rect" id="node2" href="$stream_8c.html#a7308501df4d06bbfd14665ae88caae02" title="get_stream" alt="" coords="209,12,295,39"/>
+<area shape="rect" id="node2" href="$stream_8c.html#a7308501df4d06bbfd14665ae88caae02" title="get_stream" alt="" coords="214,5,301,32"/>
+<area shape="rect" id="node3" href="$stream_8h.html#ad616677e7a2e7b39cafd5661f2787add" title="need_ctrl_del" alt="" coords="208,56,307,83"/>
+<area shape="rect" id="node4" href="$stream_8h.html#a55033bb39f92f9963b52dd6d552ec723" title="needs_ctrl" alt="" coords="355,56,437,83"/>
 </map>

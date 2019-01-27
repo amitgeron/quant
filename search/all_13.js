@@ -247,7 +247,6 @@ var searchData=
   ['tx_5fmax_5fstream_5fdata',['tx_max_stream_data',['../structq__stream.html#a2756b454995958d339e91b6de2c25551',1,'q_stream']]],
   ['tx_5fpending',['tx_pending',['../structw__iov__sq.html#ab9f873b767f2b85625cadd2cf8d17d8f',1,'w_iov_sq']]],
   ['tx_5fstream',['tx_stream',['../conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87',1,'conn.c']]],
-  ['tx_5fstream_5fctrl',['tx_stream_ctrl',['../conn_8c.html#a7bc1cf055ddc94c793f81fdfc52ecdbb',1,'conn.c']]],
   ['tx_5fstream_5fdata',['tx_stream_data',['../conn_8c.html#a339ba10eddd4e7a08c6ba9c685e98929',1,'conn.c']]],
   ['tx_5ft',['tx_t',['../structpkt__meta.html#a3a2f5352a57c1f84e8adea474e478b30',1,'pkt_meta']]],
   ['tx_5fvneg_5fresp',['tx_vneg_resp',['../pkt_8c.html#acda77940d975cd06aecc7f0aae9f2aa0',1,'tx_vneg_resp(const struct w_sock *const ws, const struct w_iov *const v):&#160;pkt.c'],['../pkt_8h.html#acda77940d975cd06aecc7f0aae9f2aa0',1,'tx_vneg_resp(const struct w_sock *const ws, const struct w_iov *const v):&#160;pkt.c']]],
