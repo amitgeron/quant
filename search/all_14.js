@@ -116,7 +116,7 @@ var searchData=
   ['unpackint16',['unpackInt16',['../klib_2bgzf_8c.html#a5665b515edc8c3fd9f8fb81863de2c11',1,'unpackInt16(const uint8_t *buffer):&#160;bgzf.c'],['../warpcore_2lib_2deps_2klib_2bgzf_8c.html#a5665b515edc8c3fd9f8fb81863de2c11',1,'unpackInt16(const uint8_t *buffer):&#160;bgzf.c']]],
   ['update',['update',['../structcf__chash.html#a1d6b4cea2da6bca6d428719e5080e856',1,'cf_chash::update()'],['../structst__ptls__hash__context__t.html#a77ddb62cd2358c16d8aa88101b39e146',1,'st_ptls_hash_context_t::update()']]],
   ['update16',['UPDATE16',['../lib_2picotls_8c.html#ad26dfad9cb87b5cc38ec36df15e1b931',1,'picotls.c']]],
-  ['update_5fact_5fscid',['update_act_scid',['../conn_8c.html#ada89723c147c3959024e404cea1cd2f4',1,'update_act_scid(struct q_conn *const c, struct cid *const id):&#160;conn.c'],['../conn_8h.html#ada89723c147c3959024e404cea1cd2f4',1,'update_act_scid(struct q_conn *const c, struct cid *const id):&#160;conn.c']]],
+  ['update_5fact_5fscid',['update_act_scid',['../conn_8c.html#a7a1791d892e7c7cbc7d6bb3c47379317',1,'conn.c']]],
   ['update_5fblock',['UPDATE_BLOCK',['../lib_2picotls_8c.html#a5b67bc7d4a170c2341ce946e9df69062',1,'picotls.c']]],
   ['update_5fconn_5fconf',['update_conn_conf',['../conn_8c.html#a8b3f561241f82fe8b840ed7655d13ffe',1,'update_conn_conf(struct q_conn *const c, const struct q_conn_conf *const cc):&#160;conn.c'],['../conn_8h.html#a8b3f561241f82fe8b840ed7655d13ffe',1,'update_conn_conf(struct q_conn *const c, const struct q_conn_conf *const cc):&#160;conn.c']]],
   ['update_5fesni_5fkey',['update_esni_key',['../structst__ptls__context__t.html#a9d8a0749454d25344c4565fbc131f891',1,'st_ptls_context_t']]],
