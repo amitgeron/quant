@@ -2,6 +2,7 @@ var searchData=
 [
   ['handle_5funknown_5fstrm',['handle_unknown_strm',['../frame_8c.html#a0e34aafef3b23106c62c52801def6de1',1,'frame.c']]],
   ['has_5fframe',['has_frame',['../frame_8h.html#aed8d9d476ac59dfb0097cbffd793ae5d',1,'frame.h']]],
+  ['has_5fstream_5fdata',['has_stream_data',['../quic_8h.html#a0bd3d14127b17c36361ce5f2ef2faf7f',1,'quic.h']]],
   ['hash_5feq',['hash_eq',['../klib_2test_2khash__test_8c.html#ac4fb7ccaf246e45e9c5a2841166136af',1,'hash_eq():&#160;khash_test.c'],['../warpcore_2lib_2deps_2klib_2test_2khash__test_8c.html#ac4fb7ccaf246e45e9c5a2841166136af',1,'hash_eq():&#160;khash_test.c']]],
   ['hash_5ffunc',['hash_func',['../klib_2test_2khash__test_8c.html#ae494403d53bfa05665163eeb3cb47568',1,'hash_func():&#160;khash_test.c'],['../warpcore_2lib_2deps_2klib_2test_2khash__test_8c.html#ae494403d53bfa05665163eeb3cb47568',1,'hash_func():&#160;khash_test.c']]],
   ['hash_5flength',['HASH_LENGTH',['../klib_2kurl_8c.html#a42eb19b10bf0faee9c8decb218bdeae9',1,'HASH_LENGTH():&#160;kurl.c'],['../warpcore_2lib_2deps_2klib_2kurl_8c.html#a42eb19b10bf0faee9c8decb218bdeae9',1,'HASH_LENGTH():&#160;kurl.c']]],

@@ -18,7 +18,6 @@ var searchData=
   ['ip_5fp_5ficmp',['IP_P_ICMP',['../ip_8h.html#a1bcfc7e2e9c527ffd1915f78219b8d6d',1,'ip.h']]],
   ['ip_5fp_5fudp',['IP_P_UDP',['../ip_8h.html#a0a2d72ff4c961f5e8b58c40cc4e1987c',1,'ip.h']]],
   ['is_5fcrypto_5fpkt',['is_crypto_pkt',['../recovery_8c.html#ae3bf2c7c384f8e14aa7b68b1e25f76dc',1,'recovery.c']]],
-  ['is_5frtxable',['is_rtxable',['../quic_8h.html#a650f79c60d6d19b0edeeb1735bbd5000',1,'quic.h']]],
   ['is_5fset',['is_set',['../quic_8h.html#a2e19342e141828d7fe9b2870e5d7d70a',1,'quic.h']]],
   ['is_5fsrv_5fini',['is_srv_ini',['../stream_8h.html#a252b945d4c3e2382b66bc40894f9c440',1,'stream.h']]],
   ['is_5funi',['is_uni',['../stream_8h.html#a1a43855d911c01eab5a29f74f0b8e4d3',1,'stream.h']]]

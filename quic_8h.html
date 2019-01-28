@@ -168,8 +168,8 @@ Macros</h2></td></tr>
 <tr class="separator:a1aa83c4276fdde72d879fe39db958f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0721d3a6a0adbe5443a85d94ee4da000"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a0721d3a6a0adbe5443a85d94ee4da000">hex2str</a>(<a class="el" href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a>, <a class="el" href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a>)</td></tr>
 <tr class="separator:a0721d3a6a0adbe5443a85d94ee4da000"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a650f79c60d6d19b0edeeb1735bbd5000"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a650f79c60d6d19b0edeeb1735bbd5000">is_rtxable</a>(p)&#160;&#160;&#160;(p)-&gt;stream_header_pos</td></tr>
-<tr class="separator:a650f79c60d6d19b0edeeb1735bbd5000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bd3d14127b17c36361ce5f2ef2faf7f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a0bd3d14127b17c36361ce5f2ef2faf7f">has_stream_data</a>(p)&#160;&#160;&#160;(p)-&gt;stream_header_pos</td></tr>
+<tr class="separator:a0bd3d14127b17c36361ce5f2ef2faf7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa16a699e7946ec7e1fe1c62a721e140c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#aa16a699e7946ec7e1fe1c62a721e140c">kPacketThreshold</a>&#160;&#160;&#160;3</td></tr>
 <tr class="separator:aa16a699e7946ec7e1fe1c62a721e140c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad73baff88a976d360e175eb408eb5923"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#ad73baff88a976d360e175eb408eb5923">kTimeThreshold</a>&#160;&#160;&#160;1.125</td></tr>
@@ -700,6 +700,22 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a0bd3d14127b17c36361ce5f2ef2faf7f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define has_stream_data</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">p</td><td>)</td>
+          <td>&#160;&#160;&#160;(p)-&gt;stream_header_pos</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a0721d3a6a0adbe5443a85d94ee4da000"></a>
 <div class="memitem">
 <div class="memproto">
@@ -741,22 +757,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:290</div></div>
 <div class="ttc" id="t_2picotls_8c_html_a7360b55975153b822efc5217b7734e6a"><div class="ttname"><a href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a></div><div class="ttdeci">size_t len</div><div class="ttdef"><b>Definition:</b> picotls.c:291</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<a class="anchor" id="a650f79c60d6d19b0edeeb1735bbd5000"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define is_rtxable</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">p</td><td>)</td>
-          <td>&#160;&#160;&#160;(p)-&gt;stream_header_pos</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
 </div>
 </div>
 <a class="anchor" id="a2e19342e141828d7fe9b2870e5d7d70a"></a>
@@ -1885,7 +1885,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 28 2019 21:30:05 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jan 28 2019 23:26:54 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

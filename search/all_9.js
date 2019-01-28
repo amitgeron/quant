@@ -131,7 +131,6 @@ var searchData=
   ['is_5fretry_5frequest',['is_retry_request',['../structst__ptls__server__hello__t.html#a205b6f2a873d0f5ad9486022812d22c9',1,'st_ptls_server_hello_t']]],
   ['is_5frsvd_5fvers',['is_rsvd_vers',['../conn_8h.html#a76639ec987a700f45570a287b25025ea',1,'conn.h']]],
   ['is_5frtx',['is_rtx',['../structpkt__meta.html#af3340b6c044ae49975fdb3cac44667d9',1,'pkt_meta']]],
-  ['is_5frtxable',['is_rtxable',['../quic_8h.html#a650f79c60d6d19b0edeeb1735bbd5000',1,'quic.h']]],
   ['is_5fserver',['is_server',['../structst__ptls__t.html#a91a52a168a5be2182fda98f215f3bfd5',1,'st_ptls_t']]],
   ['is_5fset',['is_set',['../quic_8h.html#a2e19342e141828d7fe9b2870e5d7d70a',1,'quic.h']]],
   ['is_5fsrv_5fini',['is_srv_ini',['../stream_8h.html#a252b945d4c3e2382b66bc40894f9c440',1,'stream.h']]],
