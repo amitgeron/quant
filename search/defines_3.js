@@ -45,7 +45,6 @@ var searchData=
   ['conn_5fstate',['CONN_STATE',['../conn_8c.html#a36daba4f4585170e66aeb964bedfd0ab',1,'CONN_STATE():&#160;conn.c'],['../conn_8h.html#a36daba4f4585170e66aeb964bedfd0ab',1,'CONN_STATE():&#160;conn.h']]],
   ['conn_5fstates',['CONN_STATES',['../conn_8h.html#a3f567945c3f8d5d518f5463ec30776d0',1,'conn.h']]],
   ['conn_5fto_5fstate',['conn_to_state',['../conn_8h.html#a50c1772c30f4ee9e48843b07d662835d',1,'conn.h']]],
-  ['cookie_5flen',['COOKIE_LEN',['../tls_8c.html#a61ef017ccbfcbd775738c77bb86b5453',1,'tls.c']]],
   ['copy128',['COPY128',['../boot_8c.html#a3e9711e7fd7f45624107a2c5aff4fb96',1,'boot.c']]],
   ['copy16',['COPY16',['../boot_8c.html#a8233bffec0dd8869113bec3fba591e66',1,'boot.c']]],
   ['copy2',['COPY2',['../boot_8c.html#accea1a577dca5b864e2feb016a1d3861',1,'boot.c']]],
