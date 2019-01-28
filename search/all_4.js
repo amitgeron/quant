@@ -94,7 +94,7 @@ var searchData=
   ['derive_5fsecret',['derive_secret',['../lib_2picotls_8c.html#a363a3e1f1cd42666a1ee1697470a262c',1,'picotls.c']]],
   ['derive_5fsecret_5fwith_5fempty_5fdigest',['derive_secret_with_empty_digest',['../lib_2picotls_8c.html#a998f5e524ac531fac16236152d6cd839',1,'picotls.c']]],
   ['derive_5fsecret_5fwith_5fhash',['derive_secret_with_hash',['../lib_2picotls_8c.html#a6dc4d9606e324b70fe5d578895e6dde3',1,'picotls.c']]],
-  ['detect_5flost_5fpkts',['detect_lost_pkts',['../recovery_8c.html#ae842cad0e5d3c7dae0bfb5abd97725b7',1,'recovery.c']]],
+  ['detect_5flost_5fpkts',['detect_lost_pkts',['../recovery_8c.html#a6971aff4675cf8595f8bb0e84e521d4a',1,'recovery.c']]],
   ['die',['die',['../warpcore_2lib_2include_2warpcore_2util_8h.html#a0b2164ee75646f16a7388a36e6800c35',1,'util.h']]],
   ['diet_2ec',['diet.c',['../diet_8c.html',1,'']]],
   ['diet_2eh',['diet.h',['../diet_8h.html',1,'']]],

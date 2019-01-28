@@ -38,7 +38,7 @@ var searchData=
   ['derive_5fsecret',['derive_secret',['../lib_2picotls_8c.html#a363a3e1f1cd42666a1ee1697470a262c',1,'picotls.c']]],
   ['derive_5fsecret_5fwith_5fempty_5fdigest',['derive_secret_with_empty_digest',['../lib_2picotls_8c.html#a998f5e524ac531fac16236152d6cd839',1,'picotls.c']]],
   ['derive_5fsecret_5fwith_5fhash',['derive_secret_with_hash',['../lib_2picotls_8c.html#a6dc4d9606e324b70fe5d578895e6dde3',1,'picotls.c']]],
-  ['detect_5flost_5fpkts',['detect_lost_pkts',['../recovery_8c.html#ae842cad0e5d3c7dae0bfb5abd97725b7',1,'recovery.c']]],
+  ['detect_5flost_5fpkts',['detect_lost_pkts',['../recovery_8c.html#a6971aff4675cf8595f8bb0e84e521d4a',1,'recovery.c']]],
   ['diet_5fempty',['diet_empty',['../diet_8h.html#aad21e3b897b17d0c86fce4a174e80ab0',1,'diet.h']]],
   ['diet_5ffind',['diet_find',['../diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588',1,'diet_find(struct diet *const d, const uint64_t n):&#160;diet.c'],['../diet_8h.html#a87c3c2cebc6ccf0911d3d05989352588',1,'diet_find(struct diet *const d, const uint64_t n):&#160;diet.c']]],
   ['diet_5ffree',['diet_free',['../diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7',1,'diet_free(struct diet *const d):&#160;diet.c'],['../diet_8h.html#aca2c7f843feefa74e9e6dca31bc41fd7',1,'diet_free(struct diet *const d):&#160;diet.c']]],

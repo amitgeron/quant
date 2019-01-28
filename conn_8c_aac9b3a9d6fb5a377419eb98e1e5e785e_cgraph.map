@@ -16,7 +16,7 @@
 <area shape="rect" id="node14" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="566,309,666,336"/>
 <area shape="rect" id="node15" href="$recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9" title="crypto_pkts_in_flight" alt="" coords="545,360,687,387"/>
 <area shape="rect" id="node16" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="575,411,657,437"/>
-<area shape="rect" id="node17" href="$recovery_8c.html#ae842cad0e5d3c7dae0bfb5abd97725b7" title="detect_lost_pkts" alt="" coords="557,208,675,235"/>
+<area shape="rect" id="node17" href="$recovery_8c.html#a6971aff4675cf8595f8bb0e84e521d4a" title="detect_lost_pkts" alt="" coords="557,208,675,235"/>
 <area shape="rect" id="node18" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="780,233,844,260"/>
 <area shape="rect" id="node19" href="$warpcore_8h.html#a281a85c5e2760b47cd28cde4e6a5109b" title="Set the socket options. " alt="" coords="561,461,671,488"/>
 <area shape="rect" id="node20" href="$conn_8c.html#a1a9a96efc3be558373804c33a60df6b9" title="tx" alt="" coords="597,157,635,184"/>
