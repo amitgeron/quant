@@ -495,9 +495,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a66323ce679870e8b773150d4e4c60524"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="picotls_8h.html#a66323ce679870e8b773150d4e4c60524">PTLS_CALLBACK_TYPE</a> (int, on_client_hello, <a class="el" href="picotls_8h.html#a7d80bba54b8b0070ce3264441be3e325">ptls_t</a> *<a class="el" href="structtls.html">tls</a>, <a class="el" href="picotls_8h.html#aa371ef01225d2416fb19cb54bc85150b">ptls_on_client_hello_parameters_t</a> *params)</td></tr>
 <tr class="memdesc:a66323ce679870e8b773150d4e4c60524"><td class="mdescLeft">&#160;</td><td class="mdescRight">after receiving ClientHello, the core calls the optional callback to give a chance to the swap the context depending on the input values.  <a href="#a66323ce679870e8b773150d4e4c60524">More...</a><br/></td></tr>
 <tr class="separator:a66323ce679870e8b773150d4e4c60524"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d8bf68a2d3ed7b7128104214a129ca0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="picotls_8h.html#a8d8bf68a2d3ed7b7128104214a129ca0">PTLS_CALLBACK_TYPE</a> (int, emit_certificate, <a class="el" href="picotls_8h.html#a7d80bba54b8b0070ce3264441be3e325">ptls_t</a> *<a class="el" href="structtls.html">tls</a>, <a class="el" href="picotls_8h.html#a6f5ef09de44ae8adae89bed994848170">ptls_message_emitter_t</a> *emitter, <a class="el" href="picotls_8h.html#a8c055926924a21cfe2ded845b00b30f4">ptls_key_schedule_t</a> *key_sched, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> context)</td></tr>
-<tr class="memdesc:a8d8bf68a2d3ed7b7128104214a129ca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to generate the certificate message.  <a href="#a8d8bf68a2d3ed7b7128104214a129ca0">More...</a><br/></td></tr>
-<tr class="separator:a8d8bf68a2d3ed7b7128104214a129ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab52c4e3ed813d9c66f70061540d3175f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="picotls_8h.html#ab52c4e3ed813d9c66f70061540d3175f">PTLS_CALLBACK_TYPE</a> (int, emit_certificate, <a class="el" href="picotls_8h.html#a7d80bba54b8b0070ce3264441be3e325">ptls_t</a> *<a class="el" href="structtls.html">tls</a>, <a class="el" href="picotls_8h.html#a6f5ef09de44ae8adae89bed994848170">ptls_message_emitter_t</a> *emitter, <a class="el" href="picotls_8h.html#a8c055926924a21cfe2ded845b00b30f4">ptls_key_schedule_t</a> *key_sched, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> context, int push_status_request)</td></tr>
+<tr class="memdesc:ab52c4e3ed813d9c66f70061540d3175f"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to generate the certificate message.  <a href="#ab52c4e3ed813d9c66f70061540d3175f">More...</a><br/></td></tr>
+<tr class="separator:ab52c4e3ed813d9c66f70061540d3175f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac983caaa348f9ab06856873d76f7e4d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="picotls_8h.html#ac983caaa348f9ab06856873d76f7e4d6">PTLS_CALLBACK_TYPE</a> (int, <a class="el" href="t_2picotls_8c.html#a92c4cf2f6955efa70d8a22e1afe8f735">sign_certificate</a>, <a class="el" href="picotls_8h.html#a7d80bba54b8b0070ce3264441be3e325">ptls_t</a> *<a class="el" href="structtls.html">tls</a>, uint16_t *selected_algorithm, <a class="el" href="picotls_8h.html#a3c9053bc53d8840504dcb6e25a33c7dd">ptls_buffer_t</a> *output, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> <a class="el" href="norx_8c.html#ad53dd54175d41b74c6be656ddd32c8fd">input</a>, const uint16_t *<a class="el" href="certificate__compression_8c.html#ac71a8cfdde90b148144bfc42a6a713f9">algorithms</a>, size_t num_algorithms)</td></tr>
 <tr class="memdesc:ac983caaa348f9ab06856873d76f7e4d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">when gerenating CertificateVerify, the core calls the callback to sign the handshake context using the certificate.  <a href="#ac983caaa348f9ab06856873d76f7e4d6">More...</a><br/></td></tr>
 <tr class="separator:ac983caaa348f9ab06856873d76f7e4d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3691,7 +3691,7 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a8d8bf68a2d3ed7b7128104214a129ca0"></a>
+<a class="anchor" id="ab52c4e3ed813d9c66f70061540d3175f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -3729,7 +3729,13 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a>&#160;</td>
-          <td class="paramname"><em>context</em>&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>push_status_request</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -5636,7 +5642,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 28 2019 07:28:12 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jan 28 2019 08:02:44 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

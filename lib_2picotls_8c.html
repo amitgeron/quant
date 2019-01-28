@@ -424,8 +424,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ad97215acaf376fbabace3fe1dca9924a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2picotls_8c.html#ad97215acaf376fbabace3fe1dca9924a">ptls_build_certificate_message</a> (<a class="el" href="picotls_8h.html#a3c9053bc53d8840504dcb6e25a33c7dd">ptls_buffer_t</a> *<a class="el" href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a>, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> context, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> *certificates, size_t num_certificates, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> ocsp_status)</td></tr>
 <tr class="memdesc:ad97215acaf376fbabace3fe1dca9924a"><td class="mdescLeft">&#160;</td><td class="mdescRight">build the body of a Certificate message.  <a href="#ad97215acaf376fbabace3fe1dca9924a">More...</a><br/></td></tr>
 <tr class="separator:ad97215acaf376fbabace3fe1dca9924a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a597c5d5692eaef38a74699d0ab78077f"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2picotls_8c.html#a597c5d5692eaef38a74699d0ab78077f">default_emit_certificate_cb</a> (ptls_emit_certificate_t *_self, <a class="el" href="picotls_8h.html#a7d80bba54b8b0070ce3264441be3e325">ptls_t</a> *<a class="el" href="structtls.html">tls</a>, <a class="el" href="picotls_8h.html#a6f5ef09de44ae8adae89bed994848170">ptls_message_emitter_t</a> *emitter, <a class="el" href="picotls_8h.html#a8c055926924a21cfe2ded845b00b30f4">ptls_key_schedule_t</a> *key_sched, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> context)</td></tr>
-<tr class="separator:a597c5d5692eaef38a74699d0ab78077f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad94eebe173a93bcd053bf85e6e8f48cf"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2picotls_8c.html#ad94eebe173a93bcd053bf85e6e8f48cf">default_emit_certificate_cb</a> (ptls_emit_certificate_t *_self, <a class="el" href="picotls_8h.html#a7d80bba54b8b0070ce3264441be3e325">ptls_t</a> *<a class="el" href="structtls.html">tls</a>, <a class="el" href="picotls_8h.html#a6f5ef09de44ae8adae89bed994848170">ptls_message_emitter_t</a> *emitter, <a class="el" href="picotls_8h.html#a8c055926924a21cfe2ded845b00b30f4">ptls_key_schedule_t</a> *key_sched, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> context, int push_status_request)</td></tr>
+<tr class="separator:ad94eebe173a93bcd053bf85e6e8f48cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83412fbf23a7b00853791eda7f6135a6"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2picotls_8c.html#a83412fbf23a7b00853791eda7f6135a6">send_certificate_and_certificate_verify</a> (<a class="el" href="picotls_8h.html#a7d80bba54b8b0070ce3264441be3e325">ptls_t</a> *<a class="el" href="structtls.html">tls</a>, <a class="el" href="picotls_8h.html#a6f5ef09de44ae8adae89bed994848170">ptls_message_emitter_t</a> *emitter, struct <a class="el" href="structst__ptls__signature__algorithms__t.html">st_ptls_signature_algorithms_t</a> *signature_algorithms, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> context, const char *context_string, int push_status_request)</td></tr>
 <tr class="separator:a83412fbf23a7b00853791eda7f6135a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae22a3f63edb4ae6a70c2164aae08da4c"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2picotls_8c.html#ae22a3f63edb4ae6a70c2164aae08da4c">client_handle_certificate_request</a> (<a class="el" href="picotls_8h.html#a7d80bba54b8b0070ce3264441be3e325">ptls_t</a> *<a class="el" href="structtls.html">tls</a>, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> message, <a class="el" href="picotls_8h.html#a31520ba2b83cd48c5c142bd93c2af80b">ptls_handshake_properties_t</a> *properties)</td></tr>
@@ -3384,7 +3384,7 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a597c5d5692eaef38a74699d0ab78077f"></a>
+<a class="anchor" id="ad94eebe173a93bcd053bf85e6e8f48cf"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3419,7 +3419,13 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a>&#160;</td>
-          <td class="paramname"><em>context</em>&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>push_status_request</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3437,8 +3443,8 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="lib_2picotls_8c_a597c5d5692eaef38a74699d0ab78077f_cgraph.png" border="0" usemap="#lib_2picotls_8c_a597c5d5692eaef38a74699d0ab78077f_cgraph" alt=""/></div>
-<map name="lib_2picotls_8c_a597c5d5692eaef38a74699d0ab78077f_cgraph" id="lib_2picotls_8c_a597c5d5692eaef38a74699d0ab78077f_cgraph">
+<div class="center"><img src="lib_2picotls_8c_ad94eebe173a93bcd053bf85e6e8f48cf_cgraph.png" border="0" usemap="#lib_2picotls_8c_ad94eebe173a93bcd053bf85e6e8f48cf_cgraph" alt=""/></div>
+<map name="lib_2picotls_8c_ad94eebe173a93bcd053bf85e6e8f48cf_cgraph" id="lib_2picotls_8c_ad94eebe173a93bcd053bf85e6e8f48cf_cgraph">
 <area shape="rect" id="node2" href="lib_2picotls_8c.html#ad97215acaf376fbabace3fe1dca9924a" title="build the body of a Certificate message. " alt="" coords="232,5,373,46"/><area shape="rect" id="node3" href="picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="250,71,355,97"/></map>
 </div>
 </p>
@@ -7794,7 +7800,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="lib_2picotls_8c_a83412fbf23a7b00853791eda7f6135a6_cgraph.png" border="0" usemap="#lib_2picotls_8c_a83412fbf23a7b00853791eda7f6135a6_cgraph" alt=""/></div>
 <map name="lib_2picotls_8c_a83412fbf23a7b00853791eda7f6135a6_cgraph" id="lib_2picotls_8c_a83412fbf23a7b00853791eda7f6135a6_cgraph">
-<area shape="rect" id="node2" href="lib_2picotls_8c.html#a597c5d5692eaef38a74699d0ab78077f" title="default_emit_certificate_cb" alt="" coords="197,20,376,47"/><area shape="rect" id="node4" href="picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="442,71,547,97"/><area shape="rect" id="node5" href="lib_2picotls_8c.html#a08fba83db22505e8b765dbd1bd6e598e" title="build_certificate_verify\l_signdata" alt="" coords="211,122,363,163"/><area shape="rect" id="node3" href="lib_2picotls_8c.html#ad97215acaf376fbabace3fe1dca9924a" title="build the body of a Certificate message. " alt="" coords="424,5,565,46"/><area shape="rect" id="node6" href="boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="467,129,522,156"/></map>
+<area shape="rect" id="node2" href="lib_2picotls_8c.html#ad94eebe173a93bcd053bf85e6e8f48cf" title="default_emit_certificate_cb" alt="" coords="197,20,376,47"/><area shape="rect" id="node4" href="picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="442,71,547,97"/><area shape="rect" id="node5" href="lib_2picotls_8c.html#a08fba83db22505e8b765dbd1bd6e598e" title="build_certificate_verify\l_signdata" alt="" coords="211,122,363,163"/><area shape="rect" id="node3" href="lib_2picotls_8c.html#ad97215acaf376fbabace3fe1dca9924a" title="build the body of a Certificate message. " alt="" coords="424,5,565,46"/><area shape="rect" id="node6" href="boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="467,129,522,156"/></map>
 </div>
 </p>
 
@@ -8608,7 +8614,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 28 2019 07:28:13 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jan 28 2019 08:02:44 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

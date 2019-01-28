@@ -83,7 +83,7 @@ var searchData=
   ['decrypt',['decrypt',['../structcf__prp.html#a519a4d306567624bd5d4aaf86dadfdfd',1,'cf_prp::decrypt()'],['../chacha20poly1305_8c.html#a36fab47015485191712a579a059a7c20',1,'DECRYPT():&#160;chacha20poly1305.c']]],
   ['decrypt_5fbody',['decrypt_body',['../norx_8c.html#a981f8f534282c0c6ccafb5223927fa90',1,'norx.c']]],
   ['def_5fack_5fdel_5fexp',['DEF_ACK_DEL_EXP',['../frame_8h.html#a6e6356d5807b645651ca1612dc548446',1,'frame.h']]],
-  ['default_5femit_5fcertificate_5fcb',['default_emit_certificate_cb',['../lib_2picotls_8c.html#a597c5d5692eaef38a74699d0ab78077f',1,'picotls.c']]],
+  ['default_5femit_5fcertificate_5fcb',['default_emit_certificate_cb',['../lib_2picotls_8c.html#ad94eebe173a93bcd053bf85e6e8f48cf',1,'picotls.c']]],
   ['defer',['DEFER',['../uECC_8c.html#ad2eecb399acaadcb6ffa4294ff51a833',1,'uECC.c']]],
   ['deflate_5fblock',['deflate_block',['../klib_2bgzf_8c.html#a370fddbee667cb20fccc6d8835fc47ad',1,'deflate_block(BGZF *fp, int block_length):&#160;bgzf.c'],['../warpcore_2lib_2deps_2klib_2bgzf_8c.html#a370fddbee667cb20fccc6d8835fc47ad',1,'deflate_block(BGZF *fp, int block_length):&#160;bgzf.c']]],
   ['degree',['DEGREE',['../norx_8c.html#a5d88b17d70c985f2f2b8e987037fd6dd',1,'norx.c']]],
