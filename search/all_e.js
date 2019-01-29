@@ -20,8 +20,6 @@ var searchData=
   ['off0',['off0',['../structkurl__t.html#af276ddad07d3c9dc98398776bd255d5f',1,'kurl_t']]],
   ['offered_5fpsk',['offered_psk',['../structst__ptls__t.html#a1e1edba9e48f46aff96efa02eae94c7a',1,'st_ptls_t']]],
   ['offset',['offset',['../structknetFile__s.html#ac2cd0c10cc4fb2e472dde6507ce67676',1,'knetFile_s::offset()'],['../structocb.html#a59d057a03ca39549d521dd68c092a676',1,'ocb::offset()'],['../structocb__hash.html#a1b47962613cb85fa344690419d470e78',1,'ocb_hash::offset()'],['../common_8c.html#a21005f9f4e2ce7597c5eb4351816d7e2',1,'OFFSET():&#160;common.c']]],
-  ['offset_5festb',['OFFSET_ESTB',['../quic_8h.html#afc6ffc33fe2d9609c18a0433d8ad8d78',1,'quic.h']]],
-  ['offset_5fhshk',['OFFSET_HSHK',['../quic_8h.html#a348766fc1e11de7c8ae8c3230e801429',1,'quic.h']]],
   ['ok',['ok',['../picotest_8h.html#a36a664d105ddafd2c78894be2d3ff79d',1,'picotest.h']]],
   ['ok_5fvers',['ok_vers',['../quic_8c.html#a855179145371edc9111433f621044ab4',1,'ok_vers():&#160;quic.c'],['../quic_8h.html#a855179145371edc9111433f621044ab4',1,'ok_vers():&#160;quic.c']]],
   ['ok_5fvers_5flen',['ok_vers_len',['../quic_8c.html#ae9a33cf3a5f649662f26bb9eae92bf7b',1,'ok_vers_len():&#160;quic.c'],['../quic_8h.html#ae9a33cf3a5f649662f26bb9eae92bf7b',1,'ok_vers_len():&#160;quic.c']]],

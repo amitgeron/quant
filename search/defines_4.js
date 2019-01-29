@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['data_5foffset',['DATA_OFFSET',['../quic_8h.html#a11faa4c105a137b8edaa096de5063835',1,'quic.h']]],
   ['dbg',['DBG',['../warpcore_2lib_2include_2warpcore_2util_8h.html#a49606be7356624568932ec81c0d429f4',1,'util.h']]],
   ['dec',['DEC',['../uECC_8c.html#a2a3539c241e0a1e2d7d545384ff37b72',1,'DEC():&#160;uECC.c'],['../marshall_8h.html#a17979630a63703570a316e70d4e9cb30',1,'dec():&#160;marshall.h']]],
   ['dec_5f1',['DEC_1',['../uECC_8c.html#add8cf94f6ebfd2e525f0a920d25bc164',1,'uECC.c']]],
