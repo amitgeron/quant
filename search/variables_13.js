@@ -55,7 +55,6 @@ var searchData=
   ['ts',['ts',['../structpayload.html#a3c71e15af2f3d09c943e6361db2f7ae9',1,'payload']]],
   ['ttl',['ttl',['../structip__hdr.html#aca4960340d0af5d81d63a7d5a83741b1',1,'ip_hdr']]],
   ['ttype',['ttype',['../structke1__s.html#ab359ccf386a6f97ced353228e69ab0a8',1,'ke1_s']]],
-  ['tx_5ffin',['tx_fin',['../structq__stream.html#aeb05fed803ecbed26b49a4deaf4503ea',1,'q_stream']]],
   ['tx_5fmax_5fstream_5fdata',['tx_max_stream_data',['../structq__stream.html#a2756b454995958d339e91b6de2c25551',1,'q_stream']]],
   ['tx_5fpending',['tx_pending',['../structw__iov__sq.html#ab9f873b767f2b85625cadd2cf8d17d8f',1,'w_iov_sq']]],
   ['tx_5ft',['tx_t',['../structpkt__meta.html#a3a2f5352a57c1f84e8adea474e478b30',1,'pkt_meta']]],

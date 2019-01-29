@@ -33,6 +33,7 @@ var searchData=
   ['is_5facked',['is_acked',['../structpkt__meta.html#a3a15ff29d90b1fb954de8384f0de59b7',1,'pkt_meta']]],
   ['is_5fallocated',['is_allocated',['../structst__ptls__buffer__t.html#a099e58c6cf4d258f47c6b525b3c45e12',1,'st_ptls_buffer_t']]],
   ['is_5fend_5fof_5frecord',['is_end_of_record',['../t_2picotls_8c.html#a32e5d97024f8d9bea164f39b93c1e406',1,'picotls.c']]],
+  ['is_5ffin',['is_fin',['../structpkt__meta.html#a9ba3c6af099f2c4836adab4e3381ba54',1,'pkt_meta']]],
   ['is_5finternal',['is_internal',['../structkbnode__t.html#a5ca7cbe344607acee318976dc2d4d515',1,'kbnode_t']]],
   ['is_5flost',['is_lost',['../structpkt__meta.html#a1dc5c504a91969f7598208109fb18cdb',1,'pkt_meta']]],
   ['is_5fpsk_5fhandshake',['is_psk_handshake',['../structst__ptls__t.html#ad83e56f9c3a248cf862411f1919db03b',1,'st_ptls_t']]],

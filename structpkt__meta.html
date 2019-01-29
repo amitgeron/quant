@@ -181,7 +181,10 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a6a9ba49e9150a85476b33cd8ebb790ed"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a6a9ba49e9150a85476b33cd8ebb790ed">is_reset</a>: 1</td></tr>
 <tr class="memdesc:a6a9ba49e9150a85476b33cd8ebb790ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">This packet is a stateless reset.  <a href="#a6a9ba49e9150a85476b33cd8ebb790ed">More...</a><br/></td></tr>
 <tr class="separator:a6a9ba49e9150a85476b33cd8ebb790ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dfa8f596f83d4d781731f06bc3a437b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a6dfa8f596f83d4d781731f06bc3a437b">__pad0__</a>: 4</td></tr>
+<tr class="memitem:a9ba3c6af099f2c4836adab4e3381ba54"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a9ba3c6af099f2c4836adab4e3381ba54">is_fin</a>: 1</td></tr>
+<tr class="memdesc:a9ba3c6af099f2c4836adab4e3381ba54"><td class="mdescLeft">&#160;</td><td class="mdescRight">This packet has a stream FIN bit.  <a href="#a9ba3c6af099f2c4836adab4e3381ba54">More...</a><br/></td></tr>
+<tr class="separator:a9ba3c6af099f2c4836adab4e3381ba54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dfa8f596f83d4d781731f06bc3a437b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a6dfa8f596f83d4d781731f06bc3a437b">__pad0__</a>: 3</td></tr>
 <tr class="separator:a6dfa8f596f83d4d781731f06bc3a437b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63c560e0b40127920ebb2b9a7d9787dc"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a63c560e0b40127920ebb2b9a7d9787dc">_unused</a> [5]</td></tr>
 <tr class="separator:a63c560e0b40127920ebb2b9a7d9787dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -327,6 +330,20 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Is the <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> ACKed? </p>
+
+</div>
+</div>
+<a class="anchor" id="a9ba3c6af099f2c4836adab4e3381ba54"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t pkt_meta::is_fin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This packet has a stream FIN bit. </p>
 
 </div>
 </div>
@@ -588,7 +605,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 29 2019 05:15:51 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 29 2019 07:04:56 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
