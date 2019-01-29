@@ -97,6 +97,7 @@ var searchData=
   ['err_5fnone',['ERR_NONE',['../pkt_8h.html#aff0d3fb76f11f6e8ea4002d826bbd23c',1,'pkt.h']]],
   ['err_5fprotocol_5fviolation',['ERR_PROTOCOL_VIOLATION',['../pkt_8h.html#a27994773959ccba6411fae219fe38577',1,'pkt.h']]],
   ['err_5fstream_5fid',['ERR_STREAM_ID',['../pkt_8h.html#aec95413875d567727f2a7796e5a65ff5',1,'pkt.h']]],
+  ['err_5fstream_5fstate',['ERR_STREAM_STATE',['../pkt_8h.html#a7ddfa57fba1de3489e4eef61015e6e61',1,'pkt.h']]],
   ['err_5ftls',['ERR_TLS',['../pkt_8h.html#ae6b18bb77d7a31d51b26f237f55bd3aa',1,'pkt.h']]],
   ['err_5ftransport_5fparameter',['ERR_TRANSPORT_PARAMETER',['../pkt_8h.html#a73915150f68e9c3ae13506a9f08e0492',1,'pkt.h']]],
   ['err_5fversion_5fnegotiation',['ERR_VERSION_NEGOTIATION',['../pkt_8h.html#a84ded231118d4b0ab9d563b778d2ae9b',1,'pkt.h']]],
