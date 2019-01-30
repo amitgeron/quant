@@ -20,7 +20,7 @@ var searchData=
   ['init_5frec',['init_rec',['../recovery_8c.html#a60784c1a11f52e1b091994e1cfcc4609',1,'init_rec(struct q_conn *const c):&#160;recovery.c'],['../recovery_8h.html#a60784c1a11f52e1b091994e1cfcc4609',1,'init_rec(struct q_conn *const c):&#160;recovery.c']]],
   ['init_5frecord_5fmessage_5femmitter',['init_record_message_emmitter',['../lib_2picotls_8c.html#ad80ad5da4165c267f6e8fa526d1f2261',1,'picotls.c']]],
   ['init_5fticket_5fprot',['init_ticket_prot',['../tls_8c.html#a071d6ebbfd90822e31fdb8119ad971ca',1,'tls.c']]],
-  ['init_5ftls',['init_tls',['../tls_8c.html#aa4907143b04da6627e6cef421b920480',1,'init_tls(struct q_conn *const c):&#160;tls.c'],['../tls_8h.html#aa4907143b04da6627e6cef421b920480',1,'init_tls(struct q_conn *const c):&#160;tls.c']]],
+  ['init_5ftls',['init_tls',['../tls_8c.html#a00ca93e0c4b1bdde1a2e97a4ef13373e',1,'init_tls(struct q_conn *const c, const char *const clnt_alpn):&#160;tls.c'],['../tls_8h.html#a6bb6bf6570799f860123abc836a963ad',1,'init_tls(struct q_conn *const c, const char *const alpn):&#160;tls.c']]],
   ['init_5ftls_5fctx',['init_tls_ctx',['../tls_8c.html#a8ba632acdcea3aaa92753c3341fa22fe',1,'init_tls_ctx(const struct q_conf *const conf):&#160;tls.c'],['../tls_8h.html#a8ba632acdcea3aaa92753c3341fa22fe',1,'init_tls_ctx(const struct q_conf *const conf):&#160;tls.c']]],
   ['init_5ftp',['init_tp',['../tls_8c.html#a873296f812267d1c3475457cacc3c815',1,'init_tp(struct q_conn *const c):&#160;tls.c'],['../tls_8h.html#a873296f812267d1c3475457cacc3c815',1,'init_tp(struct q_conn *const c):&#160;tls.c']]],
   ['input',['input',['../norx_8c.html#ad53dd54175d41b74c6be656ddd32c8fd',1,'norx.c']]],

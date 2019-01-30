@@ -60,7 +60,7 @@ var searchData=
   ['init_5fstrm_5fdata_5fbidi',['INIT_STRM_DATA_BIDI',['../stream_8h.html#aa66b391c7ac634050be09e992c1bad26',1,'stream.h']]],
   ['init_5fstrm_5fdata_5funi',['INIT_STRM_DATA_UNI',['../stream_8h.html#a635373d880260cf546702604993f40dd',1,'stream.h']]],
   ['init_5fticket_5fprot',['init_ticket_prot',['../tls_8c.html#a071d6ebbfd90822e31fdb8119ad971ca',1,'tls.c']]],
-  ['init_5ftls',['init_tls',['../tls_8c.html#aa4907143b04da6627e6cef421b920480',1,'init_tls(struct q_conn *const c):&#160;tls.c'],['../tls_8h.html#aa4907143b04da6627e6cef421b920480',1,'init_tls(struct q_conn *const c):&#160;tls.c']]],
+  ['init_5ftls',['init_tls',['../tls_8c.html#a00ca93e0c4b1bdde1a2e97a4ef13373e',1,'init_tls(struct q_conn *const c, const char *const clnt_alpn):&#160;tls.c'],['../tls_8h.html#a6bb6bf6570799f860123abc836a963ad',1,'init_tls(struct q_conn *const c, const char *const alpn):&#160;tls.c']]],
   ['init_5ftls_5fctx',['init_tls_ctx',['../tls_8c.html#a8ba632acdcea3aaa92753c3341fa22fe',1,'init_tls_ctx(const struct q_conf *const conf):&#160;tls.c'],['../tls_8h.html#a8ba632acdcea3aaa92753c3341fa22fe',1,'init_tls_ctx(const struct q_conf *const conf):&#160;tls.c']]],
   ['init_5ftp',['init_tp',['../tls_8c.html#a873296f812267d1c3475457cacc3c815',1,'init_tp(struct q_conn *const c):&#160;tls.c'],['../tls_8h.html#a873296f812267d1c3475457cacc3c815',1,'init_tp(struct q_conn *const c):&#160;tls.c']]],
   ['inner',['inner',['../structcf__hmac__ctx.html#a79a6da18704f4d488e1c05a65515eef0',1,'cf_hmac_ctx']]],
