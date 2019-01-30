@@ -21,14 +21,14 @@
 <area shape="rect" id="node21" href="$conn_8c.html#a1a9a96efc3be558373804c33a60df6b9" title="tx" alt="" coords="353,385,391,412"/>
 <area shape="rect" id="node26" href="$pn_8c.html#a7f1a6720a0e3506c0553d13ad865510f" title="needs_ack" alt="" coords="329,1253,415,1280"/>
 <area shape="rect" id="node28" href="$frame_8c.html#ad33d4ffd79b410b355647b882fcecd94" title="enc_ack_frame" alt="" coords="317,1405,427,1432"/>
-<area shape="rect" id="node32" href="$frame_8c.html#a35e96a60869ff030118503cb8a81f715" title="enc_close_frame" alt="" coords="311,579,433,605"/>
+<area shape="rect" id="node32" href="$frame_8c.html#a35e96a60869ff030118503cb8a81f715" title="enc_close_frame" alt="" coords="311,528,433,555"/>
 <area shape="rect" id="node33" href="$pkt_8c.html#a835c615f20b782d4454cd6657becd9c3" title="enc_other_frames" alt="" coords="309,731,435,757"/>
 <area shape="rect" id="node41" href="$frame_8c.html#a0d8bea0a0a229b796505008855eb17f0" title="enc_padding_frame" alt="" coords="305,629,439,656"/>
 <area shape="rect" id="node42" href="$frame_8c.html#ae94d6f87955af69345cb46c9d03ad90f" title="log_stream_or_crypto\l_frame" alt="" coords="511,833,657,874"/>
 <area shape="rect" id="node43" href="$frame_8c.html#a6134c4faa49bbd6fbc29589f12350400" title="enc_stream_or_crypto\l_frame" alt="" coords="297,883,447,925"/>
 <area shape="rect" id="node44" href="$warpcore_8h.html#aa17e20ed409edbfe18aa79ae5da640ff" title="Return a spare w_iov from the pool of the given warpcore engine. " alt="" coords="327,680,417,707"/>
-<area shape="rect" id="node45" href="$tls_8c.html#a1193e69500fa37d706399a825b799526" title="enc_aead" alt="" coords="737,949,815,976"/>
-<area shape="rect" id="node46" href="$recovery_8c.html#a9749ec5110f82cad7875d3ec8b94199d" title="on_pkt_sent" alt="" coords="325,1203,419,1229"/>
+<area shape="rect" id="node45" href="$tls_8c.html#a1193e69500fa37d706399a825b799526" title="enc_aead" alt="" coords="333,949,411,976"/>
+<area shape="rect" id="node46" href="$recovery_8c.html#a9749ec5110f82cad7875d3ec8b94199d" title="on_pkt_sent" alt="" coords="325,1152,419,1179"/>
 <area shape="rect" id="node47" href="$tls_8c.html#a8984aa5b25b32bb8e40aef64f3164fc0" title="maybe_flip_keys" alt="" coords="312,781,432,808"/>
 <area shape="rect" id="node48" href="$pn_8c.html#a01a6deaf5b4cd84917145356378f1004" title="abandon_pn" alt="" coords="326,259,418,285"/>
 <area shape="rect" id="node20" href="$pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="537,1000,631,1027"/>
