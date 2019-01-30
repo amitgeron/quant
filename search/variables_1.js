@@ -12,6 +12,8 @@ var searchData=
   ['action',['action',['../structkto__worker__t.html#a8c3b8f382e3d80dd6493a6b81896a5c5',1,'kto_worker_t']]],
   ['additional_5fdata',['additional_data',['../structst__ptls__handshake__properties__t.html#aa3e1ae9d602dabd0e078bab24a894838',1,'st_ptls_handshake_properties_t']]],
   ['additional_5fextensions',['additional_extensions',['../structst__ptls__handshake__properties__t.html#ae6aeb4d46c7234ea19982bce16da392e',1,'st_ptls_handshake_properties_t']]],
+  ['addr4',['addr4',['../structpref__addr.html#aa2eec9392bf7a1392fe2a90acfabb652',1,'pref_addr']]],
+  ['addr6',['addr6',['../structpref__addr.html#a9c4330614890ce017fdd66acc065b3dc',1,'pref_addr']]],
   ['ae',['ae',['../structhmm__par__t.html#a6f356ce16ecb70cc3dbc3831895029b6',1,'hmm_par_t']]],
   ['aead',['aead',['../structst__ptls__cipher__suite__t.html#a37cfd69934248c8fa0ef95d9dbe8f93e',1,'st_ptls_cipher_suite_t::aead()'],['../structst__ptls__traffic__protection__t.html#ad905c205d5eb9ac134d832490d98610f',1,'st_ptls_traffic_protection_t::aead()'],['../structcipher__ctx.html#ab88a3d2c5fd30344a597662ceaa074d6',1,'cipher_ctx::aead()']]],
   ['aead_5faad',['aead_aad',['../main_8c.html#a8eaa257215b761d65550aa9c6c542f09',1,'main.c']]],

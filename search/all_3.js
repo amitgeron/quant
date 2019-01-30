@@ -252,7 +252,7 @@ var searchData=
   ['chk_5ftp_5fclnt',['chk_tp_clnt',['../tls_8c.html#a4e5325f8fd6e8cca1d74250877d2ba02',1,'tls.c']]],
   ['chk_5ftp_5fserv',['chk_tp_serv',['../tls_8c.html#a0edf1dbf120fe0c438243d9d1a4b66c2',1,'tls.c']]],
   ['chr',['chr',['../klib_2ksa_8c.html#a2f6dbba067757987cb938a36d60d755f',1,'chr():&#160;ksa.c'],['../warpcore_2lib_2deps_2klib_2ksa_8c.html#a2f6dbba067757987cb938a36d60d755f',1,'chr():&#160;ksa.c']]],
-  ['cid',['cid',['../structcid.html',1,'cid'],['../structooo__0rtt.html#a9a8841c9488245645e26408553d567b4',1,'ooo_0rtt::cid()']]],
+  ['cid',['cid',['../structcid.html',1,'cid'],['../structpref__addr.html#a108ebae58396cfd7f299a9f5ad12573d',1,'pref_addr::cid()'],['../structooo__0rtt.html#a9a8841c9488245645e26408553d567b4',1,'ooo_0rtt::cid()']]],
   ['cid2str',['cid2str',['../conn_8h.html#ade2abf64e3b30fc0b5e1b95735ab6677',1,'conn.h']]],
   ['cid_5fcmp',['cid_cmp',['../conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1',1,'conn.h']]],
   ['cid_5fcpy',['cid_cpy',['../quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446',1,'quic.h']]],

@@ -30,7 +30,7 @@ var searchData=
   ['chacha20_5ftau',['chacha20_tau',['../chacha20_8c.html#a559ce89f34307ab86e9a4febbbe11e41',1,'chacha20.c']]],
   ['checksum',['checksum',['../structocb.html#a438954c34af7edba77f884047e5309f2',1,'ocb']]],
   ['child',['child',['../structknhx1__t.html#aa6b2ac8ec38aa4b64e248e69c625d884',1,'knhx1_t::child()'],['../structkson__node__s.html#aa7aaebd40652c46c53ae31a21e7c32b3',1,'kson_node_s::child()']]],
-  ['cid',['cid',['../structooo__0rtt.html#a9a8841c9488245645e26408553d567b4',1,'ooo_0rtt']]],
+  ['cid',['cid',['../structpref__addr.html#a108ebae58396cfd7f299a9f5ad12573d',1,'pref_addr::cid()'],['../structooo__0rtt.html#a9a8841c9488245645e26408553d567b4',1,'ooo_0rtt::cid()']]],
   ['cipher',['cipher',['../structst__ptls__esni__secret__t.html#af5a7e9b3caa7b0385ba401c706b67b03',1,'st_ptls_esni_secret_t::cipher()'],['../structst__ptls__client__hello__t.html#ac6caaaa7d2eed951338aae275289bea0',1,'st_ptls_client_hello_t::cipher()']]],
   ['cipher_5fsuite',['cipher_suite',['../structst__ptls__esni__context__t.html#a72d6378c88153f996f9b3f871336e88e',1,'st_ptls_esni_context_t::cipher_suite()'],['../structst__ptls__t.html#a6e994c82d6cb2bad782b7f7c7a20c57b',1,'st_ptls_t::cipher_suite()']]],
   ['cipher_5fsuites',['cipher_suites',['../structst__ptls__esni__context__t.html#a1a01e78ae37724d84a0cf838a842da9f',1,'st_ptls_esni_context_t::cipher_suites()'],['../structst__ptls__context__t.html#a4a9215da82662bfc0fcefa6bd4efcfa5',1,'st_ptls_context_t::cipher_suites()'],['../structst__ptls__client__hello__t.html#a212d8de9218fa725fda7cfa2539cd91f',1,'st_ptls_client_hello_t::cipher_suites()']]],

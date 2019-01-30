@@ -1,3 +1,4 @@
 <map id="transport_params" name="transport_params">
-<area shape="rect" id="node2" href="$structcid.html" title="cid" alt="" coords="47,5,85,32"/>
+<area shape="rect" id="node2" href="$structcid.html" title="cid" alt="" coords="65,5,103,32"/>
+<area shape="rect" id="node3" href="$structpref__addr.html" title="pref_addr" alt="" coords="119,96,195,123"/>
 </map>
