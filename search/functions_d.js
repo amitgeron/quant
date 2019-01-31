@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['need_5fctrl_5fdel',['need_ctrl_del',['../stream_8h.html#ad616677e7a2e7b39cafd5661f2787add',1,'stream.h']]],
-  ['need_5fctrl_5fins',['need_ctrl_ins',['../stream_8h.html#a452e1639a5e86a92fc0e5c9a96383d55',1,'stream.h']]],
+  ['need_5fctrl_5fupdate',['need_ctrl_update',['../stream_8h.html#abcbe2c551d0f4dd754184376bb6cce35',1,'stream.h']]],
   ['needed_5fpkt_5fnr_5flen',['needed_pkt_nr_len',['../pkt_8c.html#adb9f7ed98b4a9aa5dbab4df08c78ea0c',1,'pkt.c']]],
   ['needs_5fack',['needs_ack',['../pn_8c.html#a7f1a6720a0e3506c0553d13ad865510f',1,'needs_ack(const struct pn_space *const pn):&#160;pn.c'],['../pn_8h.html#a7f1a6720a0e3506c0553d13ad865510f',1,'needs_ack(const struct pn_space *const pn):&#160;pn.c']]],
   ['needs_5fctrl',['needs_ctrl',['../stream_8h.html#a55033bb39f92f9963b52dd6d552ec723',1,'stream.h']]],

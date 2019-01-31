@@ -96,7 +96,7 @@ Collaboration diagram for q_stream:</div>
 <div class="dyncontent">
 <div class="center"><img src="structq__stream__coll__graph.png" border="0" usemap="#q__stream_coll__map" alt="Collaboration graph"/></div>
 <map name="q__stream_coll__map" id="q__stream_coll__map">
-<area shape="rect" id="node2" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. " alt="" coords="128,97,183,124"/><area shape="rect" id="node3" href="structw__engine.html" title="A warpcore backend engine. " alt="" coords="183,203,259,229"/><area shape="rect" id="node6" href="structw__sock.html" title="A warpcore socket. " alt="" coords="267,293,333,320"/><area shape="rect" id="node4" href="structw__iov__sq.html" title="A tail queue of w_iov I/O vectors. " alt="" coords="173,5,249,32"/><area shape="rect" id="node5" href="structw__backend.html" title="w_backend" alt="" coords="208,384,296,411"/><area shape="rect" id="node7" href="structw__sockopt.html" title="Socket options. " alt="" coords="337,203,423,229"/><area shape="rect" id="node8" href="structw__hdr.html" title="A warpcore template packet header structure. " alt="" coords="447,203,504,229"/><area shape="rect" id="node9" href="structudp__hdr.html" title="A representation of a UDP header; see RFC768. " alt="" coords="355,97,423,124"/><area shape="rect" id="node10" href="structip__hdr.html" title="An IPv4 header representation; see RFC791 " alt="" coords="447,97,504,124"/><area shape="rect" id="node11" href="structeth__hdr.html" title="An Ethernet II MAC header. " alt="" coords="529,97,593,124"/></map>
+<area shape="rect" id="node2" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. " alt="" coords="128,97,183,124"/><area shape="rect" id="node3" href="structw__engine.html" title="A warpcore backend engine. " alt="" coords="183,189,259,216"/><area shape="rect" id="node6" href="structw__sock.html" title="A warpcore socket. " alt="" coords="267,280,333,307"/><area shape="rect" id="node4" href="structw__iov__sq.html" title="A tail queue of w_iov I/O vectors. " alt="" coords="173,5,249,32"/><area shape="rect" id="node5" href="structw__backend.html" title="w_backend" alt="" coords="208,371,296,397"/><area shape="rect" id="node7" href="structw__sockopt.html" title="Socket options. " alt="" coords="337,189,423,216"/><area shape="rect" id="node8" href="structw__hdr.html" title="A warpcore template packet header structure. " alt="" coords="447,189,504,216"/><area shape="rect" id="node9" href="structudp__hdr.html" title="A representation of a UDP header; see RFC768. " alt="" coords="355,97,423,124"/><area shape="rect" id="node10" href="structip__hdr.html" title="An IPv4 header representation; see RFC791 " alt="" coords="447,97,504,124"/><area shape="rect" id="node11" href="structeth__hdr.html" title="An Ethernet II MAC header. " alt="" coords="529,97,593,124"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -118,9 +118,6 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a0492f92ef3cdccbfc9c569049a7816d5"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structw__iov.html">w_iov</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__stream.html#a0492f92ef3cdccbfc9c569049a7816d5">out_una</a></td></tr>
 <tr class="memdesc:a0492f92ef3cdccbfc9c569049a7816d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lowest un-ACK'ed data chunk.  <a href="#a0492f92ef3cdccbfc9c569049a7816d5">More...</a><br/></td></tr>
 <tr class="separator:a0492f92ef3cdccbfc9c569049a7816d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4fdada7b6f29b3ca4166cc83089a6ae"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structw__iov.html">w_iov</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__stream.html#af4fdada7b6f29b3ca4166cc83089a6ae">out_nxt</a></td></tr>
-<tr class="memdesc:af4fdada7b6f29b3ca4166cc83089a6ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lowest unsent data chunk.  <a href="#af4fdada7b6f29b3ca4166cc83089a6ae">More...</a><br/></td></tr>
-<tr class="separator:af4fdada7b6f29b3ca4166cc83089a6ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5efa5e6ca12481e1d166fa28c8793c09"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__stream.html#a5efa5e6ca12481e1d166fa28c8793c09">out_data</a></td></tr>
 <tr class="memdesc:a5efa5e6ca12481e1d166fa28c8793c09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current outbound stream offset (= data sent).  <a href="#a5efa5e6ca12481e1d166fa28c8793c09">More...</a><br/></td></tr>
 <tr class="separator:a5efa5e6ca12481e1d166fa28c8793c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -371,20 +368,6 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af4fdada7b6f29b3ca4166cc83089a6ae"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct <a class="el" href="structw__iov.html">w_iov</a>* q_stream::out_nxt</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Lowest unsent data chunk. </p>
-
-</div>
-</div>
 <a class="anchor" id="a0492f92ef3cdccbfc9c569049a7816d5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -433,7 +416,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 31 2019 05:41:06 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jan 31 2019 23:08:44 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

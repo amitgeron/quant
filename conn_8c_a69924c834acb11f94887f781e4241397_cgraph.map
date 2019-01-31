@@ -45,7 +45,7 @@
 <area shape="rect" id="node41" href="$conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80" title="do_conn_mgmt" alt="" coords="379,1728,490,1755"/>
 <area shape="rect" id="node46" href="$conn_8c.html#a061f6268bdb3054227eedf2ca20cb8a1" title="do_tx" alt="" coords="407,1779,462,1805"/>
 <area shape="rect" id="node47" href="$conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87" title="tx_stream" alt="" coords="229,1880,309,1907"/>
-<area shape="rect" id="node42" href="$pkt_8c.html#a13f259191e295bb7cf7d34bb79d76bc5" title="enc_pkt" alt="" coords="401,1880,469,1907"/>
+<area shape="rect" id="node42" href="$pkt_8c.html#ad2614f5a69707af118d9b8965c7e7346" title="enc_pkt" alt="" coords="401,1880,469,1907"/>
 <area shape="rect" id="node45" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="787,2007,898,2033"/>
 <area shape="rect" id="node49" href="$warpcore_8h.html#a26c31751f7bb602b01bf00077ebd362d" title="Close a warpcore socket. " alt="" coords="399,1627,470,1653"/>
 </map>

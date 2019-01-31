@@ -37,7 +37,7 @@
 <area shape="rect" id="node34" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="551,991,617,1017"/>
 <area shape="rect" id="node36" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="546,1041,622,1068"/>
 <area shape="rect" id="node38" href="$stream_8c.html#a222da12d0111c9dee46a6cfc676be209" title="do_stream_fc" alt="" coords="533,1092,635,1119"/>
-<area shape="rect" id="node39" href="$stream_8h.html#a452e1639a5e86a92fc0e5c9a96383d55" title="need_ctrl_ins" alt="" coords="717,1092,816,1119"/>
+<area shape="rect" id="node39" href="$stream_8h.html#abcbe2c551d0f4dd754184376bb6cce35" title="need_ctrl_update" alt="" coords="706,1092,827,1119"/>
 <area shape="rect" id="node40" href="$stream_8h.html#a55033bb39f92f9963b52dd6d552ec723" title="needs_ctrl" alt="" coords="927,1092,1009,1119"/>
 <area shape="rect" id="node42" href="$tls_8c.html#aff7c4b2f9e78c2d678898dc58bc68e57" title="setup_initial_encryption" alt="" coords="315,636,474,663"/>
 <area shape="rect" id="node43" href="$picotls_8h.html#aace42c0ca1898cb625aa1719dcfe67f0" title="ptls_hkdf_extract" alt="" coords="523,687,645,713"/>

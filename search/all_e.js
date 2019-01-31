@@ -66,7 +66,6 @@ var searchData=
   ['out_5fdata_5fmax',['out_data_max',['../structq__stream.html#a744161b8f9bfbde5ac73be4a882e179f',1,'q_stream']]],
   ['out_5ffully_5facked',['out_fully_acked',['../stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559',1,'stream.h']]],
   ['out_5fkyph',['out_kyph',['../structpn__data__space.html#a352acf91ec8a6fb99cb2c4ae9d604936',1,'pn_data_space']]],
-  ['out_5fnxt',['out_nxt',['../structq__stream.html#af4fdada7b6f29b3ca4166cc83089a6ae',1,'q_stream']]],
   ['out_5funa',['out_una',['../structq__stream.html#a0492f92ef3cdccbfc9c569049a7816d5',1,'q_stream']]],
   ['outer',['outer',['../structcf__hmac__ctx.html#af45545f2eff2d1f34594a140527c9ad1',1,'cf_hmac_ctx']]],
   ['overloaded_5fmacro',['OVERLOADED_MACRO',['../quic_8h.html#a6ad32a90c9e8d6deb3bce417ea1a7efd',1,'quic.h']]],
