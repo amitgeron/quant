@@ -12,6 +12,7 @@ var searchData=
   ['ptls_5fdecompress_5fcertificate_5ft',['ptls_decompress_certificate_t',['../picotls_8h.html#aae19f39e79c5f188656386aeb453114f',1,'picotls.h']]],
   ['ptls_5femit_5fcompressed_5fcertificate_5ft',['ptls_emit_compressed_certificate_t',['../certificate__compression_8h.html#a3e57e1b15c1797020d74b0fd91254a03',1,'certificate_compression.h']]],
   ['ptls_5fesni_5fcontext_5ft',['ptls_esni_context_t',['../picotls_8h.html#ade514b23e0a4211e5a8cec8268f7f834',1,'picotls.h']]],
+  ['ptls_5fffx_5fcontext_5ft',['ptls_ffx_context_t',['../ffx_8h.html#affba792c5984ab2d6b0e6f09c175398c',1,'ffx.h']]],
   ['ptls_5fhandshake_5fproperties_5ft',['ptls_handshake_properties_t',['../picotls_8h.html#a31520ba2b83cd48c5c142bd93c2af80b',1,'picotls.h']]],
   ['ptls_5fhash_5falgorithm_5ft',['ptls_hash_algorithm_t',['../picotls_8h.html#ae421cae6e308667fba6bc220233087f0',1,'picotls.h']]],
   ['ptls_5fhash_5fcontext_5ft',['ptls_hash_context_t',['../picotls_8h.html#a40796f9d4489a0adfaa5eb48a6252a69',1,'picotls.h']]],

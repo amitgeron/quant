@@ -31,7 +31,7 @@
 <area shape="rect" id="node30" href="$uECC_8c.html#ac09542159920b53beffd4479e82acca4" title="uECC_vli_bytesToNative" alt="" coords="949,1171,1120,1197"/>
 <area shape="rect" id="node31" href="$uECC_8c.html#a3ef4ada41b4a250680f39cf26b12d3cf" title="bits2int" alt="" coords="801,1120,865,1147"/>
 <area shape="rect" id="node32" href="$uECC_8c.html#ab1e15c3f5219c350748b4ecf335e1c57" title="uECC_vli_modAdd" alt="" coords="767,867,900,893"/>
-<area shape="rect" id="node34" href="$conn_8c.html#a69924c834acb11f94887f781e4241397" title="rx" alt="" coords="814,1576,853,1603"/>
+<area shape="rect" id="node34" href="$conn_8c.html#a69924c834acb11f94887f781e4241397" title="rx" alt="" coords="814,1551,853,1577"/>
 <area shape="rect" id="node39" href="$conn_8c.html#a1a9a96efc3be558373804c33a60df6b9" title="tx" alt="" coords="1015,1829,1054,1856"/>
 <area shape="rect" id="node49" href="$uECC_8c.html#a8a7730481d59a5afb98d086c76de3412" title="smax" alt="" coords="806,1019,861,1045"/>
 <area shape="rect" id="node50" href="$uECC_8c.html#aafd536cd7b6119ea845335bd01ddc627" title="uECC_vli_equal" alt="" coords="775,1069,891,1096"/>

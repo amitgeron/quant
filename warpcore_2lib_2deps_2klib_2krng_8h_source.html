@@ -119,8 +119,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> uint64_t JUMP[] = { 0xbeac0467eba5facbULL, 0xd86b048b86aa9922ULL };</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    uint64_t s0 = 0, s1 = 0;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>, <a class="code" href="fuzz_8c.html#a84e99af7d0f536bd90cb3dab5c874749">b</a>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">for</span> (i = 0; i &lt; 2; ++<a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>)</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">int</span> i, <a class="code" href="fuzz_8c.html#a84e99af7d0f536bd90cb3dab5c874749">b</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">for</span> (i = 0; i &lt; 2; ++i)</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">for</span> (b = 0; b &lt; 64; b++) {</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <span class="keywordflow">if</span> (JUMP[i] &amp; 1ULL &lt;&lt; b)</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                s0 ^= r-&gt;<a class="code" href="structkrng__t.html#aceb13b628cf97f90c13a2d96162d6cc3">s</a>[0], s1 ^= r-&gt;<a class="code" href="structkrng__t.html#aceb13b628cf97f90c13a2d96162d6cc3">s</a>[1];</div>
@@ -137,7 +137,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
 <div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="warpcore_2lib_2deps_2klib_2krng_8h.html#aa3421aa136cd4ad91fd27c9e8446d70f">   47</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code" href="warpcore_2lib_2deps_2klib_2krng_8h.html#aa3421aa136cd4ad91fd27c9e8446d70f">kr_drand_r</a>(<a class="code" href="structkrng__t.html">krng_t</a> *<a class="code" href="test__queue_8c.html#a5391b7f1199d134d62d41f3734ad4322">r</a>)</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keyword">union </span>{ uint64_t <a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>; <span class="keywordtype">double</span> d; } u;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keyword">union </span>{ uint64_t i; <span class="keywordtype">double</span> d; } u;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    u.i = 0x3FFULL &lt;&lt; 52 | kr_rand_r(r) &gt;&gt; 12;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">return</span> u.d - 1.0;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
@@ -148,15 +148,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structkrng__t_html"><div class="ttname"><a href="structkrng__t.html">krng_t</a></div><div class="ttdef"><b>Definition:</b> krng.h:4</div></div>
 <div class="ttc" id="warpcore_2lib_2deps_2klib_2krng_8h_html_aa3421aa136cd4ad91fd27c9e8446d70f"><div class="ttname"><a href="warpcore_2lib_2deps_2klib_2krng_8h.html#aa3421aa136cd4ad91fd27c9e8446d70f">kr_drand_r</a></div><div class="ttdeci">static double kr_drand_r(krng_t *r)</div><div class="ttdef"><b>Definition:</b> krng.h:47</div></div>
 <div class="ttc" id="warpcore_2lib_2deps_2klib_2krng_8h_html_aacc147637623ae1e16f7b8624975f2f9"><div class="ttname"><a href="warpcore_2lib_2deps_2klib_2krng_8h.html#aacc147637623ae1e16f7b8624975f2f9">kr_srand_r</a></div><div class="ttdeci">static void kr_srand_r(krng_t *r, uint64_t seed)</div><div class="ttdef"><b>Definition:</b> krng.h:41</div></div>
-<div class="ttc" id="test__queue_8c_html_a5391b7f1199d134d62d41f3734ad4322"><div class="ttname"><a href="test__queue_8c.html#a5391b7f1199d134d62d41f3734ad4322">r</a></div><div class="ttdeci">#define r(m)</div><div class="ttdef"><b>Definition:</b> test_queue.c:34</div></div>
-<div class="ttc" id="fuzz_8c_html_a3a555db7b4c043cd63ed7635a21fe107"><div class="ttname"><a href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a></div><div class="ttdeci">static struct netmap_if * i</div><div class="ttdef"><b>Definition:</b> fuzz.c:49</div></div>
+<div class="ttc" id="test__queue_8c_html_a5391b7f1199d134d62d41f3734ad4322"><div class="ttname"><a href="test__queue_8c.html#a5391b7f1199d134d62d41f3734ad4322">r</a></div><div class="ttdeci">#define r(m)</div><div class="ttdef"><b>Definition:</b> test_queue.c:35</div></div>
 <div class="ttc" id="warpcore_2lib_2deps_2klib_2krng_8h_html_afb1117d9208c7537b22d596371cc40f1"><div class="ttname"><a href="warpcore_2lib_2deps_2klib_2krng_8h.html#afb1117d9208c7537b22d596371cc40f1">kr_splitmix64</a></div><div class="ttdeci">static uint64_t kr_splitmix64(uint64_t x)</div><div class="ttdef"><b>Definition:</b> krng.h:8</div></div>
-<div class="ttc" id="fuzz_8c_html_a84e99af7d0f536bd90cb3dab5c874749"><div class="ttname"><a href="fuzz_8c.html#a84e99af7d0f536bd90cb3dab5c874749">b</a></div><div class="ttdeci">static struct w_backend b</div><div class="ttdef"><b>Definition:</b> fuzz.c:50</div></div>
+<div class="ttc" id="fuzz_8c_html_a84e99af7d0f536bd90cb3dab5c874749"><div class="ttname"><a href="fuzz_8c.html#a84e99af7d0f536bd90cb3dab5c874749">b</a></div><div class="ttdeci">static struct w_backend b</div><div class="ttdef"><b>Definition:</b> fuzz.c:49</div></div>
 <div class="ttc" id="warpcore_2lib_2deps_2klib_2krng_8h_html_abb4b04074f7833af0c1d1ef986b866ab"><div class="ttname"><a href="warpcore_2lib_2deps_2klib_2krng_8h.html#abb4b04074f7833af0c1d1ef986b866ab">kr_jump_r</a></div><div class="ttdeci">static void kr_jump_r(krng_t *r)</div><div class="ttdef"><b>Definition:</b> krng.h:27</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 31 2019 23:08:40 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 13 2019 13:06:16 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

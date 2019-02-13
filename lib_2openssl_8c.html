@@ -196,10 +196,16 @@ Functions</h2></td></tr>
 <tr class="separator:a3c1167af1e6c6e0b6b2a5c7448a929f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fd7aa1c3d113b25ecec3d5aea8996a7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2openssl_8c.html#a0fd7aa1c3d113b25ecec3d5aea8996a7">cipher_do_init</a> (<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *_ctx, const void *iv)</td></tr>
 <tr class="separator:a0fd7aa1c3d113b25ecec3d5aea8996a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f807fc172dbee57c4e4dc75c2f4ea6d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2openssl_8c.html#a5f807fc172dbee57c4e4dc75c2f4ea6d">cipher_setup_crypto</a> (<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *_ctx, const void *key, const EVP_CIPHER *cipher, void(*do_transform)(<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *, void *, const void *, size_t))</td></tr>
-<tr class="separator:a5f807fc172dbee57c4e4dc75c2f4ea6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42712cbf8021a2893f77b6f83eb7bea2"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2openssl_8c.html#a42712cbf8021a2893f77b6f83eb7bea2">cipher_setup_crypto</a> (<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *_ctx, int is_enc, const void *key, const EVP_CIPHER *cipher, void(*do_transform)(<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *, void *, const void *, size_t))</td></tr>
+<tr class="separator:a42712cbf8021a2893f77b6f83eb7bea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adacfbe148ba9c42eb2b54d0cdf6b4b7c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2openssl_8c.html#adacfbe148ba9c42eb2b54d0cdf6b4b7c">cipher_encrypt</a> (<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *_ctx, void *output, const void *<a class="el" href="norx_8c.html#ad53dd54175d41b74c6be656ddd32c8fd">input</a>, size_t _len)</td></tr>
 <tr class="separator:adacfbe148ba9c42eb2b54d0cdf6b4b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea35f3257e35bb70e1df052eeaad85a1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2openssl_8c.html#aea35f3257e35bb70e1df052eeaad85a1">cipher_decrypt</a> (<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *_ctx, void *output, const void *<a class="el" href="norx_8c.html#ad53dd54175d41b74c6be656ddd32c8fd">input</a>, size_t _len)</td></tr>
+<tr class="separator:aea35f3257e35bb70e1df052eeaad85a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7b94691ef66496bd0da17936cbecd44"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2openssl_8c.html#ab7b94691ef66496bd0da17936cbecd44">aes128ecb_setup_crypto</a> (<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *<a class="el" href="test_8h.html#a548aff34430d3b5d6d5ba393b8fdda8f">ctx</a>, int is_enc, const void *key)</td></tr>
+<tr class="separator:ab7b94691ef66496bd0da17936cbecd44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a718f91ac6895078fb348cd9678cc37a0"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2openssl_8c.html#a718f91ac6895078fb348cd9678cc37a0">aes256ecb_setup_crypto</a> (<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *<a class="el" href="test_8h.html#a548aff34430d3b5d6d5ba393b8fdda8f">ctx</a>, int is_enc, const void *key)</td></tr>
+<tr class="separator:a718f91ac6895078fb348cd9678cc37a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b3b6035ac8f1e96185bccdb39bcfff0"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2openssl_8c.html#a2b3b6035ac8f1e96185bccdb39bcfff0">aes128ctr_setup_crypto</a> (<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *<a class="el" href="test_8h.html#a548aff34430d3b5d6d5ba393b8fdda8f">ctx</a>, int is_enc, const void *key)</td></tr>
 <tr class="separator:a2b3b6035ac8f1e96185bccdb39bcfff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3474cff27a659209558ea63edd944f01"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2openssl_8c.html#a3474cff27a659209558ea63edd944f01">aes256ctr_setup_crypto</a> (<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *<a class="el" href="test_8h.html#a548aff34430d3b5d6d5ba393b8fdda8f">ctx</a>, int is_enc, const void *key)</td></tr>
@@ -261,10 +267,14 @@ Variables</h2></td></tr>
 <tr class="separator:a302528dd7f3d8509b34a6c8be6cff69a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a672b94fa7e22b9553be4fbd798cf2d08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="picotls_8h.html#ac588b1d2fe517759aa70995aa643bd96">ptls_key_exchange_algorithm_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2openssl_8c.html#a672b94fa7e22b9553be4fbd798cf2d08">ptls_openssl_key_exchanges</a> [] = {&amp;<a class="el" href="lib_2openssl_8c.html#a302528dd7f3d8509b34a6c8be6cff69a">ptls_openssl_secp256r1</a>, NULL}</td></tr>
 <tr class="separator:a672b94fa7e22b9553be4fbd798cf2d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53205da57302f77be64d3199a49b371b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="picotls_8h.html#a3bc4e32d3a4145414426aa251dbf2c77">ptls_cipher_algorithm_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2openssl_8c.html#a53205da57302f77be64d3199a49b371b">ptls_openssl_aes128ecb</a></td></tr>
+<tr class="separator:a53205da57302f77be64d3199a49b371b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a307ef4a84f7b6eaf8add1f448cdff3ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="picotls_8h.html#a3bc4e32d3a4145414426aa251dbf2c77">ptls_cipher_algorithm_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2openssl_8c.html#a307ef4a84f7b6eaf8add1f448cdff3ee">ptls_openssl_aes128ctr</a></td></tr>
 <tr class="separator:a307ef4a84f7b6eaf8add1f448cdff3ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63e28d24616dd903ed4eda96d7575b55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="picotls_8h.html#a2b06abcca441f5b988b8d513d5e53086">ptls_aead_algorithm_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2openssl_8c.html#a63e28d24616dd903ed4eda96d7575b55">ptls_openssl_aes128gcm</a></td></tr>
 <tr class="separator:a63e28d24616dd903ed4eda96d7575b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72d1d7fe0c8c653e79392397d4b4551d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="picotls_8h.html#a3bc4e32d3a4145414426aa251dbf2c77">ptls_cipher_algorithm_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2openssl_8c.html#a72d1d7fe0c8c653e79392397d4b4551d">ptls_openssl_aes256ecb</a></td></tr>
+<tr class="separator:a72d1d7fe0c8c653e79392397d4b4551d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1feef208111ed07df28a80cf5a3497b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="picotls_8h.html#a3bc4e32d3a4145414426aa251dbf2c77">ptls_cipher_algorithm_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2openssl_8c.html#a1feef208111ed07df28a80cf5a3497b4">ptls_openssl_aes256ctr</a></td></tr>
 <tr class="separator:a1feef208111ed07df28a80cf5a3497b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7f74dd18cee9a7a4096f17186b7b1f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="picotls_8h.html#a2b06abcca441f5b988b8d513d5e53086">ptls_aead_algorithm_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2openssl_8c.html#af7f74dd18cee9a7a4096f17186b7b1f0">ptls_openssl_aes256gcm</a></td></tr>
@@ -388,7 +398,7 @@ Variables</h2></td></tr>
 <div class="line">    {                                                                                                                              \</div>
 <div class="line">        id, md                                                                                                                     \</div>
 <div class="line">    }</div>
-<div class="ttc" id="structst__ptls__openssl__signature__scheme__t_html"><div class="ttname"><a href="structst__ptls__openssl__signature__scheme__t.html">st_ptls_openssl_signature_scheme_t</a></div><div class="ttdef"><b>Definition:</b> openssl.h:80</div></div>
+<div class="ttc" id="structst__ptls__openssl__signature__scheme__t_html"><div class="ttname"><a href="structst__ptls__openssl__signature__scheme__t.html">st_ptls_openssl_signature_scheme_t</a></div><div class="ttdef"><b>Definition:</b> openssl.h:89</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -843,7 +853,56 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="lib_2openssl_8c_a2b3b6035ac8f1e96185bccdb39bcfff0_cgraph.png" border="0" usemap="#lib_2openssl_8c_a2b3b6035ac8f1e96185bccdb39bcfff0_cgraph" alt=""/></div>
 <map name="lib_2openssl_8c_a2b3b6035ac8f1e96185bccdb39bcfff0_cgraph" id="lib_2openssl_8c_a2b3b6035ac8f1e96185bccdb39bcfff0_cgraph">
-<area shape="rect" id="node2" href="lib_2openssl_8c.html#a5f807fc172dbee57c4e4dc75c2f4ea6d" title="cipher_setup_crypto" alt="" coords="216,31,355,57"/><area shape="rect" id="node5" href="lib_2openssl_8c.html#adacfbe148ba9c42eb2b54d0cdf6b4b7c" title="cipher_encrypt" alt="" coords="232,81,339,108"/><area shape="rect" id="node3" href="lib_2openssl_8c.html#a3c1167af1e6c6e0b6b2a5c7448a929f5" title="cipher_dispose" alt="" coords="403,5,512,32"/><area shape="rect" id="node4" href="lib_2openssl_8c.html#a0fd7aa1c3d113b25ecec3d5aea8996a7" title="cipher_do_init" alt="" coords="406,56,509,83"/></map>
+<area shape="rect" id="node2" href="lib_2openssl_8c.html#a42712cbf8021a2893f77b6f83eb7bea2" title="cipher_setup_crypto" alt="" coords="216,31,355,57"/><area shape="rect" id="node5" href="lib_2openssl_8c.html#adacfbe148ba9c42eb2b54d0cdf6b4b7c" title="cipher_encrypt" alt="" coords="232,81,339,108"/><area shape="rect" id="node3" href="lib_2openssl_8c.html#a3c1167af1e6c6e0b6b2a5c7448a929f5" title="cipher_dispose" alt="" coords="403,5,512,32"/><area shape="rect" id="node4" href="lib_2openssl_8c.html#a0fd7aa1c3d113b25ecec3d5aea8996a7" title="cipher_do_init" alt="" coords="406,56,509,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab7b94691ef66496bd0da17936cbecd44"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int aes128ecb_setup_crypto </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *&#160;</td>
+          <td class="paramname"><em>ctx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>is_enc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="lib_2openssl_8c_ab7b94691ef66496bd0da17936cbecd44_cgraph.png" border="0" usemap="#lib_2openssl_8c_ab7b94691ef66496bd0da17936cbecd44_cgraph" alt=""/></div>
+<map name="lib_2openssl_8c_ab7b94691ef66496bd0da17936cbecd44_cgraph" id="lib_2openssl_8c_ab7b94691ef66496bd0da17936cbecd44_cgraph">
+<area shape="rect" id="node2" href="lib_2openssl_8c.html#a42712cbf8021a2893f77b6f83eb7bea2" title="cipher_setup_crypto" alt="" coords="221,31,360,57"/><area shape="rect" id="node5" href="lib_2openssl_8c.html#adacfbe148ba9c42eb2b54d0cdf6b4b7c" title="cipher_encrypt" alt="" coords="237,81,344,108"/><area shape="rect" id="node6" href="lib_2openssl_8c.html#aea35f3257e35bb70e1df052eeaad85a1" title="cipher_decrypt" alt="" coords="237,132,344,159"/><area shape="rect" id="node3" href="lib_2openssl_8c.html#a3c1167af1e6c6e0b6b2a5c7448a929f5" title="cipher_dispose" alt="" coords="408,5,517,32"/><area shape="rect" id="node4" href="lib_2openssl_8c.html#a0fd7aa1c3d113b25ecec3d5aea8996a7" title="cipher_do_init" alt="" coords="411,56,514,83"/></map>
 </div>
 </p>
 
@@ -892,9 +951,104 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="lib_2openssl_8c_a3474cff27a659209558ea63edd944f01_cgraph.png" border="0" usemap="#lib_2openssl_8c_a3474cff27a659209558ea63edd944f01_cgraph" alt=""/></div>
 <map name="lib_2openssl_8c_a3474cff27a659209558ea63edd944f01_cgraph" id="lib_2openssl_8c_a3474cff27a659209558ea63edd944f01_cgraph">
-<area shape="rect" id="node2" href="lib_2openssl_8c.html#a5f807fc172dbee57c4e4dc75c2f4ea6d" title="cipher_setup_crypto" alt="" coords="216,31,355,57"/><area shape="rect" id="node5" href="lib_2openssl_8c.html#adacfbe148ba9c42eb2b54d0cdf6b4b7c" title="cipher_encrypt" alt="" coords="232,81,339,108"/><area shape="rect" id="node3" href="lib_2openssl_8c.html#a3c1167af1e6c6e0b6b2a5c7448a929f5" title="cipher_dispose" alt="" coords="403,5,512,32"/><area shape="rect" id="node4" href="lib_2openssl_8c.html#a0fd7aa1c3d113b25ecec3d5aea8996a7" title="cipher_do_init" alt="" coords="406,56,509,83"/></map>
+<area shape="rect" id="node2" href="lib_2openssl_8c.html#a42712cbf8021a2893f77b6f83eb7bea2" title="cipher_setup_crypto" alt="" coords="216,31,355,57"/><area shape="rect" id="node5" href="lib_2openssl_8c.html#adacfbe148ba9c42eb2b54d0cdf6b4b7c" title="cipher_encrypt" alt="" coords="232,81,339,108"/><area shape="rect" id="node3" href="lib_2openssl_8c.html#a3c1167af1e6c6e0b6b2a5c7448a929f5" title="cipher_dispose" alt="" coords="403,5,512,32"/><area shape="rect" id="node4" href="lib_2openssl_8c.html#a0fd7aa1c3d113b25ecec3d5aea8996a7" title="cipher_do_init" alt="" coords="406,56,509,83"/></map>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="a718f91ac6895078fb348cd9678cc37a0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int aes256ecb_setup_crypto </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *&#160;</td>
+          <td class="paramname"><em>ctx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>is_enc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="lib_2openssl_8c_a718f91ac6895078fb348cd9678cc37a0_cgraph.png" border="0" usemap="#lib_2openssl_8c_a718f91ac6895078fb348cd9678cc37a0_cgraph" alt=""/></div>
+<map name="lib_2openssl_8c_a718f91ac6895078fb348cd9678cc37a0_cgraph" id="lib_2openssl_8c_a718f91ac6895078fb348cd9678cc37a0_cgraph">
+<area shape="rect" id="node2" href="lib_2openssl_8c.html#a42712cbf8021a2893f77b6f83eb7bea2" title="cipher_setup_crypto" alt="" coords="221,31,360,57"/><area shape="rect" id="node5" href="lib_2openssl_8c.html#adacfbe148ba9c42eb2b54d0cdf6b4b7c" title="cipher_encrypt" alt="" coords="237,81,344,108"/><area shape="rect" id="node6" href="lib_2openssl_8c.html#aea35f3257e35bb70e1df052eeaad85a1" title="cipher_decrypt" alt="" coords="237,132,344,159"/><area shape="rect" id="node3" href="lib_2openssl_8c.html#a3c1167af1e6c6e0b6b2a5c7448a929f5" title="cipher_dispose" alt="" coords="408,5,517,32"/><area shape="rect" id="node4" href="lib_2openssl_8c.html#a0fd7aa1c3d113b25ecec3d5aea8996a7" title="cipher_do_init" alt="" coords="411,56,514,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aea35f3257e35bb70e1df052eeaad85a1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void cipher_decrypt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *&#160;</td>
+          <td class="paramname"><em>_ctx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>output</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>_len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1002,7 +1156,7 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a5f807fc172dbee57c4e4dc75c2f4ea6d"></a>
+<a class="anchor" id="a42712cbf8021a2893f77b6f83eb7bea2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1014,6 +1168,12 @@ Here is the call graph for this function:</div>
           <td>(</td>
           <td class="paramtype"><a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *&#160;</td>
           <td class="paramname"><em>_ctx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>is_enc</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1049,8 +1209,8 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="lib_2openssl_8c_a5f807fc172dbee57c4e4dc75c2f4ea6d_cgraph.png" border="0" usemap="#lib_2openssl_8c_a5f807fc172dbee57c4e4dc75c2f4ea6d_cgraph" alt=""/></div>
-<map name="lib_2openssl_8c_a5f807fc172dbee57c4e4dc75c2f4ea6d_cgraph" id="lib_2openssl_8c_a5f807fc172dbee57c4e4dc75c2f4ea6d_cgraph">
+<div class="center"><img src="lib_2openssl_8c_a42712cbf8021a2893f77b6f83eb7bea2_cgraph.png" border="0" usemap="#lib_2openssl_8c_a42712cbf8021a2893f77b6f83eb7bea2_cgraph" alt=""/></div>
+<map name="lib_2openssl_8c_a42712cbf8021a2893f77b6f83eb7bea2_cgraph" id="lib_2openssl_8c_a42712cbf8021a2893f77b6f83eb7bea2_cgraph">
 <area shape="rect" id="node2" href="lib_2openssl_8c.html#a3c1167af1e6c6e0b6b2a5c7448a929f5" title="cipher_dispose" alt="" coords="192,5,301,32"/><area shape="rect" id="node3" href="lib_2openssl_8c.html#a0fd7aa1c3d113b25ecec3d5aea8996a7" title="cipher_do_init" alt="" coords="195,56,298,83"/></map>
 </div>
 </p>
@@ -2417,12 +2577,31 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {<span class="stringliteral">&quot;AES128-CTR&quot;</span>, <a class="code" href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a>, <a class="code" href="picotls_8h.html#ad50a32ad73fdb75321e286fbd9014670">PTLS_AES_IV_SIZE</a>,</div>
-<div class="line">                                                  <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structcipher__context__t.html">cipher_context_t</a>), <a class="code" href="lib_2openssl_8c.html#a2b3b6035ac8f1e96185bccdb39bcfff0">aes128ctr_setup_crypto</a>}</div>
-<div class="ttc" id="lib_2openssl_8c_html_a2b3b6035ac8f1e96185bccdb39bcfff0"><div class="ttname"><a href="lib_2openssl_8c.html#a2b3b6035ac8f1e96185bccdb39bcfff0">aes128ctr_setup_crypto</a></div><div class="ttdeci">static int aes128ctr_setup_crypto(ptls_cipher_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> openssl.c:704</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    <span class="stringliteral">&quot;AES128-CTR&quot;</span>, <a class="code" href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a>, 1, <a class="code" href="picotls_8h.html#ad50a32ad73fdb75321e286fbd9014670">PTLS_AES_IV_SIZE</a>, <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structcipher__context__t.html">cipher_context_t</a>), <a class="code" href="lib_2openssl_8c.html#a2b3b6035ac8f1e96185bccdb39bcfff0">aes128ctr_setup_crypto</a>}</div>
+<div class="ttc" id="lib_2openssl_8c_html_a2b3b6035ac8f1e96185bccdb39bcfff0"><div class="ttname"><a href="lib_2openssl_8c.html#a2b3b6035ac8f1e96185bccdb39bcfff0">aes128ctr_setup_crypto</a></div><div class="ttdeci">static int aes128ctr_setup_crypto(ptls_cipher_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> openssl.c:730</div></div>
 <div class="ttc" id="structcipher__context__t_html"><div class="ttname"><a href="structcipher__context__t.html">cipher_context_t</a></div><div class="ttdef"><b>Definition:</b> openssl.c:659</div></div>
-<div class="ttc" id="picotls_8h_html_ad50a32ad73fdb75321e286fbd9014670"><div class="ttname"><a href="picotls_8h.html#ad50a32ad73fdb75321e286fbd9014670">PTLS_AES_IV_SIZE</a></div><div class="ttdeci">#define PTLS_AES_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:35</div></div>
-<div class="ttc" id="picotls_8h_html_acdaa44e790d3a6fe8cfa948c8b91ac4a"><div class="ttname"><a href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES128_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:33</div></div>
+<div class="ttc" id="picotls_8h_html_ad50a32ad73fdb75321e286fbd9014670"><div class="ttname"><a href="picotls_8h.html#ad50a32ad73fdb75321e286fbd9014670">PTLS_AES_IV_SIZE</a></div><div class="ttdeci">#define PTLS_AES_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:40</div></div>
+<div class="ttc" id="picotls_8h_html_acdaa44e790d3a6fe8cfa948c8b91ac4a"><div class="ttname"><a href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES128_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:37</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a53205da57302f77be64d3199a49b371b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="picotls_8h.html#a3bc4e32d3a4145414426aa251dbf2c77">ptls_cipher_algorithm_t</a> ptls_openssl_aes128ecb</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    <span class="stringliteral">&quot;AES128-ECB&quot;</span>,          <a class="code" href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a>, <a class="code" href="picotls_8h.html#ad39448cc1da898fcaa337ef325893bc1">PTLS_AES_BLOCK_SIZE</a>, 0 , <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structcipher__context__t.html">cipher_context_t</a>),</div>
+<div class="line">    <a class="code" href="lib_2openssl_8c.html#ab7b94691ef66496bd0da17936cbecd44">aes128ecb_setup_crypto</a>}</div>
+<div class="ttc" id="structcipher__context__t_html"><div class="ttname"><a href="structcipher__context__t.html">cipher_context_t</a></div><div class="ttdef"><b>Definition:</b> openssl.c:659</div></div>
+<div class="ttc" id="lib_2openssl_8c_html_ab7b94691ef66496bd0da17936cbecd44"><div class="ttname"><a href="lib_2openssl_8c.html#ab7b94691ef66496bd0da17936cbecd44">aes128ecb_setup_crypto</a></div><div class="ttdeci">static int aes128ecb_setup_crypto(ptls_cipher_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> openssl.c:720</div></div>
+<div class="ttc" id="picotls_8h_html_ad39448cc1da898fcaa337ef325893bc1"><div class="ttname"><a href="picotls_8h.html#ad39448cc1da898fcaa337ef325893bc1">PTLS_AES_BLOCK_SIZE</a></div><div class="ttdeci">#define PTLS_AES_BLOCK_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:39</div></div>
+<div class="ttc" id="picotls_8h_html_acdaa44e790d3a6fe8cfa948c8b91ac4a"><div class="ttname"><a href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES128_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:37</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2437,17 +2616,19 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {<span class="stringliteral">&quot;AES128-GCM&quot;</span>,</div>
 <div class="line">                                                &amp;<a class="code" href="lib_2openssl_8c.html#a307ef4a84f7b6eaf8add1f448cdff3ee">ptls_openssl_aes128ctr</a>,</div>
+<div class="line">                                                &amp;<a class="code" href="lib_2openssl_8c.html#a53205da57302f77be64d3199a49b371b">ptls_openssl_aes128ecb</a>,</div>
 <div class="line">                                                <a class="code" href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a>,</div>
 <div class="line">                                                <a class="code" href="picotls_8h.html#a559e248d43faf9fa3ff0fa35a7a02343">PTLS_AESGCM_IV_SIZE</a>,</div>
 <div class="line">                                                <a class="code" href="picotls_8h.html#a63730f53ad05b39d96cfbf1f5b349941">PTLS_AESGCM_TAG_SIZE</a>,</div>
 <div class="line">                                                <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structaead__crypto__context__t.html">aead_crypto_context_t</a>),</div>
 <div class="line">                                                <a class="code" href="lib_2openssl_8c.html#a45ce2d35305f89d38a99dbef73074324">aead_aes128gcm_setup_crypto</a>}</div>
-<div class="ttc" id="structaead__crypto__context__t_html"><div class="ttname"><a href="structaead__crypto__context__t.html">aead_crypto_context_t</a></div><div class="ttdef"><b>Definition:</b> openssl.c:723</div></div>
-<div class="ttc" id="picotls_8h_html_a559e248d43faf9fa3ff0fa35a7a02343"><div class="ttname"><a href="picotls_8h.html#a559e248d43faf9fa3ff0fa35a7a02343">PTLS_AESGCM_IV_SIZE</a></div><div class="ttdeci">#define PTLS_AESGCM_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:36</div></div>
-<div class="ttc" id="lib_2openssl_8c_html_a307ef4a84f7b6eaf8add1f448cdff3ee"><div class="ttname"><a href="lib_2openssl_8c.html#a307ef4a84f7b6eaf8add1f448cdff3ee">ptls_openssl_aes128ctr</a></div><div class="ttdeci">ptls_cipher_algorithm_t ptls_openssl_aes128ctr</div><div class="ttdef"><b>Definition:</b> openssl.c:1381</div></div>
-<div class="ttc" id="picotls_8h_html_acdaa44e790d3a6fe8cfa948c8b91ac4a"><div class="ttname"><a href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES128_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:33</div></div>
-<div class="ttc" id="lib_2openssl_8c_html_a45ce2d35305f89d38a99dbef73074324"><div class="ttname"><a href="lib_2openssl_8c.html#a45ce2d35305f89d38a99dbef73074324">aead_aes128gcm_setup_crypto</a></div><div class="ttdeci">static int aead_aes128gcm_setup_crypto(ptls_aead_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> openssl.c:855</div></div>
-<div class="ttc" id="picotls_8h_html_a63730f53ad05b39d96cfbf1f5b349941"><div class="ttname"><a href="picotls_8h.html#a63730f53ad05b39d96cfbf1f5b349941">PTLS_AESGCM_TAG_SIZE</a></div><div class="ttdeci">#define PTLS_AESGCM_TAG_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:37</div></div>
+<div class="ttc" id="structaead__crypto__context__t_html"><div class="ttname"><a href="structaead__crypto__context__t.html">aead_crypto_context_t</a></div><div class="ttdef"><b>Definition:</b> openssl.c:758</div></div>
+<div class="ttc" id="picotls_8h_html_a559e248d43faf9fa3ff0fa35a7a02343"><div class="ttname"><a href="picotls_8h.html#a559e248d43faf9fa3ff0fa35a7a02343">PTLS_AESGCM_IV_SIZE</a></div><div class="ttdeci">#define PTLS_AESGCM_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:41</div></div>
+<div class="ttc" id="lib_2openssl_8c_html_a307ef4a84f7b6eaf8add1f448cdff3ee"><div class="ttname"><a href="lib_2openssl_8c.html#a307ef4a84f7b6eaf8add1f448cdff3ee">ptls_openssl_aes128ctr</a></div><div class="ttdeci">ptls_cipher_algorithm_t ptls_openssl_aes128ctr</div><div class="ttdef"><b>Definition:</b> openssl.c:1419</div></div>
+<div class="ttc" id="lib_2openssl_8c_html_a53205da57302f77be64d3199a49b371b"><div class="ttname"><a href="lib_2openssl_8c.html#a53205da57302f77be64d3199a49b371b">ptls_openssl_aes128ecb</a></div><div class="ttdeci">ptls_cipher_algorithm_t ptls_openssl_aes128ecb</div><div class="ttdef"><b>Definition:</b> openssl.c:1416</div></div>
+<div class="ttc" id="picotls_8h_html_acdaa44e790d3a6fe8cfa948c8b91ac4a"><div class="ttname"><a href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES128_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:37</div></div>
+<div class="ttc" id="lib_2openssl_8c_html_a45ce2d35305f89d38a99dbef73074324"><div class="ttname"><a href="lib_2openssl_8c.html#a45ce2d35305f89d38a99dbef73074324">aead_aes128gcm_setup_crypto</a></div><div class="ttdeci">static int aead_aes128gcm_setup_crypto(ptls_aead_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> openssl.c:890</div></div>
+<div class="ttc" id="picotls_8h_html_a63730f53ad05b39d96cfbf1f5b349941"><div class="ttname"><a href="picotls_8h.html#a63730f53ad05b39d96cfbf1f5b349941">PTLS_AESGCM_TAG_SIZE</a></div><div class="ttdeci">#define PTLS_AESGCM_TAG_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:42</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2462,9 +2643,9 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {<a class="code" href="picotls_8h.html#aafe67e2748e31b8828ac55f4f5c77257">PTLS_CIPHER_SUITE_AES_128_GCM_SHA256</a>, &amp;<a class="code" href="lib_2openssl_8c.html#a63e28d24616dd903ed4eda96d7575b55">ptls_openssl_aes128gcm</a>,</div>
 <div class="line">                                                    &amp;<a class="code" href="lib_2openssl_8c.html#abfd35808aa1000c63b493403dc3aefa6">ptls_openssl_sha256</a>}</div>
-<div class="ttc" id="picotls_8h_html_aafe67e2748e31b8828ac55f4f5c77257"><div class="ttname"><a href="picotls_8h.html#aafe67e2748e31b8828ac55f4f5c77257">PTLS_CIPHER_SUITE_AES_128_GCM_SHA256</a></div><div class="ttdeci">#define PTLS_CIPHER_SUITE_AES_128_GCM_SHA256</div><div class="ttdef"><b>Definition:</b> picotls.h:55</div></div>
-<div class="ttc" id="lib_2openssl_8c_html_a63e28d24616dd903ed4eda96d7575b55"><div class="ttname"><a href="lib_2openssl_8c.html#a63e28d24616dd903ed4eda96d7575b55">ptls_openssl_aes128gcm</a></div><div class="ttdeci">ptls_aead_algorithm_t ptls_openssl_aes128gcm</div><div class="ttdef"><b>Definition:</b> openssl.c:1383</div></div>
-<div class="ttc" id="lib_2openssl_8c_html_abfd35808aa1000c63b493403dc3aefa6"><div class="ttname"><a href="lib_2openssl_8c.html#abfd35808aa1000c63b493403dc3aefa6">ptls_openssl_sha256</a></div><div class="ttdeci">ptls_hash_algorithm_t ptls_openssl_sha256</div><div class="ttdef"><b>Definition:</b> openssl.c:1399</div></div>
+<div class="ttc" id="picotls_8h_html_aafe67e2748e31b8828ac55f4f5c77257"><div class="ttname"><a href="picotls_8h.html#aafe67e2748e31b8828ac55f4f5c77257">PTLS_CIPHER_SUITE_AES_128_GCM_SHA256</a></div><div class="ttdeci">#define PTLS_CIPHER_SUITE_AES_128_GCM_SHA256</div><div class="ttdef"><b>Definition:</b> picotls.h:63</div></div>
+<div class="ttc" id="lib_2openssl_8c_html_a63e28d24616dd903ed4eda96d7575b55"><div class="ttname"><a href="lib_2openssl_8c.html#a63e28d24616dd903ed4eda96d7575b55">ptls_openssl_aes128gcm</a></div><div class="ttdeci">ptls_aead_algorithm_t ptls_openssl_aes128gcm</div><div class="ttdef"><b>Definition:</b> openssl.c:1421</div></div>
+<div class="ttc" id="lib_2openssl_8c_html_abfd35808aa1000c63b493403dc3aefa6"><div class="ttname"><a href="lib_2openssl_8c.html#abfd35808aa1000c63b493403dc3aefa6">ptls_openssl_sha256</a></div><div class="ttdeci">ptls_hash_algorithm_t ptls_openssl_sha256</div><div class="ttdef"><b>Definition:</b> openssl.c:1443</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2477,12 +2658,32 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {<span class="stringliteral">&quot;AES256-CTR&quot;</span>, <a class="code" href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a>, <a class="code" href="picotls_8h.html#ad50a32ad73fdb75321e286fbd9014670">PTLS_AES_IV_SIZE</a>,</div>
-<div class="line">                                                  <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structcipher__context__t.html">cipher_context_t</a>), <a class="code" href="lib_2openssl_8c.html#a3474cff27a659209558ea63edd944f01">aes256ctr_setup_crypto</a>}</div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    <span class="stringliteral">&quot;AES256-CTR&quot;</span>,          <a class="code" href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a>, 1 , <a class="code" href="picotls_8h.html#ad50a32ad73fdb75321e286fbd9014670">PTLS_AES_IV_SIZE</a>, <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structcipher__context__t.html">cipher_context_t</a>),</div>
+<div class="line">    <a class="code" href="lib_2openssl_8c.html#a3474cff27a659209558ea63edd944f01">aes256ctr_setup_crypto</a>}</div>
 <div class="ttc" id="structcipher__context__t_html"><div class="ttname"><a href="structcipher__context__t.html">cipher_context_t</a></div><div class="ttdef"><b>Definition:</b> openssl.c:659</div></div>
-<div class="ttc" id="picotls_8h_html_ad50a32ad73fdb75321e286fbd9014670"><div class="ttname"><a href="picotls_8h.html#ad50a32ad73fdb75321e286fbd9014670">PTLS_AES_IV_SIZE</a></div><div class="ttdeci">#define PTLS_AES_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:35</div></div>
-<div class="ttc" id="picotls_8h_html_a99874819a65650d326220d0d33fa1d60"><div class="ttname"><a href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES256_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:34</div></div>
-<div class="ttc" id="lib_2openssl_8c_html_a3474cff27a659209558ea63edd944f01"><div class="ttname"><a href="lib_2openssl_8c.html#a3474cff27a659209558ea63edd944f01">aes256ctr_setup_crypto</a></div><div class="ttdeci">static int aes256ctr_setup_crypto(ptls_cipher_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> openssl.c:709</div></div>
+<div class="ttc" id="picotls_8h_html_ad50a32ad73fdb75321e286fbd9014670"><div class="ttname"><a href="picotls_8h.html#ad50a32ad73fdb75321e286fbd9014670">PTLS_AES_IV_SIZE</a></div><div class="ttdeci">#define PTLS_AES_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:40</div></div>
+<div class="ttc" id="picotls_8h_html_a99874819a65650d326220d0d33fa1d60"><div class="ttname"><a href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES256_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:38</div></div>
+<div class="ttc" id="lib_2openssl_8c_html_a3474cff27a659209558ea63edd944f01"><div class="ttname"><a href="lib_2openssl_8c.html#a3474cff27a659209558ea63edd944f01">aes256ctr_setup_crypto</a></div><div class="ttdeci">static int aes256ctr_setup_crypto(ptls_cipher_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> openssl.c:735</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a72d1d7fe0c8c653e79392397d4b4551d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="picotls_8h.html#a3bc4e32d3a4145414426aa251dbf2c77">ptls_cipher_algorithm_t</a> ptls_openssl_aes256ecb</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    <span class="stringliteral">&quot;AES256-ECB&quot;</span>,          <a class="code" href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a>, <a class="code" href="picotls_8h.html#ad39448cc1da898fcaa337ef325893bc1">PTLS_AES_BLOCK_SIZE</a>, 0 , <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structcipher__context__t.html">cipher_context_t</a>),</div>
+<div class="line">    <a class="code" href="lib_2openssl_8c.html#a718f91ac6895078fb348cd9678cc37a0">aes256ecb_setup_crypto</a>}</div>
+<div class="ttc" id="structcipher__context__t_html"><div class="ttname"><a href="structcipher__context__t.html">cipher_context_t</a></div><div class="ttdef"><b>Definition:</b> openssl.c:659</div></div>
+<div class="ttc" id="lib_2openssl_8c_html_a718f91ac6895078fb348cd9678cc37a0"><div class="ttname"><a href="lib_2openssl_8c.html#a718f91ac6895078fb348cd9678cc37a0">aes256ecb_setup_crypto</a></div><div class="ttdeci">static int aes256ecb_setup_crypto(ptls_cipher_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> openssl.c:725</div></div>
+<div class="ttc" id="picotls_8h_html_a99874819a65650d326220d0d33fa1d60"><div class="ttname"><a href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES256_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:38</div></div>
+<div class="ttc" id="picotls_8h_html_ad39448cc1da898fcaa337ef325893bc1"><div class="ttname"><a href="picotls_8h.html#ad39448cc1da898fcaa337ef325893bc1">PTLS_AES_BLOCK_SIZE</a></div><div class="ttdeci">#define PTLS_AES_BLOCK_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:39</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2497,17 +2698,19 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {<span class="stringliteral">&quot;AES256-GCM&quot;</span>,</div>
 <div class="line">                                                &amp;<a class="code" href="lib_2openssl_8c.html#a1feef208111ed07df28a80cf5a3497b4">ptls_openssl_aes256ctr</a>,</div>
+<div class="line">                                                &amp;<a class="code" href="lib_2openssl_8c.html#a72d1d7fe0c8c653e79392397d4b4551d">ptls_openssl_aes256ecb</a>,</div>
 <div class="line">                                                <a class="code" href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a>,</div>
 <div class="line">                                                <a class="code" href="picotls_8h.html#a559e248d43faf9fa3ff0fa35a7a02343">PTLS_AESGCM_IV_SIZE</a>,</div>
 <div class="line">                                                <a class="code" href="picotls_8h.html#a63730f53ad05b39d96cfbf1f5b349941">PTLS_AESGCM_TAG_SIZE</a>,</div>
 <div class="line">                                                <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structaead__crypto__context__t.html">aead_crypto_context_t</a>),</div>
 <div class="line">                                                <a class="code" href="lib_2openssl_8c.html#a4f783fa4f3df3b8ace391fcdef339d4a">aead_aes256gcm_setup_crypto</a>}</div>
-<div class="ttc" id="structaead__crypto__context__t_html"><div class="ttname"><a href="structaead__crypto__context__t.html">aead_crypto_context_t</a></div><div class="ttdef"><b>Definition:</b> openssl.c:723</div></div>
-<div class="ttc" id="picotls_8h_html_a559e248d43faf9fa3ff0fa35a7a02343"><div class="ttname"><a href="picotls_8h.html#a559e248d43faf9fa3ff0fa35a7a02343">PTLS_AESGCM_IV_SIZE</a></div><div class="ttdeci">#define PTLS_AESGCM_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:36</div></div>
-<div class="ttc" id="picotls_8h_html_a99874819a65650d326220d0d33fa1d60"><div class="ttname"><a href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES256_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:34</div></div>
-<div class="ttc" id="lib_2openssl_8c_html_a1feef208111ed07df28a80cf5a3497b4"><div class="ttname"><a href="lib_2openssl_8c.html#a1feef208111ed07df28a80cf5a3497b4">ptls_openssl_aes256ctr</a></div><div class="ttdeci">ptls_cipher_algorithm_t ptls_openssl_aes256ctr</div><div class="ttdef"><b>Definition:</b> openssl.c:1390</div></div>
-<div class="ttc" id="lib_2openssl_8c_html_a4f783fa4f3df3b8ace391fcdef339d4a"><div class="ttname"><a href="lib_2openssl_8c.html#a4f783fa4f3df3b8ace391fcdef339d4a">aead_aes256gcm_setup_crypto</a></div><div class="ttdeci">static int aead_aes256gcm_setup_crypto(ptls_aead_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> openssl.c:860</div></div>
-<div class="ttc" id="picotls_8h_html_a63730f53ad05b39d96cfbf1f5b349941"><div class="ttname"><a href="picotls_8h.html#a63730f53ad05b39d96cfbf1f5b349941">PTLS_AESGCM_TAG_SIZE</a></div><div class="ttdeci">#define PTLS_AESGCM_TAG_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:37</div></div>
+<div class="ttc" id="structaead__crypto__context__t_html"><div class="ttname"><a href="structaead__crypto__context__t.html">aead_crypto_context_t</a></div><div class="ttdef"><b>Definition:</b> openssl.c:758</div></div>
+<div class="ttc" id="picotls_8h_html_a559e248d43faf9fa3ff0fa35a7a02343"><div class="ttname"><a href="picotls_8h.html#a559e248d43faf9fa3ff0fa35a7a02343">PTLS_AESGCM_IV_SIZE</a></div><div class="ttdeci">#define PTLS_AESGCM_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:41</div></div>
+<div class="ttc" id="picotls_8h_html_a99874819a65650d326220d0d33fa1d60"><div class="ttname"><a href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES256_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:38</div></div>
+<div class="ttc" id="lib_2openssl_8c_html_a1feef208111ed07df28a80cf5a3497b4"><div class="ttname"><a href="lib_2openssl_8c.html#a1feef208111ed07df28a80cf5a3497b4">ptls_openssl_aes256ctr</a></div><div class="ttdeci">ptls_cipher_algorithm_t ptls_openssl_aes256ctr</div><div class="ttdef"><b>Definition:</b> openssl.c:1432</div></div>
+<div class="ttc" id="lib_2openssl_8c_html_a4f783fa4f3df3b8ace391fcdef339d4a"><div class="ttname"><a href="lib_2openssl_8c.html#a4f783fa4f3df3b8ace391fcdef339d4a">aead_aes256gcm_setup_crypto</a></div><div class="ttdeci">static int aead_aes256gcm_setup_crypto(ptls_aead_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> openssl.c:895</div></div>
+<div class="ttc" id="lib_2openssl_8c_html_a72d1d7fe0c8c653e79392397d4b4551d"><div class="ttname"><a href="lib_2openssl_8c.html#a72d1d7fe0c8c653e79392397d4b4551d">ptls_openssl_aes256ecb</a></div><div class="ttdeci">ptls_cipher_algorithm_t ptls_openssl_aes256ecb</div><div class="ttdef"><b>Definition:</b> openssl.c:1429</div></div>
+<div class="ttc" id="picotls_8h_html_a63730f53ad05b39d96cfbf1f5b349941"><div class="ttname"><a href="picotls_8h.html#a63730f53ad05b39d96cfbf1f5b349941">PTLS_AESGCM_TAG_SIZE</a></div><div class="ttdeci">#define PTLS_AESGCM_TAG_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:42</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2522,9 +2725,9 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {<a class="code" href="picotls_8h.html#a16fc5d531298f137319be48b0b23f455">PTLS_CIPHER_SUITE_AES_256_GCM_SHA384</a>, &amp;<a class="code" href="lib_2openssl_8c.html#af7f74dd18cee9a7a4096f17186b7b1f0">ptls_openssl_aes256gcm</a>,</div>
 <div class="line">                                                    &amp;<a class="code" href="lib_2openssl_8c.html#aa4cf8d7395a0a65b1b8082b39baf481f">ptls_openssl_sha384</a>}</div>
-<div class="ttc" id="lib_2openssl_8c_html_aa4cf8d7395a0a65b1b8082b39baf481f"><div class="ttname"><a href="lib_2openssl_8c.html#aa4cf8d7395a0a65b1b8082b39baf481f">ptls_openssl_sha384</a></div><div class="ttdeci">ptls_hash_algorithm_t ptls_openssl_sha384</div><div class="ttdef"><b>Definition:</b> openssl.c:1401</div></div>
-<div class="ttc" id="lib_2openssl_8c_html_af7f74dd18cee9a7a4096f17186b7b1f0"><div class="ttname"><a href="lib_2openssl_8c.html#af7f74dd18cee9a7a4096f17186b7b1f0">ptls_openssl_aes256gcm</a></div><div class="ttdeci">ptls_aead_algorithm_t ptls_openssl_aes256gcm</div><div class="ttdef"><b>Definition:</b> openssl.c:1392</div></div>
-<div class="ttc" id="picotls_8h_html_a16fc5d531298f137319be48b0b23f455"><div class="ttname"><a href="picotls_8h.html#a16fc5d531298f137319be48b0b23f455">PTLS_CIPHER_SUITE_AES_256_GCM_SHA384</a></div><div class="ttdeci">#define PTLS_CIPHER_SUITE_AES_256_GCM_SHA384</div><div class="ttdef"><b>Definition:</b> picotls.h:56</div></div>
+<div class="ttc" id="lib_2openssl_8c_html_aa4cf8d7395a0a65b1b8082b39baf481f"><div class="ttname"><a href="lib_2openssl_8c.html#aa4cf8d7395a0a65b1b8082b39baf481f">ptls_openssl_sha384</a></div><div class="ttdeci">ptls_hash_algorithm_t ptls_openssl_sha384</div><div class="ttdef"><b>Definition:</b> openssl.c:1445</div></div>
+<div class="ttc" id="lib_2openssl_8c_html_af7f74dd18cee9a7a4096f17186b7b1f0"><div class="ttname"><a href="lib_2openssl_8c.html#af7f74dd18cee9a7a4096f17186b7b1f0">ptls_openssl_aes256gcm</a></div><div class="ttdeci">ptls_aead_algorithm_t ptls_openssl_aes256gcm</div><div class="ttdef"><b>Definition:</b> openssl.c:1435</div></div>
+<div class="ttc" id="picotls_8h_html_a16fc5d531298f137319be48b0b23f455"><div class="ttname"><a href="picotls_8h.html#a16fc5d531298f137319be48b0b23f455">PTLS_CIPHER_SUITE_AES_256_GCM_SHA384</a></div><div class="ttdeci">#define PTLS_CIPHER_SUITE_AES_256_GCM_SHA384</div><div class="ttdef"><b>Definition:</b> picotls.h:64</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2542,8 +2745,8 @@ Here is the call graph for this function:</div>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line">                                                     NULL}</div>
-<div class="ttc" id="lib_2openssl_8c_html_a592eb73befa60093ae61b9fe869d8dd4"><div class="ttname"><a href="lib_2openssl_8c.html#a592eb73befa60093ae61b9fe869d8dd4">ptls_openssl_aes256gcmsha384</a></div><div class="ttdeci">ptls_cipher_suite_t ptls_openssl_aes256gcmsha384</div><div class="ttdef"><b>Definition:</b> openssl.c:1405</div></div>
-<div class="ttc" id="lib_2openssl_8c_html_aab2fa468882ffee65a5ddc4432626e14"><div class="ttname"><a href="lib_2openssl_8c.html#aab2fa468882ffee65a5ddc4432626e14">ptls_openssl_aes128gcmsha256</a></div><div class="ttdeci">ptls_cipher_suite_t ptls_openssl_aes128gcmsha256</div><div class="ttdef"><b>Definition:</b> openssl.c:1403</div></div>
+<div class="ttc" id="lib_2openssl_8c_html_a592eb73befa60093ae61b9fe869d8dd4"><div class="ttname"><a href="lib_2openssl_8c.html#a592eb73befa60093ae61b9fe869d8dd4">ptls_openssl_aes256gcmsha384</a></div><div class="ttdeci">ptls_cipher_suite_t ptls_openssl_aes256gcmsha384</div><div class="ttdef"><b>Definition:</b> openssl.c:1449</div></div>
+<div class="ttc" id="lib_2openssl_8c_html_aab2fa468882ffee65a5ddc4432626e14"><div class="ttname"><a href="lib_2openssl_8c.html#aab2fa468882ffee65a5ddc4432626e14">ptls_openssl_aes128gcmsha256</a></div><div class="ttdeci">ptls_cipher_suite_t ptls_openssl_aes128gcmsha256</div><div class="ttdef"><b>Definition:</b> openssl.c:1447</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2572,7 +2775,7 @@ Here is the call graph for this function:</div>
 <div class="line">                                                        NID_X9_62_prime256v1}</div>
 <div class="ttc" id="lib_2openssl_8c_html_a87507886721e9b3a51ab18e85b4c45fa"><div class="ttname"><a href="lib_2openssl_8c.html#a87507886721e9b3a51ab18e85b4c45fa">x9_62_create_key_exchange</a></div><div class="ttdeci">static int x9_62_create_key_exchange(ptls_key_exchange_algorithm_t *algo, ptls_key_exchange_context_t **_ctx)</div><div class="ttdef"><b>Definition:</b> openssl.c:238</div></div>
 <div class="ttc" id="lib_2openssl_8c_html_a572ada0a9619dc2178fc3a8cdf5df5b5"><div class="ttname"><a href="lib_2openssl_8c.html#a572ada0a9619dc2178fc3a8cdf5df5b5">secp_key_exchange</a></div><div class="ttdeci">static int secp_key_exchange(ptls_key_exchange_algorithm_t *algo, ptls_iovec_t *pubkey, ptls_iovec_t *secret, ptls_iovec_t peerkey)</div><div class="ttdef"><b>Definition:</b> openssl.c:352</div></div>
-<div class="ttc" id="picotls_8h_html_ac4feae5c851d59abaa0f785b66d0d8f3"><div class="ttname"><a href="picotls_8h.html#ac4feae5c851d59abaa0f785b66d0d8f3">PTLS_GROUP_SECP256R1</a></div><div class="ttdeci">#define PTLS_GROUP_SECP256R1</div><div class="ttdef"><b>Definition:</b> picotls.h:60</div></div>
+<div class="ttc" id="picotls_8h_html_ac4feae5c851d59abaa0f785b66d0d8f3"><div class="ttname"><a href="picotls_8h.html#ac4feae5c851d59abaa0f785b66d0d8f3">PTLS_GROUP_SECP256R1</a></div><div class="ttdeci">#define PTLS_GROUP_SECP256R1</div><div class="ttdef"><b>Definition:</b> picotls.h:68</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2587,9 +2790,9 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {<a class="code" href="picotls_8h.html#abfb1619bfa89e5cf6a815f52cd0d0cea">PTLS_SHA256_BLOCK_SIZE</a>, <a class="code" href="picotls_8h.html#a910934303bda14d99030e6ef629b8888">PTLS_SHA256_DIGEST_SIZE</a>, sha256_create,</div>
 <div class="line">                                             <a class="code" href="picotls_8h.html#aa596500914e23a251e189495d8e66fba">PTLS_ZERO_DIGEST_SHA256</a>}</div>
-<div class="ttc" id="picotls_8h_html_a910934303bda14d99030e6ef629b8888"><div class="ttname"><a href="picotls_8h.html#a910934303bda14d99030e6ef629b8888">PTLS_SHA256_DIGEST_SIZE</a></div><div class="ttdeci">#define PTLS_SHA256_DIGEST_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:45</div></div>
-<div class="ttc" id="picotls_8h_html_abfb1619bfa89e5cf6a815f52cd0d0cea"><div class="ttname"><a href="picotls_8h.html#abfb1619bfa89e5cf6a815f52cd0d0cea">PTLS_SHA256_BLOCK_SIZE</a></div><div class="ttdeci">#define PTLS_SHA256_BLOCK_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:44</div></div>
-<div class="ttc" id="picotls_8h_html_aa596500914e23a251e189495d8e66fba"><div class="ttname"><a href="picotls_8h.html#aa596500914e23a251e189495d8e66fba">PTLS_ZERO_DIGEST_SHA256</a></div><div class="ttdeci">#define PTLS_ZERO_DIGEST_SHA256</div><div class="ttdef"><b>Definition:</b> picotls.h:155</div></div>
+<div class="ttc" id="picotls_8h_html_a910934303bda14d99030e6ef629b8888"><div class="ttname"><a href="picotls_8h.html#a910934303bda14d99030e6ef629b8888">PTLS_SHA256_DIGEST_SIZE</a></div><div class="ttdeci">#define PTLS_SHA256_DIGEST_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:53</div></div>
+<div class="ttc" id="picotls_8h_html_abfb1619bfa89e5cf6a815f52cd0d0cea"><div class="ttname"><a href="picotls_8h.html#abfb1619bfa89e5cf6a815f52cd0d0cea">PTLS_SHA256_BLOCK_SIZE</a></div><div class="ttdeci">#define PTLS_SHA256_BLOCK_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:52</div></div>
+<div class="ttc" id="picotls_8h_html_aa596500914e23a251e189495d8e66fba"><div class="ttname"><a href="picotls_8h.html#aa596500914e23a251e189495d8e66fba">PTLS_ZERO_DIGEST_SHA256</a></div><div class="ttdeci">#define PTLS_ZERO_DIGEST_SHA256</div><div class="ttdef"><b>Definition:</b> picotls.h:163</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2604,16 +2807,16 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {<a class="code" href="picotls_8h.html#aa2167c6b76ee0c4517a263225c2bd7ae">PTLS_SHA384_BLOCK_SIZE</a>, <a class="code" href="picotls_8h.html#a4e599a21a88b23aeb53494c65d159581">PTLS_SHA384_DIGEST_SIZE</a>, sha384_create,</div>
 <div class="line">                                             <a class="code" href="picotls_8h.html#a4fb20cb6b2af408282de113fa889a92e">PTLS_ZERO_DIGEST_SHA384</a>}</div>
-<div class="ttc" id="picotls_8h_html_a4fb20cb6b2af408282de113fa889a92e"><div class="ttname"><a href="picotls_8h.html#a4fb20cb6b2af408282de113fa889a92e">PTLS_ZERO_DIGEST_SHA384</a></div><div class="ttdeci">#define PTLS_ZERO_DIGEST_SHA384</div><div class="ttdef"><b>Definition:</b> picotls.h:161</div></div>
-<div class="ttc" id="picotls_8h_html_aa2167c6b76ee0c4517a263225c2bd7ae"><div class="ttname"><a href="picotls_8h.html#aa2167c6b76ee0c4517a263225c2bd7ae">PTLS_SHA384_BLOCK_SIZE</a></div><div class="ttdeci">#define PTLS_SHA384_BLOCK_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:47</div></div>
-<div class="ttc" id="picotls_8h_html_a4e599a21a88b23aeb53494c65d159581"><div class="ttname"><a href="picotls_8h.html#a4e599a21a88b23aeb53494c65d159581">PTLS_SHA384_DIGEST_SIZE</a></div><div class="ttdeci">#define PTLS_SHA384_DIGEST_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:48</div></div>
+<div class="ttc" id="picotls_8h_html_a4fb20cb6b2af408282de113fa889a92e"><div class="ttname"><a href="picotls_8h.html#a4fb20cb6b2af408282de113fa889a92e">PTLS_ZERO_DIGEST_SHA384</a></div><div class="ttdeci">#define PTLS_ZERO_DIGEST_SHA384</div><div class="ttdef"><b>Definition:</b> picotls.h:169</div></div>
+<div class="ttc" id="picotls_8h_html_aa2167c6b76ee0c4517a263225c2bd7ae"><div class="ttname"><a href="picotls_8h.html#aa2167c6b76ee0c4517a263225c2bd7ae">PTLS_SHA384_BLOCK_SIZE</a></div><div class="ttdeci">#define PTLS_SHA384_BLOCK_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:55</div></div>
+<div class="ttc" id="picotls_8h_html_a4e599a21a88b23aeb53494c65d159581"><div class="ttname"><a href="picotls_8h.html#a4e599a21a88b23aeb53494c65d159581">PTLS_SHA384_DIGEST_SIZE</a></div><div class="ttdeci">#define PTLS_SHA384_DIGEST_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:56</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 31 2019 23:08:42 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 13 2019 13:06:18 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

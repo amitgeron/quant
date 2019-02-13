@@ -1,0 +1,51 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$norx_8c.html#a6f833161358209e628269ffbbe3e0db9" title="init" alt="" coords="127,132,166,159"/>
+<area shape="rect" id="node5" href="$warpcore_8h.html#a8f5c782e319686927159612d3f455b7b" title="Bind a w_sock to the given local UDP port number. " alt="" coords="115,259,178,285"/>
+<area shape="rect" id="node13" href="$warpcore_8h.html#aade6adf37002553de6cca667cacd5138" title="Connect a bound socket to a remote IP address and port. " alt="" coords="104,335,189,361"/>
+<area shape="rect" id="node33" href="$warpcore_8h.html#a7644484ec2768497622b01587fc428ab" title="Return whether a socket is connected (i.e., w_connect() has been called on it) or not..." alt="" coords="1016,841,1115,868"/>
+<area shape="rect" id="node48" href="$common_8c.html#aeb94fbd457627182ceee7e505f432541" title="cleanup" alt="" coords="739,968,805,995"/>
+<area shape="rect" id="node3" href="$bitops_8h.html#a53b9f25069cc1b9fd72d421715d13aad" title="Read 4 bytes from buf, as a 32&#45;bit little endian quantity. " alt="" coords="261,132,339,159"/>
+<area shape="rect" id="node4" href="$norx_8c.html#af91bd8eed5e8915a86477290a420ebc4" title="permute" alt="" coords="265,81,335,108"/>
+<area shape="rect" id="node6" href="$warpcore_8c.html#aff4f3655674a1befac066bd33657a8c0" title="Get the socket bound to the given four&#45;tuple &lt;source IP, source port, destination IP..." alt="" coords="254,233,346,260"/>
+<area shape="rect" id="node7" href="$backend_8h.html#aa5e273595df14dd0f4ad2899eaebafe8" title="Netmap&#45;specific code to bind a warpcore socket. " alt="" coords="249,183,351,209"/>
+<area shape="rect" id="node12" href="$warpcore_8c.html#a71cc05810f16495f5f6e1889c96e5b6c" title="ins_sock" alt="" coords="263,284,337,311"/>
+<area shape="rect" id="node8" href="$backend__netmap_8c.html#a281a85c5e2760b47cd28cde4e6a5109b" title="Set the socket options. " alt="" coords="411,132,522,159"/>
+<area shape="rect" id="node9" href="$backend__netmap_8c.html#a3be98876f5c17d36d0436ca491ffd43a" title="pick_sport" alt="" coords="425,183,508,209"/>
+<area shape="rect" id="node10" href="$warpcore_8h.html#a4ecb03f6a94c2911ab004803802a27c0" title="Calculate a uniformly distributed random number in [0, upper_bound) avoiding &quot;modulo bias&quot;..." alt="" coords="571,5,685,32"/>
+<area shape="rect" id="node11" href="$klib_2krng_8h.html#a3864312439c8a4b1ca75c8f0cbb9ccff" title="kr_rand_r" alt="" coords="734,5,810,32"/>
+<area shape="rect" id="node14" href="$warpcore_8c.html#a811255f1e117572d31fd94afa11718a4" title="rem_sock" alt="" coords="1194,968,1273,995"/>
+<area shape="rect" id="node15" href="$backend_8h.html#a0de137fe30801a3c8798185082b134be" title="Connect the given w_sock, using the netmap backend. " alt="" coords="238,335,362,361"/>
+<area shape="rect" id="node16" href="$backend_8h.html#a03bc21b220cd1dbb450c6d3ea4f838c9" title="The IPv4 network prefix for the given IPv4 address and netmask. " alt="" coords="1033,321,1098,348"/>
+<area shape="rect" id="node17" href="$arp_8c.html#aad7ca3e847867c4dcc618d034aa42739" title="Return the Ethernet MAC address for target IP address dip. " alt="" coords="417,233,516,260"/>
+<area shape="rect" id="node47" href="$warpcore_8h.html#aff4f3655674a1befac066bd33657a8c0" title="Get the socket bound to the given four&#45;tuple &lt;source IP, source port, destination IP..." alt="" coords="421,309,513,336"/>
+<area shape="rect" id="node18" href="$arp_8c.html#ab57d1a0513207babcdb2f6a8a8295fae" title="Find the ARP cache entry associated with IPv4 address ip. " alt="" coords="573,309,683,336"/>
+<area shape="rect" id="node19" href="$backend_8h.html#a3ea12851bfb4f83f0843560797d0241e" title="w_alloc_iov_base" alt="" coords="1171,208,1296,235"/>
+<area shape="rect" id="node22" href="$eth_8h.html#a01df29c04e9962e458497dc6d3ea7da3" title="Return a pointer to the first data byte inside the Ethernet frame in buf. " alt="" coords="1029,208,1101,235"/>
+<area shape="rect" id="node23" href="$eth_8c.html#a81ff5f8f32f3f31da0fa707ebbb69b1b" title="Places an Ethernet frame into a TX ring. " alt="" coords="599,157,657,184"/>
+<area shape="rect" id="node25" href="$warpcore_8h.html#a3fba5669717435248ca7b7945a9b9d75" title="Push data placed in the TX rings via udp_tx() and similar methods out onto the link. " alt="" coords="591,208,665,235"/>
+<area shape="rect" id="node26" href="$warpcore_8h.html#ab0508cfebe874ba0f3f2f230b4120e0d" title="Trigger netmap to make new received data available to w_rx(). " alt="" coords="591,259,665,285"/>
+<area shape="rect" id="node20" href="$backend_8h.html#a5bca37c30d432e0c16c44d8e0c087e5f" title="init_iov" alt="" coords="1345,208,1407,235"/>
+<area shape="rect" id="node21" href="$backend_8h.html#a7f3566b6a4f34920186abe13e80a2760" title="For a given buffer index, get a pointer to its beginning. " alt="" coords="1456,208,1539,235"/>
+<area shape="rect" id="node24" href="$eth_8c.html#a84b1cdcdafabcab37d01ffff5a0e1938" title="ether_ntoa_r" alt="" coords="862,157,957,184"/>
+<area shape="rect" id="node27" href="$conn_8c.html#a69924c834acb11f94887f781e4241397" title="rx" alt="" coords="753,563,791,589"/>
+<area shape="rect" id="node42" href="$eth_8c.html#a659282bc0d2ea46d2d4817aa9a2f46e7" title="Receive an Ethernet frame. " alt="" coords="743,259,801,285"/>
+<area shape="rect" id="node46" href="$backend_8h.html#a2242871306406e5b7f993f173bb9ff4a" title="is_pipe" alt="" coords="741,309,803,336"/>
+<area shape="rect" id="node28" href="$warpcore_8h.html#a5ac8908312be71047433d7e51059e240" title="Return warpcore engine serving w_sock s. " alt="" coords="1027,715,1104,741"/>
+<area shape="rect" id="node29" href="$warpcore_8h.html#af21a4e848c9199be729d01d20b8eea3d" title="Return any new data that has been received on a socket by appending it to the w_iov tail queue i..." alt="" coords="884,411,935,437"/>
+<area shape="rect" id="node31" href="$conn_8c.html#a743c431b40b906bbe9baad4456a0e7c5" title="rx_pkts" alt="" coords="877,765,942,792"/>
+<area shape="rect" id="node34" href="$conn_8c.html#a1a9a96efc3be558373804c33a60df6b9" title="tx" alt="" coords="890,461,929,488"/>
+<area shape="rect" id="node35" href="$conn_8c.html#a707d9d89ae0b67ec0bac83dd24c21708" title="tx_ack" alt="" coords="1035,537,1096,564"/>
+<area shape="rect" id="node36" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="859,512,959,539"/>
+<area shape="rect" id="node37" href="$pn_8c.html#a7f1a6720a0e3506c0553d13ad865510f" title="needs_ack" alt="" coords="867,563,952,589"/>
+<area shape="rect" id="node38" href="$conn_8c.html#a4a5deef512e20b125b45899c6c80c6fc" title="free_conn" alt="" coords="870,816,949,843"/>
+<area shape="rect" id="node41" href="$quant_8h.html#a84a768c49cd352e1c8a109bda56ef3a6" title="q_rx_ready" alt="" coords="866,664,953,691"/>
+<area shape="rect" id="node30" href="$warpcore_8h.html#aa17e20ed409edbfe18aa79ae5da640ff" title="Return a spare w_iov from the pool of the given warpcore engine. " alt="" coords="1020,385,1111,412"/>
+<area shape="rect" id="node32" href="$quic_8c.html#a4e51fb8c9ebc5178b5131826ca26fb90" title="write_to_corpus" alt="" coords="1008,765,1123,792"/>
+<area shape="rect" id="node39" href="$warpcore_8h.html#a26c31751f7bb602b01bf00077ebd362d" title="Close a warpcore socket. " alt="" coords="1030,968,1101,995"/>
+<area shape="rect" id="node40" href="$backend_8h.html#a10352237f3cab978ad3dbe7f25acb8cc" title="The netmap backend performs no operation here. " alt="" coords="1179,1019,1288,1045"/>
+<area shape="rect" id="node43" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="871,259,947,285"/>
+<area shape="rect" id="node44" href="$ip_8c.html#a83c3b73e5ae32815530bdb103a0a59ee" title="Receive processing for an IPv4 packet. " alt="" coords="884,208,935,235"/>
+<area shape="rect" id="node45" href="$arp_8c.html#adfea277e13c34a07fc16cb4455988d71" title="Receive an ARP packet, and react to it. " alt="" coords="880,309,939,336"/>
+<area shape="rect" id="node49" href="$warpcore_8h.html#a726b06c06493678f7f48c889bbcd30a5" title="Shut a warpcore engine down cleanly. " alt="" coords="867,1019,951,1045"/>
+<area shape="rect" id="node50" href="$warpcore_8c.html#a26c31751f7bb602b01bf00077ebd362d" title="Close a warpcore socket. " alt="" coords="1030,1019,1101,1045"/>
+</map>

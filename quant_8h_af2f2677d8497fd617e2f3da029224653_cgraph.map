@@ -1,51 +1,51 @@
 <map id="q_connect" name="q_connect">
-<area shape="rect" id="node2" href="$conn_8c.html#a51850847894ca6bd5bd7a3f06fc9f1ff" title="new_conn" alt="" coords="321,522,402,549"/>
-<area shape="rect" id="node6" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="697,70,780,97"/>
-<area shape="rect" id="node24" href="$stream_8c.html#a300bcafbad60488eb0b6b0560eb1b645" title="new_stream" alt="" coords="519,1151,612,1178"/>
-<area shape="rect" id="node27" href="$tls_8c.html#a00ca93e0c4b1bdde1a2e97a4ef13373e" title="init_tls" alt="" coords="157,801,217,827"/>
-<area shape="rect" id="node38" href="$tls_8c.html#a873296f812267d1c3475457cacc3c815" title="init_tp" alt="" coords="158,1079,215,1106"/>
-<area shape="rect" id="node41" href="$warpcore_8h.html#a7431226c76bc23225482a4ced534db6d" title="Return the total payload length of w_iov tail queue c. " alt="" coords="136,1206,237,1233"/>
-<area shape="rect" id="node42" href="$warpcore_8h.html#ab31d23fb4fa64de58aef6c688ea6563a" title="Connect a bound socket to a remote IP address and port. " alt="" coords="144,1155,229,1182"/>
-<area shape="rect" id="node45" href="$tls_8c.html#a4e66d17ae7e8756388309b9e193a9543" title="tls_io" alt="" coords="335,1357,388,1383"/>
-<area shape="rect" id="node50" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="522,1557,609,1583"/>
-<area shape="rect" id="node3" href="$openssl_8h.html#a2514cd53d441b44478641a1643af622d" title="ptls_openssl_random\l_bytes" alt="" coords="493,780,638,821"/>
-<area shape="rect" id="node4" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="705,846,772,873"/>
-<area shape="rect" id="node5" href="$conn_8c.html#ae5beee50c7414b14d1efb1e3e8ebe1ee" title="add_dcid" alt="" coords="528,897,603,923"/>
-<area shape="rect" id="node7" href="$conn_8c.html#ac22c90477f7d4e5f8e96e3d536b58afb" title="idle_alarm" alt="" coords="525,222,606,249"/>
-<area shape="rect" id="node8" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="517,121,613,147"/>
-<area shape="rect" id="node9" href="$conn_8c.html#a2621abf65fb184088e514b520b80c334" title="key_flip" alt="" coords="532,171,599,198"/>
-<area shape="rect" id="node10" href="$conn_8c.html#a4ba022a58c8ecd77d29357f7d1c30520" title="ack_alarm" alt="" coords="524,70,607,97"/>
-<area shape="rect" id="node11" href="$pn_8c.html#a08111eb107b4ea7f913acc44b761bda0" title="init_pn" alt="" coords="535,273,595,299"/>
-<area shape="rect" id="node12" href="$recovery_8c.html#a60784c1a11f52e1b091994e1cfcc4609" title="init_rec" alt="" coords="533,323,597,350"/>
-<area shape="rect" id="node13" href="$conn_8c.html#ae7ad1167799a2920119487df92e81b85" title="tx_w" alt="" coords="540,374,591,401"/>
-<area shape="rect" id="node14" href="$warpcore_8h.html#a69efb41e98d6e0b055364a6991d415a9" title="Get the socket bound to the &lt;sport, dport&gt; pair. " alt="" coords="519,425,611,451"/>
-<area shape="rect" id="node15" href="$warpcore_8h.html#a8f5c782e319686927159612d3f455b7b" title="Bind a w_sock to the given local UDP port number. " alt="" coords="534,947,597,974"/>
-<area shape="rect" id="node17" href="$conn_8c.html#a69924c834acb11f94887f781e4241397" title="rx" alt="" coords="546,998,585,1025"/>
-<area shape="rect" id="node19" href="$warpcore_8h.html#aaf46056f39cb452d908ddac8cf6e57c5" title="Return the file descriptor associated with a w_sock. " alt="" coords="540,526,591,553"/>
-<area shape="rect" id="node20" href="$warpcore_8h.html#a850fab047a974d4b7abfd68ceb87665d" title="Return the local port a w_sock is bound to. " alt="" coords="519,577,612,603"/>
-<area shape="rect" id="node21" href="$conn_8c.html#a8b3f561241f82fe8b840ed7655d13ffe" title="update_conn_conf" alt="" coords="501,627,629,654"/>
-<area shape="rect" id="node22" href="$conn_8c.html#ae0f78c7a62de17ad9b4ac4c11dde7c85" title="conns_by_ipnp_ins" alt="" coords="499,678,632,705"/>
-<area shape="rect" id="node23" href="$conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026" title="add_scid" alt="" coords="528,846,603,873"/>
-<area shape="rect" id="node26" href="$stream_8h.html#a012bc210254cd3269ef892fcbd91e146" title="crpt_strm_id" alt="" coords="518,729,613,755"/>
-<area shape="rect" id="node16" href="$warpcore_8c.html#ae6cde508226de2f701d477f4f6a5e700" title="ins_sock" alt="" coords="701,1025,776,1051"/>
-<area shape="rect" id="node18" href="$warpcore_8h.html#a5ac8908312be71047433d7e51059e240" title="Return warpcore engine serving w_sock s. " alt="" coords="700,1165,777,1191"/>
-<area shape="rect" id="node25" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="693,1241,784,1267"/>
-<area shape="rect" id="node28" href="$tls_8c.html#a04c7d8686952c02e95385a6e3fcab5a7" title="free_tls" alt="" coords="329,674,394,701"/>
-<area shape="rect" id="node29" href="$picotls_8h.html#aa142dbaa5d99942c25847febf894a1f4" title="create a object to handle new TLS connection. " alt="" coords="324,725,399,751"/>
-<area shape="rect" id="node30" href="$picotls_8h.html#aefec8568e3aed02938b396752d54d5e5" title="returns a pointer to user data pointer (client is reponsible for freeing the associated data prior to..." alt="" coords="300,775,423,802"/>
-<area shape="rect" id="node31" href="$picotls_8h.html#abc4124b1bc5642960e94ebc06686a614" title="sets the server&#45;name associated to the TLS connection. " alt="" coords="286,978,437,1005"/>
-<area shape="rect" id="node32" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="538,1049,593,1075"/>
-<area shape="rect" id="node33" href="$tls_8c.html#a5092fa492120deb7469e65bc9f5df3f8" title="filter_tp" alt="" coords="329,826,394,853"/>
-<area shape="rect" id="node34" href="$tls_8c.html#a878d1b8325596d2943bb662375ad2e72" title="chk_tp" alt="" coords="331,573,392,599"/>
-<area shape="rect" id="node36" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="309,877,414,903"/>
-<area shape="rect" id="node37" href="$tls_8c.html#a705b76a676f449cbc37b9d955a2e0d5c" title="init_prot" alt="" coords="327,623,395,650"/>
-<area shape="rect" id="node35" href="$conn_8c.html#a02d7b0c5a072e1b673358b52ac71f160" title="err_close" alt="" coords="528,1202,603,1229"/>
-<area shape="rect" id="node39" href="$conn_8h.html#a3b1788e29ec153bfcb2b7edc34c488a6" title="is_force_vneg_vers" alt="" coords="294,1079,429,1106"/>
-<area shape="rect" id="node40" href="$warpcore_8h.html#a280e62a55aab21fe0b23a7e9ade1a588" title="Return MTU of w_engine w. " alt="" coords="331,1029,392,1055"/>
-<area shape="rect" id="node43" href="$warpcore_8c.html#aaba6abd34e39730ddd4f560b090c6b5f" title="rem_sock" alt="" coords="322,1181,401,1207"/>
-<area shape="rect" id="node44" href="$backend_8h.html#af5df52522d52bfed04aa270094deaa78" title="Connect the given w_sock, using the netmap backend. " alt="" coords="299,1231,423,1258"/>
-<area shape="rect" id="node46" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="512,1405,619,1431"/>
-<area shape="rect" id="node47" href="$picotls_8h.html#aaf66968e2ad59ebf0f264cbb9d2f84f9" title="Runs the handshake by dealing directly with handshake messages. " alt="" coords="491,1455,639,1482"/>
-<area shape="rect" id="node48" href="$picotls_8h.html#a48da6806321331d00677c66444d7143d" title="returns if a PSK (or PSK&#45;DHE) handshake was performed " alt="" coords="486,1506,645,1533"/>
-<area shape="rect" id="node49" href="$quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="530,1303,601,1330"/>
+<area shape="rect" id="node2" href="$conn_8c.html#a51850847894ca6bd5bd7a3f06fc9f1ff" title="new_conn" alt="" coords="321,560,402,587"/>
+<area shape="rect" id="node6" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="697,781,780,808"/>
+<area shape="rect" id="node24" href="$stream_8c.html#a300bcafbad60488eb0b6b0560eb1b645" title="new_stream" alt="" coords="519,1243,612,1269"/>
+<area shape="rect" id="node27" href="$tls_8c.html#a00ca93e0c4b1bdde1a2e97a4ef13373e" title="init_tls" alt="" coords="157,927,217,953"/>
+<area shape="rect" id="node38" href="$tls_8c.html#a873296f812267d1c3475457cacc3c815" title="init_tp" alt="" coords="158,1307,215,1333"/>
+<area shape="rect" id="node41" href="$warpcore_8h.html#acec933a0dba371ff10bd35397aed87e9" title="Return the total payload length of w_iov tail queue c. " alt="" coords="136,1357,237,1384"/>
+<area shape="rect" id="node42" href="$warpcore_8h.html#aade6adf37002553de6cca667cacd5138" title="Connect a bound socket to a remote IP address and port. " alt="" coords="144,1231,229,1257"/>
+<area shape="rect" id="node45" href="$tls_8c.html#a4e66d17ae7e8756388309b9e193a9543" title="tls_io" alt="" coords="335,1483,388,1509"/>
+<area shape="rect" id="node50" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="522,1648,609,1675"/>
+<area shape="rect" id="node3" href="$openssl_8h.html#a2514cd53d441b44478641a1643af622d" title="ptls_openssl_random\l_bytes" alt="" coords="493,411,638,453"/>
+<area shape="rect" id="node4" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="705,477,772,504"/>
+<area shape="rect" id="node5" href="$conn_8c.html#ae5beee50c7414b14d1efb1e3e8ebe1ee" title="add_dcid" alt="" coords="528,832,603,859"/>
+<area shape="rect" id="node7" href="$conn_8c.html#ac22c90477f7d4e5f8e96e3d536b58afb" title="idle_alarm" alt="" coords="525,528,606,555"/>
+<area shape="rect" id="node8" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="517,579,613,605"/>
+<area shape="rect" id="node9" href="$conn_8c.html#a2621abf65fb184088e514b520b80c334" title="key_flip" alt="" coords="532,629,599,656"/>
+<area shape="rect" id="node10" href="$conn_8c.html#a4ba022a58c8ecd77d29357f7d1c30520" title="ack_alarm" alt="" coords="524,680,607,707"/>
+<area shape="rect" id="node11" href="$pn_8c.html#a08111eb107b4ea7f913acc44b761bda0" title="init_pn" alt="" coords="535,731,595,757"/>
+<area shape="rect" id="node12" href="$recovery_8c.html#a60784c1a11f52e1b091994e1cfcc4609" title="init_rec" alt="" coords="533,5,597,32"/>
+<area shape="rect" id="node13" href="$conn_8c.html#ae7ad1167799a2920119487df92e81b85" title="tx_w" alt="" coords="540,56,591,83"/>
+<area shape="rect" id="node14" href="$warpcore_8h.html#aff4f3655674a1befac066bd33657a8c0" title="Get the socket bound to the given four&#45;tuple &lt;source IP, source port, destination IP..." alt="" coords="519,1035,611,1061"/>
+<area shape="rect" id="node15" href="$warpcore_8h.html#a8f5c782e319686927159612d3f455b7b" title="Bind a w_sock to the given local UDP port number. " alt="" coords="534,883,597,909"/>
+<area shape="rect" id="node17" href="$conn_8c.html#a69924c834acb11f94887f781e4241397" title="rx" alt="" coords="546,933,585,960"/>
+<area shape="rect" id="node19" href="$warpcore_8h.html#aaf46056f39cb452d908ddac8cf6e57c5" title="Return the file descriptor associated with a w_sock. " alt="" coords="540,107,591,133"/>
+<area shape="rect" id="node20" href="$warpcore_8h.html#a0d68d8dde6e6c8f97f250c076c2e6b9a" title="Return the local port a w_sock is bound to. " alt="" coords="519,157,612,184"/>
+<area shape="rect" id="node21" href="$conn_8c.html#a8b3f561241f82fe8b840ed7655d13ffe" title="update_conn_conf" alt="" coords="501,208,629,235"/>
+<area shape="rect" id="node22" href="$conn_8c.html#ae0f78c7a62de17ad9b4ac4c11dde7c85" title="conns_by_ipnp_ins" alt="" coords="499,259,632,285"/>
+<area shape="rect" id="node23" href="$conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026" title="add_scid" alt="" coords="528,477,603,504"/>
+<area shape="rect" id="node26" href="$stream_8h.html#a012bc210254cd3269ef892fcbd91e146" title="crpt_strm_id" alt="" coords="518,360,613,387"/>
+<area shape="rect" id="node16" href="$warpcore_8c.html#a71cc05810f16495f5f6e1889c96e5b6c" title="ins_sock" alt="" coords="701,1053,776,1080"/>
+<area shape="rect" id="node18" href="$warpcore_8h.html#a5ac8908312be71047433d7e51059e240" title="Return warpcore engine serving w_sock s. " alt="" coords="700,1224,777,1251"/>
+<area shape="rect" id="node25" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="693,1376,784,1403"/>
+<area shape="rect" id="node28" href="$tls_8c.html#a04c7d8686952c02e95385a6e3fcab5a7" title="free_tls" alt="" coords="329,800,394,827"/>
+<area shape="rect" id="node29" href="$picotls_8h.html#aa142dbaa5d99942c25847febf894a1f4" title="create a object to handle new TLS connection. " alt="" coords="324,851,399,877"/>
+<area shape="rect" id="node30" href="$picotls_8h.html#aefec8568e3aed02938b396752d54d5e5" title="returns a pointer to user data pointer (client is reponsible for freeing the associated data prior to..." alt="" coords="300,901,423,928"/>
+<area shape="rect" id="node31" href="$picotls_8h.html#abc4124b1bc5642960e94ebc06686a614" title="sets the server&#45;name associated to the TLS connection. " alt="" coords="286,1104,437,1131"/>
+<area shape="rect" id="node32" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="538,1085,593,1112"/>
+<area shape="rect" id="node33" href="$tls_8c.html#a5092fa492120deb7469e65bc9f5df3f8" title="filter_tp" alt="" coords="329,952,394,979"/>
+<area shape="rect" id="node34" href="$tls_8c.html#a878d1b8325596d2943bb662375ad2e72" title="chk_tp" alt="" coords="331,699,392,725"/>
+<area shape="rect" id="node36" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="309,1003,414,1029"/>
+<area shape="rect" id="node37" href="$tls_8c.html#a705b76a676f449cbc37b9d955a2e0d5c" title="init_prot" alt="" coords="327,749,395,776"/>
+<area shape="rect" id="node35" href="$conn_8c.html#a02d7b0c5a072e1b673358b52ac71f160" title="err_close" alt="" coords="528,1293,603,1320"/>
+<area shape="rect" id="node39" href="$conn_8h.html#a3b1788e29ec153bfcb2b7edc34c488a6" title="is_force_vneg_vers" alt="" coords="294,1307,429,1333"/>
+<area shape="rect" id="node40" href="$warpcore_8h.html#a280e62a55aab21fe0b23a7e9ade1a588" title="Return MTU of w_engine w. " alt="" coords="331,1357,392,1384"/>
+<area shape="rect" id="node43" href="$warpcore_8c.html#a811255f1e117572d31fd94afa11718a4" title="rem_sock" alt="" coords="322,1256,401,1283"/>
+<area shape="rect" id="node44" href="$backend_8h.html#a0de137fe30801a3c8798185082b134be" title="Connect the given w_sock, using the netmap backend. " alt="" coords="299,1155,423,1181"/>
+<area shape="rect" id="node46" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="512,1395,619,1421"/>
+<area shape="rect" id="node47" href="$picotls_8h.html#aaf66968e2ad59ebf0f264cbb9d2f84f9" title="Runs the handshake by dealing directly with handshake messages. " alt="" coords="491,1445,639,1472"/>
+<area shape="rect" id="node48" href="$picotls_8h.html#a48da6806321331d00677c66444d7143d" title="returns if a PSK (or PSK&#45;DHE) handshake was performed " alt="" coords="486,1496,645,1523"/>
+<area shape="rect" id="node49" href="$quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="530,1547,601,1573"/>
 </map>

@@ -1,51 +1,51 @@
 <map id="test_picotls_esni" name="test_picotls_esni">
 <area shape="rect" id="node2" href="$lib_2picotls_8c.html#add70aeed61db77e5f28c6970f1463681" title="ptls_esni_init_context" alt="" coords="174,88,322,115"/>
-<area shape="rect" id="node5" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="851,531,957,557"/>
-<area shape="rect" id="node6" href="$picotest_8c.html#a1597378c4dd23f5925c808318a585071" title="subtest" alt="" coords="651,804,717,831"/>
-<area shape="rect" id="node11" href="$t_2picotls_8c.html#a9068a7a6cd1e3c4658ca19cb7aa420a1" title="test_picotls" alt="" coords="203,1124,293,1151"/>
+<area shape="rect" id="node5" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="846,255,951,281"/>
+<area shape="rect" id="node6" href="$picotest_8c.html#a1597378c4dd23f5925c808318a585071" title="subtest" alt="" coords="649,1212,714,1239"/>
+<area shape="rect" id="node11" href="$t_2picotls_8c.html#a9068a7a6cd1e3c4658ca19cb7aa420a1" title="test_picotls" alt="" coords="203,781,293,808"/>
 <area shape="rect" id="node3" href="$lib_2picotls_8c.html#a2d02d6f477c8fa36dfe14c425c884762" title="ptls_decode16" alt="" coords="405,44,512,71"/>
-<area shape="rect" id="node4" href="$lib_2picotls_8c.html#a88911502068ceae20b044ee0ace4db11" title="ntoh16" alt="" coords="653,31,715,57"/>
-<area shape="rect" id="node7" href="$picotest_8c.html#a4502a32a6f7952faad96b8e5c758a7f7" title="note" alt="" coords="881,855,927,881"/>
-<area shape="rect" id="node9" href="$picotest_8c.html#aaa1e239d4270f8486e3ebf26785403ce" title="done_testing" alt="" coords="856,753,952,780"/>
-<area shape="rect" id="node10" href="$picotest_8c.html#ae20801e1b2d9a67918ed1e7c6d847d16" title="_ok" alt="" coords="883,804,925,831"/>
-<area shape="rect" id="node8" href="$picotest_8c.html#a119f8de9482f0ea3ee07d84d8b2d51bf" title="indent" alt="" coords="1035,804,1093,831"/>
-<area shape="rect" id="node12" href="$t_2picotls_8c.html#a3644899ff187840522154be4819669f7" title="test_is_ipaddr" alt="" coords="407,953,510,980"/>
-<area shape="rect" id="node14" href="$t_2picotls_8c.html#a2800909307fbfa8379348901dba33425" title="test_sha256" alt="" coords="412,1225,505,1252"/>
-<area shape="rect" id="node18" href="$t_2picotls_8c.html#af6cc8bbba36b6bd41e58f8383d09b7bc" title="test_sha384" alt="" coords="412,1276,505,1303"/>
-<area shape="rect" id="node19" href="$t_2picotls_8c.html#ace63f75583aef8e2fd34e85d2b7f8c6d" title="test_hmac_sha256" alt="" coords="393,1327,525,1353"/>
-<area shape="rect" id="node22" href="$t_2picotls_8c.html#a62599665cafd0ed5a07622bd22de92bb" title="test_hkdf" alt="" coords="421,1073,497,1100"/>
-<area shape="rect" id="node26" href="$t_2picotls_8c.html#a9b6c1f08af926c74d096daca3d8d2938" title="test_aes128gcm" alt="" coords="399,1428,518,1455"/>
-<area shape="rect" id="node29" href="$t_2picotls_8c.html#a32a55a75eec7ababffc7a7042a543b23" title="test_aes256gcm" alt="" coords="399,1479,518,1505"/>
-<area shape="rect" id="node30" href="$t_2picotls_8c.html#ac1dc831535859fdf5bc0549c2650e3b2" title="test_chacha20poly1305" alt="" coords="379,1377,538,1404"/>
-<area shape="rect" id="node31" href="$t_2picotls_8c.html#acadd1f0c7f087063d94418a75523c3a4" title="test_aes128ctr" alt="" coords="405,1175,513,1201"/>
-<area shape="rect" id="node33" href="$t_2picotls_8c.html#aa4460d93cc99e531331bce8717484484" title="test_chacha20" alt="" coords="405,1124,512,1151"/>
-<area shape="rect" id="node34" href="$t_2picotls_8c.html#a1d4a2a2af20e72986b84cc4a6ab3dd46" title="test_base64_decode" alt="" coords="613,81,755,108"/>
-<area shape="rect" id="node39" href="$t_2picotls_8c.html#a4ec235ccaca9e039950b7e4b9d105c20" title="test_fragmented_message" alt="" coords="371,271,547,297"/>
-<area shape="rect" id="node42" href="$t_2picotls_8c.html#a350e958b432465d0b266c4e42e128fbb" title="test_all_handshakes" alt="" coords="388,611,529,637"/>
-<area shape="rect" id="node13" href="$lib_2picotls_8c.html#a55b4668776166a96a7acbfe0c90d1ca8" title="checks if given name looks like an IP address " alt="" coords="613,855,755,897"/>
-<area shape="rect" id="node15" href="$t_2picotls_8c.html#a4eb4b969af832cf9bd6dd5b39640396a" title="test_hash" alt="" coords="645,1225,723,1252"/>
-<area shape="rect" id="node17" href="$t_2picotls_8c.html#ad090c5912220a816e0bbcbef403ac286" title="find_cipher" alt="" coords="641,1276,727,1303"/>
-<area shape="rect" id="node16" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="866,1200,942,1227"/>
-<area shape="rect" id="node20" href="$lib_2picotls_8c.html#a5db4538399b7412c4dc994ed9041e952" title="ptls_hmac_create" alt="" coords="841,1023,967,1049"/>
-<area shape="rect" id="node21" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="877,1479,931,1505"/>
-<area shape="rect" id="node23" href="$sl-cifra_8c.html#a36e4a53eb1a8d687f27c22ca15909f56" title="sha256" alt="" coords="652,1124,716,1151"/>
-<area shape="rect" id="node24" href="$lib_2picotls_8c.html#ab1826e739c652ff34dc3c7f1f6642cf8" title="ptls_hkdf_extract" alt="" coords="623,972,745,999"/>
-<area shape="rect" id="node25" href="$lib_2picotls_8c.html#ad066e549d3eadb8071666a295b3d286d" title="ptls_hkdf_expand" alt="" coords="622,1023,746,1049"/>
-<area shape="rect" id="node27" href="$t_2picotls_8c.html#a4b2b1e756a030b8fe07e9d6b0091bc7f" title="test_ciphersuite" alt="" coords="627,1529,741,1556"/>
-<area shape="rect" id="node28" href="$t_2picotls_8c.html#a220b3da78a29828defb5304b39586758" title="test_aad_ciphersuite" alt="" coords="613,1479,755,1505"/>
-<area shape="rect" id="node32" href="$t_2picotls_8c.html#aa7687b9082fff4f2d4b15c0c5358ea63" title="test_ctr" alt="" coords="651,1175,717,1201"/>
-<area shape="rect" id="node35" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="851,157,957,184"/>
-<area shape="rect" id="node36" href="$pembase64_8h.html#a3a529c67f1cd8bc7ab7099263b56c852" title="ptls_base64_decode_init" alt="" coords="821,56,987,83"/>
-<area shape="rect" id="node37" href="$pembase64_8h.html#a9af5cfce446a66ae20021eea52fa8c16" title="ptls_base64_decode" alt="" coords="833,5,975,32"/>
-<area shape="rect" id="node38" href="$picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="837,107,971,133"/>
-<area shape="rect" id="node40" href="$lib_2picotls_8c.html#a8d6dc376d25587767e241994bba77d58" title="handle_handshake_record" alt="" coords="597,132,771,159"/>
-<area shape="rect" id="node41" href="$t_2picotls_8c.html#a33c8a8ffe27fbb7a825f392671ae69f3" title="test_fragmented_message\l_record" alt="" coords="596,234,772,275"/>
-<area shape="rect" id="node43" href="$t_2picotls_8c.html#a92c4cf2f6955efa70d8a22e1afe8f735" title="sign_certificate" alt="" coords="629,535,739,561"/>
-<area shape="rect" id="node44" href="$t_2picotls_8c.html#a56a8f531d5685707b2d2b9d17d91863d" title="second_sign_certificate" alt="" coords="605,585,763,612"/>
-<area shape="rect" id="node45" href="$t_2picotls_8c.html#a003e4ada4d81c4100d5e78c4d4e0d642" title="test_full_handshake" alt="" coords="615,636,753,663"/>
-<area shape="rect" id="node46" href="$t_2picotls_8c.html#abf57285e78accc337fe45fd7b55991bb" title="test_full_handshake\l_with_client_authentication" alt="" coords="595,687,773,729"/>
-<area shape="rect" id="node47" href="$t_2picotls_8c.html#ad207e5f0dc25d8fad10b65aaafac698d" title="test_hrr_handshake" alt="" coords="616,753,752,780"/>
-<area shape="rect" id="node48" href="$t_2picotls_8c.html#afa61961c90229614b7e8cd19d15af1e0" title="test_hrr_stateless\l_handshake" alt="" coords="621,351,747,393"/>
-<area shape="rect" id="node49" href="$t_2picotls_8c.html#aa4e2b39134de6bae9a250dfe73685588" title="test_resumption" alt="" coords="627,417,741,444"/>
-<area shape="rect" id="node50" href="$t_2picotls_8c.html#ae4f9dd2c8f6b7a0ec78fec3a3a5b3f5a" title="test_resumption_different\l_preferred_key_share" alt="" coords="599,469,769,510"/>
+<area shape="rect" id="node4" href="$lib_2picotls_8c.html#a88911502068ceae20b044ee0ace4db11" title="ntoh16" alt="" coords="651,31,712,57"/>
+<area shape="rect" id="node7" href="$picotest_8c.html#a4502a32a6f7952faad96b8e5c758a7f7" title="note" alt="" coords="875,1161,922,1188"/>
+<area shape="rect" id="node9" href="$picotest_8c.html#aaa1e239d4270f8486e3ebf26785403ce" title="done_testing" alt="" coords="851,1212,947,1239"/>
+<area shape="rect" id="node10" href="$picotest_8c.html#ae20801e1b2d9a67918ed1e7c6d847d16" title="_ok" alt="" coords="877,1263,920,1289"/>
+<area shape="rect" id="node8" href="$picotest_8c.html#a119f8de9482f0ea3ee07d84d8b2d51bf" title="indent" alt="" coords="1030,1212,1087,1239"/>
+<area shape="rect" id="node12" href="$t_2picotls_8c.html#a3644899ff187840522154be4819669f7" title="test_is_ipaddr" alt="" coords="407,477,510,504"/>
+<area shape="rect" id="node14" href="$t_2picotls_8c.html#a2800909307fbfa8379348901dba33425" title="test_sha256" alt="" coords="412,655,505,681"/>
+<area shape="rect" id="node18" href="$t_2picotls_8c.html#af6cc8bbba36b6bd41e58f8383d09b7bc" title="test_sha384" alt="" coords="412,705,505,732"/>
+<area shape="rect" id="node19" href="$t_2picotls_8c.html#ace63f75583aef8e2fd34e85d2b7f8c6d" title="test_hmac_sha256" alt="" coords="393,604,525,631"/>
+<area shape="rect" id="node22" href="$t_2picotls_8c.html#a62599665cafd0ed5a07622bd22de92bb" title="test_hkdf" alt="" coords="421,528,497,555"/>
+<area shape="rect" id="node26" href="$t_2picotls_8c.html#a9b6c1f08af926c74d096daca3d8d2938" title="test_aes128gcm" alt="" coords="399,857,518,884"/>
+<area shape="rect" id="node29" href="$t_2picotls_8c.html#a32a55a75eec7ababffc7a7042a543b23" title="test_aes256gcm" alt="" coords="399,756,518,783"/>
+<area shape="rect" id="node30" href="$t_2picotls_8c.html#ac1dc831535859fdf5bc0549c2650e3b2" title="test_chacha20poly1305" alt="" coords="379,807,538,833"/>
+<area shape="rect" id="node31" href="$t_2picotls_8c.html#afa530bc514104c9f35a938b3eb4fd056" title="test_aes128ecb" alt="" coords="401,959,516,985"/>
+<area shape="rect" id="node36" href="$t_2picotls_8c.html#a9983d9c7c6651ade4e1d4b08a7fa4052" title="test_aes256ecb" alt="" coords="401,908,516,935"/>
+<area shape="rect" id="node37" href="$t_2picotls_8c.html#acadd1f0c7f087063d94418a75523c3a4" title="test_aes128ctr" alt="" coords="405,1009,513,1036"/>
+<area shape="rect" id="node40" href="$t_2picotls_8c.html#aa4460d93cc99e531331bce8717484484" title="test_chacha20" alt="" coords="405,1060,512,1087"/>
+<area shape="rect" id="node41" href="$t_2picotls_8c.html#a93b50785f56c3d223d01b3903b00701d" title="test_ffx" alt="" coords="648,1060,715,1087"/>
+<area shape="rect" id="node43" href="$t_2picotls_8c.html#a1d4a2a2af20e72986b84cc4a6ab3dd46" title="test_base64_decode" alt="" coords="610,81,753,108"/>
+<area shape="rect" id="node48" href="$t_2picotls_8c.html#a4ec235ccaca9e039950b7e4b9d105c20" title="test_fragmented_message" alt="" coords="371,427,547,453"/>
+<area shape="rect" id="node50" href="$t_2picotls_8c.html#a350e958b432465d0b266c4e42e128fbb" title="test_all_handshakes" alt="" coords="388,1161,529,1188"/>
+<area shape="rect" id="node13" href="$lib_2picotls_8c.html#a55b4668776166a96a7acbfe0c90d1ca8" title="checks if given name looks like an IP address " alt="" coords="610,234,753,275"/>
+<area shape="rect" id="node15" href="$t_2picotls_8c.html#a4eb4b969af832cf9bd6dd5b39640396a" title="test_hash" alt="" coords="642,756,721,783"/>
+<area shape="rect" id="node17" href="$t_2picotls_8c.html#ad090c5912220a816e0bbcbef403ac286" title="find_cipher" alt="" coords="639,807,724,833"/>
+<area shape="rect" id="node16" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="861,781,937,808"/>
+<area shape="rect" id="node20" href="$lib_2picotls_8c.html#a5db4538399b7412c4dc994ed9041e952" title="ptls_hmac_create" alt="" coords="836,401,961,428"/>
+<area shape="rect" id="node21" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="871,857,926,884"/>
+<area shape="rect" id="node23" href="$sl-cifra_8c.html#a36e4a53eb1a8d687f27c22ca15909f56" title="sha256" alt="" coords="649,503,713,529"/>
+<area shape="rect" id="node24" href="$lib_2picotls_8c.html#ab1826e739c652ff34dc3c7f1f6642cf8" title="ptls_hkdf_extract" alt="" coords="620,351,743,377"/>
+<area shape="rect" id="node25" href="$lib_2picotls_8c.html#ad066e549d3eadb8071666a295b3d286d" title="ptls_hkdf_expand" alt="" coords="619,401,743,428"/>
+<area shape="rect" id="node27" href="$t_2picotls_8c.html#a4b2b1e756a030b8fe07e9d6b0091bc7f" title="test_ciphersuite" alt="" coords="624,857,739,884"/>
+<area shape="rect" id="node28" href="$t_2picotls_8c.html#a220b3da78a29828defb5304b39586758" title="test_aad_ciphersuite" alt="" coords="610,908,753,935"/>
+<area shape="rect" id="node32" href="$t_2picotls_8c.html#a0650ece8aa807abe4bf53046e0c22e51" title="test_ecb" alt="" coords="645,959,717,985"/>
+<area shape="rect" id="node33" href="$lib_2picotls_8c.html#a229de01597e54002f209266c7b4055aa" title="instantiates a symmetric cipher " alt="" coords="841,959,957,985"/>
+<area shape="rect" id="node34" href="$picotls_8h.html#a2d3ae9c9f2704efb7abae1637cb97241" title="encrypts given text " alt="" coords="831,1009,966,1036"/>
+<area shape="rect" id="node35" href="$lib_2picotls_8c.html#ae57011fb3506f15237ead4f3146acc01" title="destroys a symmetric cipher " alt="" coords="841,908,956,935"/>
+<area shape="rect" id="node38" href="$t_2picotls_8c.html#aa7687b9082fff4f2d4b15c0c5358ea63" title="test_ctr" alt="" coords="648,1009,715,1036"/>
+<area shape="rect" id="node39" href="$picotls_8h.html#aa77dcaa131915406a4a03be70e268ff0" title="initializes the IV; this function must be called prior to calling ptls_cipher_encrypt ..." alt="" coords="844,1060,953,1087"/>
+<area shape="rect" id="node42" href="$ffx_8h.html#a4f5bbbcbe52d24ab8651dfc554d7d54f" title="ptls_ffx_new" alt="" coords="851,1111,947,1137"/>
+<area shape="rect" id="node44" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="845,107,952,133"/>
+<area shape="rect" id="node45" href="$pembase64_8h.html#a3a529c67f1cd8bc7ab7099263b56c852" title="ptls_base64_decode_init" alt="" coords="816,5,981,32"/>
+<area shape="rect" id="node46" href="$pembase64_8h.html#a9af5cfce446a66ae20021eea52fa8c16" title="ptls_base64_decode" alt="" coords="828,56,969,83"/>
+<area shape="rect" id="node47" href="$picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="831,157,966,184"/>
+<area shape="rect" id="node49" href="$lib_2picotls_8c.html#a8d6dc376d25587767e241994bba77d58" title="handle_handshake_record" alt="" coords="595,132,768,159"/>
 </map>

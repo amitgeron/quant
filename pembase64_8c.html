@@ -132,6 +132,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a7e21e4ccfeae1ad622cc1c15051ed14c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pembase64_8c.html#a7e21e4ccfeae1ad622cc1c15051ed14c">ptls_load_pem_objects</a> (char const *pem_fname, const char *label, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> *list, size_t list_max, size_t *nb_objects)</td></tr>
 <tr class="separator:a7e21e4ccfeae1ad622cc1c15051ed14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81fafd2f07929ad23e495dc140b61ea2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pembase64_8c.html#a81fafd2f07929ad23e495dc140b61ea2">ptls_load_certificates</a> (<a class="el" href="picotls_8h.html#a7b1de04c9108a605591e1562a2418b86">ptls_context_t</a> *<a class="el" href="test_8h.html#a548aff34430d3b5d6d5ba393b8fdda8f">ctx</a>, char const *cert_pem_file)</td></tr>
+<tr class="memdesc:a81fafd2f07929ad23e495dc140b61ea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads a certificate chain to <a class="el" href="structst__ptls__context__t.html#a63616c73b5f48fdc16e74098f9a88189" title="list of certificates ">ptls_context_t::certificates</a>.  <a href="#a81fafd2f07929ad23e495dc140b61ea2">More...</a><br/></td></tr>
 <tr class="separator:a81fafd2f07929ad23e495dc140b61ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -425,6 +426,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>loads a certificate chain to <a class="el" href="structst__ptls__context__t.html#a63616c73b5f48fdc16e74098f9a88189" title="list of certificates ">ptls_context_t::certificates</a>. </p>
+<p><code>certificate.list</code> and each element of the list is allocated by malloc. It is the responsibility of the user to free them when discarding the TLS context. </p>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -554,7 +558,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 31 2019 23:08:42 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 13 2019 13:06:18 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

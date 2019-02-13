@@ -352,8 +352,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keyword">static</span> <span class="keywordtype">void</span> ke_op_##_type(<a class="code" href="structke1__s.html">ke1_t</a> *p, <a class="code" href="structke1__s.html">ke1_t</a> *q) { \</div>
-<div class="line">        if (p-&gt;<a class="code" href="structke1__s.html#a11ec90460a0485f12a90ff9986d0902d">vtype</a> == <a class="code" href="klib_2kexpr_8h.html#ad03129640cf395ff162b65fe14e864e1">KEV_STR</a> &amp;&amp; q-&gt;<a class="code" href="structke1__s.html#a11ec90460a0485f12a90ff9986d0902d">vtype</a> == <a class="code" href="klib_2kexpr_8h.html#ad03129640cf395ff162b65fe14e864e1">KEV_STR</a>) p-&gt;<a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a> = (strcmp(p-&gt;s, q-&gt;s) _op 0); \</div>
-<div class="line">        else p-&gt;<a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a> = p-&gt;vtype == <a class="code" href="klib_2kexpr_8h.html#afa3b1513b63f19fb8cc200e6961443ac">KEV_REAL</a> || q-&gt;vtype == <a class="code" href="klib_2kexpr_8h.html#afa3b1513b63f19fb8cc200e6961443ac">KEV_REAL</a>? (p-&gt;<a class="code" href="test__queue_8c.html#a5391b7f1199d134d62d41f3734ad4322">r</a> _op q-&gt;<a class="code" href="test__queue_8c.html#a5391b7f1199d134d62d41f3734ad4322">r</a>) : (p-&gt;<a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a> _op q-&gt;<a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>); \</div>
+<div class="line">        if (p-&gt;<a class="code" href="structke1__s.html#a11ec90460a0485f12a90ff9986d0902d">vtype</a> == <a class="code" href="klib_2kexpr_8h.html#ad03129640cf395ff162b65fe14e864e1">KEV_STR</a> &amp;&amp; q-&gt;<a class="code" href="structke1__s.html#a11ec90460a0485f12a90ff9986d0902d">vtype</a> == <a class="code" href="klib_2kexpr_8h.html#ad03129640cf395ff162b65fe14e864e1">KEV_STR</a>) p-&gt;i = (strcmp(p-&gt;s, q-&gt;s) _op 0); \</div>
+<div class="line">        else p-&gt;i = p-&gt;vtype == <a class="code" href="klib_2kexpr_8h.html#afa3b1513b63f19fb8cc200e6961443ac">KEV_REAL</a> || q-&gt;vtype == <a class="code" href="klib_2kexpr_8h.html#afa3b1513b63f19fb8cc200e6961443ac">KEV_REAL</a>? (p-&gt;<a class="code" href="test__queue_8c.html#a5391b7f1199d134d62d41f3734ad4322">r</a> _op q-&gt;<a class="code" href="test__queue_8c.html#a5391b7f1199d134d62d41f3734ad4322">r</a>) : (p-&gt;i _op q-&gt;i); \</div>
 <div class="line">        p-&gt;<a class="code" href="test__queue_8c.html#a5391b7f1199d134d62d41f3734ad4322">r</a> = (<span class="keywordtype">double</span>)p-&gt;i; \</div>
 <div class="line">        p-&gt;vtype = <a class="code" href="klib_2kexpr_8h.html#a66babb8071c71874c107ca318c57c168">KEV_INT</a>; \</div>
 <div class="line">    }</div>
@@ -361,8 +361,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="structke1__s_html_a11ec90460a0485f12a90ff9986d0902d"><div class="ttname"><a href="structke1__s.html#a11ec90460a0485f12a90ff9986d0902d">ke1_s::vtype</a></div><div class="ttdeci">uint32_t vtype</div><div class="ttdef"><b>Definition:</b> kexpr.c:51</div></div>
 <div class="ttc" id="structke1__s_html"><div class="ttname"><a href="structke1__s.html">ke1_s</a></div><div class="ttdef"><b>Definition:</b> kexpr.c:50</div></div>
 <div class="ttc" id="klib_2kexpr_8h_html_ad03129640cf395ff162b65fe14e864e1"><div class="ttname"><a href="klib_2kexpr_8h.html#ad03129640cf395ff162b65fe14e864e1">KEV_STR</a></div><div class="ttdeci">#define KEV_STR</div><div class="ttdef"><b>Definition:</b> kexpr.h:25</div></div>
-<div class="ttc" id="test__queue_8c_html_a5391b7f1199d134d62d41f3734ad4322"><div class="ttname"><a href="test__queue_8c.html#a5391b7f1199d134d62d41f3734ad4322">r</a></div><div class="ttdeci">#define r(m)</div><div class="ttdef"><b>Definition:</b> test_queue.c:34</div></div>
-<div class="ttc" id="fuzz_8c_html_a3a555db7b4c043cd63ed7635a21fe107"><div class="ttname"><a href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a></div><div class="ttdeci">static struct netmap_if * i</div><div class="ttdef"><b>Definition:</b> fuzz.c:49</div></div>
+<div class="ttc" id="test__queue_8c_html_a5391b7f1199d134d62d41f3734ad4322"><div class="ttname"><a href="test__queue_8c.html#a5391b7f1199d134d62d41f3734ad4322">r</a></div><div class="ttdeci">#define r(m)</div><div class="ttdef"><b>Definition:</b> test_queue.c:35</div></div>
 <div class="ttc" id="klib_2kexpr_8h_html_afa3b1513b63f19fb8cc200e6961443ac"><div class="ttname"><a href="klib_2kexpr_8h.html#afa3b1513b63f19fb8cc200e6961443ac">KEV_REAL</a></div><div class="ttdeci">#define KEV_REAL</div><div class="ttdef"><b>Definition:</b> kexpr.h:23</div></div>
 </div><!-- fragment -->
 </div>
@@ -1693,7 +1692,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 31 2019 23:08:41 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 13 2019 13:06:17 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

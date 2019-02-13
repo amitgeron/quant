@@ -5,8 +5,5 @@
 <area shape="rect" id="node4" href="$structw__iov__sq.html" title="A tail queue of w_iov I/O vectors. " alt="" coords="173,5,249,32"/>
 <area shape="rect" id="node5" href="$structw__backend.html" title="w_backend" alt="" coords="208,371,296,397"/>
 <area shape="rect" id="node7" href="$structw__sockopt.html" title="Socket options. " alt="" coords="337,189,423,216"/>
-<area shape="rect" id="node8" href="$structw__hdr.html" title="A warpcore template packet header structure. " alt="" coords="447,189,504,216"/>
-<area shape="rect" id="node9" href="$structudp__hdr.html" title="A representation of a UDP header; see RFC768. " alt="" coords="355,97,423,124"/>
-<area shape="rect" id="node10" href="$structip__hdr.html" title="An IPv4 header representation; see RFC791 " alt="" coords="447,97,504,124"/>
-<area shape="rect" id="node11" href="$structeth__hdr.html" title="An Ethernet II MAC header. " alt="" coords="529,97,593,124"/>
+<area shape="rect" id="node8" href="$structw__tuple.html" title="w_tuple" alt="" coords="447,189,513,216"/>
 </map>

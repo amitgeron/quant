@@ -1,0 +1,11 @@
+<map id="ptls_ffx_new" name="ptls_ffx_new">
+<area shape="rect" id="node2" href="$ffx_8c.html#a9382d4e75137cf0c084868408cf43fd9" title="The function ptls_ffx_setup_crypto is called by ptls_cipher_new or ptls_ffx_new when initializing an ..." alt="" coords="149,81,296,108"/>
+<area shape="rect" id="node3" href="$picotls_8h.html#a229de01597e54002f209266c7b4055aa" title="instantiates a symmetric cipher " alt="" coords="345,5,461,32"/>
+<area shape="rect" id="node4" href="$ffx_8c.html#a3e89d652273c305fcd5f426e1e55d55c" title="ffx_dispose" alt="" coords="358,56,447,83"/>
+<area shape="rect" id="node6" href="$ffx_8c.html#a0d0585ce5ae79494466d5b1615baee7e" title="ffx_init" alt="" coords="372,107,433,133"/>
+<area shape="rect" id="node7" href="$ffx_8c.html#ad88b68156d6ebdc854c0ee4d40b219a2" title="ffx_encrypt" alt="" coords="359,157,446,184"/>
+<area shape="rect" id="node5" href="$picotls_8h.html#ae57011fb3506f15237ead4f3146acc01" title="destroys a symmetric cipher " alt="" coords="516,56,631,83"/>
+<area shape="rect" id="node8" href="$ffx_8c.html#a75eba25d4e5607f14b912809536f687b" title="ptls_ffx_one_pass" alt="" coords="509,157,637,184"/>
+<area shape="rect" id="node9" href="$picotls_8h.html#aa77dcaa131915406a4a03be70e268ff0" title="initializes the IV; this function must be called prior to calling ptls_cipher_encrypt ..." alt="" coords="699,132,808,159"/>
+<area shape="rect" id="node10" href="$picotls_8h.html#a2d3ae9c9f2704efb7abae1637cb97241" title="encrypts given text " alt="" coords="686,183,821,209"/>
+</map>

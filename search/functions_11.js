@@ -10,7 +10,7 @@ var searchData=
   ['recip',['recip',['../curve25519_8naclref_8c.html#a995ba348f0144c42e2ed24cf0e240336',1,'curve25519.naclref.c']]],
   ['regularize_5fk',['regularize_k',['../uECC_8c.html#a37c1a383e4ea7b47bb49b751a299dad9',1,'uECC.c']]],
   ['rem',['rem',['../test__queue_8c.html#a1e5562056e71591a0fd4b818566a7145',1,'test_queue.c']]],
-  ['rem_5fsock',['rem_sock',['../warpcore_8c.html#aaba6abd34e39730ddd4f560b090c6b5f',1,'warpcore.c']]],
+  ['rem_5fsock',['rem_sock',['../warpcore_8c.html#a811255f1e117572d31fd94afa11718a4',1,'warpcore.c']]],
   ['report_5funknown_5fextensions',['report_unknown_extensions',['../lib_2picotls_8c.html#a1b5eacc28102b1c25fdbc7a8a54b84b5',1,'picotls.c']]],
   ['reset_5fcycles',['reset_cycles',['../semihost_8c.html#af5518204b3e6926c760e2793c596a96c',1,'reset_cycles(void):&#160;semihost.c'],['../semihost_8h.html#af5518204b3e6926c760e2793c596a96c',1,'reset_cycles(void):&#160;semihost.c']]],
   ['reset_5fhandler',['Reset_Handler',['../boot_8c.html#ae7ee340978f5c25f52f0cad1457c6616',1,'boot.c']]],

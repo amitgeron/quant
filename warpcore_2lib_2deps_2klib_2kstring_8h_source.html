@@ -292,7 +292,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00201"></a><span class="lineno"><a class="line" href="warpcore_2lib_2deps_2klib_2kstring_8h.html#acd58f33c79859ae08062e24fab7e326f">  201</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="warpcore_2lib_2deps_2klib_2kstring_8h.html#acd58f33c79859ae08062e24fab7e326f">kputw</a>(<span class="keywordtype">int</span> c, <a class="code" href="structkstring__t.html">kstring_t</a> *s)</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;{</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <span class="keywordtype">char</span> <a class="code" href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a>[16];</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>, l = 0;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="keywordtype">int</span> i, l = 0;</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> x = c;</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordflow">if</span> (c &lt; 0) x = -x;</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="keywordflow">do</span> { buf[l++] = x%10 + <span class="charliteral">&#39;0&#39;</span>; x /= 10; } <span class="keywordflow">while</span> (x &gt; 0);</div>
@@ -306,7 +306,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            <span class="keywordflow">return</span> EOF;</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    }</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="keywordflow">for</span> (i = l - 1; i &gt;= 0; --<a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>) s-&gt;<a class="code" href="structkstring__t.html#a947d6bb55c5b33670660edb65aac41e4">s</a>[s-&gt;<a class="code" href="structkstring__t.html#a6fedd577a5716b6472ac6abc50eda1a3">l</a>++] = buf[i];</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="keywordflow">for</span> (i = l - 1; i &gt;= 0; --i) s-&gt;<a class="code" href="structkstring__t.html#a947d6bb55c5b33670660edb65aac41e4">s</a>[s-&gt;<a class="code" href="structkstring__t.html#a6fedd577a5716b6472ac6abc50eda1a3">l</a>++] = buf[i];</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    s-&gt;<a class="code" href="structkstring__t.html#a947d6bb55c5b33670660edb65aac41e4">s</a>[s-&gt;<a class="code" href="structkstring__t.html#a6fedd577a5716b6472ac6abc50eda1a3">l</a>] = 0;</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;}</div>
@@ -314,7 +314,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00223"></a><span class="lineno"><a class="line" href="warpcore_2lib_2deps_2klib_2kstring_8h.html#a166cc79f6a2aaa40e9d6ab56236f7fdc">  223</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="warpcore_2lib_2deps_2klib_2kstring_8h.html#a166cc79f6a2aaa40e9d6ab56236f7fdc">kputuw</a>(<span class="keywordtype">unsigned</span> c, <a class="code" href="structkstring__t.html">kstring_t</a> *s)</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;{</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <span class="keywordtype">char</span> <a class="code" href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a>[16];</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="keywordtype">int</span> l, <a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="keywordtype">int</span> l, i;</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="keywordtype">unsigned</span> x;</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <span class="keywordflow">if</span> (c == 0) <span class="keywordflow">return</span> <a class="code" href="warpcore_2lib_2deps_2klib_2kstring_8h.html#a057d34c4aaade01484aa1468ec32e8ed">kputc</a>(<span class="charliteral">&#39;0&#39;</span>, s);</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordflow">for</span> (l = 0, x = c; x &gt; 0; x /= 10) buf[l++] = x%10 + <span class="charliteral">&#39;0&#39;</span>;</div>
@@ -327,7 +327,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;            <span class="keywordflow">return</span> EOF;</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    }</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <span class="keywordflow">for</span> (i = l - 1; i &gt;= 0; --<a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>) s-&gt;<a class="code" href="structkstring__t.html#a947d6bb55c5b33670660edb65aac41e4">s</a>[s-&gt;<a class="code" href="structkstring__t.html#a6fedd577a5716b6472ac6abc50eda1a3">l</a>++] = buf[i];</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <span class="keywordflow">for</span> (i = l - 1; i &gt;= 0; --i) s-&gt;<a class="code" href="structkstring__t.html#a947d6bb55c5b33670660edb65aac41e4">s</a>[s-&gt;<a class="code" href="structkstring__t.html#a6fedd577a5716b6472ac6abc50eda1a3">l</a>++] = buf[i];</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    s-&gt;<a class="code" href="structkstring__t.html#a947d6bb55c5b33670660edb65aac41e4">s</a>[s-&gt;<a class="code" href="structkstring__t.html#a6fedd577a5716b6472ac6abc50eda1a3">l</a>] = 0;</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;}</div>
@@ -335,7 +335,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00244"></a><span class="lineno"><a class="line" href="warpcore_2lib_2deps_2klib_2kstring_8h.html#a9955bc5a84533fec21164b8ee9fa69a1">  244</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="warpcore_2lib_2deps_2klib_2kstring_8h.html#a9955bc5a84533fec21164b8ee9fa69a1">kputl</a>(<span class="keywordtype">long</span> c, <a class="code" href="structkstring__t.html">kstring_t</a> *s)</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;{</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keywordtype">char</span> <a class="code" href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a>[32];</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>, l = 0;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="keywordtype">int</span> i, l = 0;</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> x = c;</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keywordflow">if</span> (c &lt; 0) x = -x;</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordflow">do</span> { buf[l++] = x%10 + <span class="charliteral">&#39;0&#39;</span>; x /= 10; } <span class="keywordflow">while</span> (x &gt; 0);</div>
@@ -349,7 +349,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            <span class="keywordflow">return</span> EOF;</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    }</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    <span class="keywordflow">for</span> (i = l - 1; i &gt;= 0; --<a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>) s-&gt;<a class="code" href="structkstring__t.html#a947d6bb55c5b33670660edb65aac41e4">s</a>[s-&gt;<a class="code" href="structkstring__t.html#a6fedd577a5716b6472ac6abc50eda1a3">l</a>++] = buf[i];</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    <span class="keywordflow">for</span> (i = l - 1; i &gt;= 0; --i) s-&gt;<a class="code" href="structkstring__t.html#a947d6bb55c5b33670660edb65aac41e4">s</a>[s-&gt;<a class="code" href="structkstring__t.html#a6fedd577a5716b6472ac6abc50eda1a3">l</a>++] = buf[i];</div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    s-&gt;<a class="code" href="structkstring__t.html#a947d6bb55c5b33670660edb65aac41e4">s</a>[s-&gt;<a class="code" href="structkstring__t.html#a6fedd577a5716b6472ac6abc50eda1a3">l</a>] = 0;</div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;}</div>
@@ -384,7 +384,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structkstring__t_html_a6fedd577a5716b6472ac6abc50eda1a3"><div class="ttname"><a href="structkstring__t.html#a6fedd577a5716b6472ac6abc50eda1a3">kstring_t::l</a></div><div class="ttdeci">int l</div><div class="ttdef"><b>Definition:</b> kurl.c:467</div></div>
 <div class="ttc" id="struct____kstring__t_html"><div class="ttname"><a href="struct____kstring__t.html">__kstring_t</a></div><div class="ttdef"><b>Definition:</b> bgzf.h:55</div></div>
 <div class="ttc" id="warpcore_2lib_2deps_2klib_2kstring_8h_html_a057d34c4aaade01484aa1468ec32e8ed"><div class="ttname"><a href="warpcore_2lib_2deps_2klib_2kstring_8h.html#a057d34c4aaade01484aa1468ec32e8ed">kputc</a></div><div class="ttdeci">static int kputc(int c, kstring_t *s)</div><div class="ttdef"><b>Definition:</b> kstring.h:154</div></div>
-<div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:290</div></div>
+<div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:417</div></div>
 <div class="ttc" id="struct____kstring__t_html_a29c59f01909db677b4b1d085c33143ca"><div class="ttname"><a href="struct____kstring__t.html#a29c59f01909db677b4b1d085c33143ca">__kstring_t::m</a></div><div class="ttdeci">size_t m</div><div class="ttdef"><b>Definition:</b> bgzf.h:56</div></div>
 <div class="ttc" id="klib_2kstring_8h_html_a7a570c78bd245eb9c88469cf7e0c4e3b"><div class="ttname"><a href="klib_2kstring_8h.html#a7a570c78bd245eb9c88469cf7e0c4e3b">kstrtok</a></div><div class="ttdeci">char * kstrtok(const char *str, const char *sep, ks_tokaux_t *aux)</div><div class="ttdef"><b>Definition:</b> kstring.c:37</div></div>
 <div class="ttc" id="warpcore_2lib_2deps_2klib_2kstring_8h_html_ae605770e44210e1e0ff83dab6bfe33b6"><div class="ttname"><a href="warpcore_2lib_2deps_2klib_2kstring_8h.html#ae605770e44210e1e0ff83dab6bfe33b6">ksplit</a></div><div class="ttdeci">static int * ksplit(kstring_t *s, int delimiter, int *n)</div><div class="ttdef"><b>Definition:</b> kstring.h:270</div></div>
@@ -394,7 +394,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structkstring__t_html_a8d627369018a6e3feb6534b647c5a3ce"><div class="ttname"><a href="structkstring__t.html#a8d627369018a6e3feb6534b647c5a3ce">kstring_t::m</a></div><div class="ttdeci">int m</div><div class="ttdef"><b>Definition:</b> kurl.c:467</div></div>
 <div class="ttc" id="struct____kstring__t_html_ad9817ce52b0fd0ad524353a1cd27f487"><div class="ttname"><a href="struct____kstring__t.html#ad9817ce52b0fd0ad524353a1cd27f487">__kstring_t::s</a></div><div class="ttdeci">char * s</div><div class="ttdef"><b>Definition:</b> bgzf.h:57</div></div>
 <div class="ttc" id="warpcore_2lib_2deps_2klib_2kstring_8h_html_a9955bc5a84533fec21164b8ee9fa69a1"><div class="ttname"><a href="warpcore_2lib_2deps_2klib_2kstring_8h.html#a9955bc5a84533fec21164b8ee9fa69a1">kputl</a></div><div class="ttdeci">static int kputl(long c, kstring_t *s)</div><div class="ttdef"><b>Definition:</b> kstring.h:244</div></div>
-<div class="ttc" id="fuzz_8c_html_a3a555db7b4c043cd63ed7635a21fe107"><div class="ttname"><a href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a></div><div class="ttdeci">static struct netmap_if * i</div><div class="ttdef"><b>Definition:</b> fuzz.c:49</div></div>
 <div class="ttc" id="structks__tokaux__t_html"><div class="ttname"><a href="structks__tokaux__t.html">ks_tokaux_t</a></div><div class="ttdef"><b>Definition:</b> kstring.h:62</div></div>
 <div class="ttc" id="warpcore_2lib_2deps_2klib_2kstring_8h_html_a166cc79f6a2aaa40e9d6ab56236f7fdc"><div class="ttname"><a href="warpcore_2lib_2deps_2klib_2kstring_8h.html#a166cc79f6a2aaa40e9d6ab56236f7fdc">kputuw</a></div><div class="ttdeci">static int kputuw(unsigned c, kstring_t *s)</div><div class="ttdef"><b>Definition:</b> kstring.h:223</div></div>
 <div class="ttc" id="warpcore_2lib_2deps_2klib_2kstring_8h_html_af808c6880732c15dd7210159c486ff82"><div class="ttname"><a href="warpcore_2lib_2deps_2klib_2kstring_8h.html#af808c6880732c15dd7210159c486ff82">kroundup32</a></div><div class="ttdeci">#define kroundup32(x)</div><div class="ttdef"><b>Definition:</b> kstring.h:36</div></div>
@@ -406,7 +405,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 31 2019 23:08:40 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 13 2019 13:06:16 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -6,11 +6,8 @@
 <area shape="rect" id="node5" href="$structw__iov__sq.html" title="A tail queue of w_iov I/O vectors. " alt="" coords="373,5,449,32"/>
 <area shape="rect" id="node6" href="$structw__backend.html" title="w_backend" alt="" coords="408,384,496,411"/>
 <area shape="rect" id="node8" href="$structw__sockopt.html" title="Socket options. " alt="" coords="537,203,623,229"/>
-<area shape="rect" id="node9" href="$structw__hdr.html" title="A warpcore template packet header structure. " alt="" coords="647,203,704,229"/>
-<area shape="rect" id="node10" href="$structudp__hdr.html" title="A representation of a UDP header; see RFC768. " alt="" coords="555,97,623,124"/>
-<area shape="rect" id="node11" href="$structip__hdr.html" title="An IPv4 header representation; see RFC791 " alt="" coords="647,97,704,124"/>
-<area shape="rect" id="node12" href="$structeth__hdr.html" title="An Ethernet II MAC header. " alt="" coords="729,97,793,124"/>
-<area shape="rect" id="node13" href="$structpn__space.html" title="pn_space" alt="" coords="5,203,83,229"/>
-<area shape="rect" id="node14" href="$structpkt__hdr.html" title="pkt_hdr" alt="" coords="107,203,172,229"/>
-<area shape="rect" id="node15" href="$structcid.html" title="cid" alt="" coords="121,97,159,124"/>
+<area shape="rect" id="node9" href="$structw__tuple.html" title="w_tuple" alt="" coords="647,203,713,229"/>
+<area shape="rect" id="node10" href="$structpn__space.html" title="pn_space" alt="" coords="5,203,83,229"/>
+<area shape="rect" id="node11" href="$structpkt__hdr.html" title="pkt_hdr" alt="" coords="107,203,172,229"/>
+<area shape="rect" id="node12" href="$structcid.html" title="cid" alt="" coords="121,97,159,124"/>
 </map>

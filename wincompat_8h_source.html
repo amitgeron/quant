@@ -96,43 +96,44 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="wincompat_8h.html#a8af93bbb66534e14d651bbb0638ee796">    5</a></span>&#160;<span class="preprocessor">#define ssize_t int</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#include &lt;Winsock2.h&gt;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;ws2tcpip.h&gt;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef gettimeofday</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="wincompat_8h.html#a9b71513da9949d0c162a859e9cca23fc">   10</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define gettimeofday wintimeofday</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#ifndef __attribute__</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __attribute__(X)</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#ifdef  __cplusplus</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor"></span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structtimezone.html">   19</a></span>&#160;<span class="preprocessor"></span>    <span class="keyword">struct </span><a class="code" href="structtimezone.html">timezone</a> {</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="structtimezone.html#a3042f7eff6e1b980728def76b1fa0eb7">   20</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structtimezone.html#a3042f7eff6e1b980728def76b1fa0eb7">tz_minuteswest</a>;     <span class="comment">/* minutes west of Greenwich */</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="structtimezone.html#a85259977aeb63b17e6ce94f19afdfd99">   21</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structtimezone.html#a85259977aeb63b17e6ce94f19afdfd99">tz_dsttime</a>;         <span class="comment">/* type of DST correction */</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    };</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="wincompat_8h.html#a98a42e90dca13b6287ceff529fd86d95">wintimeofday</a>(<span class="keyword">struct</span> timeval* tv, <span class="keyword">struct</span> <a class="code" href="structtimezone.html">timezone</a>* tz);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#ifdef  __cplusplus</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor"></span>} <span class="comment">/* extern &quot;C&quot; */</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;malloc.h&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#ifndef gettimeofday</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="wincompat_8h.html#a9b71513da9949d0c162a859e9cca23fc">   11</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define gettimeofday wintimeofday</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#ifndef __attribute__</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __attribute__(X)</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifdef  __cplusplus</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor"></span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="structtimezone.html">   20</a></span>&#160;<span class="preprocessor"></span>    <span class="keyword">struct </span><a class="code" href="structtimezone.html">timezone</a> {</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="structtimezone.html#a3042f7eff6e1b980728def76b1fa0eb7">   21</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structtimezone.html#a3042f7eff6e1b980728def76b1fa0eb7">tz_minuteswest</a>;     <span class="comment">/* minutes west of Greenwich */</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="structtimezone.html#a85259977aeb63b17e6ce94f19afdfd99">   22</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structtimezone.html#a85259977aeb63b17e6ce94f19afdfd99">tz_dsttime</a>;         <span class="comment">/* type of DST correction */</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    };</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="wincompat_8h.html#a98a42e90dca13b6287ceff529fd86d95">wintimeofday</a>(<span class="keyword">struct</span> timeval* tv, <span class="keyword">struct</span> <a class="code" href="structtimezone.html">timezone</a>* tz);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#ifdef  __cplusplus</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor"></span>} <span class="comment">/* extern &quot;C&quot; */</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* WINCOMPAT_H */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="structtimezone_html_a85259977aeb63b17e6ce94f19afdfd99"><div class="ttname"><a href="structtimezone.html#a85259977aeb63b17e6ce94f19afdfd99">timezone::tz_dsttime</a></div><div class="ttdeci">int tz_dsttime</div><div class="ttdef"><b>Definition:</b> wincompat.h:21</div></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* WINCOMPAT_H */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="structtimezone_html_a85259977aeb63b17e6ce94f19afdfd99"><div class="ttname"><a href="structtimezone.html#a85259977aeb63b17e6ce94f19afdfd99">timezone::tz_dsttime</a></div><div class="ttdeci">int tz_dsttime</div><div class="ttdef"><b>Definition:</b> wincompat.h:22</div></div>
 <div class="ttc" id="wincompat_8h_html_a98a42e90dca13b6287ceff529fd86d95"><div class="ttname"><a href="wincompat_8h.html#a98a42e90dca13b6287ceff529fd86d95">wintimeofday</a></div><div class="ttdeci">int wintimeofday(struct timeval *tv, struct timezone *tz)</div></div>
-<div class="ttc" id="structtimezone_html"><div class="ttname"><a href="structtimezone.html">timezone</a></div><div class="ttdef"><b>Definition:</b> wincompat.h:19</div></div>
-<div class="ttc" id="structtimezone_html_a3042f7eff6e1b980728def76b1fa0eb7"><div class="ttname"><a href="structtimezone.html#a3042f7eff6e1b980728def76b1fa0eb7">timezone::tz_minuteswest</a></div><div class="ttdeci">int tz_minuteswest</div><div class="ttdef"><b>Definition:</b> wincompat.h:20</div></div>
+<div class="ttc" id="structtimezone_html"><div class="ttname"><a href="structtimezone.html">timezone</a></div><div class="ttdef"><b>Definition:</b> wincompat.h:20</div></div>
+<div class="ttc" id="structtimezone_html_a3042f7eff6e1b980728def76b1fa0eb7"><div class="ttname"><a href="structtimezone.html#a3042f7eff6e1b980728def76b1fa0eb7">timezone::tz_minuteswest</a></div><div class="ttdeci">int tz_minuteswest</div><div class="ttdef"><b>Definition:</b> wincompat.h:21</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 31 2019 23:08:41 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 13 2019 13:06:16 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

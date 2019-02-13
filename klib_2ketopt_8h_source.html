@@ -104,7 +104,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structketopt__t.html#a98f5c4fcb9d7f262525720f120d98337">   13</a></span>&#160;    <span class="keywordtype">char</span> *<a class="code" href="structketopt__t.html#a98f5c4fcb9d7f262525720f120d98337">arg</a>; <span class="comment">/* equivalent to optarg */</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="structketopt__t.html#a4788fc23d429235947e30452d6665e96">   14</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structketopt__t.html#a4788fc23d429235947e30452d6665e96">longidx</a>; <span class="comment">/* index of a long option; or -1 if short */</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="comment">/* private variables not intended for external uses */</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structketopt__t.html#a8fa64da6821e5e367f67bc6d22675885">   16</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>, <a class="code" href="structketopt__t.html#a8fa64da6821e5e367f67bc6d22675885">pos</a>, n_args;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structketopt__t.html#a8fa64da6821e5e367f67bc6d22675885">   16</a></span>&#160;    <span class="keywordtype">int</span> i, <a class="code" href="structketopt__t.html#a8fa64da6821e5e367f67bc6d22675885">pos</a>, n_args;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;} <a class="code" href="structketopt__t.html">ketopt_t</a>;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
 <div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structko__longopt__t.html">   19</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
@@ -160,7 +160,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            }</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        }</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    } <span class="keywordflow">else</span> { <span class="comment">/* a short option */</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordtype">char</span> *p;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span> *p;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">if</span> (s-&gt;<a class="code" href="structketopt__t.html#a8fa64da6821e5e367f67bc6d22675885">pos</a> == 0) s-&gt;<a class="code" href="structketopt__t.html#a8fa64da6821e5e367f67bc6d22675885">pos</a> = 1;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        opt = s-&gt;<a class="code" href="structketopt__t.html#abdd50b8740babed34e247066ce0fc2a0">opt</a> = argv[s-&gt;<a class="code" href="structketopt__t.html#a537a21d135e65ab69eb658632d0035df">i</a>][s-&gt;<a class="code" href="structketopt__t.html#a8fa64da6821e5e367f67bc6d22675885">pos</a>++];</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        p = strchr(ostr, opt);</div>
@@ -200,12 +200,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structketopt__t_html_a8fa64da6821e5e367f67bc6d22675885"><div class="ttname"><a href="structketopt__t.html#a8fa64da6821e5e367f67bc6d22675885">ketopt_t::pos</a></div><div class="ttdeci">int pos</div><div class="ttdef"><b>Definition:</b> ketopt.h:16</div></div>
 <div class="ttc" id="structketopt__t_html_a537a21d135e65ab69eb658632d0035df"><div class="ttname"><a href="structketopt__t.html#a537a21d135e65ab69eb658632d0035df">ketopt_t::i</a></div><div class="ttdeci">int i</div><div class="ttdef"><b>Definition:</b> ketopt.h:16</div></div>
 <div class="ttc" id="structko__longopt__t_html"><div class="ttname"><a href="structko__longopt__t.html">ko_longopt_t</a></div><div class="ttdef"><b>Definition:</b> ketopt.h:19</div></div>
-<div class="ttc" id="fuzz_8c_html_a3a555db7b4c043cd63ed7635a21fe107"><div class="ttname"><a href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a></div><div class="ttdeci">static struct netmap_if * i</div><div class="ttdef"><b>Definition:</b> fuzz.c:49</div></div>
 <div class="ttc" id="structketopt__t_html"><div class="ttname"><a href="structketopt__t.html">ketopt_t</a></div><div class="ttdef"><b>Definition:</b> ketopt.h:10</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 31 2019 23:08:40 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 13 2019 13:06:16 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

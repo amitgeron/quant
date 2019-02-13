@@ -10,7 +10,7 @@ var searchData=
   ['hash_5fend',['hash_end',['../structst__ptls__client__hello__t.html#af96c322531f6d3a724114fdf02aadce1',1,'st_ptls_client_hello_t']]],
   ['hashes',['hashes',['../structst__ptls__key__schedule__t.html#abb77c9edbdf24063cb7513bb5aeba9a7',1,'st_ptls_key_schedule_t']]],
   ['hashsz',['hashsz',['../structcf__chash.html#a39d15ab45c5a9aca0095f56ae44e16c0',1,'cf_chash']]],
-  ['hdr',['hdr',['../structkurl__t.html#a8b2648cb9ee77ddc21b12b0b8957ba1a',1,'kurl_t::hdr()'],['../structw__sock.html#a0b8ec75854814f39f204648af5dd5726',1,'w_sock::hdr()'],['../structpkt__meta.html#ade732240d1610adc75a376707de4fdd1',1,'pkt_meta::hdr()']]],
+  ['hdr',['hdr',['../structkurl__t.html#a8b2648cb9ee77ddc21b12b0b8957ba1a',1,'kurl_t::hdr()'],['../structpkt__meta.html#ade732240d1610adc75a376707de4fdd1',1,'pkt_meta::hdr()']]],
   ['hdr_5flen',['hdr_len',['../structpkt__hdr.html#a8d278001c1d049f5d4b78db832670cca',1,'pkt_hdr']]],
   ['header_5fprotection',['header_protection',['../structcipher__ctx.html#ab83d332569cfc15dca704ef06bb6a9f8',1,'cipher_ctx']]],
   ['hello_5fretry_5frandom',['hello_retry_random',['../lib_2picotls_8c.html#a33ea77bdf16d8f230aaaed93c2ebd20e',1,'picotls.c']]],

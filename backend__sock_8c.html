@@ -95,9 +95,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <div class="textblock"><code>#include &lt;arpa/inet.h&gt;</code><br/>
 <code>#include &lt;errno.h&gt;</code><br/>
+<code>#include &lt;sys/types.h&gt;</code><br/>
 <code>#include &lt;netinet/in.h&gt;</code><br/>
 <code>#include &lt;netinet/ip.h&gt;</code><br/>
-<code>#include &lt;netinet/udp.h&gt;</code><br/>
 <code>#include &lt;stdbool.h&gt;</code><br/>
 <code>#include &lt;stdint.h&gt;</code><br/>
 <code>#include &lt;stdlib.h&gt;</code><br/>
@@ -116,7 +116,7 @@ Include dependency graph for backend_sock.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="backend__sock_8c__incl.png" border="0" usemap="#deps_2warpcore_2lib_2src_2backend__sock_8c" alt=""/></div>
 <map name="deps_2warpcore_2lib_2src_2backend__sock_8c" id="deps_2warpcore_2lib_2src_2backend__sock_8c">
-<area shape="rect" id="node14" href="warpcore_8h.html" title="warpcore/warpcore.h" alt="" coords="802,395,944,421"/><area shape="rect" id="node26" href="backend_8h.html" title="backend.h" alt="" coords="517,96,599,123"/><area shape="rect" id="node29" href="udp_8h.html" title="udp.h" alt="" coords="1009,171,1063,197"/><area shape="rect" id="node31" href="ip_8h.html" title="ip.h" alt="" coords="1159,245,1201,272"/><area shape="rect" id="node16" href="deps_2warpcore_2lib_2include_2warpcore_2config_8h.html" title="warpcore/config.h" alt="" coords="875,469,1000,496"/><area shape="rect" id="node17" href="plat_8h.html" title="warpcore/plat.h" alt="" coords="497,469,607,496"/><area shape="rect" id="node18" href="queue_8h.html" title="warpcore/queue.h" alt="" coords="1024,469,1149,496"/><area shape="rect" id="node19" href="tree_8h.html" title="warpcore/tree.h" alt="" coords="632,469,743,496"/><area shape="rect" id="node20" href="warpcore_2lib_2include_2warpcore_2util_8h.html" title="warpcore/util.h" alt="" coords="1524,469,1631,496"/><area shape="rect" id="node27" href="arp_8h.html" title="arp.h" alt="" coords="581,171,632,197"/><area shape="rect" id="node30" href="eth_8h.html" title="eth.h" alt="" coords="979,320,1029,347"/></map>
+<area shape="rect" id="node14" href="warpcore_8h.html" title="warpcore/warpcore.h" alt="" coords="1005,245,1147,272"/><area shape="rect" id="node26" href="backend_8h.html" title="backend.h" alt="" coords="1035,171,1116,197"/><area shape="rect" id="node29" href="udp_8h.html" title="udp.h" alt="" coords="649,245,703,272"/><area shape="rect" id="node30" href="ip_8h.html" title="ip.h" alt="" coords="1779,96,1821,123"/><area shape="rect" id="node16" href="deps_2warpcore_2lib_2include_2warpcore_2config_8h.html" title="warpcore/config.h" alt="" coords="759,320,884,347"/><area shape="rect" id="node17" href="plat_8h.html" title="warpcore/plat.h" alt="" coords="623,320,733,347"/><area shape="rect" id="node18" href="queue_8h.html" title="warpcore/queue.h" alt="" coords="908,320,1033,347"/><area shape="rect" id="node19" href="tree_8h.html" title="warpcore/tree.h" alt="" coords="1239,320,1349,347"/><area shape="rect" id="node20" href="warpcore_2lib_2include_2warpcore_2util_8h.html" title="warpcore/util.h" alt="" coords="1057,320,1164,347"/><area shape="rect" id="node27" href="arp_8h.html" title="arp.h" alt="" coords="1588,245,1639,272"/><area shape="rect" id="node31" href="eth_8h.html" title="eth.h" alt="" coords="1651,171,1701,197"/></map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -137,12 +137,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a7e43d05a55650db2be88e9eece99905d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="backend__sock_8c.html#a7e43d05a55650db2be88e9eece99905d">backend_cleanup</a> (struct <a class="el" href="structw__engine.html">w_engine</a> *const <a class="el" href="fuzz_8c.html#a8bedaecc1f0b28f6c3ec357ca967b33a">w</a>)</td></tr>
 <tr class="memdesc:a7e43d05a55650db2be88e9eece99905d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shut a warpcore socket engine down cleanly.  <a href="#a7e43d05a55650db2be88e9eece99905d">More...</a><br/></td></tr>
 <tr class="separator:a7e43d05a55650db2be88e9eece99905d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a856d6010ba7df6045798ce2d398d11cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="backend__sock_8c.html#a856d6010ba7df6045798ce2d398d11cc">backend_bind</a> (struct <a class="el" href="structw__sock.html">w_sock</a> *const s, const struct <a class="el" href="structw__sockopt.html">w_sockopt</a> *const opt)</td></tr>
-<tr class="memdesc:a856d6010ba7df6045798ce2d398d11cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind a warpcore socket-backend socket.  <a href="#a856d6010ba7df6045798ce2d398d11cc">More...</a><br/></td></tr>
-<tr class="separator:a856d6010ba7df6045798ce2d398d11cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5df52522d52bfed04aa270094deaa78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="backend__sock_8c.html#af5df52522d52bfed04aa270094deaa78">backend_connect</a> (struct <a class="el" href="structw__sock.html">w_sock</a> *const s)</td></tr>
-<tr class="memdesc:af5df52522d52bfed04aa270094deaa78"><td class="mdescLeft">&#160;</td><td class="mdescRight">The socket backend performs no operation here.  <a href="#af5df52522d52bfed04aa270094deaa78">More...</a><br/></td></tr>
-<tr class="separator:af5df52522d52bfed04aa270094deaa78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5e273595df14dd0f4ad2899eaebafe8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="backend__sock_8c.html#aa5e273595df14dd0f4ad2899eaebafe8">backend_bind</a> (struct <a class="el" href="structw__sock.html">w_sock</a> *const s, const struct <a class="el" href="structw__sockopt.html">w_sockopt</a> *const opt)</td></tr>
+<tr class="memdesc:aa5e273595df14dd0f4ad2899eaebafe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind a warpcore socket-backend socket.  <a href="#aa5e273595df14dd0f4ad2899eaebafe8">More...</a><br/></td></tr>
+<tr class="separator:aa5e273595df14dd0f4ad2899eaebafe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0de137fe30801a3c8798185082b134be"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="backend__sock_8c.html#a0de137fe30801a3c8798185082b134be">backend_connect</a> (struct <a class="el" href="structw__sock.html">w_sock</a> *const s)</td></tr>
+<tr class="memdesc:a0de137fe30801a3c8798185082b134be"><td class="mdescLeft">&#160;</td><td class="mdescRight">The socket backend performs no operation here.  <a href="#a0de137fe30801a3c8798185082b134be">More...</a><br/></td></tr>
+<tr class="separator:a0de137fe30801a3c8798185082b134be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10352237f3cab978ad3dbe7f25acb8cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="backend__sock_8c.html#a10352237f3cab978ad3dbe7f25acb8cc">backend_close</a> (struct <a class="el" href="structw__sock.html">w_sock</a> *const s)</td></tr>
 <tr class="memdesc:a10352237f3cab978ad3dbe7f25acb8cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close the socket.  <a href="#a10352237f3cab978ad3dbe7f25acb8cc">More...</a><br/></td></tr>
 <tr class="separator:a10352237f3cab978ad3dbe7f25acb8cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,7 +152,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ac4f053bd8ffef52d164823134d732f51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="backend__sock_8c.html#ac4f053bd8ffef52d164823134d732f51">w_tx</a> (const struct <a class="el" href="structw__sock.html">w_sock</a> *const s, struct <a class="el" href="structw__iov__sq.html">w_iov_sq</a> *const o)</td></tr>
 <tr class="memdesc:ac4f053bd8ffef52d164823134d732f51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loops over the <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> structures in the tail queue <code>o</code>, sending them all over <a class="el" href="structw__sock.html" title="A warpcore socket. ">w_sock</a> <code>s</code>.  <a href="#ac4f053bd8ffef52d164823134d732f51">More...</a><br/></td></tr>
 <tr class="separator:ac4f053bd8ffef52d164823134d732f51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af21a4e848c9199be729d01d20b8eea3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="backend__sock_8c.html#af21a4e848c9199be729d01d20b8eea3d">w_rx</a> (struct <a class="el" href="structw__sock.html">w_sock</a> *const s, struct <a class="el" href="structw__iov__sq.html">w_iov_sq</a> *const <a class="el" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>)</td></tr>
+<tr class="memitem:af21a4e848c9199be729d01d20b8eea3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="backend__sock_8c.html#af21a4e848c9199be729d01d20b8eea3d">w_rx</a> (struct <a class="el" href="structw__sock.html">w_sock</a> *const s, struct <a class="el" href="structw__iov__sq.html">w_iov_sq</a> *const i)</td></tr>
 <tr class="memdesc:af21a4e848c9199be729d01d20b8eea3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls recvmsg() or recvmmsg() for all sockets associated with the engine, emulating the operation of netmap backend_rx() function.  <a href="#af21a4e848c9199be729d01d20b8eea3d">More...</a><br/></td></tr>
 <tr class="separator:af21a4e848c9199be729d01d20b8eea3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fba5669717435248ca7b7945a9b9d75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="backend__sock_8c.html#a3fba5669717435248ca7b7945a9b9d75">w_nic_tx</a> (struct <a class="el" href="structw__engine.html">w_engine</a> *const <a class="el" href="fuzz_8c.html#a8bedaecc1f0b28f6c3ec357ca967b33a">w</a>)</td></tr>
@@ -197,12 +197,12 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a856d6010ba7df6045798ce2d398d11cc"></a>
+<a class="anchor" id="aa5e273595df14dd0f4ad2899eaebafe8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void backend_bind </td>
+          <td class="memname">int backend_bind </td>
           <td>(</td>
           <td class="paramtype">struct <a class="el" href="structw__sock.html">w_sock</a> *const&#160;</td>
           <td class="paramname"><em>s</em>, </td>
@@ -227,10 +227,11 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir"></td><td class="paramname">s</td><td>The <a class="el" href="structw__sock.html" title="A warpcore socket. ">w_sock</a> to bind. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">opt</td><td>Socket options for this socket. Can be zero. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">opt</td><td>Socket options for this socket. Can be zero.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Zero on success, <code>errno</code> otherwise. </dd></dl>
 
 </div>
 </div>
@@ -285,12 +286,12 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af5df52522d52bfed04aa270094deaa78"></a>
+<a class="anchor" id="a0de137fe30801a3c8798185082b134be"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void backend_connect </td>
+          <td class="memname">int backend_connect </td>
           <td>(</td>
           <td class="paramtype">struct <a class="el" href="structw__sock.html">w_sock</a> *const&#160;</td>
           <td class="paramname"><em>s</em></td><td>)</td>
@@ -303,10 +304,11 @@ Variables</h2></td></tr>
 <p>Connect the given <a class="el" href="structw__sock.html" title="A warpcore socket. ">w_sock</a>, using the netmap backend.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">s</td><td>The <a class="el" href="structw__sock.html" title="A warpcore socket. ">w_sock</a> to connect. </td></tr>
+    <tr><td class="paramname">s</td><td>The <a class="el" href="structw__sock.html" title="A warpcore socket. ">w_sock</a> to connect.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Zero on success, <code>errno</code> otherwise. </dd></dl>
 
 </div>
 </div>
@@ -615,7 +617,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="backend__sock_8c_ac4f053bd8ffef52d164823134d732f51_cgraph.png" border="0" usemap="#backend__sock_8c_ac4f053bd8ffef52d164823134d732f51_cgraph" alt=""/></div>
 <map name="backend__sock_8c_ac4f053bd8ffef52d164823134d732f51_cgraph" id="backend__sock_8c_ac4f053bd8ffef52d164823134d732f51_cgraph">
-<area shape="rect" id="node2" href="warpcore_8h.html#a25db095b03b04843ed074c604c85c27d" title="Return whether a socket is connected (i.e., w_connect() has been called on it) or not..." alt="" coords="104,5,203,32"/></map>
+<area shape="rect" id="node2" href="warpcore_8h.html#a7644484ec2768497622b01587fc428ab" title="Return whether a socket is connected (i.e., w_connect() has been called on it) or not..." alt="" coords="104,5,203,32"/></map>
 </div>
 </p>
 
@@ -647,7 +649,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 31 2019 23:08:43 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 13 2019 13:06:19 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

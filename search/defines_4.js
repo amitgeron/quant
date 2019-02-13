@@ -2,7 +2,7 @@ var searchData=
 [
   ['data_5foffset',['DATA_OFFSET',['../quic_8h.html#a11faa4c105a137b8edaa096de5063835',1,'quic.h']]],
   ['dbg',['DBG',['../warpcore_2lib_2include_2warpcore_2util_8h.html#a49606be7356624568932ec81c0d429f4',1,'util.h']]],
-  ['dec',['DEC',['../uECC_8c.html#a2a3539c241e0a1e2d7d545384ff37b72',1,'DEC():&#160;uECC.c'],['../marshall_8h.html#a17979630a63703570a316e70d4e9cb30',1,'dec():&#160;marshall.h']]],
+  ['dec',['dec',['../marshall_8h.html#a17979630a63703570a316e70d4e9cb30',1,'dec():&#160;marshall.h'],['../uECC_8c.html#a2a3539c241e0a1e2d7d545384ff37b72',1,'DEC():&#160;uECC.c']]],
   ['dec_5f1',['DEC_1',['../uECC_8c.html#add8cf94f6ebfd2e525f0a920d25bc164',1,'uECC.c']]],
   ['dec_5f10',['DEC_10',['../uECC_8c.html#a52b176254deac944b03690733dd234a9',1,'uECC.c']]],
   ['dec_5f11',['DEC_11',['../uECC_8c.html#a4eb156793e699a43fdc4788ae42b9915',1,'uECC.c']]],
@@ -46,6 +46,8 @@ var searchData=
   ['decrypt',['DECRYPT',['../chacha20poly1305_8c.html#a36fab47015485191712a579a059a7c20',1,'chacha20poly1305.c']]],
   ['def_5fack_5fdel_5fexp',['DEF_ACK_DEL_EXP',['../frame_8h.html#a6e6356d5807b645651ca1612dc548446',1,'frame.h']]],
   ['defer',['DEFER',['../uECC_8c.html#ad2eecb399acaadcb6ffa4294ff51a833',1,'uECC.c']]],
+  ['define_5fffx_5faes128_5falgorithms',['DEFINE_FFX_AES128_ALGORITHMS',['../test_8h.html#a1e492fcd4d658d2c559fc8fd41c4a409',1,'test.h']]],
+  ['define_5fffx_5fchacha20_5falgorithms',['DEFINE_FFX_CHACHA20_ALGORITHMS',['../test_8h.html#a1338b6e53cb0c9ebf2e9c3d3d1cbfabc',1,'test.h']]],
   ['degree',['DEGREE',['../norx_8c.html#a5d88b17d70c985f2f2b8e987037fd6dd',1,'norx.c']]],
   ['die',['die',['../warpcore_2lib_2include_2warpcore_2util_8h.html#a0b2164ee75646f16a7388a36e6800c35',1,'util.h']]],
   ['diet_5fcnt',['diet_cnt',['../diet_8h.html#a088e1a7d256d392c025e192aec45a672',1,'diet.h']]],

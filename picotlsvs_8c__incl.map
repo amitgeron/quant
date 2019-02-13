@@ -1,8 +1,8 @@
 <map id="deps/picotls/picotlsvs/picotlsvs/picotlsvs.c" name="deps/picotls/picotlsvs/picotlsvs/picotlsvs.c">
 <area shape="rect" id="node5" href="$wincompat_8h.html" title="../picotls/wincompat.h" alt="" coords="315,104,465,131"/>
-<area shape="rect" id="node9" href="$picotls_8h.html" title="../../include/picotls.h" alt="" coords="493,187,632,213"/>
-<area shape="rect" id="node13" href="$openssl_8h.html" title="../../include/picotls\l/openssl.h" alt="" coords="695,97,824,138"/>
-<area shape="rect" id="node18" href="$minicrypto_8h.html" title="../../include/picotls\l/minicrypto.h" alt="" coords="542,97,671,138"/>
-<area shape="rect" id="node19" href="$asn1_8h.html" title="../../include/picotls\l/asn1.h" alt="" coords="849,97,977,138"/>
-<area shape="rect" id="node20" href="$pembase64_8h.html" title="../../include/picotls\l/pembase64.h" alt="" coords="1002,97,1131,138"/>
+<area shape="rect" id="node10" href="$picotls_8h.html" title="../../include/picotls.h" alt="" coords="529,187,668,213"/>
+<area shape="rect" id="node14" href="$openssl_8h.html" title="../../include/picotls\l/openssl.h" alt="" coords="695,97,824,138"/>
+<area shape="rect" id="node19" href="$minicrypto_8h.html" title="../../include/picotls\l/minicrypto.h" alt="" coords="542,97,671,138"/>
+<area shape="rect" id="node20" href="$asn1_8h.html" title="../../include/picotls\l/asn1.h" alt="" coords="849,97,977,138"/>
+<area shape="rect" id="node21" href="$pembase64_8h.html" title="../../include/picotls\l/pembase64.h" alt="" coords="1002,97,1131,138"/>
 </map>

@@ -15,8 +15,10 @@ var searchData=
   ['depth',['depth',['../structks__isort__stack__t.html#a75d6ac2c7951eea04919a0c46cbfeef5',1,'ks_isort_stack_t']]],
   ['digest',['digest',['../structcf__chash.html#ab2c5b45d818c0699eb98303e4aa85fff',1,'cf_chash']]],
   ['digest_5fsize',['digest_size',['../structst__ptls__hash__algorithm__t.html#a20aac0b6277eca956fbd88f871bdde36',1,'st_ptls_hash_algorithm_t']]],
+  ['dip',['dip',['../structw__tuple.html#a4637419f6babbb5cacde0cb224a03116',1,'w_tuple']]],
   ['disable_5fmigration',['disable_migration',['../structq__conn__conf.html#a33794507b37d4e6646c4f94a21fea5ed',1,'q_conn_conf::disable_migration()'],['../structtransport__params.html#a40bee6f6291254f7704bf8c6f0680561',1,'transport_params::disable_migration()']]],
   ['dispose_5fcrypto',['dispose_crypto',['../structst__ptls__aead__context__t.html#af01d9583d257d95708246970bc78b514',1,'st_ptls_aead_context_t']]],
+  ['dmac',['dmac',['../structw__sock.html#ac5c3564694fc802eae06239625334bdb',1,'w_sock']]],
   ['do_5fdecrypt',['do_decrypt',['../structst__ptls__aead__context__t.html#a96ea72bb852a8fcee54ed0d1dab942b3',1,'st_ptls_aead_context_t']]],
   ['do_5fdispose',['do_dispose',['../structst__ptls__cipher__context__t.html#a12a884b0d156b21e143121e462cf3aec',1,'st_ptls_cipher_context_t']]],
   ['do_5fencrypt_5ffinal',['do_encrypt_final',['../structst__ptls__aead__context__t.html#a44f606086b767744ece15f652b85d3b5',1,'st_ptls_aead_context_t']]],
@@ -27,7 +29,7 @@ var searchData=
   ['done',['done',['../inetd_8c.html#a1d39aac66e12dae50a24cd7a9100ef33',1,'done():&#160;inetd.c'],['../ping_8c.html#a1d39aac66e12dae50a24cd7a9100ef33',1,'done():&#160;ping.c']]],
   ['done_5freading',['done_reading',['../structkurl__t.html#a3592476f9f0c1a236fc93bf9e32d7e49',1,'kurl_t']]],
   ['double_5fjacobian',['double_jacobian',['../structuECC__Curve__t.html#a783dbc180460b56826128f8ce05108f1',1,'uECC_Curve_t']]],
-  ['dport',['dport',['../structudp__hdr.html#a237bbfa523557d865a0d7d8570ae8afc',1,'udp_hdr']]],
+  ['dport',['dport',['../structw__tuple.html#a7092c63801a3772abe1a717c92fc49ec',1,'w_tuple::dport()'],['../structudp__hdr.html#a237bbfa523557d865a0d7d8570ae8afc',1,'udp_hdr::dport()']]],
   ['drvname',['drvname',['../structw__engine.html#a1f420dedb71f1598851268447a68deb7',1,'w_engine']]],
   ['dst',['dst',['../structeth__hdr.html#a62491dbb603459d3b23060cd05944752',1,'eth_hdr::dst()'],['../structip__hdr.html#a8100327fc0ab98d0f4e45a5b461e3706',1,'ip_hdr::dst()']]]
 ];

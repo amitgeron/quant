@@ -99,7 +99,7 @@ Collaboration diagram for w_iov:</div>
 <div class="dyncontent">
 <div class="center"><img src="structw__iov__coll__graph.png" border="0" usemap="#w__iov_coll__map" alt="Collaboration graph"/></div>
 <map name="w__iov_coll__map" id="w__iov_coll__map">
-<area shape="rect" id="node2" href="structw__engine.html" title="A warpcore backend engine. " alt="" coords="51,187,127,213"/><area shape="rect" id="node5" href="structw__sock.html" title="A warpcore socket. " alt="" coords="135,277,201,304"/><area shape="rect" id="node3" href="structw__iov__sq.html" title="A tail queue of w_iov I/O vectors. " alt="" coords="71,5,147,32"/><area shape="rect" id="node4" href="structw__backend.html" title="w_backend" alt="" coords="76,368,164,395"/><area shape="rect" id="node6" href="structw__sockopt.html" title="Socket options. " alt="" coords="205,187,291,213"/><area shape="rect" id="node7" href="structw__hdr.html" title="A warpcore template packet header structure. " alt="" coords="315,187,372,213"/><area shape="rect" id="node8" href="structudp__hdr.html" title="A representation of a UDP header; see RFC768. " alt="" coords="223,96,291,123"/><area shape="rect" id="node9" href="structip__hdr.html" title="An IPv4 header representation; see RFC791 " alt="" coords="315,96,372,123"/><area shape="rect" id="node10" href="structeth__hdr.html" title="An Ethernet II MAC header. " alt="" coords="397,96,461,123"/></map>
+<area shape="rect" id="node2" href="structw__engine.html" title="A warpcore backend engine. " alt="" coords="51,187,127,213"/><area shape="rect" id="node5" href="structw__sock.html" title="A warpcore socket. " alt="" coords="135,277,201,304"/><area shape="rect" id="node3" href="structw__iov__sq.html" title="A tail queue of w_iov I/O vectors. " alt="" coords="71,5,147,32"/><area shape="rect" id="node4" href="structw__backend.html" title="w_backend" alt="" coords="76,368,164,395"/><area shape="rect" id="node6" href="structw__sockopt.html" title="Socket options. " alt="" coords="205,187,291,213"/><area shape="rect" id="node7" href="structw__tuple.html" title="w_tuple" alt="" coords="315,187,381,213"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -146,7 +146,7 @@ Data Fields</h2></td></tr>
 <p>It is mostly a pointer to the first UDP payload byte contained in a netmap packet buffer, together with some associated meta data.</p>
 <p>The meta data consists of the length of the payload data, the sender IPv4 address and port number, the DSCP and ECN bits associated with the IPv4 packet in which the payload arrived, and the netmap arrival timestamp.</p>
 <p>The <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> structure also contains a pointer to the next I/O vector, which can be used to chain together longer data items for use with <a class="el" href="warpcore_8h.html#af21a4e848c9199be729d01d20b8eea3d" title="Return any new data that has been received on a socket by appending it to the w_iov tail queue i...">w_rx()</a> and <a class="el" href="warpcore_8h.html#ac4f053bd8ffef52d164823134d732f51" title="Loops over the w_iov structures in the w_iov_sq o, sending them all over w_sock s. ">w_tx()</a>. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#_a51">client.c</a>, and <a class="el" href="server_8c-example.html#_a21">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#_a50">client.c</a>, and <a class="el" href="server_8c-example.html#_a21">server.c</a>.</dd>
 </dl></div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a9da11b4de4cb105881cf19a0d60f54ee"></a>
 <div class="memitem">
@@ -192,7 +192,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Start of payload data. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a53">client.c</a>, and <a class="el" href="server_8c-example.html#a23">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a52">client.c</a>, and <a class="el" href="server_8c-example.html#a23">server.c</a>.</dd>
 </dl>
 </div>
 </div>
@@ -250,7 +250,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Length of payload data. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a54">client.c</a>, and <a class="el" href="server_8c-example.html#a24">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a53">client.c</a>, and <a class="el" href="server_8c-example.html#a24">server.c</a>.</dd>
 </dl>
 </div>
 </div>
@@ -318,7 +318,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 31 2019 23:08:44 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 13 2019 13:06:20 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

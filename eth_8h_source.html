@@ -120,54 +120,88 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &lt;arpa/inet.h&gt;</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &lt;netinet/if_ether.h&gt;</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="warpcore_8h.html">warpcore/warpcore.h</a>&gt;</span> <span class="comment">// IWYU pragma: keep</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">struct </span>netmap_slot;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="structeth__hdr.html">   41</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structeth__hdr.html">eth_hdr</a> {</div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="structeth__hdr.html#a62491dbb603459d3b23060cd05944752">   42</a></span>&#160;    <span class="keyword">struct </span>ether_addr <a class="code" href="structeth__hdr.html#a62491dbb603459d3b23060cd05944752">dst</a>; </div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="structeth__hdr.html#aaa6c08a23be7d9dd8d4cf5ef7fc302f5">   43</a></span>&#160;    <span class="keyword">struct </span>ether_addr <a class="code" href="structeth__hdr.html#aaa6c08a23be7d9dd8d4cf5ef7fc302f5">src</a>; </div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="structeth__hdr.html#ae58e97f701ce21c9cc0b065bbf2fc77c">   44</a></span>&#160;    uint16_t <a class="code" href="structeth__hdr.html#ae58e97f701ce21c9cc0b065bbf2fc77c">type</a>;         </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;} __attribute__((aligned(1)));</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#ifdef WITH_NETMAP</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor"></span><span class="comment">// IWYU pragma: no_include &lt;net/netmap.h&gt;</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#include &lt;net/netmap_user.h&gt;</span> <span class="comment">// IWYU pragma: keep</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="warpcore_8h.html">warpcore/warpcore.h</a>&gt;</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="arp_8h.html">arp.h</a>&quot;</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">struct </span>netmap_slot;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="eth_8h.html#a4b8c8ce23cb47d1e56590f00e0c1b583">   48</a></span>&#160;<span class="preprocessor">#define ETH_TYPE_IP htons(0x0800)  </span></div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="eth_8h.html#a14a88f547fcbf1570273a1582e823f87">   49</a></span>&#160;<span class="preprocessor">#define ETH_TYPE_ARP htons(0x0806) </span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="eth_8h.html#aa5bff04c552a0e07d9cb6358300e69a5">   51</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ETH_ADDR_STRLEN ETHER_ADDR_LEN * 3</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> __attribute__((always_inline, nonnull)) uint8_t *</div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="eth_8h.html#a01df29c04e9962e458497dc6d3ea7da3">   60</a></span>&#160;<a class="code" href="eth_8h.html#a01df29c04e9962e458497dc6d3ea7da3">eth_data</a>(uint8_t * const <a class="code" href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a>)</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;{</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">return</span> buf + <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structeth__hdr.html">eth_hdr</a>);</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="eth_8h.html#a659282bc0d2ea46d2d4817aa9a2f46e7">eth_rx</a>(struct <a class="code" href="structw__engine.html">w_engine</a> * const <a class="code" href="fuzz_8c.html#a8bedaecc1f0b28f6c3ec357ca967b33a">w</a>,</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                            struct netmap_slot * const s,</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                            uint8_t * const <a class="code" href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a>);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#ifndef HAVE_ETHER_NTOA_R</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor"></span><span class="keyword">extern</span> <span class="keywordtype">char</span> * __attribute__((nonnull))</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<a class="code" href="eth_8h.html#a84b1cdcdafabcab37d01ffff5a0e1938">ether_ntoa_r</a>(const struct ether_addr * const addr, <span class="keywordtype">char</span> * const buf);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="structeth__hdr_html_aaa6c08a23be7d9dd8d4cf5ef7fc302f5"><div class="ttname"><a href="structeth__hdr.html#aaa6c08a23be7d9dd8d4cf5ef7fc302f5">eth_hdr::src</a></div><div class="ttdeci">struct ether_addr src</div><div class="ttdoc">Source MAC address. </div><div class="ttdef"><b>Definition:</b> eth.h:43</div></div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="structeth__hdr.html">   50</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structeth__hdr.html">eth_hdr</a> {</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="structeth__hdr.html#a62491dbb603459d3b23060cd05944752">   51</a></span>&#160;    <span class="keyword">struct </span>ether_addr <a class="code" href="structeth__hdr.html#a62491dbb603459d3b23060cd05944752">dst</a>; </div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="structeth__hdr.html#aaa6c08a23be7d9dd8d4cf5ef7fc302f5">   52</a></span>&#160;    <span class="keyword">struct </span>ether_addr <a class="code" href="structeth__hdr.html#aaa6c08a23be7d9dd8d4cf5ef7fc302f5">src</a>; </div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="structeth__hdr.html#ae58e97f701ce21c9cc0b065bbf2fc77c">   53</a></span>&#160;    uint16_t <a class="code" href="structeth__hdr.html#ae58e97f701ce21c9cc0b065bbf2fc77c">type</a>;         </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;} __attribute__((aligned(1)));</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="eth_8h.html#a4b8c8ce23cb47d1e56590f00e0c1b583">   57</a></span>&#160;<span class="preprocessor">#define ETH_TYPE_IP htons(0x0800)  </span></div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="eth_8h.html#a14a88f547fcbf1570273a1582e823f87">   58</a></span>&#160;<span class="preprocessor">#define ETH_TYPE_ARP htons(0x0806) </span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="eth_8h.html#aa5bff04c552a0e07d9cb6358300e69a5">   60</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ETH_ADDR_STRLEN ETHER_ADDR_LEN * 3</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> __attribute__((always_inline, nonnull)) uint8_t *</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="eth_8h.html#a01df29c04e9962e458497dc6d3ea7da3">   69</a></span>&#160;<a class="code" href="eth_8h.html#a01df29c04e9962e458497dc6d3ea7da3">eth_data</a>(uint8_t * const <a class="code" href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a>)</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;{</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">return</span> buf + <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structeth__hdr.html">eth_hdr</a>);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="eth_8h.html#a659282bc0d2ea46d2d4817aa9a2f46e7">eth_rx</a>(struct <a class="code" href="structw__engine.html">w_engine</a> * const <a class="code" href="fuzz_8c.html#a8bedaecc1f0b28f6c3ec357ca967b33a">w</a>,</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                            struct netmap_slot * const s,</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                            uint8_t * const <a class="code" href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a>);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">#ifndef HAVE_ETHER_NTOA_R</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor"></span><span class="keyword">extern</span> <span class="keywordtype">char</span> * __attribute__((nonnull))</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<a class="code" href="eth_8h.html#a84b1cdcdafabcab37d01ffff5a0e1938">ether_ntoa_r</a>(const struct ether_addr * const addr, <span class="keywordtype">char</span> * const buf);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#ifdef WITH_NETMAP</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> __attribute__((nonnull))</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;mk_eth_hdr(const struct <a class="code" href="structw__sock.html">w_sock</a> * const s, struct <a class="code" href="structw__iov.html">w_iov</a> * const v)</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;{</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keyword">struct </span><a class="code" href="structeth__hdr.html">eth_hdr</a> * <span class="keyword">const</span> eth = (<span class="keywordtype">void</span> *)v-&gt;base;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    eth-&gt;<a class="code" href="structeth__hdr.html#a62491dbb603459d3b23060cd05944752">dst</a> = <a class="code" href="warpcore_8h.html#a7644484ec2768497622b01587fc428ab">w_connected</a>(s) ? s-&gt;dmac : <a class="code" href="arp_8c.html#aad7ca3e847867c4dcc618d034aa42739">arp_who_has</a>(s-&gt;w, v-&gt;ip);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    eth-&gt;<a class="code" href="structeth__hdr.html#aaa6c08a23be7d9dd8d4cf5ef7fc302f5">src</a> = v-&gt;w-&gt;mac;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    eth-&gt;<a class="code" href="structeth__hdr.html#ae58e97f701ce21c9cc0b065bbf2fc77c">type</a> = <a class="code" href="eth_8h.html#a4b8c8ce23cb47d1e56590f00e0c1b583">ETH_TYPE_IP</a>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;}</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">bool</span> __attribute__((nonnull))</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<a class="code" href="eth_8c.html#a81ff5f8f32f3f31da0fa707ebbb69b1b">eth_tx</a>(struct <a class="code" href="structw__iov.html">w_iov</a> * const v, const uint16_t <a class="code" href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a>);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="arp_8h_html"><div class="ttname"><a href="arp_8h.html">arp.h</a></div></div>
+<div class="ttc" id="structeth__hdr_html_aaa6c08a23be7d9dd8d4cf5ef7fc302f5"><div class="ttname"><a href="structeth__hdr.html#aaa6c08a23be7d9dd8d4cf5ef7fc302f5">eth_hdr::src</a></div><div class="ttdeci">struct ether_addr src</div><div class="ttdoc">Source MAC address. </div><div class="ttdef"><b>Definition:</b> eth.h:52</div></div>
 <div class="ttc" id="eth_8h_html_a659282bc0d2ea46d2d4817aa9a2f46e7"><div class="ttname"><a href="eth_8h.html#a659282bc0d2ea46d2d4817aa9a2f46e7">eth_rx</a></div><div class="ttdeci">void eth_rx(struct w_engine *const w, struct netmap_slot *const s, uint8_t *const buf)</div><div class="ttdoc">Receive an Ethernet frame. </div><div class="ttdef"><b>Definition:</b> eth.c:67</div></div>
-<div class="ttc" id="structeth__hdr_html_a62491dbb603459d3b23060cd05944752"><div class="ttname"><a href="structeth__hdr.html#a62491dbb603459d3b23060cd05944752">eth_hdr::dst</a></div><div class="ttdeci">struct ether_addr dst</div><div class="ttdoc">Destination MAC address. </div><div class="ttdef"><b>Definition:</b> eth.h:42</div></div>
+<div class="ttc" id="structeth__hdr_html_a62491dbb603459d3b23060cd05944752"><div class="ttname"><a href="structeth__hdr.html#a62491dbb603459d3b23060cd05944752">eth_hdr::dst</a></div><div class="ttdeci">struct ether_addr dst</div><div class="ttdoc">Destination MAC address. </div><div class="ttdef"><b>Definition:</b> eth.h:51</div></div>
 <div class="ttc" id="warpcore_8h_html"><div class="ttname"><a href="warpcore_8h.html">warpcore.h</a></div></div>
-<div class="ttc" id="eth_8h_html_a01df29c04e9962e458497dc6d3ea7da3"><div class="ttname"><a href="eth_8h.html#a01df29c04e9962e458497dc6d3ea7da3">eth_data</a></div><div class="ttdeci">static uint8_t * eth_data(uint8_t *const buf)</div><div class="ttdoc">Return a pointer to the first data byte inside the Ethernet frame in buf. </div><div class="ttdef"><b>Definition:</b> eth.h:60</div></div>
-<div class="ttc" id="structeth__hdr_html"><div class="ttname"><a href="structeth__hdr.html">eth_hdr</a></div><div class="ttdoc">An Ethernet II MAC header. </div><div class="ttdef"><b>Definition:</b> eth.h:41</div></div>
-<div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:290</div></div>
-<div class="ttc" id="structw__engine_html"><div class="ttname"><a href="structw__engine.html">w_engine</a></div><div class="ttdoc">A warpcore backend engine. </div><div class="ttdef"><b>Definition:</b> warpcore.h:67</div></div>
+<div class="ttc" id="arp_8c_html_aad7ca3e847867c4dcc618d034aa42739"><div class="ttname"><a href="arp_8c.html#aad7ca3e847867c4dcc618d034aa42739">arp_who_has</a></div><div class="ttdeci">struct ether_addr arp_who_has(struct w_engine *const w, const uint32_t dip)</div><div class="ttdoc">Return the Ethernet MAC address for target IP address dip. </div><div class="ttdef"><b>Definition:</b> arp.c:178</div></div>
+<div class="ttc" id="warpcore_8h_html_a7644484ec2768497622b01587fc428ab"><div class="ttname"><a href="warpcore_8h.html#a7644484ec2768497622b01587fc428ab">w_connected</a></div><div class="ttdeci">static bool w_connected(const struct w_sock *const s)</div><div class="ttdoc">Return whether a socket is connected (i.e., w_connect() has been called on it) or not...</div><div class="ttdef"><b>Definition:</b> warpcore.h:409</div></div>
+<div class="ttc" id="structw__iov_html"><div class="ttname"><a href="structw__iov.html">w_iov</a></div><div class="ttdoc">The I/O vector structure that warpcore uses at the center of its API. </div><div class="ttdef"><b>Definition:</b> warpcore.h:151</div></div>
+<div class="ttc" id="structw__sock_html"><div class="ttname"><a href="structw__sock.html">w_sock</a></div><div class="ttdoc">A warpcore socket. </div><div class="ttdef"><b>Definition:</b> warpcore.h:123</div></div>
+<div class="ttc" id="eth_8h_html_a01df29c04e9962e458497dc6d3ea7da3"><div class="ttname"><a href="eth_8h.html#a01df29c04e9962e458497dc6d3ea7da3">eth_data</a></div><div class="ttdeci">static uint8_t * eth_data(uint8_t *const buf)</div><div class="ttdoc">Return a pointer to the first data byte inside the Ethernet frame in buf. </div><div class="ttdef"><b>Definition:</b> eth.h:69</div></div>
+<div class="ttc" id="structeth__hdr_html"><div class="ttname"><a href="structeth__hdr.html">eth_hdr</a></div><div class="ttdoc">An Ethernet II MAC header. </div><div class="ttdef"><b>Definition:</b> eth.h:50</div></div>
+<div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:417</div></div>
+<div class="ttc" id="structw__engine_html"><div class="ttname"><a href="structw__engine.html">w_engine</a></div><div class="ttdoc">A warpcore backend engine. </div><div class="ttdef"><b>Definition:</b> warpcore.h:68</div></div>
 <div class="ttc" id="eth_8h_html_a84b1cdcdafabcab37d01ffff5a0e1938"><div class="ttname"><a href="eth_8h.html#a84b1cdcdafabcab37d01ffff5a0e1938">ether_ntoa_r</a></div><div class="ttdeci">char * ether_ntoa_r(const struct ether_addr *const addr, char *const buf)</div><div class="ttdef"><b>Definition:</b> eth.c:48</div></div>
-<div class="ttc" id="structeth__hdr_html_ae58e97f701ce21c9cc0b065bbf2fc77c"><div class="ttname"><a href="structeth__hdr.html#ae58e97f701ce21c9cc0b065bbf2fc77c">eth_hdr::type</a></div><div class="ttdeci">uint16_t type</div><div class="ttdoc">EtherType of the payload data. </div><div class="ttdef"><b>Definition:</b> eth.h:44</div></div>
-<div class="ttc" id="fuzz_8c_html_a8bedaecc1f0b28f6c3ec357ca967b33a"><div class="ttname"><a href="fuzz_8c.html#a8bedaecc1f0b28f6c3ec357ca967b33a">w</a></div><div class="ttdeci">static struct w_engine w</div><div class="ttdef"><b>Definition:</b> fuzz.c:51</div></div>
+<div class="ttc" id="t_2picotls_8c_html_a7360b55975153b822efc5217b7734e6a"><div class="ttname"><a href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a></div><div class="ttdeci">size_t len</div><div class="ttdef"><b>Definition:</b> picotls.c:418</div></div>
+<div class="ttc" id="eth_8h_html_a4b8c8ce23cb47d1e56590f00e0c1b583"><div class="ttname"><a href="eth_8h.html#a4b8c8ce23cb47d1e56590f00e0c1b583">ETH_TYPE_IP</a></div><div class="ttdeci">#define ETH_TYPE_IP</div><div class="ttdoc">EtherType for IPv4. </div><div class="ttdef"><b>Definition:</b> eth.h:57</div></div>
+<div class="ttc" id="eth_8c_html_a81ff5f8f32f3f31da0fa707ebbb69b1b"><div class="ttname"><a href="eth_8c.html#a81ff5f8f32f3f31da0fa707ebbb69b1b">eth_tx</a></div><div class="ttdeci">bool eth_tx(struct w_iov *const v, const uint16_t len)</div><div class="ttdoc">Places an Ethernet frame into a TX ring. </div><div class="ttdef"><b>Definition:</b> eth.c:111</div></div>
+<div class="ttc" id="structeth__hdr_html_ae58e97f701ce21c9cc0b065bbf2fc77c"><div class="ttname"><a href="structeth__hdr.html#ae58e97f701ce21c9cc0b065bbf2fc77c">eth_hdr::type</a></div><div class="ttdeci">uint16_t type</div><div class="ttdoc">EtherType of the payload data. </div><div class="ttdef"><b>Definition:</b> eth.h:53</div></div>
+<div class="ttc" id="fuzz_8c_html_a8bedaecc1f0b28f6c3ec357ca967b33a"><div class="ttname"><a href="fuzz_8c.html#a8bedaecc1f0b28f6c3ec357ca967b33a">w</a></div><div class="ttdeci">static struct w_engine w</div><div class="ttdef"><b>Definition:</b> fuzz.c:50</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 31 2019 23:08:41 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 13 2019 13:06:16 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

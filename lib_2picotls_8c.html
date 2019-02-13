@@ -627,6 +627,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:a071e62d26b1f0976c9ea50ec5eca71aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">constant-time memcmp  <a href="#a071e62d26b1f0976c9ea50ec5eca71aa">More...</a><br/></td></tr>
 <tr class="separator:a071e62d26b1f0976c9ea50ec5eca71aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a674b849ad3cb04aadeaeaf6385c32337"><td class="memItemLeft" align="right" valign="top">ptls_get_time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2picotls_8c.html#a674b849ad3cb04aadeaeaf6385c32337">ptls_get_time</a> = {<a class="el" href="lib_2picotls_8c.html#a8585bf4362e3a8747e1a1df5a784c057">get_time</a>}</td></tr>
+<tr class="memdesc:a674b849ad3cb04aadeaeaf6385c32337"><td class="mdescLeft">&#160;</td><td class="mdescRight">the default get_time callback  <a href="#a674b849ad3cb04aadeaeaf6385c32337">More...</a><br/></td></tr>
 <tr class="separator:a674b849ad3cb04aadeaeaf6385c32337"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -679,9 +680,9 @@ Variables</h2></td></tr>
 <div class="line"><a class="code" href="picotls_8h.html#aafb85cb09daee5098a0311e1caacd3a4">        ptls_buffer_push16</a>((<a class="code" href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a>), (type));                                                                                         <a class="code" href="picotls_8h.html#a76e57b447560603b8d8ba37d96311941">\</a></div>
 <div class="line"><a class="code" href="picotls_8h.html#a76e57b447560603b8d8ba37d96311941">        ptls_buffer_push_block</a>((<a class="code" href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a>), 2, block);                                                                                   \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0);</div>
-<div class="ttc" id="picotls_8h_html_aafb85cb09daee5098a0311e1caacd3a4"><div class="ttname"><a href="picotls_8h.html#aafb85cb09daee5098a0311e1caacd3a4">ptls_buffer_push16</a></div><div class="ttdeci">#define ptls_buffer_push16(buf, v)</div><div class="ttdef"><b>Definition:</b> picotls.h:754</div></div>
-<div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:290</div></div>
-<div class="ttc" id="picotls_8h_html_a76e57b447560603b8d8ba37d96311941"><div class="ttname"><a href="picotls_8h.html#a76e57b447560603b8d8ba37d96311941">ptls_buffer_push_block</a></div><div class="ttdeci">#define ptls_buffer_push_block(buf, _capacity, block)</div><div class="ttdef"><b>Definition:</b> picotls.h:779</div></div>
+<div class="ttc" id="picotls_8h_html_aafb85cb09daee5098a0311e1caacd3a4"><div class="ttname"><a href="picotls_8h.html#aafb85cb09daee5098a0311e1caacd3a4">ptls_buffer_push16</a></div><div class="ttdeci">#define ptls_buffer_push16(buf, v)</div><div class="ttdef"><b>Definition:</b> picotls.h:767</div></div>
+<div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:417</div></div>
+<div class="ttc" id="picotls_8h_html_a76e57b447560603b8d8ba37d96311941"><div class="ttname"><a href="picotls_8h.html#a76e57b447560603b8d8ba37d96311941">ptls_buffer_push_block</a></div><div class="ttdeci">#define ptls_buffer_push_block(buf, _capacity, block)</div><div class="ttdef"><b>Definition:</b> picotls.h:792</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -719,9 +720,9 @@ Variables</h2></td></tr>
 <div class="line"><a class="code" href="picotls_8h.html#a76e57b447560603b8d8ba37d96311941">        ptls_buffer_push_block</a>((<a class="code" href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a>), 2, block);                                                                                   \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
 <div class="ttc" id="lib_2picotls_8c_html_a779d74c8ae2db8ef91bff146c232c5e0"><div class="ttname"><a href="lib_2picotls_8c.html#a779d74c8ae2db8ef91bff146c232c5e0">PTLS_RECORD_VERSION_MINOR</a></div><div class="ttdeci">#define PTLS_RECORD_VERSION_MINOR</div><div class="ttdef"><b>Definition:</b> picotls.c:39</div></div>
-<div class="ttc" id="picotls_8h_html_aef1dff438cf0c6ee5877ebc86a099ba2"><div class="ttname"><a href="picotls_8h.html#aef1dff438cf0c6ee5877ebc86a099ba2">ptls_buffer_push</a></div><div class="ttdeci">#define ptls_buffer_push(buf,...)</div><div class="ttdef"><b>Definition:</b> picotls.h:748</div></div>
-<div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:290</div></div>
-<div class="ttc" id="picotls_8h_html_a76e57b447560603b8d8ba37d96311941"><div class="ttname"><a href="picotls_8h.html#a76e57b447560603b8d8ba37d96311941">ptls_buffer_push_block</a></div><div class="ttdeci">#define ptls_buffer_push_block(buf, _capacity, block)</div><div class="ttdef"><b>Definition:</b> picotls.h:779</div></div>
+<div class="ttc" id="picotls_8h_html_aef1dff438cf0c6ee5877ebc86a099ba2"><div class="ttname"><a href="picotls_8h.html#aef1dff438cf0c6ee5877ebc86a099ba2">ptls_buffer_push</a></div><div class="ttdeci">#define ptls_buffer_push(buf,...)</div><div class="ttdef"><b>Definition:</b> picotls.h:761</div></div>
+<div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:417</div></div>
+<div class="ttc" id="picotls_8h_html_a76e57b447560603b8d8ba37d96311941"><div class="ttname"><a href="picotls_8h.html#a76e57b447560603b8d8ba37d96311941">ptls_buffer_push_block</a></div><div class="ttdeci">#define ptls_buffer_push_block(buf, _capacity, block)</div><div class="ttdef"><b>Definition:</b> picotls.h:792</div></div>
 <div class="ttc" id="lib_2picotls_8c_html_aacc3f8a0305565370a1a499573247023"><div class="ttname"><a href="lib_2picotls_8c.html#aacc3f8a0305565370a1a499573247023">PTLS_RECORD_VERSION_MAJOR</a></div><div class="ttdeci">#define PTLS_RECORD_VERSION_MAJOR</div><div class="ttdef"><b>Definition:</b> picotls.c:38</div></div>
 </div><!-- fragment -->
 </div>
@@ -771,8 +772,8 @@ Variables</h2></td></tr>
 <div class="line"><a class="code" href="lib_2picotls_8c.html#a7e2a4cbb58b14e3c92529aab5d9a82bf">        decode_open_extensions</a>((src), end, hstype, exttype, block);                                                                <a class="code" href="picotls_8h.html#a7237f8b83ee717d120244b56c3978b00">\</a></div>
 <div class="line"><a class="code" href="picotls_8h.html#a7237f8b83ee717d120244b56c3978b00">        ptls_decode_assert_block_close</a>((src), end);                                                                                \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
-<div class="ttc" id="lib_2picotls_8c_html_a7e2a4cbb58b14e3c92529aab5d9a82bf"><div class="ttname"><a href="lib_2picotls_8c.html#a7e2a4cbb58b14e3c92529aab5d9a82bf">decode_open_extensions</a></div><div class="ttdeci">#define decode_open_extensions(src, end, hstype, exttype, block)</div><div class="ttdef"><b>Definition:</b> picotls.c:698</div></div>
-<div class="ttc" id="picotls_8h_html_a7237f8b83ee717d120244b56c3978b00"><div class="ttname"><a href="picotls_8h.html#a7237f8b83ee717d120244b56c3978b00">ptls_decode_assert_block_close</a></div><div class="ttdeci">#define ptls_decode_assert_block_close(src, end)</div><div class="ttdef"><b>Definition:</b> picotls.h:867</div></div>
+<div class="ttc" id="lib_2picotls_8c_html_a7e2a4cbb58b14e3c92529aab5d9a82bf"><div class="ttname"><a href="lib_2picotls_8c.html#a7e2a4cbb58b14e3c92529aab5d9a82bf">decode_open_extensions</a></div><div class="ttdeci">#define decode_open_extensions(src, end, hstype, exttype, block)</div><div class="ttdef"><b>Definition:</b> picotls.c:722</div></div>
+<div class="ttc" id="picotls_8h_html_a7237f8b83ee717d120244b56c3978b00"><div class="ttname"><a href="picotls_8h.html#a7237f8b83ee717d120244b56c3978b00">ptls_decode_assert_block_close</a></div><div class="ttdeci">#define ptls_decode_assert_block_close(src, end)</div><div class="ttdef"><b>Definition:</b> picotls.h:880</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -834,10 +835,10 @@ Variables</h2></td></tr>
 <div class="line">        });                                                                                                                        \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
 <div class="ttc" id="lib_2picotls_8c_html_a2e4d12962bbbee93619c4d5529f7eaa8"><div class="ttname"><a href="lib_2picotls_8c.html#a2e4d12962bbbee93619c4d5529f7eaa8">init_extension_bitmap</a></div><div class="ttdeci">static void init_extension_bitmap(struct st_ptls_extension_bitmap_t *bitmap, uint8_t hstype)</div><div class="ttdef"><b>Definition:</b> picotls.c:393</div></div>
-<div class="ttc" id="picotls_8h_html_acbf89d0f64e12d4ac9fec82442d5ae6e"><div class="ttname"><a href="picotls_8h.html#acbf89d0f64e12d4ac9fec82442d5ae6e">PTLS_ALERT_ILLEGAL_PARAMETER</a></div><div class="ttdeci">#define PTLS_ALERT_ILLEGAL_PARAMETER</div><div class="ttdef"><b>Definition:</b> picotls.h:104</div></div>
-<div class="ttc" id="lib_2picotls_8c_html_a2d02d6f477c8fa36dfe14c425c884762"><div class="ttname"><a href="lib_2picotls_8c.html#a2d02d6f477c8fa36dfe14c425c884762">ptls_decode16</a></div><div class="ttdeci">int ptls_decode16(uint16_t *value, const uint8_t **src, const uint8_t *end)</div><div class="ttdef"><b>Definition:</b> picotls.c:722</div></div>
+<div class="ttc" id="picotls_8h_html_acbf89d0f64e12d4ac9fec82442d5ae6e"><div class="ttname"><a href="picotls_8h.html#acbf89d0f64e12d4ac9fec82442d5ae6e">PTLS_ALERT_ILLEGAL_PARAMETER</a></div><div class="ttdeci">#define PTLS_ALERT_ILLEGAL_PARAMETER</div><div class="ttdef"><b>Definition:</b> picotls.h:112</div></div>
+<div class="ttc" id="lib_2picotls_8c_html_a2d02d6f477c8fa36dfe14c425c884762"><div class="ttname"><a href="lib_2picotls_8c.html#a2d02d6f477c8fa36dfe14c425c884762">ptls_decode16</a></div><div class="ttdeci">int ptls_decode16(uint16_t *value, const uint8_t **src, const uint8_t *end)</div><div class="ttdef"><b>Definition:</b> picotls.c:746</div></div>
 <div class="ttc" id="lib_2picotls_8c_html_a34a95b1c797fccda74437a42b40e4d46"><div class="ttname"><a href="lib_2picotls_8c.html#a34a95b1c797fccda74437a42b40e4d46">extension_bitmap_is_set</a></div><div class="ttdeci">static int extension_bitmap_is_set(struct st_ptls_extension_bitmap_t *bitmap, uint16_t id)</div><div class="ttdef"><b>Definition:</b> picotls.c:380</div></div>
-<div class="ttc" id="picotls_8h_html_abda1609a9f6aecd016506ecb1d005a7f"><div class="ttname"><a href="picotls_8h.html#abda1609a9f6aecd016506ecb1d005a7f">ptls_decode_open_block</a></div><div class="ttdeci">#define ptls_decode_open_block(src, end, capacity, block)</div><div class="ttdef"><b>Definition:</b> picotls.h:840</div></div>
+<div class="ttc" id="picotls_8h_html_abda1609a9f6aecd016506ecb1d005a7f"><div class="ttname"><a href="picotls_8h.html#abda1609a9f6aecd016506ecb1d005a7f">ptls_decode_open_block</a></div><div class="ttdeci">#define ptls_decode_open_block(src, end, capacity, block)</div><div class="ttdef"><b>Definition:</b> picotls.h:853</div></div>
 <div class="ttc" id="structst__ptls__extension__bitmap__t_html"><div class="ttname"><a href="structst__ptls__extension__bitmap__t.html">st_ptls_extension_bitmap_t</a></div><div class="ttdef"><b>Definition:</b> picotls.c:360</div></div>
 <div class="ttc" id="lib_2picotls_8c_html_aa4e4c33221262bb1e9ffa4605411c02c"><div class="ttname"><a href="lib_2picotls_8c.html#aa4e4c33221262bb1e9ffa4605411c02c">extension_bitmap_set</a></div><div class="ttdeci">static void extension_bitmap_set(struct st_ptls_extension_bitmap_t *bitmap, uint16_t id)</div><div class="ttdef"><b>Definition:</b> picotls.c:387</div></div>
 </div><!-- fragment -->
@@ -883,10 +884,10 @@ Variables</h2></td></tr>
 <div class="line">                              additional_extensions                                                                                \</div>
 <div class="line">                          } <span class="keywordflow">while</span> (0);                                                                                             \</div>
 <div class="line">                      })</div>
-<div class="ttc" id="lib_2picotls_8c_html_af5ebbfeed7ce9ad065dab3e5edf54d26"><div class="ttname"><a href="lib_2picotls_8c.html#af5ebbfeed7ce9ad065dab3e5edf54d26">buffer_push_extension</a></div><div class="ttdeci">#define buffer_push_extension(buf, type, block)</div><div class="ttdef"><b>Definition:</b> picotls.c:692</div></div>
+<div class="ttc" id="lib_2picotls_8c_html_af5ebbfeed7ce9ad065dab3e5edf54d26"><div class="ttname"><a href="lib_2picotls_8c.html#af5ebbfeed7ce9ad065dab3e5edf54d26">buffer_push_extension</a></div><div class="ttdeci">#define buffer_push_extension(buf, type, block)</div><div class="ttdef"><b>Definition:</b> picotls.c:716</div></div>
 <div class="ttc" id="lib_2picotls_8c_html_a4f593910a4ee739d7fe0e7c6c4ce52c6"><div class="ttname"><a href="lib_2picotls_8c.html#a4f593910a4ee739d7fe0e7c6c4ce52c6">PTLS_HELLO_RANDOM_SIZE</a></div><div class="ttdeci">#define PTLS_HELLO_RANDOM_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.c:41</div></div>
 <div class="ttc" id="lib_2picotls_8c_html_aaf213edf8ea9693a32144b92f2e8297f"><div class="ttname"><a href="lib_2picotls_8c.html#aaf213edf8ea9693a32144b92f2e8297f">EMIT_SERVER_HELLO</a></div><div class="ttdeci">#define EMIT_SERVER_HELLO(sched, fill_rand, extensions)</div></div>
-<div class="ttc" id="picotls_8h_html_aafb85cb09daee5098a0311e1caacd3a4"><div class="ttname"><a href="picotls_8h.html#aafb85cb09daee5098a0311e1caacd3a4">ptls_buffer_push16</a></div><div class="ttdeci">#define ptls_buffer_push16(buf, v)</div><div class="ttdef"><b>Definition:</b> picotls.h:754</div></div>
+<div class="ttc" id="picotls_8h_html_aafb85cb09daee5098a0311e1caacd3a4"><div class="ttname"><a href="picotls_8h.html#aafb85cb09daee5098a0311e1caacd3a4">ptls_buffer_push16</a></div><div class="ttdeci">#define ptls_buffer_push16(buf, v)</div><div class="ttdef"><b>Definition:</b> picotls.h:767</div></div>
 <div class="ttc" id="lib_2picotls_8c_html_a3f02fa1c0e86e668ae5565513271c1f4"><div class="ttname"><a href="lib_2picotls_8c.html#a3f02fa1c0e86e668ae5565513271c1f4">PTLS_EXTENSION_TYPE_KEY_SHARE</a></div><div class="ttdeci">#define PTLS_EXTENSION_TYPE_KEY_SHARE</div><div class="ttdef"><b>Definition:</b> picotls.c:65</div></div>
 <div class="ttc" id="picotls_8h_html_ac588b1d2fe517759aa70995aa643bd96"><div class="ttname"><a href="picotls_8h.html#ac588b1d2fe517759aa70995aa643bd96">ptls_key_exchange_algorithm_t</a></div><div class="ttdeci">const struct st_ptls_key_exchange_algorithm_t ptls_key_exchange_algorithm_t</div><div class="ttdoc">A key exchange algorithm. </div></div>
 <div class="ttc" id="lib_2picotls_8c_html_a33ea77bdf16d8f230aaaed93c2ebd20e"><div class="ttname"><a href="lib_2picotls_8c.html#a33ea77bdf16d8f230aaaed93c2ebd20e">hello_retry_random</a></div><div class="ttdeci">static const uint8_t hello_retry_random[PTLS_HELLO_RANDOM_SIZE]</div><div class="ttdef"><b>Definition:</b> picotls.c:101</div></div>
@@ -942,16 +943,16 @@ Variables</h2></td></tr>
 <div class="line">            } <span class="keywordflow">while</span> (0);                                                                                                           \</div>
 <div class="line">        });                                                                                                                        \</div>
 <div class="line">    });</div>
-<div class="ttc" id="lib_2picotls_8c_html_af5ebbfeed7ce9ad065dab3e5edf54d26"><div class="ttname"><a href="lib_2picotls_8c.html#af5ebbfeed7ce9ad065dab3e5edf54d26">buffer_push_extension</a></div><div class="ttdeci">#define buffer_push_extension(buf, type, block)</div><div class="ttdef"><b>Definition:</b> picotls.c:692</div></div>
+<div class="ttc" id="lib_2picotls_8c_html_af5ebbfeed7ce9ad065dab3e5edf54d26"><div class="ttname"><a href="lib_2picotls_8c.html#af5ebbfeed7ce9ad065dab3e5edf54d26">buffer_push_extension</a></div><div class="ttdeci">#define buffer_push_extension(buf, type, block)</div><div class="ttdef"><b>Definition:</b> picotls.c:716</div></div>
 <div class="ttc" id="lib_2picotls_8c_html_a4f593910a4ee739d7fe0e7c6c4ce52c6"><div class="ttname"><a href="lib_2picotls_8c.html#a4f593910a4ee739d7fe0e7c6c4ce52c6">PTLS_HELLO_RANDOM_SIZE</a></div><div class="ttdeci">#define PTLS_HELLO_RANDOM_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.c:41</div></div>
-<div class="ttc" id="picotls_8h_html_aef1dff438cf0c6ee5877ebc86a099ba2"><div class="ttname"><a href="picotls_8h.html#aef1dff438cf0c6ee5877ebc86a099ba2">ptls_buffer_push</a></div><div class="ttdeci">#define ptls_buffer_push(buf,...)</div><div class="ttdef"><b>Definition:</b> picotls.h:748</div></div>
+<div class="ttc" id="picotls_8h_html_aef1dff438cf0c6ee5877ebc86a099ba2"><div class="ttname"><a href="picotls_8h.html#aef1dff438cf0c6ee5877ebc86a099ba2">ptls_buffer_push</a></div><div class="ttdeci">#define ptls_buffer_push(buf,...)</div><div class="ttdef"><b>Definition:</b> picotls.h:761</div></div>
 <div class="ttc" id="lib_2picotls_8c_html_ac3aed9c2ae399575c55bf3447b0c72fe"><div class="ttname"><a href="lib_2picotls_8c.html#ac3aed9c2ae399575c55bf3447b0c72fe">ptls_buffer_reserve</a></div><div class="ttdeci">int ptls_buffer_reserve(ptls_buffer_t *buf, size_t delta)</div><div class="ttdoc">reserves space for additional amount of memory </div><div class="ttdef"><b>Definition:</b> picotls.c:487</div></div>
-<div class="ttc" id="picotls_8h_html_a079d5955a7db9c407be4aa1bf8d76f5d"><div class="ttname"><a href="picotls_8h.html#a079d5955a7db9c407be4aa1bf8d76f5d">PTLS_HANDSHAKE_TYPE_SERVER_HELLO</a></div><div class="ttdeci">#define PTLS_HANDSHAKE_TYPE_SERVER_HELLO</div><div class="ttdef"><b>Definition:</b> picotls.h:143</div></div>
-<div class="ttc" id="picotls_8h_html_aafb85cb09daee5098a0311e1caacd3a4"><div class="ttname"><a href="picotls_8h.html#aafb85cb09daee5098a0311e1caacd3a4">ptls_buffer_push16</a></div><div class="ttdeci">#define ptls_buffer_push16(buf, v)</div><div class="ttdef"><b>Definition:</b> picotls.h:754</div></div>
-<div class="ttc" id="picotls_8h_html_a76e57b447560603b8d8ba37d96311941"><div class="ttname"><a href="picotls_8h.html#a76e57b447560603b8d8ba37d96311941">ptls_buffer_push_block</a></div><div class="ttdeci">#define ptls_buffer_push_block(buf, _capacity, block)</div><div class="ttdef"><b>Definition:</b> picotls.h:779</div></div>
+<div class="ttc" id="picotls_8h_html_a079d5955a7db9c407be4aa1bf8d76f5d"><div class="ttname"><a href="picotls_8h.html#a079d5955a7db9c407be4aa1bf8d76f5d">PTLS_HANDSHAKE_TYPE_SERVER_HELLO</a></div><div class="ttdeci">#define PTLS_HANDSHAKE_TYPE_SERVER_HELLO</div><div class="ttdef"><b>Definition:</b> picotls.h:151</div></div>
+<div class="ttc" id="picotls_8h_html_aafb85cb09daee5098a0311e1caacd3a4"><div class="ttname"><a href="picotls_8h.html#aafb85cb09daee5098a0311e1caacd3a4">ptls_buffer_push16</a></div><div class="ttdeci">#define ptls_buffer_push16(buf, v)</div><div class="ttdef"><b>Definition:</b> picotls.h:767</div></div>
+<div class="ttc" id="picotls_8h_html_a76e57b447560603b8d8ba37d96311941"><div class="ttname"><a href="picotls_8h.html#a76e57b447560603b8d8ba37d96311941">ptls_buffer_push_block</a></div><div class="ttdeci">#define ptls_buffer_push_block(buf, _capacity, block)</div><div class="ttdef"><b>Definition:</b> picotls.h:792</div></div>
 <div class="ttc" id="structtls_html"><div class="ttname"><a href="structtls.html">tls</a></div><div class="ttdef"><b>Definition:</b> tls.h:55</div></div>
-<div class="ttc" id="picotls_8h_html_a97c3058a5950b53386d42c9ce41497a2"><div class="ttname"><a href="picotls_8h.html#a97c3058a5950b53386d42c9ce41497a2">ptls_push_message</a></div><div class="ttdeci">#define ptls_push_message(emitter, key_sched, type, block)</div><div class="ttdef"><b>Definition:</b> picotls.h:825</div></div>
-<div class="ttc" id="picotls_8h_html_ae0b9f05d3e5e72718ea7212975b10a67"><div class="ttname"><a href="picotls_8h.html#ae0b9f05d3e5e72718ea7212975b10a67">ptls_buffer_pushv</a></div><div class="ttdeci">#define ptls_buffer_pushv(buf, src, len)</div><div class="ttdef"><b>Definition:</b> picotls.h:742</div></div>
+<div class="ttc" id="picotls_8h_html_a97c3058a5950b53386d42c9ce41497a2"><div class="ttname"><a href="picotls_8h.html#a97c3058a5950b53386d42c9ce41497a2">ptls_push_message</a></div><div class="ttdeci">#define ptls_push_message(emitter, key_sched, type, block)</div><div class="ttdef"><b>Definition:</b> picotls.h:838</div></div>
+<div class="ttc" id="picotls_8h_html_ae0b9f05d3e5e72718ea7212975b10a67"><div class="ttname"><a href="picotls_8h.html#ae0b9f05d3e5e72718ea7212975b10a67">ptls_buffer_pushv</a></div><div class="ttdeci">#define ptls_buffer_pushv(buf, src, len)</div><div class="ttdef"><b>Definition:</b> picotls.h:755</div></div>
 <div class="ttc" id="lib_2picotls_8c_html_a5a3fae246d087ee76e37f6ecb8891c72"><div class="ttname"><a href="lib_2picotls_8c.html#a5a3fae246d087ee76e37f6ecb8891c72">PTLS_EXTENSION_TYPE_SUPPORTED_VERSIONS</a></div><div class="ttdeci">#define PTLS_EXTENSION_TYPE_SUPPORTED_VERSIONS</div><div class="ttdef"><b>Definition:</b> picotls.c:62</div></div>
 </div><!-- fragment -->
 </div>
@@ -1010,10 +1011,10 @@ Variables</h2></td></tr>
 <div class="line">            block                                                                                                                  \</div>
 <div class="line">        }                                                                                                                          \</div>
 <div class="line">        if (offered != NULL) {                                                                                                     \</div>
-<div class="line">            size_t <a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>, j;                                                                                                           \</div>
-<div class="line">            for (i = 0; (cs = offered[<a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>]) != NULL; ++<a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>) {                                                                          \</div>
+<div class="line">            size_t i, j;                                                                                                           \</div>
+<div class="line">            for (i = 0; (cs = offered[i]) != NULL; ++i) {                                                                          \</div>
 <div class="line">                if (preferred == NULL || cs-&gt;hash != preferred-&gt;hash) {                                                            \</div>
-<div class="line">                    for (j = 0; j != <a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>; ++j)                                                                                       \</div>
+<div class="line">                    for (j = 0; j != i; ++j)                                                                                       \</div>
 <div class="line">                        <span class="keywordflow">if</span> (cs-&gt;hash == offered[j]-&gt;hash)                                                                          \</div>
 <div class="line">                            break;                                                                                                 \</div>
 <div class="line">                    if (j == i) {                                                                                                  \</div>
@@ -1024,7 +1025,6 @@ Variables</h2></td></tr>
 <div class="line">        }                                                                                                                          \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
 <div class="ttc" id="picotls_8h_html_af1dea0d2db4d4d0d1e46c4ed9f8f4130"><div class="ttname"><a href="picotls_8h.html#af1dea0d2db4d4d0d1e46c4ed9f8f4130">ptls_cipher_suite_t</a></div><div class="ttdeci">const struct st_ptls_cipher_suite_t ptls_cipher_suite_t</div></div>
-<div class="ttc" id="fuzz_8c_html_a3a555db7b4c043cd63ed7635a21fe107"><div class="ttname"><a href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a></div><div class="ttdeci">static struct netmap_if * i</div><div class="ttdef"><b>Definition:</b> fuzz.c:49</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1542,7 +1542,7 @@ Variables</h2></td></tr>
 <div class="line">        uint8_t <a class="code" href="fuzz_8c.html#a84e99af7d0f536bd90cb3dab5c874749">b</a>[2] = {v &gt;&gt; 8, v &amp; 0xff};                                                                                         \</div>
 <div class="line">        hctx-&gt;update(hctx, b, 2);                                                                                                  \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
-<div class="ttc" id="fuzz_8c_html_a84e99af7d0f536bd90cb3dab5c874749"><div class="ttname"><a href="fuzz_8c.html#a84e99af7d0f536bd90cb3dab5c874749">b</a></div><div class="ttdeci">static struct w_backend b</div><div class="ttdef"><b>Definition:</b> fuzz.c:50</div></div>
+<div class="ttc" id="fuzz_8c_html_a84e99af7d0f536bd90cb3dab5c874749"><div class="ttname"><a href="fuzz_8c.html#a84e99af7d0f536bd90cb3dab5c874749">b</a></div><div class="ttdeci">static struct w_backend b</div><div class="ttdef"><b>Definition:</b> fuzz.c:49</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1576,7 +1576,7 @@ Variables</h2></td></tr>
 <div class="line">        hctx-&gt;update(hctx, &amp;len8, 1);                                                                                              \</div>
 <div class="line">        hctx-&gt;update(hctx, (p), len);                                                                                              \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
-<div class="ttc" id="t_2picotls_8c_html_a7360b55975153b822efc5217b7734e6a"><div class="ttname"><a href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a></div><div class="ttdeci">size_t len</div><div class="ttdef"><b>Definition:</b> picotls.c:291</div></div>
+<div class="ttc" id="t_2picotls_8c_html_a7360b55975153b822efc5217b7734e6a"><div class="ttname"><a href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a></div><div class="ttdeci">size_t len</div><div class="ttdef"><b>Definition:</b> picotls.c:418</div></div>
 <div class="ttc" id="tassert_8h_html_a53022762464514790477ba81ce0ab36a"><div class="ttname"><a href="tassert_8h.html#a53022762464514790477ba81ce0ab36a">assert</a></div><div class="ttdeci">#define assert(expr)</div><div class="ttdef"><b>Definition:</b> tassert.h:27</div></div>
 </div><!-- fragment -->
 </div>
@@ -8547,6 +8547,8 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>the default get_time callback </p>
+
 </div>
 </div>
 <a class="anchor" id="a071e62d26b1f0976c9ea50ec5eca71aa"></a>
@@ -8614,7 +8616,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 31 2019 23:08:43 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 13 2019 13:06:18 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

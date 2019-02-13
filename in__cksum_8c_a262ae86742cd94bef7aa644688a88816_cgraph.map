@@ -1,4 +1,6 @@
 <map id="ip_cksum" name="ip_cksum">
-<area shape="rect" id="node2" href="$in__cksum_8c.html#aaa17fb4a5e6679ec512bab73d6121ecb" title="csum_oc16" alt="" coords="157,5,246,32"/>
-<area shape="rect" id="node3" href="$in__cksum_8c.html#a7ee8c766405745694128ec30e7c82f5a" title="csum_oc16_reduce" alt="" coords="134,56,269,83"/>
+<area shape="rect" id="node2" href="$in__cksum_8c.html#afe46e60c9c3dcec077eb140e7c032c2c" title="csum_oc16_sse" alt="" coords="143,31,260,57"/>
+<area shape="rect" id="node5" href="$in__cksum_8c.html#a7ee8c766405745694128ec30e7c82f5a" title="csum_oc16_reduce" alt="" coords="134,81,269,108"/>
+<area shape="rect" id="node3" href="$in__cksum_8c.html#abdeb03525d2385ea8afe255717a04a8a" title="xmm_shift_left" alt="" coords="321,5,429,32"/>
+<area shape="rect" id="node4" href="$in__cksum_8c.html#abff563ca718f2c5d4012f12af289b5b1" title="xmm_shift_right" alt="" coords="317,56,432,83"/>
 </map>

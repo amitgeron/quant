@@ -13,7 +13,7 @@
 <area shape="rect" id="node35" href="$conn_8c.html#ab983b3d57ee0c84f0e70018a299033a8" title="free_scid" alt="" coords="437,680,512,707"/>
 <area shape="rect" id="node38" href="$conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56" title="free_dcid" alt="" coords="437,579,512,605"/>
 <area shape="rect" id="node6" href="$backend_8h.html#a10352237f3cab978ad3dbe7f25acb8cc" title="The netmap backend performs no operation here. " alt="" coords="604,579,713,605"/>
-<area shape="rect" id="node7" href="$warpcore_8c.html#aaba6abd34e39730ddd4f560b090c6b5f" title="rem_sock" alt="" coords="619,528,698,555"/>
+<area shape="rect" id="node7" href="$warpcore_8c.html#a811255f1e117572d31fd94afa11718a4" title="rem_sock" alt="" coords="619,528,698,555"/>
 <area shape="rect" id="node9" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type t into the diet tree t. " alt="" coords="617,115,700,141"/>
 <area shape="rect" id="node14" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="613,165,704,192"/>
 <area shape="rect" id="node15" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="631,216,687,243"/>

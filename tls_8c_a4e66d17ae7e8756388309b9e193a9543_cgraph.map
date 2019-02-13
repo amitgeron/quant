@@ -46,6 +46,6 @@
 <area shape="rect" id="node43" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="609,995,673,1021"/>
 <area shape="rect" id="node44" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="593,1045,689,1072"/>
 <area shape="rect" id="node45" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="600,1096,683,1123"/>
-<area shape="rect" id="node47" href="$warpcore_8h.html#a7b0a4ce49d35d188ceaaef1076ad831d" title="Allocate a w_iov tail queue for plen payload bytes, for eventual use with w_tx(). ..." alt="" coords="368,1096,459,1123"/>
+<area shape="rect" id="node47" href="$warpcore_8h.html#a7828b02675cf9e9c1465f3162033e22c" title="Allocate a w_iov tail queue for plen payload bytes, for eventual use with w_tx(). ..." alt="" coords="368,1096,459,1123"/>
 <area shape="rect" id="node48" href="$warpcore_8c.html#a8e3e3376b3f23f1a1a8fc4be642f7710" title="Return a spare w_iov from the pool of the given warpcore engine. " alt="" coords="596,1147,687,1173"/>
 </map>

@@ -1,8 +1,8 @@
 <map id="pn_data_space" name="pn_data_space">
-<area shape="rect" id="node2" href="$structpn__space.html" title="pn_space" alt="" coords="5,288,83,315"/>
-<area shape="rect" id="node3" href="$structcipher__ctx.html" title="cipher_ctx" alt="" coords="108,288,189,315"/>
-<area shape="rect" id="node4" href="$structst__ptls__cipher__context__t.html" title="context of a symmetric cipher " alt="" coords="6,147,169,173"/>
+<area shape="rect" id="node2" href="$structpn__space.html" title="pn_space" alt="" coords="5,301,83,328"/>
+<area shape="rect" id="node3" href="$structcipher__ctx.html" title="cipher_ctx" alt="" coords="108,301,189,328"/>
+<area shape="rect" id="node4" href="$structst__ptls__cipher__context__t.html" title="context of a symmetric cipher " alt="" coords="6,160,169,187"/>
 <area shape="rect" id="node5" href="$structst__ptls__cipher__algorithm__t.html" title="a symmetric cipher " alt="" coords="58,5,232,32"/>
-<area shape="rect" id="node7" href="$structst__ptls__aead__algorithm__t.html" title="An AEAD cipher. " alt="" coords="142,96,308,123"/>
-<area shape="rect" id="node6" href="$structst__ptls__aead__context__t.html" title="AEAD context. " alt="" coords="176,197,333,224"/>
+<area shape="rect" id="node7" href="$structst__ptls__aead__algorithm__t.html" title="An AEAD cipher. " alt="" coords="142,109,308,136"/>
+<area shape="rect" id="node6" href="$structst__ptls__aead__context__t.html" title="AEAD context. " alt="" coords="176,211,333,237"/>
 </map>

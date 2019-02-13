@@ -1,10 +1,10 @@
 <map id="src/util.c" name="src/util.c">
-<area shape="rect" id="node5" href="$quant_8h.html" title="quant/quant.h" alt="" coords="236,80,337,107"/>
-<area shape="rect" id="node11" href="$warpcore_8h.html" title="warpcore/warpcore.h" alt="" coords="739,80,881,107"/>
-<area shape="rect" id="node9" href="$include_2quant_2config_8h.html" title="quant/config.h" alt="" coords="5,155,109,181"/>
-<area shape="rect" id="node13" href="$deps_2warpcore_2lib_2include_2warpcore_2config_8h.html" title="warpcore/config.h" alt="" coords="812,155,937,181"/>
-<area shape="rect" id="node14" href="$plat_8h.html" title="warpcore/plat.h" alt="" coords="570,155,680,181"/>
-<area shape="rect" id="node16" href="$queue_8h.html" title="warpcore/queue.h" alt="" coords="961,155,1087,181"/>
-<area shape="rect" id="node17" href="$tree_8h.html" title="warpcore/tree.h" alt="" coords="1111,155,1221,181"/>
-<area shape="rect" id="node18" href="$warpcore_2lib_2include_2warpcore_2util_8h.html" title="warpcore/util.h" alt="" coords="1247,155,1353,181"/>
+<area shape="rect" id="node5" href="$quant_8h.html" title="quant/quant.h" alt="" coords="259,80,360,107"/>
+<area shape="rect" id="node11" href="$warpcore_8h.html" title="warpcore/warpcore.h" alt="" coords="718,80,860,107"/>
+<area shape="rect" id="node9" href="$include_2quant_2config_8h.html" title="quant/config.h" alt="" coords="80,155,184,181"/>
+<area shape="rect" id="node13" href="$deps_2warpcore_2lib_2include_2warpcore_2config_8h.html" title="warpcore/config.h" alt="" coords="915,155,1040,181"/>
+<area shape="rect" id="node14" href="$plat_8h.html" title="warpcore/plat.h" alt="" coords="441,155,551,181"/>
+<area shape="rect" id="node16" href="$queue_8h.html" title="warpcore/queue.h" alt="" coords="1064,155,1189,181"/>
+<area shape="rect" id="node17" href="$tree_8h.html" title="warpcore/tree.h" alt="" coords="1213,155,1324,181"/>
+<area shape="rect" id="node18" href="$warpcore_2lib_2include_2warpcore_2util_8h.html" title="warpcore/util.h" alt="" coords="677,155,784,181"/>
 </map>

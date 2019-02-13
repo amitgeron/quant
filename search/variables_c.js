@@ -6,6 +6,7 @@ var searchData=
   ['mac_5fmessage',['mac_message',['../main_8c.html#a29552168ced05fa035eb14c348a9f6f5',1,'main.c']]],
   ['mac_5fmessage_5flen',['mac_message_len',['../main_8c.html#a48d04f9ac7666d497afdafb764dc5dd4',1,'main.c']]],
   ['mask',['mask',['../structw__engine.html#a671ab793dfd9b6f416c126da7660607b',1,'w_engine']]],
+  ['mask_5flast_5fbyte',['mask_last_byte',['../structst__ptls__ffx__context__t.html#aa12515ff7b8581f138ce5b43064e6946',1,'st_ptls_ffx_context_t']]],
   ['max',['max',['../structknaux__t.html#aa5f958aa53b086e967f75d0679969d97',1,'knaux_t::max()'],['../struct__kswq__t.html#a1119b1b89127868e567d0c648576faab',1,'_kswq_t::max()']]],
   ['max_5fack_5fdel',['max_ack_del',['../structtransport__params.html#a1e971701bc5477fc75408d11416d702b',1,'transport_params']]],
   ['max_5fdata',['max_data',['../structtransport__params.html#a5719da04011349b3cdde407995caff03',1,'transport_params::max_data()'],['../structpkt__meta.html#a058300b8f5c60cdde8000077df854e7e',1,'pkt_meta::max_data()']]],

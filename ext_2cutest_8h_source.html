@@ -579,7 +579,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00488"></a><span class="lineno"><a class="line" href="ext_2cutest_8h.html#a3c04138a5bfe5d72780bb7e82a18e627">  488</a></span>&#160;<a class="code" href="arm_2ext_2cutest_8h.html#a840291bc02cba5474a4cb46a9b9566fe">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>** argv)</div>
 <div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;{</div>
 <div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;    <span class="keyword">const</span> <span class="keyword">struct </span><a class="code" href="structtest____.html">test__</a>** tests = NULL;</div>
-<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>, j, n = 0;</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;    <span class="keywordtype">int</span> i, j, n = 0;</div>
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    <span class="keywordtype">int</span> seen_double_dash = 0;</div>
 <div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;</div>
 <div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;    test_argv0__ = argv[0];</div>
@@ -644,13 +644,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;    <span class="comment">/* Count all test units */</span></div>
 <div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;    test_count__ = 0;</div>
-<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;    <span class="keywordflow">for</span>(i = 0; test_list__[<a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>].<a class="code" href="structtest____.html#a281245cf02338e37f036ede1720f4301">func</a> != NULL; i++)</div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;    <span class="keywordflow">for</span>(i = 0; test_list__[i].<a class="code" href="structtest____.html#a281245cf02338e37f036ede1720f4301">func</a> != NULL; i++)</div>
 <div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;        test_count__++;</div>
 <div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;</div>
 <div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;    <span class="comment">/* Run the tests */</span></div>
 <div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;    <span class="keywordflow">if</span>(n == 0) {</div>
 <div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;        <span class="comment">/* Run all tests */</span></div>
-<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;        <span class="keywordflow">for</span>(i = 0; test_list__[<a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>].<a class="code" href="structtest____.html#a281245cf02338e37f036ede1720f4301">func</a> != NULL; i++)</div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;        <span class="keywordflow">for</span>(i = 0; test_list__[i].<a class="code" href="structtest____.html#a281245cf02338e37f036ede1720f4301">func</a> != NULL; i++)</div>
 <div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;            <a class="code" href="ext_2cutest_8h.html#a8c714177210655363f3fe6001c38f648">test_run__</a>(&amp;test_list__[i]);</div>
 <div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span>(!test_skip_mode__) {</div>
 <div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;        <span class="comment">/* Run the listed tests */</span></div>
@@ -660,7 +660,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;        <span class="comment">/* Run all tests except those listed */</span></div>
 <div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;        <span class="keywordtype">int</span> is_skipped;</div>
 <div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;</div>
-<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;        <span class="keywordflow">for</span>(i = 0; test_list__[<a class="code" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>].<a class="code" href="structtest____.html#a281245cf02338e37f036ede1720f4301">func</a> != NULL; i++) {</div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;        <span class="keywordflow">for</span>(i = 0; test_list__[i].<a class="code" href="structtest____.html#a281245cf02338e37f036ede1720f4301">func</a> != NULL; i++) {</div>
 <div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;            is_skipped = 0;</div>
 <div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;            <span class="keywordflow">for</span>(j = 0; j &lt; n; j++) {</div>
 <div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;                <span class="keywordflow">if</span>(tests[j] == &amp;test_list__[i]) {</div>
@@ -734,7 +734,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="ext_2cutest_8h_html_a8d8ee40b2edbdbe47c2248f03ea722b7"><div class="ttname"><a href="ext_2cutest_8h.html#a8d8ee40b2edbdbe47c2248f03ea722b7">test_verbose_level__</a></div><div class="ttdeci">int test_verbose_level__</div><div class="ttdef"><b>Definition:</b> cutest.h:258</div></div>
 <div class="ttc" id="ext_2cutest_8h_html_ab9c98cc448bfdbdfca44906a0869b02f"><div class="ttname"><a href="ext_2cutest_8h.html#ab9c98cc448bfdbdfca44906a0869b02f">test_print_in_color</a></div><div class="ttdeci">size_t test_print_in_color(int color, const char *fmt,...)</div><div class="ttdef"><b>Definition:</b> cutest.h:142</div></div>
 <div class="ttc" id="ext_2cutest_8h_html_a4b17f0a8e0b1f6e23cdecbb05d641302"><div class="ttname"><a href="ext_2cutest_8h.html#a4b17f0a8e0b1f6e23cdecbb05d641302">test_stat_run_units__</a></div><div class="ttdeci">static int test_stat_run_units__</div><div class="ttdef"><b>Definition:</b> cutest.h:254</div></div>
-<div class="ttc" id="fuzz_8c_html_a3a555db7b4c043cd63ed7635a21fe107"><div class="ttname"><a href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a></div><div class="ttdeci">static struct netmap_if * i</div><div class="ttdef"><b>Definition:</b> fuzz.c:49</div></div>
 <div class="ttc" id="ext_2cutest_8h_html_a417fbef0d6e205548b89419be57967f1"><div class="ttname"><a href="ext_2cutest_8h.html#a417fbef0d6e205548b89419be57967f1">test_argv0__</a></div><div class="ttdeci">static char * test_argv0__</div><div class="ttdef"><b>Definition:</b> cutest.h:247</div></div>
 <div class="ttc" id="ext_2cutest_8h_html_aeae80d0027e30bdc411b573c26742652"><div class="ttname"><a href="ext_2cutest_8h.html#aeae80d0027e30bdc411b573c26742652">test_stat_failed_units__</a></div><div class="ttdeci">static int test_stat_failed_units__</div><div class="ttdef"><b>Definition:</b> cutest.h:253</div></div>
 <div class="ttc" id="ext_2cutest_8h_html_ad114fc98c9a604018abcddb03a955323"><div class="ttname"><a href="ext_2cutest_8h.html#ad114fc98c9a604018abcddb03a955323">CUTEST_COLOR_DEFAULT_INTENSIVE__</a></div><div class="ttdeci">#define CUTEST_COLOR_DEFAULT_INTENSIVE__</div><div class="ttdef"><b>Definition:</b> cutest.h:137</div></div>
@@ -742,7 +741,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 31 2019 23:08:40 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 13 2019 13:06:16 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

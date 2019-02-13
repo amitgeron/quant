@@ -1,0 +1,15 @@
+<map id="test_ffx" name="test_ffx">
+<area shape="rect" id="node2" href="$lib_2picotls_8c.html#a229de01597e54002f209266c7b4055aa" title="instantiates a symmetric cipher " alt="" coords="121,5,237,32"/>
+<area shape="rect" id="node3" href="$picotls_8h.html#aa77dcaa131915406a4a03be70e268ff0" title="initializes the IV; this function must be called prior to calling ptls_cipher_encrypt ..." alt="" coords="835,81,944,108"/>
+<area shape="rect" id="node4" href="$picotls_8h.html#a2d3ae9c9f2704efb7abae1637cb97241" title="encrypts given text " alt="" coords="822,208,957,235"/>
+<area shape="rect" id="node5" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="141,183,217,209"/>
+<area shape="rect" id="node6" href="$lib_2picotls_8c.html#ae57011fb3506f15237ead4f3146acc01" title="destroys a symmetric cipher " alt="" coords="121,233,236,260"/>
+<area shape="rect" id="node7" href="$ffx_8h.html#a4f5bbbcbe52d24ab8651dfc554d7d54f" title="ptls_ffx_new" alt="" coords="131,132,227,159"/>
+<area shape="rect" id="node8" href="$ffx_8c.html#a9382d4e75137cf0c084868408cf43fd9" title="The function ptls_ffx_setup_crypto is called by ptls_cipher_new or ptls_ffx_new when initializing an ..." alt="" coords="285,157,432,184"/>
+<area shape="rect" id="node9" href="$picotls_8h.html#a229de01597e54002f209266c7b4055aa" title="instantiates a symmetric cipher " alt="" coords="481,208,597,235"/>
+<area shape="rect" id="node10" href="$ffx_8c.html#a3e89d652273c305fcd5f426e1e55d55c" title="ffx_dispose" alt="" coords="494,259,583,285"/>
+<area shape="rect" id="node12" href="$ffx_8c.html#a0d0585ce5ae79494466d5b1615baee7e" title="ffx_init" alt="" coords="508,157,569,184"/>
+<area shape="rect" id="node13" href="$ffx_8c.html#ad88b68156d6ebdc854c0ee4d40b219a2" title="ffx_encrypt" alt="" coords="495,107,582,133"/>
+<area shape="rect" id="node11" href="$picotls_8h.html#ae57011fb3506f15237ead4f3146acc01" title="destroys a symmetric cipher " alt="" coords="652,259,767,285"/>
+<area shape="rect" id="node14" href="$ffx_8c.html#a75eba25d4e5607f14b912809536f687b" title="ptls_ffx_one_pass" alt="" coords="645,107,773,133"/>
+</map>

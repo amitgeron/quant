@@ -115,7 +115,7 @@ Macros</h2></td></tr>
 <tr class="separator:afc705c9dbb0da9e3abdc6e696813bda5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af57dbbfdbd0a8f5d34537080e63bb200"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="warpcore_2lib_2deps_2klib_2kdq_8h.html#af57dbbfdbd0a8f5d34537080e63bb200">kdq_last</a>(q)&#160;&#160;&#160;((q)-&gt;a[((q)-&gt;front + (q)-&gt;<a class="el" href="t_2picotls_8c.html#a76d971a3c552bc58ba9f0d5fceae9806">count</a> - 1) &amp; (q)-&gt;mask])</td></tr>
 <tr class="separator:af57dbbfdbd0a8f5d34537080e63bb200"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8537e907716a57389938f67e744a3eec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="warpcore_2lib_2deps_2klib_2kdq_8h.html#a8537e907716a57389938f67e744a3eec">kdq_at</a>(q, <a class="el" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>)&#160;&#160;&#160;((q)-&gt;a[((q)-&gt;front + (<a class="el" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>)) &amp; (q)-&gt;mask])</td></tr>
+<tr class="memitem:a8537e907716a57389938f67e744a3eec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="warpcore_2lib_2deps_2klib_2kdq_8h.html#a8537e907716a57389938f67e744a3eec">kdq_at</a>(q, i)&#160;&#160;&#160;((q)-&gt;a[((q)-&gt;front + (i)) &amp; (q)-&gt;mask])</td></tr>
 <tr class="separator:a8537e907716a57389938f67e744a3eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e0071407d89136335e5301d9677766d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="warpcore_2lib_2deps_2klib_2kdq_8h.html#a4e0071407d89136335e5301d9677766d">__KDQ_IMPL</a>(type, SCOPE)</td></tr>
 <tr class="separator:a4e0071407d89136335e5301d9677766d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,7 +190,7 @@ Macros</h2></td></tr>
 <div class="line">        size_t front:58, bits:6, <a class="code" href="t_2picotls_8c.html#a76d971a3c552bc58ba9f0d5fceae9806">count</a>, mask; \</div>
 <div class="line">        type *a; \</div>
 <div class="line">    } kdq_##type##_t;</div>
-<div class="ttc" id="t_2picotls_8c_html_a76d971a3c552bc58ba9f0d5fceae9806"><div class="ttname"><a href="t_2picotls_8c.html#a76d971a3c552bc58ba9f0d5fceae9806">count</a></div><div class="ttdeci">size_t count</div><div class="ttdef"><b>Definition:</b> picotls.c:294</div></div>
+<div class="ttc" id="t_2picotls_8c_html_a76d971a3c552bc58ba9f0d5fceae9806"><div class="ttname"><a href="t_2picotls_8c.html#a76d971a3c552bc58ba9f0d5fceae9806">count</a></div><div class="ttdeci">size_t count</div><div class="ttdef"><b>Definition:</b> picotls.c:421</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -208,12 +208,12 @@ Macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>&#160;</td>
+          <td class="paramname">i&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((q)-&gt;a[((q)-&gt;front + (<a class="el" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>)) &amp; (q)-&gt;mask])</td>
+          <td></td><td>&#160;&#160;&#160;((q)-&gt;a[((q)-&gt;front + (i)) &amp; (q)-&gt;mask])</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -614,7 +614,7 @@ Macros</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 31 2019 23:08:41 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 13 2019 13:06:17 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

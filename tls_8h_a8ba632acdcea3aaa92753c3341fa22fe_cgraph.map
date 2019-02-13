@@ -1,7 +1,7 @@
 <map id="init_tls_ctx" name="init_tls_ctx">
 <area shape="rect" id="node2" href="$openssl_8h.html#af7c98d7cf780b4551d8336dac70d984e" title="ptls_openssl_init_sign\l_certificate" alt="" coords="143,10,294,51"/>
 <area shape="rect" id="node5" href="$minicrypto_8h.html#ab40636777366124e3730ff23727b3620" title="ptls_minicrypto_load\l_private_key" alt="" coords="148,475,289,517"/>
-<area shape="rect" id="node19" href="$picotls_8h.html#a81fafd2f07929ad23e495dc140b61ea2" title="ptls_load_certificates" alt="" coords="146,99,291,125"/>
+<area shape="rect" id="node19" href="$picotls_8h.html#a81fafd2f07929ad23e495dc140b61ea2" title="loads a certificate chain to ptls_context_t::certificates. " alt="" coords="146,99,291,125"/>
 <area shape="rect" id="node21" href="$tls_8c.html#a65f1490238853f0e913186fd5c3311c7" title="read_tickets" alt="" coords="172,547,265,573"/>
 <area shape="rect" id="node22" href="$openssl_8h.html#a7c10d7be7f166665319c04612bbe3839" title="ptls_openssl_init_verify\l_certificate" alt="" coords="139,875,298,917"/>
 <area shape="rect" id="node30" href="$tls_8c.html#a0c58491ff4fb3ef4eaaa05226aea773e" title="on_ch" alt="" coords="190,740,247,767"/>

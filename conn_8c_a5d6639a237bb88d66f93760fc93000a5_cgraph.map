@@ -22,13 +22,13 @@
 <area shape="rect" id="node16" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="732,812,831,839"/>
 <area shape="rect" id="node17" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="931,688,1027,715"/>
 <area shape="rect" id="node18" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="937,1237,1020,1264"/>
-<area shape="rect" id="node20" href="$warpcore_8h.html#a7b0a4ce49d35d188ceaaef1076ad831d" title="Allocate a w_iov tail queue for plen payload bytes, for eventual use with w_tx(). ..." alt="" coords="736,56,827,83"/>
+<area shape="rect" id="node20" href="$warpcore_8h.html#a7828b02675cf9e9c1465f3162033e22c" title="Allocate a w_iov tail queue for plen payload bytes, for eventual use with w_tx(). ..." alt="" coords="736,56,827,83"/>
 <area shape="rect" id="node24" href="$conn_8c.html#a51850847894ca6bd5bd7a3f06fc9f1ff" title="new_conn" alt="" coords="317,947,398,973"/>
 <area shape="rect" id="node42" href="$stream_8c.html#a300bcafbad60488eb0b6b0560eb1b645" title="new_stream" alt="" coords="511,461,604,488"/>
 <area shape="rect" id="node43" href="$tls_8c.html#a00ca93e0c4b1bdde1a2e97a4ef13373e" title="init_tls" alt="" coords="327,1048,387,1075"/>
 <area shape="rect" id="node44" href="$tls_8c.html#a873296f812267d1c3475457cacc3c815" title="init_tp" alt="" coords="329,1099,386,1125"/>
-<area shape="rect" id="node45" href="$warpcore_8h.html#a7431226c76bc23225482a4ced534db6d" title="Return the total payload length of w_iov tail queue c. " alt="" coords="307,1149,408,1176"/>
-<area shape="rect" id="node46" href="$warpcore_8h.html#ab31d23fb4fa64de58aef6c688ea6563a" title="Connect a bound socket to a remote IP address and port. " alt="" coords="315,1200,400,1227"/>
+<area shape="rect" id="node45" href="$warpcore_8h.html#acec933a0dba371ff10bd35397aed87e9" title="Return the total payload length of w_iov tail queue c. " alt="" coords="307,1149,408,1176"/>
+<area shape="rect" id="node46" href="$warpcore_8h.html#aade6adf37002553de6cca667cacd5138" title="Connect a bound socket to a remote IP address and port. " alt="" coords="315,1200,400,1227"/>
 <area shape="rect" id="node25" href="$openssl_8h.html#a2514cd53d441b44478641a1643af622d" title="ptls_openssl_random\l_bytes" alt="" coords="485,969,630,1010"/>
 <area shape="rect" id="node26" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="748,1136,815,1163"/>
 <area shape="rect" id="node27" href="$conn_8c.html#ae5beee50c7414b14d1efb1e3e8ebe1ee" title="add_dcid" alt="" coords="520,1187,595,1213"/>
@@ -38,11 +38,11 @@
 <area shape="rect" id="node31" href="$pn_8c.html#a08111eb107b4ea7f913acc44b761bda0" title="init_pn" alt="" coords="527,1339,587,1365"/>
 <area shape="rect" id="node32" href="$recovery_8c.html#a60784c1a11f52e1b091994e1cfcc4609" title="init_rec" alt="" coords="525,613,589,640"/>
 <area shape="rect" id="node33" href="$conn_8c.html#ae7ad1167799a2920119487df92e81b85" title="tx_w" alt="" coords="532,664,583,691"/>
-<area shape="rect" id="node34" href="$warpcore_8h.html#a69efb41e98d6e0b055364a6991d415a9" title="Get the socket bound to the &lt;sport, dport&gt; pair. " alt="" coords="511,715,603,741"/>
+<area shape="rect" id="node34" href="$warpcore_8h.html#aff4f3655674a1befac066bd33657a8c0" title="Get the socket bound to the given four&#45;tuple &lt;source IP, source port, destination IP..." alt="" coords="511,715,603,741"/>
 <area shape="rect" id="node35" href="$warpcore_8h.html#a8f5c782e319686927159612d3f455b7b" title="Bind a w_sock to the given local UDP port number. " alt="" coords="526,765,589,792"/>
 <area shape="rect" id="node36" href="$conn_8c.html#a69924c834acb11f94887f781e4241397" title="rx" alt="" coords="538,512,577,539"/>
 <area shape="rect" id="node37" href="$warpcore_8h.html#aaf46056f39cb452d908ddac8cf6e57c5" title="Return the file descriptor associated with a w_sock. " alt="" coords="532,816,583,843"/>
-<area shape="rect" id="node38" href="$warpcore_8h.html#a850fab047a974d4b7abfd68ceb87665d" title="Return the local port a w_sock is bound to. " alt="" coords="511,867,604,893"/>
+<area shape="rect" id="node38" href="$warpcore_8h.html#a0d68d8dde6e6c8f97f250c076c2e6b9a" title="Return the local port a w_sock is bound to. " alt="" coords="511,867,604,893"/>
 <area shape="rect" id="node39" href="$conn_8c.html#a8b3f561241f82fe8b840ed7655d13ffe" title="update_conn_conf" alt="" coords="493,1440,621,1467"/>
 <area shape="rect" id="node40" href="$conn_8c.html#ae0f78c7a62de17ad9b4ac4c11dde7c85" title="conns_by_ipnp_ins" alt="" coords="491,917,624,944"/>
 <area shape="rect" id="node41" href="$conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026" title="add_scid" alt="" coords="520,1085,595,1112"/>

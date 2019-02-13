@@ -1,6 +1,9 @@
 var searchData=
 [
   ['ac_5fversion_5fkhash_5fh',['AC_VERSION_KHASH_H',['../klib_2khash_8h.html#abf47cefd83221cd88374ea567f53eaa7',1,'AC_VERSION_KHASH_H():&#160;khash.h'],['../warpcore_2lib_2deps_2klib_2khash_8h.html#abf47cefd83221cd88374ea567f53eaa7',1,'AC_VERSION_KHASH_H():&#160;khash.h']]],
+  ['add_5fffx_5faes128_5falgorithms',['ADD_FFX_AES128_ALGORITHMS',['../test_8h.html#a5e9ceee222e8ffb28c54c648906bb005',1,'test.h']]],
+  ['add_5fffx_5falgorithm',['ADD_FFX_ALGORITHM',['../test_8h.html#ac6292bf49002350c2b0a2bc9387640d6',1,'test.h']]],
+  ['add_5fffx_5fchacha20_5falgorithms',['ADD_FFX_CHACHA20_ALGORITHMS',['../test_8h.html#a1db9624be52f51b3475df6bcf6ed2546',1,'test.h']]],
   ['adj_5fiov_5fto_5fdata',['adj_iov_to_data',['../quic_8h.html#a1aa83c4276fdde72d879fe39db958f53',1,'quic.h']]],
   ['adj_5fiov_5fto_5fstart',['adj_iov_to_start',['../quic_8h.html#a1daef6fec141f3c29f2ef7f04d7f21ad',1,'quic.h']]],
   ['aead_5fbase_5flabel',['AEAD_BASE_LABEL',['../tls_8c.html#a8871189e33afd5b7b436c06a92eaf108',1,'tls.c']]],

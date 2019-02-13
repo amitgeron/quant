@@ -1,6 +1,6 @@
 <map id="rx_pkts" name="rx_pkts">
 <area shape="rect" id="node2" href="$quic_8c.html#a4e51fb8c9ebc5178b5131826ca26fb90" title="write_to_corpus" alt="" coords="140,149,255,175"/>
-<area shape="rect" id="node4" href="$warpcore_8h.html#a25db095b03b04843ed074c604c85c27d" title="Return whether a socket is connected (i.e., w_connect() has been called on it) or not..." alt="" coords="556,123,655,150"/>
+<area shape="rect" id="node4" href="$warpcore_8h.html#a7644484ec2768497622b01587fc428ab" title="Return whether a socket is connected (i.e., w_connect() has been called on it) or not..." alt="" coords="556,123,655,150"/>
 <area shape="rect" id="node5" href="$pkt_8c.html#a77b81d9b1c20c429faab500ffa44d42b" title="dec_pkt_hdr_beginning" alt="" coords="528,351,683,378"/>
 <area shape="rect" id="node7" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="851,377,901,403"/>
 <area shape="rect" id="node8" href="$pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="558,402,653,429"/>
@@ -10,7 +10,7 @@
 <area shape="rect" id="node13" href="$pkt_8c.html#aad4456e4786b31e02e1e4c81e265d442" title="log_pkt" alt="" coords="369,301,433,327"/>
 <area shape="rect" id="node18" href="$conn_8c.html#a370e079f6b872eb4fb70053eb3fd14a3" title="get_conn_by_cid" alt="" coords="137,554,257,581"/>
 <area shape="rect" id="node19" href="$conn_8c.html#a042a55d10b57e402bf5982add4983181" title="get_conn_by_ipnp" alt="" coords="134,883,261,910"/>
-<area shape="rect" id="node21" href="$warpcore_8h.html#a850fab047a974d4b7abfd68ceb87665d" title="Return the local port a w_sock is bound to. " alt="" coords="355,1061,448,1087"/>
+<area shape="rect" id="node21" href="$warpcore_8h.html#a0d68d8dde6e6c8f97f250c076c2e6b9a" title="Return the local port a w_sock is bound to. " alt="" coords="355,1061,448,1087"/>
 <area shape="rect" id="node22" href="$conn_8c.html#a1ae0706a577e85efbcfacf517a329dbe" title="vers_supported" alt="" coords="142,833,253,859"/>
 <area shape="rect" id="node24" href="$conn_8c.html#a51850847894ca6bd5bd7a3f06fc9f1ff" title="new_conn" alt="" coords="157,1355,238,1382"/>
 <area shape="rect" id="node25" href="$openssl_8h.html#a2514cd53d441b44478641a1643af622d" title="ptls_openssl_random\l_bytes" alt="" coords="329,1112,474,1153"/>
@@ -45,7 +45,7 @@
 <area shape="rect" id="node32" href="$pn_8c.html#a08111eb107b4ea7f913acc44b761bda0" title="init_pn" alt="" coords="371,1685,431,1711"/>
 <area shape="rect" id="node33" href="$recovery_8c.html#a60784c1a11f52e1b091994e1cfcc4609" title="init_rec" alt="" coords="369,1229,433,1255"/>
 <area shape="rect" id="node34" href="$conn_8c.html#ae7ad1167799a2920119487df92e81b85" title="tx_w" alt="" coords="376,1279,427,1306"/>
-<area shape="rect" id="node35" href="$warpcore_8h.html#a69efb41e98d6e0b055364a6991d415a9" title="Get the socket bound to the &lt;sport, dport&gt; pair. " alt="" coords="355,1330,447,1357"/>
+<area shape="rect" id="node35" href="$warpcore_8h.html#aff4f3655674a1befac066bd33657a8c0" title="Get the socket bound to the given four&#45;tuple &lt;source IP, source port, destination IP..." alt="" coords="355,1330,447,1357"/>
 <area shape="rect" id="node36" href="$warpcore_8h.html#a8f5c782e319686927159612d3f455b7b" title="Bind a w_sock to the given local UDP port number. " alt="" coords="370,1431,433,1458"/>
 <area shape="rect" id="node37" href="$conn_8c.html#a69924c834acb11f94887f781e4241397" title="rx" alt="" coords="382,1786,421,1813"/>
 </map>

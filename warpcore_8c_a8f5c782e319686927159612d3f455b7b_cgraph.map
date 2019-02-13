@@ -1,9 +1,9 @@
 <map id="w_bind" name="w_bind">
-<area shape="rect" id="node2" href="$warpcore_8c.html#a69efb41e98d6e0b055364a6991d415a9" title="Get the socket bound to the &lt;sport, dport&gt; pair. " alt="" coords="123,5,215,32"/>
-<area shape="rect" id="node3" href="$ip_8h.html#ab8a5dee15d15e993f85e4a49f76a837b" title="Initialize the static fields in an IPv4 ip_hdr header. " alt="" coords="129,56,210,83"/>
-<area shape="rect" id="node4" href="$backend_8h.html#a856d6010ba7df6045798ce2d398d11cc" title="Netmap&#45;specific code to bind a warpcore socket. " alt="" coords="118,107,221,133"/>
-<area shape="rect" id="node8" href="$warpcore_8c.html#ae6cde508226de2f701d477f4f6a5e700" title="ins_sock" alt="" coords="132,157,207,184"/>
-<area shape="rect" id="node5" href="$warpcore_8h.html#a61040d6a1057690cce90907f628a0e16" title="Return a random number. " alt="" coords="284,81,348,108"/>
-<area shape="rect" id="node7" href="$warpcore_8h.html#a69efb41e98d6e0b055364a6991d415a9" title="Get the socket bound to the &lt;sport, dport&gt; pair. " alt="" coords="270,132,362,159"/>
-<area shape="rect" id="node6" href="$klib_2krng_8h.html#a3864312439c8a4b1ca75c8f0cbb9ccff" title="kr_rand_r" alt="" coords="411,81,487,108"/>
+<area shape="rect" id="node2" href="$warpcore_8c.html#aff4f3655674a1befac066bd33657a8c0" title="Get the socket bound to the given four&#45;tuple &lt;source IP, source port, destination IP..." alt="" coords="123,5,215,32"/>
+<area shape="rect" id="node3" href="$backend_8h.html#aa5e273595df14dd0f4ad2899eaebafe8" title="Netmap&#45;specific code to bind a warpcore socket. " alt="" coords="118,56,221,83"/>
+<area shape="rect" id="node8" href="$warpcore_8c.html#a71cc05810f16495f5f6e1889c96e5b6c" title="ins_sock" alt="" coords="132,107,207,133"/>
+<area shape="rect" id="node4" href="$backend__netmap_8c.html#a281a85c5e2760b47cd28cde4e6a5109b" title="Set the socket options. " alt="" coords="270,31,381,57"/>
+<area shape="rect" id="node5" href="$backend__netmap_8c.html#a3be98876f5c17d36d0436ca491ffd43a" title="pick_sport" alt="" coords="284,81,367,108"/>
+<area shape="rect" id="node6" href="$warpcore_8h.html#a4ecb03f6a94c2911ab004803802a27c0" title="Calculate a uniformly distributed random number in [0, upper_bound) avoiding &quot;modulo bias&quot;..." alt="" coords="429,81,544,108"/>
+<area shape="rect" id="node7" href="$klib_2krng_8h.html#a3864312439c8a4b1ca75c8f0cbb9ccff" title="kr_rand_r" alt="" coords="593,81,669,108"/>
 </map>

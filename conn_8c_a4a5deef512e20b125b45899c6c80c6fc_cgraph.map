@@ -8,7 +8,7 @@
 <area shape="rect" id="node33" href="$conn_8c.html#ab983b3d57ee0c84f0e70018a299033a8" title="free_scid" alt="" coords="163,584,237,611"/>
 <area shape="rect" id="node36" href="$conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56" title="free_dcid" alt="" coords="163,635,237,661"/>
 <area shape="rect" id="node3" href="$backend_8h.html#a10352237f3cab978ad3dbe7f25acb8cc" title="The netmap backend performs no operation here. " alt="" coords="329,5,439,32"/>
-<area shape="rect" id="node4" href="$warpcore_8c.html#aaba6abd34e39730ddd4f560b090c6b5f" title="rem_sock" alt="" coords="345,56,423,83"/>
+<area shape="rect" id="node4" href="$warpcore_8c.html#a811255f1e117572d31fd94afa11718a4" title="rem_sock" alt="" coords="345,56,423,83"/>
 <area shape="rect" id="node6" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="343,107,425,133"/>
 <area shape="rect" id="node7" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type t into the diet tree t. " alt="" coords="343,157,425,184"/>
 <area shape="rect" id="node12" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="339,208,429,235"/>

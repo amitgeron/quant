@@ -1,51 +1,51 @@
 <map id="main" name="main">
-<area shape="rect" id="node2" href="$picotest_8c.html#a1597378c4dd23f5925c808318a585071" title="subtest" alt="" coords="617,81,682,108"/>
-<area shape="rect" id="node5" href="$picotest_8c.html#aaa1e239d4270f8486e3ebf26785403ce" title="done_testing" alt="" coords="816,5,912,32"/>
-<area shape="rect" id="node7" href="$minicrypto_8c.html#a7f962a6ac76891fbd28b73fec62623c1" title="test_secp256r1_key\l_exchange" alt="" coords="127,737,265,778"/>
-<area shape="rect" id="node10" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="597,853,702,880"/>
-<area shape="rect" id="node11" href="$minicrypto_8c.html#a8d621019a425918946d56672868fe377" title="test_x25519_key_exchange" alt="" coords="104,803,288,829"/>
-<area shape="rect" id="node12" href="$minicrypto_8c.html#a4301ff0dc06b4be7408a9481f8f23b6d" title="test_secp256r1_sign" alt="" coords="353,1005,495,1032"/>
-<area shape="rect" id="node23" href="$lib_2openssl_8c.html#af035e4d439e5efcf2108c1ebdf82c39f" title="sign_certificate" alt="" coords="141,1448,251,1475"/>
-<area shape="rect" id="node25" href="$minicrypto_8h.html#a216b7dc0eaf7e4fc505386119706373d" title="ptls_minicrypto_init\l_secp256r1sha256_sign\l_certificate" alt="" coords="115,904,277,960"/>
-<area shape="rect" id="node26" href="$minicrypto_8h.html#a35a068ba23b50e2c8ba2dd0a362ed38c" title="ptls_minicrypto_random\l_bytes" alt="" coords="344,1411,504,1453"/>
-<area shape="rect" id="node31" href="$t_2picotls_8c.html#a9068a7a6cd1e3c4658ca19cb7aa420a1" title="test_picotls" alt="" coords="151,448,241,475"/>
-<area shape="rect" id="node45" href="$minicrypto_8c.html#a4a0e183666464b43cfad427c3e37a1dd" title="test_hrr" alt="" coords="163,1183,229,1209"/>
-<area shape="rect" id="node3" href="$picotest_8c.html#a4502a32a6f7952faad96b8e5c758a7f7" title="note" alt="" coords="841,56,887,83"/>
-<area shape="rect" id="node6" href="$picotest_8c.html#ae20801e1b2d9a67918ed1e7c6d847d16" title="_ok" alt="" coords="843,107,885,133"/>
-<area shape="rect" id="node4" href="$picotest_8c.html#a119f8de9482f0ea3ee07d84d8b2d51bf" title="indent" alt="" coords="990,56,1047,83"/>
-<area shape="rect" id="node8" href="$t_2picotls_8c.html#a5753de93c3c4646e0c7ab6669f92983a" title="test_key_exchange" alt="" coords="357,752,491,779"/>
-<area shape="rect" id="node9" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="611,727,687,753"/>
-<area shape="rect" id="node13" href="$uecc_8c.html#a1c71808a34a9341331cf6b5ba7116008" title="secp256r1sha256_sign" alt="" coords="572,904,727,931"/>
-<area shape="rect" id="node18" href="$uECC_8h.html#a3595e0db86484273462b72b76898df7e" title="uECC_secp256r1" alt="" coords="801,1005,927,1032"/>
-<area shape="rect" id="node20" href="$uECC_8c.html#aa2ff6277175a7f996af3fc39c24895a5" title="uECC_make_key" alt="" coords="587,955,712,981"/>
-<area shape="rect" id="node21" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="596,1212,703,1239"/>
-<area shape="rect" id="node22" href="$picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="582,1056,717,1083"/>
-<area shape="rect" id="node14" href="$sha2_8h.html#a59978534d4f783f64f7c9682f5741185" title="cf_sha256_init" alt="" coords="811,853,917,880"/>
-<area shape="rect" id="node15" href="$sha2_8h.html#af10f1c0e0e16af6de778466790d826b6" title="cf_sha256_update" alt="" coords="800,904,928,931"/>
-<area shape="rect" id="node16" href="$sha2_8h.html#afbc4203cf92705c5bf136b55d944ef8b" title="cf_sha256_digest_final" alt="" coords="787,955,941,981"/>
-<area shape="rect" id="node17" href="$uECC_8c.html#ad36359ab5b0c69243105a39e054a85f6" title="uECC_sign" alt="" coords="819,736,909,763"/>
-<area shape="rect" id="node19" href="$picotls_8h.html#a4f664904be533a2bddea5e4c98838497" title="pushes an unsigned bigint " alt="" coords="787,787,941,829"/>
-<area shape="rect" id="node24" href="$lib_2openssl_8c.html#a74358f7c06fb84faf7259d0674e7a7d3" title="do_sign" alt="" coords="391,1477,457,1504"/>
-<area shape="rect" id="node27" href="$drbg_8c.html#a3d96d46fc2b09859f7d161cd321f2b30" title="cf_hash_drbg_sha256\l_needs_reseed" alt="" coords="575,1495,724,1537"/>
-<area shape="rect" id="node28" href="$cifra_8c.html#a086d6f716855b73e24c48cf5672ce607" title="read_entropy" alt="" coords="601,1343,698,1369"/>
-<area shape="rect" id="node29" href="$drbg_8c.html#a5554970693c632001ffcbe19bccb9a7f" title="cf_hash_drbg_sha256_init" alt="" coords="563,1393,736,1420"/>
-<area shape="rect" id="node30" href="$drbg_8c.html#ac688ec437860cba2eb2fb10f10a0d598" title="cf_hash_drbg_sha256_gen" alt="" coords="561,1444,738,1471"/>
-<area shape="rect" id="node32" href="$t_2picotls_8c.html#a3644899ff187840522154be4819669f7" title="test_is_ipaddr" alt="" coords="373,347,475,373"/>
-<area shape="rect" id="node33" href="$t_2picotls_8c.html#a2800909307fbfa8379348901dba33425" title="test_sha256" alt="" coords="377,397,471,424"/>
-<area shape="rect" id="node34" href="$t_2picotls_8c.html#af6cc8bbba36b6bd41e58f8383d09b7bc" title="test_sha384" alt="" coords="377,448,471,475"/>
-<area shape="rect" id="node35" href="$t_2picotls_8c.html#ace63f75583aef8e2fd34e85d2b7f8c6d" title="test_hmac_sha256" alt="" coords="358,245,490,272"/>
-<area shape="rect" id="node36" href="$t_2picotls_8c.html#a62599665cafd0ed5a07622bd22de92bb" title="test_hkdf" alt="" coords="386,701,462,728"/>
-<area shape="rect" id="node37" href="$t_2picotls_8c.html#a9b6c1f08af926c74d096daca3d8d2938" title="test_aes128gcm" alt="" coords="365,499,483,525"/>
-<area shape="rect" id="node38" href="$t_2picotls_8c.html#a32a55a75eec7ababffc7a7042a543b23" title="test_aes256gcm" alt="" coords="365,549,483,576"/>
-<area shape="rect" id="node39" href="$t_2picotls_8c.html#ac1dc831535859fdf5bc0549c2650e3b2" title="test_chacha20poly1305" alt="" coords="345,600,503,627"/>
-<area shape="rect" id="node40" href="$t_2picotls_8c.html#acadd1f0c7f087063d94418a75523c3a4" title="test_aes128ctr" alt="" coords="370,651,478,677"/>
-<area shape="rect" id="node41" href="$t_2picotls_8c.html#aa4460d93cc99e531331bce8717484484" title="test_chacha20" alt="" coords="371,296,477,323"/>
-<area shape="rect" id="node42" href="$t_2picotls_8c.html#a1d4a2a2af20e72986b84cc4a6ab3dd46" title="test_base64_decode" alt="" coords="353,1056,495,1083"/>
-<area shape="rect" id="node43" href="$t_2picotls_8c.html#a4ec235ccaca9e039950b7e4b9d105c20" title="test_fragmented_message" alt="" coords="336,195,512,221"/>
-<area shape="rect" id="node44" href="$t_2picotls_8c.html#a350e958b432465d0b266c4e42e128fbb" title="test_all_handshakes" alt="" coords="353,144,495,171"/>
-<area shape="rect" id="node46" href="$picotls_8h.html#aa142dbaa5d99942c25847febf894a1f4" title="create a object to handle new TLS connection. " alt="" coords="387,1107,461,1133"/>
-<area shape="rect" id="node47" href="$picotls_8h.html#a05579d145dabba449415ded660d855c0" title="proceeds with the handshake, optionally taking some input from peer. " alt="" coords="367,1309,481,1336"/>
-<area shape="rect" id="node48" href="$picotls_8h.html#a17b1f731fc08806d7911d6dbad06a46b" title="encrypts given buffer into multiple TLS records " alt="" coords="385,1157,463,1184"/>
-<area shape="rect" id="node49" href="$picotls_8h.html#ab1279dc8d5b7b0d1dff091118eddc322" title="decrypts the first record within given buffer " alt="" coords="378,1208,470,1235"/>
-<area shape="rect" id="node50" href="$picotls_8h.html#afbd373f266a52a1718a3476b24c3a295" title="releases all resources associated to the object " alt="" coords="388,955,460,981"/>
+<area shape="rect" id="node2" href="$picotest_8c.html#a1597378c4dd23f5925c808318a585071" title="subtest" alt="" coords="617,154,682,181"/>
+<area shape="rect" id="node5" href="$picotest_8c.html#aaa1e239d4270f8486e3ebf26785403ce" title="done_testing" alt="" coords="803,78,899,105"/>
+<area shape="rect" id="node7" href="$minicrypto_8c.html#a7f962a6ac76891fbd28b73fec62623c1" title="test_secp256r1_key\l_exchange" alt="" coords="127,877,265,919"/>
+<area shape="rect" id="node10" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="597,939,702,966"/>
+<area shape="rect" id="node11" href="$minicrypto_8c.html#a8d621019a425918946d56672868fe377" title="test_x25519_key_exchange" alt="" coords="104,826,288,853"/>
+<area shape="rect" id="node12" href="$minicrypto_8c.html#a4301ff0dc06b4be7408a9481f8f23b6d" title="test_secp256r1_sign" alt="" coords="353,1193,495,1219"/>
+<area shape="rect" id="node20" href="$lib_2openssl_8c.html#af035e4d439e5efcf2108c1ebdf82c39f" title="sign_certificate" alt="" coords="141,1585,251,1611"/>
+<area shape="rect" id="node22" href="$minicrypto_8h.html#a216b7dc0eaf7e4fc505386119706373d" title="ptls_minicrypto_init\l_secp256r1sha256_sign\l_certificate" alt="" coords="115,1010,277,1066"/>
+<area shape="rect" id="node23" href="$minicrypto_8h.html#a35a068ba23b50e2c8ba2dd0a362ed38c" title="ptls_minicrypto_random\l_bytes" alt="" coords="344,1548,504,1589"/>
+<area shape="rect" id="node28" href="$t_2picotls_8c.html#a9068a7a6cd1e3c4658ca19cb7aa420a1" title="test_picotls" alt="" coords="151,509,241,535"/>
+<area shape="rect" id="node45" href="$minicrypto_8c.html#a4a0e183666464b43cfad427c3e37a1dd" title="test_hrr" alt="" coords="163,1319,229,1346"/>
+<area shape="rect" id="node3" href="$picotest_8c.html#a4502a32a6f7952faad96b8e5c758a7f7" title="note" alt="" coords="827,179,874,206"/>
+<area shape="rect" id="node6" href="$picotest_8c.html#ae20801e1b2d9a67918ed1e7c6d847d16" title="_ok" alt="" coords="829,129,872,155"/>
+<area shape="rect" id="node4" href="$picotest_8c.html#a119f8de9482f0ea3ee07d84d8b2d51bf" title="indent" alt="" coords="963,129,1021,155"/>
+<area shape="rect" id="node8" href="$t_2picotls_8c.html#a5753de93c3c4646e0c7ab6669f92983a" title="test_key_exchange" alt="" coords="357,889,491,915"/>
+<area shape="rect" id="node9" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="611,838,687,865"/>
+<area shape="rect" id="node13" href="$uecc_8c.html#a1c71808a34a9341331cf6b5ba7116008" title="secp256r1sha256_sign" alt="" coords="572,1091,727,1118"/>
+<area shape="rect" id="node16" href="$uECC_8h.html#a3595e0db86484273462b72b76898df7e" title="uECC_secp256r1" alt="" coords="788,1193,913,1219"/>
+<area shape="rect" id="node17" href="$uECC_8c.html#aa2ff6277175a7f996af3fc39c24895a5" title="uECC_make_key" alt="" coords="587,1142,712,1169"/>
+<area shape="rect" id="node18" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="596,1345,703,1371"/>
+<area shape="rect" id="node19" href="$picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="582,1193,717,1219"/>
+<area shape="rect" id="node14" href="$sha2_8h.html#a59978534d4f783f64f7c9682f5741185" title="cf_sha256_init" alt="" coords="797,1066,904,1093"/>
+<area shape="rect" id="node15" href="$sha2_8h.html#af10f1c0e0e16af6de778466790d826b6" title="cf_sha256_update" alt="" coords="787,1117,915,1143"/>
+<area shape="rect" id="node21" href="$lib_2openssl_8c.html#a74358f7c06fb84faf7259d0674e7a7d3" title="do_sign" alt="" coords="391,1614,457,1641"/>
+<area shape="rect" id="node24" href="$drbg_8c.html#a3d96d46fc2b09859f7d161cd321f2b30" title="cf_hash_drbg_sha256\l_needs_reseed" alt="" coords="575,1632,724,1673"/>
+<area shape="rect" id="node25" href="$cifra_8c.html#a086d6f716855b73e24c48cf5672ce607" title="read_entropy" alt="" coords="601,1479,698,1506"/>
+<area shape="rect" id="node26" href="$drbg_8c.html#a5554970693c632001ffcbe19bccb9a7f" title="cf_hash_drbg_sha256_init" alt="" coords="563,1530,736,1557"/>
+<area shape="rect" id="node27" href="$drbg_8c.html#ac688ec437860cba2eb2fb10f10a0d598" title="cf_hash_drbg_sha256_gen" alt="" coords="561,1581,738,1607"/>
+<area shape="rect" id="node29" href="$t_2picotls_8c.html#a3644899ff187840522154be4819669f7" title="test_is_ipaddr" alt="" coords="373,129,475,155"/>
+<area shape="rect" id="node30" href="$t_2picotls_8c.html#a2800909307fbfa8379348901dba33425" title="test_sha256" alt="" coords="377,179,471,206"/>
+<area shape="rect" id="node31" href="$t_2picotls_8c.html#af6cc8bbba36b6bd41e58f8383d09b7bc" title="test_sha384" alt="" coords="377,230,471,257"/>
+<area shape="rect" id="node32" href="$t_2picotls_8c.html#ace63f75583aef8e2fd34e85d2b7f8c6d" title="test_hmac_sha256" alt="" coords="358,787,490,814"/>
+<area shape="rect" id="node33" href="$t_2picotls_8c.html#a62599665cafd0ed5a07622bd22de92bb" title="test_hkdf" alt="" coords="386,838,462,865"/>
+<area shape="rect" id="node34" href="$t_2picotls_8c.html#a9b6c1f08af926c74d096daca3d8d2938" title="test_aes128gcm" alt="" coords="365,331,483,358"/>
+<area shape="rect" id="node35" href="$t_2picotls_8c.html#a32a55a75eec7ababffc7a7042a543b23" title="test_aes256gcm" alt="" coords="365,382,483,409"/>
+<area shape="rect" id="node36" href="$t_2picotls_8c.html#ac1dc831535859fdf5bc0549c2650e3b2" title="test_chacha20poly1305" alt="" coords="345,433,503,459"/>
+<area shape="rect" id="node37" href="$t_2picotls_8c.html#afa530bc514104c9f35a938b3eb4fd056" title="test_aes128ecb" alt="" coords="367,483,481,510"/>
+<area shape="rect" id="node38" href="$t_2picotls_8c.html#a9983d9c7c6651ade4e1d4b08a7fa4052" title="test_aes256ecb" alt="" coords="367,534,481,561"/>
+<area shape="rect" id="node39" href="$t_2picotls_8c.html#acadd1f0c7f087063d94418a75523c3a4" title="test_aes128ctr" alt="" coords="370,585,478,611"/>
+<area shape="rect" id="node40" href="$t_2picotls_8c.html#aa4460d93cc99e531331bce8717484484" title="test_chacha20" alt="" coords="371,78,477,105"/>
+<area shape="rect" id="node41" href="$t_2picotls_8c.html#a93b50785f56c3d223d01b3903b00701d" title="test_ffx" alt="" coords="391,686,457,713"/>
+<area shape="rect" id="node42" href="$t_2picotls_8c.html#a1d4a2a2af20e72986b84cc4a6ab3dd46" title="test_base64_decode" alt="" coords="353,1091,495,1118"/>
+<area shape="rect" id="node43" href="$t_2picotls_8c.html#a4ec235ccaca9e039950b7e4b9d105c20" title="test_fragmented_message" alt="" coords="336,737,512,763"/>
+<area shape="rect" id="node44" href="$t_2picotls_8c.html#a350e958b432465d0b266c4e42e128fbb" title="test_all_handshakes" alt="" coords="353,635,495,662"/>
+<area shape="rect" id="node46" href="$picotls_8h.html#aa142dbaa5d99942c25847febf894a1f4" title="create a object to handle new TLS connection. " alt="" coords="387,1345,461,1371"/>
+<area shape="rect" id="node47" href="$picotls_8h.html#a05579d145dabba449415ded660d855c0" title="proceeds with the handshake, optionally taking some input from peer. " alt="" coords="367,1395,481,1422"/>
+<area shape="rect" id="node48" href="$picotls_8h.html#a17b1f731fc08806d7911d6dbad06a46b" title="encrypts given buffer into multiple TLS records " alt="" coords="385,1497,463,1523"/>
+<area shape="rect" id="node49" href="$picotls_8h.html#ab1279dc8d5b7b0d1dff091118eddc322" title="decrypts the first record within given buffer " alt="" coords="378,1243,470,1270"/>
+<area shape="rect" id="node50" href="$picotls_8h.html#afbd373f266a52a1718a3476b24c3a295" title="releases all resources associated to the object " alt="" coords="388,1142,460,1169"/>
 </map>

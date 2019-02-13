@@ -129,6 +129,8 @@ This graph shows which files directly or indirectly include this file:</div>
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structst__x25519__key__exchange__t.html">st_x25519_key_exchange_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structaesecb__context__t.html">aesecb_context_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structaesctr__context__t.html">aesctr_context_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structaesgcm__context__t.html">aesgcm_context_t</a></td></tr>
@@ -161,6 +163,18 @@ Functions</h2></td></tr>
 <tr class="separator:a88304208f2c0a30db483e27f29c4c07a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e540f12e16ceeaa32eb7f493b57f5c6"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cifra_8c.html#a4e540f12e16ceeaa32eb7f493b57f5c6">x25519_key_exchange</a> (<a class="el" href="picotls_8h.html#ac588b1d2fe517759aa70995aa643bd96">ptls_key_exchange_algorithm_t</a> *algo, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> *pubkey, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> *secret, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> peerkey)</td></tr>
 <tr class="separator:a4e540f12e16ceeaa32eb7f493b57f5c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9759a8b7d5d44218b3f738dcb8cde12"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cifra_8c.html#ab9759a8b7d5d44218b3f738dcb8cde12">aesecb_dispose</a> (<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *_ctx)</td></tr>
+<tr class="separator:ab9759a8b7d5d44218b3f738dcb8cde12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e810c9ee06c6fd0e004b34d9e3f64e0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cifra_8c.html#a8e810c9ee06c6fd0e004b34d9e3f64e0">aesecb_encrypt</a> (<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *_ctx, void *output, const void *<a class="el" href="norx_8c.html#ad53dd54175d41b74c6be656ddd32c8fd">input</a>, size_t <a class="el" href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a>)</td></tr>
+<tr class="separator:a8e810c9ee06c6fd0e004b34d9e3f64e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fd4c31fde143a95f302a8eb8e64042a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cifra_8c.html#a2fd4c31fde143a95f302a8eb8e64042a">aesecb_decrypt</a> (<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *_ctx, void *output, const void *<a class="el" href="norx_8c.html#ad53dd54175d41b74c6be656ddd32c8fd">input</a>, size_t <a class="el" href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a>)</td></tr>
+<tr class="separator:a2fd4c31fde143a95f302a8eb8e64042a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21dd2987472c8644b1f2e69e5d15564d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cifra_8c.html#a21dd2987472c8644b1f2e69e5d15564d">aesecb_setup_crypto</a> (<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *_ctx, int is_enc, const void *key, size_t key_size)</td></tr>
+<tr class="separator:a21dd2987472c8644b1f2e69e5d15564d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7b94691ef66496bd0da17936cbecd44"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cifra_8c.html#ab7b94691ef66496bd0da17936cbecd44">aes128ecb_setup_crypto</a> (<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *<a class="el" href="test_8h.html#a548aff34430d3b5d6d5ba393b8fdda8f">ctx</a>, int is_enc, const void *key)</td></tr>
+<tr class="separator:ab7b94691ef66496bd0da17936cbecd44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a718f91ac6895078fb348cd9678cc37a0"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cifra_8c.html#a718f91ac6895078fb348cd9678cc37a0">aes256ecb_setup_crypto</a> (<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *<a class="el" href="test_8h.html#a548aff34430d3b5d6d5ba393b8fdda8f">ctx</a>, int is_enc, const void *key)</td></tr>
+<tr class="separator:a718f91ac6895078fb348cd9678cc37a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b5ad0bfc2fe7e5cdc7a83ec25794f8f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cifra_8c.html#a3b5ad0bfc2fe7e5cdc7a83ec25794f8f">aesctr_dispose</a> (<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *_ctx)</td></tr>
 <tr class="separator:a3b5ad0bfc2fe7e5cdc7a83ec25794f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a152351ef43627369baf6f267a3e081fc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cifra_8c.html#a152351ef43627369baf6f267a3e081fc">aesctr_init</a> (<a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *_ctx, const void *iv)</td></tr>
@@ -224,10 +238,14 @@ Variables</h2></td></tr>
 <tr class="separator:a3f030941a6afdb02ed9e6501b26c84c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7286e2dfc1e807e59e605b29aca93cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="picotls_8h.html#ac588b1d2fe517759aa70995aa643bd96">ptls_key_exchange_algorithm_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cifra_8c.html#aa7286e2dfc1e807e59e605b29aca93cf">ptls_minicrypto_x25519</a> = {<a class="el" href="picotls_8h.html#aeda38aa67c6caa40e7ac2f6402031cbe">PTLS_GROUP_X25519</a>, <a class="el" href="cifra_8c.html#a88304208f2c0a30db483e27f29c4c07a">x25519_create_key_exchange</a>, <a class="el" href="cifra_8c.html#a4e540f12e16ceeaa32eb7f493b57f5c6">x25519_key_exchange</a>}</td></tr>
 <tr class="separator:aa7286e2dfc1e807e59e605b29aca93cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0bbafab257fb9f53dc05586432289fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="picotls_8h.html#a3bc4e32d3a4145414426aa251dbf2c77">ptls_cipher_algorithm_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cifra_8c.html#ac0bbafab257fb9f53dc05586432289fb">ptls_minicrypto_aes128ecb</a></td></tr>
+<tr class="separator:ac0bbafab257fb9f53dc05586432289fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b3cae9517fe47735e80303667a80347"><td class="memItemLeft" align="right" valign="top"><a class="el" href="picotls_8h.html#a3bc4e32d3a4145414426aa251dbf2c77">ptls_cipher_algorithm_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cifra_8c.html#a8b3cae9517fe47735e80303667a80347">ptls_minicrypto_aes128ctr</a></td></tr>
 <tr class="separator:a8b3cae9517fe47735e80303667a80347"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a784798c18711e978f0af24deb3166740"><td class="memItemLeft" align="right" valign="top"><a class="el" href="picotls_8h.html#a2b06abcca441f5b988b8d513d5e53086">ptls_aead_algorithm_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cifra_8c.html#a784798c18711e978f0af24deb3166740">ptls_minicrypto_aes128gcm</a></td></tr>
 <tr class="separator:a784798c18711e978f0af24deb3166740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90b90b09d0d2621b152fb554dc6de9e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="picotls_8h.html#a3bc4e32d3a4145414426aa251dbf2c77">ptls_cipher_algorithm_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cifra_8c.html#a90b90b09d0d2621b152fb554dc6de9e7">ptls_minicrypto_aes256ecb</a></td></tr>
+<tr class="separator:a90b90b09d0d2621b152fb554dc6de9e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68b92634b94e233532fdfdbbf7d2ec3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="picotls_8h.html#a3bc4e32d3a4145414426aa251dbf2c77">ptls_cipher_algorithm_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cifra_8c.html#a68b92634b94e233532fdfdbbf7d2ec3f">ptls_minicrypto_aes256ctr</a></td></tr>
 <tr class="separator:a68b92634b94e233532fdfdbbf7d2ec3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2825b294b844fc2002989c902b008aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="picotls_8h.html#a2b06abcca441f5b988b8d513d5e53086">ptls_aead_algorithm_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cifra_8c.html#ad2825b294b844fc2002989c902b008aa">ptls_minicrypto_aes256gcm</a></td></tr>
@@ -526,6 +544,55 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="ab7b94691ef66496bd0da17936cbecd44"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int aes128ecb_setup_crypto </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *&#160;</td>
+          <td class="paramname"><em>ctx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>is_enc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="cifra_8c_ab7b94691ef66496bd0da17936cbecd44_cgraph.png" border="0" usemap="#cifra_8c_ab7b94691ef66496bd0da17936cbecd44_cgraph" alt=""/></div>
+<map name="cifra_8c_ab7b94691ef66496bd0da17936cbecd44_cgraph" id="cifra_8c_ab7b94691ef66496bd0da17936cbecd44_cgraph">
+<area shape="rect" id="node2" href="cifra_8c.html#a21dd2987472c8644b1f2e69e5d15564d" title="aesecb_setup_crypto" alt="" coords="221,233,368,260"/><area shape="rect" id="node3" href="cifra_8c.html#ab9759a8b7d5d44218b3f738dcb8cde12" title="aesecb_dispose" alt="" coords="417,157,533,184"/><area shape="rect" id="node4" href="cifra_8c.html#a8e810c9ee06c6fd0e004b34d9e3f64e0" title="aesecb_encrypt" alt="" coords="417,259,532,285"/><area shape="rect" id="node18" href="cifra_8c.html#a2fd4c31fde143a95f302a8eb8e64042a" title="aesecb_decrypt" alt="" coords="417,208,532,235"/><area shape="rect" id="node24" href="aes_8c.html#a68579a5dde96f9f87fc3a4376423dbbb" title="cf_aes_init" alt="" coords="432,309,517,336"/><area shape="rect" id="node5" href="aes_8c.html#a930782d7618e1e906853819e9632b9f9" title="cf_aes_encrypt" alt="" coords="582,259,693,285"/><area shape="rect" id="node6" href="bitops_8h.html#a4558958d044593a88485bbb67e578453" title="Read 4 bytes from buf, as a 32&#45;bit big endian quantity. " alt="" coords="761,259,844,285"/><area shape="rect" id="node7" href="aes_8c.html#a5217c35a3b2dcb191755197a4b210f81" title="add_round_key" alt="" coords="747,208,858,235"/><area shape="rect" id="node8" href="aes_8c.html#a07252ed8dc9f99ec4b8ec7a24695be9c" title="sub_block" alt="" coords="762,411,843,437"/><area shape="rect" id="node12" href="aes_8c.html#af6b34e22328ecf6d2a5a11880a3480ec" title="shift_rows" alt="" coords="761,360,844,387"/><area shape="rect" id="node13" href="aes_8c.html#a1fef635fd88123ef845f281b24f9d340" title="mix_columns" alt="" coords="753,309,852,336"/><area shape="rect" id="node17" href="bitops_8h.html#abe267c3df623a1ec6be994c93660a368" title="Encode v as a 32&#45;bit big endian quantity into buf. " alt="" coords="760,157,845,184"/><area shape="rect" id="node9" href="aes_8c.html#a50f02623837bf6595dd24a812facec75" title="sub_word" alt="" coords="931,411,1010,437"/><area shape="rect" id="node10" href="bitops_8h.html#a360ff89f3e238489b9c653b14f5d9d6d" title="Select the ath, bth, cth and dth entries from the given table of n values, placing the results into a..." alt="" coords="1081,411,1173,437"/><area shape="rect" id="node11" href="bitops_8h.html#ad8cec031b7eccb98c5c1d0ddb368aad2" title="Product 0xff if x == y, zero otherwise, without branching. " alt="" coords="1224,411,1299,437"/><area shape="rect" id="node14" href="aes_8c.html#aff718a589987150a4fa442c8b2a04ab8" title="mix_column" alt="" coords="925,208,1017,235"/><area shape="rect" id="node15" href="aes_8c.html#a5a699178ef52bc02fd4affcc29bb3899" title="gf_poly_mul2" alt="" coords="1077,157,1176,184"/><area shape="rect" id="node16" href="bitops_8h.html#a112d36091bac741dace00b6663cf8fbe" title="Circularly rotate right x by n bits. " alt="" coords="1099,208,1154,235"/><area shape="rect" id="node19" href="aes_8c.html#abf20f537ba61db2fefa1ff538fa39556" title="cf_aes_decrypt" alt="" coords="582,157,693,184"/><area shape="rect" id="node20" href="aes_8c.html#a3860549f17199bf949717a148abfc966" title="inv_shift_rows" alt="" coords="749,5,856,32"/><area shape="rect" id="node21" href="aes_8c.html#a3f1042615251c06d07714ca93ca05adf" title="inv_sub_block" alt="" coords="750,107,855,133"/><area shape="rect" id="node22" href="aes_8c.html#ae097c6f5915621943da3dd258302ba81" title="inv_mix_columns" alt="" coords="741,56,864,83"/><area shape="rect" id="node23" href="aes_8c.html#a2770a3ba77c322443c6e8956beab7717" title="inv_mix_column" alt="" coords="913,157,1029,184"/><area shape="rect" id="node25" href="aes_8c.html#a570421436f75711d9d03aa724d194180" title="aes_schedule" alt="" coords="586,360,689,387"/><area shape="rect" id="node26" href="boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="612,309,663,336"/></map>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a3474cff27a659209558ea63edd944f01"></a>
 <div class="memitem">
 <div class="memproto">
@@ -570,6 +637,55 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="cifra_8c_a3474cff27a659209558ea63edd944f01_cgraph.png" border="0" usemap="#cifra_8c_a3474cff27a659209558ea63edd944f01_cgraph" alt=""/></div>
 <map name="cifra_8c_a3474cff27a659209558ea63edd944f01_cgraph" id="cifra_8c_a3474cff27a659209558ea63edd944f01_cgraph">
 <area shape="rect" id="node2" href="cifra_8c.html#a3473b68ad56f3765114eaeb937364ca6" title="aesctr_setup_crypto" alt="" coords="217,309,357,336"/><area shape="rect" id="node3" href="cifra_8c.html#a3b5ad0bfc2fe7e5cdc7a83ec25794f8f" title="aesctr_dispose" alt="" coords="410,233,521,260"/><area shape="rect" id="node4" href="cifra_8c.html#a152351ef43627369baf6f267a3e081fc" title="aesctr_init" alt="" coords="424,284,507,311"/><area shape="rect" id="node6" href="cifra_8c.html#ad450ab8c7d0e832272ca0123f36d94a4" title="aesctr_transform" alt="" coords="405,335,525,361"/><area shape="rect" id="node38" href="aes_8c.html#a68579a5dde96f9f87fc3a4376423dbbb" title="cf_aes_init" alt="" coords="423,639,508,665"/><area shape="rect" id="node5" href="modes_8c.html#a1f6c9582ee2afe5bdb9f05ebc801bb5a" title="cf_ctr_init" alt="" coords="586,284,665,311"/><area shape="rect" id="node7" href="modes_8c.html#a7e37c849e1dd00d643a6416f16a949d5" title="cf_ctr_cipher" alt="" coords="577,335,674,361"/><area shape="rect" id="node8" href="blockwise_8c.html#aae1f38dc3f3428ff848bb4f006234197" title="cf_blockwise_xor" alt="" coords="725,335,848,361"/><area shape="rect" id="node36" href="modes_8c.html#a5c38b037423c07a32cab53a80e43dca2" title="ctr_next_block" alt="" coords="733,259,840,285"/><area shape="rect" id="node9" href="chacha20poly1305_8c.html#a5dac71fccc0b105443f2ebf1194a4bf9" title="process" alt="" coords="909,385,977,412"/><area shape="rect" id="node35" href="bitops_8h.html#a31f7f072f29d5a278a573275c14aae7f" title="out = x ^ y. " alt="" coords="912,284,973,311"/><area shape="rect" id="node10" href="chacha20_8c.html#af1634c7720c98a79503033fd7176c3a4" title="cf_chacha20_init_custom" alt="" coords="1037,588,1208,615"/><area shape="rect" id="node13" href="chacha20_8c.html#a87c339940ceaef83402f61b431d4268a" title="cf_chacha20_cipher" alt="" coords="1053,183,1192,209"/><area shape="rect" id="node19" href="poly1305_8c.html#a527c126357d81c557f8875f8990b1a78" title="cf_poly1305_init" alt="" coords="1065,385,1181,412"/><area shape="rect" id="node20" href="handy_8h.html#ad453ec2c6196a70300020477df38ab89" title="Like memset(ptr, 0, len), but not allowed to be removed by compilers. " alt="" coords="1298,335,1387,361"/><area shape="rect" id="node21" href="poly1305_8c.html#ad936dd169a7628b1e1857f9c44f4e1da" title="cf_poly1305_update" alt="" coords="1053,436,1192,463"/><area shape="rect" id="node29" href="bitops_8h.html#ac8d68de87ac89105df4ba7df80abb82e" title="Encode v as a 64&#45;bit little endian quantity into buf. " alt="" coords="1082,537,1163,564"/><area shape="rect" id="node30" href="poly1305_8c.html#a065cff3599c6fa947d59561adef3d7be" title="cf_poly1305_finish" alt="" coords="1057,233,1188,260"/><area shape="rect" id="node34" href="handy_8h.html#aa8704403e669f432e8c2be9712678a6f" title="Returns 1 if len bytes at va equal len bytes at vb, 0 if they do not. " alt="" coords="1087,284,1159,311"/><area shape="rect" id="node11" href="chacha20_8c.html#a60f9e96d533c4d3c2e59d54996284dbd" title="set_key" alt="" coords="1309,588,1377,615"/><area shape="rect" id="node12" href="boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="1539,613,1589,640"/><area shape="rect" id="node14" href="chacha20_8c.html#a228d6f1b83dc3c313ed1be9361830fc3" title="cf_chacha20_next_block" alt="" coords="1259,81,1426,108"/><area shape="rect" id="node15" href="chacha20_8c.html#a341d892e9321f283258d12d142ce7a39" title="cf_chacha20_core" alt="" coords="1500,31,1628,57"/><area shape="rect" id="node18" href="bitops_8h.html#a22ef99af5088ae2a378b67c4190ad64c" title="Increments the integer stored at v (of non&#45;zero length len) with the least significant byte first..." alt="" coords="1534,81,1594,108"/><area shape="rect" id="node16" href="bitops_8h.html#a53b9f25069cc1b9fd72d421715d13aad" title="Read 4 bytes from buf, as a 32&#45;bit little endian quantity. " alt="" coords="1711,5,1790,32"/><area shape="rect" id="node17" href="bitops_8h.html#a467162e933d03f7220bfda986d373992" title="Encode v as a 32&#45;bit little endian quantity into buf. " alt="" coords="1710,56,1791,83"/><area shape="rect" id="node22" href="blockwise_8c.html#ac912f4cce505dcb0ad9ef20fa5ca7103" title="cf_blockwise_accumulate" alt="" coords="1257,436,1429,463"/><area shape="rect" id="node24" href="poly1305_8c.html#aee335a41aef37cc1bbc5435b78943950" title="poly1305_whole_block" alt="" coords="1266,385,1419,412"/><area shape="rect" id="node23" href="blockwise_8c.html#a62cef6847331140b5bb0ed2363b81846" title="cf_blockwise_accumulate\l_final" alt="" coords="1478,454,1650,495"/><area shape="rect" id="node25" href="poly1305_8c.html#a6042e63fc42e5f7d596b55ab1438de7a" title="poly1305_block" alt="" coords="1508,284,1620,311"/><area shape="rect" id="node26" href="poly1305_8c.html#a234cdf38cbd09f9be5b48367cfa5ac73" title="poly1305_add" alt="" coords="1699,233,1802,260"/><area shape="rect" id="node27" href="poly1305_8c.html#acaf640ec3c5238790803dfe21fdd7829" title="poly1305_mul" alt="" coords="1699,284,1802,311"/><area shape="rect" id="node28" href="poly1305_8c.html#aef9d6fdbb049e9e4257e683f1d3d6aca" title="poly1305_min_reduce" alt="" coords="1851,284,1999,311"/><area shape="rect" id="node31" href="poly1305_8c.html#ab4e5f578f7fa2a66abbc26489d6f24ae" title="poly1305_last_block" alt="" coords="1273,284,1413,311"/><area shape="rect" id="node32" href="poly1305_8c.html#ade1fb0d5d604b0534e66938721a70eea" title="poly1305_full_reduce" alt="" coords="1271,183,1415,209"/><area shape="rect" id="node33" href="bitops_8h.html#a85fb2c93be815f2fb0f5854781e6821b" title="Produce 0xffffffff if x == y, zero otherwise, without branching. " alt="" coords="1523,183,1605,209"/><area shape="rect" id="node37" href="bitops_8h.html#a58e993c148d98c97c1f1136479d19dce" title="Increments the integer stored at v (of non&#45;zero length len) with the most significant byte last..." alt="" coords="911,233,975,260"/><area shape="rect" id="node39" href="aes_8c.html#a570421436f75711d9d03aa724d194180" title="aes_schedule" alt="" coords="574,689,677,716"/><area shape="rect" id="node40" href="bitops_8h.html#a4558958d044593a88485bbb67e578453" title="Read 4 bytes from buf, as a 32&#45;bit big endian quantity. " alt="" coords="745,740,828,767"/><area shape="rect" id="node41" href="aes_8c.html#a50f02623837bf6595dd24a812facec75" title="sub_word" alt="" coords="747,689,826,716"/><area shape="rect" id="node42" href="bitops_8h.html#a360ff89f3e238489b9c653b14f5d9d6d" title="Select the ath, bth, cth and dth entries from the given table of n values, placing the results into a..." alt="" coords="897,689,989,716"/><area shape="rect" id="node43" href="bitops_8h.html#ad8cec031b7eccb98c5c1d0ddb368aad2" title="Product 0xff if x == y, zero otherwise, without branching. " alt="" coords="1085,689,1160,716"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a718f91ac6895078fb348cd9678cc37a0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int aes256ecb_setup_crypto </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *&#160;</td>
+          <td class="paramname"><em>ctx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>is_enc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="cifra_8c_a718f91ac6895078fb348cd9678cc37a0_cgraph.png" border="0" usemap="#cifra_8c_a718f91ac6895078fb348cd9678cc37a0_cgraph" alt=""/></div>
+<map name="cifra_8c_a718f91ac6895078fb348cd9678cc37a0_cgraph" id="cifra_8c_a718f91ac6895078fb348cd9678cc37a0_cgraph">
+<area shape="rect" id="node2" href="cifra_8c.html#a21dd2987472c8644b1f2e69e5d15564d" title="aesecb_setup_crypto" alt="" coords="221,233,368,260"/><area shape="rect" id="node3" href="cifra_8c.html#ab9759a8b7d5d44218b3f738dcb8cde12" title="aesecb_dispose" alt="" coords="417,157,533,184"/><area shape="rect" id="node4" href="cifra_8c.html#a8e810c9ee06c6fd0e004b34d9e3f64e0" title="aesecb_encrypt" alt="" coords="417,259,532,285"/><area shape="rect" id="node18" href="cifra_8c.html#a2fd4c31fde143a95f302a8eb8e64042a" title="aesecb_decrypt" alt="" coords="417,208,532,235"/><area shape="rect" id="node24" href="aes_8c.html#a68579a5dde96f9f87fc3a4376423dbbb" title="cf_aes_init" alt="" coords="432,309,517,336"/><area shape="rect" id="node5" href="aes_8c.html#a930782d7618e1e906853819e9632b9f9" title="cf_aes_encrypt" alt="" coords="582,259,693,285"/><area shape="rect" id="node6" href="bitops_8h.html#a4558958d044593a88485bbb67e578453" title="Read 4 bytes from buf, as a 32&#45;bit big endian quantity. " alt="" coords="761,259,844,285"/><area shape="rect" id="node7" href="aes_8c.html#a5217c35a3b2dcb191755197a4b210f81" title="add_round_key" alt="" coords="747,208,858,235"/><area shape="rect" id="node8" href="aes_8c.html#a07252ed8dc9f99ec4b8ec7a24695be9c" title="sub_block" alt="" coords="762,411,843,437"/><area shape="rect" id="node12" href="aes_8c.html#af6b34e22328ecf6d2a5a11880a3480ec" title="shift_rows" alt="" coords="761,360,844,387"/><area shape="rect" id="node13" href="aes_8c.html#a1fef635fd88123ef845f281b24f9d340" title="mix_columns" alt="" coords="753,309,852,336"/><area shape="rect" id="node17" href="bitops_8h.html#abe267c3df623a1ec6be994c93660a368" title="Encode v as a 32&#45;bit big endian quantity into buf. " alt="" coords="760,157,845,184"/><area shape="rect" id="node9" href="aes_8c.html#a50f02623837bf6595dd24a812facec75" title="sub_word" alt="" coords="931,411,1010,437"/><area shape="rect" id="node10" href="bitops_8h.html#a360ff89f3e238489b9c653b14f5d9d6d" title="Select the ath, bth, cth and dth entries from the given table of n values, placing the results into a..." alt="" coords="1081,411,1173,437"/><area shape="rect" id="node11" href="bitops_8h.html#ad8cec031b7eccb98c5c1d0ddb368aad2" title="Product 0xff if x == y, zero otherwise, without branching. " alt="" coords="1224,411,1299,437"/><area shape="rect" id="node14" href="aes_8c.html#aff718a589987150a4fa442c8b2a04ab8" title="mix_column" alt="" coords="925,208,1017,235"/><area shape="rect" id="node15" href="aes_8c.html#a5a699178ef52bc02fd4affcc29bb3899" title="gf_poly_mul2" alt="" coords="1077,157,1176,184"/><area shape="rect" id="node16" href="bitops_8h.html#a112d36091bac741dace00b6663cf8fbe" title="Circularly rotate right x by n bits. " alt="" coords="1099,208,1154,235"/><area shape="rect" id="node19" href="aes_8c.html#abf20f537ba61db2fefa1ff538fa39556" title="cf_aes_decrypt" alt="" coords="582,157,693,184"/><area shape="rect" id="node20" href="aes_8c.html#a3860549f17199bf949717a148abfc966" title="inv_shift_rows" alt="" coords="749,5,856,32"/><area shape="rect" id="node21" href="aes_8c.html#a3f1042615251c06d07714ca93ca05adf" title="inv_sub_block" alt="" coords="750,107,855,133"/><area shape="rect" id="node22" href="aes_8c.html#ae097c6f5915621943da3dd258302ba81" title="inv_mix_columns" alt="" coords="741,56,864,83"/><area shape="rect" id="node23" href="aes_8c.html#a2770a3ba77c322443c6e8956beab7717" title="inv_mix_column" alt="" coords="913,157,1029,184"/><area shape="rect" id="node25" href="aes_8c.html#a570421436f75711d9d03aa724d194180" title="aes_schedule" alt="" coords="586,360,689,387"/><area shape="rect" id="node26" href="boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="612,309,663,336"/></map>
 </div>
 </p>
 
@@ -747,6 +863,195 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="cifra_8c_ad450ab8c7d0e832272ca0123f36d94a4_cgraph.png" border="0" usemap="#cifra_8c_ad450ab8c7d0e832272ca0123f36d94a4_cgraph" alt=""/></div>
 <map name="cifra_8c_ad450ab8c7d0e832272ca0123f36d94a4_cgraph" id="cifra_8c_ad450ab8c7d0e832272ca0123f36d94a4_cgraph">
 <area shape="rect" id="node2" href="modes_8c.html#a7e37c849e1dd00d643a6416f16a949d5" title="cf_ctr_cipher" alt="" coords="174,304,271,331"/><area shape="rect" id="node3" href="blockwise_8c.html#aae1f38dc3f3428ff848bb4f006234197" title="cf_blockwise_xor" alt="" coords="320,272,443,299"/><area shape="rect" id="node31" href="modes_8c.html#a5c38b037423c07a32cab53a80e43dca2" title="ctr_next_block" alt="" coords="328,335,435,361"/><area shape="rect" id="node4" href="chacha20poly1305_8c.html#a5dac71fccc0b105443f2ebf1194a4bf9" title="process" alt="" coords="491,259,559,285"/><area shape="rect" id="node30" href="bitops_8h.html#a31f7f072f29d5a278a573275c14aae7f" title="out = x ^ y. " alt="" coords="495,309,556,336"/><area shape="rect" id="node5" href="chacha20_8c.html#af1634c7720c98a79503033fd7176c3a4" title="cf_chacha20_init_custom" alt="" coords="608,132,779,159"/><area shape="rect" id="node8" href="chacha20_8c.html#a87c339940ceaef83402f61b431d4268a" title="cf_chacha20_cipher" alt="" coords="624,81,763,108"/><area shape="rect" id="node14" href="poly1305_8c.html#a527c126357d81c557f8875f8990b1a78" title="cf_poly1305_init" alt="" coords="635,183,751,209"/><area shape="rect" id="node15" href="handy_8h.html#ad453ec2c6196a70300020477df38ab89" title="Like memset(ptr, 0, len), but not allowed to be removed by compilers. " alt="" coords="869,385,958,412"/><area shape="rect" id="node16" href="poly1305_8c.html#ad936dd169a7628b1e1857f9c44f4e1da" title="cf_poly1305_update" alt="" coords="624,284,763,311"/><area shape="rect" id="node24" href="bitops_8h.html#ac8d68de87ac89105df4ba7df80abb82e" title="Encode v as a 64&#45;bit little endian quantity into buf. " alt="" coords="653,385,734,412"/><area shape="rect" id="node25" href="poly1305_8c.html#a065cff3599c6fa947d59561adef3d7be" title="cf_poly1305_finish" alt="" coords="628,436,759,463"/><area shape="rect" id="node29" href="handy_8h.html#aa8704403e669f432e8c2be9712678a6f" title="Returns 1 if len bytes at va equal len bytes at vb, 0 if they do not. " alt="" coords="657,487,729,513"/><area shape="rect" id="node6" href="chacha20_8c.html#a60f9e96d533c4d3c2e59d54996284dbd" title="set_key" alt="" coords="879,132,947,159"/><area shape="rect" id="node7" href="boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="1109,132,1160,159"/><area shape="rect" id="node9" href="chacha20_8c.html#a228d6f1b83dc3c313ed1be9361830fc3" title="cf_chacha20_next_block" alt="" coords="830,81,997,108"/><area shape="rect" id="node10" href="chacha20_8c.html#a341d892e9321f283258d12d142ce7a39" title="cf_chacha20_core" alt="" coords="1071,31,1199,57"/><area shape="rect" id="node13" href="bitops_8h.html#a22ef99af5088ae2a378b67c4190ad64c" title="Increments the integer stored at v (of non&#45;zero length len) with the least significant byte first..." alt="" coords="1105,81,1165,108"/><area shape="rect" id="node11" href="bitops_8h.html#a53b9f25069cc1b9fd72d421715d13aad" title="Read 4 bytes from buf, as a 32&#45;bit little endian quantity. " alt="" coords="1282,5,1361,32"/><area shape="rect" id="node12" href="bitops_8h.html#a467162e933d03f7220bfda986d373992" title="Encode v as a 32&#45;bit little endian quantity into buf. " alt="" coords="1281,56,1362,83"/><area shape="rect" id="node17" href="blockwise_8c.html#ac912f4cce505dcb0ad9ef20fa5ca7103" title="cf_blockwise_accumulate" alt="" coords="827,284,999,311"/><area shape="rect" id="node19" href="poly1305_8c.html#aee335a41aef37cc1bbc5435b78943950" title="poly1305_whole_block" alt="" coords="837,335,990,361"/><area shape="rect" id="node18" href="blockwise_8c.html#a62cef6847331140b5bb0ed2363b81846" title="cf_blockwise_accumulate\l_final" alt="" coords="1049,251,1221,293"/><area shape="rect" id="node20" href="poly1305_8c.html#a6042e63fc42e5f7d596b55ab1438de7a" title="poly1305_block" alt="" coords="1079,436,1191,463"/><area shape="rect" id="node21" href="poly1305_8c.html#a234cdf38cbd09f9be5b48367cfa5ac73" title="poly1305_add" alt="" coords="1270,487,1373,513"/><area shape="rect" id="node22" href="poly1305_8c.html#acaf640ec3c5238790803dfe21fdd7829" title="poly1305_mul" alt="" coords="1270,436,1373,463"/><area shape="rect" id="node23" href="poly1305_8c.html#aef9d6fdbb049e9e4257e683f1d3d6aca" title="poly1305_min_reduce" alt="" coords="1422,436,1570,463"/><area shape="rect" id="node26" href="poly1305_8c.html#ab4e5f578f7fa2a66abbc26489d6f24ae" title="poly1305_last_block" alt="" coords="843,436,983,463"/><area shape="rect" id="node27" href="poly1305_8c.html#ade1fb0d5d604b0534e66938721a70eea" title="poly1305_full_reduce" alt="" coords="841,537,985,564"/><area shape="rect" id="node28" href="bitops_8h.html#a85fb2c93be815f2fb0f5854781e6821b" title="Produce 0xffffffff if x == y, zero otherwise, without branching. " alt="" coords="1093,588,1176,615"/><area shape="rect" id="node32" href="bitops_8h.html#a58e993c148d98c97c1f1136479d19dce" title="Increments the integer stored at v (of non&#45;zero length len) with the most significant byte last..." alt="" coords="493,360,557,387"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2fd4c31fde143a95f302a8eb8e64042a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void aesecb_decrypt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *&#160;</td>
+          <td class="paramname"><em>_ctx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>output</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="cifra_8c_a2fd4c31fde143a95f302a8eb8e64042a_cgraph.png" border="0" usemap="#cifra_8c_a2fd4c31fde143a95f302a8eb8e64042a_cgraph" alt=""/></div>
+<map name="cifra_8c_a2fd4c31fde143a95f302a8eb8e64042a_cgraph" id="cifra_8c_a2fd4c31fde143a95f302a8eb8e64042a_cgraph">
+<area shape="rect" id="node2" href="aes_8c.html#abf20f537ba61db2fefa1ff538fa39556" title="cf_aes_decrypt" alt="" coords="169,132,279,159"/><area shape="rect" id="node3" href="bitops_8h.html#a4558958d044593a88485bbb67e578453" title="Read 4 bytes from buf, as a 32&#45;bit big endian quantity. " alt="" coords="348,5,431,32"/><area shape="rect" id="node4" href="aes_8c.html#a5217c35a3b2dcb191755197a4b210f81" title="add_round_key" alt="" coords="334,56,445,83"/><area shape="rect" id="node5" href="aes_8c.html#a3860549f17199bf949717a148abfc966" title="inv_shift_rows" alt="" coords="336,107,443,133"/><area shape="rect" id="node6" href="aes_8c.html#a3f1042615251c06d07714ca93ca05adf" title="inv_sub_block" alt="" coords="337,157,442,184"/><area shape="rect" id="node10" href="aes_8c.html#ae097c6f5915621943da3dd258302ba81" title="inv_mix_columns" alt="" coords="328,208,451,235"/><area shape="rect" id="node14" href="bitops_8h.html#abe267c3df623a1ec6be994c93660a368" title="Encode v as a 32&#45;bit big endian quantity into buf. " alt="" coords="347,259,432,285"/><area shape="rect" id="node7" href="aes_8c.html#a50f02623837bf6595dd24a812facec75" title="sub_word" alt="" coords="518,157,597,184"/><area shape="rect" id="node8" href="bitops_8h.html#a360ff89f3e238489b9c653b14f5d9d6d" title="Select the ath, bth, cth and dth entries from the given table of n values, placing the results into a..." alt="" coords="667,157,759,184"/><area shape="rect" id="node9" href="bitops_8h.html#ad8cec031b7eccb98c5c1d0ddb368aad2" title="Product 0xff if x == y, zero otherwise, without branching. " alt="" coords="811,157,885,184"/><area shape="rect" id="node11" href="aes_8c.html#a2770a3ba77c322443c6e8956beab7717" title="inv_mix_column" alt="" coords="499,208,615,235"/><area shape="rect" id="node12" href="aes_8c.html#a5a699178ef52bc02fd4affcc29bb3899" title="gf_poly_mul2" alt="" coords="664,208,763,235"/><area shape="rect" id="node13" href="bitops_8h.html#a112d36091bac741dace00b6663cf8fbe" title="Circularly rotate right x by n bits. " alt="" coords="686,259,741,285"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab9759a8b7d5d44218b3f738dcb8cde12"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void aesecb_dispose </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *&#160;</td>
+          <td class="paramname"><em>_ctx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8e810c9ee06c6fd0e004b34d9e3f64e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void aesecb_encrypt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *&#160;</td>
+          <td class="paramname"><em>_ctx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>output</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="cifra_8c_a8e810c9ee06c6fd0e004b34d9e3f64e0_cgraph.png" border="0" usemap="#cifra_8c_a8e810c9ee06c6fd0e004b34d9e3f64e0_cgraph" alt=""/></div>
+<map name="cifra_8c_a8e810c9ee06c6fd0e004b34d9e3f64e0_cgraph" id="cifra_8c_a8e810c9ee06c6fd0e004b34d9e3f64e0_cgraph">
+<area shape="rect" id="node2" href="aes_8c.html#a930782d7618e1e906853819e9632b9f9" title="cf_aes_encrypt" alt="" coords="169,132,279,159"/><area shape="rect" id="node3" href="bitops_8h.html#a4558958d044593a88485bbb67e578453" title="Read 4 bytes from buf, as a 32&#45;bit big endian quantity. " alt="" coords="343,5,425,32"/><area shape="rect" id="node4" href="aes_8c.html#a5217c35a3b2dcb191755197a4b210f81" title="add_round_key" alt="" coords="329,56,439,83"/><area shape="rect" id="node5" href="aes_8c.html#a07252ed8dc9f99ec4b8ec7a24695be9c" title="sub_block" alt="" coords="343,107,425,133"/><area shape="rect" id="node9" href="aes_8c.html#af6b34e22328ecf6d2a5a11880a3480ec" title="shift_rows" alt="" coords="343,157,425,184"/><area shape="rect" id="node10" href="aes_8c.html#a1fef635fd88123ef845f281b24f9d340" title="mix_columns" alt="" coords="335,208,433,235"/><area shape="rect" id="node14" href="bitops_8h.html#abe267c3df623a1ec6be994c93660a368" title="Encode v as a 32&#45;bit big endian quantity into buf. " alt="" coords="341,259,427,285"/><area shape="rect" id="node6" href="aes_8c.html#a50f02623837bf6595dd24a812facec75" title="sub_word" alt="" coords="495,107,574,133"/><area shape="rect" id="node7" href="bitops_8h.html#a360ff89f3e238489b9c653b14f5d9d6d" title="Select the ath, bth, cth and dth entries from the given table of n values, placing the results into a..." alt="" coords="633,107,725,133"/><area shape="rect" id="node8" href="bitops_8h.html#ad8cec031b7eccb98c5c1d0ddb368aad2" title="Product 0xff if x == y, zero otherwise, without branching. " alt="" coords="776,107,851,133"/><area shape="rect" id="node11" href="aes_8c.html#aff718a589987150a4fa442c8b2a04ab8" title="mix_column" alt="" coords="489,208,581,235"/><area shape="rect" id="node12" href="aes_8c.html#a5a699178ef52bc02fd4affcc29bb3899" title="gf_poly_mul2" alt="" coords="629,183,728,209"/><area shape="rect" id="node13" href="bitops_8h.html#a112d36091bac741dace00b6663cf8fbe" title="Circularly rotate right x by n bits. " alt="" coords="651,233,706,260"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a21dd2987472c8644b1f2e69e5d15564d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int aesecb_setup_crypto </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="picotls_8h.html#a5e5f3adbb5902ee128ee1496e696f32d">ptls_cipher_context_t</a> *&#160;</td>
+          <td class="paramname"><em>_ctx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>is_enc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>key_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="cifra_8c_a21dd2987472c8644b1f2e69e5d15564d_cgraph.png" border="0" usemap="#cifra_8c_a21dd2987472c8644b1f2e69e5d15564d_cgraph" alt=""/></div>
+<map name="cifra_8c_a21dd2987472c8644b1f2e69e5d15564d_cgraph" id="cifra_8c_a21dd2987472c8644b1f2e69e5d15564d_cgraph">
+<area shape="rect" id="node2" href="cifra_8c.html#ab9759a8b7d5d44218b3f738dcb8cde12" title="aesecb_dispose" alt="" coords="201,157,317,184"/><area shape="rect" id="node3" href="cifra_8c.html#a8e810c9ee06c6fd0e004b34d9e3f64e0" title="aesecb_encrypt" alt="" coords="201,259,316,285"/><area shape="rect" id="node17" href="cifra_8c.html#a2fd4c31fde143a95f302a8eb8e64042a" title="aesecb_decrypt" alt="" coords="201,208,316,235"/><area shape="rect" id="node23" href="aes_8c.html#a68579a5dde96f9f87fc3a4376423dbbb" title="cf_aes_init" alt="" coords="216,309,301,336"/><area shape="rect" id="node4" href="aes_8c.html#a930782d7618e1e906853819e9632b9f9" title="cf_aes_encrypt" alt="" coords="366,259,477,285"/><area shape="rect" id="node5" href="bitops_8h.html#a4558958d044593a88485bbb67e578453" title="Read 4 bytes from buf, as a 32&#45;bit big endian quantity. " alt="" coords="545,259,628,285"/><area shape="rect" id="node6" href="aes_8c.html#a5217c35a3b2dcb191755197a4b210f81" title="add_round_key" alt="" coords="531,208,642,235"/><area shape="rect" id="node7" href="aes_8c.html#a07252ed8dc9f99ec4b8ec7a24695be9c" title="sub_block" alt="" coords="546,411,627,437"/><area shape="rect" id="node11" href="aes_8c.html#af6b34e22328ecf6d2a5a11880a3480ec" title="shift_rows" alt="" coords="545,360,628,387"/><area shape="rect" id="node12" href="aes_8c.html#a1fef635fd88123ef845f281b24f9d340" title="mix_columns" alt="" coords="537,309,636,336"/><area shape="rect" id="node16" href="bitops_8h.html#abe267c3df623a1ec6be994c93660a368" title="Encode v as a 32&#45;bit big endian quantity into buf. " alt="" coords="544,157,629,184"/><area shape="rect" id="node8" href="aes_8c.html#a50f02623837bf6595dd24a812facec75" title="sub_word" alt="" coords="715,411,794,437"/><area shape="rect" id="node9" href="bitops_8h.html#a360ff89f3e238489b9c653b14f5d9d6d" title="Select the ath, bth, cth and dth entries from the given table of n values, placing the results into a..." alt="" coords="865,411,957,437"/><area shape="rect" id="node10" href="bitops_8h.html#ad8cec031b7eccb98c5c1d0ddb368aad2" title="Product 0xff if x == y, zero otherwise, without branching. " alt="" coords="1008,411,1083,437"/><area shape="rect" id="node13" href="aes_8c.html#aff718a589987150a4fa442c8b2a04ab8" title="mix_column" alt="" coords="709,208,801,235"/><area shape="rect" id="node14" href="aes_8c.html#a5a699178ef52bc02fd4affcc29bb3899" title="gf_poly_mul2" alt="" coords="861,157,960,184"/><area shape="rect" id="node15" href="bitops_8h.html#a112d36091bac741dace00b6663cf8fbe" title="Circularly rotate right x by n bits. " alt="" coords="883,208,938,235"/><area shape="rect" id="node18" href="aes_8c.html#abf20f537ba61db2fefa1ff538fa39556" title="cf_aes_decrypt" alt="" coords="366,157,477,184"/><area shape="rect" id="node19" href="aes_8c.html#a3860549f17199bf949717a148abfc966" title="inv_shift_rows" alt="" coords="533,5,640,32"/><area shape="rect" id="node20" href="aes_8c.html#a3f1042615251c06d07714ca93ca05adf" title="inv_sub_block" alt="" coords="534,107,639,133"/><area shape="rect" id="node21" href="aes_8c.html#ae097c6f5915621943da3dd258302ba81" title="inv_mix_columns" alt="" coords="525,56,648,83"/><area shape="rect" id="node22" href="aes_8c.html#a2770a3ba77c322443c6e8956beab7717" title="inv_mix_column" alt="" coords="697,157,813,184"/><area shape="rect" id="node24" href="aes_8c.html#a570421436f75711d9d03aa724d194180" title="aes_schedule" alt="" coords="370,360,473,387"/><area shape="rect" id="node25" href="boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="396,309,447,336"/></map>
 </div>
 </p>
 
@@ -1933,12 +2238,32 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {<span class="stringliteral">&quot;AES128-CTR&quot;</span>, <a class="code" href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a>, <a class="code" href="picotls_8h.html#ad50a32ad73fdb75321e286fbd9014670">PTLS_AES_IV_SIZE</a>,</div>
-<div class="line">                                                     <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structaesctr__context__t.html">aesctr_context_t</a>), <a class="code" href="cifra_8c.html#a2b3b6035ac8f1e96185bccdb39bcfff0">aes128ctr_setup_crypto</a>}</div>
-<div class="ttc" id="structaesctr__context__t_html"><div class="ttname"><a href="structaesctr__context__t.html">aesctr_context_t</a></div><div class="ttdef"><b>Definition:</b> cifra.c:228</div></div>
-<div class="ttc" id="picotls_8h_html_ad50a32ad73fdb75321e286fbd9014670"><div class="ttname"><a href="picotls_8h.html#ad50a32ad73fdb75321e286fbd9014670">PTLS_AES_IV_SIZE</a></div><div class="ttdeci">#define PTLS_AES_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:35</div></div>
-<div class="ttc" id="cifra_8c_html_a2b3b6035ac8f1e96185bccdb39bcfff0"><div class="ttname"><a href="cifra_8c.html#a2b3b6035ac8f1e96185bccdb39bcfff0">aes128ctr_setup_crypto</a></div><div class="ttdeci">static int aes128ctr_setup_crypto(ptls_cipher_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> cifra.c:262</div></div>
-<div class="ttc" id="picotls_8h_html_acdaa44e790d3a6fe8cfa948c8b91ac4a"><div class="ttname"><a href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES128_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:33</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    <span class="stringliteral">&quot;AES128-CTR&quot;</span>,          <a class="code" href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a>, 1 , <a class="code" href="picotls_8h.html#ad50a32ad73fdb75321e286fbd9014670">PTLS_AES_IV_SIZE</a>, <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structaesctr__context__t.html">aesctr_context_t</a>),</div>
+<div class="line">    <a class="code" href="cifra_8c.html#a2b3b6035ac8f1e96185bccdb39bcfff0">aes128ctr_setup_crypto</a>}</div>
+<div class="ttc" id="structaesctr__context__t_html"><div class="ttname"><a href="structaesctr__context__t.html">aesctr_context_t</a></div><div class="ttdef"><b>Definition:</b> cifra.c:273</div></div>
+<div class="ttc" id="picotls_8h_html_ad50a32ad73fdb75321e286fbd9014670"><div class="ttname"><a href="picotls_8h.html#ad50a32ad73fdb75321e286fbd9014670">PTLS_AES_IV_SIZE</a></div><div class="ttdeci">#define PTLS_AES_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:40</div></div>
+<div class="ttc" id="cifra_8c_html_a2b3b6035ac8f1e96185bccdb39bcfff0"><div class="ttname"><a href="cifra_8c.html#a2b3b6035ac8f1e96185bccdb39bcfff0">aes128ctr_setup_crypto</a></div><div class="ttdeci">static int aes128ctr_setup_crypto(ptls_cipher_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> cifra.c:307</div></div>
+<div class="ttc" id="picotls_8h_html_acdaa44e790d3a6fe8cfa948c8b91ac4a"><div class="ttname"><a href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES128_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:37</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac0bbafab257fb9f53dc05586432289fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="picotls_8h.html#a3bc4e32d3a4145414426aa251dbf2c77">ptls_cipher_algorithm_t</a> ptls_minicrypto_aes128ecb</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    <span class="stringliteral">&quot;AES128-ECB&quot;</span>,          <a class="code" href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a>, <a class="code" href="picotls_8h.html#ad39448cc1da898fcaa337ef325893bc1">PTLS_AES_BLOCK_SIZE</a>, 0 , <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structaesecb__context__t.html">aesecb_context_t</a>),</div>
+<div class="line">    <a class="code" href="cifra_8c.html#ab7b94691ef66496bd0da17936cbecd44">aes128ecb_setup_crypto</a>}</div>
+<div class="ttc" id="cifra_8c_html_ab7b94691ef66496bd0da17936cbecd44"><div class="ttname"><a href="cifra_8c.html#ab7b94691ef66496bd0da17936cbecd44">aes128ecb_setup_crypto</a></div><div class="ttdeci">static int aes128ecb_setup_crypto(ptls_cipher_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> cifra.c:263</div></div>
+<div class="ttc" id="picotls_8h_html_ad39448cc1da898fcaa337ef325893bc1"><div class="ttname"><a href="picotls_8h.html#ad39448cc1da898fcaa337ef325893bc1">PTLS_AES_BLOCK_SIZE</a></div><div class="ttdeci">#define PTLS_AES_BLOCK_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:39</div></div>
+<div class="ttc" id="picotls_8h_html_acdaa44e790d3a6fe8cfa948c8b91ac4a"><div class="ttname"><a href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES128_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:37</div></div>
+<div class="ttc" id="structaesecb__context__t_html"><div class="ttname"><a href="structaesecb__context__t.html">aesecb_context_t</a></div><div class="ttdef"><b>Definition:</b> cifra.c:228</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1952,14 +2277,15 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <span class="stringliteral">&quot;AES128-GCM&quot;</span>,         &amp;<a class="code" href="cifra_8c.html#a8b3cae9517fe47735e80303667a80347">ptls_minicrypto_aes128ctr</a>,      <a class="code" href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a>,       <a class="code" href="picotls_8h.html#a559e248d43faf9fa3ff0fa35a7a02343">PTLS_AESGCM_IV_SIZE</a>,</div>
-<div class="line">    <a class="code" href="picotls_8h.html#a63730f53ad05b39d96cfbf1f5b349941">PTLS_AESGCM_TAG_SIZE</a>, <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structaesgcm__context__t.html">aesgcm_context_t</a>), <a class="code" href="cifra_8c.html#a45ce2d35305f89d38a99dbef73074324">aead_aes128gcm_setup_crypto</a>}</div>
-<div class="ttc" id="picotls_8h_html_a559e248d43faf9fa3ff0fa35a7a02343"><div class="ttname"><a href="picotls_8h.html#a559e248d43faf9fa3ff0fa35a7a02343">PTLS_AESGCM_IV_SIZE</a></div><div class="ttdeci">#define PTLS_AESGCM_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:36</div></div>
-<div class="ttc" id="structaesgcm__context__t_html"><div class="ttname"><a href="structaesgcm__context__t.html">aesgcm_context_t</a></div><div class="ttdef"><b>Definition:</b> cifra.c:272</div></div>
-<div class="ttc" id="cifra_8c_html_a45ce2d35305f89d38a99dbef73074324"><div class="ttname"><a href="cifra_8c.html#a45ce2d35305f89d38a99dbef73074324">aead_aes128gcm_setup_crypto</a></div><div class="ttdeci">static int aead_aes128gcm_setup_crypto(ptls_aead_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> cifra.c:346</div></div>
-<div class="ttc" id="picotls_8h_html_acdaa44e790d3a6fe8cfa948c8b91ac4a"><div class="ttname"><a href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES128_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:33</div></div>
-<div class="ttc" id="cifra_8c_html_a8b3cae9517fe47735e80303667a80347"><div class="ttname"><a href="cifra_8c.html#a8b3cae9517fe47735e80303667a80347">ptls_minicrypto_aes128ctr</a></div><div class="ttdeci">ptls_cipher_algorithm_t ptls_minicrypto_aes128ctr</div><div class="ttdef"><b>Definition:</b> cifra.c:531</div></div>
-<div class="ttc" id="picotls_8h_html_a63730f53ad05b39d96cfbf1f5b349941"><div class="ttname"><a href="picotls_8h.html#a63730f53ad05b39d96cfbf1f5b349941">PTLS_AESGCM_TAG_SIZE</a></div><div class="ttdeci">#define PTLS_AESGCM_TAG_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:37</div></div>
+<div class="line">    <span class="stringliteral">&quot;AES128-GCM&quot;</span>,        &amp;<a class="code" href="cifra_8c.html#a8b3cae9517fe47735e80303667a80347">ptls_minicrypto_aes128ctr</a>, &amp;<a class="code" href="cifra_8c.html#ac0bbafab257fb9f53dc05586432289fb">ptls_minicrypto_aes128ecb</a>,      <a class="code" href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a>,</div>
+<div class="line">    <a class="code" href="picotls_8h.html#a559e248d43faf9fa3ff0fa35a7a02343">PTLS_AESGCM_IV_SIZE</a>, <a class="code" href="picotls_8h.html#a63730f53ad05b39d96cfbf1f5b349941">PTLS_AESGCM_TAG_SIZE</a>,       <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structaesgcm__context__t.html">aesgcm_context_t</a>), <a class="code" href="cifra_8c.html#a45ce2d35305f89d38a99dbef73074324">aead_aes128gcm_setup_crypto</a>}</div>
+<div class="ttc" id="picotls_8h_html_a559e248d43faf9fa3ff0fa35a7a02343"><div class="ttname"><a href="picotls_8h.html#a559e248d43faf9fa3ff0fa35a7a02343">PTLS_AESGCM_IV_SIZE</a></div><div class="ttdeci">#define PTLS_AESGCM_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:41</div></div>
+<div class="ttc" id="structaesgcm__context__t_html"><div class="ttname"><a href="structaesgcm__context__t.html">aesgcm_context_t</a></div><div class="ttdef"><b>Definition:</b> cifra.c:317</div></div>
+<div class="ttc" id="cifra_8c_html_ac0bbafab257fb9f53dc05586432289fb"><div class="ttname"><a href="cifra_8c.html#ac0bbafab257fb9f53dc05586432289fb">ptls_minicrypto_aes128ecb</a></div><div class="ttdeci">ptls_cipher_algorithm_t ptls_minicrypto_aes128ecb</div><div class="ttdef"><b>Definition:</b> cifra.c:576</div></div>
+<div class="ttc" id="cifra_8c_html_a45ce2d35305f89d38a99dbef73074324"><div class="ttname"><a href="cifra_8c.html#a45ce2d35305f89d38a99dbef73074324">aead_aes128gcm_setup_crypto</a></div><div class="ttdeci">static int aead_aes128gcm_setup_crypto(ptls_aead_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> cifra.c:391</div></div>
+<div class="ttc" id="picotls_8h_html_acdaa44e790d3a6fe8cfa948c8b91ac4a"><div class="ttname"><a href="picotls_8h.html#acdaa44e790d3a6fe8cfa948c8b91ac4a">PTLS_AES128_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES128_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:37</div></div>
+<div class="ttc" id="cifra_8c_html_a8b3cae9517fe47735e80303667a80347"><div class="ttname"><a href="cifra_8c.html#a8b3cae9517fe47735e80303667a80347">ptls_minicrypto_aes128ctr</a></div><div class="ttdeci">ptls_cipher_algorithm_t ptls_minicrypto_aes128ctr</div><div class="ttdef"><b>Definition:</b> cifra.c:579</div></div>
+<div class="ttc" id="picotls_8h_html_a63730f53ad05b39d96cfbf1f5b349941"><div class="ttname"><a href="picotls_8h.html#a63730f53ad05b39d96cfbf1f5b349941">PTLS_AESGCM_TAG_SIZE</a></div><div class="ttdeci">#define PTLS_AESGCM_TAG_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:42</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1974,9 +2300,9 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {<a class="code" href="picotls_8h.html#aafe67e2748e31b8828ac55f4f5c77257">PTLS_CIPHER_SUITE_AES_128_GCM_SHA256</a>, &amp;<a class="code" href="cifra_8c.html#a784798c18711e978f0af24deb3166740">ptls_minicrypto_aes128gcm</a>,</div>
 <div class="line">                                                       &amp;<a class="code" href="cifra_8c.html#a8a3fbf5b9ce4cd9045f6f3922d3acd2a">ptls_minicrypto_sha256</a>}</div>
-<div class="ttc" id="cifra_8c_html_a8a3fbf5b9ce4cd9045f6f3922d3acd2a"><div class="ttname"><a href="cifra_8c.html#a8a3fbf5b9ce4cd9045f6f3922d3acd2a">ptls_minicrypto_sha256</a></div><div class="ttdeci">ptls_hash_algorithm_t ptls_minicrypto_sha256</div><div class="ttdef"><b>Definition:</b> cifra.c:541</div></div>
-<div class="ttc" id="cifra_8c_html_a784798c18711e978f0af24deb3166740"><div class="ttname"><a href="cifra_8c.html#a784798c18711e978f0af24deb3166740">ptls_minicrypto_aes128gcm</a></div><div class="ttdeci">ptls_aead_algorithm_t ptls_minicrypto_aes128gcm</div><div class="ttdef"><b>Definition:</b> cifra.c:533</div></div>
-<div class="ttc" id="picotls_8h_html_aafe67e2748e31b8828ac55f4f5c77257"><div class="ttname"><a href="picotls_8h.html#aafe67e2748e31b8828ac55f4f5c77257">PTLS_CIPHER_SUITE_AES_128_GCM_SHA256</a></div><div class="ttdeci">#define PTLS_CIPHER_SUITE_AES_128_GCM_SHA256</div><div class="ttdef"><b>Definition:</b> picotls.h:55</div></div>
+<div class="ttc" id="cifra_8c_html_a8a3fbf5b9ce4cd9045f6f3922d3acd2a"><div class="ttname"><a href="cifra_8c.html#a8a3fbf5b9ce4cd9045f6f3922d3acd2a">ptls_minicrypto_sha256</a></div><div class="ttdeci">ptls_hash_algorithm_t ptls_minicrypto_sha256</div><div class="ttdef"><b>Definition:</b> cifra.c:594</div></div>
+<div class="ttc" id="cifra_8c_html_a784798c18711e978f0af24deb3166740"><div class="ttname"><a href="cifra_8c.html#a784798c18711e978f0af24deb3166740">ptls_minicrypto_aes128gcm</a></div><div class="ttdeci">ptls_aead_algorithm_t ptls_minicrypto_aes128gcm</div><div class="ttdef"><b>Definition:</b> cifra.c:582</div></div>
+<div class="ttc" id="picotls_8h_html_aafe67e2748e31b8828ac55f4f5c77257"><div class="ttname"><a href="picotls_8h.html#aafe67e2748e31b8828ac55f4f5c77257">PTLS_CIPHER_SUITE_AES_128_GCM_SHA256</a></div><div class="ttdeci">#define PTLS_CIPHER_SUITE_AES_128_GCM_SHA256</div><div class="ttdef"><b>Definition:</b> picotls.h:63</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1989,12 +2315,32 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {<span class="stringliteral">&quot;AES256-CTR&quot;</span>, <a class="code" href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a>, <a class="code" href="picotls_8h.html#ad50a32ad73fdb75321e286fbd9014670">PTLS_AES_IV_SIZE</a>,</div>
-<div class="line">                                                     <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structaesctr__context__t.html">aesctr_context_t</a>), <a class="code" href="cifra_8c.html#a3474cff27a659209558ea63edd944f01">aes256ctr_setup_crypto</a>}</div>
-<div class="ttc" id="structaesctr__context__t_html"><div class="ttname"><a href="structaesctr__context__t.html">aesctr_context_t</a></div><div class="ttdef"><b>Definition:</b> cifra.c:228</div></div>
-<div class="ttc" id="picotls_8h_html_ad50a32ad73fdb75321e286fbd9014670"><div class="ttname"><a href="picotls_8h.html#ad50a32ad73fdb75321e286fbd9014670">PTLS_AES_IV_SIZE</a></div><div class="ttdeci">#define PTLS_AES_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:35</div></div>
-<div class="ttc" id="picotls_8h_html_a99874819a65650d326220d0d33fa1d60"><div class="ttname"><a href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES256_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:34</div></div>
-<div class="ttc" id="cifra_8c_html_a3474cff27a659209558ea63edd944f01"><div class="ttname"><a href="cifra_8c.html#a3474cff27a659209558ea63edd944f01">aes256ctr_setup_crypto</a></div><div class="ttdeci">static int aes256ctr_setup_crypto(ptls_cipher_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> cifra.c:267</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    <span class="stringliteral">&quot;AES256-CTR&quot;</span>,          <a class="code" href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a>, 1 , <a class="code" href="picotls_8h.html#ad50a32ad73fdb75321e286fbd9014670">PTLS_AES_IV_SIZE</a>, <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structaesctr__context__t.html">aesctr_context_t</a>),</div>
+<div class="line">    <a class="code" href="cifra_8c.html#a3474cff27a659209558ea63edd944f01">aes256ctr_setup_crypto</a>}</div>
+<div class="ttc" id="structaesctr__context__t_html"><div class="ttname"><a href="structaesctr__context__t.html">aesctr_context_t</a></div><div class="ttdef"><b>Definition:</b> cifra.c:273</div></div>
+<div class="ttc" id="picotls_8h_html_ad50a32ad73fdb75321e286fbd9014670"><div class="ttname"><a href="picotls_8h.html#ad50a32ad73fdb75321e286fbd9014670">PTLS_AES_IV_SIZE</a></div><div class="ttdeci">#define PTLS_AES_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:40</div></div>
+<div class="ttc" id="picotls_8h_html_a99874819a65650d326220d0d33fa1d60"><div class="ttname"><a href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES256_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:38</div></div>
+<div class="ttc" id="cifra_8c_html_a3474cff27a659209558ea63edd944f01"><div class="ttname"><a href="cifra_8c.html#a3474cff27a659209558ea63edd944f01">aes256ctr_setup_crypto</a></div><div class="ttdeci">static int aes256ctr_setup_crypto(ptls_cipher_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> cifra.c:312</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a90b90b09d0d2621b152fb554dc6de9e7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="picotls_8h.html#a3bc4e32d3a4145414426aa251dbf2c77">ptls_cipher_algorithm_t</a> ptls_minicrypto_aes256ecb</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    <span class="stringliteral">&quot;AES128-ECB&quot;</span>,          <a class="code" href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a>, <a class="code" href="picotls_8h.html#ad39448cc1da898fcaa337ef325893bc1">PTLS_AES_BLOCK_SIZE</a>, 0 , <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structaesecb__context__t.html">aesecb_context_t</a>),</div>
+<div class="line">    <a class="code" href="cifra_8c.html#a718f91ac6895078fb348cd9678cc37a0">aes256ecb_setup_crypto</a>}</div>
+<div class="ttc" id="picotls_8h_html_a99874819a65650d326220d0d33fa1d60"><div class="ttname"><a href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES256_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:38</div></div>
+<div class="ttc" id="cifra_8c_html_a718f91ac6895078fb348cd9678cc37a0"><div class="ttname"><a href="cifra_8c.html#a718f91ac6895078fb348cd9678cc37a0">aes256ecb_setup_crypto</a></div><div class="ttdeci">static int aes256ecb_setup_crypto(ptls_cipher_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> cifra.c:268</div></div>
+<div class="ttc" id="picotls_8h_html_ad39448cc1da898fcaa337ef325893bc1"><div class="ttname"><a href="picotls_8h.html#ad39448cc1da898fcaa337ef325893bc1">PTLS_AES_BLOCK_SIZE</a></div><div class="ttdeci">#define PTLS_AES_BLOCK_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:39</div></div>
+<div class="ttc" id="structaesecb__context__t_html"><div class="ttname"><a href="structaesecb__context__t.html">aesecb_context_t</a></div><div class="ttdef"><b>Definition:</b> cifra.c:228</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2008,14 +2354,15 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <span class="stringliteral">&quot;AES256-GCM&quot;</span>,         &amp;<a class="code" href="cifra_8c.html#a68b92634b94e233532fdfdbbf7d2ec3f">ptls_minicrypto_aes256ctr</a>,      <a class="code" href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a>,       <a class="code" href="picotls_8h.html#a559e248d43faf9fa3ff0fa35a7a02343">PTLS_AESGCM_IV_SIZE</a>,</div>
-<div class="line">    <a class="code" href="picotls_8h.html#a63730f53ad05b39d96cfbf1f5b349941">PTLS_AESGCM_TAG_SIZE</a>, <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structaesgcm__context__t.html">aesgcm_context_t</a>), <a class="code" href="cifra_8c.html#a4f783fa4f3df3b8ace391fcdef339d4a">aead_aes256gcm_setup_crypto</a>}</div>
-<div class="ttc" id="picotls_8h_html_a559e248d43faf9fa3ff0fa35a7a02343"><div class="ttname"><a href="picotls_8h.html#a559e248d43faf9fa3ff0fa35a7a02343">PTLS_AESGCM_IV_SIZE</a></div><div class="ttdeci">#define PTLS_AESGCM_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:36</div></div>
-<div class="ttc" id="cifra_8c_html_a68b92634b94e233532fdfdbbf7d2ec3f"><div class="ttname"><a href="cifra_8c.html#a68b92634b94e233532fdfdbbf7d2ec3f">ptls_minicrypto_aes256ctr</a></div><div class="ttdeci">ptls_cipher_algorithm_t ptls_minicrypto_aes256ctr</div><div class="ttdef"><b>Definition:</b> cifra.c:536</div></div>
-<div class="ttc" id="picotls_8h_html_a99874819a65650d326220d0d33fa1d60"><div class="ttname"><a href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES256_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:34</div></div>
-<div class="ttc" id="structaesgcm__context__t_html"><div class="ttname"><a href="structaesgcm__context__t.html">aesgcm_context_t</a></div><div class="ttdef"><b>Definition:</b> cifra.c:272</div></div>
-<div class="ttc" id="cifra_8c_html_a4f783fa4f3df3b8ace391fcdef339d4a"><div class="ttname"><a href="cifra_8c.html#a4f783fa4f3df3b8ace391fcdef339d4a">aead_aes256gcm_setup_crypto</a></div><div class="ttdeci">static int aead_aes256gcm_setup_crypto(ptls_aead_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> cifra.c:351</div></div>
-<div class="ttc" id="picotls_8h_html_a63730f53ad05b39d96cfbf1f5b349941"><div class="ttname"><a href="picotls_8h.html#a63730f53ad05b39d96cfbf1f5b349941">PTLS_AESGCM_TAG_SIZE</a></div><div class="ttdeci">#define PTLS_AESGCM_TAG_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:37</div></div>
+<div class="line">    <span class="stringliteral">&quot;AES256-GCM&quot;</span>,        &amp;<a class="code" href="cifra_8c.html#a68b92634b94e233532fdfdbbf7d2ec3f">ptls_minicrypto_aes256ctr</a>, &amp;<a class="code" href="cifra_8c.html#a90b90b09d0d2621b152fb554dc6de9e7">ptls_minicrypto_aes256ecb</a>,      <a class="code" href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a>,</div>
+<div class="line">    <a class="code" href="picotls_8h.html#a559e248d43faf9fa3ff0fa35a7a02343">PTLS_AESGCM_IV_SIZE</a>, <a class="code" href="picotls_8h.html#a63730f53ad05b39d96cfbf1f5b349941">PTLS_AESGCM_TAG_SIZE</a>,       <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structaesgcm__context__t.html">aesgcm_context_t</a>), <a class="code" href="cifra_8c.html#a4f783fa4f3df3b8ace391fcdef339d4a">aead_aes256gcm_setup_crypto</a>}</div>
+<div class="ttc" id="picotls_8h_html_a559e248d43faf9fa3ff0fa35a7a02343"><div class="ttname"><a href="picotls_8h.html#a559e248d43faf9fa3ff0fa35a7a02343">PTLS_AESGCM_IV_SIZE</a></div><div class="ttdeci">#define PTLS_AESGCM_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:41</div></div>
+<div class="ttc" id="cifra_8c_html_a68b92634b94e233532fdfdbbf7d2ec3f"><div class="ttname"><a href="cifra_8c.html#a68b92634b94e233532fdfdbbf7d2ec3f">ptls_minicrypto_aes256ctr</a></div><div class="ttdeci">ptls_cipher_algorithm_t ptls_minicrypto_aes256ctr</div><div class="ttdef"><b>Definition:</b> cifra.c:588</div></div>
+<div class="ttc" id="picotls_8h_html_a99874819a65650d326220d0d33fa1d60"><div class="ttname"><a href="picotls_8h.html#a99874819a65650d326220d0d33fa1d60">PTLS_AES256_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_AES256_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:38</div></div>
+<div class="ttc" id="structaesgcm__context__t_html"><div class="ttname"><a href="structaesgcm__context__t.html">aesgcm_context_t</a></div><div class="ttdef"><b>Definition:</b> cifra.c:317</div></div>
+<div class="ttc" id="cifra_8c_html_a90b90b09d0d2621b152fb554dc6de9e7"><div class="ttname"><a href="cifra_8c.html#a90b90b09d0d2621b152fb554dc6de9e7">ptls_minicrypto_aes256ecb</a></div><div class="ttdeci">ptls_cipher_algorithm_t ptls_minicrypto_aes256ecb</div><div class="ttdef"><b>Definition:</b> cifra.c:585</div></div>
+<div class="ttc" id="cifra_8c_html_a4f783fa4f3df3b8ace391fcdef339d4a"><div class="ttname"><a href="cifra_8c.html#a4f783fa4f3df3b8ace391fcdef339d4a">aead_aes256gcm_setup_crypto</a></div><div class="ttdeci">static int aead_aes256gcm_setup_crypto(ptls_aead_context_t *ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> cifra.c:396</div></div>
+<div class="ttc" id="picotls_8h_html_a63730f53ad05b39d96cfbf1f5b349941"><div class="ttname"><a href="picotls_8h.html#a63730f53ad05b39d96cfbf1f5b349941">PTLS_AESGCM_TAG_SIZE</a></div><div class="ttdeci">#define PTLS_AESGCM_TAG_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:42</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2030,9 +2377,9 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {<a class="code" href="picotls_8h.html#a16fc5d531298f137319be48b0b23f455">PTLS_CIPHER_SUITE_AES_256_GCM_SHA384</a>, &amp;<a class="code" href="cifra_8c.html#ad2825b294b844fc2002989c902b008aa">ptls_minicrypto_aes256gcm</a>,</div>
 <div class="line">                                                       &amp;<a class="code" href="cifra_8c.html#a64b89ac59ecc34683d086cf219d81721">ptls_minicrypto_sha384</a>}</div>
-<div class="ttc" id="cifra_8c_html_a64b89ac59ecc34683d086cf219d81721"><div class="ttname"><a href="cifra_8c.html#a64b89ac59ecc34683d086cf219d81721">ptls_minicrypto_sha384</a></div><div class="ttdeci">ptls_hash_algorithm_t ptls_minicrypto_sha384</div><div class="ttdef"><b>Definition:</b> cifra.c:543</div></div>
-<div class="ttc" id="cifra_8c_html_ad2825b294b844fc2002989c902b008aa"><div class="ttname"><a href="cifra_8c.html#ad2825b294b844fc2002989c902b008aa">ptls_minicrypto_aes256gcm</a></div><div class="ttdeci">ptls_aead_algorithm_t ptls_minicrypto_aes256gcm</div><div class="ttdef"><b>Definition:</b> cifra.c:538</div></div>
-<div class="ttc" id="picotls_8h_html_a16fc5d531298f137319be48b0b23f455"><div class="ttname"><a href="picotls_8h.html#a16fc5d531298f137319be48b0b23f455">PTLS_CIPHER_SUITE_AES_256_GCM_SHA384</a></div><div class="ttdeci">#define PTLS_CIPHER_SUITE_AES_256_GCM_SHA384</div><div class="ttdef"><b>Definition:</b> picotls.h:56</div></div>
+<div class="ttc" id="cifra_8c_html_a64b89ac59ecc34683d086cf219d81721"><div class="ttname"><a href="cifra_8c.html#a64b89ac59ecc34683d086cf219d81721">ptls_minicrypto_sha384</a></div><div class="ttdeci">ptls_hash_algorithm_t ptls_minicrypto_sha384</div><div class="ttdef"><b>Definition:</b> cifra.c:596</div></div>
+<div class="ttc" id="cifra_8c_html_ad2825b294b844fc2002989c902b008aa"><div class="ttname"><a href="cifra_8c.html#ad2825b294b844fc2002989c902b008aa">ptls_minicrypto_aes256gcm</a></div><div class="ttdeci">ptls_aead_algorithm_t ptls_minicrypto_aes256gcm</div><div class="ttdef"><b>Definition:</b> cifra.c:591</div></div>
+<div class="ttc" id="picotls_8h_html_a16fc5d531298f137319be48b0b23f455"><div class="ttname"><a href="picotls_8h.html#a16fc5d531298f137319be48b0b23f455">PTLS_CIPHER_SUITE_AES_256_GCM_SHA384</a></div><div class="ttdeci">#define PTLS_CIPHER_SUITE_AES_256_GCM_SHA384</div><div class="ttdef"><b>Definition:</b> picotls.h:64</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2045,12 +2392,13 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {<span class="stringliteral">&quot;CHACHA20&quot;</span>, <a class="code" href="picotls_8h.html#a12bf5ca6c54277d849bb4f26e99cc76b">PTLS_CHACHA20_KEY_SIZE</a>, <a class="code" href="picotls_8h.html#ab951c4efc0bee4a298731d6f874dd2bc">PTLS_CHACHA20_IV_SIZE</a>,</div>
-<div class="line">                                                    <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structchacha20__context__t.html">chacha20_context_t</a>), <a class="code" href="cifra_8c.html#a3213ce6bb33732aecbf003790ebe9bec">chacha20_setup_crypto</a>}</div>
-<div class="ttc" id="picotls_8h_html_a12bf5ca6c54277d849bb4f26e99cc76b"><div class="ttname"><a href="picotls_8h.html#a12bf5ca6c54277d849bb4f26e99cc76b">PTLS_CHACHA20_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_CHACHA20_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:39</div></div>
-<div class="ttc" id="structchacha20__context__t_html"><div class="ttname"><a href="structchacha20__context__t.html">chacha20_context_t</a></div><div class="ttdef"><b>Definition:</b> cifra.c:356</div></div>
-<div class="ttc" id="cifra_8c_html_a3213ce6bb33732aecbf003790ebe9bec"><div class="ttname"><a href="cifra_8c.html#a3213ce6bb33732aecbf003790ebe9bec">chacha20_setup_crypto</a></div><div class="ttdeci">static int chacha20_setup_crypto(ptls_cipher_context_t *_ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> cifra.c:382</div></div>
-<div class="ttc" id="picotls_8h_html_ab951c4efc0bee4a298731d6f874dd2bc"><div class="ttname"><a href="picotls_8h.html#ab951c4efc0bee4a298731d6f874dd2bc">PTLS_CHACHA20_IV_SIZE</a></div><div class="ttdeci">#define PTLS_CHACHA20_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:40</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    <span class="stringliteral">&quot;CHACHA20&quot;</span>,           <a class="code" href="picotls_8h.html#a12bf5ca6c54277d849bb4f26e99cc76b">PTLS_CHACHA20_KEY_SIZE</a>, 1 , <a class="code" href="picotls_8h.html#ab951c4efc0bee4a298731d6f874dd2bc">PTLS_CHACHA20_IV_SIZE</a>, <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structchacha20__context__t.html">chacha20_context_t</a>),</div>
+<div class="line">    <a class="code" href="cifra_8c.html#a3213ce6bb33732aecbf003790ebe9bec">chacha20_setup_crypto</a>}</div>
+<div class="ttc" id="picotls_8h_html_a12bf5ca6c54277d849bb4f26e99cc76b"><div class="ttname"><a href="picotls_8h.html#a12bf5ca6c54277d849bb4f26e99cc76b">PTLS_CHACHA20_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_CHACHA20_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:44</div></div>
+<div class="ttc" id="structchacha20__context__t_html"><div class="ttname"><a href="structchacha20__context__t.html">chacha20_context_t</a></div><div class="ttdef"><b>Definition:</b> cifra.c:401</div></div>
+<div class="ttc" id="cifra_8c_html_a3213ce6bb33732aecbf003790ebe9bec"><div class="ttname"><a href="cifra_8c.html#a3213ce6bb33732aecbf003790ebe9bec">chacha20_setup_crypto</a></div><div class="ttdeci">static int chacha20_setup_crypto(ptls_cipher_context_t *_ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> cifra.c:427</div></div>
+<div class="ttc" id="picotls_8h_html_ab951c4efc0bee4a298731d6f874dd2bc"><div class="ttname"><a href="picotls_8h.html#ab951c4efc0bee4a298731d6f874dd2bc">PTLS_CHACHA20_IV_SIZE</a></div><div class="ttdeci">#define PTLS_CHACHA20_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:45</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2065,17 +2413,18 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {<span class="stringliteral">&quot;CHACHA20-POLY1305&quot;</span>,</div>
 <div class="line">                                                          &amp;<a class="code" href="cifra_8c.html#a1c4106a6f69b7fe1f22f212c9d312c3b">ptls_minicrypto_chacha20</a>,</div>
+<div class="line">                                                          NULL,</div>
 <div class="line">                                                          <a class="code" href="picotls_8h.html#a12bf5ca6c54277d849bb4f26e99cc76b">PTLS_CHACHA20_KEY_SIZE</a>,</div>
 <div class="line">                                                          <a class="code" href="picotls_8h.html#a1813bfeb21e1b68d03f56d88db2d35b5">PTLS_CHACHA20POLY1305_IV_SIZE</a>,</div>
 <div class="line">                                                          <a class="code" href="picotls_8h.html#a19abf2dc93fc66b2998d1f77f048b946">PTLS_CHACHA20POLY1305_TAG_SIZE</a>,</div>
 <div class="line">                                                          <span class="keyword">sizeof</span>(<span class="keyword">struct </span><a class="code" href="structchacha20poly1305__context__t.html">chacha20poly1305_context_t</a>),</div>
 <div class="line">                                                          <a class="code" href="cifra_8c.html#a653cd2815b8d1381e22360843ccf1a57">aead_chacha20poly1305_setup_crypto</a>}</div>
-<div class="ttc" id="picotls_8h_html_a12bf5ca6c54277d849bb4f26e99cc76b"><div class="ttname"><a href="picotls_8h.html#a12bf5ca6c54277d849bb4f26e99cc76b">PTLS_CHACHA20_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_CHACHA20_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:39</div></div>
-<div class="ttc" id="picotls_8h_html_a1813bfeb21e1b68d03f56d88db2d35b5"><div class="ttname"><a href="picotls_8h.html#a1813bfeb21e1b68d03f56d88db2d35b5">PTLS_CHACHA20POLY1305_IV_SIZE</a></div><div class="ttdeci">#define PTLS_CHACHA20POLY1305_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:41</div></div>
-<div class="ttc" id="structchacha20poly1305__context__t_html"><div class="ttname"><a href="structchacha20poly1305__context__t.html">chacha20poly1305_context_t</a></div><div class="ttdef"><b>Definition:</b> cifra.c:392</div></div>
-<div class="ttc" id="cifra_8c_html_a653cd2815b8d1381e22360843ccf1a57"><div class="ttname"><a href="cifra_8c.html#a653cd2815b8d1381e22360843ccf1a57">aead_chacha20poly1305_setup_crypto</a></div><div class="ttdeci">static int aead_chacha20poly1305_setup_crypto(ptls_aead_context_t *_ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> cifra.c:506</div></div>
-<div class="ttc" id="picotls_8h_html_a19abf2dc93fc66b2998d1f77f048b946"><div class="ttname"><a href="picotls_8h.html#a19abf2dc93fc66b2998d1f77f048b946">PTLS_CHACHA20POLY1305_TAG_SIZE</a></div><div class="ttdeci">#define PTLS_CHACHA20POLY1305_TAG_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:42</div></div>
-<div class="ttc" id="cifra_8c_html_a1c4106a6f69b7fe1f22f212c9d312c3b"><div class="ttname"><a href="cifra_8c.html#a1c4106a6f69b7fe1f22f212c9d312c3b">ptls_minicrypto_chacha20</a></div><div class="ttdeci">ptls_cipher_algorithm_t ptls_minicrypto_chacha20</div><div class="ttdef"><b>Definition:</b> cifra.c:545</div></div>
+<div class="ttc" id="picotls_8h_html_a12bf5ca6c54277d849bb4f26e99cc76b"><div class="ttname"><a href="picotls_8h.html#a12bf5ca6c54277d849bb4f26e99cc76b">PTLS_CHACHA20_KEY_SIZE</a></div><div class="ttdeci">#define PTLS_CHACHA20_KEY_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:44</div></div>
+<div class="ttc" id="picotls_8h_html_a1813bfeb21e1b68d03f56d88db2d35b5"><div class="ttname"><a href="picotls_8h.html#a1813bfeb21e1b68d03f56d88db2d35b5">PTLS_CHACHA20POLY1305_IV_SIZE</a></div><div class="ttdeci">#define PTLS_CHACHA20POLY1305_IV_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:46</div></div>
+<div class="ttc" id="structchacha20poly1305__context__t_html"><div class="ttname"><a href="structchacha20poly1305__context__t.html">chacha20poly1305_context_t</a></div><div class="ttdef"><b>Definition:</b> cifra.c:437</div></div>
+<div class="ttc" id="cifra_8c_html_a653cd2815b8d1381e22360843ccf1a57"><div class="ttname"><a href="cifra_8c.html#a653cd2815b8d1381e22360843ccf1a57">aead_chacha20poly1305_setup_crypto</a></div><div class="ttdeci">static int aead_chacha20poly1305_setup_crypto(ptls_aead_context_t *_ctx, int is_enc, const void *key)</div><div class="ttdef"><b>Definition:</b> cifra.c:551</div></div>
+<div class="ttc" id="picotls_8h_html_a19abf2dc93fc66b2998d1f77f048b946"><div class="ttname"><a href="picotls_8h.html#a19abf2dc93fc66b2998d1f77f048b946">PTLS_CHACHA20POLY1305_TAG_SIZE</a></div><div class="ttdeci">#define PTLS_CHACHA20POLY1305_TAG_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:47</div></div>
+<div class="ttc" id="cifra_8c_html_a1c4106a6f69b7fe1f22f212c9d312c3b"><div class="ttname"><a href="cifra_8c.html#a1c4106a6f69b7fe1f22f212c9d312c3b">ptls_minicrypto_chacha20</a></div><div class="ttdeci">ptls_cipher_algorithm_t ptls_minicrypto_chacha20</div><div class="ttdef"><b>Definition:</b> cifra.c:598</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2090,9 +2439,9 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {<a class="code" href="picotls_8h.html#a42e6240730d0199ee88e3285154573d7">PTLS_CIPHER_SUITE_CHACHA20_POLY1305_SHA256</a>,</div>
 <div class="line">                                                              &amp;<a class="code" href="cifra_8c.html#ad07bf3f3ce311258165d4a914f3ef525">ptls_minicrypto_chacha20poly1305</a>, &amp;<a class="code" href="cifra_8c.html#a8a3fbf5b9ce4cd9045f6f3922d3acd2a">ptls_minicrypto_sha256</a>}</div>
-<div class="ttc" id="picotls_8h_html_a42e6240730d0199ee88e3285154573d7"><div class="ttname"><a href="picotls_8h.html#a42e6240730d0199ee88e3285154573d7">PTLS_CIPHER_SUITE_CHACHA20_POLY1305_SHA256</a></div><div class="ttdeci">#define PTLS_CIPHER_SUITE_CHACHA20_POLY1305_SHA256</div><div class="ttdef"><b>Definition:</b> picotls.h:57</div></div>
-<div class="ttc" id="cifra_8c_html_a8a3fbf5b9ce4cd9045f6f3922d3acd2a"><div class="ttname"><a href="cifra_8c.html#a8a3fbf5b9ce4cd9045f6f3922d3acd2a">ptls_minicrypto_sha256</a></div><div class="ttdeci">ptls_hash_algorithm_t ptls_minicrypto_sha256</div><div class="ttdef"><b>Definition:</b> cifra.c:541</div></div>
-<div class="ttc" id="cifra_8c_html_ad07bf3f3ce311258165d4a914f3ef525"><div class="ttname"><a href="cifra_8c.html#ad07bf3f3ce311258165d4a914f3ef525">ptls_minicrypto_chacha20poly1305</a></div><div class="ttdeci">ptls_aead_algorithm_t ptls_minicrypto_chacha20poly1305</div><div class="ttdef"><b>Definition:</b> cifra.c:547</div></div>
+<div class="ttc" id="picotls_8h_html_a42e6240730d0199ee88e3285154573d7"><div class="ttname"><a href="picotls_8h.html#a42e6240730d0199ee88e3285154573d7">PTLS_CIPHER_SUITE_CHACHA20_POLY1305_SHA256</a></div><div class="ttdeci">#define PTLS_CIPHER_SUITE_CHACHA20_POLY1305_SHA256</div><div class="ttdef"><b>Definition:</b> picotls.h:65</div></div>
+<div class="ttc" id="cifra_8c_html_a8a3fbf5b9ce4cd9045f6f3922d3acd2a"><div class="ttname"><a href="cifra_8c.html#a8a3fbf5b9ce4cd9045f6f3922d3acd2a">ptls_minicrypto_sha256</a></div><div class="ttdeci">ptls_hash_algorithm_t ptls_minicrypto_sha256</div><div class="ttdef"><b>Definition:</b> cifra.c:594</div></div>
+<div class="ttc" id="cifra_8c_html_ad07bf3f3ce311258165d4a914f3ef525"><div class="ttname"><a href="cifra_8c.html#ad07bf3f3ce311258165d4a914f3ef525">ptls_minicrypto_chacha20poly1305</a></div><div class="ttdeci">ptls_aead_algorithm_t ptls_minicrypto_chacha20poly1305</div><div class="ttdef"><b>Definition:</b> cifra.c:601</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2107,9 +2456,9 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {&amp;<a class="code" href="cifra_8c.html#a3325182d7c1ca52804af54377e475153">ptls_minicrypto_aes256gcmsha384</a>, &amp;<a class="code" href="cifra_8c.html#a265265a58854b142ae645488a68ee8c8">ptls_minicrypto_aes128gcmsha256</a>,</div>
 <div class="line">                                                        &amp;<a class="code" href="cifra_8c.html#a7c9ed64fcb2eecb0558bc91e63337022">ptls_minicrypto_chacha20poly1305sha256</a>, NULL}</div>
-<div class="ttc" id="cifra_8c_html_a265265a58854b142ae645488a68ee8c8"><div class="ttname"><a href="cifra_8c.html#a265265a58854b142ae645488a68ee8c8">ptls_minicrypto_aes128gcmsha256</a></div><div class="ttdeci">ptls_cipher_suite_t ptls_minicrypto_aes128gcmsha256</div><div class="ttdef"><b>Definition:</b> cifra.c:554</div></div>
-<div class="ttc" id="cifra_8c_html_a7c9ed64fcb2eecb0558bc91e63337022"><div class="ttname"><a href="cifra_8c.html#a7c9ed64fcb2eecb0558bc91e63337022">ptls_minicrypto_chacha20poly1305sha256</a></div><div class="ttdeci">ptls_cipher_suite_t ptls_minicrypto_chacha20poly1305sha256</div><div class="ttdef"><b>Definition:</b> cifra.c:558</div></div>
-<div class="ttc" id="cifra_8c_html_a3325182d7c1ca52804af54377e475153"><div class="ttname"><a href="cifra_8c.html#a3325182d7c1ca52804af54377e475153">ptls_minicrypto_aes256gcmsha384</a></div><div class="ttdeci">ptls_cipher_suite_t ptls_minicrypto_aes256gcmsha384</div><div class="ttdef"><b>Definition:</b> cifra.c:556</div></div>
+<div class="ttc" id="cifra_8c_html_a265265a58854b142ae645488a68ee8c8"><div class="ttname"><a href="cifra_8c.html#a265265a58854b142ae645488a68ee8c8">ptls_minicrypto_aes128gcmsha256</a></div><div class="ttdeci">ptls_cipher_suite_t ptls_minicrypto_aes128gcmsha256</div><div class="ttdef"><b>Definition:</b> cifra.c:609</div></div>
+<div class="ttc" id="cifra_8c_html_a7c9ed64fcb2eecb0558bc91e63337022"><div class="ttname"><a href="cifra_8c.html#a7c9ed64fcb2eecb0558bc91e63337022">ptls_minicrypto_chacha20poly1305sha256</a></div><div class="ttdeci">ptls_cipher_suite_t ptls_minicrypto_chacha20poly1305sha256</div><div class="ttdef"><b>Definition:</b> cifra.c:613</div></div>
+<div class="ttc" id="cifra_8c_html_a3325182d7c1ca52804af54377e475153"><div class="ttname"><a href="cifra_8c.html#a3325182d7c1ca52804af54377e475153">ptls_minicrypto_aes256gcmsha384</a></div><div class="ttdeci">ptls_cipher_suite_t ptls_minicrypto_aes256gcmsha384</div><div class="ttdef"><b>Definition:</b> cifra.c:611</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2124,9 +2473,9 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {<a class="code" href="picotls_8h.html#abfb1619bfa89e5cf6a815f52cd0d0cea">PTLS_SHA256_BLOCK_SIZE</a>, <a class="code" href="picotls_8h.html#a910934303bda14d99030e6ef629b8888">PTLS_SHA256_DIGEST_SIZE</a>, sha256_create,</div>
 <div class="line">                                                <a class="code" href="picotls_8h.html#aa596500914e23a251e189495d8e66fba">PTLS_ZERO_DIGEST_SHA256</a>}</div>
-<div class="ttc" id="picotls_8h_html_a910934303bda14d99030e6ef629b8888"><div class="ttname"><a href="picotls_8h.html#a910934303bda14d99030e6ef629b8888">PTLS_SHA256_DIGEST_SIZE</a></div><div class="ttdeci">#define PTLS_SHA256_DIGEST_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:45</div></div>
-<div class="ttc" id="picotls_8h_html_abfb1619bfa89e5cf6a815f52cd0d0cea"><div class="ttname"><a href="picotls_8h.html#abfb1619bfa89e5cf6a815f52cd0d0cea">PTLS_SHA256_BLOCK_SIZE</a></div><div class="ttdeci">#define PTLS_SHA256_BLOCK_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:44</div></div>
-<div class="ttc" id="picotls_8h_html_aa596500914e23a251e189495d8e66fba"><div class="ttname"><a href="picotls_8h.html#aa596500914e23a251e189495d8e66fba">PTLS_ZERO_DIGEST_SHA256</a></div><div class="ttdeci">#define PTLS_ZERO_DIGEST_SHA256</div><div class="ttdef"><b>Definition:</b> picotls.h:155</div></div>
+<div class="ttc" id="picotls_8h_html_a910934303bda14d99030e6ef629b8888"><div class="ttname"><a href="picotls_8h.html#a910934303bda14d99030e6ef629b8888">PTLS_SHA256_DIGEST_SIZE</a></div><div class="ttdeci">#define PTLS_SHA256_DIGEST_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:53</div></div>
+<div class="ttc" id="picotls_8h_html_abfb1619bfa89e5cf6a815f52cd0d0cea"><div class="ttname"><a href="picotls_8h.html#abfb1619bfa89e5cf6a815f52cd0d0cea">PTLS_SHA256_BLOCK_SIZE</a></div><div class="ttdeci">#define PTLS_SHA256_BLOCK_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:52</div></div>
+<div class="ttc" id="picotls_8h_html_aa596500914e23a251e189495d8e66fba"><div class="ttname"><a href="picotls_8h.html#aa596500914e23a251e189495d8e66fba">PTLS_ZERO_DIGEST_SHA256</a></div><div class="ttdeci">#define PTLS_ZERO_DIGEST_SHA256</div><div class="ttdef"><b>Definition:</b> picotls.h:163</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2141,9 +2490,9 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {<a class="code" href="picotls_8h.html#aa2167c6b76ee0c4517a263225c2bd7ae">PTLS_SHA384_BLOCK_SIZE</a>, <a class="code" href="picotls_8h.html#a4e599a21a88b23aeb53494c65d159581">PTLS_SHA384_DIGEST_SIZE</a>, sha384_create,</div>
 <div class="line">                                                <a class="code" href="picotls_8h.html#a4fb20cb6b2af408282de113fa889a92e">PTLS_ZERO_DIGEST_SHA384</a>}</div>
-<div class="ttc" id="picotls_8h_html_a4fb20cb6b2af408282de113fa889a92e"><div class="ttname"><a href="picotls_8h.html#a4fb20cb6b2af408282de113fa889a92e">PTLS_ZERO_DIGEST_SHA384</a></div><div class="ttdeci">#define PTLS_ZERO_DIGEST_SHA384</div><div class="ttdef"><b>Definition:</b> picotls.h:161</div></div>
-<div class="ttc" id="picotls_8h_html_aa2167c6b76ee0c4517a263225c2bd7ae"><div class="ttname"><a href="picotls_8h.html#aa2167c6b76ee0c4517a263225c2bd7ae">PTLS_SHA384_BLOCK_SIZE</a></div><div class="ttdeci">#define PTLS_SHA384_BLOCK_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:47</div></div>
-<div class="ttc" id="picotls_8h_html_a4e599a21a88b23aeb53494c65d159581"><div class="ttname"><a href="picotls_8h.html#a4e599a21a88b23aeb53494c65d159581">PTLS_SHA384_DIGEST_SIZE</a></div><div class="ttdeci">#define PTLS_SHA384_DIGEST_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:48</div></div>
+<div class="ttc" id="picotls_8h_html_a4fb20cb6b2af408282de113fa889a92e"><div class="ttname"><a href="picotls_8h.html#a4fb20cb6b2af408282de113fa889a92e">PTLS_ZERO_DIGEST_SHA384</a></div><div class="ttdeci">#define PTLS_ZERO_DIGEST_SHA384</div><div class="ttdef"><b>Definition:</b> picotls.h:169</div></div>
+<div class="ttc" id="picotls_8h_html_aa2167c6b76ee0c4517a263225c2bd7ae"><div class="ttname"><a href="picotls_8h.html#aa2167c6b76ee0c4517a263225c2bd7ae">PTLS_SHA384_BLOCK_SIZE</a></div><div class="ttdeci">#define PTLS_SHA384_BLOCK_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:55</div></div>
+<div class="ttc" id="picotls_8h_html_a4e599a21a88b23aeb53494c65d159581"><div class="ttname"><a href="picotls_8h.html#a4e599a21a88b23aeb53494c65d159581">PTLS_SHA384_DIGEST_SIZE</a></div><div class="ttdeci">#define PTLS_SHA384_DIGEST_SIZE</div><div class="ttdef"><b>Definition:</b> picotls.h:56</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2182,7 +2531,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 31 2019 23:08:42 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 13 2019 13:06:18 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

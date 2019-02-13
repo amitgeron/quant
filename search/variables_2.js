@@ -5,12 +5,13 @@ var searchData=
   ['base',['base',['../structkmem__t.html#afbbdd4ac6adc19993094a960cea93e34',1,'kmem_t::base()'],['../structst__ptls__iovec__t.html#a6a3ca90e0fee18ab6a55e47982271876',1,'st_ptls_iovec_t::base()'],['../structst__ptls__buffer__t.html#a4a96dcd8b941d061b85c7d3979890b1e',1,'st_ptls_buffer_t::base()'],['../structst__ptls__handshake__properties__t.html#a4df8be7485bb310b53a4447bfd8a0f19',1,'st_ptls_handshake_properties_t::base()'],['../structw__iov.html#a95f0ae7b7b873f81d7a97d5670aaa6b0',1,'w_iov::base()']]],
   ['begin_5fmessage',['begin_message',['../structst__ptls__message__emitter__t.html#a8518235c00ebae7606e357ba093a2d1e',1,'st_ptls_message_emitter_t']]],
   ['binder',['binder',['../structst__ptls__client__hello__psk__t.html#ad7c55247c7facbdca578fc88c38f17b8',1,'st_ptls_client_hello_psk_t']]],
+  ['bit_5flength',['bit_length',['../structst__ptls__ffx__test__variants__t.html#a0f85b483462133e2dd2c0a74d08e3ef0',1,'st_ptls_ffx_test_variants_t']]],
   ['bits',['bits',['../structst__ptls__extension__bitmap__t.html#a372980f17b2411ba071e0b24635705dc',1,'st_ptls_extension_bitmap_t']]],
   ['block',['block',['../structcf__cbc.html#a2cca23bf3c4637222024674e61b2e20f',1,'cf_cbc::block()'],['../structcf__salsa20__ctx.html#aec4b714f80ef2a29183e4d3679e59c72',1,'cf_salsa20_ctx::block()']]],
   ['block_5faddress',['block_address',['../structBGZF.html#a1947f7bdab8c1ccb15d196db87969e69',1,'BGZF']]],
   ['block_5flength',['block_length',['../structBGZF.html#ac7370da5d7504954f7aede0c057cebfb',1,'BGZF']]],
   ['block_5foffset',['block_offset',['../structBGZF.html#adfe9a33e101dc894b1d5868eba5fa9bd',1,'BGZF']]],
-  ['block_5fsize',['block_size',['../structuECC__HashContext.html#a9ca932741cf8dea9ac3307ce45c1df78',1,'uECC_HashContext::block_size()'],['../structst__ptls__hash__algorithm__t.html#ad345d651135a934f00ec6c42a729b2c0',1,'st_ptls_hash_algorithm_t::block_size()']]],
+  ['block_5fsize',['block_size',['../structuECC__HashContext.html#a9ca932741cf8dea9ac3307ce45c1df78',1,'uECC_HashContext::block_size()'],['../structst__ptls__cipher__algorithm__t.html#aad4e913241daa6f4e188b1d261c3f844',1,'st_ptls_cipher_algorithm_t::block_size()'],['../structst__ptls__hash__algorithm__t.html#ad345d651135a934f00ec6c42a729b2c0',1,'st_ptls_hash_algorithm_t::block_size()']]],
   ['blocked',['blocked',['../structq__stream.html#a56ca5935404b3d66f600d6ce436c4771',1,'q_stream']]],
   ['blocks',['blocks',['../structcf__sha1__context.html#a777be7d4e5c65cc7babda853c9dfb7a4',1,'cf_sha1_context::blocks()'],['../structcf__sha256__context.html#ac8170138e8a8d10c426352c4a6f22bcf',1,'cf_sha256_context::blocks()'],['../structcf__sha512__context.html#a131e125d3c0fffa81dc4c02fcb21900b',1,'cf_sha512_context::blocks()']]],
   ['blocksz',['blocksz',['../structcf__chash.html#a88265f3ec8c9650cd58e740d6afe99ff',1,'cf_chash::blocksz()'],['../structcf__prp.html#ad6debea6c268bf6b137aa57f5073c84d',1,'cf_prp::blocksz()']]],
@@ -24,5 +25,6 @@ var searchData=
   ['bufs',['bufs',['../structw__engine.html#afa8ad906202b2098b44fb6a5bdeb5c20',1,'w_engine']]],
   ['builtin',['builtin',['../structke1__s.html#ad25b8ed1c9f7cbf67c91a25370fc646c',1,'ke1_s']]],
   ['bus_5ffault',['bus_fault',['../structvectors__t.html#a2ce2f83722107d9fb7ff80aebfa137ad',1,'vectors_t']]],
+  ['byte_5flength',['byte_length',['../structst__ptls__ffx__context__t.html#aa0a278cc90836e14b96761a34066b4ff',1,'st_ptls_ffx_context_t']]],
   ['bytecount',['byteCount',['../structsha1nfo.html#ae503c77e1d124cad1026f3b76ebe1d0b',1,'sha1nfo']]]
 ];

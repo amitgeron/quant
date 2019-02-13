@@ -100,7 +100,7 @@ Macros</h2></td></tr>
 <tr class="separator:a72f482ab8bf2bbcdd3f17d779c8f894f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4283667ae6e3ceb4617e896384f52c07"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="klib_2kavl_8h.html#a4283667ae6e3ceb4617e896384f52c07">kavl_size</a>(head, p)&#160;&#160;&#160;((p)? (p)-&gt;head.size : 0)</td></tr>
 <tr class="separator:a4283667ae6e3ceb4617e896384f52c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add06ae9913f42b02beecdaa4d9b03ddf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="klib_2kavl_8h.html#add06ae9913f42b02beecdaa4d9b03ddf">kavl_size_child</a>(head, q, <a class="el" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>)&#160;&#160;&#160;((q)-&gt;head.p[(<a class="el" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>)]? (q)-&gt;head.p[(<a class="el" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>)]-&gt;head.size : 0)</td></tr>
+<tr class="memitem:add06ae9913f42b02beecdaa4d9b03ddf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="klib_2kavl_8h.html#add06ae9913f42b02beecdaa4d9b03ddf">kavl_size_child</a>(head, q, i)&#160;&#160;&#160;((q)-&gt;head.p[(i)]? (q)-&gt;head.p[(i)]-&gt;head.size : 0)</td></tr>
 <tr class="separator:add06ae9913f42b02beecdaa4d9b03ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5466906da509813e03ba2b7037832d8f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="klib_2kavl_8h.html#a5466906da509813e03ba2b7037832d8f">KAVL_HEAD</a>(__type)</td></tr>
 <tr class="separator:a5466906da509813e03ba2b7037832d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,7 +246,7 @@ Macros</h2></td></tr>
 <div class="line">        if (cnt_) *cnt_ = cnt; \</div>
 <div class="line">        return (__type*)p; \</div>
 <div class="line">    }</div>
-<div class="ttc" id="test__queue_8c_html_a9cfbb269728dc4185236d28be58d9eab"><div class="ttname"><a href="test__queue_8c.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a></div><div class="ttdeci">static int cnt</div><div class="ttdef"><b>Definition:</b> test_queue.c:47</div></div>
+<div class="ttc" id="test__queue_8c_html_a9cfbb269728dc4185236d28be58d9eab"><div class="ttname"><a href="test__queue_8c.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a></div><div class="ttdeci">static int cnt</div><div class="ttdef"><b>Definition:</b> test_queue.c:48</div></div>
 <div class="ttc" id="klib_2kavl_8h_html_add06ae9913f42b02beecdaa4d9b03ddf"><div class="ttname"><a href="klib_2kavl_8h.html#add06ae9913f42b02beecdaa4d9b03ddf">kavl_size_child</a></div><div class="ttdeci">#define kavl_size_child(head, q, i)</div><div class="ttdef"><b>Definition:</b> kavl.h:72</div></div>
 </div><!-- fragment -->
 </div>
@@ -399,7 +399,7 @@ Macros</h2></td></tr>
 <div class="line">        return <a class="code" href="test__queue_8c.html#a5391b7f1199d134d62d41f3734ad4322">r</a>; \</div>
 <div class="line">    }</div>
 <div class="ttc" id="klib_2kavl_8h_html_add06ae9913f42b02beecdaa4d9b03ddf"><div class="ttname"><a href="klib_2kavl_8h.html#add06ae9913f42b02beecdaa4d9b03ddf">kavl_size_child</a></div><div class="ttdeci">#define kavl_size_child(head, q, i)</div><div class="ttdef"><b>Definition:</b> kavl.h:72</div></div>
-<div class="ttc" id="test__queue_8c_html_a5391b7f1199d134d62d41f3734ad4322"><div class="ttname"><a href="test__queue_8c.html#a5391b7f1199d134d62d41f3734ad4322">r</a></div><div class="ttdeci">#define r(m)</div><div class="ttdef"><b>Definition:</b> test_queue.c:34</div></div>
+<div class="ttc" id="test__queue_8c_html_a5391b7f1199d134d62d41f3734ad4322"><div class="ttname"><a href="test__queue_8c.html#a5391b7f1199d134d62d41f3734ad4322">r</a></div><div class="ttdeci">#define r(m)</div><div class="ttdef"><b>Definition:</b> test_queue.c:35</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -968,12 +968,12 @@ Macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>&#160;</td>
+          <td class="paramname">i&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((q)-&gt;head.p[(<a class="el" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>)]? (q)-&gt;head.p[(<a class="el" href="fuzz_8c.html#a3a555db7b4c043cd63ed7635a21fe107">i</a>)]-&gt;head.size : 0)</td>
+          <td></td><td>&#160;&#160;&#160;((q)-&gt;head.p[(i)]? (q)-&gt;head.p[(i)]-&gt;head.size : 0)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -983,7 +983,7 @@ Macros</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 31 2019 23:08:41 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 13 2019 13:06:17 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

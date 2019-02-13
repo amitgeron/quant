@@ -23,6 +23,8 @@ var searchData=
   ['st_5fptls_5fesni_5fsecret_5ft',['st_ptls_esni_secret_t',['../structst__ptls__esni__secret__t.html',1,'']]],
   ['st_5fptls_5fextension_5fbitmap_5ft',['st_ptls_extension_bitmap_t',['../structst__ptls__extension__bitmap__t.html',1,'']]],
   ['st_5fptls_5fextension_5fdecoder_5ft',['st_ptls_extension_decoder_t',['../structst__ptls__extension__decoder__t.html',1,'']]],
+  ['st_5fptls_5fffx_5fcontext_5ft',['st_ptls_ffx_context_t',['../structst__ptls__ffx__context__t.html',1,'']]],
+  ['st_5fptls_5fffx_5ftest_5fvariants_5ft',['st_ptls_ffx_test_variants_t',['../structst__ptls__ffx__test__variants__t.html',1,'']]],
   ['st_5fptls_5fhandshake_5fproperties_5ft',['st_ptls_handshake_properties_t',['../structst__ptls__handshake__properties__t.html',1,'']]],
   ['st_5fptls_5fhash_5falgorithm_5ft',['st_ptls_hash_algorithm_t',['../structst__ptls__hash__algorithm__t.html',1,'']]],
   ['st_5fptls_5fhash_5fcontext_5ft',['st_ptls_hash_context_t',['../structst__ptls__hash__context__t.html',1,'']]],
