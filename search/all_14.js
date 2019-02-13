@@ -104,7 +104,7 @@ var searchData=
   ['un_5f512bitvalue_5f',['UN_512bitValue_',['../unionUN__512bitValue__.html',1,'']]],
   ['uncompressed_5fblock',['uncompressed_block',['../structBGZF.html#a76c7cc891120f39dcdd120ef9c74829a',1,'BGZF']]],
   ['uncompressed_5flength',['uncompressed_length',['../structst__ptls__emit__compressed__certificate__t.html#ac160351bc0528a534fc3231513d0e2fb',1,'st_ptls_emit_compressed_certificate_t']]],
-  ['undo_5fhp',['undo_hp',['../pkt_8c.html#a1d4214a1cea3c089430bc162db2749b4',1,'pkt.c']]],
+  ['undo_5fhp',['undo_hp',['../pkt_8c.html#a3219bcf2ce628aad76f0351601744b14',1,'pkt.c']]],
   ['undo_5fpadding',['undo_padding',['../norx_8c.html#aa674a6821780daa126c37f4ee2a19280',1,'norx.c']]],
   ['unhex',['unhex',['../testutil_8h.html#ae01bda1adaa1c149b8f920ea1f6eb624',1,'testutil.h']]],
   ['unhex_5fchr',['unhex_chr',['../testutil_8h.html#a6c1e18489239a835787d1425c8c6398c',1,'testutil.h']]],

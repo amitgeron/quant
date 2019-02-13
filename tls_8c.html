@@ -257,8 +257,8 @@ Functions</h2></td></tr>
 <tr class="separator:a335e59beef17e01808af4433b4bedd9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04944efc22fe01b0d66065a805db015a"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a04944efc22fe01b0d66065a805db015a">dec_aead</a> (const struct <a class="el" href="structw__iov.html">w_iov</a> *const xv, const struct <a class="el" href="structw__iov.html">w_iov</a> *const v, const uint16_t <a class="el" href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a>, const struct <a class="el" href="structcipher__ctx.html">cipher_ctx</a> *const <a class="el" href="test_8h.html#a548aff34430d3b5d6d5ba393b8fdda8f">ctx</a>)</td></tr>
 <tr class="separator:a04944efc22fe01b0d66065a805db015a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1193e69500fa37d706399a825b799526"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a1193e69500fa37d706399a825b799526">enc_aead</a> (struct q_conn *const c, const struct <a class="el" href="structw__iov.html">w_iov</a> *const v, const struct <a class="el" href="structw__iov.html">w_iov</a> *const xv, const uint16_t pkt_nr_pos)</td></tr>
-<tr class="separator:a1193e69500fa37d706399a825b799526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6d4a9db5061b3f75c21480419c0489b"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#ae6d4a9db5061b3f75c21480419c0489b">enc_aead</a> (struct q_conn *const c, const struct <a class="el" href="structw__iov.html">w_iov</a> *const v, struct <a class="el" href="structw__iov.html">w_iov</a> *const xv, const uint16_t pkt_nr_pos)</td></tr>
+<tr class="separator:ae6d4a9db5061b3f75c21480419c0489b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a964f3cc6e0351969e0db618a8c2b722b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="picotls_8h.html#a40796f9d4489a0adfaa5eb48a6252a69">ptls_hash_context_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a964f3cc6e0351969e0db618a8c2b722b">prep_hash_ctx</a> (const struct q_conn *const c, const <a class="el" href="picotls_8h.html#af1dea0d2db4d4d0d1e46c4ed9f8f4130">ptls_cipher_suite_t</a> *const cs)</td></tr>
 <tr class="separator:a964f3cc6e0351969e0db618a8c2b722b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7af72f607847e5a6a71e9910b489fedc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a7af72f607847e5a6a71e9910b489fedc">make_rtry_tok</a> (struct q_conn *const c)</td></tr>
@@ -341,7 +341,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="warpcore_2lib_2include_2warpcore_2util_8h_html_a1011ec002411388144b5eea764f90d83"><div class="ttname"><a href="warpcore_2lib_2include_2warpcore_2util_8h.html#a1011ec002411388144b5eea764f90d83">ensure</a></div><div class="ttdeci">#define ensure(e,...)</div><div class="ttdoc">A version of the C assert() macro that isn&#39;t disabled by NDEBUG and that ties in with warn()...</div><div class="ttdef"><b>Definition:</b> util.h:223</div></div>
 <div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:417</div></div>
 <div class="ttc" id="t_2picotls_8c_html_a7360b55975153b822efc5217b7734e6a"><div class="ttname"><a href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a></div><div class="ttdeci">size_t len</div><div class="ttdef"><b>Definition:</b> picotls.c:418</div></div>
-<div class="ttc" id="marshall_8h_html_a17979630a63703570a316e70d4e9cb30"><div class="ttname"><a href="marshall_8h.html#a17979630a63703570a316e70d4e9cb30">dec</a></div><div class="ttdeci">#define dec(dst, buf, buf_len, pos, dst_len, fmt)</div><div class="ttdef"><b>Definition:</b> marshall.h:177</div></div>
+<div class="ttc" id="marshall_8h_html_a17979630a63703570a316e70d4e9cb30"><div class="ttname"><a href="marshall_8h.html#a17979630a63703570a316e70d4e9cb30">dec</a></div><div class="ttdeci">#define dec(dst, buf, buf_len, pos, dst_len, fmt)</div><div class="ttdef"><b>Definition:</b> marshall.h:187</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -377,10 +377,10 @@ Variables</h2></td></tr>
 <div class="line">        _l;                                                                    \</div>
 <div class="line">    })</div>
 <div class="ttc" id="warpcore_2lib_2include_2warpcore_2util_8h_html_a1011ec002411388144b5eea764f90d83"><div class="ttname"><a href="warpcore_2lib_2include_2warpcore_2util_8h.html#a1011ec002411388144b5eea764f90d83">ensure</a></div><div class="ttdeci">#define ensure(e,...)</div><div class="ttdoc">A version of the C assert() macro that isn&#39;t disabled by NDEBUG and that ties in with warn()...</div><div class="ttdef"><b>Definition:</b> util.h:223</div></div>
-<div class="ttc" id="marshall_8h_html_a30296cce5b6c5d9acf70a6d8b9ef809b"><div class="ttname"><a href="marshall_8h.html#a30296cce5b6c5d9acf70a6d8b9ef809b">dec_buf</a></div><div class="ttdeci">#define dec_buf(dst, buf, buf_len, pos, dst_len)</div><div class="ttdef"><b>Definition:</b> marshall.h:219</div></div>
+<div class="ttc" id="marshall_8h_html_a30296cce5b6c5d9acf70a6d8b9ef809b"><div class="ttname"><a href="marshall_8h.html#a30296cce5b6c5d9acf70a6d8b9ef809b">dec_buf</a></div><div class="ttdeci">#define dec_buf(dst, buf, buf_len, pos, dst_len)</div><div class="ttdef"><b>Definition:</b> marshall.h:234</div></div>
 <div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:417</div></div>
 <div class="ttc" id="t_2picotls_8c_html_a7360b55975153b822efc5217b7734e6a"><div class="ttname"><a href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a></div><div class="ttdeci">size_t len</div><div class="ttdef"><b>Definition:</b> picotls.c:418</div></div>
-<div class="ttc" id="marshall_8h_html_a17979630a63703570a316e70d4e9cb30"><div class="ttname"><a href="marshall_8h.html#a17979630a63703570a316e70d4e9cb30">dec</a></div><div class="ttdeci">#define dec(dst, buf, buf_len, pos, dst_len, fmt)</div><div class="ttdef"><b>Definition:</b> marshall.h:177</div></div>
+<div class="ttc" id="marshall_8h_html_a17979630a63703570a316e70d4e9cb30"><div class="ttname"><a href="marshall_8h.html#a17979630a63703570a316e70d4e9cb30">dec</a></div><div class="ttdeci">#define dec(dst, buf, buf_len, pos, dst_len, fmt)</div><div class="ttdef"><b>Definition:</b> marshall.h:187</div></div>
 <div class="ttc" id="fuzz_8c_html_a8bedaecc1f0b28f6c3ec357ca967b33a"><div class="ttname"><a href="fuzz_8c.html#a8bedaecc1f0b28f6c3ec357ca967b33a">w</a></div><div class="ttdeci">static struct w_engine w</div><div class="ttdef"><b>Definition:</b> fuzz.c:50</div></div>
 </div><!-- fragment -->
 </div>
@@ -477,7 +477,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="t_2picotls_8c_html_a7360b55975153b822efc5217b7734e6a"><div class="ttname"><a href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a></div><div class="ttdeci">size_t len</div><div class="ttdef"><b>Definition:</b> picotls.c:418</div></div>
 <div class="ttc" id="fuzz_8c_html_a8bedaecc1f0b28f6c3ec357ca967b33a"><div class="ttname"><a href="fuzz_8c.html#a8bedaecc1f0b28f6c3ec357ca967b33a">w</a></div><div class="ttdeci">static struct w_engine w</div><div class="ttdef"><b>Definition:</b> fuzz.c:50</div></div>
 <div class="ttc" id="structtls_html"><div class="ttname"><a href="structtls.html">tls</a></div><div class="ttdef"><b>Definition:</b> tls.h:55</div></div>
-<div class="ttc" id="marshall_8h_html_a97a073f5a85086073df37adf48327b3c"><div class="ttname"><a href="marshall_8h.html#a97a073f5a85086073df37adf48327b3c">enc_buf</a></div><div class="ttdeci">#define enc_buf(buf, buf_len, pos, src, enc_len)</div><div class="ttdef"><b>Definition:</b> marshall.h:130</div></div>
+<div class="ttc" id="marshall_8h_html_a97a073f5a85086073df37adf48327b3c"><div class="ttname"><a href="marshall_8h.html#a97a073f5a85086073df37adf48327b3c">enc_buf</a></div><div class="ttdeci">#define enc_buf(buf, buf_len, pos, src, enc_len)</div><div class="ttdef"><b>Definition:</b> marshall.h:135</div></div>
 <div class="ttc" id="structtls_html_abb765cf816efb3d6b75f9ec2db520571"><div class="ttname"><a href="structtls.html#abb765cf816efb3d6b75f9ec2db520571">tls::tp_buf</a></div><div class="ttdeci">uint8_t tp_buf[196]</div><div class="ttdef"><b>Definition:</b> tls.h:63</div></div>
 </div><!-- fragment -->
 </div>
@@ -990,7 +990,7 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a1193e69500fa37d706399a825b799526"></a>
+<a class="anchor" id="ae6d4a9db5061b3f75c21480419c0489b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1009,7 +1009,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const struct <a class="el" href="structw__iov.html">w_iov</a> *const&#160;</td>
+          <td class="paramtype">struct <a class="el" href="structw__iov.html">w_iov</a> *const&#160;</td>
           <td class="paramname"><em>xv</em>, </td>
         </tr>
         <tr>
@@ -1029,9 +1029,9 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="tls_8c_a1193e69500fa37d706399a825b799526_cgraph.png" border="0" usemap="#tls_8c_a1193e69500fa37d706399a825b799526_cgraph" alt=""/></div>
-<map name="tls_8c_a1193e69500fa37d706399a825b799526_cgraph" id="tls_8c_a1193e69500fa37d706399a825b799526_cgraph">
-<area shape="rect" id="node2" href="tls_8c.html#a335e59beef17e01808af4433b4bedd9a" title="which_cipher_ctx_out" alt="" coords="134,53,282,80"/><area shape="rect" id="node4" href="pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="598,78,647,105"/><area shape="rect" id="node5" href="pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="161,104,255,130"/><area shape="rect" id="node6" href="picotls_8h.html#a0ba1b8374ab826173b83493093b2aceb" title="ptls_aead_encrypt" alt="" coords="144,382,272,409"/><area shape="rect" id="node11" href="pkt_8c.html#a70683b8c3bd39a36a1491102c86ee909" title="xor_hp" alt="" coords="177,205,239,232"/><area shape="rect" id="node3" href="pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="383,53,455,80"/><area shape="rect" id="node7" href="picotls_8h.html#a93aa51d621b1cf204e5ea455db7e747e" title="initializes the internal state of the encryptor " alt="" coords="343,357,495,384"/><area shape="rect" id="node9" href="picotls_8h.html#ac80d132d2606d2af959cf5ab4f574766" title="encrypts the input and updates the GCM state " alt="" coords="331,408,506,434"/><area shape="rect" id="node10" href="picotls_8h.html#ad44b4fd94d7f19cdf846abf90260255c" title="emits buffered data (if any) and the GCM tag " alt="" coords="339,458,498,485"/><area shape="rect" id="node8" href="picotls_8h.html#a850d1876076b7a5061ffae37aa929b41" title="internal " alt="" coords="555,357,691,384"/><area shape="rect" id="node12" href="picotls_8h.html#aa77dcaa131915406a4a03be70e268ff0" title="initializes the IV; this function must be called prior to calling ptls_cipher_encrypt ..." alt="" coords="364,205,473,232"/><area shape="rect" id="node13" href="picotls_8h.html#a2d3ae9c9f2704efb7abae1637cb97241" title="encrypts given text " alt="" coords="351,256,486,282"/><area shape="rect" id="node14" href="pkt_8h.html#a8d063c693439da5fd45d03d8112fda9f" title="pkt_nr_len" alt="" coords="377,306,460,333"/></map>
+<div class="center"><img src="tls_8c_ae6d4a9db5061b3f75c21480419c0489b_cgraph.png" border="0" usemap="#tls_8c_ae6d4a9db5061b3f75c21480419c0489b_cgraph" alt=""/></div>
+<map name="tls_8c_ae6d4a9db5061b3f75c21480419c0489b_cgraph" id="tls_8c_ae6d4a9db5061b3f75c21480419c0489b_cgraph">
+<area shape="rect" id="node2" href="tls_8c.html#a335e59beef17e01808af4433b4bedd9a" title="which_cipher_ctx_out" alt="" coords="134,53,282,80"/><area shape="rect" id="node4" href="pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="598,78,647,105"/><area shape="rect" id="node5" href="pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="161,104,255,130"/><area shape="rect" id="node6" href="picotls_8h.html#a0ba1b8374ab826173b83493093b2aceb" title="ptls_aead_encrypt" alt="" coords="144,382,272,409"/><area shape="rect" id="node11" href="pkt_8c.html#a491976396e2d7fe066ceb2452877eed5" title="xor_hp" alt="" coords="177,205,239,232"/><area shape="rect" id="node3" href="pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="383,53,455,80"/><area shape="rect" id="node7" href="picotls_8h.html#a93aa51d621b1cf204e5ea455db7e747e" title="initializes the internal state of the encryptor " alt="" coords="343,357,495,384"/><area shape="rect" id="node9" href="picotls_8h.html#ac80d132d2606d2af959cf5ab4f574766" title="encrypts the input and updates the GCM state " alt="" coords="331,408,506,434"/><area shape="rect" id="node10" href="picotls_8h.html#ad44b4fd94d7f19cdf846abf90260255c" title="emits buffered data (if any) and the GCM tag " alt="" coords="339,458,498,485"/><area shape="rect" id="node8" href="picotls_8h.html#a850d1876076b7a5061ffae37aa929b41" title="internal " alt="" coords="555,357,691,384"/><area shape="rect" id="node12" href="picotls_8h.html#aa77dcaa131915406a4a03be70e268ff0" title="initializes the IV; this function must be called prior to calling ptls_cipher_encrypt ..." alt="" coords="364,205,473,232"/><area shape="rect" id="node13" href="picotls_8h.html#a2d3ae9c9f2704efb7abae1637cb97241" title="encrypts given text " alt="" coords="351,256,486,282"/><area shape="rect" id="node14" href="pkt_8h.html#a8d063c693439da5fd45d03d8112fda9f" title="pkt_nr_len" alt="" coords="377,306,460,333"/></map>
 </div>
 </p>
 
@@ -2312,7 +2312,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 13 2019 13:06:19 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 13 2019 14:28:11 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

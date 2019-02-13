@@ -45,7 +45,7 @@ var searchData=
   ['uecc_5fvli_5fset',['uECC_vli_set',['../uECC_8c.html#a706eae58ec0ec7d5384276842a08c413',1,'uECC.c']]],
   ['uecc_5fvli_5fsub',['uECC_vli_sub',['../uECC_8c.html#a2a15830c6ec1bc8389b51774a9f4aa48',1,'uECC.c']]],
   ['uecc_5fvli_5ftestbit',['uECC_vli_testBit',['../uECC_8c.html#a76f6c35f118970e235618080f3424a74',1,'uECC.c']]],
-  ['undo_5fhp',['undo_hp',['../pkt_8c.html#a1d4214a1cea3c089430bc162db2749b4',1,'pkt.c']]],
+  ['undo_5fhp',['undo_hp',['../pkt_8c.html#a3219bcf2ce628aad76f0351601744b14',1,'pkt.c']]],
   ['undo_5fpadding',['undo_padding',['../norx_8c.html#aa674a6821780daa126c37f4ee2a19280',1,'norx.c']]],
   ['unhex',['unhex',['../testutil_8h.html#ae01bda1adaa1c149b8f920ea1f6eb624',1,'testutil.h']]],
   ['unhex_5fchr',['unhex_chr',['../testutil_8h.html#a6c1e18489239a835787d1425c8c6398c',1,'testutil.h']]],
