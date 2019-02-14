@@ -317,16 +317,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">        ifname, &amp;(<span class="keyword">const</span> <span class="keyword">struct</span> <a name="_a31"></a><a class="code" href="structq__conf.html">q_conf</a>){</div>
 <div class="line">                    .num_bufs = 100000, .tls_cert = cert, .tls_key = key});</div>
 <div class="line">    <span class="keyword">struct </span>q_conn * conn[MAXPORTS];</div>
+<div class="line">    <span class="keywordtype">size_t</span> bound = 0;</div>
 <div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; num_ports; i++) {</div>
 <div class="line">        conn[i] = <a name="a32"></a><a class="code" href="quant_8h.html#ac6e72671693d868a07bf17e6dd097632">q_bind</a>(w, port[i]);</div>
-<div class="line">        <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a75fb9e13fe5fdbdbf4f0b7f34d25a887">warn</a>(<a name="a33"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a49606be7356624568932ec81c0d429f4">DBG</a>, <span class="stringliteral">&quot;%s waiting on %s port %d&quot;</span>, <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#abf5f17d3254f2e930aee0dc34dbff071">basename</a>(argv[0]), ifname,</div>
-<div class="line">             port[i]);</div>
+<div class="line">        <span class="keywordflow">if</span> (conn[i]) {</div>
+<div class="line">            <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a75fb9e13fe5fdbdbf4f0b7f34d25a887">warn</a>(<a name="a33"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a49606be7356624568932ec81c0d429f4">DBG</a>, <span class="stringliteral">&quot;%s waiting on %s port %d&quot;</span>, <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#abf5f17d3254f2e930aee0dc34dbff071">basename</a>(argv[0]), ifname,</div>
+<div class="line">                 port[i]);</div>
+<div class="line">            bound++;</div>
+<div class="line">        } <span class="keywordflow">else</span></div>
+<div class="line">            <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a75fb9e13fe5fdbdbf4f0b7f34d25a887">warn</a>(<a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a735563036dced0b7d6cc98f97ea4978b">ERR</a>, <span class="stringliteral">&quot;%s failed to bind to %s port %d&quot;</span>, <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#abf5f17d3254f2e930aee0dc34dbff071">basename</a>(argv[0]),</div>
+<div class="line">                 ifname, port[i]);</div>
 <div class="line">    }</div>
 <div class="line"></div>
 <div class="line">    <span class="keywordtype">bool</span> first_conn = <span class="keyword">true</span>;</div>
 <div class="line">    http_parser_settings settings = {.on_url = serve_cb};</div>
 <div class="line"></div>
-<div class="line">    <span class="keywordflow">while</span> (1) {</div>
+<div class="line">    <span class="keywordflow">while</span> (bound) {</div>
 <div class="line">        <span class="keyword">struct </span>q_conn * c = <a name="a34"></a><a class="code" href="quant_8h.html#a84a768c49cd352e1c8a109bda56ef3a6">q_rx_ready</a>(first_conn ? 0 : timeout);</div>
 <div class="line">        <span class="keywordflow">if</span> (c == 0)</div>
 <div class="line">            <span class="keywordflow">break</span>;</div>
@@ -379,7 +385,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --> </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 14 2019 12:30:48 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 14 2019 13:13:47 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
