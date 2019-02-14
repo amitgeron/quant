@@ -48,7 +48,6 @@ var searchData=
   ['ip_5ftx_5fwith_5frx_5fbuf',['ip_tx_with_rx_buf',['../ip_8h.html#abce4a5aefa4ece9002ca4499828716ee',1,'ip.h']]],
   ['ip_5fv',['ip_v',['../ip_8h.html#a5b7259dc8ff553a71d123d57f13fd819',1,'ip.h']]],
   ['is_5fack_5feliciting',['is_ack_eliciting',['../quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd',1,'quic.h']]],
-  ['is_5ffin',['is_fin',['../quic_8h.html#a6bb0d7cd1774df0297a9540111f46308',1,'quic.h']]],
   ['is_5fforce_5fvneg_5fvers',['is_force_vneg_vers',['../conn_8h.html#a3b1788e29ec153bfcb2b7edc34c488a6',1,'conn.h']]],
   ['is_5finf',['is_inf',['../conn_8h.html#a07cb3f3bb2c38f820f0a7fd74de25d6d',1,'conn.h']]],
   ['is_5flh',['is_lh',['../pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d',1,'pkt.h']]],

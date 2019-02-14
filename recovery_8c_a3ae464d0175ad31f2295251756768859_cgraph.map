@@ -1,7 +1,7 @@
 <map id="on_ack_received_2" name="on_ack_received_2">
 <area shape="rect" id="node2" href="$recovery_8c.html#a6971aff4675cf8595f8bb0e84e521d4a" title="detect_lost_pkts" alt="" coords="190,132,309,159"/>
-<area shape="rect" id="node11" href="$recovery_8c.html#ae36a89ee82fe65d07b6707ac13e9071e" title="set_ld_timer" alt="" coords="203,259,296,285"/>
-<area shape="rect" id="node15" href="$conn_8h.html#a3037cafb7df5c92ea54b7e6646a692e7" title="has_wnd" alt="" coords="212,360,287,387"/>
+<area shape="rect" id="node11" href="$recovery_8c.html#ae36a89ee82fe65d07b6707ac13e9071e" title="set_ld_timer" alt="" coords="203,233,296,260"/>
+<area shape="rect" id="node14" href="$conn_8h.html#a3037cafb7df5c92ea54b7e6646a692e7" title="has_wnd" alt="" coords="212,309,287,336"/>
 <area shape="rect" id="node3" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="397,208,461,235"/>
 <area shape="rect" id="node4" href="$pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="382,5,477,32"/>
 <area shape="rect" id="node7" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="374,56,485,83"/>
@@ -11,7 +11,7 @@
 <area shape="rect" id="node6" href="$pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="571,31,643,57"/>
 <area shape="rect" id="node10" href="$recovery_8c.html#ac36409c4a2b0380ad8c0b16d5fe819e4" title="in_recovery" alt="" coords="562,157,651,184"/>
 <area shape="rect" id="node12" href="$recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9" title="crypto_pkts_in_flight" alt="" coords="358,259,501,285"/>
-<area shape="rect" id="node14" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="565,360,648,387"/>
 <area shape="rect" id="node13" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="550,259,663,285"/>
-<area shape="rect" id="node16" href="$conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0" title="has_pval_wnd" alt="" coords="377,411,482,437"/>
+<area shape="rect" id="node15" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="565,335,648,361"/>
+<area shape="rect" id="node16" href="$conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0" title="has_pval_wnd" alt="" coords="377,360,482,387"/>
 </map>
