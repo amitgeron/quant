@@ -1,42 +1,23 @@
 <map id="q_cleanup" name="q_cleanup">
-<area shape="rect" id="node2" href="$quic_8c.html#a795c32a858382068fa5b5cf25af69a77" title="q_close" alt="" coords="145,452,212,479"/>
-<area shape="rect" id="node39" href="$tls_8c.html#ad409e0ca7a5132aa66115caa612f69e1" title="free_tls_ctx" alt="" coords="269,705,360,732"/>
-<area shape="rect" id="node40" href="$warpcore_8h.html#a726b06c06493678f7f48c889bbcd30a5" title="Shut a warpcore engine down cleanly. " alt="" coords="137,629,221,656"/>
-<area shape="rect" id="node3" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="617,64,700,91"/>
-<area shape="rect" id="node4" href="$conn_8c.html#a4a5deef512e20b125b45899c6c80c6fc" title="free_conn" alt="" coords="275,452,354,479"/>
-<area shape="rect" id="node5" href="$warpcore_8h.html#a26c31751f7bb602b01bf00077ebd362d" title="Close a warpcore socket. " alt="" coords="439,528,510,555"/>
-<area shape="rect" id="node8" href="$stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="429,191,520,217"/>
-<area shape="rect" id="node17" href="$tls_8c.html#a04c7d8686952c02e95385a6e3fcab5a7" title="free_tls" alt="" coords="442,325,507,352"/>
-<area shape="rect" id="node31" href="$pn_8c.html#a3b132beb2506faada16af74535e27fec" title="free_pn" alt="" coords="442,477,507,504"/>
-<area shape="rect" id="node32" href="$diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="diet_free" alt="" coords="623,477,695,504"/>
-<area shape="rect" id="node33" href="$conn_8c.html#ac2eda2699440f1e6863dbcff2e7914bc" title="conns_by_ipnp_del" alt="" coords="408,376,541,403"/>
-<area shape="rect" id="node35" href="$conn_8c.html#ab983b3d57ee0c84f0e70018a299033a8" title="free_scid" alt="" coords="437,680,512,707"/>
-<area shape="rect" id="node38" href="$conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56" title="free_dcid" alt="" coords="437,579,512,605"/>
-<area shape="rect" id="node6" href="$backend_8h.html#a10352237f3cab978ad3dbe7f25acb8cc" title="The netmap backend performs no operation here. " alt="" coords="604,579,713,605"/>
-<area shape="rect" id="node7" href="$warpcore_8c.html#a811255f1e117572d31fd94afa11718a4" title="rem_sock" alt="" coords="619,528,698,555"/>
-<area shape="rect" id="node9" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type t into the diet tree t. " alt="" coords="617,115,700,141"/>
-<area shape="rect" id="node14" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="613,165,704,192"/>
-<area shape="rect" id="node15" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="631,216,687,243"/>
-<area shape="rect" id="node16" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="629,267,688,293"/>
-<area shape="rect" id="node10" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree t. " alt="" coords="814,5,885,32"/>
-<area shape="rect" id="node11" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="812,56,887,83"/>
-<area shape="rect" id="node12" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="814,107,885,133"/>
-<area shape="rect" id="node13" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="809,157,890,184"/>
-<area shape="rect" id="node18" href="$picotls_8h.html#afbd373f266a52a1718a3476b24c3a295" title="releases all resources associated to the object " alt="" coords="623,325,695,352"/>
-<area shape="rect" id="node27" href="$tls_8c.html#a28ce95450a6345dc4f1c85766e2edf8a" title="free_prot" alt="" coords="622,376,695,403"/>
-<area shape="rect" id="node19" href="$picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="782,528,917,555"/>
-<area shape="rect" id="node21" href="$lib_2picotls_8c.html#a5e886ea709e0a30c1e43d060cac09204" title="free_exporter_master\l_secret" alt="" coords="777,209,922,250"/>
-<area shape="rect" id="node22" href="$lib_2picotls_8c.html#a5aa1666c3755a9802eee2c457c5ee410" title="free_esni_secret" alt="" coords="790,275,909,301"/>
-<area shape="rect" id="node23" href="$lib_2picotls_8c.html#aa01f986a7fd99cb6e0f405dbdc309e23" title="key_schedule_free" alt="" coords="784,325,915,352"/>
-<area shape="rect" id="node24" href="$lib_2picotls_8c.html#aadec89f296f10258b21ce9daa255d485" title="destroys an AEAD cipher context " alt="" coords="796,376,903,403"/>
-<area shape="rect" id="node25" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="797,427,902,453"/>
-<area shape="rect" id="node26" href="$lib_2picotls_8c.html#a14c83de31e76992b20510eef18075173" title="update_open_count" alt="" coords="782,477,917,504"/>
-<area shape="rect" id="node20" href="$picotls_8h.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="971,521,1109,562"/>
-<area shape="rect" id="node28" href="$tls_8c.html#a0e432c22353f0539562e3eb2382001e2" title="dispose_cipher" alt="" coords="795,671,904,697"/>
-<area shape="rect" id="node29" href="$picotls_8h.html#aadec89f296f10258b21ce9daa255d485" title="destroys an AEAD cipher context " alt="" coords="987,645,1093,672"/>
-<area shape="rect" id="node30" href="$picotls_8h.html#ae57011fb3506f15237ead4f3146acc01" title="destroys a symmetric cipher " alt="" coords="983,696,1097,723"/>
-<area shape="rect" id="node34" href="$conn_8c.html#aaf7f518c49a0ab7bd2a9604aae9cc065" title="conns_by_ipnp_key" alt="" coords="590,427,727,453"/>
-<area shape="rect" id="node36" href="$conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78" title="cids_by_id_del" alt="" coords="605,680,713,707"/>
-<area shape="rect" id="node37" href="$conn_8c.html#a157de1b1117fd595bca3a0d2a82184db" title="conns_by_id_del" alt="" coords="599,629,718,656"/>
-<area shape="rect" id="node41" href="$warpcore_8c.html#a26c31751f7bb602b01bf00077ebd362d" title="Close a warpcore socket. " alt="" coords="439,629,510,656"/>
+<area shape="rect" id="node2" href="$quic_8c.html#a795c32a858382068fa5b5cf25af69a77" title="q_close" alt="" coords="148,183,215,209"/>
+<area shape="rect" id="node17" href="$tls_8c.html#ad409e0ca7a5132aa66115caa612f69e1" title="free_tls_ctx" alt="" coords="136,335,227,361"/>
+<area shape="rect" id="node21" href="$warpcore_8h.html#a726b06c06493678f7f48c889bbcd30a5" title="Shut a warpcore engine down cleanly. " alt="" coords="139,284,223,311"/>
+<area shape="rect" id="node3" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="608,5,691,32"/>
+<area shape="rect" id="node4" href="$conn_8c.html#a4a5deef512e20b125b45899c6c80c6fc" title="free_conn" alt="" coords="290,183,369,209"/>
+<area shape="rect" id="node5" href="$warpcore_8h.html#a26c31751f7bb602b01bf00077ebd362d" title="Close a warpcore socket. " alt="" coords="454,233,525,260"/>
+<area shape="rect" id="node8" href="$stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="444,132,535,159"/>
+<area shape="rect" id="node6" href="$backend_8h.html#a10352237f3cab978ad3dbe7f25acb8cc" title="The netmap backend performs no operation here. " alt="" coords="595,309,704,336"/>
+<area shape="rect" id="node7" href="$warpcore_8c.html#a811255f1e117572d31fd94afa11718a4" title="rem_sock" alt="" coords="610,259,689,285"/>
+<area shape="rect" id="node9" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type t into the diet tree t. " alt="" coords="608,107,691,133"/>
+<area shape="rect" id="node14" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="604,157,695,184"/>
+<area shape="rect" id="node15" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="621,208,677,235"/>
+<area shape="rect" id="node16" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="620,56,679,83"/>
+<area shape="rect" id="node10" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree t. " alt="" coords="758,31,829,57"/>
+<area shape="rect" id="node11" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="756,81,831,108"/>
+<area shape="rect" id="node12" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="758,132,829,159"/>
+<area shape="rect" id="node13" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="753,183,834,209"/>
+<area shape="rect" id="node18" href="$tls_8c.html#a0e432c22353f0539562e3eb2382001e2" title="dispose_cipher" alt="" coords="275,335,384,361"/>
+<area shape="rect" id="node19" href="$picotls_8h.html#aadec89f296f10258b21ce9daa255d485" title="destroys an AEAD cipher context " alt="" coords="436,335,543,361"/>
+<area shape="rect" id="node20" href="$picotls_8h.html#ae57011fb3506f15237ead4f3146acc01" title="destroys a symmetric cipher " alt="" coords="432,385,547,412"/>
+<area shape="rect" id="node22" href="$warpcore_8c.html#a26c31751f7bb602b01bf00077ebd362d" title="Close a warpcore socket. " alt="" coords="454,284,525,311"/>
 </map>

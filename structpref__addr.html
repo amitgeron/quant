@@ -100,69 +100,46 @@ Collaboration diagram for pref_addr:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:ac11e5da807e5fb945610c7a1e0b201f0"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpref__addr.html#ac11e5da807e5fb945610c7a1e0b201f0">ip_vers</a></td></tr>
-<tr class="separator:ac11e5da807e5fb945610c7a1e0b201f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b2577fc0bda9adeb7e21063548a5b1b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpref__addr.html#a2b2577fc0bda9adeb7e21063548a5b1b">ip_len</a></td></tr>
-<tr class="separator:a2b2577fc0bda9adeb7e21063548a5b1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6364d8b081fdb1e229b07ecdf9fc0e6"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpref__addr.html#ac6364d8b081fdb1e229b07ecdf9fc0e6">_unused</a> [2]</td></tr>
-<tr class="separator:ac6364d8b081fdb1e229b07ecdf9fc0e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62b8eac5d7168ec862d70f1297edbfd3"><td class="memItemLeft" >union {</td></tr>
-<tr class="memitem:ac246684c3ed4de8423bcfd71410d99d5"><td class="memItemLeft" >&#160;&#160;&#160;struct in_addr&#160;&#160;&#160;<a class="el" href="structpref__addr.html#aa2eec9392bf7a1392fe2a90acfabb652">addr4</a></td></tr>
-<tr class="separator:ac246684c3ed4de8423bcfd71410d99d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e789a705f5c8f1a40b6b83439b88bfd"><td class="memItemLeft" >&#160;&#160;&#160;struct in6_addr&#160;&#160;&#160;<a class="el" href="structpref__addr.html#a9c4330614890ce017fdd66acc065b3dc">addr6</a></td></tr>
-<tr class="separator:a1e789a705f5c8f1a40b6b83439b88bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62b8eac5d7168ec862d70f1297edbfd3"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpref__addr.html#a62b8eac5d7168ec862d70f1297edbfd3">ip</a></td></tr>
-<tr class="separator:a62b8eac5d7168ec862d70f1297edbfd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1498de6dda7bd61f546d4418caf414b8"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpref__addr.html#a1498de6dda7bd61f546d4418caf414b8">port</a></td></tr>
-<tr class="separator:a1498de6dda7bd61f546d4418caf414b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe34c2d76b409bd2ad9f00ec3e5341d2"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpref__addr.html#abe34c2d76b409bd2ad9f00ec3e5341d2">_unused2</a> [2]</td></tr>
-<tr class="separator:abe34c2d76b409bd2ad9f00ec3e5341d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c2c0916de798b002ec29811ba4c7d7a"><td class="memItemLeft" align="right" valign="top">struct sockaddr_in&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpref__addr.html#a7c2c0916de798b002ec29811ba4c7d7a">addr4</a></td></tr>
+<tr class="separator:a7c2c0916de798b002ec29811ba4c7d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a715a616524e4cb75e3d52a5b4af736a1"><td class="memItemLeft" align="right" valign="top">struct sockaddr_in6&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpref__addr.html#a715a616524e4cb75e3d52a5b4af736a1">addr6</a></td></tr>
+<tr class="separator:a715a616524e4cb75e3d52a5b4af736a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a381a10fb7b441a2a7c39074b156360d1"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpref__addr.html#a381a10fb7b441a2a7c39074b156360d1">_unused</a> [4]</td></tr>
+<tr class="separator:a381a10fb7b441a2a7c39074b156360d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a108ebae58396cfd7f299a9f5ad12573d"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structcid.html">cid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpref__addr.html#a108ebae58396cfd7f299a9f5ad12573d">cid</a></td></tr>
 <tr class="separator:a108ebae58396cfd7f299a9f5ad12573d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Field Documentation</h2>
-<a class="anchor" id="ac6364d8b081fdb1e229b07ecdf9fc0e6"></a>
+<a class="anchor" id="a381a10fb7b441a2a7c39074b156360d1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t pref_addr::_unused[2]</td>
+          <td class="memname">uint8_t pref_addr::_unused[4]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="abe34c2d76b409bd2ad9f00ec3e5341d2"></a>
+<a class="anchor" id="a7c2c0916de798b002ec29811ba4c7d7a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t pref_addr::_unused2[2]</td>
+          <td class="memname">struct sockaddr_in pref_addr::addr4</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="aa2eec9392bf7a1392fe2a90acfabb652"></a>
+<a class="anchor" id="a715a616524e4cb75e3d52a5b4af736a1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct in_addr pref_addr::addr4</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a9c4330614890ce017fdd66acc065b3dc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct in6_addr pref_addr::addr6</td>
+          <td class="memname">struct sockaddr_in6 pref_addr::addr6</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -181,61 +158,13 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a62b8eac5d7168ec862d70f1297edbfd3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">union { ... }   pref_addr::ip</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2b2577fc0bda9adeb7e21063548a5b1b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t pref_addr::ip_len</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac11e5da807e5fb945610c7a1e0b201f0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t pref_addr::ip_vers</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1498de6dda7bd61f546d4418caf414b8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t pref_addr::port</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>src/<a class="el" href="conn_8h_source.html">conn.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 15 2019 09:57:51 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 15 2019 13:03:23 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

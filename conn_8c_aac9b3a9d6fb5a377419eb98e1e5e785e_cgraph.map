@@ -1,51 +1,13 @@
 <map id="vneg_or_rtry_resp" name="vneg_or_rtry_resp">
-<area shape="rect" id="node2" href="$stream_8c.html#a23976e8cd7c5aecf8e137324fce993d0" title="reset_stream" alt="" coords="181,81,280,108"/>
-<area shape="rect" id="node9" href="$pn_8c.html#ad39de552086c127310c3250f2982dcb5" title="reset_pn" alt="" coords="195,1247,267,1273"/>
-<area shape="rect" id="node12" href="$recovery_8c.html#a60784c1a11f52e1b091994e1cfcc4609" title="init_rec" alt="" coords="199,424,263,451"/>
-<area shape="rect" id="node22" href="$tls_8c.html#a00ca93e0c4b1bdde1a2e97a4ef13373e" title="init_tls" alt="" coords="201,1019,261,1045"/>
-<area shape="rect" id="node42" href="$tls_8c.html#a4e66d17ae7e8756388309b9e193a9543" title="tls_io" alt="" coords="204,563,257,589"/>
-<area shape="rect" id="node3" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="379,56,437,83"/>
-<area shape="rect" id="node4" href="$quic_8c.html#afdf1ca29294e1d68ee999d1190c948ab" title="pm_free" alt="" coords="373,107,443,133"/>
-<area shape="rect" id="node8" href="$stream_8c.html#ad084a65676d6e76fe72fa8e23bd1391d" title="reset_pm" alt="" coords="370,5,446,32"/>
-<area shape="rect" id="node5" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type t into the diet tree t. " alt="" coords="575,132,657,159"/>
-<area shape="rect" id="node6" href="$warpcore_8h.html#a92bb31feffd5e9e2cda91aa4612bc103" title="Return a single w_iov obtained via w_alloc_len(), w_alloc_cnt() or w_rx() back to warpcore..." alt="" coords="573,31,659,57"/>
-<area shape="rect" id="node7" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="788,183,844,209"/>
-<area shape="rect" id="node10" href="$pn_8c.html#a3b132beb2506faada16af74535e27fec" title="free_pn" alt="" coords="375,1399,441,1425"/>
-<area shape="rect" id="node11" href="$diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="diet_free" alt="" coords="580,1399,652,1425"/>
-<area shape="rect" id="node13" href="$recovery_8c.html#a335f186f63ae2582ce2c96767906b413" title="on_ld_alarm" alt="" coords="362,335,454,361"/>
-<area shape="rect" id="node14" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="566,436,666,463"/>
-<area shape="rect" id="node15" href="$recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9" title="crypto_pkts_in_flight" alt="" coords="745,436,887,463"/>
-<area shape="rect" id="node16" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="775,689,857,716"/>
-<area shape="rect" id="node17" href="$recovery_8c.html#a6971aff4675cf8595f8bb0e84e521d4a" title="detect_lost_pkts" alt="" coords="557,284,675,311"/>
-<area shape="rect" id="node18" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="784,335,848,361"/>
-<area shape="rect" id="node19" href="$warpcore_8h.html#a281a85c5e2760b47cd28cde4e6a5109b" title="Set the socket options. " alt="" coords="561,183,671,209"/>
-<area shape="rect" id="node20" href="$conn_8c.html#a1a9a96efc3be558373804c33a60df6b9" title="tx" alt="" coords="597,233,635,260"/>
-<area shape="rect" id="node21" href="$recovery_8c.html#ae36a89ee82fe65d07b6707ac13e9071e" title="set_ld_timer" alt="" coords="569,385,663,412"/>
-<area shape="rect" id="node23" href="$tls_8c.html#a04c7d8686952c02e95385a6e3fcab5a7" title="free_tls" alt="" coords="375,1196,441,1223"/>
-<area shape="rect" id="node25" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="763,1297,869,1324"/>
-<area shape="rect" id="node28" href="$picotls_8h.html#aa142dbaa5d99942c25847febf894a1f4" title="create a object to handle new TLS connection. " alt="" coords="579,1145,653,1172"/>
-<area shape="rect" id="node29" href="$picotls_8h.html#aefec8568e3aed02938b396752d54d5e5" title="returns a pointer to user data pointer (client is reponsible for freeing the associated data prior to..." alt="" coords="347,943,469,969"/>
-<area shape="rect" id="node30" href="$picotls_8h.html#abc4124b1bc5642960e94ebc06686a614" title="sets the server&#45;name associated to the TLS connection. " alt="" coords="333,879,483,905"/>
-<area shape="rect" id="node31" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="589,791,643,817"/>
-<area shape="rect" id="node32" href="$tls_8c.html#a5092fa492120deb7469e65bc9f5df3f8" title="filter_tp" alt="" coords="375,1044,441,1071"/>
-<area shape="rect" id="node33" href="$tls_8c.html#a878d1b8325596d2943bb662375ad2e72" title="chk_tp" alt="" coords="377,993,439,1020"/>
-<area shape="rect" id="node40" href="$tls_8c.html#a705b76a676f449cbc37b9d955a2e0d5c" title="init_prot" alt="" coords="374,1272,442,1299"/>
-<area shape="rect" id="node24" href="$picotls_8h.html#afbd373f266a52a1718a3476b24c3a295" title="releases all resources associated to the object " alt="" coords="580,1196,652,1223"/>
-<area shape="rect" id="node27" href="$tls_8c.html#a28ce95450a6345dc4f1c85766e2edf8a" title="free_prot" alt="" coords="579,1247,653,1273"/>
-<area shape="rect" id="node26" href="$lib_2picotls_8c.html#a14c83de31e76992b20510eef18075173" title="update_open_count" alt="" coords="749,1171,883,1197"/>
-<area shape="rect" id="node34" href="$tls_8c.html#a4e5325f8fd6e8cca1d74250877d2ba02" title="chk_tp_clnt" alt="" coords="571,943,661,969"/>
-<area shape="rect" id="node35" href="$conn_8c.html#a02d7b0c5a072e1b673358b52ac71f160" title="err_close" alt="" coords="779,917,853,944"/>
-<area shape="rect" id="node36" href="$tls_8c.html#a0edf1dbf120fe0c438243d9d1a4b66c2" title="chk_tp_serv" alt="" coords="569,1095,663,1121"/>
-<area shape="rect" id="node37" href="$conn_8c.html#ae5beee50c7414b14d1efb1e3e8ebe1ee" title="add_dcid" alt="" coords="579,841,653,868"/>
-<area shape="rect" id="node38" href="$conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1" title="cid_cmp" alt="" coords="581,993,651,1020"/>
-<area shape="rect" id="node39" href="$stream_8c.html#a2853c95f04e70a8c7e836f881eedff8d" title="apply_stream_limits" alt="" coords="547,1044,685,1071"/>
-<area shape="rect" id="node41" href="$tls_8c.html#aff7c4b2f9e78c2d678898dc58bc68e57" title="setup_initial_encryption" alt="" coords="537,1297,695,1324"/>
-<area shape="rect" id="node43" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="363,689,453,716"/>
-<area shape="rect" id="node44" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="355,385,461,412"/>
-<area shape="rect" id="node45" href="$picotls_8h.html#aaf66968e2ad59ebf0f264cbb9d2f84f9" title="Runs the handshake by dealing directly with handshake messages. " alt="" coords="334,436,482,463"/>
-<area shape="rect" id="node47" href="$picotls_8h.html#a48da6806321331d00677c66444d7143d" title="returns if a PSK (or PSK&#45;DHE) handshake was performed " alt="" coords="329,487,487,513"/>
-<area shape="rect" id="node48" href="$quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="373,537,443,564"/>
-<area shape="rect" id="node49" href="$warpcore_8h.html#a5ac8908312be71047433d7e51059e240" title="Return warpcore engine serving w_sock s. " alt="" coords="369,588,447,615"/>
-<area shape="rect" id="node50" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="365,639,451,665"/>
-<area shape="rect" id="node46" href="$lib_2picotls_8c.html#a029da88bc71cbd5379a2bb29ad40ed6c" title="begin_raw_message" alt="" coords="545,588,687,615"/>
+<area shape="rect" id="node2" href="$stream_8c.html#a23976e8cd7c5aecf8e137324fce993d0" title="reset_stream" alt="" coords="181,132,280,159"/>
+<area shape="rect" id="node3" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="337,81,396,108"/>
+<area shape="rect" id="node4" href="$quic_8c.html#afdf1ca29294e1d68ee999d1190c948ab" title="pm_free" alt="" coords="332,132,401,159"/>
+<area shape="rect" id="node12" href="$stream_8c.html#ad084a65676d6e76fe72fa8e23bd1391d" title="reset_pm" alt="" coords="329,183,405,209"/>
+<area shape="rect" id="node5" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type t into the diet tree t. " alt="" coords="455,81,537,108"/>
+<area shape="rect" id="node10" href="$warpcore_8h.html#a92bb31feffd5e9e2cda91aa4612bc103" title="Return a single w_iov obtained via w_alloc_len(), w_alloc_cnt() or w_rx() back to warpcore..." alt="" coords="453,132,539,159"/>
+<area shape="rect" id="node11" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="468,183,524,209"/>
+<area shape="rect" id="node6" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree t. " alt="" coords="593,5,663,32"/>
+<area shape="rect" id="node7" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="591,56,665,83"/>
+<area shape="rect" id="node8" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="593,107,663,133"/>
+<area shape="rect" id="node9" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="587,157,669,184"/>
 </map>
