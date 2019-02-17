@@ -108,7 +108,9 @@ make
 <p>Instead of building quant for yourself, you can also obtain a <a href="https://cloud.docker.com/u/ntap/repository/docker/ntap/quant/">pre-built Docker container</a>. For example, </p>
 <pre class="fragment">docker pull ntap/quant:latest
 </pre><p>should download the latest build on the <code>master</code> branch. The docker container by default exposes a QUIC server on port 4433 that can serve <code>/index.html</code> and possibly other resources.</p>
-<h2>Testing</h2>
+<p>To map the upd port, run the docker container with </p>
+<pre class="fragment">docker run -p4433:4433/udp ntap/quant
+</pre><h2>Testing</h2>
 <p>The <code>libquant</code> library will be in <code>lib</code>. There are <code>client</code> and <code>server</code> examples in <code>bin</code>. They explain their usage when called with a <code>-h</code> argument.</p>
 <p>The current interop status of quant against <a href="https://github.com/quicwg/base-drafts/wiki/Implementations">other stacks</a> is captured in <a href="https://docs.google.com/spreadsheets/d/1D0tW89vOoaScs3IY9RGC0UesWGAwE6xyLk0l4JtvTVg/edit#gid=11370678">this spreadsheet</a>.</p>
 <p>At the moment, development happens in branches other than <code>master</code>, which are numbered according to the <a href="https://quicwg.github.io/">IETF Internet Drafts</a> they implement. The <code>master</code> branch is updated whenever such a per-draft branch is stable.</p>
@@ -128,7 +130,7 @@ make
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 15 2019 13:03:23 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Feb 17 2019 11:10:27 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
