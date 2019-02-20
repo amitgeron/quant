@@ -1,7 +1,7 @@
 <map id="q_write_str" name="q_write_str">
 <area shape="rect" id="node2" href="$src_2util_8c.html#a259552347b2ef970bf6955dd5995449a" title="q_chunk_str" alt="" coords="141,31,235,57"/>
-<area shape="rect" id="node10" href="$quant_8h.html#a84a599e3fc846bd85dae279762ca9851" title="q_write" alt="" coords="156,107,220,133"/>
-<area shape="rect" id="node15" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="159,157,217,184"/>
+<area shape="rect" id="node10" href="$quant_8h.html#a84a599e3fc846bd85dae279762ca9851" title="q_write" alt="" coords="156,132,220,159"/>
+<area shape="rect" id="node16" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="159,183,217,209"/>
 <area shape="rect" id="node3" href="$quant_8h.html#a47bc44fba1cbaf917110bc2c6c805c81" title="q_alloc" alt="" coords="303,5,366,32"/>
 <area shape="rect" id="node4" href="$quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="435,5,506,32"/>
 <area shape="rect" id="node5" href="$warpcore_8h.html#a7828b02675cf9e9c1465f3162033e22c" title="Allocate a w_iov tail queue for plen payload bytes, for eventual use with w_tx(). ..." alt="" coords="555,5,645,32"/>
@@ -13,4 +13,5 @@
 <area shape="rect" id="node12" href="$warpcore_8h.html#acec933a0dba371ff10bd35397aed87e9" title="Return the total payload length of w_iov tail queue c. " alt="" coords="284,107,385,133"/>
 <area shape="rect" id="node13" href="$warpcore_8h.html#ab0d7e80a565b2ad694def961428e62ec" title="Return the number of w_iov structures in the w_iov tail queue c. " alt="" coords="283,157,386,184"/>
 <area shape="rect" id="node14" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="291,208,378,235"/>
+<area shape="rect" id="node15" href="$warpcore_2lib_2include_2warpcore_2util_8h.html#a098003aed955c46d7d60ab9cdbb65502" title="Subtract the struct timespec values tvp and uvp (tvp &#45; uvp), storing the result in vvp..." alt="" coords="283,259,386,285"/>
 </map>

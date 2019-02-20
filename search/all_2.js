@@ -113,6 +113,7 @@ var searchData=
   ['body_5fblock_5fencrypt',['body_block_encrypt',['../norx_8c.html#afda92d574afcf1d8432bc74d9f7b9c10',1,'norx.c']]],
   ['boot_2ec',['boot.c',['../boot_8c.html',1,'']]],
   ['boyermoore',['BoyerMoore',['../klib_2test_2kstring__bench2_8c.html#a4edc2380cbb3eb20b30557fb0c1f61a4',1,'BoyerMoore(unsigned char *data, unsigned int dataLength, unsigned char *string, unsigned int strLength):&#160;kstring_bench2.c'],['../warpcore_2lib_2deps_2klib_2test_2kstring__bench2_8c.html#a4edc2380cbb3eb20b30557fb0c1f61a4',1,'BoyerMoore(unsigned char *data, unsigned int dataLength, unsigned char *string, unsigned int strLength):&#160;kstring_bench2.c']]],
+  ['bps',['bps',['../quic_8c.html#a56efa09372b3747147230398e29974f0',1,'quic.c']]],
   ['bracket',['bracket',['../main_8c.html#a19f2911f42de46a77717e3d8b4e8a684',1,'main.c']]],
   ['bred',['BRED',['../deps_2warpcore_2lib_2src_2util_8c.html#a2adb4c9e293ac446897ccfac5a52d6c2',1,'util.c']]],
   ['bsig0',['BSIG0',['../sha256_8c.html#a884c48ffd06bdf500ecb524410e20a3c',1,'BSIG0():&#160;sha256.c'],['../sha512_8c.html#a884c48ffd06bdf500ecb524410e20a3c',1,'BSIG0():&#160;sha512.c']]],

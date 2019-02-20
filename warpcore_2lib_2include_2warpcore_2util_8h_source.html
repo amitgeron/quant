@@ -308,7 +308,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    }</div>
 <div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    <span class="keywordflow">return</span> hash;</div>
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;}</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> __attribute__((nonnull))</div>
+<div class="line"><a name="l00315"></a><span class="lineno"><a class="line" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a098003aed955c46d7d60ab9cdbb65502">  315</a></span>&#160;<a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a098003aed955c46d7d60ab9cdbb65502">timespec_sub</a>(const struct timespec * const tvp,</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;             const struct timespec * const uvp,</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;             struct timespec * const vvp)</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;{</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    vvp-&gt;tv_sec = tvp-&gt;tv_sec - uvp-&gt;tv_sec;</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    vvp-&gt;tv_nsec = tvp-&gt;tv_nsec - uvp-&gt;tv_nsec;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="keywordflow">if</span> (vvp-&gt;tv_nsec &lt; 0) {</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        vvp-&gt;tv_sec--;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        vvp-&gt;tv_nsec += 1000000000;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    }</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;}</div>
 <div class="ttc" id="warpcore_2lib_2include_2warpcore_2util_8h_html_ab3323ac9a72ed8919ad70ee008afbeba"><div class="ttname"><a href="warpcore_2lib_2include_2warpcore_2util_8h.html#ab3323ac9a72ed8919ad70ee008afbeba">util_die</a></div><div class="ttdeci">void util_die(const char *const func, const char *const file, const unsigned line, const char *const fmt,...)</div><div class="ttdef"><b>Definition:</b> util.c:197</div></div>
+<div class="ttc" id="warpcore_2lib_2include_2warpcore_2util_8h_html_a098003aed955c46d7d60ab9cdbb65502"><div class="ttname"><a href="warpcore_2lib_2include_2warpcore_2util_8h.html#a098003aed955c46d7d60ab9cdbb65502">timespec_sub</a></div><div class="ttdeci">static void timespec_sub(const struct timespec *const tvp, const struct timespec *const uvp, struct timespec *const vvp)</div><div class="ttdoc">Subtract the struct timespec values tvp and uvp (tvp - uvp), storing the result in vvp...</div><div class="ttdef"><b>Definition:</b> util.h:315</div></div>
 <div class="ttc" id="warpcore_2lib_2include_2warpcore_2util_8h_html_a3bf0a406ef6f462a25ef67e5a6ec33f9"><div class="ttname"><a href="warpcore_2lib_2include_2warpcore_2util_8h.html#a3bf0a406ef6f462a25ef67e5a6ec33f9">fnv1a_32</a></div><div class="ttdeci">static uint32_t fnv1a_32(const void *const buf, const size_t len)</div><div class="ttdoc">Compute an FNV-1a 32-bit hash over the given buffer. </div><div class="ttdef"><b>Definition:</b> util.h:293</div></div>
 <div class="ttc" id="warpcore_2lib_2include_2warpcore_2util_8h_html_af2f99472f8cdeec65921daae2b8d2c88"><div class="ttname"><a href="warpcore_2lib_2include_2warpcore_2util_8h.html#af2f99472f8cdeec65921daae2b8d2c88">util_warn</a></div><div class="ttdeci">void util_warn(const unsigned dlevel, const bool tstamp, const char *const func, const char *const file, const unsigned line, const char *const fmt,...)</div><div class="ttdef"><b>Definition:</b> util.c:333</div></div>
 <div class="ttc" id="warpcore_2lib_2include_2warpcore_2util_8h_html_ade0743d672f539b1615b3a5d3b79486b"><div class="ttname"><a href="warpcore_2lib_2include_2warpcore_2util_8h.html#ade0743d672f539b1615b3a5d3b79486b">util_dlevel</a></div><div class="ttdeci">short util_dlevel</div><div class="ttdoc">Dynamically adjust util_dlevel from your code to show or suppress debug messages at runtime...</div><div class="ttdef"><b>Definition:</b> util.c:281</div></div>
@@ -320,7 +335,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 20 2019 07:51:21 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 20 2019 10:49:02 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

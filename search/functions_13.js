@@ -114,6 +114,7 @@ var searchData=
   ['test_5fx25519_5fkey_5fexchange',['test_x25519_key_exchange',['../minicrypto_8c.html#a8d621019a425918946d56672868fe377',1,'minicrypto.c']]],
   ['theta',['theta',['../sha3_8c.html#ae086b952fc80787190e7ea27a52f72e0',1,'sha3.c']]],
   ['timeout',['timeout',['../ping_8c.html#aae6e82a30c30cc902f1cd85dead37f6a',1,'ping.c']]],
+  ['timespec_5fsub',['timespec_sub',['../warpcore_2lib_2include_2warpcore_2util_8h.html#a098003aed955c46d7d60ab9cdbb65502',1,'util.h']]],
   ['tls_5fio',['tls_io',['../tls_8c.html#a4e66d17ae7e8756388309b9e193a9543',1,'tls_io(struct q_stream *const s, struct w_iov *const iv):&#160;tls.c'],['../tls_8h.html#a4e66d17ae7e8756388309b9e193a9543',1,'tls_io(struct q_stream *const s, struct w_iov *const iv):&#160;tls.c']]],
   ['tls_5fticket_5fcmp',['tls_ticket_cmp',['../tls_8c.html#a9b8df2ef49f68f18f160054a91cc7d45',1,'tls.c']]],
   ['to_5fx509',['to_x509',['../lib_2openssl_8c.html#a79a103c0c30fa42ba456db3118db4272',1,'openssl.c']]],
