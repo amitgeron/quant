@@ -39,7 +39,7 @@ var searchData=
   ['not_5fbefore',['not_before',['../structst__ptls__esni__context__t.html#a3b427bd55c5fee130a830bce959675b8',1,'st_ptls_esni_context_t']]],
   ['npartial',['npartial',['../structcf__poly1305.html#a8db1baa0e924b3bba42f0f19bfd75517',1,'cf_poly1305::npartial()'],['../structcf__sha1__context.html#a29c3b96703a6b735b1c502c97b635d82',1,'cf_sha1_context::npartial()'],['../structcf__sha256__context.html#aca7739a582077ea6775e94cf4e4b0264',1,'cf_sha256_context::npartial()'],['../structcf__sha512__context.html#a0e08a4d58f5dec1ffdc916753efe3fe9',1,'cf_sha512_context::npartial()'],['../structcf__sha3__context.html#a5660fd8a2cca4e872f443b0e3948914a',1,'cf_sha3_context::npartial()']]],
   ['nr',['nr',['../structpkt__hdr.html#a23823bfa2cf1a6d7052bd71115458d46',1,'pkt_hdr']]],
-  ['num_5fbufs',['num_bufs',['../structq__conf.html#af74ec0be9fdfbf6b3428e7309c8c1c73',1,'q_conf']]],
+  ['num_5fbufs',['num_bufs',['../structq__conf.html#a6a5394d9e9540289c52c9aecd927e16b',1,'q_conf']]],
   ['num_5fbytes',['num_bytes',['../structuECC__Curve__t.html#a0a66ed706dc4cbd327d9449e5ed99b1b',1,'uECC_Curve_t']]],
   ['num_5fhashes',['num_hashes',['../structst__ptls__key__schedule__t.html#a91bd7c5c353598cf0fdc69fe5480c70c',1,'st_ptls_key_schedule_t']]],
   ['num_5fn_5fbits',['num_n_bits',['../structuECC__Curve__t.html#a62d8a6c13a856da8d23e1bf9a3725923',1,'uECC_Curve_t']]],

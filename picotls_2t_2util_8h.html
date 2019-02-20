@@ -127,7 +127,7 @@ This graph shows which files directly or indirectly include this file:</div>
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structst__util__save__ticket__t.html">st_util_save_ticket_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structst__util__log__secret__t.html">st_util_log_secret_t</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structst__util__log__event__t.html">st_util_log_event_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structst__util__session__cache__t.html">st_util_session_cache_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,12 +151,10 @@ Functions</h2></td></tr>
 <tr class="separator:a70d22701e5dc116a75c427fd6caf46fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb9173c80486eb394ae01fe7d15de397"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="picotls_2t_2util_8h.html#abb9173c80486eb394ae01fe7d15de397">setup_esni</a> (<a class="el" href="picotls_8h.html#a7b1de04c9108a605591e1562a2418b86">ptls_context_t</a> *<a class="el" href="test_8h.html#a548aff34430d3b5d6d5ba393b8fdda8f">ctx</a>, const char *esni_fn, <a class="el" href="picotls_8h.html#aba5f8192177bfff33c4fa7e8565db584">ptls_key_exchange_context_t</a> **key_exchanges)</td></tr>
 <tr class="separator:abb9173c80486eb394ae01fe7d15de397"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5abab172f924dafb610f17d6f356b93"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="picotls_2t_2util_8h.html#ad5abab172f924dafb610f17d6f356b93">fprinthex</a> (FILE *fp, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> <a class="el" href="t_2picotls_8c.html#a386246a6ab628d6878154c73d5f22a31">vec</a>)</td></tr>
-<tr class="separator:ad5abab172f924dafb610f17d6f356b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a281fc89e0d1835b010196b7bd46c7f8c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="picotls_2t_2util_8h.html#a281fc89e0d1835b010196b7bd46c7f8c">log_secret_cb</a> (ptls_log_secret_t *_self, <a class="el" href="picotls_8h.html#a7d80bba54b8b0070ce3264441be3e325">ptls_t</a> *<a class="el" href="structtls.html">tls</a>, const char *label, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> secret)</td></tr>
-<tr class="separator:a281fc89e0d1835b010196b7bd46c7f8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1003ac7b4fd60de31c9701d49f486e32"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="picotls_2t_2util_8h.html#a1003ac7b4fd60de31c9701d49f486e32">setup_log_secret</a> (<a class="el" href="picotls_8h.html#a7b1de04c9108a605591e1562a2418b86">ptls_context_t</a> *<a class="el" href="test_8h.html#a548aff34430d3b5d6d5ba393b8fdda8f">ctx</a>, const char *fn)</td></tr>
-<tr class="separator:a1003ac7b4fd60de31c9701d49f486e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e1e3b1e8ec016f7f9eff74b9cc0a050"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="picotls_2t_2util_8h.html#a0e1e3b1e8ec016f7f9eff74b9cc0a050">log_event_cb</a> (<a class="el" href="picotls_8h.html#ace6b4dc7d526e4f0df8272f55bb75e26">ptls_log_event_t</a> *_self, <a class="el" href="picotls_8h.html#a7d80bba54b8b0070ce3264441be3e325">ptls_t</a> *<a class="el" href="structtls.html">tls</a>, const char *type, const char *fmt,...)</td></tr>
+<tr class="separator:a0e1e3b1e8ec016f7f9eff74b9cc0a050"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa63f27839fdeeb33ba9bb207c7751f88"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="picotls_2t_2util_8h.html#aa63f27839fdeeb33ba9bb207c7751f88">setup_log_event</a> (<a class="el" href="picotls_8h.html#a7b1de04c9108a605591e1562a2418b86">ptls_context_t</a> *<a class="el" href="test_8h.html#a548aff34430d3b5d6d5ba393b8fdda8f">ctx</a>, const char *fn)</td></tr>
+<tr class="separator:aa63f27839fdeeb33ba9bb207c7751f88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4b2c0107a49e4b16970b73d6a43c78b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="picotls_2t_2util_8h.html#ad4b2c0107a49e4b16970b73d6a43c78b">encrypt_ticket_cb</a> (ptls_encrypt_ticket_t *_self, <a class="el" href="picotls_8h.html#a7d80bba54b8b0070ce3264441be3e325">ptls_t</a> *<a class="el" href="structtls.html">tls</a>, int is_encrypt, <a class="el" href="picotls_8h.html#a3c9053bc53d8840504dcb6e25a33c7dd">ptls_buffer_t</a> *dst, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> src)</td></tr>
 <tr class="separator:ad4b2c0107a49e4b16970b73d6a43c78b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae28900c6459df1931256b8fc1f70251e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="picotls_2t_2util_8h.html#ae28900c6459df1931256b8fc1f70251e">setup_session_cache</a> (<a class="el" href="picotls_8h.html#a7b1de04c9108a605591e1562a2418b86">ptls_context_t</a> *<a class="el" href="test_8h.html#a548aff34430d3b5d6d5ba393b8fdda8f">ctx</a>)</td></tr>
@@ -240,40 +238,6 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node2" href="picotls_8h.html#ac31fa41db2dea59eccf6284ce9aa5e7e" title="returns address of the crypto callbacks that the connection is using " alt="" coords="186,5,305,32"/><area shape="rect" id="node3" href="picotls_8h.html#ac3aed9c2ae399575c55bf3447b0c72fe" title="reserves space for additional amount of memory " alt="" coords="179,56,312,83"/><area shape="rect" id="node5" href="boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="207,107,283,133"/><area shape="rect" id="node4" href="lib_2picotls_8c.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="360,49,499,90"/></map>
 </div>
 </p>
-
-</div>
-</div>
-<a class="anchor" id="ad5abab172f924dafb610f17d6f356b93"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void fprinthex </td>
-          <td>(</td>
-          <td class="paramtype">FILE *&#160;</td>
-          <td class="paramname"><em>fp</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a>&#160;</td>
-          <td class="paramname"><em>vec</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -363,7 +327,7 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a281fc89e0d1835b010196b7bd46c7f8c"></a>
+<a class="anchor" id="a0e1e3b1e8ec016f7f9eff74b9cc0a050"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -371,9 +335,9 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void log_secret_cb </td>
+          <td class="memname">static void log_event_cb </td>
           <td>(</td>
-          <td class="paramtype">ptls_log_secret_t *&#160;</td>
+          <td class="paramtype"><a class="el" href="picotls_8h.html#ace6b4dc7d526e4f0df8272f55bb75e26">ptls_log_event_t</a> *&#160;</td>
           <td class="paramname"><em>_self</em>, </td>
         </tr>
         <tr>
@@ -386,13 +350,19 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>label</em>, </td>
+          <td class="paramname"><em>type</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a>&#160;</td>
-          <td class="paramname"><em>secret</em>&#160;</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>fmt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -410,9 +380,9 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="picotls_2t_2util_8h_a281fc89e0d1835b010196b7bd46c7f8c_cgraph.png" border="0" usemap="#picotls_2t_2util_8h_a281fc89e0d1835b010196b7bd46c7f8c_cgraph" alt=""/></div>
-<map name="picotls_2t_2util_8h_a281fc89e0d1835b010196b7bd46c7f8c_cgraph" id="picotls_2t_2util_8h_a281fc89e0d1835b010196b7bd46c7f8c_cgraph">
-<area shape="rect" id="node2" href="picotls_2t_2util_8h.html#ad5abab172f924dafb610f17d6f356b93" title="fprinthex" alt="" coords="200,5,272,32"/><area shape="rect" id="node3" href="picotls_8h.html#acbb30b5e02fad52e63b99be678d8a43c" title="returns the client&#45;random " alt="" coords="158,56,314,83"/><area shape="rect" id="node4" href="picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="363,56,469,83"/></map>
+<div class="center"><img src="picotls_2t_2util_8h_a0e1e3b1e8ec016f7f9eff74b9cc0a050_cgraph.png" border="0" usemap="#picotls_2t_2util_8h_a0e1e3b1e8ec016f7f9eff74b9cc0a050_cgraph" alt=""/></div>
+<map name="picotls_2t_2util_8h_a0e1e3b1e8ec016f7f9eff74b9cc0a050_cgraph" id="picotls_2t_2util_8h_a0e1e3b1e8ec016f7f9eff74b9cc0a050_cgraph">
+<area shape="rect" id="node2" href="picotls_8h.html#ac3a34591ce16881c6bf04f716049b9a3" title="ptls_hexdump" alt="" coords="179,5,282,32"/><area shape="rect" id="node3" href="picotls_8h.html#acbb30b5e02fad52e63b99be678d8a43c" title="returns the client&#45;random " alt="" coords="153,56,309,83"/><area shape="rect" id="node4" href="picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="358,56,463,83"/></map>
 </div>
 </p>
 
@@ -607,7 +577,7 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a1003ac7b4fd60de31c9701d49f486e32"></a>
+<a class="anchor" id="aa63f27839fdeeb33ba9bb207c7751f88"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -615,7 +585,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void setup_log_secret </td>
+          <td class="memname">static void setup_log_event </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="picotls_8h.html#a7b1de04c9108a605591e1562a2418b86">ptls_context_t</a> *&#160;</td>
           <td class="paramname"><em>ctx</em>, </td>
@@ -642,9 +612,9 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="picotls_2t_2util_8h_a1003ac7b4fd60de31c9701d49f486e32_cgraph.png" border="0" usemap="#picotls_2t_2util_8h_a1003ac7b4fd60de31c9701d49f486e32_cgraph" alt=""/></div>
-<map name="picotls_2t_2util_8h_a1003ac7b4fd60de31c9701d49f486e32_cgraph" id="picotls_2t_2util_8h_a1003ac7b4fd60de31c9701d49f486e32_cgraph">
-<area shape="rect" id="node2" href="picotls_2t_2util_8h.html#a281fc89e0d1835b010196b7bd46c7f8c" title="log_secret_cb" alt="" coords="177,31,279,57"/><area shape="rect" id="node3" href="picotls_2t_2util_8h.html#ad5abab172f924dafb610f17d6f356b93" title="fprinthex" alt="" coords="371,5,443,32"/><area shape="rect" id="node4" href="picotls_8h.html#acbb30b5e02fad52e63b99be678d8a43c" title="returns the client&#45;random " alt="" coords="329,56,485,83"/><area shape="rect" id="node5" href="picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="534,56,639,83"/></map>
+<div class="center"><img src="picotls_2t_2util_8h_aa63f27839fdeeb33ba9bb207c7751f88_cgraph.png" border="0" usemap="#picotls_2t_2util_8h_aa63f27839fdeeb33ba9bb207c7751f88_cgraph" alt=""/></div>
+<map name="picotls_2t_2util_8h_aa63f27839fdeeb33ba9bb207c7751f88_cgraph" id="picotls_2t_2util_8h_aa63f27839fdeeb33ba9bb207c7751f88_cgraph">
+<area shape="rect" id="node2" href="picotls_2t_2util_8h.html#a0e1e3b1e8ec016f7f9eff74b9cc0a050" title="log_event_cb" alt="" coords="171,31,269,57"/><area shape="rect" id="node3" href="picotls_8h.html#ac3a34591ce16881c6bf04f716049b9a3" title="ptls_hexdump" alt="" coords="345,5,447,32"/><area shape="rect" id="node4" href="picotls_8h.html#acbb30b5e02fad52e63b99be678d8a43c" title="returns the client&#45;random " alt="" coords="318,56,474,83"/><area shape="rect" id="node5" href="picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="523,56,629,83"/></map>
 </div>
 </p>
 
@@ -808,7 +778,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 17 2019 11:10:25 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 20 2019 07:51:23 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

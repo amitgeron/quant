@@ -64,6 +64,8 @@ var searchData=
   ['wincompat_2eh',['wincompat.h',['../wincompat_8h.html',1,'']]],
   ['wintimeofday',['wintimeofday',['../wincompat_8h.html#a98a42e90dca13b6287ceff529fd86d95',1,'wincompat.h']]],
   ['wintimeofday_2ec',['wintimeofday.c',['../wintimeofday_8c.html',1,'']]],
+  ['with_5focsp_5fstatus',['with_ocsp_status',['../structst__ptls__emit__compressed__certificate__t.html#acd380a00f6f756e1363e64dba9f8d00f',1,'st_ptls_emit_compressed_certificate_t']]],
+  ['without_5focsp_5fstatus',['without_ocsp_status',['../structst__ptls__emit__compressed__certificate__t.html#aceffd67251015e7d0de609bda4670074',1,'st_ptls_emit_compressed_certificate_t']]],
   ['word4',['word4',['../aes_8c.html#af6e71c22051acb060f7ad44941beb5e6',1,'aes.c']]],
   ['word_5fbits',['WORD_BITS',['../norx_8c.html#a57592e50f9aa27528ec8e36e23432ee0',1,'norx.c']]],
   ['word_5fbytes',['WORD_BYTES',['../norx_8c.html#a218c1c3e90f36ccc1c6d5088a2d54aa5',1,'norx.c']]],

@@ -1,8 +1,8 @@
 <map id="q_init" name="q_init">
 <area shape="rect" id="node2" href="$warpcore_8h.html#a3d8850127dfaca15991ddd916380ce4d" title="Initialize a warpcore engine on the given interface. " alt="" coords="136,208,192,235"/>
-<area shape="rect" id="node15" href="$tls_8c.html#a8ba632acdcea3aaa92753c3341fa22fe" title="init_tls_ctx" alt="" coords="121,968,207,995"/>
-<area shape="rect" id="node48" href="$quic_8c.html#a78a8ed1e6afbc58387426e924cae4a82" title="signal_cb" alt="" coords="125,1019,203,1045"/>
-<area shape="rect" id="node50" href="$quic_8c.html#aa1e3203057c43651b001c5aed00e50ee" title="mk_or_open_dir" alt="" coords="107,1069,221,1096"/>
+<area shape="rect" id="node15" href="$tls_8c.html#a8ba632acdcea3aaa92753c3341fa22fe" title="init_tls_ctx" alt="" coords="121,955,207,981"/>
+<area shape="rect" id="node48" href="$quic_8c.html#a78a8ed1e6afbc58387426e924cae4a82" title="signal_cb" alt="" coords="125,1005,203,1032"/>
+<area shape="rect" id="node50" href="$quic_8c.html#aa1e3203057c43651b001c5aed00e50ee" title="mk_or_open_dir" alt="" coords="107,1056,221,1083"/>
 <area shape="rect" id="node3" href="$warpcore_8c.html#a43d6f42d6066cbfca8842cf414a1c43a" title="Init state for w_rand() and w_rand_uniform(). " alt="" coords="305,31,393,57"/>
 <area shape="rect" id="node6" href="$plat_8h.html#ac645a18d329f9204ceddb21bff751abd" title="Return the Ethernet MAC address of network interface i. " alt="" coords="299,81,399,108"/>
 <area shape="rect" id="node7" href="$plat_8h.html#aed8665163695e9a71d2d423f978c4b6a" title="Return the MTU of network interface i. " alt="" coords="301,132,398,159"/>
@@ -20,32 +20,32 @@
 <area shape="rect" id="node23" href="$picotls_8h.html#a81fafd2f07929ad23e495dc140b61ea2" title="loads a certificate chain to ptls_context_t::certificates. " alt="" coords="277,620,422,647"/>
 <area shape="rect" id="node25" href="$tls_8c.html#a65f1490238853f0e913186fd5c3311c7" title="read_tickets" alt="" coords="303,692,396,719"/>
 <area shape="rect" id="node26" href="$openssl_8h.html#a7c10d7be7f166665319c04612bbe3839" title="ptls_openssl_init_verify\l_certificate" alt="" coords="270,763,429,805"/>
-<area shape="rect" id="node29" href="$tls_8c.html#a0c58491ff4fb3ef4eaaa05226aea773e" title="on_ch" alt="" coords="321,909,378,936"/>
-<area shape="rect" id="node32" href="$tls_8c.html#ae451cab7e92775fe7246239443447424" title="log_secret_cb" alt="" coords="298,997,401,1024"/>
-<area shape="rect" id="node35" href="$lib_2picotls_8c.html#a7e917599d9876a6c3fa9e470c64fcf67" title="update_traffic_key" alt="" coords="285,1124,414,1151"/>
-<area shape="rect" id="node38" href="$tls_8c.html#acbc1dc9c2da3aab2c683a1d9b5ee9321" title="update_traffic_key_cb" alt="" coords="274,1255,425,1281"/>
-<area shape="rect" id="node42" href="$openssl_8h.html#a2514cd53d441b44478641a1643af622d" title="ptls_openssl_random\l_bytes" alt="" coords="277,1383,422,1425"/>
-<area shape="rect" id="node44" href="$minicrypto_8h.html#a35a068ba23b50e2c8ba2dd0a362ed38c" title="ptls_minicrypto_random\l_bytes" alt="" coords="269,1451,429,1493"/>
-<area shape="rect" id="node47" href="$tls_8c.html#a071d6ebbfd90822e31fdb8119ad971ca" title="init_ticket_prot" alt="" coords="296,1315,403,1341"/>
+<area shape="rect" id="node29" href="$tls_8c.html#a0c58491ff4fb3ef4eaaa05226aea773e" title="on_ch" alt="" coords="321,896,378,923"/>
+<area shape="rect" id="node32" href="$tls_8c.html#a70c075f43514397f392c90fd351edde1" title="log_event_cb" alt="" coords="300,980,399,1007"/>
+<area shape="rect" id="node34" href="$lib_2picotls_8c.html#a7e917599d9876a6c3fa9e470c64fcf67" title="update_traffic_key" alt="" coords="285,1073,414,1100"/>
+<area shape="rect" id="node37" href="$tls_8c.html#acbc1dc9c2da3aab2c683a1d9b5ee9321" title="update_traffic_key_cb" alt="" coords="274,1204,425,1231"/>
+<area shape="rect" id="node41" href="$openssl_8h.html#a2514cd53d441b44478641a1643af622d" title="ptls_openssl_random\l_bytes" alt="" coords="277,1333,422,1374"/>
+<area shape="rect" id="node43" href="$minicrypto_8h.html#a35a068ba23b50e2c8ba2dd0a362ed38c" title="ptls_minicrypto_random\l_bytes" alt="" coords="269,1403,429,1445"/>
+<area shape="rect" id="node47" href="$tls_8c.html#a071d6ebbfd90822e31fdb8119ad971ca" title="init_ticket_prot" alt="" coords="296,1264,403,1291"/>
 <area shape="rect" id="node17" href="$lib_2openssl_8c.html#af035e4d439e5efcf2108c1ebdf82c39f" title="sign_certificate" alt="" coords="517,408,627,435"/>
 <area shape="rect" id="node19" href="$minicrypto-pem_8c.html#a535952f10ae103bc06686812e49324f5" title="ptls_pem_parse_private_key" alt="" coords="478,459,666,485"/>
 <area shape="rect" id="node20" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="730,611,806,637"/>
 <area shape="rect" id="node21" href="$minicrypto-pem_8c.html#ac98dbcc15c2d18e9f7f0ab1438b30384" title="ptls_set_ecdsa_private_key" alt="" coords="480,560,664,587"/>
-<area shape="rect" id="node22" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="715,1124,821,1151"/>
+<area shape="rect" id="node22" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="715,1073,821,1100"/>
 <area shape="rect" id="node24" href="$pembase64_8c.html#a7e21e4ccfeae1ad622cc1c15051ed14c" title="ptls_load_pem_objects" alt="" coords="495,611,649,637"/>
 <area shape="rect" id="node27" href="$lib_2openssl_8c.html#a60ea7eafbd686a3988afae04498187e6" title="verify_cert" alt="" coords="531,712,613,739"/>
 <area shape="rect" id="node28" href="$lib_2openssl_8c.html#aa3240d63b743147d09f4ef9123594019" title="ptls_openssl_create\l_default_certificate_store" alt="" coords="488,763,656,805"/>
 <area shape="rect" id="node30" href="$picotls_8h.html#abc4124b1bc5642960e94ebc06686a614" title="sets the server&#45;name associated to the TLS connection. " alt="" coords="497,880,647,907"/>
 <area shape="rect" id="node31" href="$picotls_8h.html#a41fbce078a20dbc2fe15bb0b25da3411" title="sets the negotiated protocol. " alt="" coords="505,931,639,973"/>
-<area shape="rect" id="node33" href="$tls_8c.html#a596d4ddc108fc81c7eee5579e353beef" title="fprinthex" alt="" coords="536,997,608,1024"/>
-<area shape="rect" id="node34" href="$picotls_8h.html#acbb30b5e02fad52e63b99be678d8a43c" title="returns the client&#45;random " alt="" coords="494,1048,650,1075"/>
-<area shape="rect" id="node36" href="$lib_2picotls_8c.html#a7011e70930ac9119a3e9d9a2b4a1d5f6" title="hkdf_expand_label" alt="" coords="507,1149,637,1176"/>
-<area shape="rect" id="node37" href="$lib_2picotls_8c.html#a8c2cbe239a451e652d10a7f516ec6749" title="setup_traffic_protection" alt="" coords="493,1200,651,1227"/>
-<area shape="rect" id="node39" href="$picotls_8h.html#aefec8568e3aed02938b396752d54d5e5" title="returns a pointer to user data pointer (client is reponsible for freeing the associated data prior to..." alt="" coords="511,1251,633,1277"/>
-<area shape="rect" id="node40" href="$picotls_8h.html#a724ff019ff3a867c90b28e4d3e8b6e53" title="returns the cipher&#45;suite being used " alt="" coords="517,1301,627,1328"/>
-<area shape="rect" id="node41" href="$tls_8c.html#af5ebb2a5b8cab6a40a18677a5ea562fb" title="setup_cipher" alt="" coords="524,1352,620,1379"/>
-<area shape="rect" id="node43" href="$boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="743,1461,793,1488"/>
-<area shape="rect" id="node45" href="$drbg_8c.html#a3d96d46fc2b09859f7d161cd321f2b30" title="cf_hash_drbg_sha256\l_needs_reseed" alt="" coords="497,1454,647,1495"/>
-<area shape="rect" id="node46" href="$cifra_8c.html#a086d6f716855b73e24c48cf5672ce607" title="read_entropy" alt="" coords="523,1520,621,1547"/>
-<area shape="rect" id="node49" href="$warpcore_8h.html#a726b06c06493678f7f48c889bbcd30a5" title="Shut a warpcore engine down cleanly. " alt="" coords="307,1517,391,1544"/>
+<area shape="rect" id="node33" href="$picotls_8h.html#acbb30b5e02fad52e63b99be678d8a43c" title="returns the client&#45;random " alt="" coords="494,997,650,1024"/>
+<area shape="rect" id="node35" href="$lib_2picotls_8c.html#a7011e70930ac9119a3e9d9a2b4a1d5f6" title="hkdf_expand_label" alt="" coords="507,1099,637,1125"/>
+<area shape="rect" id="node36" href="$lib_2picotls_8c.html#a8c2cbe239a451e652d10a7f516ec6749" title="setup_traffic_protection" alt="" coords="493,1149,651,1176"/>
+<area shape="rect" id="node38" href="$picotls_8h.html#aefec8568e3aed02938b396752d54d5e5" title="returns a pointer to user data pointer (client is reponsible for freeing the associated data prior to..." alt="" coords="511,1200,633,1227"/>
+<area shape="rect" id="node39" href="$picotls_8h.html#a724ff019ff3a867c90b28e4d3e8b6e53" title="returns the cipher&#45;suite being used " alt="" coords="517,1251,627,1277"/>
+<area shape="rect" id="node40" href="$tls_8c.html#af5ebb2a5b8cab6a40a18677a5ea562fb" title="setup_cipher" alt="" coords="524,1301,620,1328"/>
+<area shape="rect" id="node42" href="$boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="743,1411,793,1437"/>
+<area shape="rect" id="node44" href="$drbg_8c.html#a3d96d46fc2b09859f7d161cd321f2b30" title="cf_hash_drbg_sha256\l_needs_reseed" alt="" coords="497,1403,647,1445"/>
+<area shape="rect" id="node45" href="$cifra_8c.html#a086d6f716855b73e24c48cf5672ce607" title="read_entropy" alt="" coords="523,1469,621,1496"/>
+<area shape="rect" id="node46" href="$drbg_8c.html#a5554970693c632001ffcbe19bccb9a7f" title="cf_hash_drbg_sha256_init" alt="" coords="485,1520,659,1547"/>
+<area shape="rect" id="node49" href="$warpcore_8h.html#a726b06c06493678f7f48c889bbcd30a5" title="Shut a warpcore engine down cleanly. " alt="" coords="307,1469,391,1496"/>
 </map>

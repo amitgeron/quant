@@ -48,7 +48,7 @@ var searchData=
   ['setup_5fesni',['setup_esni',['../picotls_2t_2util_8h.html#abb9173c80486eb394ae01fe7d15de397',1,'util.h']]],
   ['setup_5finitial_5fencryption',['setup_initial_encryption',['../tls_8c.html#aff7c4b2f9e78c2d678898dc58bc68e57',1,'tls.c']]],
   ['setup_5finitial_5fkey',['setup_initial_key',['../tls_8c.html#ab26c763c76c9b874d651bdba836fc13f',1,'tls.c']]],
-  ['setup_5flog_5fsecret',['setup_log_secret',['../picotls_2t_2util_8h.html#a1003ac7b4fd60de31c9701d49f486e32',1,'util.h']]],
+  ['setup_5flog_5fevent',['setup_log_event',['../picotls_2t_2util_8h.html#aa63f27839fdeeb33ba9bb207c7751f88',1,'util.h']]],
   ['setup_5fsession_5fcache',['setup_session_cache',['../picotls_2t_2util_8h.html#ae28900c6459df1931256b8fc1f70251e',1,'util.h']]],
   ['setup_5fsession_5ffile',['setup_session_file',['../picotls_2t_2util_8h.html#a594ef4eab0a1a1392d619ea3f205e7f6',1,'util.h']]],
   ['setup_5fsign_5fcertificate',['setup_sign_certificate',['../t_2openssl_8c.html#a0e6c58a0fb05ca824e412073493f9f95',1,'openssl.c']]],

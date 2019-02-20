@@ -108,7 +108,7 @@ make
 <p>Instead of building quant for yourself, you can also obtain a <a href="https://cloud.docker.com/u/ntap/repository/docker/ntap/quant/">pre-built Docker container</a>. For example, </p>
 <pre class="fragment">docker pull ntap/quant:latest
 </pre><p>should download the latest build on the <code>master</code> branch. The docker container by default exposes a QUIC server on port 4433 that can serve <code>/index.html</code> and possibly other resources.</p>
-<p>To map the upd port, run the docker container with </p>
+<p>To map the UDP port, run the docker container with </p>
 <pre class="fragment">docker run -p4433:4433/udp ntap/quant
 </pre><h2>Testing</h2>
 <p>The <code>libquant</code> library will be in <code>lib</code>. There are <code>client</code> and <code>server</code> examples in <code>bin</code>. They explain their usage when called with a <code>-h</code> argument.</p>
@@ -130,7 +130,7 @@ make
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 17 2019 11:10:27 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 20 2019 07:51:24 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

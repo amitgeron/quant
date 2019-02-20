@@ -1,3 +1,4 @@
 <map id="st_ptls_emit_compressed_certificate_t" name="st_ptls_emit_compressed_certificate_t">
-<area shape="rect" id="node2" href="$structst__ptls__iovec__t.html" title="represents a sequence of octets " alt="" coords="35,5,145,32"/>
+<area shape="rect" id="node2" href="$structst__ptls__emit__compressed__certificate__t_1_1st__ptls__compressed__certificate__entry__t.html" title="st_ptls_emit_compressed\l_certificate_t::st_ptls\l_compressed_certificate\l_entry_t" alt="" coords="5,97,176,167"/>
+<area shape="rect" id="node3" href="$structst__ptls__iovec__t.html" title="represents a sequence of octets " alt="" coords="35,5,145,32"/>
 </map>

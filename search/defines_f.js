@@ -137,7 +137,7 @@ var searchData=
   ['ptls_5fhandshake_5ftype_5fmessage_5fhash',['PTLS_HANDSHAKE_TYPE_MESSAGE_HASH',['../picotls_8h.html#ab2a872a83390df151343c7d57aaf3597',1,'picotls.h']]],
   ['ptls_5fhandshake_5ftype_5fnew_5fsession_5fticket',['PTLS_HANDSHAKE_TYPE_NEW_SESSION_TICKET',['../picotls_8h.html#acd01da763480e3e7cb97e09b43d54e35',1,'picotls.h']]],
   ['ptls_5fhandshake_5ftype_5fserver_5fhello',['PTLS_HANDSHAKE_TYPE_SERVER_HELLO',['../picotls_8h.html#a079d5955a7db9c407be4aa1bf8d76f5d',1,'picotls.h']]],
-  ['ptls_5fhello_5frandom_5fsize',['PTLS_HELLO_RANDOM_SIZE',['../lib_2picotls_8c.html#a4f593910a4ee739d7fe0e7c6c4ce52c6',1,'picotls.c']]],
+  ['ptls_5fhello_5frandom_5fsize',['PTLS_HELLO_RANDOM_SIZE',['../picotls_8h.html#a4f593910a4ee739d7fe0e7c6c4ce52c6',1,'picotls.h']]],
   ['ptls_5fhkdf_5fexpand_5flabel_5fprefix',['PTLS_HKDF_EXPAND_LABEL_PREFIX',['../picotls_8h.html#ad3162cd4338ddf91d2e8d9fa860d2e5c',1,'picotls.h']]],
   ['ptls_5fmax_5fcertificate_5fverify_5fsigndata_5fsize',['PTLS_MAX_CERTIFICATE_VERIFY_SIGNDATA_SIZE',['../lib_2picotls_8c.html#a3e4470282f883a44f9279d30838070dd',1,'picotls.c']]],
   ['ptls_5fmax_5fcerts_5fin_5fcontext',['PTLS_MAX_CERTS_IN_CONTEXT',['../pembase64_8c.html#a0bbb67943353005a0ed4eb96d0a89b00',1,'pembase64.c']]],

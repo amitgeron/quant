@@ -117,6 +117,8 @@ This graph shows which files directly or indirectly include this file:</div>
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structst__ptls__emit__compressed__certificate__t.html">st_ptls_emit_compressed_certificate_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structst__ptls__emit__compressed__certificate__t_1_1st__ptls__compressed__certificate__entry__t.html">st_ptls_emit_compressed_certificate_t::st_ptls_compressed_certificate_entry_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
@@ -133,8 +135,11 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a18475de0cd4ffc4165e52a149e1c14d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="certificate__compression_8h.html#a18475de0cd4ffc4165e52a149e1c14d4">ptls_init_compressed_certificate</a> (<a class="el" href="certificate__compression_8h.html#a3e57e1b15c1797020d74b0fd91254a03">ptls_emit_compressed_certificate_t</a> *ecc, uint16_t algo, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> *certificates, size_t num_certificates, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> ocsp_status)</td></tr>
-<tr class="separator:a18475de0cd4ffc4165e52a149e1c14d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52a4837d5b95fb20a535731632c7afa0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="certificate__compression_8h.html#a52a4837d5b95fb20a535731632c7afa0">ptls_init_compressed_certificate</a> (<a class="el" href="certificate__compression_8h.html#a3e57e1b15c1797020d74b0fd91254a03">ptls_emit_compressed_certificate_t</a> *ecc, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> *certificates, size_t num_certificates, <a class="el" href="picotls_8h.html#aa569bd382fdcb4a3b4c6906bd8530366">ptls_iovec_t</a> ocsp_status)</td></tr>
+<tr class="memdesc:a52a4837d5b95fb20a535731632c7afa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">initializes a certificate emitter that precompresses a certificate chain (and ocsp status)  <a href="#a52a4837d5b95fb20a535731632c7afa0">More...</a><br/></td></tr>
+<tr class="separator:a52a4837d5b95fb20a535731632c7afa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a106c99d10dac32eaeefe57cf73df7ace"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="certificate__compression_8h.html#a106c99d10dac32eaeefe57cf73df7ace">ptls_dispose_compressed_certificate</a> (<a class="el" href="certificate__compression_8h.html#a3e57e1b15c1797020d74b0fd91254a03">ptls_emit_compressed_certificate_t</a> *ecc)</td></tr>
+<tr class="separator:a106c99d10dac32eaeefe57cf73df7ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -180,7 +185,23 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a18475de0cd4ffc4165e52a149e1c14d4"></a>
+<a class="anchor" id="a106c99d10dac32eaeefe57cf73df7ace"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ptls_dispose_compressed_certificate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="certificate__compression_8h.html#a3e57e1b15c1797020d74b0fd91254a03">ptls_emit_compressed_certificate_t</a> *&#160;</td>
+          <td class="paramname"><em>ecc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a52a4837d5b95fb20a535731632c7afa0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -189,12 +210,6 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="certificate__compression_8h.html#a3e57e1b15c1797020d74b0fd91254a03">ptls_emit_compressed_certificate_t</a> *&#160;</td>
           <td class="paramname"><em>ecc</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>algo</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -222,12 +237,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>initializes a certificate emitter that precompresses a certificate chain (and ocsp status) </p>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="certificate__compression_8h_a18475de0cd4ffc4165e52a149e1c14d4_cgraph.png" border="0" usemap="#certificate__compression_8h_a18475de0cd4ffc4165e52a149e1c14d4_cgraph" alt=""/></div>
-<map name="certificate__compression_8h_a18475de0cd4ffc4165e52a149e1c14d4_cgraph" id="certificate__compression_8h_a18475de0cd4ffc4165e52a149e1c14d4_cgraph">
-<area shape="rect" id="node2" href="certificate__compression_8c.html#a9d03894a7a581ae6fba0d956f1f9a4d8" title="emit_compressed_certificate" alt="" coords="200,5,389,32"/><area shape="rect" id="node3" href="picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="241,56,348,83"/><area shape="rect" id="node4" href="picotls_8h.html#a0d7f1003ee015729b242cce9fe118df5" title="build the body of a Certificate message. " alt="" coords="224,107,365,149"/><area shape="rect" id="node5" href="picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="242,173,347,200"/><area shape="rect" id="node6" href="picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="227,224,362,251"/><area shape="rect" id="node7" href="picotls_8h.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="437,217,576,258"/></map>
+<div class="center"><img src="certificate__compression_8h_a52a4837d5b95fb20a535731632c7afa0_cgraph.png" border="0" usemap="#certificate__compression_8h_a52a4837d5b95fb20a535731632c7afa0_cgraph" alt=""/></div>
+<map name="certificate__compression_8h_a52a4837d5b95fb20a535731632c7afa0_cgraph" id="certificate__compression_8h_a52a4837d5b95fb20a535731632c7afa0_cgraph">
+<area shape="rect" id="node2" href="certificate__compression_8c.html#af47400ccd4b63ce9835e27143d78e51a" title="emit_compressed_certificate" alt="" coords="200,72,389,99"/><area shape="rect" id="node3" href="certificate__compression_8c.html#a46212bb757246c766d0fea51b48f24a1" title="build_compressed" alt="" coords="231,123,358,149"/><area shape="rect" id="node6" href="picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="455,173,561,200"/><area shape="rect" id="node9" href="certificate__compression_8c.html#a55bd874bbdccc6d58bc378ebe2cecce7" title="ptls_dispose_compressed\l_certificate" alt="" coords="208,225,381,266"/><area shape="rect" id="node4" href="picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="455,5,561,32"/><area shape="rect" id="node5" href="picotls_8h.html#a0d7f1003ee015729b242cce9fe118df5" title="build the body of a Certificate message. " alt="" coords="437,57,579,98"/><area shape="rect" id="node7" href="picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="441,123,575,149"/><area shape="rect" id="node8" href="picotls_8h.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="627,115,765,157"/></map>
 </div>
 </p>
 
@@ -249,7 +266,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 17 2019 11:10:25 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 20 2019 07:51:23 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

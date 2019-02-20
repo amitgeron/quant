@@ -40,7 +40,6 @@ var searchData=
   ['fnv1a_5f32',['fnv1a_32',['../warpcore_2lib_2include_2warpcore_2util_8h.html#a3bf0a406ef6f462a25ef67e5a6ec33f9',1,'util.h']]],
   ['fnv1a_5f64',['fnv1a_64',['../warpcore_2lib_2include_2warpcore_2util_8h.html#aac10e28037a498b4d09ed99c55e9020d',1,'util.h']]],
   ['format_5fnode_5frecur',['format_node_recur',['../klib_2knhx_8c.html#ae52ae4ec3e32818684ec28f2cc4480f1',1,'format_node_recur(const knhx1_t *node, const knhx1_t *p, kstring_t *s, char *numbuf):&#160;knhx.c'],['../warpcore_2lib_2deps_2klib_2knhx_8c.html#ae52ae4ec3e32818684ec28f2cc4480f1',1,'format_node_recur(const knhx1_t *node, const knhx1_t *p, kstring_t *s, char *numbuf):&#160;knhx.c']]],
-  ['fprinthex',['fprinthex',['../picotls_2t_2util_8h.html#ad5abab172f924dafb610f17d6f356b93',1,'fprinthex(FILE *fp, ptls_iovec_t vec):&#160;util.h'],['../tls_8c.html#a596d4ddc108fc81c7eee5579e353beef',1,'fprinthex(FILE *const fp, const ptls_iovec_t vec):&#160;tls.c']]],
   ['fproduct',['fproduct',['../curve25519_8donna_8c.html#ab77f22249531ca50ce8a0eabb779440f',1,'curve25519.donna.c']]],
   ['freduce_5fcoefficients',['freduce_coefficients',['../curve25519_8donna_8c.html#a993afff7b9244c03e5a40c907004af30',1,'curve25519.donna.c']]],
   ['freduce_5fdegree',['freduce_degree',['../curve25519_8donna_8c.html#a57dc915ef6a2f9485eef75472f1a629d',1,'curve25519.donna.c']]],

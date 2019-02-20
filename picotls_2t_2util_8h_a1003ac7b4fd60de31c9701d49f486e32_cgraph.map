@@ -1,6 +1,0 @@
-<map id="setup_log_secret" name="setup_log_secret">
-<area shape="rect" id="node2" href="$picotls_2t_2util_8h.html#a281fc89e0d1835b010196b7bd46c7f8c" title="log_secret_cb" alt="" coords="177,31,279,57"/>
-<area shape="rect" id="node3" href="$picotls_2t_2util_8h.html#ad5abab172f924dafb610f17d6f356b93" title="fprinthex" alt="" coords="371,5,443,32"/>
-<area shape="rect" id="node4" href="$picotls_8h.html#acbb30b5e02fad52e63b99be678d8a43c" title="returns the client&#45;random " alt="" coords="329,56,485,83"/>
-<area shape="rect" id="node5" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="534,56,639,83"/>
-</map>

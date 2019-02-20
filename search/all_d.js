@@ -62,7 +62,7 @@ var searchData=
   ['ntoh24',['ntoh24',['../lib_2picotls_8c.html#a9b5970d9c3e0243e579000a47356fd64',1,'picotls.c']]],
   ['ntoh32',['ntoh32',['../lib_2picotls_8c.html#acb83ed5920da4420e22852077692babb',1,'picotls.c']]],
   ['ntoh64',['ntoh64',['../lib_2picotls_8c.html#a639de81443b6f8fee79a78d096f9bdbf',1,'picotls.c']]],
-  ['num_5fbufs',['num_bufs',['../structq__conf.html#af74ec0be9fdfbf6b3428e7309c8c1c73',1,'q_conf']]],
+  ['num_5fbufs',['num_bufs',['../structq__conf.html#a6a5394d9e9540289c52c9aecd927e16b',1,'q_conf']]],
   ['num_5fbytes',['num_bytes',['../structuECC__Curve__t.html#a0a66ed706dc4cbd327d9449e5ed99b1b',1,'uECC_Curve_t']]],
   ['num_5ffram_5ftypes',['NUM_FRAM_TYPES',['../frame_8h.html#a9d41e13ff77cca0577fa33baf6e2963c',1,'frame.h']]],
   ['num_5fhashes',['num_hashes',['../structst__ptls__key__schedule__t.html#a91bd7c5c353598cf0fdc69fe5480c70c',1,'st_ptls_key_schedule_t']]],

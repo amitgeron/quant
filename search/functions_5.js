@@ -5,7 +5,7 @@ var searchData=
   ['ecdh_5fcalc_5fsecret',['ecdh_calc_secret',['../lib_2openssl_8c.html#adc4a76515279d9240313cc540526ae76',1,'openssl.c']]],
   ['ecdh_5fgerenate_5fkey',['ecdh_gerenate_key',['../lib_2openssl_8c.html#a8f49ff8211224a75d47189259d4e15bc',1,'openssl.c']]],
   ['emit',['emit',['../semihost_8c.html#a6c6fdbca23af4f37ed99b3d33c0896e6',1,'emit(const char *buf):&#160;semihost.c'],['../semihost_8h.html#a6c6fdbca23af4f37ed99b3d33c0896e6',1,'emit(const char *buf):&#160;semihost.c']]],
-  ['emit_5fcompressed_5fcertificate',['emit_compressed_certificate',['../certificate__compression_8c.html#a9d03894a7a581ae6fba0d956f1f9a4d8',1,'certificate_compression.c']]],
+  ['emit_5fcompressed_5fcertificate',['emit_compressed_certificate',['../certificate__compression_8c.html#af47400ccd4b63ce9835e27143d78e51a',1,'certificate_compression.c']]],
   ['emit_5fesni',['emit_esni',['../esni_8c.html#a47bb8eb2c8a70a0f9c54e23c4d03ec52',1,'esni.c']]],
   ['emit_5fesni_5fextension',['emit_esni_extension',['../lib_2picotls_8c.html#a30284014e2b5a8066b17bbd70ac76e3a',1,'picotls.c']]],
   ['emit_5fextent',['emit_extent',['../semihost_8c.html#a8371f6359d0938b5af08f17d90485734',1,'semihost.c']]],

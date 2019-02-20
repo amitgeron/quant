@@ -1,5 +1,0 @@
-<map id="log_secret_cb" name="log_secret_cb">
-<area shape="rect" id="node2" href="$tls_8c.html#a596d4ddc108fc81c7eee5579e353beef" title="fprinthex" alt="" coords="200,5,272,32"/>
-<area shape="rect" id="node3" href="$picotls_8h.html#acbb30b5e02fad52e63b99be678d8a43c" title="returns the client&#45;random " alt="" coords="158,56,314,83"/>
-<area shape="rect" id="node4" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="363,56,469,83"/>
-</map>

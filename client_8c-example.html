@@ -141,8 +141,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"></div>
 <div class="line"></div>
 <div class="line"><span class="keyword">static</span> uint64_t <a name="a2"></a><a class="code" href="ping_8c.html#aae6e82a30c30cc902f1cd85dead37f6a">timeout</a> = 10;</div>
+<div class="line"><span class="keyword">static</span> uint64_t num_bufs = 100000;</div>
 <div class="line"><span class="keyword">static</span> <span class="keywordtype">bool</span> do_h3 = <span class="keyword">false</span>;</div>
 <div class="line"><span class="keyword">static</span> <span class="keywordtype">bool</span> <a name="a3"></a><a class="code" href="tls_8c.html#a4faeebf5e3d33bfea46325d8fa7343d6">flip_keys</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="keyword">static</span> <span class="keywordtype">bool</span> zlen_cids = <span class="keyword">false</span>;</div>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line"><span class="keyword">static</span> uint32_t __attribute__((nonnull))</div>
@@ -191,6 +193,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">           <a class="code" href="tls_8c.html#a4faeebf5e3d33bfea46325d8fa7343d6">flip_keys</a> ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>);</div>
 <div class="line">    printf(<span class="stringliteral">&quot;\t[-3]\t\tsend a static H3 request; default %s\n&quot;</span>,</div>
 <div class="line">           do_h3 ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>);</div>
+<div class="line">    printf(<span class="stringliteral">&quot;\t[-z]\t\tuse zero-length source connection IDs; default %s\n&quot;</span>,</div>
+<div class="line">           zlen_cids ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>);</div>
+<div class="line">    printf(</div>
+<div class="line">        <span class="stringliteral">&quot;\t[-b bufs]\tnumber of network buffers to allocate; default %&quot;</span> PRIu64</div>
+<div class="line">        <span class="stringliteral">&quot;\n&quot;</span>,</div>
+<div class="line">        num_bufs);</div>
 <div class="line"><span class="preprocessor">#ifndef NDEBUG</span></div>
 <div class="line"><span class="preprocessor"></span>    printf(<span class="stringliteral">&quot;\t[-v verbosity]\tverbosity level (0-%d, default %d)\n&quot;</span>, <a name="a12"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a94c2776a2d1f9e44c3d327befe0d3bfe">DLEVEL</a>,</div>
 <div class="line">           <a name="a13"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#ade0743d672f539b1615b3a5d3b79486b">util_dlevel</a>);</div>
@@ -271,13 +279,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">    <span class="keyword">struct </span>conn_cache_entry * cce = <a name="a24"></a><a class="code" href="tree_8h.html#a8dfbb62d4bfecd68c542083bb0d6de3c">splay_find</a>(conn_cache, cc, &amp;which);</div>
 <div class="line">    <span class="keywordflow">if</span> (cce == 0) {</div>
 <div class="line">        <span class="comment">// no, open a new connection</span></div>
-<div class="line">        <span class="keyword">struct </span>q_conn * <span class="keyword">const</span> c = <a name="a25"></a><a class="code" href="quant_8h.html#af2f2677d8497fd617e2f3da029224653">q_connect</a>(</div>
-<div class="line">            w, (<span class="keyword">struct</span> sockaddr_in *)(<span class="keywordtype">void</span> *)peer-&gt;ai_addr, dest, &amp;req, &amp;se-&gt;s,</div>
-<div class="line">            <span class="keyword">true</span>,</div>
-<div class="line">            &amp;(<span class="keyword">struct</span> <a name="_a26"></a><a class="code" href="structq__conn__conf.html">q_conn_conf</a>){.alpn = do_h3 ? <span class="stringliteral">&quot;h3-18&quot;</span> : <span class="stringliteral">&quot;hq-18&quot;</span>,</div>
-<div class="line">                                  .idle_timeout = <a class="code" href="ping_8c.html#aae6e82a30c30cc902f1cd85dead37f6a">timeout</a>,</div>
-<div class="line">                                  .enable_spinbit = <span class="keyword">true</span>,</div>
-<div class="line">                                  .enable_tls_key_updates = <a class="code" href="tls_8c.html#a4faeebf5e3d33bfea46325d8fa7343d6">flip_keys</a>});</div>
+<div class="line">        <span class="keyword">struct </span>q_conn * <span class="keyword">const</span> c =</div>
+<div class="line">            <a name="a25"></a><a class="code" href="quant_8h.html#af2f2677d8497fd617e2f3da029224653">q_connect</a>(w, (<span class="keyword">struct</span> sockaddr_in *)(<span class="keywordtype">void</span> *)peer-&gt;ai_addr, dest,</div>
+<div class="line">                      &amp;req, &amp;se-&gt;s, <span class="keyword">true</span>,</div>
+<div class="line">                      &amp;(<span class="keyword">struct</span> <a name="_a26"></a><a class="code" href="structq__conn__conf.html">q_conn_conf</a>){.alpn = do_h3 ? <span class="stringliteral">&quot;h3-18&quot;</span> : <span class="stringliteral">&quot;hq-18&quot;</span>,</div>
+<div class="line">                                            .idle_timeout = <a class="code" href="ping_8c.html#aae6e82a30c30cc902f1cd85dead37f6a">timeout</a>,</div>
+<div class="line">                                            .enable_spinbit = <span class="keyword">true</span>,</div>
+<div class="line">                                            .enable_tls_key_updates = <a class="code" href="tls_8c.html#a4faeebf5e3d33bfea46325d8fa7343d6">flip_keys</a>,</div>
+<div class="line">                                            .enable_zero_len_cid = zlen_cids});</div>
 <div class="line">        <span class="keywordflow">if</span> (c == 0) {</div>
 <div class="line">            freeaddrinfo(peer);</div>
 <div class="line">            <span class="keywordflow">return</span> 0;</div>
@@ -356,7 +365,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">    <span class="keywordtype">bool</span> verify_certs = <span class="keyword">false</span>;</div>
 <div class="line">    <span class="keywordtype">int</span> ret = 0;</div>
 <div class="line"></div>
-<div class="line">    <span class="keywordflow">while</span> ((ch = getopt(argc, argv, <span class="stringliteral">&quot;hi:v:s:t:l:cu3&quot;</span>)) != -1) {</div>
+<div class="line">    <span class="keywordflow">while</span> ((ch = getopt(argc, argv, <span class="stringliteral">&quot;hi:v:s:t:l:cu3zb:&quot;</span>)) != -1) {</div>
 <div class="line">        <span class="keywordflow">switch</span> (ch) {</div>
 <div class="line">        <span class="keywordflow">case</span> <span class="charliteral">&#39;i&#39;</span>:</div>
 <div class="line">            strncpy(ifname, optarg, <span class="keyword">sizeof</span>(ifname) - 1);</div>
@@ -366,6 +375,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">            <span class="keywordflow">break</span>;</div>
 <div class="line">        <span class="keywordflow">case</span> <span class="charliteral">&#39;t&#39;</span>:</div>
 <div class="line">            <a class="code" href="ping_8c.html#aae6e82a30c30cc902f1cd85dead37f6a">timeout</a> = <a name="a38"></a><a class="code" href="handy_8h.html#a74e75242132eaabbc1c512488a135926">MIN</a>(600, strtoul(optarg, 0, 10)); <span class="comment">// 10 min</span></div>
+<div class="line">            <span class="keywordflow">break</span>;</div>
+<div class="line">        <span class="keywordflow">case</span> <span class="charliteral">&#39;b&#39;</span>:</div>
+<div class="line">            num_bufs = MAX(1000, <a class="code" href="handy_8h.html#a74e75242132eaabbc1c512488a135926">MIN</a>(strtoul(optarg, 0, 10), UINT32_MAX));</div>
 <div class="line">            <span class="keywordflow">break</span>;</div>
 <div class="line">        <span class="keywordflow">case</span> <span class="charliteral">&#39;l&#39;</span>:</div>
 <div class="line">            strncpy(tls_log, optarg, <span class="keyword">sizeof</span>(tls_log) - 1);</div>
@@ -378,6 +390,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">            <span class="keywordflow">break</span>;</div>
 <div class="line">        <span class="keywordflow">case</span> <span class="charliteral">&#39;3&#39;</span>:</div>
 <div class="line">            do_h3 = <span class="keyword">true</span>;</div>
+<div class="line">            <span class="keywordflow">break</span>;</div>
+<div class="line">        <span class="keywordflow">case</span> <span class="charliteral">&#39;z&#39;</span>:</div>
+<div class="line">            zlen_cids = <span class="keyword">true</span>;</div>
 <div class="line">            <span class="keywordflow">break</span>;</div>
 <div class="line">        <span class="keywordflow">case</span> <span class="charliteral">&#39;v&#39;</span>:</div>
 <div class="line"><span class="preprocessor">#ifndef NDEBUG</span></div>
@@ -392,7 +407,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">    }</div>
 <div class="line"></div>
 <div class="line">    <span class="keyword">struct </span><a class="code" href="structw__engine.html">w_engine</a> * <span class="keyword">const</span> w = <a name="a40"></a><a class="code" href="quant_8h.html#a9e861b437adeddbef368f166d9fc9730">q_init</a>(</div>
-<div class="line">        ifname, &amp;(<span class="keyword">const</span> <span class="keyword">struct</span> <a name="_a41"></a><a class="code" href="structq__conf.html">q_conf</a>){.num_bufs = 100000,</div>
+<div class="line">        ifname, &amp;(<span class="keyword">const</span> <span class="keyword">struct</span> <a name="_a41"></a><a class="code" href="structq__conf.html">q_conf</a>){.num_bufs = num_bufs,</div>
 <div class="line">                                       .ticket_store = cache,</div>
 <div class="line">                                       .tls_log = tls_log,</div>
 <div class="line">                                       .enable_tls_cert_verify = verify_certs});</div>
@@ -485,7 +500,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --> </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 17 2019 11:10:23 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 20 2019 07:51:20 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

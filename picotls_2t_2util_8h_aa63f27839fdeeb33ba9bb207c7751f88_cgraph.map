@@ -1,0 +1,6 @@
+<map id="setup_log_event" name="setup_log_event">
+<area shape="rect" id="node2" href="$picotls_2t_2util_8h.html#a0e1e3b1e8ec016f7f9eff74b9cc0a050" title="log_event_cb" alt="" coords="171,31,269,57"/>
+<area shape="rect" id="node3" href="$picotls_8h.html#ac3a34591ce16881c6bf04f716049b9a3" title="ptls_hexdump" alt="" coords="345,5,447,32"/>
+<area shape="rect" id="node4" href="$picotls_8h.html#acbb30b5e02fad52e63b99be678d8a43c" title="returns the client&#45;random " alt="" coords="318,56,474,83"/>
+<area shape="rect" id="node5" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="523,56,629,83"/>
+</map>

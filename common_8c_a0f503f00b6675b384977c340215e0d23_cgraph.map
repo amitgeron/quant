@@ -9,7 +9,7 @@
 <area shape="rect" id="node25" href="$warpcore_8h.html#a3fba5669717435248ca7b7945a9b9d75" title="Push data placed in the TX rings via udp_tx() and similar methods out onto the link. " alt="" coords="761,321,836,348"/>
 <area shape="rect" id="node26" href="$warpcore_8h.html#ab0508cfebe874ba0f3f2f230b4120e0d" title="Trigger netmap to make new received data available to w_rx(). " alt="" coords="108,740,183,767"/>
 <area shape="rect" id="node29" href="$warpcore_8h.html#af21a4e848c9199be729d01d20b8eea3d" title="Return any new data that has been received on a socket by appending it to the w_iov tail queue i..." alt="" coords="409,360,460,387"/>
-<area shape="rect" id="node39" href="$warpcore_8h.html#a0d68d8dde6e6c8f97f250c076c2e6b9a" title="Return the local port a w_sock is bound to. " alt="" coords="564,436,657,463"/>
+<area shape="rect" id="node34" href="$warpcore_8h.html#a0d68d8dde6e6c8f97f250c076c2e6b9a" title="Return the local port a w_sock is bound to. " alt="" coords="564,436,657,463"/>
 <area shape="rect" id="node47" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="1035,943,1111,969"/>
 <area shape="rect" id="node3" href="$warpcore_8c.html#a8e3e3376b3f23f1a1a8fc4be642f7710" title="Return a spare w_iov from the pool of the given warpcore engine. " alt="" coords="245,44,336,71"/>
 <area shape="rect" id="node4" href="$backend_8h.html#a3ea12851bfb4f83f0843560797d0241e" title="w_alloc_iov_base" alt="" coords="736,208,861,235"/>
@@ -39,13 +39,13 @@
 <area shape="rect" id="node44" href="$conn_8c.html#a4a5deef512e20b125b45899c6c80c6fc" title="free_conn" alt="" coords="395,791,474,817"/>
 <area shape="rect" id="node45" href="$quant_8h.html#a84a768c49cd352e1c8a109bda56ef3a6" title="q_rx_ready" alt="" coords="391,841,478,868"/>
 <area shape="rect" id="node30" href="$warpcore_8h.html#aa17e20ed409edbfe18aa79ae5da640ff" title="Return a spare w_iov from the pool of the given warpcore engine. " alt="" coords="565,208,656,235"/>
-<area shape="rect" id="node32" href="$quic_8c.html#a4e51fb8c9ebc5178b5131826ca26fb90" title="write_to_corpus" alt="" coords="553,841,668,868"/>
-<area shape="rect" id="node33" href="$pkt_8c.html#a77b81d9b1c20c429faab500ffa44d42b" title="dec_pkt_hdr_beginning" alt="" coords="533,639,688,665"/>
-<area shape="rect" id="node34" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="774,639,823,665"/>
-<area shape="rect" id="node35" href="$pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="563,588,658,615"/>
-<area shape="rect" id="node36" href="$pkt_8c.html#acda77940d975cd06aecc7f0aae9f2aa0" title="tx_vneg_resp" alt="" coords="561,487,661,513"/>
-<area shape="rect" id="node37" href="$conn_8c.html#a370e079f6b872eb4fb70053eb3fd14a3" title="get_conn_by_cid" alt="" coords="551,740,671,767"/>
-<area shape="rect" id="node38" href="$conn_8c.html#a042a55d10b57e402bf5982add4983181" title="get_conn_by_ipnp" alt="" coords="547,791,674,817"/>
+<area shape="rect" id="node32" href="$quic_8c.html#a4e51fb8c9ebc5178b5131826ca26fb90" title="write_to_corpus" alt="" coords="553,791,668,817"/>
+<area shape="rect" id="node33" href="$conn_8c.html#a042a55d10b57e402bf5982add4983181" title="get_conn_by_ipnp" alt="" coords="547,841,674,868"/>
+<area shape="rect" id="node35" href="$pkt_8c.html#ab205cb10435c8caf476391325b68eb66" title="dec_pkt_hdr_beginning" alt="" coords="533,588,688,615"/>
+<area shape="rect" id="node36" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="774,639,823,665"/>
+<area shape="rect" id="node37" href="$pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="563,689,658,716"/>
+<area shape="rect" id="node38" href="$pkt_8c.html#acda77940d975cd06aecc7f0aae9f2aa0" title="tx_vneg_resp" alt="" coords="561,487,661,513"/>
+<area shape="rect" id="node39" href="$conn_8c.html#a370e079f6b872eb4fb70053eb3fd14a3" title="get_conn_by_cid" alt="" coords="551,740,671,767"/>
 <area shape="rect" id="node48" href="$ip_8c.html#a83c3b73e5ae32815530bdb103a0a59ee" title="Receive processing for an IPv4 packet. " alt="" coords="1048,740,1099,767"/>
 <area shape="rect" id="node49" href="$arp_8c.html#adfea277e13c34a07fc16cb4455988d71" title="Receive an ARP packet, and react to it. " alt="" coords="1044,791,1103,817"/>
 </map>

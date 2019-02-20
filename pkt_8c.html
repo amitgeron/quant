@@ -148,8 +148,8 @@ Functions</h2></td></tr>
 <tr class="separator:a835c615f20b782d4454cd6657becd9c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb16e009f3832ade02a0c1d21d4631d6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pkt_8c.html#acb16e009f3832ade02a0c1d21d4631d6">enc_pkt</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s, const bool rtx, const bool enc_data, const bool tx_ack_eliciting, struct <a class="el" href="structw__iov.html">w_iov</a> *const v)</td></tr>
 <tr class="separator:acb16e009f3832ade02a0c1d21d4631d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77b81d9b1c20c429faab500ffa44d42b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pkt_8c.html#a77b81d9b1c20c429faab500ffa44d42b">dec_pkt_hdr_beginning</a> (struct <a class="el" href="structw__iov.html">w_iov</a> *const xv, struct <a class="el" href="structw__iov.html">w_iov</a> *const v, const bool is_clnt, struct <a class="el" href="structcid.html">cid</a> *const odcid, uint8_t *const tok, uint16_t *const tok_len)</td></tr>
-<tr class="separator:a77b81d9b1c20c429faab500ffa44d42b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab205cb10435c8caf476391325b68eb66"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pkt_8c.html#ab205cb10435c8caf476391325b68eb66">dec_pkt_hdr_beginning</a> (struct <a class="el" href="structw__iov.html">w_iov</a> *const xv, struct <a class="el" href="structw__iov.html">w_iov</a> *const v, const bool is_clnt, struct <a class="el" href="structcid.html">cid</a> *const odcid, uint8_t *const tok, uint16_t *const tok_len, const uint8_t dcid_len)</td></tr>
+<tr class="separator:ab205cb10435c8caf476391325b68eb66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a491976396e2d7fe066ceb2452877eed5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pkt_8c.html#a491976396e2d7fe066ceb2452877eed5">xor_hp</a> (struct <a class="el" href="structw__iov.html">w_iov</a> *const xv, const struct <a class="el" href="structw__iov.html">w_iov</a> *const v, const struct <a class="el" href="structcipher__ctx.html">cipher_ctx</a> *const <a class="el" href="test_8h.html#a548aff34430d3b5d6d5ba393b8fdda8f">ctx</a>, const uint16_t pkt_nr_pos, const bool is_enc)</td></tr>
 <tr class="separator:a491976396e2d7fe066ceb2452877eed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3219bcf2ce628aad76f0351601744b14"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pkt_8c.html#a3219bcf2ce628aad76f0351601744b14">undo_hp</a> (struct <a class="el" href="structw__iov.html">w_iov</a> *const xv, const struct <a class="el" href="structw__iov.html">w_iov</a> *const v, struct q_conn *const c, const struct <a class="el" href="structcipher__ctx.html">cipher_ctx</a> *const <a class="el" href="test_8h.html#a548aff34430d3b5d6d5ba393b8fdda8f">ctx</a>)</td></tr>
@@ -234,7 +234,7 @@ Functions</h2></td></tr>
 <div class="line">            return <span class="keyword">false</span>;                                                      \</div>
 <div class="line">        _i;                                                                    \</div>
 <div class="line">    })</div>
-<div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:417</div></div>
+<div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:428</div></div>
 <div class="ttc" id="warpcore_2lib_2include_2warpcore_2util_8h_html_ac6c45889010c1bd68631771b64f18101"><div class="ttname"><a href="warpcore_2lib_2include_2warpcore_2util_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a></div><div class="ttdeci">#define unlikely(x)</div><div class="ttdef"><b>Definition:</b> util.h:62</div></div>
 <div class="ttc" id="marshall_8h_html_a17979630a63703570a316e70d4e9cb30"><div class="ttname"><a href="marshall_8h.html#a17979630a63703570a316e70d4e9cb30">dec</a></div><div class="ttdeci">#define dec(dst, buf, buf_len, pos, dst_len, fmt)</div><div class="ttdef"><b>Definition:</b> marshall.h:187</div></div>
 </div><!-- fragment -->
@@ -289,7 +289,7 @@ Functions</h2></td></tr>
 <div class="line">        _i;                                                                    \</div>
 <div class="line">    })</div>
 <div class="ttc" id="marshall_8h_html_a30296cce5b6c5d9acf70a6d8b9ef809b"><div class="ttname"><a href="marshall_8h.html#a30296cce5b6c5d9acf70a6d8b9ef809b">dec_buf</a></div><div class="ttdeci">#define dec_buf(dst, buf, buf_len, pos, dst_len)</div><div class="ttdef"><b>Definition:</b> marshall.h:234</div></div>
-<div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:417</div></div>
+<div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:428</div></div>
 <div class="ttc" id="warpcore_2lib_2include_2warpcore_2util_8h_html_ac6c45889010c1bd68631771b64f18101"><div class="ttname"><a href="warpcore_2lib_2include_2warpcore_2util_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a></div><div class="ttdeci">#define unlikely(x)</div><div class="ttdef"><b>Definition:</b> util.h:62</div></div>
 </div><!-- fragment -->
 </div>
@@ -389,7 +389,7 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a77b81d9b1c20c429faab500ffa44d42b"></a>
+<a class="anchor" id="ab205cb10435c8caf476391325b68eb66"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -427,7 +427,13 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint16_t *const&#160;</td>
-          <td class="paramname"><em>tok_len</em>&#160;</td>
+          <td class="paramname"><em>tok_len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint8_t&#160;</td>
+          <td class="paramname"><em>dcid_len</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -440,8 +446,8 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="pkt_8c_a77b81d9b1c20c429faab500ffa44d42b_cgraph.png" border="0" usemap="#pkt_8c_a77b81d9b1c20c429faab500ffa44d42b_cgraph" alt=""/></div>
-<map name="pkt_8c_a77b81d9b1c20c429faab500ffa44d42b_cgraph" id="pkt_8c_a77b81d9b1c20c429faab500ffa44d42b_cgraph">
+<div class="center"><img src="pkt_8c_ab205cb10435c8caf476391325b68eb66_cgraph.png" border="0" usemap="#pkt_8c_ab205cb10435c8caf476391325b68eb66_cgraph" alt=""/></div>
+<map name="pkt_8c_ab205cb10435c8caf476391325b68eb66_cgraph" id="pkt_8c_ab205cb10435c8caf476391325b68eb66_cgraph">
 <area shape="rect" id="node2" href="pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="208,5,280,32"/><area shape="rect" id="node3" href="pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="329,31,378,57"/></map>
 </div>
 </p>
@@ -1001,7 +1007,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 17 2019 11:10:26 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 20 2019 07:51:24 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

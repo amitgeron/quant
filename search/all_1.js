@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['a',['a',['../structhmm__par__t.html#a3759bad12ee8a40d700442c904f079cf',1,'hmm_par_t::a()'],['../structhmm__exp__t.html#a0a3ce8511de7220dda7091b413f8f5b4',1,'hmm_exp_t::A()'],['../structcf__sha3__context.html#af37576ca909cb5d28b7df31e56175ef2',1,'cf_sha3_context::A()']]],
+  ['a',['A',['../structhmm__exp__t.html#a0a3ce8511de7220dda7091b413f8f5b4',1,'hmm_exp_t::A()'],['../structcf__sha3__context.html#af37576ca909cb5d28b7df31e56175ef2',1,'cf_sha3_context::A()'],['../structhmm__par__t.html#a3759bad12ee8a40d700442c904f079cf',1,'hmm_par_t::a()']]],
   ['a0',['a0',['../structhmm__par__t.html#a89a3771f087a1352eed089aa5588d9be',1,'hmm_par_t::a0()'],['../structhmm__exp__t.html#a3e478104df486ba13c46f76205dce341',1,'hmm_exp_t::A0()']]],
   ['aadlen',['aadlen',['../structchacha20poly1305__context__t.html#a72095289116de2d513b03187f5592eb8',1,'chacha20poly1305_context_t']]],
   ['abandon_5fpn',['abandon_pn',['../pn_8c.html#a01a6deaf5b4cd84917145356378f1004',1,'abandon_pn(struct q_conn *const c, const epoch_t e):&#160;pn.c'],['../pn_8h.html#a01a6deaf5b4cd84917145356378f1004',1,'abandon_pn(struct q_conn *const c, const epoch_t e):&#160;pn.c']]],

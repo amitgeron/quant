@@ -98,7 +98,7 @@ Collaboration diagram for st_ptls_context_t:</div>
 <div class="dyncontent">
 <div class="center"><img src="structst__ptls__context__t__coll__graph.png" border="0" usemap="#st__ptls__context__t_coll__map" alt="Collaboration graph"/></div>
 <map name="st__ptls__context__t_coll__map" id="st__ptls__context__t_coll__map">
-<area shape="rect" id="node2" href="structst__ptls__esni__context__t.html" title="holds ESNIKeys and the private key (instantiated by ptls_esni_parse, freed using ptls_esni_dispose) ..." alt="" coords="854,127,1007,153"/><area shape="rect" id="node3" href="structst__ptls__key__exchange__context__t.html" title="key exchange context built by ptls_key_exchange_algorithm::create. " alt="" coords="557,111,709,153"/><area shape="rect" id="node4" href="structst__ptls__iovec__t.html" title="represents a sequence of octets " alt="" coords="322,5,433,32"/><area shape="rect" id="node5" href="structst__ptls__key__exchange__algorithm__t.html" title="A key exchange algorithm. " alt="" coords="301,65,453,106"/><area shape="rect" id="node6" href="structst__ptls__cipher__suite__t.html" title="st_ptls_cipher_suite_t" alt="" coords="559,187,708,213"/><area shape="rect" id="node7" href="structst__ptls__aead__algorithm__t.html" title="An AEAD cipher. " alt="" coords="294,148,461,175"/><area shape="rect" id="node8" href="structst__ptls__cipher__algorithm__t.html" title="a symmetric cipher " alt="" coords="6,143,181,169"/><area shape="rect" id="node9" href="structst__ptls__hash__algorithm__t.html" title="A hash algorithm and its properties. " alt="" coords="294,220,461,247"/><area shape="rect" id="node10" href="structst__ptls__hash__context__t.html" title="A hash context. " alt="" coords="15,232,172,259"/><area shape="rect" id="node11" href="structst__ptls__decompress__certificate__t.html" title="st_ptls_decompress\l_certificate_t" alt="" coords="861,257,1000,298"/></map>
+<area shape="rect" id="node2" href="structst__ptls__log__event__t.html" title="event logging (incl. " alt="" coords="863,9,998,36"/><area shape="rect" id="node3" href="structst__ptls__esni__context__t.html" title="holds ESNIKeys and the private key (instantiated by ptls_esni_parse, freed using ptls_esni_dispose) ..." alt="" coords="854,177,1007,204"/><area shape="rect" id="node4" href="structst__ptls__key__exchange__context__t.html" title="key exchange context built by ptls_key_exchange_algorithm::create. " alt="" coords="557,178,709,219"/><area shape="rect" id="node5" href="structst__ptls__iovec__t.html" title="represents a sequence of octets " alt="" coords="322,84,433,111"/><area shape="rect" id="node6" href="structst__ptls__key__exchange__algorithm__t.html" title="A key exchange algorithm. " alt="" coords="301,142,453,183"/><area shape="rect" id="node7" href="structst__ptls__cipher__suite__t.html" title="st_ptls_cipher_suite_t" alt="" coords="559,253,708,280"/><area shape="rect" id="node8" href="structst__ptls__aead__algorithm__t.html" title="An AEAD cipher. " alt="" coords="294,223,461,249"/><area shape="rect" id="node9" href="structst__ptls__cipher__algorithm__t.html" title="a symmetric cipher " alt="" coords="6,219,181,245"/><area shape="rect" id="node10" href="structst__ptls__hash__algorithm__t.html" title="A hash algorithm and its properties. " alt="" coords="294,296,461,323"/><area shape="rect" id="node11" href="structst__ptls__hash__context__t.html" title="A hash context. " alt="" coords="15,308,172,335"/><area shape="rect" id="node12" href="structst__ptls__decompress__certificate__t.html" title="st_ptls_decompress\l_certificate_t" alt="" coords="861,323,1000,365"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -161,8 +161,8 @@ Data Fields</h2></td></tr>
 <tr class="separator:a3de2d7891343c2ae713bab76110e8526"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98f5bb251599e1b78a900e1197fd2025"><td class="memItemLeft" align="right" valign="top">ptls_save_ticket_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structst__ptls__context__t.html#a98f5bb251599e1b78a900e1197fd2025">save_ticket</a></td></tr>
 <tr class="separator:a98f5bb251599e1b78a900e1197fd2025"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5413b49ca15afa370fbba2e56f793521"><td class="memItemLeft" align="right" valign="top">ptls_log_secret_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structst__ptls__context__t.html#a5413b49ca15afa370fbba2e56f793521">log_secret</a></td></tr>
-<tr class="separator:a5413b49ca15afa370fbba2e56f793521"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d052185620fa691966a8af778fdff00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="picotls_8h.html#ace6b4dc7d526e4f0df8272f55bb75e26">ptls_log_event_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structst__ptls__context__t.html#a5d052185620fa691966a8af778fdff00">log_event</a></td></tr>
+<tr class="separator:a5d052185620fa691966a8af778fdff00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73a61c1af7556581b21f97b67c2592a0"><td class="memItemLeft" align="right" valign="top">ptls_update_open_count_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structst__ptls__context__t.html#a73a61c1af7556581b21f97b67c2592a0">update_open_count</a></td></tr>
 <tr class="separator:a73a61c1af7556581b21f97b67c2592a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3dfc40950255ba317e70973f7862946"><td class="memItemLeft" align="right" valign="top">ptls_update_traffic_key_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structst__ptls__context__t.html#ae3dfc40950255ba317e70973f7862946">update_traffic_key</a></td></tr>
@@ -318,12 +318,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5413b49ca15afa370fbba2e56f793521"></a>
+<a class="anchor" id="a5d052185620fa691966a8af778fdff00"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ptls_log_secret_t* st_ptls_context_t::log_secret</td>
+          <td class="memname"><a class="el" href="picotls_8h.html#ace6b4dc7d526e4f0df8272f55bb75e26">ptls_log_event_t</a>* st_ptls_context_t::log_event</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -532,7 +532,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 17 2019 11:10:27 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 20 2019 07:51:24 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -252,52 +252,53 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                                            const <span class="keywordtype">bool</span> is_enc);</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;extern <span class="keywordtype">bool</span> __attribute__((nonnull))</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<a class="code" href="pkt_8h.html#a77b81d9b1c20c429faab500ffa44d42b">dec_pkt_hdr_beginning</a>(struct <a class="code" href="structw__iov.html">w_iov</a> * const xv,</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<a class="code" href="pkt_8h.html#ab205cb10435c8caf476391325b68eb66">dec_pkt_hdr_beginning</a>(struct <a class="code" href="structw__iov.html">w_iov</a> * const xv,</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                      struct <a class="code" href="structw__iov.html">w_iov</a> * const v,</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                      const <span class="keywordtype">bool</span> is_clnt,</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                      struct <a class="code" href="structcid.html">cid</a> * const odcid,</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                      uint8_t * const tok,</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                      uint16_t * const tok_len);</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;extern <span class="keywordtype">bool</span> __attribute__((nonnull))</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<a class="code" href="pkt_8h.html#a4df410764fdb5a8d7468492748e0e3ea">dec_pkt_hdr_remainder</a>(struct <a class="code" href="structw__iov.html">w_iov</a> * const xv,</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                      struct <a class="code" href="structw__iov.html">w_iov</a> * const v,</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                      struct q_conn * const c,</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                      struct <a class="code" href="structw__iov__sq.html">w_iov_sq</a> * const x,</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                      <span class="keywordtype">bool</span> * const decoal);</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;extern <span class="keywordtype">bool</span> __attribute__((nonnull)) <a class="code" href="pkt_8h.html#acb16e009f3832ade02a0c1d21d4631d6">enc_pkt</a>(struct <a class="code" href="structq__stream.html">q_stream</a> * const s,</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                                             const <span class="keywordtype">bool</span> rtx,</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                                             const <span class="keywordtype">bool</span> enc_data,</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                                             const <span class="keywordtype">bool</span> tx_ack_eliciting,</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                                             struct <a class="code" href="structw__iov.html">w_iov</a> * const v);</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="pkt_8h.html#a1f839697f5c2cb2a8b086249c85399bc">coalesce</a>(struct <a class="code" href="structw__iov__sq.html">w_iov_sq</a> * const q);</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<a class="code" href="pkt_8h.html#acda77940d975cd06aecc7f0aae9f2aa0">tx_vneg_resp</a>(const struct <a class="code" href="structw__sock.html">w_sock</a> * const ws, const struct <a class="code" href="structw__iov.html">w_iov</a> * const v);</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;extern uint32_t __attribute__((nonnull))</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;<a class="code" href="pkt_8h.html#ad04b9f10bc7ad63422f56e3a4fe70e5e">clnt_vneg</a>(const uint8_t * const <a class="code" href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a>, const uint16_t <a class="code" href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a>);</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;<span class="preprocessor">#ifndef NDEBUG</span></div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;<span class="preprocessor"></span><span class="keyword">extern</span> <span class="keywordtype">void</span> __attribute__((nonnull(1, 2)))</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<a class="code" href="pkt_8h.html#aad4456e4786b31e02e1e4c81e265d442">log_pkt</a>(const <span class="keywordtype">char</span> * const dir,</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        const struct <a class="code" href="structw__iov.html">w_iov</a> * const v,</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        const uint32_t ip,</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        const uint16_t port,</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        const struct <a class="code" href="structcid.html">cid</a> * const odcid,</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        const uint8_t * const tok,</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        const uint16_t tok_len);</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define log_pkt(...)                                                           \</span></div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;<span class="preprocessor">    do {                                                                       \</span></div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;<span class="preprocessor">    } while (0)</span></div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                      uint16_t * const tok_len,</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                      const uint8_t dcid_len);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;extern <span class="keywordtype">bool</span> __attribute__((nonnull))</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<a class="code" href="pkt_8h.html#a4df410764fdb5a8d7468492748e0e3ea">dec_pkt_hdr_remainder</a>(struct <a class="code" href="structw__iov.html">w_iov</a> * const xv,</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                      struct <a class="code" href="structw__iov.html">w_iov</a> * const v,</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                      struct q_conn * const c,</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                      struct <a class="code" href="structw__iov__sq.html">w_iov_sq</a> * const x,</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                      <span class="keywordtype">bool</span> * const decoal);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;extern <span class="keywordtype">bool</span> __attribute__((nonnull)) <a class="code" href="pkt_8h.html#acb16e009f3832ade02a0c1d21d4631d6">enc_pkt</a>(struct <a class="code" href="structq__stream.html">q_stream</a> * const s,</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                                             const <span class="keywordtype">bool</span> rtx,</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                                             const <span class="keywordtype">bool</span> enc_data,</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                                             const <span class="keywordtype">bool</span> tx_ack_eliciting,</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                                             struct <a class="code" href="structw__iov.html">w_iov</a> * const v);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="pkt_8h.html#a1f839697f5c2cb2a8b086249c85399bc">coalesce</a>(struct <a class="code" href="structw__iov__sq.html">w_iov_sq</a> * const q);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;<a class="code" href="pkt_8h.html#acda77940d975cd06aecc7f0aae9f2aa0">tx_vneg_resp</a>(const struct <a class="code" href="structw__sock.html">w_sock</a> * const ws, const struct <a class="code" href="structw__iov.html">w_iov</a> * const v);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;extern uint32_t __attribute__((nonnull))</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;<a class="code" href="pkt_8h.html#ad04b9f10bc7ad63422f56e3a4fe70e5e">clnt_vneg</a>(const uint8_t * const <a class="code" href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a>, const uint16_t <a class="code" href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a>);</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;<span class="preprocessor">#ifndef NDEBUG</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="preprocessor"></span><span class="keyword">extern</span> <span class="keywordtype">void</span> __attribute__((nonnull(1, 2)))</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;<a class="code" href="pkt_8h.html#aad4456e4786b31e02e1e4c81e265d442">log_pkt</a>(const <span class="keywordtype">char</span> * const dir,</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        const struct <a class="code" href="structw__iov.html">w_iov</a> * const v,</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        const uint32_t ip,</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        const uint16_t port,</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        const struct <a class="code" href="structcid.html">cid</a> * const odcid,</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        const uint8_t * const tok,</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        const uint16_t tok_len);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define log_pkt(...)                                                           \</span></div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;<span class="preprocessor">    do {                                                                       \</span></div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;<span class="preprocessor">    } while (0)</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="pkt_8h_html_a265e9c52eb203bb4701727adc3908850"><div class="ttname"><a href="pkt_8h.html#a265e9c52eb203bb4701727adc3908850">pkt_type</a></div><div class="ttdeci">static uint8_t pkt_type(const uint8_t flags)</div><div class="ttdef"><b>Definition:</b> pkt.h:80</div></div>
 <div class="ttc" id="t_2picotls_8c_html_a548aff34430d3b5d6d5ba393b8fdda8f"><div class="ttname"><a href="t_2picotls_8c.html#a548aff34430d3b5d6d5ba393b8fdda8f">ctx</a></div><div class="ttdeci">ptls_context_t * ctx</div><div class="ttdef"><b>Definition:</b> picotls.c:47</div></div>
 <div class="ttc" id="pkt_8h_html_a13f2d88ad76ff338e531972ca1c0449e"><div class="ttname"><a href="pkt_8h.html#a13f2d88ad76ff338e531972ca1c0449e">pn_for_pkt_type</a></div><div class="ttdeci">static struct pn_space * pn_for_pkt_type(struct q_conn *const c, const uint8_t t)</div><div class="ttdef"><b>Definition:</b> pkt.h:111</div></div>
-<div class="ttc" id="pkt_8h_html_acb16e009f3832ade02a0c1d21d4631d6"><div class="ttname"><a href="pkt_8h.html#acb16e009f3832ade02a0c1d21d4631d6">enc_pkt</a></div><div class="ttdeci">bool enc_pkt(struct q_stream *const s, const bool rtx, const bool enc_data, const bool tx_ack_eliciting, struct w_iov *const v)</div><div class="ttdef"><b>Definition:</b> pkt.c:331</div></div>
+<div class="ttc" id="pkt_8h_html_acb16e009f3832ade02a0c1d21d4631d6"><div class="ttname"><a href="pkt_8h.html#acb16e009f3832ade02a0c1d21d4631d6">enc_pkt</a></div><div class="ttdeci">bool enc_pkt(struct q_stream *const s, const bool rtx, const bool enc_data, const bool tx_ack_eliciting, struct w_iov *const v)</div><div class="ttdef"><b>Definition:</b> pkt.c:332</div></div>
 <div class="ttc" id="pkt_8h_html_a6c22846a0fa775cf0d8cb07b420a344a"><div class="ttname"><a href="pkt_8h.html#a6c22846a0fa775cf0d8cb07b420a344a">LH_0RTT</a></div><div class="ttdeci">#define LH_0RTT</div><div class="ttdoc">long header packet type: 0-RTT Protected </div><div class="ttdef"><b>Definition:</b> pkt.h:48</div></div>
 <div class="ttc" id="pkt_8h_html_a05682f9ba0bc730b6f41b9597b756730"><div class="ttname"><a href="pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730">pkt_type_str</a></div><div class="ttdeci">static const char * pkt_type_str(const uint8_t flags, const void *const vers)</div><div class="ttdef"><b>Definition:</b> pkt.h:127</div></div>
 <div class="ttc" id="pkt_8h_html_a1f839697f5c2cb2a8b086249c85399bc"><div class="ttname"><a href="pkt_8h.html#a1f839697f5c2cb2a8b086249c85399bc">coalesce</a></div><div class="ttdeci">void coalesce(struct w_iov_sq *const q)</div><div class="ttdef"><b>Definition:</b> pkt.c:180</div></div>
@@ -309,24 +310,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structw__sock_html"><div class="ttname"><a href="structw__sock.html">w_sock</a></div><div class="ttdoc">A warpcore socket. </div><div class="ttdef"><b>Definition:</b> warpcore.h:123</div></div>
 <div class="ttc" id="pkt_8h_html_a00c99ceb8f0e779151bc732b3d929402"><div class="ttname"><a href="pkt_8h.html#a00c99ceb8f0e779151bc732b3d929402">HEAD_PNRL_MASK</a></div><div class="ttdeci">#define HEAD_PNRL_MASK</div><div class="ttdoc">packet number length mask </div><div class="ttdef"><b>Definition:</b> pkt.h:43</div></div>
 <div class="ttc" id="pn_8h_html"><div class="ttname"><a href="pn_8h.html">pn.h</a></div></div>
-<div class="ttc" id="pkt_8h_html_ad04b9f10bc7ad63422f56e3a4fe70e5e"><div class="ttname"><a href="pkt_8h.html#ad04b9f10bc7ad63422f56e3a4fe70e5e">clnt_vneg</a></div><div class="ttdeci">uint32_t clnt_vneg(const uint8_t *const buf, const uint16_t len)</div><div class="ttdef"><b>Definition:</b> pkt.c:933</div></div>
+<div class="ttc" id="pkt_8h_html_ad04b9f10bc7ad63422f56e3a4fe70e5e"><div class="ttname"><a href="pkt_8h.html#ad04b9f10bc7ad63422f56e3a4fe70e5e">clnt_vneg</a></div><div class="ttdeci">uint32_t clnt_vneg(const uint8_t *const buf, const uint16_t len)</div><div class="ttdef"><b>Definition:</b> pkt.c:935</div></div>
 <div class="ttc" id="quic_8h_html"><div class="ttname"><a href="quic_8h.html">quic.h</a></div></div>
 <div class="ttc" id="structw__iov__sq_html"><div class="ttname"><a href="structw__iov__sq.html">w_iov_sq</a></div><div class="ttdoc">A tail queue of w_iov I/O vectors. </div><div class="ttdef"><b>Definition:</b> warpcore.h:48</div></div>
 <div class="ttc" id="structpn__space_html"><div class="ttname"><a href="structpn__space.html">pn_space</a></div><div class="ttdef"><b>Definition:</b> pn.h:45</div></div>
+<div class="ttc" id="pkt_8h_html_ab205cb10435c8caf476391325b68eb66"><div class="ttname"><a href="pkt_8h.html#ab205cb10435c8caf476391325b68eb66">dec_pkt_hdr_beginning</a></div><div class="ttdeci">bool dec_pkt_hdr_beginning(struct w_iov *const xv, struct w_iov *const v, const bool is_clnt, struct cid *const odcid, uint8_t *const tok, uint16_t *const tok_len, const uint8_t dcid_len)</div><div class="ttdef"><b>Definition:</b> pkt.c:591</div></div>
 <div class="ttc" id="pkt_8h_html_a597e092553036a6dec8989ebbf0fd9ff"><div class="ttname"><a href="pkt_8h.html#a597e092553036a6dec8989ebbf0fd9ff">LH_INIT</a></div><div class="ttdeci">#define LH_INIT</div><div class="ttdoc">long header packet type: Initial </div><div class="ttdef"><b>Definition:</b> pkt.h:47</div></div>
 <div class="ttc" id="pkt_8h_html_a0d55d860f2416d11ee649fefe7b37e65"><div class="ttname"><a href="pkt_8h.html#a0d55d860f2416d11ee649fefe7b37e65">LH_HSHK</a></div><div class="ttdeci">#define LH_HSHK</div><div class="ttdoc">long header packet type: Handshake </div><div class="ttdef"><b>Definition:</b> pkt.h:49</div></div>
-<div class="ttc" id="pkt_8h_html_acda77940d975cd06aecc7f0aae9f2aa0"><div class="ttname"><a href="pkt_8h.html#acda77940d975cd06aecc7f0aae9f2aa0">tx_vneg_resp</a></div><div class="ttdeci">void tx_vneg_resp(const struct w_sock *const ws, const struct w_iov *const v)</div><div class="ttdef"><b>Definition:</b> pkt.c:893</div></div>
-<div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:417</div></div>
-<div class="ttc" id="pkt_8h_html_a77b81d9b1c20c429faab500ffa44d42b"><div class="ttname"><a href="pkt_8h.html#a77b81d9b1c20c429faab500ffa44d42b">dec_pkt_hdr_beginning</a></div><div class="ttdeci">bool dec_pkt_hdr_beginning(struct w_iov *const xv, struct w_iov *const v, const bool is_clnt, struct cid *const odcid, uint8_t *const tok, uint16_t *const tok_len)</div><div class="ttdef"><b>Definition:</b> pkt.c:590</div></div>
+<div class="ttc" id="pkt_8h_html_acda77940d975cd06aecc7f0aae9f2aa0"><div class="ttname"><a href="pkt_8h.html#acda77940d975cd06aecc7f0aae9f2aa0">tx_vneg_resp</a></div><div class="ttdeci">void tx_vneg_resp(const struct w_sock *const ws, const struct w_iov *const v)</div><div class="ttdef"><b>Definition:</b> pkt.c:895</div></div>
+<div class="ttc" id="t_2picotls_8c_html_ac0c4d141c5f6cd347ca3c4d83678c398"><div class="ttname"><a href="t_2picotls_8c.html#ac0c4d141c5f6cd347ca3c4d83678c398">buf</a></div><div class="ttdeci">uint8_t buf[32]</div><div class="ttdef"><b>Definition:</b> picotls.c:428</div></div>
 <div class="ttc" id="pkt_8h_html_ae303936ce680d77dba2d864a7dc78d8c"><div class="ttname"><a href="pkt_8h.html#ae303936ce680d77dba2d864a7dc78d8c">LH_RTRY</a></div><div class="ttdeci">#define LH_RTRY</div><div class="ttdoc">long header packet type: Retry </div><div class="ttdef"><b>Definition:</b> pkt.h:50</div></div>
 <div class="ttc" id="pkt_8h_html_a3b57dda44ad514ea8b9238ba0944a341"><div class="ttname"><a href="pkt_8h.html#a3b57dda44ad514ea8b9238ba0944a341">HEAD_FORM</a></div><div class="ttdeci">#define HEAD_FORM</div><div class="ttdoc">header form (1 = long, 0 = short) </div><div class="ttdef"><b>Definition:</b> pkt.h:41</div></div>
 <div class="ttc" id="structcipher__ctx_html"><div class="ttname"><a href="structcipher__ctx.html">cipher_ctx</a></div><div class="ttdef"><b>Definition:</b> tls.h:46</div></div>
-<div class="ttc" id="t_2picotls_8c_html_a7360b55975153b822efc5217b7734e6a"><div class="ttname"><a href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a></div><div class="ttdeci">size_t len</div><div class="ttdef"><b>Definition:</b> picotls.c:418</div></div>
+<div class="ttc" id="t_2picotls_8c_html_a7360b55975153b822efc5217b7734e6a"><div class="ttname"><a href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a></div><div class="ttdeci">size_t len</div><div class="ttdef"><b>Definition:</b> picotls.c:429</div></div>
 <div class="ttc" id="pkt_8h_html_a9933a4e5129c786441833c3ba369e2a4"><div class="ttname"><a href="pkt_8h.html#a9933a4e5129c786441833c3ba369e2a4">LH_TYPE_MASK</a></div><div class="ttdeci">#define LH_TYPE_MASK</div><div class="ttdoc">long header: packet type mask </div><div class="ttdef"><b>Definition:</b> pkt.h:46</div></div>
-<div class="ttc" id="pkt_8h_html_a491976396e2d7fe066ceb2452877eed5"><div class="ttname"><a href="pkt_8h.html#a491976396e2d7fe066ceb2452877eed5">xor_hp</a></div><div class="ttdeci">bool xor_hp(struct w_iov *const xv, const struct w_iov *const v, const struct cipher_ctx *const ctx, const uint16_t pkt_nr_pos, const bool is_enc)</div><div class="ttdef"><b>Definition:</b> pkt.c:695</div></div>
+<div class="ttc" id="pkt_8h_html_a491976396e2d7fe066ceb2452877eed5"><div class="ttname"><a href="pkt_8h.html#a491976396e2d7fe066ceb2452877eed5">xor_hp</a></div><div class="ttdeci">bool xor_hp(struct w_iov *const xv, const struct w_iov *const v, const struct cipher_ctx *const ctx, const uint16_t pkt_nr_pos, const bool is_enc)</div><div class="ttdef"><b>Definition:</b> pkt.c:697</div></div>
 <div class="ttc" id="quic_8h_html_a2e19342e141828d7fe9b2870e5d7d70a"><div class="ttname"><a href="quic_8h.html#a2e19342e141828d7fe9b2870e5d7d70a">is_set</a></div><div class="ttdeci">#define is_set(f, v)</div><div class="ttdoc">Is flag f set in flags variable v? </div><div class="ttdef"><b>Definition:</b> quic.h:160</div></div>
 <div class="ttc" id="structq__stream_html"><div class="ttname"><a href="structq__stream.html">q_stream</a></div><div class="ttdef"><b>Definition:</b> stream.h:62</div></div>
-<div class="ttc" id="pkt_8h_html_a4df410764fdb5a8d7468492748e0e3ea"><div class="ttname"><a href="pkt_8h.html#a4df410764fdb5a8d7468492748e0e3ea">dec_pkt_hdr_remainder</a></div><div class="ttdeci">bool dec_pkt_hdr_remainder(struct w_iov *const xv, struct w_iov *const v, struct q_conn *const c, struct w_iov_sq *const x, bool *const decoal)</div><div class="ttdef"><b>Definition:</b> pkt.c:781</div></div>
+<div class="ttc" id="pkt_8h_html_a4df410764fdb5a8d7468492748e0e3ea"><div class="ttname"><a href="pkt_8h.html#a4df410764fdb5a8d7468492748e0e3ea">dec_pkt_hdr_remainder</a></div><div class="ttdeci">bool dec_pkt_hdr_remainder(struct w_iov *const xv, struct w_iov *const v, struct q_conn *const c, struct w_iov_sq *const x, bool *const decoal)</div><div class="ttdef"><b>Definition:</b> pkt.c:783</div></div>
 <div class="ttc" id="pkt_8h_html_a2e3325ad951d933d49dcd1cd1e0c04f1"><div class="ttname"><a href="pkt_8h.html#a2e3325ad951d933d49dcd1cd1e0c04f1">epoch_for_pkt_type</a></div><div class="ttdeci">static uint8_t epoch_for_pkt_type(const uint8_t type)</div><div class="ttdef"><b>Definition:</b> pkt.h:94</div></div>
 <div class="ttc" id="quic_8h_html_a8d23feea868a983c8c2b661e1e16972f"><div class="ttname"><a href="quic_8h.html#a8d23feea868a983c8c2b661e1e16972f">RED</a></div><div class="ttdeci">#define RED</div><div class="ttdoc">ANSI escape sequence: red. </div><div class="ttdef"><b>Definition:</b> quic.h:435</div></div>
 <div class="ttc" id="conn_8h_html"><div class="ttname"><a href="conn_8h.html">conn.h</a></div></div>
@@ -336,7 +337,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 17 2019 11:10:24 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 20 2019 07:51:21 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

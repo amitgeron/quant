@@ -21,6 +21,7 @@ var searchData=
   ['ptls_5fkey_5fexchange_5falgorithm_5ft',['ptls_key_exchange_algorithm_t',['../picotls_8h.html#ac588b1d2fe517759aa70995aa643bd96',1,'picotls.h']]],
   ['ptls_5fkey_5fexchange_5fcontext_5ft',['ptls_key_exchange_context_t',['../picotls_8h.html#aba5f8192177bfff33c4fa7e8565db584',1,'picotls.h']]],
   ['ptls_5fkey_5fschedule_5ft',['ptls_key_schedule_t',['../picotls_8h.html#a8c055926924a21cfe2ded845b00b30f4',1,'picotls.h']]],
+  ['ptls_5flog_5fevent_5ft',['ptls_log_event_t',['../picotls_8h.html#ace6b4dc7d526e4f0df8272f55bb75e26',1,'picotls.h']]],
   ['ptls_5fmessage_5femitter_5ft',['ptls_message_emitter_t',['../picotls_8h.html#a6f5ef09de44ae8adae89bed994848170',1,'picotls.h']]],
   ['ptls_5fminicrypto_5flog_5fctx_5ft',['ptls_minicrypto_log_ctx_t',['../asn1_8h.html#a5004f9c2c19ea9b342130d5480da93d6',1,'asn1.h']]],
   ['ptls_5fminicrypto_5fsecp256r1sha256_5fsign_5fcertificate_5ft',['ptls_minicrypto_secp256r1sha256_sign_certificate_t',['../minicrypto_8h.html#a617777bf1c367cfa5bacd6d4ebc62fd7',1,'minicrypto.h']]],

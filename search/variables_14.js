@@ -6,7 +6,7 @@ var searchData=
   ['udp_5flen',['udp_len',['../structpkt__meta.html#a633b6473e8f60ab28a373f94ed2a825f',1,'pkt_meta']]],
   ['udp_5fmask',['udp_mask',['../in__cksum_8c.html#a43fa9041a48f0315d59d8056f81b60f9',1,'in_cksum.c']]],
   ['uncompressed_5fblock',['uncompressed_block',['../structBGZF.html#a76c7cc891120f39dcdd120ef9c74829a',1,'BGZF']]],
-  ['uncompressed_5flength',['uncompressed_length',['../structst__ptls__emit__compressed__certificate__t.html#ac160351bc0528a534fc3231513d0e2fb',1,'st_ptls_emit_compressed_certificate_t']]],
+  ['uncompressed_5flength',['uncompressed_length',['../structst__ptls__emit__compressed__certificate__t_1_1st__ptls__compressed__certificate__entry__t.html#a18e4658983ba29b051bae082d227e550',1,'st_ptls_emit_compressed_certificate_t::st_ptls_compressed_certificate_entry_t']]],
   ['unknown_5fextensions',['unknown_extensions',['../structst__ptls__client__hello__t.html#a10559122301b739ea1b0de7d60727379',1,'st_ptls_client_hello_t']]],
   ['update',['update',['../structcf__chash.html#a1d6b4cea2da6bca6d428719e5080e856',1,'cf_chash::update()'],['../structst__ptls__hash__context__t.html#a77ddb62cd2358c16d8aa88101b39e146',1,'st_ptls_hash_context_t::update()']]],
   ['update_5fesni_5fkey',['update_esni_key',['../structst__ptls__context__t.html#a9d8a0749454d25344c4565fbc131f891',1,'st_ptls_context_t']]],
