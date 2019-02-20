@@ -1,17 +1,17 @@
 <map id="on_pkt_acked" name="on_pkt_acked">
 <area shape="rect" id="node2" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="165,5,275,32"/>
 <area shape="rect" id="node3" href="$recovery_8c.html#aae4a8516cb8d3d3578cf456e735c74f0" title="on_pkt_acked_cc" alt="" coords="158,56,282,83"/>
-<area shape="rect" id="node5" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type t into the diet tree t. " alt="" coords="693,120,776,147"/>
+<area shape="rect" id="node5" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="693,120,776,147"/>
 <area shape="rect" id="node10" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="707,196,763,223"/>
 <area shape="rect" id="node11" href="$quant_8h.html#a84a599e3fc846bd85dae279762ca9851" title="q_write" alt="" coords="188,1275,252,1301"/>
 <area shape="rect" id="node17" href="$quant_8h.html#af2f2677d8497fd617e2f3da029224653" title="q_connect" alt="" coords="179,537,261,564"/>
 <area shape="rect" id="node47" href="$quant_8h.html#a01444581bd34af25498d1cb8fc3a0a92" title="q_close_stream" alt="" coords="333,259,448,285"/>
 <area shape="rect" id="node49" href="$recovery_8c.html#ab1bb06f21c6f0014f6e838453564ac36" title="track_acked_pkts" alt="" coords="157,1401,283,1428"/>
 <area shape="rect" id="node4" href="$recovery_8c.html#ac36409c4a2b0380ad8c0b16d5fe819e4" title="in_recovery" alt="" coords="346,56,435,83"/>
-<area shape="rect" id="node6" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree t. " alt="" coords="830,44,901,71"/>
+<area shape="rect" id="node6" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="830,44,901,71"/>
 <area shape="rect" id="node7" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="828,95,903,121"/>
 <area shape="rect" id="node8" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="830,145,901,172"/>
-<area shape="rect" id="node9" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="825,196,906,223"/>
+<area shape="rect" id="node9" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="825,196,906,223"/>
 <area shape="rect" id="node12" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="693,799,776,825"/>
 <area shape="rect" id="node13" href="$warpcore_8h.html#acec933a0dba371ff10bd35397aed87e9" title="Return the total payload length of w_iov tail queue c. " alt="" coords="340,1249,441,1276"/>
 <area shape="rect" id="node14" href="$warpcore_8h.html#ab0d7e80a565b2ad694def961428e62ec" title="Return the number of w_iov structures in the w_iov tail queue c. " alt="" coords="339,1629,442,1656"/>
@@ -47,5 +47,5 @@
 <area shape="rect" id="node42" href="$picotls_8h.html#aa142dbaa5d99942c25847febf894a1f4" title="create a object to handle new TLS connection. " alt="" coords="535,461,609,488"/>
 <area shape="rect" id="node46" href="$quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="537,309,607,336"/>
 <area shape="rect" id="node48" href="$stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="527,208,617,235"/>
-<area shape="rect" id="node50" href="$diet_8c.html#ade2250a273d80b3420033544bd6f6fa7" title="diet_remove_ival" alt="" coords="331,1680,451,1707"/>
+<area shape="rect" id="node50" href="$diet_8c.html#ade2250a273d80b3420033544bd6f6fa7" title="Remove interval i from diet tree d. " alt="" coords="331,1680,451,1707"/>
 </map>

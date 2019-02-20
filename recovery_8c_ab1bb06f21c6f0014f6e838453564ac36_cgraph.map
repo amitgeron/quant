@@ -1,5 +1,5 @@
 <map id="track_acked_pkts" name="track_acked_pkts">
-<area shape="rect" id="node2" href="$diet_8c.html#ade2250a273d80b3420033544bd6f6fa7" title="diet_remove_ival" alt="" coords="179,5,299,32"/>
-<area shape="rect" id="node3" href="$diet_8c.html#a129daa529cd3954dc970b4537801b939" title="split_root" alt="" coords="347,5,421,32"/>
-<area shape="rect" id="node4" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="470,5,551,32"/>
+<area shape="rect" id="node2" href="$diet_8c.html#ade2250a273d80b3420033544bd6f6fa7" title="Remove interval i from diet tree d. " alt="" coords="179,5,299,32"/>
+<area shape="rect" id="node3" href="$diet_8c.html#a129daa529cd3954dc970b4537801b939" title="Splits the root of the diet tree d, removing the interval [lo..hi] from it. " alt="" coords="347,5,421,32"/>
+<area shape="rect" id="node4" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="470,5,551,32"/>
 </map>

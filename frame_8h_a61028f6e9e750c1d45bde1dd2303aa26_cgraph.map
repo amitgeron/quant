@@ -25,7 +25,7 @@
 <area shape="rect" id="node9" href="$stream_8h.html#a012bc210254cd3269ef892fcbd91e146" title="crpt_strm_id" alt="" coords="394,684,489,711"/>
 <area shape="rect" id="node10" href="$stream_8c.html#a38e0dc3cbebe5699ec573ab242b6f505" title="max_sid" alt="" coords="602,545,673,572"/>
 <area shape="rect" id="node11" href="$stream_8c.html#a7308501df4d06bbfd14665ae88caae02" title="get_stream" alt="" coords="398,161,485,188"/>
-<area shape="rect" id="node12" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree t. " alt="" coords="406,937,477,964"/>
+<area shape="rect" id="node12" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="406,937,477,964"/>
 <area shape="rect" id="node13" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="779,760,861,787"/>
 <area shape="rect" id="node14" href="$stream_8c.html#a300bcafbad60488eb0b6b0560eb1b645" title="new_stream" alt="" coords="591,1039,684,1065"/>
 <area shape="rect" id="node16" href="$frame_8c.html#ae6b33881d5310ee374d246e582265d43" title="trim_frame" alt="" coords="399,364,483,391"/>

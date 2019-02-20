@@ -1,4 +1,4 @@
 <map id="diet_remove_ival" name="diet_remove_ival">
-<area shape="rect" id="node2" href="$diet_8c.html#a129daa529cd3954dc970b4537801b939" title="split_root" alt="" coords="173,5,248,32"/>
-<area shape="rect" id="node3" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="297,5,378,32"/>
+<area shape="rect" id="node2" href="$diet_8c.html#a129daa529cd3954dc970b4537801b939" title="Splits the root of the diet tree d, removing the interval [lo..hi] from it. " alt="" coords="173,5,248,32"/>
+<area shape="rect" id="node3" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="297,5,378,32"/>
 </map>

@@ -114,22 +114,25 @@ Functions</h2></td></tr>
 <tr class="memdesc:a8f0e77727941f94b10b1ea1241df8eaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return minimum interval underneath <code>i</code>.  <a href="#a8f0e77727941f94b10b1ea1241df8eaa">More...</a><br/></td></tr>
 <tr class="separator:a8f0e77727941f94b10b1ea1241df8eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87c3c2cebc6ccf0911d3d05989352588"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structival.html">ival</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588">diet_find</a> (struct diet *const d, const uint64_t n)</td></tr>
-<tr class="memdesc:a87c3c2cebc6ccf0911d3d05989352588"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the interval containing <code>n</code> in diet tree <code>t</code>.  <a href="#a87c3c2cebc6ccf0911d3d05989352588">More...</a><br/></td></tr>
+<tr class="memdesc:a87c3c2cebc6ccf0911d3d05989352588"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the interval containing <code>n</code> in diet tree <code>d</code>.  <a href="#a87c3c2cebc6ccf0911d3d05989352588">More...</a><br/></td></tr>
 <tr class="separator:a87c3c2cebc6ccf0911d3d05989352588"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21164f67106bc7c1712e8b6596aa0253"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="structival.html">ival</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diet_8c.html#a21164f67106bc7c1712e8b6596aa0253">make_ival</a> (const uint64_t n, const ev_tstamp t)</td></tr>
-<tr class="memdesc:a21164f67106bc7c1712e8b6596aa0253"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to create a zero-width interval containing (only) <code>n</code>.  <a href="#a21164f67106bc7c1712e8b6596aa0253">More...</a><br/></td></tr>
+<tr class="memdesc:a21164f67106bc7c1712e8b6596aa0253"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to allocate an interval [n..n] containing only <code>n</code>.  <a href="#a21164f67106bc7c1712e8b6596aa0253">More...</a><br/></td></tr>
 <tr class="separator:a21164f67106bc7c1712e8b6596aa0253"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9064e32f6b50901d8f5685e53d2e4041"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structival.html">ival</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041">diet_insert</a> (struct diet *const d, const uint64_t n, const ev_tstamp t)</td></tr>
-<tr class="memdesc:a9064e32f6b50901d8f5685e53d2e4041"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts integer <code>n</code> of type <code>t</code> into the diet tree <code>t</code>.  <a href="#a9064e32f6b50901d8f5685e53d2e4041">More...</a><br/></td></tr>
+<tr class="memdesc:a9064e32f6b50901d8f5685e53d2e4041"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts integer <code>n</code> of type into the diet tree <code>d</code>.  <a href="#a9064e32f6b50901d8f5685e53d2e4041">More...</a><br/></td></tr>
 <tr class="separator:a9064e32f6b50901d8f5685e53d2e4041"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a129daa529cd3954dc970b4537801b939"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diet_8c.html#a129daa529cd3954dc970b4537801b939">split_root</a> (struct diet *const d, const uint64_t lo, const uint64_t hi)</td></tr>
+<tr class="memdesc:a129daa529cd3954dc970b4537801b939"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits the root of the diet tree <code>d</code>, removing the interval [lo..hi] from it.  <a href="#a129daa529cd3954dc970b4537801b939">More...</a><br/></td></tr>
 <tr class="separator:a129daa529cd3954dc970b4537801b939"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ff8134cd224b1f148462bb051c75f1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diet_8c.html#a1ff8134cd224b1f148462bb051c75f1d">diet_remove</a> (struct diet *const d, const uint64_t n)</td></tr>
-<tr class="memdesc:a1ff8134cd224b1f148462bb051c75f1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove integer <code>n</code> from the intervals stored in diet tree <code>t</code>.  <a href="#a1ff8134cd224b1f148462bb051c75f1d">More...</a><br/></td></tr>
+<tr class="memdesc:a1ff8134cd224b1f148462bb051c75f1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove integer <code>n</code> from the intervals stored in diet tree <code>d</code>.  <a href="#a1ff8134cd224b1f148462bb051c75f1d">More...</a><br/></td></tr>
 <tr class="separator:a1ff8134cd224b1f148462bb051c75f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade2250a273d80b3420033544bd6f6fa7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diet_8c.html#ade2250a273d80b3420033544bd6f6fa7">diet_remove_ival</a> (struct diet *const d, const struct <a class="el" href="structival.html">ival</a> *const i)</td></tr>
+<tr class="memdesc:ade2250a273d80b3420033544bd6f6fa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove interval <code>i</code> from diet tree <code>d</code>.  <a href="#ade2250a273d80b3420033544bd6f6fa7">More...</a><br/></td></tr>
 <tr class="separator:ade2250a273d80b3420033544bd6f6fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca2c7f843feefa74e9e6dca31bc41fd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7">diet_free</a> (struct diet *const d)</td></tr>
+<tr class="memdesc:aca2c7f843feefa74e9e6dca31bc41fd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free the diet tree <code>d</code> and all its intervals.  <a href="#aca2c7f843feefa74e9e6dca31bc41fd7">More...</a><br/></td></tr>
 <tr class="separator:aca2c7f843feefa74e9e6dca31bc41fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aece76d9290a6c7d12958a2fa703fee87"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diet_8c.html#aece76d9290a6c7d12958a2fa703fee87">diet_to_str</a> (char *const str, const size_t <a class="el" href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a>, struct diet *const d)</td></tr>
 <tr class="separator:aece76d9290a6c7d12958a2fa703fee87"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,8 +162,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Pointer to the interval containing <code>n</code> in diet tree <code>t</code>. </p>
-<p>Also has the side effect of splaying the closest interval to <code>n</code> to the root of <code>t</code>.</p>
+<p>Pointer to the interval containing <code>n</code> in diet tree <code>d</code>. </p>
+<p>Also has the side effect of splaying the closest interval to <code>n</code> to the root of <code>d</code>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir"></td><td class="paramname">d</td><td>Diet tree. </td></tr>
@@ -185,6 +188,14 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Free the diet tree <code>d</code> and all its intervals. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">d</td><td>Diet tree. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -218,7 +229,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Inserts integer <code>n</code> of type <code>t</code> into the diet tree <code>t</code>. </p>
+<p>Inserts integer <code>n</code> of type into the diet tree <code>d</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir"></td><td class="paramname">d</td><td>Diet tree. </td></tr>
@@ -234,7 +245,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="diet_8c_a9064e32f6b50901d8f5685e53d2e4041_cgraph.png" border="0" usemap="#diet_8c_a9064e32f6b50901d8f5685e53d2e4041_cgraph" alt=""/></div>
 <map name="diet_8c_a9064e32f6b50901d8f5685e53d2e4041_cgraph" id="diet_8c_a9064e32f6b50901d8f5685e53d2e4041_cgraph">
-<area shape="rect" id="node2" href="diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree t. " alt="" coords="142,5,213,32"/><area shape="rect" id="node3" href="diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="140,56,215,83"/><area shape="rect" id="node4" href="diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="142,107,213,133"/><area shape="rect" id="node5" href="diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="137,157,218,184"/></map>
+<area shape="rect" id="node2" href="diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="142,5,213,32"/><area shape="rect" id="node3" href="diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="140,56,215,83"/><area shape="rect" id="node4" href="diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="142,107,213,133"/><area shape="rect" id="node5" href="diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="137,157,218,184"/></map>
 </div>
 </p>
 
@@ -264,7 +275,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Remove integer <code>n</code> from the intervals stored in diet tree <code>t</code>. </p>
+<p>Remove integer <code>n</code> from the intervals stored in diet tree <code>d</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir"></td><td class="paramname">d</td><td>Diet tree. </td></tr>
@@ -278,7 +289,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="diet_8c_a1ff8134cd224b1f148462bb051c75f1d_cgraph.png" border="0" usemap="#diet_8c_a1ff8134cd224b1f148462bb051c75f1d_cgraph" alt=""/></div>
 <map name="diet_8c_a1ff8134cd224b1f148462bb051c75f1d_cgraph" id="diet_8c_a1ff8134cd224b1f148462bb051c75f1d_cgraph">
-<area shape="rect" id="node2" href="diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree t. " alt="" coords="149,5,219,32"/><area shape="rect" id="node3" href="diet_8c.html#a129daa529cd3954dc970b4537801b939" title="split_root" alt="" coords="147,56,221,83"/><area shape="rect" id="node4" href="diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="270,56,351,83"/></map>
+<area shape="rect" id="node2" href="diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="149,5,219,32"/><area shape="rect" id="node3" href="diet_8c.html#a129daa529cd3954dc970b4537801b939" title="Splits the root of the diet tree d, removing the interval [lo..hi] from it. " alt="" coords="147,56,221,83"/><area shape="rect" id="node4" href="diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="270,56,351,83"/></map>
 </div>
 </p>
 
@@ -308,12 +319,21 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Remove interval <code>i</code> from diet tree <code>d</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">d</td><td>Diet tree. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i</td><td>Interval. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="diet_8c_ade2250a273d80b3420033544bd6f6fa7_cgraph.png" border="0" usemap="#diet_8c_ade2250a273d80b3420033544bd6f6fa7_cgraph" alt=""/></div>
 <map name="diet_8c_ade2250a273d80b3420033544bd6f6fa7_cgraph" id="diet_8c_ade2250a273d80b3420033544bd6f6fa7_cgraph">
-<area shape="rect" id="node2" href="diet_8c.html#a129daa529cd3954dc970b4537801b939" title="split_root" alt="" coords="173,5,248,32"/><area shape="rect" id="node3" href="diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="297,5,378,32"/></map>
+<area shape="rect" id="node2" href="diet_8c.html#a129daa529cd3954dc970b4537801b939" title="Splits the root of the diet tree d, removing the interval [lo..hi] from it. " alt="" coords="173,5,248,32"/><area shape="rect" id="node3" href="diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="297,5,378,32"/></map>
 </div>
 </p>
 
@@ -449,7 +469,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Helper function to create a zero-width interval containing (only) <code>n</code>. </p>
+<p>Helper function to allocate an interval [n..n] containing only <code>n</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>Integer. </td></tr>
@@ -457,7 +477,7 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Newly allocated ival struct [n..n] of type <code>t</code>. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Newly allocated ival struct [n..n]. </dd></dl>
 
 </div>
 </div>
@@ -499,12 +519,22 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Splits the root of the diet tree <code>d</code>, removing the interval [lo..hi] from it. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">d</td><td>Diet tree. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lo</td><td>The lower value of the interval to be removed. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">hi</td><td>The upper value of the interface to be remove. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="diet_8c_a129daa529cd3954dc970b4537801b939_cgraph.png" border="0" usemap="#diet_8c_a129daa529cd3954dc970b4537801b939_cgraph" alt=""/></div>
 <map name="diet_8c_a129daa529cd3954dc970b4537801b939_cgraph" id="diet_8c_a129daa529cd3954dc970b4537801b939_cgraph">
-<area shape="rect" id="node2" href="diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to create a zero&#45;width interval containing (only) n. " alt="" coords="129,5,210,32"/></map>
+<area shape="rect" id="node2" href="diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="129,5,210,32"/></map>
 </div>
 </p>
 
@@ -513,7 +543,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 20 2019 11:39:14 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 20 2019 13:45:50 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
