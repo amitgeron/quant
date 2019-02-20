@@ -1,5 +1,5 @@
 <map id="reset_pn" name="reset_pn">
 <area shape="rect" id="node2" href="$pn_8c.html#a3b132beb2506faada16af74535e27fec" title="free_pn" alt="" coords="126,31,191,57"/>
-<area shape="rect" id="node3" href="$diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="Free the diet tree d and all its intervals. " alt="" coords="240,5,312,32"/>
-<area shape="rect" id="node4" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="248,56,304,83"/>
+<area shape="rect" id="node3" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="248,5,304,32"/>
+<area shape="rect" id="node4" href="$diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="Free the diet tree d and all its intervals. " alt="" coords="240,56,312,83"/>
 </map>
