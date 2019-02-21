@@ -6,7 +6,7 @@ var searchData=
   ['test_5flist',['TEST_LIST',['../arm_2ext_2cutest_8h.html#a93cbf104add07315fefaa6ca453cd7b1',1,'TEST_LIST():&#160;cutest.h'],['../ext_2cutest_8h.html#a93cbf104add07315fefaa6ca453cd7b1',1,'TEST_LIST():&#160;cutest.h']]],
   ['ticket_5fiv_5fsize',['TICKET_IV_SIZE',['../lib_2openssl_8c.html#aebb16c23a63686c3c972c7bdb92185d5',1,'openssl.c']]],
   ['ticket_5flabel_5fsize',['TICKET_LABEL_SIZE',['../lib_2openssl_8c.html#aa8c161559b5b90b3e4135fd83b04869b',1,'openssl.c']]],
-  ['timespec_5fto_5fdouble',['timespec_to_double',['../quic_8c.html#ad730169520eef2aa5eec7bb94249079e',1,'quic.c']]],
+  ['timespec_5fto_5fdouble',['timespec_to_double',['../quant_8h.html#ad730169520eef2aa5eec7bb94249079e',1,'quant.h']]],
   ['tp_5fade',['TP_ADE',['../tls_8c.html#a86073c7a696d75aefc676c5859c6f3fe',1,'tls.c']]],
   ['tp_5fdmig',['TP_DMIG',['../tls_8c.html#a2577b9887660c2e188603ced8257ccc0',1,'tls.c']]],
   ['tp_5fidto',['TP_IDTO',['../tls_8c.html#abcd90da85ea2c3bf97cf74de741e7b21',1,'tls.c']]],

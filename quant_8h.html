@@ -87,12 +87,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">quant.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;netinet/in.h&gt;</code><br/>
+<div class="textblock"><code>#include &lt;math.h&gt;</code><br/>
+<code>#include &lt;netinet/in.h&gt;</code><br/>
 <code>#include &lt;stdbool.h&gt;</code><br/>
 <code>#include &lt;stdint.h&gt;</code><br/>
 <code>#include &lt;sys/socket.h&gt;</code><br/>
@@ -103,7 +105,7 @@ Include dependency graph for quant.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="quant_8h__incl.png" border="0" usemap="#include_2quant_2quant_8h" alt=""/></div>
 <map name="include_2quant_2quant_8h" id="include_2quant_2quant_8h">
-<area shape="rect" id="node6" href="include_2quant_2config_8h.html" title="quant/config.h" alt="" coords="388,80,492,107"/><area shape="rect" id="node8" href="tree_8h.html" title="quant/tree.h" alt="" coords="516,80,607,107"/></map>
+<area shape="rect" id="node7" href="include_2quant_2config_8h.html" title="quant/config.h" alt="" coords="475,80,579,107"/><area shape="rect" id="node9" href="tree_8h.html" title="quant/tree.h" alt="" coords="603,80,693,107"/></map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
@@ -121,6 +123,13 @@ Data Structures</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__conf.html">q_conn_conf</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a56efa09372b3747147230398e29974f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#a56efa09372b3747147230398e29974f0">bps</a>(bytes, secs)</td></tr>
+<tr class="separator:a56efa09372b3747147230398e29974f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad730169520eef2aa5eec7bb94249079e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#ad730169520eef2aa5eec7bb94249079e">timespec_to_double</a>(diff)&#160;&#160;&#160;((double)(diff).tv_sec + (double)(diff).tv_nsec / 1000000000)</td></tr>
+<tr class="separator:ad730169520eef2aa5eec7bb94249079e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -167,6 +176,65 @@ Functions</h2></td></tr>
 <tr class="memitem:a76ddd1770d74ef5233f2f2f9aaa73dfa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#a76ddd1770d74ef5233f2f2f9aaa73dfa">q_is_new_serv_conn</a> (const struct q_conn *const c)</td></tr>
 <tr class="separator:a76ddd1770d74ef5233f2f2f9aaa73dfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a56efa09372b3747147230398e29974f0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define bps</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">bytes, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">secs&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">__extension__({                                                            \</div>
+<div class="line">        static <span class="keywordtype">char</span> _str[32];                                                  \</div>
+<div class="line">        const <span class="keywordtype">double</span> _bps =                                                    \</div>
+<div class="line">            (bytes) &amp;&amp; (fpclassify(secs) != FP_ZERO) ? (bytes)*8 / (secs) : 0; \</div>
+<div class="line">        if (_bps &gt; 1000000000)                                                 \</div>
+<div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f Gb/s&quot;</span>, _bps / 1000000000);      \</div>
+<div class="line">        else <span class="keywordflow">if</span> (_bps &gt; 1000000)                                               \</div>
+<div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f Mb/s&quot;</span>, _bps / 1000000);         \</div>
+<div class="line">        else <span class="keywordflow">if</span> (_bps &gt; 1000)                                                  \</div>
+<div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f Kb/s&quot;</span>, _bps / 1000);            \</div>
+<div class="line">        else                                                                   \</div>
+<div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f b/s&quot;</span>, _bps);                    \</div>
+<div class="line">        _str;                                                                  \</div>
+<div class="line">    })</div>
+</div><!-- fragment --><dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a54">client.c</a>.</dd>
+</dl>
+</div>
+</div>
+<a class="anchor" id="ad730169520eef2aa5eec7bb94249079e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define timespec_to_double</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">diff</td><td>)</td>
+          <td>&#160;&#160;&#160;((double)(diff).tv_sec + (double)(diff).tv_nsec / 1000000000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a52">client.c</a>.</dd>
+</dl>
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a5b452d2c7658c801b4182547d75880a4"></a>
 <div class="memitem">
@@ -307,7 +375,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a23">client.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a24">client.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -350,7 +418,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a58">client.c</a>, and <a class="el" href="server_8c-example.html#a43">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a66">client.c</a>, and <a class="el" href="server_8c-example.html#a43">server.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -402,7 +470,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a48">client.c</a>, and <a class="el" href="server_8c-example.html#a41">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a55">client.c</a>, and <a class="el" href="server_8c-example.html#a41">server.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -468,7 +536,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a25">client.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a26">client.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -494,7 +562,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a57">client.c</a>, and <a class="el" href="server_8c-example.html#a20">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a64">client.c</a>, and <a class="el" href="server_8c-example.html#a20">server.c</a>.</dd>
 </dl>
 </div>
 </div>
@@ -522,7 +590,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <p>but the fuzzer doesn't like it </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a40">client.c</a>, and <a class="el" href="server_8c-example.html#a30">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a42">client.c</a>, and <a class="el" href="server_8c-example.html#a30">server.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -634,7 +702,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a47">client.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a50">client.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -755,7 +823,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a30">client.c</a>, and <a class="el" href="server_8c-example.html#a25">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a32">client.c</a>, and <a class="el" href="server_8c-example.html#a25">server.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -879,7 +947,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 20 2019 16:13:57 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 21 2019 10:55:45 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -193,7 +193,7 @@ var searchData=
   ['tid',['tid',['../structkt__forpool__t.html#a13019bf9d17a9d3eebdf4beb32dca446',1,'kt_forpool_t']]],
   ['timeout',['timeout',['../ping_8c.html#aae6e82a30c30cc902f1cd85dead37f6a',1,'ping.c']]],
   ['timespec_5fsub',['timespec_sub',['../warpcore_2lib_2include_2warpcore_2util_8h.html#a098003aed955c46d7d60ab9cdbb65502',1,'util.h']]],
-  ['timespec_5fto_5fdouble',['timespec_to_double',['../quic_8c.html#ad730169520eef2aa5eec7bb94249079e',1,'quic.c']]],
+  ['timespec_5fto_5fdouble',['timespec_to_double',['../quant_8h.html#ad730169520eef2aa5eec7bb94249079e',1,'quant.h']]],
   ['timezone',['timezone',['../structtimezone.html',1,'']]],
   ['tls',['tls',['../structtls.html',1,'']]],
   ['tls_2ec',['tls.c',['../tls_8c.html',1,'']]],
