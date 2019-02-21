@@ -5607,5 +5607,5 @@ Patching output file 418/421
 Patching output file 419/421
 Patching output file 420/421
 Patching output file 421/421
-lookup cache used 5436/65536 hits=61462 misses=5685
+lookup cache used 5436/65536 hits=61372 misses=5685
 finished...

@@ -20,8 +20,8 @@ var searchData=
   ['arp_5fop_5freply',['ARP_OP_REPLY',['../arp_8h.html#a70ed40d243b246a155b781b25d61f192',1,'arp.h']]],
   ['arp_5fop_5frequest',['ARP_OP_REQUEST',['../arp_8h.html#a4e15fdfedf617bb9db1588615889ce30',1,'arp.h']]],
   ['arraycount',['ARRAYCOUNT',['../handy_8h.html#ab400d134cfc250ee7cbbdd0cd03a759b',1,'handy.h']]],
-  ['asan_5fpoison_5fmemory_5fregion',['ASAN_POISON_MEMORY_REGION',['../backend_8h.html#a1a737158b6f126742d911591ded5ad78',1,'ASAN_POISON_MEMORY_REGION():&#160;backend.h'],['../pn_8c.html#a1a737158b6f126742d911591ded5ad78',1,'ASAN_POISON_MEMORY_REGION():&#160;pn.c'],['../quic_8h.html#a1a737158b6f126742d911591ded5ad78',1,'ASAN_POISON_MEMORY_REGION():&#160;quic.h']]],
-  ['asan_5funpoison_5fmemory_5fregion',['ASAN_UNPOISON_MEMORY_REGION',['../backend_8h.html#a22a934c8c4d79c27dffbe21e3fb733a4',1,'ASAN_UNPOISON_MEMORY_REGION():&#160;backend.h'],['../pn_8c.html#a22a934c8c4d79c27dffbe21e3fb733a4',1,'ASAN_UNPOISON_MEMORY_REGION():&#160;pn.c'],['../quic_8h.html#a22a934c8c4d79c27dffbe21e3fb733a4',1,'ASAN_UNPOISON_MEMORY_REGION():&#160;quic.h']]],
+  ['asan_5fpoison_5fmemory_5fregion',['ASAN_POISON_MEMORY_REGION',['../backend_8h.html#a1a737158b6f126742d911591ded5ad78',1,'ASAN_POISON_MEMORY_REGION():&#160;backend.h'],['../quic_8h.html#a1a737158b6f126742d911591ded5ad78',1,'ASAN_POISON_MEMORY_REGION():&#160;quic.h']]],
+  ['asan_5funpoison_5fmemory_5fregion',['ASAN_UNPOISON_MEMORY_REGION',['../backend_8h.html#a22a934c8c4d79c27dffbe21e3fb733a4',1,'ASAN_UNPOISON_MEMORY_REGION():&#160;backend.h'],['../quic_8h.html#a22a934c8c4d79c27dffbe21e3fb733a4',1,'ASAN_UNPOISON_MEMORY_REGION():&#160;quic.h']]],
   ['assert',['assert',['../tassert_8h.html#a53022762464514790477ba81ce0ab36a',1,'tassert.h']]],
   ['attr_5fsection',['ATTR_SECTION',['../boot_8c.html#a376722e4c6aab7ce62480ab1e267d5cd',1,'boot.c']]]
 ];

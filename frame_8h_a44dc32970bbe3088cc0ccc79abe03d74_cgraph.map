@@ -4,12 +4,12 @@
 <area shape="rect" id="node4" href="$pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="183,1288,283,1315"/>
 <area shape="rect" id="node6" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="915,1333,986,1360"/>
 <area shape="rect" id="node7" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="357,56,467,83"/>
-<area shape="rect" id="node8" href="$recovery_8c.html#a968810548afcf006e9e6e5515511db31" title="on_ack_received_1" alt="" coords="166,107,301,133"/>
-<area shape="rect" id="node11" href="$recovery_8c.html#ac8a16e66bf24868d4ac02a8dbe9beb0c" title="on_pkt_acked" alt="" coords="182,921,285,948"/>
+<area shape="rect" id="node8" href="$recovery_8c.html#a031b28d66da842b6f84c14aea69624c3" title="on_ack_received_1" alt="" coords="166,107,301,133"/>
+<area shape="rect" id="node11" href="$recovery_8c.html#a3ba21333eb350bb9f9428e75e55f2fc5" title="on_pkt_acked" alt="" coords="182,921,285,948"/>
 <area shape="rect" id="node20" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="909,591,992,617"/>
 <area shape="rect" id="node43" href="$warpcore_8h.html#a281a85c5e2760b47cd28cde4e6a5109b" title="Set the socket options. " alt="" coords="178,1435,289,1461"/>
 <area shape="rect" id="node44" href="$recovery_8c.html#afb01a0d106bff6312c6309166da29fbb" title="congestion_event" alt="" coords="171,1060,295,1087"/>
-<area shape="rect" id="node45" href="$recovery_8c.html#a3ae464d0175ad31f2295251756768859" title="on_ack_received_2" alt="" coords="166,208,301,235"/>
+<area shape="rect" id="node45" href="$recovery_8c.html#a0685f70e3d94c9f312ca97299998da94" title="on_ack_received_2" alt="" coords="166,208,301,235"/>
 <area shape="rect" id="node5" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="760,1232,816,1259"/>
 <area shape="rect" id="node9" href="$recovery_8c.html#a8c66bae29e49c4b7408c983d65f0a1ac" title="update_rtt" alt="" coords="372,5,452,32"/>
 <area shape="rect" id="node10" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="563,31,627,57"/>
@@ -43,7 +43,7 @@
 <area shape="rect" id="node38" href="$quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="753,812,823,839"/>
 <area shape="rect" id="node40" href="$stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="549,1029,640,1056"/>
 <area shape="rect" id="node42" href="$diet_8c.html#ade2250a273d80b3420033544bd6f6fa7" title="Remove interval i from diet tree d. " alt="" coords="535,675,655,701"/>
-<area shape="rect" id="node46" href="$recovery_8c.html#a6971aff4675cf8595f8bb0e84e521d4a" title="detect_lost_pkts" alt="" coords="353,157,471,184"/>
+<area shape="rect" id="node46" href="$recovery_8c.html#a96b0529b2380d745862c605244caa46a" title="detect_lost_pkts" alt="" coords="353,157,471,184"/>
 <area shape="rect" id="node47" href="$recovery_8c.html#ae36a89ee82fe65d07b6707ac13e9071e" title="set_ld_timer" alt="" coords="365,107,459,133"/>
 <area shape="rect" id="node49" href="$conn_8h.html#a3037cafb7df5c92ea54b7e6646a692e7" title="has_wnd" alt="" coords="557,144,632,171"/>
 <area shape="rect" id="node48" href="$recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9" title="crypto_pkts_in_flight" alt="" coords="523,93,666,120"/>

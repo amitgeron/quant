@@ -41,11 +41,11 @@
 <area shape="rect" id="node27" href="$frame_8c.html#a9b15ab0efd897a14308a87e7dc863b90" title="shorten_ack_nr" alt="" coords="386,1444,497,1471"/>
 <area shape="rect" id="node28" href="$pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="391,1495,491,1521"/>
 <area shape="rect" id="node29" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="582,1343,693,1369"/>
-<area shape="rect" id="node30" href="$recovery_8c.html#a968810548afcf006e9e6e5515511db31" title="on_ack_received_1" alt="" coords="374,1343,509,1369"/>
-<area shape="rect" id="node31" href="$recovery_8c.html#ac8a16e66bf24868d4ac02a8dbe9beb0c" title="on_pkt_acked" alt="" coords="390,1140,493,1167"/>
+<area shape="rect" id="node30" href="$recovery_8c.html#a031b28d66da842b6f84c14aea69624c3" title="on_ack_received_1" alt="" coords="374,1343,509,1369"/>
+<area shape="rect" id="node31" href="$recovery_8c.html#a3ba21333eb350bb9f9428e75e55f2fc5" title="on_pkt_acked" alt="" coords="390,1140,493,1167"/>
 <area shape="rect" id="node32" href="$warpcore_8h.html#a281a85c5e2760b47cd28cde4e6a5109b" title="Set the socket options. " alt="" coords="386,1191,497,1217"/>
 <area shape="rect" id="node33" href="$recovery_8c.html#afb01a0d106bff6312c6309166da29fbb" title="congestion_event" alt="" coords="379,1241,503,1268"/>
-<area shape="rect" id="node34" href="$recovery_8c.html#a3ae464d0175ad31f2295251756768859" title="on_ack_received_2" alt="" coords="374,1292,509,1319"/>
+<area shape="rect" id="node34" href="$recovery_8c.html#a0685f70e3d94c9f312ca97299998da94" title="on_ack_received_2" alt="" coords="374,1292,509,1319"/>
 <area shape="rect" id="node37" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="588,785,687,812"/>
 <area shape="rect" id="node40" href="$quant_8h.html#a7882234166a0aaac582c25c4c8a581b8" title="q_rsv_stream" alt="" coords="391,1039,492,1065"/>
 </map>

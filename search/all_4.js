@@ -97,7 +97,7 @@ var searchData=
   ['derive_5fsecret',['derive_secret',['../lib_2picotls_8c.html#a363a3e1f1cd42666a1ee1697470a262c',1,'picotls.c']]],
   ['derive_5fsecret_5fwith_5fempty_5fdigest',['derive_secret_with_empty_digest',['../lib_2picotls_8c.html#a998f5e524ac531fac16236152d6cd839',1,'picotls.c']]],
   ['derive_5fsecret_5fwith_5fhash',['derive_secret_with_hash',['../lib_2picotls_8c.html#a6dc4d9606e324b70fe5d578895e6dde3',1,'picotls.c']]],
-  ['detect_5flost_5fpkts',['detect_lost_pkts',['../recovery_8c.html#a6971aff4675cf8595f8bb0e84e521d4a',1,'recovery.c']]],
+  ['detect_5flost_5fpkts',['detect_lost_pkts',['../recovery_8c.html#a96b0529b2380d745862c605244caa46a',1,'recovery.c']]],
   ['deterministic_5frandom_5fbytes',['deterministic_random_bytes',['../fuzz-client-hello_8c.html#a41de47e5f51680e78696027ce4f5a13c',1,'deterministic_random_bytes(void *buf, size_t len):&#160;fuzz-client-hello.c'],['../fuzz-server-hello_8c.html#a41de47e5f51680e78696027ce4f5a13c',1,'deterministic_random_bytes(void *buf, size_t len):&#160;fuzz-server-hello.c']]],
   ['die',['die',['../warpcore_2lib_2include_2warpcore_2util_8h.html#a0b2164ee75646f16a7388a36e6800c35',1,'util.h']]],
   ['diet_2ec',['diet.c',['../diet_8c.html',1,'']]],
