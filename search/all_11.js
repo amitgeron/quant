@@ -28,8 +28,6 @@ var searchData=
   ['recovery',['recovery',['../structrecovery.html',1,'']]],
   ['recovery_2ec',['recovery.c',['../recovery_8c.html',1,'']]],
   ['recovery_2eh',['recovery.h',['../recovery_8h.html',1,'']]],
-  ['recv',['recv',['../structpn__space.html#a7227a74b96300049e4716959528092df',1,'pn_space']]],
-  ['recv_5fall',['recv_all',['../structpn__space.html#a9314ad0be04da03f6155d65885a7b1f8',1,'pn_space']]],
   ['recv_5fsize',['RECV_SIZE',['../backend__sock_8c.html#ab05e00e8cea9db60202e746d95818997',1,'backend_sock.c']]],
   ['recvbuf',['recvbuf',['../structst__ptls__t.html#a46a98ee3ab178b4076e0c82a9a5f2cf7',1,'st_ptls_t']]],
   ['red',['RED',['../quic_8h.html#a8d23feea868a983c8c2b661e1e16972f',1,'quic.h']]],
@@ -99,7 +97,6 @@ var searchData=
   ['rwarn',['rwarn',['../warpcore_2lib_2include_2warpcore_2util_8h.html#a7bc0c9794d85e85e8f2d7266c832638f',1,'util.h']]],
   ['rx',['rx',['../conn_8c.html#a69924c834acb11f94887f781e4241397',1,'conn.c']]],
   ['rx_5fcrypto',['rx_crypto',['../conn_8c.html#a5d6639a237bb88d66f93760fc93000a5',1,'conn.c']]],
-  ['rx_5fframes',['rx_frames',['../structpn__space.html#a249f8d1e0db4507220a831f7062bbbdd',1,'pn_space']]],
   ['rx_5fpkt',['rx_pkt',['../conn_8c.html#a9ef5d7dd45e20cc2cf7504fac35c37e0',1,'conn.c']]],
   ['rx_5fpkts',['rx_pkts',['../conn_8c.html#a743c431b40b906bbe9baad4456a0e7c5',1,'conn.c']]]
 ];

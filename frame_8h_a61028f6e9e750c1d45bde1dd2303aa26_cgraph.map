@@ -38,8 +38,8 @@
 <area shape="rect" id="node24" href="$frame_8c.html#ae94d6f87955af69345cb46c9d03ad90f" title="log_stream_or_crypto\l_frame" alt="" coords="368,567,515,609"/>
 <area shape="rect" id="node15" href="$stream_8c.html#a848f253b1d052daeb064af9827ae2b31" title="do_stream_id_fc" alt="" coords="761,1268,879,1295"/>
 <area shape="rect" id="node21" href="$stream_8h.html#abcbe2c551d0f4dd754184376bb6cce35" title="need_ctrl_update" alt="" coords="577,212,698,239"/>
-<area shape="rect" id="node27" href="$frame_8c.html#a31c36630801506eb48c0bf620c0fcca6" title="shorten_ack_nr" alt="" coords="386,1444,497,1471"/>
-<area shape="rect" id="node28" href="$recovery_8c.html#a078d446c5244577b054aed3abda0d694" title="find_sent_pkt" alt="" coords="391,1495,491,1521"/>
+<area shape="rect" id="node27" href="$frame_8c.html#a9b15ab0efd897a14308a87e7dc863b90" title="shorten_ack_nr" alt="" coords="386,1444,497,1471"/>
+<area shape="rect" id="node28" href="$pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="391,1495,491,1521"/>
 <area shape="rect" id="node29" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="582,1343,693,1369"/>
 <area shape="rect" id="node30" href="$recovery_8c.html#a968810548afcf006e9e6e5515511db31" title="on_ack_received_1" alt="" coords="374,1343,509,1369"/>
 <area shape="rect" id="node31" href="$recovery_8c.html#ac8a16e66bf24868d4ac02a8dbe9beb0c" title="on_pkt_acked" alt="" coords="390,1140,493,1167"/>

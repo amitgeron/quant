@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['c',['c',['../structpn__space.html#a512280bf863a717677a82d02923fbf75',1,'pn_space::c()'],['../structq__stream.html#a5b8ba13474f46cc170e3ab67ce61816d',1,'q_stream::c()'],['../structcf__hash__drbg__sha256.html#af770a9c79b11a103d655ce9e2e997500',1,'cf_hash_drbg_sha256::C()']]],
+  ['c',['c',['../structq__stream.html#a5b8ba13474f46cc170e3ab67ce61816d',1,'q_stream::c()'],['../structcf__hash__drbg__sha256.html#af770a9c79b11a103d655ce9e2e997500',1,'cf_hash_drbg_sha256::C()']]],
   ['c_5fready',['c_ready',['../conn_8c.html#ad69eef6944d04f3ab345f5a5edb8fb6c',1,'c_ready():&#160;conn.c'],['../conn_8h.html#ad69eef6944d04f3ab345f5a5edb8fb6c',1,'c_ready():&#160;conn.c']]],
   ['cache',['cache',['../structBGZF.html#ac186249dec67025f6df3d3ea0a11d538',1,'BGZF']]],
   ['cache_5fsize',['cache_size',['../structBGZF.html#a707c490bd08e9dad235cb375661e208f',1,'BGZF']]],
   ['capacity',['capacity',['../structkm__stat__t.html#a8be2170345ebd6f8bbb5057cc91ea6a9',1,'km_stat_t::capacity()'],['../structcf__sha3__context.html#ab81dd27848c6d8137fa86c56de3b7559',1,'cf_sha3_context::capacity()'],['../structst__ptls__buffer__t.html#a1f096614a1a66eaa3c0458c02cd8f792',1,'st_ptls_buffer_t::capacity()']]],
   ['cb',['cb',['../structst__ptls__log__event__t.html#ac3b64e5b9a4ace0621a0be63f52eceb8',1,'st_ptls_log_event_t::cb()'],['../structst__ptls__decompress__certificate__t.html#a2ada98b85521d2270f2bf0e32e70ebc7',1,'st_ptls_decompress_certificate_t::cb()'],['../structst__ptls__t.html#a7f805327e62d6d8b1b6cc089c6d7bc7d',1,'st_ptls_t::cb()'],['../structst__ptls__extension__decoder__t.html#a255cfd65d93d7d637bf67dd5f02a18d5',1,'st_ptls_extension_decoder_t::cb()']]],
   ['cbc',['cbc',['../structcf__cbcmac__stream.html#ac8eceebf83c91f0b42c9339cce2b44ff',1,'cf_cbcmac_stream::cbc()'],['../structcf__cmac__stream.html#a2a4e61862826138762e36d96dc92e629',1,'cf_cmac_stream::cbc()']]],
-  ['ce_5fcnt',['ce_cnt',['../structpn__space.html#a96550827186645aeec33f09adf1719de',1,'pn_space::ce_cnt()'],['../structrecovery.html#a6d05147b8997b09920401f62530db8d9',1,'recovery::ce_cnt()']]],
+  ['ce_5fcnt',['ce_cnt',['../structrecovery.html#a6d05147b8997b09920401f62530db8d9',1,'recovery']]],
   ['cert_5fcompression_5falgos',['cert_compression_algos',['../structst__ptls__client__hello__t.html#aae2384a7f7b7d90a1fabcd9f5d7149f9',1,'st_ptls_client_hello_t']]],
   ['cert_5fstore',['cert_store',['../structst__ptls__openssl__verify__certificate__t.html#ab9f2111955ff6c2fad9ee2f781bf6d46',1,'st_ptls_openssl_verify_certificate_t']]],
   ['certificate_5fcompression_5falgorithms',['certificate_compression_algorithms',['../structst__ptls__on__client__hello__parameters__t.html#a25d69aca7700f1be74058dd7faf905f0',1,'st_ptls_on_client_hello_parameters_t']]],

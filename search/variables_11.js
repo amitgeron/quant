@@ -14,8 +14,6 @@ var searchData=
   ['received_5fextension_5flength',['received_extension_length',['../structst__picotls__vs__test__context__t.html#a956afa1aea71d83cd898a45df60ab0d0',1,'st_picotls_vs_test_context_t']]],
   ['record_5fdigest',['record_digest',['../structst__ptls__esni__context__t.html#ab080c1d64e1a3d143548a5751efcf2fa',1,'st_ptls_esni_context_t::record_digest()'],['../structst__ptls__esni__secret__t.html#a89c00a4a78664252bc343945a05a1523',1,'st_ptls_esni_secret_t::record_digest()'],['../structst__ptls__client__hello__t.html#a77ef9263b9ecabd49340481d8c56a8ce',1,'st_ptls_client_hello_t::record_digest()']]],
   ['record_5fheader_5flength',['record_header_length',['../structst__ptls__message__emitter__t.html#a8aeda1ec12d7f89912059feb223ec48d',1,'st_ptls_message_emitter_t']]],
-  ['recv',['recv',['../structpn__space.html#a7227a74b96300049e4716959528092df',1,'pn_space']]],
-  ['recv_5fall',['recv_all',['../structpn__space.html#a9314ad0be04da03f6155d65885a7b1f8',1,'pn_space']]],
   ['recvbuf',['recvbuf',['../structst__ptls__t.html#a46a98ee3ab178b4076e0c82a9a5f2cf7',1,'st_ptls_t']]],
   ['reload',['reload',['../structsystick.html#a5b7d5125482bdaa71ffe059913375317',1,'systick']]],
   ['repeat',['repeat',['../klib_2test_2kstring__bench2_8c.html#aa85ffe7728fe6b62d593de58cb66f232',1,'repeat():&#160;kstring_bench2.c'],['../warpcore_2lib_2deps_2klib_2test_2kstring__bench2_8c.html#aa85ffe7728fe6b62d593de58cb66f232',1,'repeat():&#160;kstring_bench2.c']]],
@@ -38,6 +36,5 @@ var searchData=
   ['round_5fconstants',['round_constants',['../sha3_8c.html#a7f7b69702b643afbf243ae9876a1f403',1,'sha3.c']]],
   ['rounds',['rounds',['../structcf__aes__context.html#a263c12ee68f324bac1994742d6bab8bc',1,'cf_aes_context']]],
   ['rttvar',['rttvar',['../structrecovery.html#a5cf84e57d9dd40c22412c44c72144917',1,'recovery']]],
-  ['rtx',['rtx',['../structpkt__meta.html#ad9cde51e14c2886f5a9e5d7f2aec6695',1,'pkt_meta']]],
-  ['rx_5fframes',['rx_frames',['../structpn__space.html#a249f8d1e0db4507220a831f7062bbbdd',1,'pn_space']]]
+  ['rtx',['rtx',['../structpkt__meta.html#ad9cde51e14c2886f5a9e5d7f2aec6695',1,'pkt_meta']]]
 ];

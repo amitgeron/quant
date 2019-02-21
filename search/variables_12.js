@@ -27,7 +27,6 @@ var searchData=
   ['selected_5fversion',['selected_version',['../structst__ptls__client__hello__t.html#ac9ce5205926909ccafe6221f2000f849',1,'st_ptls_client_hello_t']]],
   ['send_5fchange_5fcipher_5fspec',['send_change_cipher_spec',['../structst__ptls__context__t.html#a712a4d57ba7d5f273ffec970bdb54565',1,'st_ptls_context_t::send_change_cipher_spec()'],['../structst__ptls__t.html#a53d185ee7b0cebae8ac61d014b000afe',1,'st_ptls_t::send_change_cipher_spec()']]],
   ['sent_5fkey_5fshare',['sent_key_share',['../structst__ptls__client__hello__t.html#abce9cc900f9b414d092f06d9052f3783',1,'st_ptls_client_hello_t']]],
-  ['sent_5fpkts',['sent_pkts',['../structpn__space.html#a7ac99b6feec118ea3941813d8ee9a55a',1,'pn_space']]],
   ['sep',['sep',['../structks__tokaux__t.html#aca3458bdc4cf15c0e3189ddec31fd022',1,'ks_tokaux_t']]],
   ['seq',['seq',['../structhmm__data__t.html#a554f6cd1a499bd0eb7d6a317ab1e6b18',1,'hmm_data_t::seq()'],['../structst__ptls__traffic__protection__t.html#a6723c8846a70380e6b061618bf8568d0',1,'st_ptls_traffic_protection_t::seq()'],['../structicmp__hdr.html#a2909b8a0cbcb277ae403d40bf642d2c3',1,'icmp_hdr::seq()'],['../structcid.html#a937edeb01e868ef76539126dd41b322f',1,'cid::seq()']]],
   ['server',['server',['../structst__ptls__handshake__properties__t.html#aeec43aff6597e285c274772f191d6753',1,'st_ptls_handshake_properties_t::server()'],['../structst__ptls__t.html#ad60ab867cea16851db954e849596f9ad',1,'st_ptls_t::server()']]],

@@ -1,8 +1,8 @@
 <map id="abandon_pn" name="abandon_pn">
 <area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="320,31,403,57"/>
-<area shape="rect" id="node3" href="$stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="156,157,247,184"/>
-<area shape="rect" id="node12" href="$pn_8c.html#a3b132beb2506faada16af74535e27fec" title="free_pn" alt="" coords="169,233,234,260"/>
-<area shape="rect" id="node14" href="$tls_8c.html#a0e432c22353f0539562e3eb2382001e2" title="dispose_cipher" alt="" coords="147,335,256,361"/>
+<area shape="rect" id="node3" href="$stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="156,145,247,172"/>
+<area shape="rect" id="node12" href="$pn_8c.html#a3b132beb2506faada16af74535e27fec" title="free_pn" alt="" coords="169,221,234,248"/>
+<area shape="rect" id="node13" href="$tls_8c.html#a0e432c22353f0539562e3eb2382001e2" title="dispose_cipher" alt="" coords="147,284,256,311"/>
 <area shape="rect" id="node4" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="320,81,403,108"/>
 <area shape="rect" id="node9" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="316,132,407,159"/>
 <area shape="rect" id="node10" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="333,233,389,260"/>
@@ -11,7 +11,6 @@
 <area shape="rect" id="node6" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="471,56,545,83"/>
 <area shape="rect" id="node7" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="473,107,543,133"/>
 <area shape="rect" id="node8" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="467,157,549,184"/>
-<area shape="rect" id="node13" href="$diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="Free the diet tree d and all its intervals. " alt="" coords="325,284,397,311"/>
-<area shape="rect" id="node15" href="$picotls_8h.html#aadec89f296f10258b21ce9daa255d485" title="destroys an AEAD cipher context " alt="" coords="308,335,415,361"/>
-<area shape="rect" id="node16" href="$picotls_8h.html#ae57011fb3506f15237ead4f3146acc01" title="destroys a symmetric cipher " alt="" coords="304,385,419,412"/>
+<area shape="rect" id="node14" href="$picotls_8h.html#aadec89f296f10258b21ce9daa255d485" title="destroys an AEAD cipher context " alt="" coords="308,284,415,311"/>
+<area shape="rect" id="node15" href="$picotls_8h.html#ae57011fb3506f15237ead4f3146acc01" title="destroys a symmetric cipher " alt="" coords="304,335,419,361"/>
 </map>

@@ -15,8 +15,6 @@ var searchData=
   ['eccpoint_5fmult',['EccPoint_mult',['../uECC_8c.html#a08fb3c91cc131ead464a51dc56456fa7',1,'uECC.c']]],
   ['ecdh_5fcalc_5fsecret',['ecdh_calc_secret',['../lib_2openssl_8c.html#adc4a76515279d9240313cc540526ae76',1,'openssl.c']]],
   ['ecdh_5fgerenate_5fkey',['ecdh_gerenate_key',['../lib_2openssl_8c.html#a8f49ff8211224a75d47189259d4e15bc',1,'openssl.c']]],
-  ['ect0_5fcnt',['ect0_cnt',['../structpn__space.html#aaa448850caee459806a942aa85269668',1,'pn_space']]],
-  ['ect1_5fcnt',['ect1_cnt',['../structpn__space.html#accaead83577916353b0cd7808a4731f5',1,'pn_space']]],
   ['eg',['EG',['../handy_8h.html#aeff0baec425d8f87c281295368f958b8',1,'handy.h']]],
   ['eh_5ft',['eh_t',['../structeh__t.html',1,'']]],
   ['elem',['elem',['../structelem.html',1,'']]],

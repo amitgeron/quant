@@ -1,3 +1,5 @@
 <map id="rtx_pkt" name="rtx_pkt">
-<area shape="rect" id="node2" href="$quic_8h.html#ab139ac46901fa03632f8075e6f800930" title="pm_cpy" alt="" coords="118,5,186,32"/>
+<area shape="rect" id="node2" href="$quic_8h.html#ab139ac46901fa03632f8075e6f800930" title="pm_cpy" alt="" coords="135,5,203,32"/>
+<area shape="rect" id="node3" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="118,56,221,83"/>
+<area shape="rect" id="node4" href="$pn_8c.html#ae26e2093261e982d1e4e24d802da7482" title="pm_by_nr_ins" alt="" coords="118,107,221,133"/>
 </map>

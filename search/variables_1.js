@@ -7,7 +7,6 @@ var searchData=
   ['ack_5fblock_5fcnt',['ack_block_cnt',['../structpkt__meta.html#ad1832e1307ec64c29a877455b5f78000',1,'pkt_meta']]],
   ['ack_5fblock_5fpos',['ack_block_pos',['../structpkt__meta.html#aeffe2a16e53c9eb4d1a6080436c7de4c',1,'pkt_meta']]],
   ['ack_5fdel_5fexp',['ack_del_exp',['../structtransport__params.html#ae332eb1c8176a3916959caa35f810278',1,'transport_params']]],
-  ['acked',['acked',['../structpn__space.html#a258b213b1fbb488b1d1dda308dcade45',1,'pn_space']]],
   ['action',['action',['../structkto__worker__t.html#a8c3b8f382e3d80dd6493a6b81896a5c5',1,'kto_worker_t']]],
   ['additional_5fdata',['additional_data',['../structst__ptls__handshake__properties__t.html#aa3e1ae9d602dabd0e078bab24a894838',1,'st_ptls_handshake_properties_t']]],
   ['additional_5fextensions',['additional_extensions',['../structst__ptls__handshake__properties__t.html#ae6aeb4d46c7234ea19982bce16da392e',1,'st_ptls_handshake_properties_t']]],
