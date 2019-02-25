@@ -6,6 +6,7 @@ var searchData=
   ['handshake_5fproperties',['handshake_properties',['../structst__picotls__vs__test__context__t.html#ae413e5fd44fa432a5dbe1a21e25d40db',1,'st_picotls_vs_test_context_t']]],
   ['hard_5ffault',['hard_fault',['../structvectors__t.html#a2d5664ce3e4747c25fb95c173736e999',1,'vectors_t']]],
   ['has_5farg',['has_arg',['../structko__longopt__t.html#a1502130825f0b4a326d0c2cb6001ac56',1,'ko_longopt_t']]],
+  ['has_5frtx',['has_rtx',['../structpkt__meta.html#ab1b1b15cf2ec10279fe3e763082ed9fd',1,'pkt_meta']]],
   ['hash',['hash',['../structcf__hmac__ctx.html#a81d0a50b1dcf838873a80cec7246d6bf',1,'cf_hmac_ctx::hash()'],['../structst__ptls__cipher__suite__t.html#af0c711b190c378c2993839fcc9612c9a',1,'st_ptls_cipher_suite_t::hash()'],['../structst__picotls__hmac__context__t.html#a9904a87f00d3e6fcfa504650e54599a9',1,'st_picotls_hmac_context_t::hash()']]],
   ['hash_5fend',['hash_end',['../structst__ptls__client__hello__t.html#af96c322531f6d3a724114fdf02aadce1',1,'st_ptls_client_hello_t']]],
   ['hashes',['hashes',['../structst__ptls__key__schedule__t.html#abb77c9edbdf24063cb7513bb5aeba9a7',1,'st_ptls_key_schedule_t']]],

@@ -59,6 +59,7 @@ var searchData=
   ['aesgcm_5fencrypt_5ffinal',['aesgcm_encrypt_final',['../cifra_8c.html#a383847466cce013f3393f2660c9024b2',1,'cifra.c']]],
   ['aesgcm_5fencrypt_5finit',['aesgcm_encrypt_init',['../cifra_8c.html#a2c85dddb0ffd4830e3cfb25fbde0de12',1,'cifra.c']]],
   ['aesgcm_5fencrypt_5fupdate',['aesgcm_encrypt_update',['../cifra_8c.html#a8da93cf00a2c51151eb02c34d5a14294',1,'cifra.c']]],
+  ['alloc_5fiov',['alloc_iov',['../quic_8h.html#ab7998b56ab1837fe5100fcffe1ed341f',1,'quic.h']]],
   ['alloc_5foff',['alloc_off',['../quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a',1,'alloc_off(struct w_engine *const w, struct w_iov_sq *const q, const uint32_t len, const uint16_t off):&#160;quic.c'],['../quic_8h.html#a2ee75c38a1c756036392a6e5b6d1e93a',1,'alloc_off(struct w_engine *const w, struct w_iov_sq *const q, const uint32_t len, const uint16_t off):&#160;quic.c']]],
   ['apply_5fstream_5flimits',['apply_stream_limits',['../stream_8c.html#a2853c95f04e70a8c7e836f881eedff8d',1,'apply_stream_limits(struct q_stream *const s):&#160;stream.c'],['../stream_8h.html#a2853c95f04e70a8c7e836f881eedff8d',1,'apply_stream_limits(struct q_stream *const s):&#160;stream.c']]],
   ['apply_5fz',['apply_z',['../uECC_8c.html#aa1092ba47dd6f5fa39fa6e3d5fa75103',1,'uECC.c']]],

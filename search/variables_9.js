@@ -29,7 +29,7 @@ var searchData=
   ['innerhash',['innerHash',['../structsha1nfo.html#a076a75fca36f6ae431dbb035ca28e0a6',1,'sha1nfo']]],
   ['int_5fdata',['int_data',['../klib_2test_2kbtree__test_8c.html#a5051cb77e2dd15db5ed88b7047189563',1,'int_data():&#160;kbtree_test.c'],['../klib_2test_2khash__test_8c.html#a5051cb77e2dd15db5ed88b7047189563',1,'int_data():&#160;khash_test.c'],['../warpcore_2lib_2deps_2klib_2test_2kbtree__test_8c.html#a5051cb77e2dd15db5ed88b7047189563',1,'int_data():&#160;kbtree_test.c'],['../warpcore_2lib_2deps_2klib_2test_2khash__test_8c.html#a5051cb77e2dd15db5ed88b7047189563',1,'int_data():&#160;khash_test.c']]],
   ['iov',['iov',['../structw__engine.html#a1cb10e3d74b2d0bb9156644536355334',1,'w_engine']]],
-  ['ip',['ip',['../structw__engine.html#a9cd4f582bf408fb94b38158f3b4fee19',1,'w_engine::ip()'],['../structw__iov.html#a693d49529a1993d2d72e3f2eb97df183',1,'w_iov::ip()']]],
+  ['ip',['ip',['../structw__engine.html#a9cd4f582bf408fb94b38158f3b4fee19',1,'w_engine']]],
   ['irq',['irq',['../structvectors__t.html#aca851342338f783c08bd367ee39ce3a8',1,'vectors_t']]],
   ['is_5facked',['is_acked',['../structpkt__meta.html#a3a15ff29d90b1fb954de8384f0de59b7',1,'pkt_meta']]],
   ['is_5fallocated',['is_allocated',['../structst__ptls__buffer__t.html#a099e58c6cf4d258f47c6b525b3c45e12',1,'st_ptls_buffer_t']]],
@@ -42,7 +42,6 @@ var searchData=
   ['is_5fready',['is_ready',['../structknetFile__s.html#a84e3e8f38b1ca030e823f229832f4337',1,'knetFile_s']]],
   ['is_5freset',['is_reset',['../structpkt__meta.html#a6a9ba49e9150a85476b33cd8ebb790ed',1,'pkt_meta']]],
   ['is_5fretry_5frequest',['is_retry_request',['../structst__ptls__server__hello__t.html#a205b6f2a873d0f5ad9486022812d22c9',1,'st_ptls_server_hello_t']]],
-  ['is_5frtx',['is_rtx',['../structpkt__meta.html#af3340b6c044ae49975fdb3cac44667d9',1,'pkt_meta']]],
   ['is_5fserver',['is_server',['../structst__ptls__t.html#a91a52a168a5be2182fda98f215f3bfd5',1,'st_ptls_t']]],
   ['iv',['iv',['../structw__sock.html#a3db894eae177fa4a879dffd4e9ad706e',1,'w_sock']]],
   ['iv_5fsize',['iv_size',['../structst__ptls__cipher__algorithm__t.html#a2ccd97b3e25bec06579d2063bb72b5fe',1,'st_ptls_cipher_algorithm_t::iv_size()'],['../structst__ptls__aead__algorithm__t.html#a3707224f93425758d39ca6c7a7768c8c',1,'st_ptls_aead_algorithm_t::iv_size()']]]

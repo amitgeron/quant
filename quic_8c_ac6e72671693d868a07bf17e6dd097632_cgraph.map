@@ -1,5 +1,5 @@
 <map id="q_bind" name="q_bind">
-<area shape="rect" id="node2" href="$conn_8c.html#a51850847894ca6bd5bd7a3f06fc9f1ff" title="new_conn" alt="" coords="115,591,197,617"/>
+<area shape="rect" id="node2" href="$conn_8c.html#a539ae556cdf40667c6ba127808df4f28" title="new_conn" alt="" coords="115,591,197,617"/>
 <area shape="rect" id="node9" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="969,667,1052,693"/>
 <area shape="rect" id="node3" href="$warpcore_8h.html#a4ecb03f6a94c2911ab004803802a27c0" title="Calculate a uniformly distributed random number in [0, upper_bound) avoiding &quot;modulo bias&quot;..." alt="" coords="255,144,369,171"/>
 <area shape="rect" id="node5" href="$openssl_8h.html#a2514cd53d441b44478641a1643af622d" title="ptls_openssl_random\l_bytes" alt="" coords="614,398,759,439"/>
@@ -45,7 +45,7 @@
 <area shape="rect" id="node35" href="$conn_8c.html#abf07a95614d3f540d12bd3dc1bb4391f" title="get_cid_by_id" alt="" coords="635,347,738,373"/>
 <area shape="rect" id="node43" href="$conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8" title="cids_by_id_ins" alt="" coords="633,195,741,221"/>
 <area shape="rect" id="node44" href="$conn_8c.html#a3970d1f884f75ab86ab622e00bf9fce7" title="conns_by_id_ins" alt="" coords="627,245,746,272"/>
-<area shape="rect" id="node46" href="$conn_8c.html#aaf7f518c49a0ab7bd2a9604aae9cc065" title="conns_by_ipnp_key" alt="" coords="427,93,565,120"/>
+<area shape="rect" id="node46" href="$conn_8c.html#aa8b1019c37751657b3db017232eced9f" title="conns_by_ipnp_key" alt="" coords="427,93,565,120"/>
 <area shape="rect" id="node48" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="451,1427,541,1453"/>
 <area shape="rect" id="node49" href="$stream_8c.html#a2853c95f04e70a8c7e836f881eedff8d" title="apply_stream_limits" alt="" coords="427,1376,565,1403"/>
 </map>

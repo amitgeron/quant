@@ -302,8 +302,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">        clock_gettime(CLOCK_MONOTONIC, &amp;se-&gt;get_t);</div>
 <div class="line">        <span class="comment">// no, open a new connection</span></div>
 <div class="line">        <span class="keyword">struct </span>q_conn * <span class="keyword">const</span> c =</div>
-<div class="line">            <a name="a26"></a><a class="code" href="quant_8h.html#af2f2677d8497fd617e2f3da029224653">q_connect</a>(w, (<span class="keyword">struct</span> sockaddr_in *)(<span class="keywordtype">void</span> *)peer-&gt;ai_addr, dest,</div>
-<div class="line">                      &amp;req, &amp;se-&gt;s, <span class="keyword">true</span>,</div>
+<div class="line">            <a name="a26"></a><a class="code" href="quant_8h.html#ab0c9c9d9ea7d2af5906f6a6e63d30233">q_connect</a>(w, peer-&gt;ai_addr, dest, &amp;req, &amp;se-&gt;s, <span class="keyword">true</span>,</div>
 <div class="line">                      &amp;(<span class="keyword">struct</span> <a name="_a27"></a><a class="code" href="structq__conn__conf.html">q_conn_conf</a>){.alpn = do_h3 ? <span class="stringliteral">&quot;h3-18&quot;</span> : <span class="stringliteral">&quot;hq-18&quot;</span>,</div>
 <div class="line">                                            .idle_timeout = <a class="code" href="ping_8c.html#aae6e82a30c30cc902f1cd85dead37f6a">timeout</a>,</div>
 <div class="line">                                            .enable_spinbit = <span class="keyword">true</span>,</div>
@@ -544,7 +543,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --> </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 21 2019 19:06:24 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 25 2019 15:35:55 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

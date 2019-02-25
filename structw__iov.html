@@ -125,12 +125,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a362d3a1b5838b941b52350f86be23f4d"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structw__iov.html#a362d3a1b5838b941b52350f86be23f4d">len</a></td></tr>
 <tr class="memdesc:a362d3a1b5838b941b52350f86be23f4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of payload data.  <a href="#a362d3a1b5838b941b52350f86be23f4d">More...</a><br/></td></tr>
 <tr class="separator:a362d3a1b5838b941b52350f86be23f4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2370b82e72918815dadb10ef44e99349"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structw__iov.html#a2370b82e72918815dadb10ef44e99349">port</a></td></tr>
-<tr class="memdesc:a2370b82e72918815dadb10ef44e99349"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sender port on RX.  <a href="#a2370b82e72918815dadb10ef44e99349">More...</a><br/></td></tr>
-<tr class="separator:a2370b82e72918815dadb10ef44e99349"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a693d49529a1993d2d72e3f2eb97df183"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structw__iov.html#a693d49529a1993d2d72e3f2eb97df183">ip</a></td></tr>
-<tr class="memdesc:a693d49529a1993d2d72e3f2eb97df183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sender IPv4 address on RX.  <a href="#a693d49529a1993d2d72e3f2eb97df183">More...</a><br/></td></tr>
-<tr class="separator:a693d49529a1993d2d72e3f2eb97df183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada53fc1602cd557588959fdbc1e3b38f"><td class="memItemLeft" align="right" valign="top">struct sockaddr_storage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structw__iov.html#ada53fc1602cd557588959fdbc1e3b38f">addr</a></td></tr>
+<tr class="memdesc:ada53fc1602cd557588959fdbc1e3b38f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sender IP address and port on RX.  <a href="#ada53fc1602cd557588959fdbc1e3b38f">More...</a><br/></td></tr>
+<tr class="separator:ada53fc1602cd557588959fdbc1e3b38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2e95068f4bef17d199d6b3cb6f89323"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structw__iov.html#aa2e95068f4bef17d199d6b3cb6f89323">flags</a></td></tr>
 <tr class="memdesc:aa2e95068f4bef17d199d6b3cb6f89323"><td class="mdescLeft">&#160;</td><td class="mdescRight">DSCP + ECN of the received IPv4 packet on RX, DSCP + ECN to use for the to-be-transmitted IPv4 packet on TX.  <a href="#aa2e95068f4bef17d199d6b3cb6f89323">More...</a><br/></td></tr>
 <tr class="separator:aa2e95068f4bef17d199d6b3cb6f89323"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,6 +164,21 @@ Data Fields</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="ada53fc1602cd557588959fdbc1e3b38f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct sockaddr_storage w_iov::addr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sender IP address and port on RX. </p>
+<p>Destination IP address and port on TX on a disconnected <a class="el" href="structw__sock.html" title="A warpcore socket. ">w_sock</a>. Ignored on TX on a connected <a class="el" href="structw__sock.html" title="A warpcore socket. ">w_sock</a>. </p>
+
+</div>
+</div>
 <a class="anchor" id="a95f0ae7b7b873f81d7a97d5670aaa6b0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -224,21 +236,6 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a693d49529a1993d2d72e3f2eb97df183"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t w_iov::ip</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sender IPv4 address on RX. </p>
-<p>Destination IPv4 address on TX on a disconnected <a class="el" href="structw__sock.html" title="A warpcore socket. ">w_sock</a>. Ignored on TX on a connected <a class="el" href="structw__sock.html" title="A warpcore socket. ">w_sock</a>. </p>
-
-</div>
-</div>
 <a class="anchor" id="a362d3a1b5838b941b52350f86be23f4d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -265,21 +262,6 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>&lt; Pointer to the <a class="el" href="structw__iov__sq.html" title="A tail queue of w_iov I/O vectors. ">w_iov_sq</a> this <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> resides in. Only valid on TX. </p>
-
-</div>
-</div>
-<a class="anchor" id="a2370b82e72918815dadb10ef44e99349"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t w_iov::port</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sender port on RX. </p>
-<p>Destination port on TX on a disconnected <a class="el" href="structw__sock.html" title="A warpcore socket. ">w_sock</a>. Ignored on TX on a connected <a class="el" href="structw__sock.html" title="A warpcore socket. ">w_sock</a>. </p>
 
 </div>
 </div>
@@ -318,7 +300,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 21 2019 19:06:28 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 25 2019 15:35:59 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

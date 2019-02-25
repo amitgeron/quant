@@ -14,7 +14,6 @@ var searchData=
   ['foreach_5fhash',['FOREACH_HASH',['../lib_2picotls_8c.html#a45eaca836d8db74f953ae65ad93eac75',1,'picotls.c']]],
   ['fram_5fin',['FRAM_IN',['../frame_8h.html#aab39ee09e7f86573005e2b7e4e7bed2d',1,'frame.h']]],
   ['fram_5fout',['FRAM_OUT',['../frame_8h.html#a673034b07ecf04ff57008f9c52d62f25',1,'frame.h']]],
-  ['free_5fiov',['free_iov',['../quic_8h.html#a98dd92860af790cc62791a991d5d8fbe',1,'quic.h']]],
   ['frm_5face',['FRM_ACE',['../frame_8h.html#aad9a9814dcee3481cb190a7f400e0a9c',1,'frame.h']]],
   ['frm_5fack',['FRM_ACK',['../frame_8h.html#a3486415b476cefb72bb738bc09d59f80',1,'frame.h']]],
   ['frm_5fcdb',['FRM_CDB',['../frame_8h.html#a1108c9fd1b680b9d4825415b8801dd7f',1,'frame.h']]],

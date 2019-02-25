@@ -51,6 +51,7 @@ var searchData=
   ['unhex_5fchr',['unhex_chr',['../testutil_8h.html#a6c1e18489239a835787d1425c8c6398c',1,'testutil.h']]],
   ['unpack25519',['unpack25519',['../curve25519_8tweetnacl_8c.html#aa050800a4b720e6a5ac8085051fc92b5',1,'curve25519.tweetnacl.c']]],
   ['unpackint16',['unpackInt16',['../klib_2bgzf_8c.html#a5665b515edc8c3fd9f8fb81863de2c11',1,'unpackInt16(const uint8_t *buffer):&#160;bgzf.c'],['../warpcore_2lib_2deps_2klib_2bgzf_8c.html#a5665b515edc8c3fd9f8fb81863de2c11',1,'unpackInt16(const uint8_t *buffer):&#160;bgzf.c']]],
+  ['unregister_5frtx',['unregister_rtx',['../recovery_8c.html#a5168874b4e4c760844fa938a3a7a9148',1,'recovery.c']]],
   ['update_5fact_5fscid',['update_act_scid',['../conn_8c.html#a7a1791d892e7c7cbc7d6bb3c47379317',1,'conn.c']]],
   ['update_5fconn_5fconf',['update_conn_conf',['../conn_8c.html#a8b3f561241f82fe8b840ed7655d13ffe',1,'update_conn_conf(struct q_conn *const c, const struct q_conn_conf *const cc):&#160;conn.c'],['../conn_8h.html#a8b3f561241f82fe8b840ed7655d13ffe',1,'update_conn_conf(struct q_conn *const c, const struct q_conn_conf *const cc):&#160;conn.c']]],
   ['update_5fopen_5fcount',['update_open_count',['../lib_2picotls_8c.html#a14c83de31e76992b20510eef18075173',1,'picotls.c']]],

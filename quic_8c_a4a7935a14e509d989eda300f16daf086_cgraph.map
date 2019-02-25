@@ -1,0 +1,7 @@
+<map id="q_free" name="q_free">
+<area shape="rect" id="node2" href="$quic_8h.html#ad717e4c8ce421a3a170d95b98e863b77" title="free_iov" alt="" coords="113,81,181,108"/>
+<area shape="rect" id="node3" href="$pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="231,5,331,32"/>
+<area shape="rect" id="node4" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="381,31,437,57"/>
+<area shape="rect" id="node5" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="230,107,333,133"/>
+<area shape="rect" id="node6" href="$warpcore_8h.html#a92bb31feffd5e9e2cda91aa4612bc103" title="Return a single w_iov obtained via w_alloc_len(), w_alloc_cnt() or w_rx() back to warpcore..." alt="" coords="239,157,324,184"/>
+</map>

@@ -1,11 +1,11 @@
 <map id="deps/warpcore/test/fuzz.c" name="deps/warpcore/test/fuzz.c">
-<area shape="rect" id="node10" href="$warpcore_8h.html" title="warpcore/warpcore.h" alt="" coords="582,171,724,197"/>
-<area shape="rect" id="node20" href="$backend_8h.html" title="backend.h" alt="" coords="1114,96,1196,123"/>
-<area shape="rect" id="node25" href="$eth_8h.html" title="eth.h" alt="" coords="928,96,978,123"/>
-<area shape="rect" id="node13" href="$deps_2warpcore_2lib_2include_2warpcore_2config_8h.html" title="warpcore/config.h" alt="" coords="512,245,637,272"/>
-<area shape="rect" id="node14" href="$plat_8h.html" title="warpcore/plat.h" alt="" coords="923,245,1033,272"/>
-<area shape="rect" id="node16" href="$queue_8h.html" title="warpcore/queue.h" alt="" coords="133,245,258,272"/>
-<area shape="rect" id="node17" href="$warpcore_2lib_2include_2warpcore_2util_8h.html" title="warpcore/util.h" alt="" coords="792,245,898,272"/>
-<area shape="rect" id="node22" href="$arp_8h.html" title="arp.h" alt="" coords="1092,171,1142,197"/>
-<area shape="rect" id="node24" href="$udp_8h.html" title="udp.h" alt="" coords="662,245,716,272"/>
+<area shape="rect" id="node10" href="$warpcore_8h.html" title="warpcore/warpcore.h" alt="" coords="800,171,942,197"/>
+<area shape="rect" id="node20" href="$backend_8h.html" title="backend.h" alt="" coords="541,96,622,123"/>
+<area shape="rect" id="node25" href="$eth_8h.html" title="eth.h" alt="" coords="322,96,373,123"/>
+<area shape="rect" id="node13" href="$deps_2warpcore_2lib_2include_2warpcore_2config_8h.html" title="warpcore/config.h" alt="" coords="659,245,785,272"/>
+<area shape="rect" id="node14" href="$plat_8h.html" title="warpcore/plat.h" alt="" coords="959,245,1069,272"/>
+<area shape="rect" id="node16" href="$queue_8h.html" title="warpcore/queue.h" alt="" coords="809,245,934,272"/>
+<area shape="rect" id="node17" href="$warpcore_2lib_2include_2warpcore_2util_8h.html" title="warpcore/util.h" alt="" coords="1322,245,1429,272"/>
+<area shape="rect" id="node22" href="$arp_8h.html" title="arp.h" alt="" coords="353,171,403,197"/>
+<area shape="rect" id="node24" href="$udp_8h.html" title="udp.h" alt="" coords="385,245,439,272"/>
 </map>

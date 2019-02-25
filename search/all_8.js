@@ -22,6 +22,7 @@ var searchData=
   ['has_5farg',['has_arg',['../structko__longopt__t.html#a1502130825f0b4a326d0c2cb6001ac56',1,'ko_longopt_t']]],
   ['has_5fframe',['has_frame',['../frame_8h.html#aed8d9d476ac59dfb0097cbffd793ae5d',1,'frame.h']]],
   ['has_5fpval_5fwnd',['has_pval_wnd',['../conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0',1,'conn.h']]],
+  ['has_5frtx',['has_rtx',['../structpkt__meta.html#ab1b1b15cf2ec10279fe3e763082ed9fd',1,'pkt_meta']]],
   ['has_5fstream_5fdata',['has_stream_data',['../quic_8h.html#a0bd3d14127b17c36361ce5f2ef2faf7f',1,'quic.h']]],
   ['has_5fwnd',['has_wnd',['../conn_8h.html#a3037cafb7df5c92ea54b7e6646a692e7',1,'conn.h']]],
   ['hash',['hash',['../structcf__hmac__ctx.html#a81d0a50b1dcf838873a80cec7246d6bf',1,'cf_hmac_ctx::hash()'],['../structst__ptls__cipher__suite__t.html#af0c711b190c378c2993839fcc9612c9a',1,'st_ptls_cipher_suite_t::hash()'],['../structst__picotls__hmac__context__t.html#a9904a87f00d3e6fcfa504650e54599a9',1,'st_picotls_hmac_context_t::hash()']]],

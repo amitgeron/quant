@@ -167,9 +167,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a633b6473e8f60ab28a373f94ed2a825f"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a633b6473e8f60ab28a373f94ed2a825f">udp_len</a></td></tr>
 <tr class="memdesc:a633b6473e8f60ab28a373f94ed2a825f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of protected UDP packet at TX/RX.  <a href="#a633b6473e8f60ab28a373f94ed2a825f">More...</a><br/></td></tr>
 <tr class="separator:a633b6473e8f60ab28a373f94ed2a825f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3340b6c044ae49975fdb3cac44667d9"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#af3340b6c044ae49975fdb3cac44667d9">is_rtx</a>: 1</td></tr>
-<tr class="memdesc:af3340b6c044ae49975fdb3cac44667d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does the <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> hold truncated data?  <a href="#af3340b6c044ae49975fdb3cac44667d9">More...</a><br/></td></tr>
-<tr class="separator:af3340b6c044ae49975fdb3cac44667d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1b1b15cf2ec10279fe3e763082ed9fd"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#ab1b1b15cf2ec10279fe3e763082ed9fd">has_rtx</a>: 1</td></tr>
+<tr class="memdesc:ab1b1b15cf2ec10279fe3e763082ed9fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does the <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> hold truncated data?  <a href="#ab1b1b15cf2ec10279fe3e763082ed9fd">More...</a><br/></td></tr>
+<tr class="separator:ab1b1b15cf2ec10279fe3e763082ed9fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a15ff29d90b1fb954de8384f0de59b7"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a3a15ff29d90b1fb954de8384f0de59b7">is_acked</a>: 1</td></tr>
 <tr class="memdesc:a3a15ff29d90b1fb954de8384f0de59b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> ACKed?  <a href="#a3a15ff29d90b1fb954de8384f0de59b7">More...</a><br/></td></tr>
 <tr class="separator:a3a15ff29d90b1fb954de8384f0de59b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -289,6 +289,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab1b1b15cf2ec10279fe3e763082ed9fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t pkt_meta::has_rtx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Does the <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> hold truncated data? </p>
+
+</div>
+</div>
 <a class="anchor" id="ade732240d1610adc75a376707de4fdd1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -354,20 +368,6 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This packet is a stateless reset. </p>
-
-</div>
-</div>
-<a class="anchor" id="af3340b6c044ae49975fdb3cac44667d9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t pkt_meta::is_rtx</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Does the <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> hold truncated data? </p>
 
 </div>
 </div>
@@ -587,7 +587,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 21 2019 19:06:28 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 25 2019 15:35:59 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

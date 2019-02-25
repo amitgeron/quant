@@ -1,16 +1,20 @@
 <map id="abandon_pn" name="abandon_pn">
-<area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="320,31,403,57"/>
-<area shape="rect" id="node3" href="$stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="156,145,247,172"/>
-<area shape="rect" id="node12" href="$pn_8c.html#a3b132beb2506faada16af74535e27fec" title="free_pn" alt="" coords="169,221,234,248"/>
-<area shape="rect" id="node13" href="$tls_8c.html#a0e432c22353f0539562e3eb2382001e2" title="dispose_cipher" alt="" coords="147,284,256,311"/>
-<area shape="rect" id="node4" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="320,81,403,108"/>
-<area shape="rect" id="node9" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="316,132,407,159"/>
-<area shape="rect" id="node10" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="333,233,389,260"/>
-<area shape="rect" id="node11" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="332,183,391,209"/>
-<area shape="rect" id="node5" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="473,5,543,32"/>
-<area shape="rect" id="node6" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="471,56,545,83"/>
-<area shape="rect" id="node7" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="473,107,543,133"/>
-<area shape="rect" id="node8" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="467,157,549,184"/>
-<area shape="rect" id="node14" href="$picotls_8h.html#aadec89f296f10258b21ce9daa255d485" title="destroys an AEAD cipher context " alt="" coords="308,284,415,311"/>
-<area shape="rect" id="node15" href="$picotls_8h.html#ae57011fb3506f15237ead4f3146acc01" title="destroys a symmetric cipher " alt="" coords="304,335,419,361"/>
+<area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="320,56,403,83"/>
+<area shape="rect" id="node3" href="$pn_8c.html#a3b132beb2506faada16af74535e27fec" title="free_pn" alt="" coords="329,5,394,32"/>
+<area shape="rect" id="node9" href="$stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="156,157,247,184"/>
+<area shape="rect" id="node17" href="$tls_8c.html#a0e432c22353f0539562e3eb2382001e2" title="dispose_cipher" alt="" coords="147,411,256,437"/>
+<area shape="rect" id="node4" href="$quic_8h.html#ad717e4c8ce421a3a170d95b98e863b77" title="free_iov" alt="" coords="474,107,542,133"/>
+<area shape="rect" id="node6" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="749,81,805,108"/>
+<area shape="rect" id="node5" href="$pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="599,56,699,83"/>
+<area shape="rect" id="node7" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="598,157,701,184"/>
+<area shape="rect" id="node8" href="$warpcore_8h.html#a92bb31feffd5e9e2cda91aa4612bc103" title="Return a single w_iov obtained via w_alloc_len(), w_alloc_cnt() or w_rx() back to warpcore..." alt="" coords="607,208,692,235"/>
+<area shape="rect" id="node10" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="320,259,403,285"/>
+<area shape="rect" id="node15" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="316,208,407,235"/>
+<area shape="rect" id="node16" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="332,157,391,184"/>
+<area shape="rect" id="node11" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="473,309,543,336"/>
+<area shape="rect" id="node12" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="471,157,545,184"/>
+<area shape="rect" id="node13" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="473,208,543,235"/>
+<area shape="rect" id="node14" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="467,259,549,285"/>
+<area shape="rect" id="node18" href="$picotls_8h.html#aadec89f296f10258b21ce9daa255d485" title="destroys an AEAD cipher context " alt="" coords="308,461,415,488"/>
+<area shape="rect" id="node19" href="$picotls_8h.html#ae57011fb3506f15237ead4f3146acc01" title="destroys a symmetric cipher " alt="" coords="304,411,419,437"/>
 </map>

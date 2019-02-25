@@ -1,11 +1,11 @@
 <map id="q_connect" name="q_connect">
-<area shape="rect" id="node2" href="$conn_8c.html#a51850847894ca6bd5bd7a3f06fc9f1ff" title="new_conn" alt="" coords="325,577,406,603"/>
+<area shape="rect" id="node2" href="$conn_8c.html#a539ae556cdf40667c6ba127808df4f28" title="new_conn" alt="" coords="325,577,406,603"/>
 <area shape="rect" id="node7" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="692,121,775,147"/>
 <area shape="rect" id="node24" href="$stream_8c.html#a300bcafbad60488eb0b6b0560eb1b645" title="new_stream" alt="" coords="520,1353,613,1379"/>
 <area shape="rect" id="node27" href="$tls_8c.html#a00ca93e0c4b1bdde1a2e97a4ef13373e" title="init_tls" alt="" coords="157,871,217,898"/>
 <area shape="rect" id="node38" href="$tls_8c.html#a873296f812267d1c3475457cacc3c815" title="init_tp" alt="" coords="158,1251,215,1278"/>
 <area shape="rect" id="node41" href="$warpcore_8h.html#acec933a0dba371ff10bd35397aed87e9" title="Return the total payload length of w_iov tail queue c. " alt="" coords="136,1302,237,1329"/>
-<area shape="rect" id="node42" href="$warpcore_8h.html#aade6adf37002553de6cca667cacd5138" title="Connect a bound socket to a remote IP address and port. " alt="" coords="144,1175,229,1202"/>
+<area shape="rect" id="node42" href="$warpcore_8h.html#a715f8df62fc6dfa771aa99973d7d0e22" title="Connect a bound socket to a remote IP address and port. " alt="" coords="144,1175,229,1202"/>
 <area shape="rect" id="node45" href="$tls_8c.html#a4e66d17ae7e8756388309b9e193a9543" title="tls_io" alt="" coords="160,1530,213,1557"/>
 <area shape="rect" id="node50" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="322,1707,409,1734"/>
 <area shape="rect" id="node3" href="$warpcore_8h.html#a4ecb03f6a94c2911ab004803802a27c0" title="Calculate a uniformly distributed random number in [0, upper_bound) avoiding &quot;modulo bias&quot;..." alt="" coords="509,627,624,654"/>

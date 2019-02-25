@@ -14,7 +14,6 @@ var searchData=
   ['report_5funknown_5fextensions',['report_unknown_extensions',['../lib_2picotls_8c.html#a1b5eacc28102b1c25fdbc7a8a54b84b5',1,'picotls.c']]],
   ['reset_5fcycles',['reset_cycles',['../semihost_8c.html#af5518204b3e6926c760e2793c596a96c',1,'reset_cycles(void):&#160;semihost.c'],['../semihost_8h.html#af5518204b3e6926c760e2793c596a96c',1,'reset_cycles(void):&#160;semihost.c']]],
   ['reset_5fhandler',['Reset_Handler',['../boot_8c.html#ae7ee340978f5c25f52f0cad1457c6616',1,'boot.c']]],
-  ['reset_5fpm',['reset_pm',['../stream_8c.html#ad084a65676d6e76fe72fa8e23bd1391d',1,'stream.c']]],
   ['reset_5fpn',['reset_pn',['../pn_8c.html#ad39de552086c127310c3250f2982dcb5',1,'reset_pn(struct pn_space *const pn):&#160;pn.c'],['../pn_8h.html#ad39de552086c127310c3250f2982dcb5',1,'reset_pn(struct pn_space *const pn):&#160;pn.c']]],
   ['reset_5fstream',['reset_stream',['../stream_8c.html#a23976e8cd7c5aecf8e137324fce993d0',1,'reset_stream(struct q_stream *const s, const bool forget):&#160;stream.c'],['../stream_8h.html#a23976e8cd7c5aecf8e137324fce993d0',1,'reset_stream(struct q_stream *const s, const bool forget):&#160;stream.c']]],
   ['reset_5fticks',['reset_ticks',['../boot_8c.html#afa1ebbb34a7b6f7672586a81cf9cb076',1,'reset_ticks(void):&#160;boot.c'],['../semihost_8c.html#afa1ebbb34a7b6f7672586a81cf9cb076',1,'reset_ticks(void):&#160;boot.c']]],

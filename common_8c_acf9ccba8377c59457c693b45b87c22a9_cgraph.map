@@ -1,7 +1,7 @@
 <map id="init" name="init">
 <area shape="rect" id="node2" href="$warpcore_8h.html#a3d8850127dfaca15991ddd916380ce4d" title="Initialize a warpcore engine on the given interface. " alt="" coords="108,183,164,209"/>
 <area shape="rect" id="node18" href="$warpcore_8h.html#a8f5c782e319686927159612d3f455b7b" title="Bind a w_sock to the given local UDP port number. " alt="" coords="105,600,167,627"/>
-<area shape="rect" id="node26" href="$warpcore_8h.html#aade6adf37002553de6cca667cacd5138" title="Connect a bound socket to a remote IP address and port. " alt="" coords="93,499,179,525"/>
+<area shape="rect" id="node26" href="$warpcore_8h.html#a715f8df62fc6dfa771aa99973d7d0e22" title="Connect a bound socket to a remote IP address and port. " alt="" coords="93,499,179,525"/>
 <area shape="rect" id="node41" href="$warpcore_8h.html#a7644484ec2768497622b01587fc428ab" title="Return whether a socket is connected (i.e., w_connect() has been called on it) or not..." alt="" coords="1043,499,1141,525"/>
 <area shape="rect" id="node3" href="$warpcore_8c.html#a43d6f42d6066cbfca8842cf414a1c43a" title="Init state for w_rand() and w_rand_uniform(). " alt="" coords="255,259,343,285"/>
 <area shape="rect" id="node7" href="$plat_8h.html#ac645a18d329f9204ceddb21bff751abd" title="Return the Ethernet MAC address of network interface i. " alt="" coords="249,5,349,32"/>

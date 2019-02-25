@@ -1,7 +1,7 @@
 <map id="main" name="main">
 <area shape="rect" id="node2" href="$norx_8c.html#a6f833161358209e628269ffbbe3e0db9" title="init" alt="" coords="127,132,166,159"/>
 <area shape="rect" id="node5" href="$warpcore_8h.html#a8f5c782e319686927159612d3f455b7b" title="Bind a w_sock to the given local UDP port number. " alt="" coords="115,259,178,285"/>
-<area shape="rect" id="node13" href="$warpcore_8h.html#aade6adf37002553de6cca667cacd5138" title="Connect a bound socket to a remote IP address and port. " alt="" coords="104,335,189,361"/>
+<area shape="rect" id="node13" href="$warpcore_8h.html#a715f8df62fc6dfa771aa99973d7d0e22" title="Connect a bound socket to a remote IP address and port. " alt="" coords="104,335,189,361"/>
 <area shape="rect" id="node33" href="$warpcore_8h.html#a7644484ec2768497622b01587fc428ab" title="Return whether a socket is connected (i.e., w_connect() has been called on it) or not..." alt="" coords="1016,841,1115,868"/>
 <area shape="rect" id="node48" href="$common_8c.html#aeb94fbd457627182ceee7e505f432541" title="cleanup" alt="" coords="739,968,805,995"/>
 <area shape="rect" id="node3" href="$bitops_8h.html#a53b9f25069cc1b9fd72d421715d13aad" title="Read 4 bytes from buf, as a 32&#45;bit little endian quantity. " alt="" coords="261,132,339,159"/>

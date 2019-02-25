@@ -1,5 +1,0 @@
-<map id="pm_free" name="pm_free">
-<area shape="rect" id="node2" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="123,5,226,32"/>
-<area shape="rect" id="node3" href="$warpcore_8h.html#a92bb31feffd5e9e2cda91aa4612bc103" title="Return a single w_iov obtained via w_alloc_len(), w_alloc_cnt() or w_rx() back to warpcore..." alt="" coords="132,56,217,83"/>
-<area shape="rect" id="node4" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="147,107,203,133"/>
-</map>

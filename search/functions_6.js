@@ -49,6 +49,7 @@ var searchData=
   ['free_5fdcid',['free_dcid',['../conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56',1,'free_dcid(struct q_conn *const c, struct cid *const id):&#160;conn.c'],['../conn_8h.html#a1c73802c8005ac4f60cf1c0003972d56',1,'free_dcid(struct q_conn *const c, struct cid *const id):&#160;conn.c']]],
   ['free_5fesni_5fsecret',['free_esni_secret',['../lib_2picotls_8c.html#a5aa1666c3755a9802eee2c457c5ee410',1,'picotls.c']]],
   ['free_5fexporter_5fmaster_5fsecret',['free_exporter_master_secret',['../lib_2picotls_8c.html#a5e886ea709e0a30c1e43d060cac09204',1,'picotls.c']]],
+  ['free_5fiov',['free_iov',['../quic_8h.html#ad717e4c8ce421a3a170d95b98e863b77',1,'quic.h']]],
   ['free_5fpn',['free_pn',['../pn_8c.html#a3b132beb2506faada16af74535e27fec',1,'free_pn(struct pn_space *const pn):&#160;pn.c'],['../pn_8h.html#a3b132beb2506faada16af74535e27fec',1,'free_pn(struct pn_space *const pn):&#160;pn.c']]],
   ['free_5fprot',['free_prot',['../tls_8c.html#a28ce95450a6345dc4f1c85766e2edf8a',1,'tls.c']]],
   ['free_5fscid',['free_scid',['../conn_8c.html#ab983b3d57ee0c84f0e70018a299033a8',1,'free_scid(struct q_conn *const c, struct cid *const id):&#160;conn.c'],['../conn_8h.html#ab983b3d57ee0c84f0e70018a299033a8',1,'free_scid(struct q_conn *const c, struct cid *const id):&#160;conn.c']]],

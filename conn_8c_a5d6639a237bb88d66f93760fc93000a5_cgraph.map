@@ -1,7 +1,7 @@
 <map id="rx_crypto" name="rx_crypto">
 <area shape="rect" id="node2" href="$conn_8c.html#a90b995546c499b521dcb4bf6cc7e39f1" title="epoch_in" alt="" coords="147,525,221,552"/>
 <area shape="rect" id="node4" href="$tls_8c.html#a4e66d17ae7e8756388309b9e193a9543" title="tls_io" alt="" coords="331,461,384,488"/>
-<area shape="rect" id="node23" href="$quant_8h.html#af2f2677d8497fd617e2f3da029224653" title="q_connect" alt="" coords="143,1019,225,1045"/>
+<area shape="rect" id="node23" href="$quant_8h.html#ab0c9c9d9ea7d2af5906f6a6e63d30233" title="q_connect" alt="" coords="143,1019,225,1045"/>
 <area shape="rect" id="node47" href="$tls_8c.html#a7af72f607847e5a6a71e9910b489fedc" title="make_rtry_tok" alt="" coords="131,1171,237,1197"/>
 <area shape="rect" id="node49" href="$quant_8h.html#a5b452d2c7658c801b4182547d75880a4" title="q_accept" alt="" coords="320,1668,395,1695"/>
 <area shape="rect" id="node3" href="$picotls_8h.html#aa6a0008d415e04f0d67db03fdb2113de" title="Return the current read epoch. " alt="" coords="286,387,429,413"/>
@@ -23,12 +23,12 @@
 <area shape="rect" id="node17" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="931,791,1027,817"/>
 <area shape="rect" id="node18" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="937,1389,1020,1416"/>
 <area shape="rect" id="node20" href="$warpcore_8h.html#a7828b02675cf9e9c1465f3162033e22c" title="Allocate a w_iov tail queue for plen payload bytes, for eventual use with w_tx(). ..." alt="" coords="736,5,827,32"/>
-<area shape="rect" id="node24" href="$conn_8c.html#a51850847894ca6bd5bd7a3f06fc9f1ff" title="new_conn" alt="" coords="317,1019,398,1045"/>
+<area shape="rect" id="node24" href="$conn_8c.html#a539ae556cdf40667c6ba127808df4f28" title="new_conn" alt="" coords="317,1019,398,1045"/>
 <area shape="rect" id="node42" href="$stream_8c.html#a300bcafbad60488eb0b6b0560eb1b645" title="new_stream" alt="" coords="511,613,604,640"/>
 <area shape="rect" id="node43" href="$tls_8c.html#a00ca93e0c4b1bdde1a2e97a4ef13373e" title="init_tls" alt="" coords="327,1069,387,1096"/>
 <area shape="rect" id="node44" href="$tls_8c.html#a873296f812267d1c3475457cacc3c815" title="init_tp" alt="" coords="329,1120,386,1147"/>
 <area shape="rect" id="node45" href="$warpcore_8h.html#acec933a0dba371ff10bd35397aed87e9" title="Return the total payload length of w_iov tail queue c. " alt="" coords="307,1171,408,1197"/>
-<area shape="rect" id="node46" href="$warpcore_8h.html#aade6adf37002553de6cca667cacd5138" title="Connect a bound socket to a remote IP address and port. " alt="" coords="315,1221,400,1248"/>
+<area shape="rect" id="node46" href="$warpcore_8h.html#a715f8df62fc6dfa771aa99973d7d0e22" title="Connect a bound socket to a remote IP address and port. " alt="" coords="315,1221,400,1248"/>
 <area shape="rect" id="node25" href="$warpcore_8h.html#a4ecb03f6a94c2911ab004803802a27c0" title="Calculate a uniformly distributed random number in [0, upper_bound) avoiding &quot;modulo bias&quot;..." alt="" coords="500,1120,615,1147"/>
 <area shape="rect" id="node26" href="$openssl_8h.html#a2514cd53d441b44478641a1643af622d" title="ptls_openssl_random\l_bytes" alt="" coords="485,1171,630,1213"/>
 <area shape="rect" id="node27" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="748,1339,815,1365"/>

@@ -13,7 +13,6 @@ var searchData=
   ['aes192_5frounds',['AES192_ROUNDS',['../aes_8h.html#a8907e40a7fc0a36be17873316913688b',1,'aes.h']]],
   ['aes256_5frounds',['AES256_ROUNDS',['../aes_8h.html#a5e10d247f7c59e0a79bd629e94e12e1d',1,'aes.h']]],
   ['aes_5fblocksz',['AES_BLOCKSZ',['../aes_8h.html#ae1cb0e4fb46cffc2e334fadc24e0e0df',1,'aes.h']]],
-  ['alloc_5fiov',['alloc_iov',['../quic_8h.html#ad5e953c130616350f008ea21b66140b5',1,'quic.h']]],
   ['allow',['ALLOW',['../lib_2picotls_8c.html#a85fb3548c6a8291bb20dd3d5483ef540',1,'picotls.c']]],
   ['arg_5fmatch',['ARG_MATCH',['../quic_8h.html#a5f9f2b6173a02225c3e313e1e3b71ab6',1,'quic.h']]],
   ['arp_5fhrd_5fether',['ARP_HRD_ETHER',['../arp_8h.html#ae83b89fd0db8b3a508c7f73dfc785a14',1,'arp.h']]],
