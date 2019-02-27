@@ -1,6 +1,7 @@
 var searchData=
 [
   ['gen_5fdata',['gen_data',['../klib_2test_2kstring__bench2_8c.html#a16d02e2d1ee96b3619ccad9730f2646f',1,'gen_data(int len, int a):&#160;kstring_bench2.c'],['../warpcore_2lib_2deps_2klib_2test_2kstring__bench2_8c.html#a16d02e2d1ee96b3619ccad9730f2646f',1,'gen_data(int len, int a):&#160;kstring_bench2.c']]],
+  ['get_5fand_5fvalidate_5fstrm',['get_and_validate_strm',['../frame_8c.html#a6baba32f3dc20fd7af6599506d531762',1,'frame.c']]],
   ['get_5fcertificates',['get_certificates',['../picotlsvs_8c.html#ab59e20a8bdfa6258a97d88c65b0ed263',1,'picotlsvs.c']]],
   ['get_5fcid_5fby_5fid',['get_cid_by_id',['../conn_8c.html#abf07a95614d3f540d12bd3dc1bb4391f',1,'conn.c']]],
   ['get_5fconn_5fby_5fcid',['get_conn_by_cid',['../conn_8c.html#a370e079f6b872eb4fb70053eb3fd14a3',1,'conn.c']]],
