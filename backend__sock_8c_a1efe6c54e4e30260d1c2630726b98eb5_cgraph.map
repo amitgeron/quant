@@ -1,4 +1,0 @@
-<map id="backend_init" name="backend_init">
-<area shape="rect" id="node2" href="$backend_8h.html#a5bca37c30d432e0c16c44d8e0c087e5f" title="init_iov" alt="" coords="150,5,213,32"/>
-<area shape="rect" id="node3" href="$backend_8h.html#a7f3566b6a4f34920186abe13e80a2760" title="For a given buffer index, get a pointer to its beginning. " alt="" coords="261,5,344,32"/>
-</map>

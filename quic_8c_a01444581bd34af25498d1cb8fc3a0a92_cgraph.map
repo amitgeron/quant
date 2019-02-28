@@ -1,23 +1,16 @@
 <map id="q_close_stream" name="q_close_stream">
-<area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="311,56,393,83"/>
-<area shape="rect" id="node3" href="$quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="178,5,249,32"/>
-<area shape="rect" id="node9" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="170,107,257,133"/>
-<area shape="rect" id="node10" href="$stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="168,157,259,184"/>
-<area shape="rect" id="node4" href="$warpcore_8h.html#a7828b02675cf9e9c1465f3162033e22c" title="Allocate a w_iov tail queue for plen payload bytes, for eventual use with w_tx(). ..." alt="" coords="307,5,397,32"/>
-<area shape="rect" id="node5" href="$warpcore_8c.html#a8e3e3376b3f23f1a1a8fc4be642f7710" title="Return a spare w_iov from the pool of the given warpcore engine. " alt="" coords="445,5,536,32"/>
-<area shape="rect" id="node6" href="$backend_8h.html#a3ea12851bfb4f83f0843560797d0241e" title="w_alloc_iov_base" alt="" coords="584,5,709,32"/>
-<area shape="rect" id="node7" href="$backend_8h.html#a5bca37c30d432e0c16c44d8e0c087e5f" title="init_iov" alt="" coords="758,5,821,32"/>
-<area shape="rect" id="node8" href="$backend_8h.html#a7f3566b6a4f34920186abe13e80a2760" title="For a given buffer index, get a pointer to its beginning. " alt="" coords="869,5,952,32"/>
-<area shape="rect" id="node11" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="311,309,393,336"/>
-<area shape="rect" id="node16" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="307,259,397,285"/>
-<area shape="rect" id="node17" href="$quic_8h.html#ad717e4c8ce421a3a170d95b98e863b77" title="free_iov" alt="" coords="457,208,525,235"/>
-<area shape="rect" id="node19" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="761,208,817,235"/>
-<area shape="rect" id="node22" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="323,208,381,235"/>
-<area shape="rect" id="node12" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="455,259,526,285"/>
-<area shape="rect" id="node13" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="453,309,528,336"/>
-<area shape="rect" id="node14" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="455,360,526,387"/>
-<area shape="rect" id="node15" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="450,411,531,437"/>
-<area shape="rect" id="node18" href="$pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="597,208,697,235"/>
-<area shape="rect" id="node20" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="595,309,698,336"/>
-<area shape="rect" id="node21" href="$warpcore_8h.html#a92bb31feffd5e9e2cda91aa4612bc103" title="Return a single w_iov obtained via w_alloc_len(), w_alloc_cnt() or w_rx() back to warpcore..." alt="" coords="604,157,689,184"/>
+<area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="311,5,393,32"/>
+<area shape="rect" id="node3" href="$quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="178,56,249,83"/>
+<area shape="rect" id="node4" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="170,107,257,133"/>
+<area shape="rect" id="node5" href="$stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="168,157,259,184"/>
+<area shape="rect" id="node6" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="311,81,393,108"/>
+<area shape="rect" id="node11" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="307,132,397,159"/>
+<area shape="rect" id="node12" href="$quic_8h.html#ad717e4c8ce421a3a170d95b98e863b77" title="free_iov" alt="" coords="453,220,521,247"/>
+<area shape="rect" id="node15" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="323,233,381,260"/>
+<area shape="rect" id="node7" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="451,5,522,32"/>
+<area shape="rect" id="node8" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="449,56,524,83"/>
+<area shape="rect" id="node9" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="451,107,522,133"/>
+<area shape="rect" id="node10" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="446,157,527,184"/>
+<area shape="rect" id="node13" href="$pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="578,195,678,221"/>
+<area shape="rect" id="node14" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="577,245,679,272"/>
 </map>

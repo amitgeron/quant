@@ -1,7 +1,0 @@
-<map id="uECC_vli_mmod" name="uECC_vli_mmod">
-<area shape="rect" id="node2" href="$uECC_8c.html#a4c3ea32c9f641d1a972645310b7c4ab5" title="uECC_vli_numBits" alt="" coords="176,5,309,32"/>
-<area shape="rect" id="node4" href="$uECC_8c.html#a3ab6617d7cc2e9338830ffd918e53b3e" title="uECC_vli_clear" alt="" coords="186,56,299,83"/>
-<area shape="rect" id="node5" href="$uECC_8c.html#a706eae58ec0ec7d5384276842a08c413" title="uECC_vli_set" alt="" coords="191,107,294,133"/>
-<area shape="rect" id="node6" href="$uECC_8c.html#a0ca41081385efb86dd7667dfec1edb94" title="uECC_vli_rshift1" alt="" coords="182,157,303,184"/>
-<area shape="rect" id="node3" href="$uECC_8c.html#a389707237395538033274783d16ae112" title="vli_numDigits" alt="" coords="357,5,459,32"/>
-</map>

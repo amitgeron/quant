@@ -1,7 +1,4 @@
 <map id="q_write" name="q_write">
-<area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="128,5,211,32"/>
-<area shape="rect" id="node3" href="$warpcore_8h.html#acec933a0dba371ff10bd35397aed87e9" title="Return the total payload length of w_iov tail queue c. " alt="" coords="119,56,220,83"/>
-<area shape="rect" id="node4" href="$warpcore_8h.html#ab0d7e80a565b2ad694def961428e62ec" title="Return the number of w_iov structures in the w_iov tail queue c. " alt="" coords="118,107,221,133"/>
-<area shape="rect" id="node5" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="126,157,213,184"/>
-<area shape="rect" id="node6" href="$warpcore_2lib_2include_2warpcore_2util_8h.html#a098003aed955c46d7d60ab9cdbb65502" title="Subtract the struct timespec values tvp and uvp (tvp &#45; uvp), storing the result in vvp..." alt="" coords="118,208,221,235"/>
+<area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="120,5,203,32"/>
+<area shape="rect" id="node3" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="118,56,205,83"/>
 </map>

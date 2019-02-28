@@ -1,8 +1,0 @@
-<map id="main" name="main">
-<area shape="rect" id="node2" href="$klib_2kstring_8h.html#acd58f33c79859ae08062e24fab7e326f" title="kputw" alt="" coords="109,5,166,32"/>
-<area shape="rect" id="node3" href="$klib_2kstring_8c.html#aab1fb1caf88fc16c19eb371ceb788ff6" title="ksprintf" alt="" coords="105,56,170,83"/>
-<area shape="rect" id="node5" href="$klib_2kstring_8h.html#a9d1bb038f47828f77d7ed20859b5fcee" title="kputs" alt="" coords="110,107,165,133"/>
-<area shape="rect" id="node4" href="$klib_2kstring_8c.html#a722b999f118002cc5b7735c9928608f6" title="kvsprintf" alt="" coords="219,56,291,83"/>
-<area shape="rect" id="node6" href="$klib_2kstring_8h.html#a0094a9c1ccfcafe09de3aeafbf24b3fb" title="kputsn" alt="" coords="224,107,285,133"/>
-<area shape="rect" id="node7" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="227,157,282,184"/>
-</map>

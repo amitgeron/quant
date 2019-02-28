@@ -1,9 +1,0 @@
-<map id="deps/picotls/t/picotls.c" name="deps/picotls/t/picotls.c">
-<area shape="rect" id="node5" href="$picotls_8h.html" title="picotls.h" alt="" coords="218,155,288,181"/>
-<area shape="rect" id="node8" href="$ffx_8h.html" title="picotls/ffx.h" alt="" coords="5,155,96,181"/>
-<area shape="rect" id="node9" href="$minicrypto_8h.html" title="picotls/minicrypto.h" alt="" coords="186,80,320,107"/>
-<area shape="rect" id="node10" href="$pembase64_8h.html" title="picotls/pembase64.h" alt="" coords="447,80,589,107"/>
-<area shape="rect" id="node11" href="$picotest_8h.html" title="../deps/picotest/picotest.h" alt="" coords="615,80,788,107"/>
-<area shape="rect" id="node12" href="$lib_2picotls_8c.html" title="../lib/picotls.c" alt="" coords="863,80,963,107"/>
-<area shape="rect" id="node17" href="$test_8h.html" title="test.h" alt="" coords="55,80,109,107"/>
-</map>

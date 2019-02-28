@@ -1,23 +1,4 @@
 var searchData=
 [
-  ['ptls_5fhash_5ffinal_5fmode_5ffree',['PTLS_HASH_FINAL_MODE_FREE',['../picotls_8h.html#ae1e133404f263bf8d08e027a47d41b14a65703dfcdaf9b71ed80df327810ca095',1,'picotls.h']]],
-  ['ptls_5fhash_5ffinal_5fmode_5freset',['PTLS_HASH_FINAL_MODE_RESET',['../picotls_8h.html#ae1e133404f263bf8d08e027a47d41b14aa215d40d6b824cace989649c5cf8eeaa',1,'picotls.h']]],
-  ['ptls_5fhash_5ffinal_5fmode_5fsnapshot',['PTLS_HASH_FINAL_MODE_SNAPSHOT',['../picotls_8h.html#ae1e133404f263bf8d08e027a47d41b14a871251d097d802df29d54855dbd5cca6',1,'picotls.h']]],
-  ['ptls_5fstate_5fclient_5fexpect_5fcertificate',['PTLS_STATE_CLIENT_EXPECT_CERTIFICATE',['../structst__ptls__t.html#adad6b044fa8a23ac5b21a55dccc41365ab85019136205d21ead182bbe715b311e',1,'st_ptls_t']]],
-  ['ptls_5fstate_5fclient_5fexpect_5fcertificate_5frequest_5for_5fcertificate',['PTLS_STATE_CLIENT_EXPECT_CERTIFICATE_REQUEST_OR_CERTIFICATE',['../structst__ptls__t.html#adad6b044fa8a23ac5b21a55dccc41365ac8257a3899b8472e1874a3dfe69d4a11',1,'st_ptls_t']]],
-  ['ptls_5fstate_5fclient_5fexpect_5fcertificate_5fverify',['PTLS_STATE_CLIENT_EXPECT_CERTIFICATE_VERIFY',['../structst__ptls__t.html#adad6b044fa8a23ac5b21a55dccc41365aa13d163e9c53201c4511e11fc8997b21',1,'st_ptls_t']]],
-  ['ptls_5fstate_5fclient_5fexpect_5fencrypted_5fextensions',['PTLS_STATE_CLIENT_EXPECT_ENCRYPTED_EXTENSIONS',['../structst__ptls__t.html#adad6b044fa8a23ac5b21a55dccc41365a3f96854f35a6474f07d3882ca8b744d0',1,'st_ptls_t']]],
-  ['ptls_5fstate_5fclient_5fexpect_5ffinished',['PTLS_STATE_CLIENT_EXPECT_FINISHED',['../structst__ptls__t.html#adad6b044fa8a23ac5b21a55dccc41365ac753832de473ed40cfbb10af03d93754',1,'st_ptls_t']]],
-  ['ptls_5fstate_5fclient_5fexpect_5fsecond_5fserver_5fhello',['PTLS_STATE_CLIENT_EXPECT_SECOND_SERVER_HELLO',['../structst__ptls__t.html#adad6b044fa8a23ac5b21a55dccc41365a57026c327e7f06afeef32c45be6e334f',1,'st_ptls_t']]],
-  ['ptls_5fstate_5fclient_5fexpect_5fserver_5fhello',['PTLS_STATE_CLIENT_EXPECT_SERVER_HELLO',['../structst__ptls__t.html#adad6b044fa8a23ac5b21a55dccc41365a13f05f8246bcb593157824eb3d796058',1,'st_ptls_t']]],
-  ['ptls_5fstate_5fclient_5fhandshake_5fstart',['PTLS_STATE_CLIENT_HANDSHAKE_START',['../structst__ptls__t.html#adad6b044fa8a23ac5b21a55dccc41365a3101ea91d1029f962672351cd2de5113',1,'st_ptls_t']]],
-  ['ptls_5fstate_5fclient_5fpost_5fhandshake',['PTLS_STATE_CLIENT_POST_HANDSHAKE',['../structst__ptls__t.html#adad6b044fa8a23ac5b21a55dccc41365a65cb27607f8124a6edad8e283724ef26',1,'st_ptls_t']]],
-  ['ptls_5fstate_5fpost_5fhandshake_5fmin',['PTLS_STATE_POST_HANDSHAKE_MIN',['../structst__ptls__t.html#adad6b044fa8a23ac5b21a55dccc41365ab389cb351d436ba9b90a9d0e10548a3a',1,'st_ptls_t']]],
-  ['ptls_5fstate_5fserver_5fexpect_5fcertificate',['PTLS_STATE_SERVER_EXPECT_CERTIFICATE',['../structst__ptls__t.html#adad6b044fa8a23ac5b21a55dccc41365a4863b97e61ca254ddd6c8ca0c7b3cf6f',1,'st_ptls_t']]],
-  ['ptls_5fstate_5fserver_5fexpect_5fcertificate_5fverify',['PTLS_STATE_SERVER_EXPECT_CERTIFICATE_VERIFY',['../structst__ptls__t.html#adad6b044fa8a23ac5b21a55dccc41365a579aa7e637c28bdf30cc298c92a24306',1,'st_ptls_t']]],
-  ['ptls_5fstate_5fserver_5fexpect_5fclient_5fhello',['PTLS_STATE_SERVER_EXPECT_CLIENT_HELLO',['../structst__ptls__t.html#adad6b044fa8a23ac5b21a55dccc41365af401cdcc0caf78bff782199bb6c437e9',1,'st_ptls_t']]],
-  ['ptls_5fstate_5fserver_5fexpect_5fend_5fof_5fearly_5fdata',['PTLS_STATE_SERVER_EXPECT_END_OF_EARLY_DATA',['../structst__ptls__t.html#adad6b044fa8a23ac5b21a55dccc41365af07b23b0a6e5bce51e43aa0bf02a186e',1,'st_ptls_t']]],
-  ['ptls_5fstate_5fserver_5fexpect_5ffinished',['PTLS_STATE_SERVER_EXPECT_FINISHED',['../structst__ptls__t.html#adad6b044fa8a23ac5b21a55dccc41365a845b128dd0cdf057264a9d9b9c9698b6',1,'st_ptls_t']]],
-  ['ptls_5fstate_5fserver_5fexpect_5fsecond_5fclient_5fhello',['PTLS_STATE_SERVER_EXPECT_SECOND_CLIENT_HELLO',['../structst__ptls__t.html#adad6b044fa8a23ac5b21a55dccc41365af5b898ce1d693fbb0236f3c544956639',1,'st_ptls_t']]],
-  ['ptls_5fstate_5fserver_5fpost_5fhandshake',['PTLS_STATE_SERVER_POST_HANDSHAKE',['../structst__ptls__t.html#adad6b044fa8a23ac5b21a55dccc41365aea100e70d1ef5022d07268908fa7056c',1,'st_ptls_t']]]
+  ['strm_5fstates',['STRM_STATES',['../stream_8h.html#a711294f19cdaef709860ae8ff270d81ea5f8c8fa7f2f240ed5de28097238e3f7c',1,'stream.h']]]
 ];

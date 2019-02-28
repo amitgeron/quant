@@ -1,8 +1,0 @@
-<map id="w_iov" name="w_iov">
-<area shape="rect" id="node2" href="$structw__engine.html" title="A warpcore backend engine. " alt="" coords="51,187,127,213"/>
-<area shape="rect" id="node5" href="$structw__sock.html" title="A warpcore socket. " alt="" coords="135,277,201,304"/>
-<area shape="rect" id="node3" href="$structw__iov__sq.html" title="A tail queue of w_iov I/O vectors. " alt="" coords="71,5,147,32"/>
-<area shape="rect" id="node4" href="$structw__backend.html" title="w_backend" alt="" coords="76,368,164,395"/>
-<area shape="rect" id="node6" href="$structw__sockopt.html" title="Socket options. " alt="" coords="205,187,291,213"/>
-<area shape="rect" id="node7" href="$structw__tuple.html" title="w_tuple" alt="" coords="315,187,381,213"/>
-</map>

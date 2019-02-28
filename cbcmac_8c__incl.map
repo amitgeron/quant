@@ -1,9 +1,0 @@
-<map id="deps/picotls/deps/cifra/src/cbcmac.c" name="deps/picotls/deps/cifra/src/cbcmac.c">
-<area shape="rect" id="node2" href="$handy_8h.html" title="handy.h" alt="" coords="469,96,536,123"/>
-<area shape="rect" id="node6" href="$prp_8h.html" title="prp.h" alt="" coords="213,171,264,197"/>
-<area shape="rect" id="node7" href="$modes_8h.html" title="modes.h" alt="" coords="313,96,385,123"/>
-<area shape="rect" id="node8" href="$gf128_8h.html" title="gf128.h" alt="" coords="390,171,455,197"/>
-<area shape="rect" id="node9" href="$bitops_8h.html" title="bitops.h" alt="" coords="121,171,188,197"/>
-<area shape="rect" id="node10" href="$blockwise_8h.html" title="blockwise.h" alt="" coords="5,171,96,197"/>
-<area shape="rect" id="node11" href="$tassert_8h.html" title="tassert.h" alt="" coords="659,96,732,123"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="cf_cbcmac_stream_reset" name="cf_cbcmac_stream_reset">
-<area shape="rect" id="node2" href="$modes_8c.html#ab33d4cf8bb4344981a7b61696c4db1d9" title="cf_cbc_init" alt="" coords="227,5,312,32"/>
-<area shape="rect" id="node3" href="$handy_8h.html#ad453ec2c6196a70300020477df38ab89" title="Like memset(ptr, 0, len), but not allowed to be removed by compilers. " alt="" coords="225,56,314,83"/>
-</map>

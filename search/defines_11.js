@@ -1,27 +1,5 @@
 var searchData=
 [
-  ['r',['r',['../test__queue_8c.html#a5391b7f1199d134d62d41f3734ad4322',1,'test_queue.c']]],
-  ['rate_5fbytes',['RATE_BYTES',['../norx_8c.html#a396a87b8fcf85bd81618c25f37211c0c',1,'norx.c']]],
-  ['rate_5fwords',['RATE_WORDS',['../norx_8c.html#a6508c9cfc34d21ca8bda37b89a7d8b32',1,'norx.c']]],
-  ['recv_5fsize',['RECV_SIZE',['../backend__sock_8c.html#ab05e00e8cea9db60202e746d95818997',1,'backend_sock.c']]],
   ['red',['RED',['../quic_8h.html#a8d23feea868a983c8c2b661e1e16972f',1,'quic.h']]],
-  ['repeat',['REPEAT',['../uECC_8c.html#a71df1418dc0e17212da64e749f9df353',1,'uECC.c']]],
-  ['repeat_5f0',['REPEAT_0',['../uECC_8c.html#ae791ebf5b39abcbd2b5ba5494f9253a3',1,'uECC.c']]],
-  ['repeat_5fname_5f0',['REPEAT_NAME_0',['../uECC_8c.html#a8168c14fd54e464f968f2c66e361965c',1,'uECC.c']]],
-  ['repeat_5fname_5fsome',['REPEAT_NAME_SOME',['../uECC_8c.html#a44fb61b97c7031bd4fe98958f80189e6',1,'uECC.c']]],
-  ['repeat_5fsome',['REPEAT_SOME',['../uECC_8c.html#a7bc3fc5003f1c66a30dd1941bbc42398',1,'uECC.c']]],
-  ['repeatm',['REPEATM',['../uECC_8c.html#a9b1f1e9339894c0bca137832c16fa28b',1,'uECC.c']]],
-  ['repeatm_5f0',['REPEATM_0',['../uECC_8c.html#a0a8ac50decacafb7b86dbeaa24109ae0',1,'uECC.c']]],
-  ['repeatm_5fname_5f0',['REPEATM_NAME_0',['../uECC_8c.html#a06513eaea88314606c8c2b65412e63e4',1,'uECC.c']]],
-  ['repeatm_5fname_5fsome',['REPEATM_NAME_SOME',['../uECC_8c.html#a16384b1a31feb4441bcad06fac01738d',1,'uECC.c']]],
-  ['repeatm_5fsome',['REPEATM_SOME',['../uECC_8c.html#adec101a71fc486186cd45026846a1b23',1,'uECC.c']]],
-  ['rev',['REV',['../quic_8h.html#a33a42d6bfefe54ae2384f5c28dd87340',1,'quic.h']]],
-  ['rol32',['rol32',['../klib_2kurl_8c.html#a8309db2e24a91f68774f5917bb413cea',1,'rol32():&#160;kurl.c'],['../warpcore_2lib_2deps_2klib_2kurl_8c.html#a8309db2e24a91f68774f5917bb413cea',1,'rol32():&#160;kurl.c']]],
-  ['rot_5fword',['rot_word',['../aes_8c.html#ad6a26b1daa176db035270918b4953b9a',1,'aes.c']]],
-  ['round_5fconstant',['round_constant',['../aes_8c.html#aa10955a365035391d383d37be3aa1560',1,'aes.c']]],
-  ['rounds',['ROUNDS',['../norx_8c.html#a69479655ab94c875413d38689002ff98',1,'norx.c']]],
-  ['row',['ROW',['../salsa20_8c.html#ac6f18a9e1d00b4637522b1b469a92021',1,'salsa20.c']]],
-  ['rsa_5fcertificate',['RSA_CERTIFICATE',['../t_2openssl_8c.html#a1cfeec1715a29b425f11870b1a587a43',1,'openssl.c']]],
-  ['rsa_5fprivate_5fkey',['RSA_PRIVATE_KEY',['../t_2openssl_8c.html#ae4c09655b26a536a40051179bbad5e76',1,'openssl.c']]],
-  ['rwarn',['rwarn',['../warpcore_2lib_2include_2warpcore_2util_8h.html#a7bc0c9794d85e85e8f2d7266c832638f',1,'util.h']]]
+  ['rev',['REV',['../quic_8h.html#a33a42d6bfefe54ae2384f5c28dd87340',1,'quic.h']]]
 ];

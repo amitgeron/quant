@@ -1,6 +1,0 @@
-<map id="x9_62_create_context" name="x9_62_create_context">
-<area shape="rect" id="node2" href="$lib_2openssl_8c.html#a59a584502953f20946d2e549572bb74a" title="x9_62_on_exchange" alt="" coords="205,56,347,83"/>
-<area shape="rect" id="node5" href="$lib_2openssl_8c.html#a1063bec845599f050440e984e70ec405" title="x9_62_free_context" alt="" coords="397,107,533,133"/>
-<area shape="rect" id="node3" href="$lib_2openssl_8c.html#afb8ce80b71d518c9f9d6dc9c9eb29dda" title="x9_62_decode_point" alt="" coords="395,5,536,32"/>
-<area shape="rect" id="node4" href="$lib_2openssl_8c.html#adc4a76515279d9240313cc540526ae76" title="ecdh_calc_secret" alt="" coords="403,56,527,83"/>
-</map>

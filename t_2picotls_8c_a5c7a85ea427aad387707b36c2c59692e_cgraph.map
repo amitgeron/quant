@@ -1,5 +1,0 @@
-<map id="save_client_hello" name="save_client_hello">
-<area shape="rect" id="node2" href="$lib_2picotls_8c.html#abc4124b1bc5642960e94ebc06686a614" title="sets the server&#45;name associated to the TLS connection. " alt="" coords="177,5,327,32"/>
-<area shape="rect" id="node4" href="$lib_2picotls_8c.html#a41fbce078a20dbc2fe15bb0b25da3411" title="sets the negotiated protocol. " alt="" coords="185,57,319,98"/>
-<area shape="rect" id="node3" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="377,35,431,61"/>
-</map>

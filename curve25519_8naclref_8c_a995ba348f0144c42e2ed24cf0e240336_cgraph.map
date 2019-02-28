@@ -1,5 +1,0 @@
-<map id="recip" name="recip">
-<area shape="rect" id="node2" href="$curve25519_8naclref_8c.html#a7471add6b1c020d4b0723d75f6cfb163" title="square" alt="" coords="104,5,165,32"/>
-<area shape="rect" id="node4" href="$curve25519_8naclref_8c.html#a0e278dc68e20c984208be2688d0d4165" title="mult" alt="" coords="111,56,158,83"/>
-<area shape="rect" id="node3" href="$curve25519_8naclref_8c.html#a09a395b398c3655ed92bd8552713aa70" title="squeeze" alt="" coords="214,31,285,57"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="deps/picotls/deps/cifra/src/sha1.c" name="deps/picotls/deps/cifra/src/sha1.c">
-<area shape="rect" id="node3" href="$sha1_8h.html" title="sha1.h" alt="" coords="170,96,231,123"/>
-<area shape="rect" id="node7" href="$blockwise_8h.html" title="blockwise.h" alt="" coords="210,171,300,197"/>
-<area shape="rect" id="node8" href="$bitops_8h.html" title="bitops.h" alt="" coords="25,171,92,197"/>
-<area shape="rect" id="node9" href="$handy_8h.html" title="handy.h" alt="" coords="362,96,430,123"/>
-<area shape="rect" id="node10" href="$tassert_8h.html" title="tassert.h" alt="" coords="554,96,627,123"/>
-<area shape="rect" id="node6" href="$chash_8h.html" title="chash.h" alt="" coords="117,171,184,197"/>
-</map>

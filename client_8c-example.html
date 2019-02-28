@@ -126,7 +126,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><span class="preprocessor">#include &lt;http_parser.h&gt;</span></div>
 <div class="line"></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="quant_8h.html">quant/quant.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="warpcore_8h.html">warpcore/warpcore.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;warpcore/warpcore.h&gt;</span></div>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line"><span class="keyword">struct </span>conn_cache_entry {</div>
@@ -141,18 +141,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">};</div>
 <div class="line"></div>
 <div class="line"></div>
-<div class="line"><span class="keyword">static</span> uint64_t <a name="a2"></a><a class="code" href="ping_8c.html#aae6e82a30c30cc902f1cd85dead37f6a">timeout</a> = 10;</div>
+<div class="line"><span class="keyword">static</span> uint64_t timeout = 10;</div>
 <div class="line"><span class="keyword">static</span> uint64_t num_bufs = 100000;</div>
 <div class="line"><span class="keyword">static</span> uint64_t reps = 1;</div>
 <div class="line"><span class="keyword">static</span> <span class="keywordtype">bool</span> do_h3 = <span class="keyword">false</span>;</div>
-<div class="line"><span class="keyword">static</span> <span class="keywordtype">bool</span> <a name="a3"></a><a class="code" href="tls_8c.html#a4faeebf5e3d33bfea46325d8fa7343d6">flip_keys</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="keyword">static</span> <span class="keywordtype">bool</span> <a name="a2"></a><a class="code" href="tls_8c.html#a4faeebf5e3d33bfea46325d8fa7343d6">flip_keys</a> = <span class="keyword">false</span>;</div>
 <div class="line"><span class="keyword">static</span> <span class="keywordtype">bool</span> zlen_cids = <span class="keyword">false</span>;</div>
 <div class="line"><span class="keyword">static</span> <span class="keywordtype">bool</span> write_files = <span class="keyword">false</span>;</div>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line"><span class="keyword">static</span> uint32_t __attribute__((nonnull))</div>
 <div class="line">conn_cmp(const struct conn_cache_entry * const a,</div>
-<div class="line">         const struct conn_cache_entry * const <a name="a4"></a><a class="code" href="fuzz_8c.html#a84e99af7d0f536bd90cb3dab5c874749">b</a>)</div>
+<div class="line">         const struct conn_cache_entry * const b)</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">const</span> uint32_t diff = (a-&gt;dst.sin_addr.s_addr &gt; b-&gt;dst.sin_addr.s_addr) -</div>
 <div class="line">                          (a-&gt;dst.sin_addr.s_addr &lt; b-&gt;dst.sin_addr.s_addr);</div>
@@ -163,23 +163,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">}</div>
 <div class="line"></div>
 <div class="line"></div>
-<div class="line"><a name="a5"></a><a class="code" href="tree_8h.html#a75ee3833aa4387ba31979341c84b6954">SPLAY_PROTOTYPE</a>(conn_cache, conn_cache_entry, node, conn_cmp)</div>
-<div class="line"><a name="a6"></a><a class="code" href="tree_8h.html#a16173671c451dceee32260e5e7661d48">SPLAY_GENERATE</a>(conn_cache, conn_cache_entry, node, conn_cmp)</div>
+<div class="line"><a name="a3"></a><a class="code" href="tree_8h.html#a75ee3833aa4387ba31979341c84b6954">SPLAY_PROTOTYPE</a>(conn_cache, conn_cache_entry, node, conn_cmp)</div>
+<div class="line"><a name="a4"></a><a class="code" href="tree_8h.html#a16173671c451dceee32260e5e7661d48">SPLAY_GENERATE</a>(conn_cache, conn_cache_entry, node, conn_cmp)</div>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line">struct stream_entry {</div>
-<div class="line">    <a name="a7"></a><a class="code" href="queue_8h.html#a21968bf6fb00e216ead3f3c2ab62effc">sl_entry</a>(stream_entry) next;</div>
+<div class="line">    sl_entry(stream_entry) next;</div>
 <div class="line">    struct q_conn * c;</div>
-<div class="line">    struct <a name="_a8"></a><a class="code" href="structq__stream.html">q_stream</a> * s;</div>
+<div class="line">    struct <a name="_a5"></a><a class="code" href="structq__stream.html">q_stream</a> * s;</div>
 <div class="line">    const <span class="keywordtype">char</span> * url;</div>
 <div class="line">    struct timespec get_t;</div>
 <div class="line">};</div>
 <div class="line"></div>
 <div class="line"></div>
-<div class="line">static <a name="a9"></a><a class="code" href="queue_8h.html#a5c58ee59d48a0a4e5f347b433bb5a55a">sl_head</a>(stream_list, stream_entry) sl = <a name="a10"></a><a class="code" href="queue_8h.html#a3473fc2c9a55a6b7b3a192ddc7589228">sl_head_initializer</a>(sl);</div>
+<div class="line">static <a name="a6"></a><a class="code" href="conn_8h.html#addd27b7fdfd0f22d4c24b474c8738213">sl_head</a>(stream_list, stream_entry) sl = sl_head_initializer(sl);</div>
 <div class="line"></div>
 <div class="line"></div>
-<div class="line">static <span class="keywordtype">void</span> __attribute__((noreturn, nonnull)) <a name="a11"></a><a class="code" href="esni_8c.html#af1307a35da9646ba048347321301c323">usage</a>(const <span class="keywordtype">char</span> * const name,</div>
+<div class="line">static <span class="keywordtype">void</span> __attribute__((noreturn, nonnull)) usage(const <span class="keywordtype">char</span> * const name,</div>
 <div class="line">                                                     const <span class="keywordtype">char</span> * const ifname,</div>
 <div class="line">                                                     const <span class="keywordtype">char</span> * const cache,</div>
 <div class="line">                                                     const <span class="keywordtype">char</span> * const tls_log,</div>
@@ -190,7 +190,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">    printf(<span class="stringliteral">&quot;\t[-s cache]\tTLS 0-RTT state cache; default %s\n&quot;</span>, cache);</div>
 <div class="line">    printf(<span class="stringliteral">&quot;\t[-l log]\tlog file for TLS keys; default %s\n&quot;</span>, tls_log);</div>
 <div class="line">    printf(<span class="stringliteral">&quot;\t[-t timeout]\tidle timeout in seconds; default %&quot;</span> PRIu64 <span class="stringliteral">&quot;\n&quot;</span>,</div>
-<div class="line">           <a class="code" href="ping_8c.html#aae6e82a30c30cc902f1cd85dead37f6a">timeout</a>);</div>
+<div class="line">           timeout);</div>
 <div class="line">    printf(<span class="stringliteral">&quot;\t[-c]\t\tverify TLS certificates; default %s\n&quot;</span>,</div>
 <div class="line">           verify_certs ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>);</div>
 <div class="line">    printf(<span class="stringliteral">&quot;\t[-u]\t\tupdate TLS keys; default %s\n&quot;</span>,</div>
@@ -208,8 +208,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">        <span class="stringliteral">&quot;\n&quot;</span>,</div>
 <div class="line">        num_bufs);</div>
 <div class="line"><span class="preprocessor">#ifndef NDEBUG</span></div>
-<div class="line"><span class="preprocessor"></span>    printf(<span class="stringliteral">&quot;\t[-v verbosity]\tverbosity level (0-%d, default %d)\n&quot;</span>, <a name="a12"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a94c2776a2d1f9e44c3d327befe0d3bfe">DLEVEL</a>,</div>
-<div class="line">           <a name="a13"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#ade0743d672f539b1615b3a5d3b79486b">util_dlevel</a>);</div>
+<div class="line"><span class="preprocessor"></span>    printf(<span class="stringliteral">&quot;\t[-v verbosity]\tverbosity level (0-%d, default %d)\n&quot;</span>, DLEVEL,</div>
+<div class="line">           util_dlevel);</div>
 <div class="line"><span class="preprocessor">#endif</span></div>
 <div class="line"><span class="preprocessor"></span>    exit(0);</div>
 <div class="line">}</div>
@@ -217,7 +217,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"></div>
 <div class="line"><span class="keyword">static</span> <span class="keywordtype">void</span> __attribute__((nonnull))</div>
 <div class="line">set_from_url(<span class="keywordtype">char</span> * const var,</div>
-<div class="line">             const <span class="keywordtype">size_t</span> <a name="a14"></a><a class="code" href="t_2picotls_8c.html#a7360b55975153b822efc5217b7734e6a">len</a>,</div>
+<div class="line">             const <span class="keywordtype">size_t</span> len,</div>
 <div class="line">             const <span class="keywordtype">char</span> * const url,</div>
 <div class="line">             const struct http_parser_url * const u,</div>
 <div class="line">             const enum http_parser_url_fields f,</div>
@@ -235,13 +235,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"></div>
 <div class="line"><span class="keyword">static</span> <span class="keyword">struct </span>q_conn * __attribute__((nonnull))</div>
 <div class="line">get(const <span class="keywordtype">char</span> * const url,</div>
-<div class="line">    struct <a name="_a15"></a><a class="code" href="structw__engine.html">w_engine</a> * const <a name="a16"></a><a class="code" href="fuzz_8c.html#a8bedaecc1f0b28f6c3ec357ca967b33a">w</a>,</div>
+<div class="line">    struct w_engine * const w,</div>
 <div class="line">    struct conn_cache * const cc)</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// parse and verify the URIs passed on the command line</span></div>
 <div class="line">    <span class="keyword">struct </span>http_parser_url u = {0};</div>
-<div class="line">    http_parser_parse_url(url, <a name="a17"></a><a class="code" href="boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b">strlen</a>(url), 0, &amp;u);</div>
-<div class="line">    <a name="a18"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a1011ec002411388144b5eea764f90d83">ensure</a>((u.field_set &amp; (1 &lt;&lt; UF_USERINFO)) == 0 &amp;&amp;</div>
+<div class="line">    http_parser_parse_url(url, strlen(url), 0, &amp;u);</div>
+<div class="line">    ensure((u.field_set &amp; (1 &lt;&lt; UF_USERINFO)) == 0 &amp;&amp;</div>
 <div class="line">               (u.field_set &amp; (1 &lt;&lt; UF_QUERY)) == 0 &amp;&amp;</div>
 <div class="line">               (u.field_set &amp; (1 &lt;&lt; UF_FRAGMENT)) == 0,</div>
 <div class="line">           <span class="stringliteral">&quot;unsupported URL components&quot;</span>);</div>
@@ -258,17 +258,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">                                   .ai_protocol = IPPROTO_UDP};</div>
 <div class="line">    <span class="keyword">const</span> <span class="keywordtype">int</span> err = getaddrinfo(dest, port, &amp;hints, &amp;peer);</div>
 <div class="line">    <span class="keywordflow">if</span> (err) {</div>
-<div class="line">        <a name="a19"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a75fb9e13fe5fdbdbf4f0b7f34d25a887">warn</a>(<a name="a20"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a735563036dced0b7d6cc98f97ea4978b">ERR</a>, <span class="stringliteral">&quot;getaddrinfo: %s&quot;</span>, gai_strerror(err));</div>
+<div class="line">        warn(ERR, <span class="stringliteral">&quot;getaddrinfo: %s&quot;</span>, gai_strerror(err));</div>
 <div class="line">        freeaddrinfo(peer);</div>
 <div class="line">        <span class="keywordflow">return</span> 0;</div>
 <div class="line">    }</div>
 <div class="line"></div>
 <div class="line">    <span class="comment">// add to stream list</span></div>
 <div class="line">    <span class="keyword">struct </span>stream_entry * se = calloc(1, <span class="keyword">sizeof</span>(*se));</div>
-<div class="line">    <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a1011ec002411388144b5eea764f90d83">ensure</a>(se, <span class="stringliteral">&quot;calloc failed&quot;</span>);</div>
-<div class="line">    <a name="a21"></a><a class="code" href="queue_8h.html#a72440cf97e9104c203d28e6f2f877670">sl_insert_head</a>(&amp;sl, se, next);</div>
+<div class="line">    ensure(se, <span class="stringliteral">&quot;calloc failed&quot;</span>);</div>
+<div class="line">    sl_insert_head(&amp;sl, se, next);</div>
 <div class="line"></div>
-<div class="line">    <span class="keyword">struct </span><a name="_a22"></a><a class="code" href="structw__iov__sq.html">w_iov_sq</a> req = <a name="a23"></a><a class="code" href="warpcore_8h.html#adb7cefb61123a68cf87f6e33270af1dc">w_iov_sq_initializer</a>(req);</div>
+<div class="line">    <span class="keyword">struct </span>w_iov_sq req = w_iov_sq_initializer(req);</div>
 <div class="line">    <span class="keywordflow">if</span> (do_h3) {</div>
 <div class="line">        <span class="comment">// static const uint8_t h3_get_large[] = {</span></div>
 <div class="line">        <span class="comment">//     0x01, 0x00, 0x00, 0xd1, 0x5f, 0x07, 0x04, 0x48, 0x54, 0x54, 0x50,</span></div>
@@ -285,7 +285,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">            0x65, 0x2c, 0x89, 0x29, 0x27, 0x5c, 0x87, 0xa7, 0x5f, 0x50, 0x93,</div>
 <div class="line">            0xce, 0x3b, 0x10, 0xa6, 0x09, 0xa6, 0x2d, 0x89, 0xff, 0x48, 0x52,</div>
 <div class="line">            0x91, 0xcc, 0x62, 0x29, 0x1f, 0xa4, 0x95, 0x1f};</div>
-<div class="line">        <a name="a24"></a><a class="code" href="quant_8h.html#a259552347b2ef970bf6955dd5995449a">q_chunk_str</a>(w, (<span class="keyword">const</span> <span class="keywordtype">char</span> *)h3_get_slash, <span class="keyword">sizeof</span>(h3_get_slash), &amp;req);</div>
+<div class="line">        <a name="a7"></a><a class="code" href="quant_8h.html#a259552347b2ef970bf6955dd5995449a">q_chunk_str</a>(w, (<span class="keyword">const</span> <span class="keywordtype">char</span> *)h3_get_slash, <span class="keyword">sizeof</span>(h3_get_slash), &amp;req);</div>
 <div class="line">    } <span class="keywordflow">else</span> {</div>
 <div class="line">        <span class="comment">// assemble an HTTP/0.9 request</span></div>
 <div class="line">        <span class="keywordtype">char</span> req_str[MAXPATHLEN + 6];</div>
@@ -297,14 +297,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">    <span class="comment">// do we have a connection open to this peer?</span></div>
 <div class="line">    <span class="keyword">const</span> <span class="keyword">struct </span>conn_cache_entry which = {</div>
 <div class="line">        .dst = *(<span class="keyword">struct </span>sockaddr_in *)&amp;peer-&gt;ai_addr};</div>
-<div class="line">    <span class="keyword">struct </span>conn_cache_entry * cce = <a name="a25"></a><a class="code" href="tree_8h.html#a8dfbb62d4bfecd68c542083bb0d6de3c">splay_find</a>(conn_cache, cc, &amp;which);</div>
+<div class="line">    <span class="keyword">struct </span>conn_cache_entry * cce = <a name="a8"></a><a class="code" href="tree_8h.html#a8dfbb62d4bfecd68c542083bb0d6de3c">splay_find</a>(conn_cache, cc, &amp;which);</div>
 <div class="line">    <span class="keywordflow">if</span> (cce == 0) {</div>
 <div class="line">        clock_gettime(CLOCK_MONOTONIC, &amp;se-&gt;get_t);</div>
 <div class="line">        <span class="comment">// no, open a new connection</span></div>
 <div class="line">        <span class="keyword">struct </span>q_conn * <span class="keyword">const</span> c =</div>
-<div class="line">            <a name="a26"></a><a class="code" href="quant_8h.html#ab0c9c9d9ea7d2af5906f6a6e63d30233">q_connect</a>(w, peer-&gt;ai_addr, dest, &amp;req, &amp;se-&gt;s, <span class="keyword">true</span>,</div>
-<div class="line">                      &amp;(<span class="keyword">struct</span> <a name="_a27"></a><a class="code" href="structq__conn__conf.html">q_conn_conf</a>){.alpn = do_h3 ? <span class="stringliteral">&quot;h3-18&quot;</span> : <span class="stringliteral">&quot;hq-18&quot;</span>,</div>
-<div class="line">                                            .idle_timeout = <a class="code" href="ping_8c.html#aae6e82a30c30cc902f1cd85dead37f6a">timeout</a>,</div>
+<div class="line">            <a name="a9"></a><a class="code" href="quant_8h.html#ab0c9c9d9ea7d2af5906f6a6e63d30233">q_connect</a>(w, peer-&gt;ai_addr, dest, &amp;req, &amp;se-&gt;s, <span class="keyword">true</span>,</div>
+<div class="line">                      &amp;(<span class="keyword">struct</span> <a name="_a10"></a><a class="code" href="structq__conn__conf.html">q_conn_conf</a>){.alpn = do_h3 ? <span class="stringliteral">&quot;h3-18&quot;</span> : <span class="stringliteral">&quot;hq-18&quot;</span>,</div>
+<div class="line">                                            .idle_timeout = timeout,</div>
 <div class="line">                                            .enable_spinbit = <span class="keyword">true</span>,</div>
 <div class="line">                                            .enable_tls_key_updates = <a class="code" href="tls_8c.html#a4faeebf5e3d33bfea46325d8fa7343d6">flip_keys</a>,</div>
 <div class="line">                                            .enable_zero_len_cid = zlen_cids});</div>
@@ -315,30 +315,30 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"></div>
 <div class="line">        <span class="keywordflow">if</span> (do_h3) {</div>
 <div class="line">            <span class="comment">// we need to open a uni stream for an empty H/3 SETTINGS frame</span></div>
-<div class="line">            <span class="keyword">struct </span><a class="code" href="structq__stream.html">q_stream</a> * <span class="keyword">const</span> ss = <a name="a28"></a><a class="code" href="quant_8h.html#a7882234166a0aaac582c25c4c8a581b8">q_rsv_stream</a>(c, <span class="keyword">false</span>);</div>
+<div class="line">            <span class="keyword">struct </span><a class="code" href="structq__stream.html">q_stream</a> * <span class="keyword">const</span> ss = <a name="a11"></a><a class="code" href="quant_8h.html#a7882234166a0aaac582c25c4c8a581b8">q_rsv_stream</a>(c, <span class="keyword">false</span>);</div>
 <div class="line">            <span class="keywordflow">if</span> (ss == 0)</div>
 <div class="line">                <span class="keywordflow">return</span> 0;</div>
 <div class="line">            <span class="keyword">static</span> <span class="keyword">const</span> uint8_t h3_empty_settings[] = {0x43, 0x00, 0x04};</div>
 <div class="line">            <span class="comment">// XXX lsquic doesn&#39;t like a FIN on this stream</span></div>
-<div class="line">            <a name="a29"></a><a class="code" href="quant_8h.html#a3fe837399476c6ae443a5f17b5eb644f">q_write_str</a>(w, ss, (<span class="keyword">const</span> <span class="keywordtype">char</span> *)h3_empty_settings,</div>
+<div class="line">            <a name="a12"></a><a class="code" href="quant_8h.html#a3fe837399476c6ae443a5f17b5eb644f">q_write_str</a>(w, ss, (<span class="keyword">const</span> <span class="keywordtype">char</span> *)h3_empty_settings,</div>
 <div class="line">                        <span class="keyword">sizeof</span>(h3_empty_settings), <span class="keyword">false</span>);</div>
 <div class="line">            <span class="comment">// q_close_stream(ss);</span></div>
 <div class="line">        }</div>
 <div class="line"></div>
 <div class="line">        cce = calloc(1, <span class="keyword">sizeof</span>(*cce));</div>
-<div class="line">        <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a1011ec002411388144b5eea764f90d83">ensure</a>(cce, <span class="stringliteral">&quot;calloc failed&quot;</span>);</div>
-<div class="line">        cce-&gt;c = <a name="a30"></a><a class="code" href="structq__stream.html#a5b8ba13474f46cc170e3ab67ce61816d">c</a>;</div>
+<div class="line">        ensure(cce, <span class="stringliteral">&quot;calloc failed&quot;</span>);</div>
+<div class="line">        cce-&gt;c = <a name="a13"></a><a class="code" href="structq__stream.html#a5b8ba13474f46cc170e3ab67ce61816d">c</a>;</div>
 <div class="line"></div>
 <div class="line">        <span class="comment">// insert into connection cache</span></div>
 <div class="line">        cce-&gt;dst = *(<span class="keyword">struct </span>sockaddr_in *)&amp;peer-&gt;ai_addr;</div>
-<div class="line">        <a name="a31"></a><a class="code" href="tree_8h.html#a990df62053491b066bd9fc5bf46fcccf">splay_insert</a>(conn_cache, cc, cce);</div>
+<div class="line">        <a name="a14"></a><a class="code" href="tree_8h.html#a990df62053491b066bd9fc5bf46fcccf">splay_insert</a>(conn_cache, cc, cce);</div>
 <div class="line"></div>
 <div class="line">    } <span class="keywordflow">else</span> {</div>
 <div class="line">        se-&gt;s = <a class="code" href="quant_8h.html#a7882234166a0aaac582c25c4c8a581b8">q_rsv_stream</a>(cce-&gt;c, <span class="keyword">true</span>);</div>
 <div class="line">        <span class="keywordflow">if</span> (se-&gt;s == 0)</div>
 <div class="line">            <span class="keywordflow">return</span> 0;</div>
 <div class="line">        clock_gettime(CLOCK_MONOTONIC, &amp;se-&gt;get_t);</div>
-<div class="line">        <a name="a32"></a><a class="code" href="quant_8h.html#a84a599e3fc846bd85dae279762ca9851">q_write</a>(se-&gt;s, &amp;req, <span class="keyword">true</span>);</div>
+<div class="line">        <a name="a15"></a><a class="code" href="quant_8h.html#a84a599e3fc846bd85dae279762ca9851">q_write</a>(se-&gt;s, &amp;req, <span class="keyword">true</span>);</div>
 <div class="line">    }</div>
 <div class="line"></div>
 <div class="line">    se-&gt;c = cce-&gt;c;</div>
@@ -350,9 +350,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"></div>
 <div class="line"><span class="keyword">static</span> <span class="keywordtype">void</span> __attribute__((nonnull)) free_cc(struct conn_cache * const cc)</div>
 <div class="line">{</div>
-<div class="line">    <span class="keywordflow">while</span> (!<a name="a33"></a><a class="code" href="tree_8h.html#a24fe1493be955b157c7656d9474365b5">splay_empty</a>(cc)) {</div>
-<div class="line">        <span class="keyword">struct </span>conn_cache_entry * <span class="keyword">const</span> cce = <a name="a34"></a><a class="code" href="tree_8h.html#a55827c54c44ab1480283ed4997f9baab">splay_min</a>(conn_cache, cc);</div>
-<div class="line">        <a name="a35"></a><a class="code" href="tree_8h.html#a46ed6309767c18029a602ed1ce45c422">splay_remove</a>(conn_cache, cc, cce);</div>
+<div class="line">    <span class="keywordflow">while</span> (!<a name="a16"></a><a class="code" href="tree_8h.html#a24fe1493be955b157c7656d9474365b5">splay_empty</a>(cc)) {</div>
+<div class="line">        <span class="keyword">struct </span>conn_cache_entry * <span class="keyword">const</span> cce = <a name="a17"></a><a class="code" href="tree_8h.html#a55827c54c44ab1480283ed4997f9baab">splay_min</a>(conn_cache, cc);</div>
+<div class="line">        <a name="a18"></a><a class="code" href="tree_8h.html#a46ed6309767c18029a602ed1ce45c422">splay_remove</a>(conn_cache, cc, cce);</div>
 <div class="line">        free(cce);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
@@ -361,17 +361,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><span class="keyword">static</span> <span class="keywordtype">void</span> free_sl(<span class="keywordtype">void</span>)</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">struct </span>stream_entry *i = 0, *tmp = 0;</div>
-<div class="line">    <a name="a36"></a><a class="code" href="queue_8h.html#a8ea0f8554994dfb90f1fa4806258101c">sl_foreach_safe</a> (i, &amp;sl, next, tmp) {</div>
-<div class="line">        <a name="a37"></a><a class="code" href="queue_8h.html#a8544a13ddbd06323219b6c994098e27e">sl_remove</a>(&amp;sl, i, stream_entry, next);</div>
+<div class="line">    sl_foreach_safe (i, &amp;sl, next, tmp) {</div>
+<div class="line">        sl_remove(&amp;sl, i, stream_entry, next);</div>
 <div class="line">        free(i);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="line"></div>
 <div class="line"></div>
-<div class="line"><span class="keywordtype">int</span> <a name="a38"></a><a class="code" href="klib_2test_2kavl__test_8c.html#a840291bc02cba5474a4cb46a9b9566fe">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> * argv[])</div>
+<div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> * argv[])</div>
 <div class="line">{</div>
 <div class="line"><span class="preprocessor">#ifndef NDEBUG</span></div>
-<div class="line"><span class="preprocessor"></span>    <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#ade0743d672f539b1615b3a5d3b79486b">util_dlevel</a> = <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a94c2776a2d1f9e44c3d327befe0d3bfe">DLEVEL</a>; <span class="comment">// default to maximum compiled-in verbosity</span></div>
+<div class="line"><span class="preprocessor"></span>    util_dlevel = DLEVEL; <span class="comment">// default to maximum compiled-in verbosity</span></div>
 <div class="line"><span class="preprocessor">#endif</span></div>
 <div class="line"><span class="preprocessor"></span>    <span class="keywordtype">char</span> ifname[IFNAMSIZ] = <span class="stringliteral">&quot;lo&quot;</span></div>
 <div class="line"><span class="preprocessor">#ifndef __linux__</span></div>
@@ -379,8 +379,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><span class="preprocessor">#endif</span></div>
 <div class="line"><span class="preprocessor"></span>        ;</div>
 <div class="line">    <span class="keywordtype">int</span> ch;</div>
-<div class="line">    <span class="keywordtype">char</span> cache[MAXPATHLEN] = <span class="stringliteral">&quot;/tmp/&quot;</span> <a name="a39"></a><a class="code" href="include_2quant_2config_8h.html#a12c9d614554664180937dfc530273668">QUANT</a> <span class="stringliteral">&quot;-session&quot;</span>;</div>
-<div class="line">    <span class="keywordtype">char</span> tls_log[MAXPATHLEN] = <span class="stringliteral">&quot;/tmp/&quot;</span> <a class="code" href="include_2quant_2config_8h.html#a12c9d614554664180937dfc530273668">QUANT</a> <span class="stringliteral">&quot;-tlslog&quot;</span>;</div>
+<div class="line">    <span class="keywordtype">char</span> cache[MAXPATHLEN] = <span class="stringliteral">&quot;/tmp/&quot;</span> <a name="a19"></a><a class="code" href="config_8h.html#a12c9d614554664180937dfc530273668">QUANT</a> <span class="stringliteral">&quot;-session&quot;</span>;</div>
+<div class="line">    <span class="keywordtype">char</span> tls_log[MAXPATHLEN] = <span class="stringliteral">&quot;/tmp/&quot;</span> <a class="code" href="config_8h.html#a12c9d614554664180937dfc530273668">QUANT</a> <span class="stringliteral">&quot;-tlslog&quot;</span>;</div>
 <div class="line">    <span class="keywordtype">bool</span> verify_certs = <span class="keyword">false</span>;</div>
 <div class="line">    <span class="keywordtype">int</span> ret = 0;</div>
 <div class="line"></div>
@@ -393,13 +393,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">            strncpy(cache, optarg, <span class="keyword">sizeof</span>(cache) - 1);</div>
 <div class="line">            <span class="keywordflow">break</span>;</div>
 <div class="line">        <span class="keywordflow">case</span> <span class="charliteral">&#39;t&#39;</span>:</div>
-<div class="line">            <a class="code" href="ping_8c.html#aae6e82a30c30cc902f1cd85dead37f6a">timeout</a> = <a name="a40"></a><a class="code" href="handy_8h.html#a74e75242132eaabbc1c512488a135926">MIN</a>(600, strtoul(optarg, 0, 10)); <span class="comment">// 10 min</span></div>
+<div class="line">            timeout = MIN(600, strtoul(optarg, 0, 10)); <span class="comment">// 10 min</span></div>
 <div class="line">            <span class="keywordflow">break</span>;</div>
 <div class="line">        <span class="keywordflow">case</span> <span class="charliteral">&#39;b&#39;</span>:</div>
-<div class="line">            num_bufs = MAX(1000, <a class="code" href="handy_8h.html#a74e75242132eaabbc1c512488a135926">MIN</a>(strtoul(optarg, 0, 10), UINT32_MAX));</div>
+<div class="line">            num_bufs = MAX(1000, MIN(strtoul(optarg, 0, 10), UINT32_MAX));</div>
 <div class="line">            <span class="keywordflow">break</span>;</div>
 <div class="line">        <span class="keywordflow">case</span> <span class="charliteral">&#39;r&#39;</span>:</div>
-<div class="line">            reps = MAX(1, <a class="code" href="handy_8h.html#a74e75242132eaabbc1c512488a135926">MIN</a>(strtoul(optarg, 0, 10), UINT64_MAX));</div>
+<div class="line">            reps = MAX(1, MIN(strtoul(optarg, 0, 10), UINT64_MAX));</div>
 <div class="line">            <span class="keywordflow">break</span>;</div>
 <div class="line">        <span class="keywordflow">case</span> <span class="charliteral">&#39;l&#39;</span>:</div>
 <div class="line">            strncpy(tls_log, optarg, <span class="keyword">sizeof</span>(tls_log) - 1);</div>
@@ -421,62 +421,62 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">            <span class="keywordflow">break</span>;</div>
 <div class="line">        <span class="keywordflow">case</span> <span class="charliteral">&#39;v&#39;</span>:</div>
 <div class="line"><span class="preprocessor">#ifndef NDEBUG</span></div>
-<div class="line"><span class="preprocessor"></span>            <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#ade0743d672f539b1615b3a5d3b79486b">util_dlevel</a> = (short)<a class="code" href="handy_8h.html#a74e75242132eaabbc1c512488a135926">MIN</a>(<a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a94c2776a2d1f9e44c3d327befe0d3bfe">DLEVEL</a>, strtoul(optarg, 0, 10));</div>
+<div class="line"><span class="preprocessor"></span>            util_dlevel = (short)MIN(DLEVEL, strtoul(optarg, 0, 10));</div>
 <div class="line"><span class="preprocessor">#endif</span></div>
 <div class="line"><span class="preprocessor"></span>            <span class="keywordflow">break</span>;</div>
 <div class="line">        <span class="keywordflow">case</span> <span class="charliteral">&#39;h&#39;</span>:</div>
 <div class="line">        <span class="keywordflow">case</span> <span class="charliteral">&#39;?&#39;</span>:</div>
 <div class="line">        <span class="keywordflow">default</span>:</div>
-<div class="line">            <a class="code" href="esni_8c.html#af1307a35da9646ba048347321301c323">usage</a>(<a name="a41"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#abf5f17d3254f2e930aee0dc34dbff071">basename</a>(argv[0]), ifname, cache, tls_log, verify_certs);</div>
+<div class="line">            usage(basename(argv[0]), ifname, cache, tls_log, verify_certs);</div>
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line"></div>
-<div class="line">    <span class="keyword">struct </span><a class="code" href="structw__engine.html">w_engine</a> * <span class="keyword">const</span> w = <a name="a42"></a><a class="code" href="quant_8h.html#a9e861b437adeddbef368f166d9fc9730">q_init</a>(</div>
-<div class="line">        ifname, &amp;(<span class="keyword">const</span> <span class="keyword">struct</span> <a name="_a43"></a><a class="code" href="structq__conf.html">q_conf</a>){.num_bufs = num_bufs,</div>
+<div class="line">    <span class="keyword">struct </span>w_engine * <span class="keyword">const</span> w = <a name="a20"></a><a class="code" href="quant_8h.html#a9e861b437adeddbef368f166d9fc9730">q_init</a>(</div>
+<div class="line">        ifname, &amp;(<span class="keyword">const</span> <span class="keyword">struct</span> <a name="_a21"></a><a class="code" href="structq__conf.html">q_conf</a>){.num_bufs = num_bufs,</div>
 <div class="line">                                       .ticket_store = cache,</div>
 <div class="line">                                       .tls_log = tls_log,</div>
 <div class="line">                                       .enable_tls_cert_verify = verify_certs});</div>
-<div class="line">    <span class="keyword">struct </span>conn_cache cc = <a name="a44"></a><a class="code" href="tree_8h.html#a775191709e88f08905292494be6ca51e">splay_initializer</a>(cc);</div>
+<div class="line">    <span class="keyword">struct </span>conn_cache cc = <a name="a22"></a><a class="code" href="tree_8h.html#a775191709e88f08905292494be6ca51e">splay_initializer</a>(cc);</div>
 <div class="line"></div>
 <div class="line">    <span class="keywordflow">if</span> (reps &gt; 1)</div>
 <div class="line">        puts(<span class="stringliteral">&quot;size\ttime\t\tbps\t\turl&quot;</span>);</div>
-<div class="line">    <span class="keywordflow">for</span> (uint64_t <a name="a45"></a><a class="code" href="test__queue_8c.html#a5391b7f1199d134d62d41f3734ad4322">r</a> = 1; <a class="code" href="test__queue_8c.html#a5391b7f1199d134d62d41f3734ad4322">r</a> &lt;= reps; <a class="code" href="test__queue_8c.html#a5391b7f1199d134d62d41f3734ad4322">r</a>++) {</div>
+<div class="line">    <span class="keywordflow">for</span> (uint64_t r = 1; r &lt;= reps; r++) {</div>
 <div class="line">        <span class="keywordtype">int</span> url_idx = optind;</div>
 <div class="line">        <span class="keywordflow">while</span> (url_idx &lt; argc) {</div>
 <div class="line">            <span class="comment">// open a new connection, or get an open one</span></div>
-<div class="line">            <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a75fb9e13fe5fdbdbf4f0b7f34d25a887">warn</a>(<a name="a46"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a12c2040f25d8e3a7b9e1c2024c618cb6">INF</a>, <span class="stringliteral">&quot;%s retrieving %s&quot;</span>, <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#abf5f17d3254f2e930aee0dc34dbff071">basename</a>(argv[0]), argv[url_idx]);</div>
+<div class="line">            warn(INF, <span class="stringliteral">&quot;%s retrieving %s&quot;</span>, basename(argv[0]), argv[url_idx]);</div>
 <div class="line">            <span class="keywordflow">if</span> (<span class="keyword">get</span>(argv[url_idx++], w, &amp;cc) == 0) {</div>
 <div class="line">                <span class="comment">// q_connect() failed</span></div>
 <div class="line">                ret = 1;</div>
-<div class="line">                <span class="keywordflow">goto</span> <a name="a47"></a><a class="code" href="inetd_8c.html#a1d39aac66e12dae50a24cd7a9100ef33">done</a>;</div>
+<div class="line">                <span class="keywordflow">goto</span> done;</div>
 <div class="line">            }</div>
 <div class="line">        }</div>
 <div class="line"></div>
 <div class="line">        <span class="comment">// collect the replies</span></div>
-<div class="line">        <span class="keyword">struct </span>stream_entry * se = <a name="a48"></a><a class="code" href="queue_8h.html#a66676caf1496b69dc6c7e3e057bb3d04">sl_first</a>(&amp;sl);</div>
+<div class="line">        <span class="keyword">struct </span>stream_entry * se = sl_first(&amp;sl);</div>
 <div class="line">        <span class="keywordflow">while</span> (se) {</div>
 <div class="line">            <span class="comment">// read HTTP/0.9 reply and dump it to stdout</span></div>
-<div class="line">            <span class="keyword">struct </span><a class="code" href="structw__iov__sq.html">w_iov_sq</a> i = <a class="code" href="warpcore_8h.html#adb7cefb61123a68cf87f6e33270af1dc">w_iov_sq_initializer</a>(i);</div>
+<div class="line">            <span class="keyword">struct </span>w_iov_sq i = w_iov_sq_initializer(i);</div>
 <div class="line">            <span class="keywordflow">if</span> (se-&gt;c == 0) {</div>
-<div class="line">                se = <a name="a49"></a><a class="code" href="queue_8h.html#a68c442ba2f977720f97cf205bb0530e1">sl_next</a>(se, next);</div>
+<div class="line">                se = sl_next(se, next);</div>
 <div class="line">                <span class="keywordflow">continue</span>;</div>
 <div class="line">            }</div>
-<div class="line">            <a name="a50"></a><a class="code" href="quant_8h.html#a091ea7435979b979ace99392b6d65a5a">q_readall_stream</a>(se-&gt;s, &amp;i);</div>
+<div class="line">            <a name="a23"></a><a class="code" href="quant_8h.html#a091ea7435979b979ace99392b6d65a5a">q_readall_stream</a>(se-&gt;s, &amp;i);</div>
 <div class="line"></div>
 <div class="line">            <span class="keywordflow">if</span> (reps &gt; 1) {</div>
 <div class="line">                <span class="keyword">struct </span>timespec after, diff;</div>
 <div class="line">                clock_gettime(CLOCK_MONOTONIC, &amp;after);</div>
-<div class="line">                <a name="a51"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a098003aed955c46d7d60ab9cdbb65502">timespec_sub</a>(&amp;after, &amp;se-&gt;get_t, &amp;diff);</div>
-<div class="line">                <span class="keyword">const</span> <span class="keywordtype">double</span> elapsed = <a name="a52"></a><a class="code" href="quant_8h.html#ad730169520eef2aa5eec7bb94249079e">timespec_to_double</a>(diff);</div>
-<div class="line">                printf(<span class="stringliteral">&quot;%&quot;</span> PRIu64 <span class="stringliteral">&quot;\t%f\t\&quot;%s\&quot;\t%s\n&quot;</span>, <a name="a53"></a><a class="code" href="warpcore_8h.html#acec933a0dba371ff10bd35397aed87e9">w_iov_sq_len</a>(&amp;i),</div>
-<div class="line">                       elapsed, <a name="a54"></a><a class="code" href="quant_8h.html#a56efa09372b3747147230398e29974f0">bps</a>(<a class="code" href="warpcore_8h.html#acec933a0dba371ff10bd35397aed87e9">w_iov_sq_len</a>(&amp;i), elapsed), se-&gt;url);</div>
+<div class="line">                timespec_sub(&amp;after, &amp;se-&gt;get_t, &amp;diff);</div>
+<div class="line">                <span class="keyword">const</span> <span class="keywordtype">double</span> elapsed = <a name="a24"></a><a class="code" href="quant_8h.html#ad730169520eef2aa5eec7bb94249079e">timespec_to_double</a>(diff);</div>
+<div class="line">                printf(<span class="stringliteral">&quot;%&quot;</span> PRIu64 <span class="stringliteral">&quot;\t%f\t\&quot;%s\&quot;\t%s\n&quot;</span>, w_iov_sq_len(&amp;i),</div>
+<div class="line">                       elapsed, <a name="a25"></a><a class="code" href="quant_8h.html#a56efa09372b3747147230398e29974f0">bps</a>(w_iov_sq_len(&amp;i), elapsed), se-&gt;url);</div>
 <div class="line">            }</div>
 <div class="line"></div>
-<div class="line">            <a name="a55"></a><a class="code" href="quant_8h.html#a01444581bd34af25498d1cb8fc3a0a92">q_close_stream</a>(se-&gt;s);</div>
-<div class="line">            <span class="keywordflow">if</span> (<a name="a56"></a><a class="code" href="warpcore_8h.html#ab0d7e80a565b2ad694def961428e62ec">w_iov_sq_cnt</a>(&amp;i) == 0) {</div>
+<div class="line">            <a name="a26"></a><a class="code" href="quant_8h.html#a01444581bd34af25498d1cb8fc3a0a92">q_close_stream</a>(se-&gt;s);</div>
+<div class="line">            <span class="keywordflow">if</span> (w_iov_sq_cnt(&amp;i) == 0) {</div>
 <div class="line">                <span class="comment">// no data read</span></div>
 <div class="line">                ret = 1;</div>
-<div class="line">                <span class="keywordflow">goto</span> <a class="code" href="inetd_8c.html#a1d39aac66e12dae50a24cd7a9100ef33">done</a>;</div>
+<div class="line">                <span class="keywordflow">goto</span> done;</div>
 <div class="line">            }</div>
 <div class="line"></div>
 <div class="line">            <span class="keywordtype">char</span> * <span class="keyword">const</span> slash = strrchr(se-&gt;url, <span class="charliteral">&#39;/&#39;</span>);</div>
@@ -485,65 +485,65 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">                *slash = 0;</div>
 <div class="line">            <span class="keywordtype">int</span> fd = 0;</div>
 <div class="line">            <span class="keywordflow">if</span> (write_files) {</div>
-<div class="line">                fd = open(*<a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#abf5f17d3254f2e930aee0dc34dbff071">basename</a>(se-&gt;url) == 0 ? <span class="stringliteral">&quot;index.html&quot;</span></div>
-<div class="line">                                                  : <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#abf5f17d3254f2e930aee0dc34dbff071">basename</a>(se-&gt;url),</div>
+<div class="line">                fd = open(*basename(se-&gt;url) == 0 ? <span class="stringliteral">&quot;index.html&quot;</span></div>
+<div class="line">                                                  : basename(se-&gt;url),</div>
 <div class="line">                          O_CREAT | O_WRONLY | O_CLOEXEC,</div>
 <div class="line">                          S_IRUSR | S_IWUSR | S_IRGRP);</div>
-<div class="line">                <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a1011ec002411388144b5eea764f90d83">ensure</a>(fd != -1, <span class="stringliteral">&quot;cannot open %s&quot;</span>, <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#abf5f17d3254f2e930aee0dc34dbff071">basename</a>(se-&gt;url));</div>
+<div class="line">                ensure(fd != -1, <span class="stringliteral">&quot;cannot open %s&quot;</span>, basename(se-&gt;url));</div>
 <div class="line">            }</div>
 <div class="line"></div>
 <div class="line">            <span class="comment">// save the object, and print its first three packets to stdout</span></div>
-<div class="line">            <span class="keyword">struct </span><a name="_a57"></a><a class="code" href="structw__iov.html">w_iov</a> * v;</div>
+<div class="line">            <span class="keyword">struct </span>w_iov * v;</div>
 <div class="line">            uint32_t n = 0;</div>
-<div class="line">            <a name="a58"></a><a class="code" href="queue_8h.html#a761acddd0a38de75bf2777998f69add5">sq_foreach</a> (v, &amp;i, next) {</div>
+<div class="line">            sq_foreach (v, &amp;i, next) {</div>
 <div class="line">                <span class="keywordflow">if</span> (write_files)</div>
-<div class="line">                    <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a1011ec002411388144b5eea764f90d83">ensure</a>(write(fd, v-&gt;<a name="a59"></a><a class="code" href="structw__iov.html#a2b33510e8a5b556deef4fb2b29b62a9e">buf</a>, v-&gt;<a name="a60"></a><a class="code" href="structw__iov.html#a362d3a1b5838b941b52350f86be23f4d">len</a>) != -1, <span class="stringliteral">&quot;cannot write&quot;</span>);</div>
-<div class="line">                <span class="keywordflow">if</span> (<a class="code" href="warpcore_8h.html#ab0d7e80a565b2ad694def961428e62ec">w_iov_sq_cnt</a>(&amp;i) &gt; 100 || reps &gt; 1)</div>
+<div class="line">                    ensure(write(fd, v-&gt;buf, v-&gt;len) != -1, <span class="stringliteral">&quot;cannot write&quot;</span>);</div>
+<div class="line">                <span class="keywordflow">if</span> (w_iov_sq_cnt(&amp;i) &gt; 100 || reps &gt; 1)</div>
 <div class="line">                    <span class="comment">// don&#39;t print large responses, or repeated ones</span></div>
 <div class="line">                    <span class="keywordflow">continue</span>;</div>
 <div class="line"></div>
 <div class="line">                <span class="comment">// XXX the strnlen() test is super-hacky</span></div>
 <div class="line">                <span class="keywordflow">if</span> (do_h3 &amp;&amp; n == 0 &amp;&amp;</div>
-<div class="line">                    strnlen((<span class="keywordtype">char</span> *)v-&gt;<a class="code" href="structw__iov.html#a2b33510e8a5b556deef4fb2b29b62a9e">buf</a>, v-&gt;<a class="code" href="structw__iov.html#a362d3a1b5838b941b52350f86be23f4d">len</a>) == v-&gt;<a class="code" href="structw__iov.html#a362d3a1b5838b941b52350f86be23f4d">len</a>)</div>
-<div class="line">                    <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a75fb9e13fe5fdbdbf4f0b7f34d25a887">warn</a>(<a name="a61"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a5806c572b7b8636004096dc51a03ff88">WRN</a>, <span class="stringliteral">&quot;no h3 payload&quot;</span>);</div>
-<div class="line">                <span class="keywordflow">if</span> (n &lt; 4 || v == <a name="a62"></a><a class="code" href="queue_8h.html#a96983e6ad7b9e7685c799540b7f78e8b">sq_last</a>(&amp;i, <a class="code" href="structw__iov.html">w_iov</a>, next)) {</div>
+<div class="line">                    strnlen((<span class="keywordtype">char</span> *)v-&gt;buf, v-&gt;len) == v-&gt;len)</div>
+<div class="line">                    warn(WRN, <span class="stringliteral">&quot;no h3 payload&quot;</span>);</div>
+<div class="line">                <span class="keywordflow">if</span> (n &lt; 4 || v == sq_last(&amp;i, w_iov, next)) {</div>
 <div class="line">                    <span class="keywordflow">if</span> (do_h3)</div>
-<div class="line">                        <a name="a63"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a1ecaf849af500832b2da48e3c60794de">hexdump</a>(v-&gt;<a class="code" href="structw__iov.html#a2b33510e8a5b556deef4fb2b29b62a9e">buf</a>, v-&gt;<a class="code" href="structw__iov.html#a362d3a1b5838b941b52350f86be23f4d">len</a>);</div>
+<div class="line">                        hexdump(v-&gt;buf, v-&gt;len);</div>
 <div class="line">                    <span class="keywordflow">else</span> {</div>
 <div class="line">                        <span class="comment">// don&#39;t print newlines to console log</span></div>
-<div class="line">                        <span class="keywordflow">for</span> (uint16_t p = 0; p &lt; v-&gt;<a class="code" href="structw__iov.html#a362d3a1b5838b941b52350f86be23f4d">len</a>; p++)</div>
-<div class="line">                            <span class="keywordflow">if</span> (v-&gt;<a class="code" href="structw__iov.html#a2b33510e8a5b556deef4fb2b29b62a9e">buf</a>[p] == <span class="charliteral">&#39;\n&#39;</span> || v-&gt;<a class="code" href="structw__iov.html#a2b33510e8a5b556deef4fb2b29b62a9e">buf</a>[p] == <span class="charliteral">&#39;\r&#39;</span>)</div>
-<div class="line">                                v-&gt;<a class="code" href="structw__iov.html#a2b33510e8a5b556deef4fb2b29b62a9e">buf</a>[p] = <span class="charliteral">&#39; &#39;</span>;</div>
-<div class="line">                        printf(<span class="stringliteral">&quot;%.*s&quot;</span>, v-&gt;<a class="code" href="structw__iov.html#a362d3a1b5838b941b52350f86be23f4d">len</a>, v-&gt;<a class="code" href="structw__iov.html#a2b33510e8a5b556deef4fb2b29b62a9e">buf</a>);</div>
+<div class="line">                        <span class="keywordflow">for</span> (uint16_t p = 0; p &lt; v-&gt;len; p++)</div>
+<div class="line">                            <span class="keywordflow">if</span> (v-&gt;buf[p] == <span class="charliteral">&#39;\n&#39;</span> || v-&gt;buf[p] == <span class="charliteral">&#39;\r&#39;</span>)</div>
+<div class="line">                                v-&gt;buf[p] = <span class="charliteral">&#39; &#39;</span>;</div>
+<div class="line">                        printf(<span class="stringliteral">&quot;%.*s&quot;</span>, v-&gt;len, v-&gt;buf);</div>
 <div class="line">                    }</div>
 <div class="line">                } <span class="keywordflow">else</span></div>
 <div class="line">                    printf(<span class="stringliteral">&quot;.&quot;</span>);</div>
 <div class="line">                n++;</div>
 <div class="line">            }</div>
-<div class="line">            <span class="keywordflow">if</span> (do_h3 == <span class="keyword">false</span> &amp;&amp; <a class="code" href="warpcore_8h.html#ab0d7e80a565b2ad694def961428e62ec">w_iov_sq_cnt</a>(&amp;i) &lt;= 100 &amp;&amp; reps == 1)</div>
+<div class="line">            <span class="keywordflow">if</span> (do_h3 == <span class="keyword">false</span> &amp;&amp; w_iov_sq_cnt(&amp;i) &lt;= 100 &amp;&amp; reps == 1)</div>
 <div class="line">                printf(<span class="stringliteral">&quot;\n&quot;</span>);</div>
 <div class="line">            <span class="keywordflow">if</span> (write_files)</div>
 <div class="line">                close(fd);</div>
-<div class="line">            <a name="a64"></a><a class="code" href="quant_8h.html#a4a7935a14e509d989eda300f16daf086">q_free</a>(&amp;i);</div>
+<div class="line">            <a name="a27"></a><a class="code" href="quant_8h.html#a4a7935a14e509d989eda300f16daf086">q_free</a>(&amp;i);</div>
 <div class="line"></div>
 <div class="line">            <span class="keyword">struct </span>stream_entry * prev_se = se;</div>
-<div class="line">            se = <a class="code" href="queue_8h.html#a68c442ba2f977720f97cf205bb0530e1">sl_next</a>(se, next);</div>
-<div class="line">            <a name="a65"></a><a class="code" href="queue_8h.html#a0d7dc7e1ea3ff56dea7be5fc9c092a30">sl_remove_head</a>(&amp;sl, next);</div>
+<div class="line">            se = sl_next(se, next);</div>
+<div class="line">            sl_remove_head(&amp;sl, next);</div>
 <div class="line">            free(prev_se);</div>
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line"></div>
-<div class="line"><a class="code" href="inetd_8c.html#a1d39aac66e12dae50a24cd7a9100ef33">done</a>:</div>
-<div class="line">    <a name="a66"></a><a class="code" href="quant_8h.html#a22f108de18d6532a45071881f7fb4dca">q_cleanup</a>(w);</div>
+<div class="line">done:</div>
+<div class="line">    <a name="a28"></a><a class="code" href="quant_8h.html#a22f108de18d6532a45071881f7fb4dca">q_cleanup</a>(w);</div>
 <div class="line">    free_cc(&amp;cc);</div>
 <div class="line">    free_sl();</div>
-<div class="line">    <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a75fb9e13fe5fdbdbf4f0b7f34d25a887">warn</a>(<a name="a67"></a><a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#a49606be7356624568932ec81c0d429f4">DBG</a>, <span class="stringliteral">&quot;%s exiting&quot;</span>, <a class="code" href="warpcore_2lib_2include_2warpcore_2util_8h.html#abf5f17d3254f2e930aee0dc34dbff071">basename</a>(argv[0]));</div>
+<div class="line">    warn(DBG, <span class="stringliteral">&quot;%s exiting&quot;</span>, basename(argv[0]));</div>
 <div class="line">    <span class="keywordflow">return</span> ret;</div>
 <div class="line">}</div>
 </div><!-- fragment --> </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 28 2019 17:17:31 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 28 2019 19:46:20 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

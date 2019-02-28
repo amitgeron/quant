@@ -1,5 +1,0 @@
-<map id="inv25519" name="inv25519">
-<area shape="rect" id="node2" href="$curve25519_8tweetnacl_8c.html#a1e64cfb825baf365ad0fa50b962aeecf" title="sqr" alt="" coords="128,5,168,32"/>
-<area shape="rect" id="node3" href="$curve25519_8tweetnacl_8c.html#a70b8023303d3a16f7021157407a4bbde" title="mul" alt="" coords="216,31,259,57"/>
-<area shape="rect" id="node4" href="$curve25519_8tweetnacl_8c.html#a788bee10751c8364d7d91b6776490789" title="car25519" alt="" coords="307,31,381,57"/>
-</map>

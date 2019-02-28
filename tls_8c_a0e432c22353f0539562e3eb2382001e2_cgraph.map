@@ -1,4 +1,0 @@
-<map id="dispose_cipher" name="dispose_cipher">
-<area shape="rect" id="node2" href="$picotls_8h.html#aadec89f296f10258b21ce9daa255d485" title="destroys an AEAD cipher context " alt="" coords="167,5,273,32"/>
-<area shape="rect" id="node3" href="$picotls_8h.html#ae57011fb3506f15237ead4f3146acc01" title="destroys a symmetric cipher " alt="" coords="163,56,277,83"/>
-</map>

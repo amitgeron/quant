@@ -1,6 +1,0 @@
-<map id="uECC_decompress" name="uECC_decompress">
-<area shape="rect" id="node2" href="$uECC_8c.html#ac09542159920b53beffd4479e82acca4" title="uECC_vli_bytesToNative" alt="" coords="189,5,360,32"/>
-<area shape="rect" id="node4" href="$uECC_8c.html#a2a15830c6ec1bc8389b51774a9f4aa48" title="uECC_vli_sub" alt="" coords="221,56,328,83"/>
-<area shape="rect" id="node5" href="$uECC_8c.html#ab482fb7657036c22381178933c42756b" title="uECC_vli_nativeToBytes" alt="" coords="190,107,359,133"/>
-<area shape="rect" id="node3" href="$uECC_8c.html#a3ab6617d7cc2e9338830ffd918e53b3e" title="uECC_vli_clear" alt="" coords="409,5,522,32"/>
-</map>

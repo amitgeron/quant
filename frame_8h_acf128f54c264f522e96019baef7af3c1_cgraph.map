@@ -1,9 +1,7 @@
 <map id="enc_new_cid_frame" name="enc_new_cid_frame">
-<area shape="rect" id="node2" href="$openssl_8h.html#a2514cd53d441b44478641a1643af622d" title="ptls_openssl_random\l_bytes" alt="" coords="193,19,338,61"/>
-<area shape="rect" id="node4" href="$conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026" title="add_scid" alt="" coords="228,107,303,133"/>
-<area shape="rect" id="node3" href="$boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="421,5,472,32"/>
-<area shape="rect" id="node5" href="$conn_8c.html#abf07a95614d3f540d12bd3dc1bb4391f" title="get_cid_by_id" alt="" coords="395,56,498,83"/>
-<area shape="rect" id="node6" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="413,107,480,133"/>
-<area shape="rect" id="node7" href="$conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8" title="cids_by_id_ins" alt="" coords="393,157,501,184"/>
-<area shape="rect" id="node8" href="$conn_8c.html#a3970d1f884f75ab86ab622e00bf9fce7" title="conns_by_id_ins" alt="" coords="387,208,506,235"/>
+<area shape="rect" id="node2" href="$conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026" title="add_scid" alt="" coords="192,81,267,108"/>
+<area shape="rect" id="node3" href="$conn_8c.html#abf07a95614d3f540d12bd3dc1bb4391f" title="get_cid_by_id" alt="" coords="323,5,426,32"/>
+<area shape="rect" id="node4" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="341,56,408,83"/>
+<area shape="rect" id="node5" href="$conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8" title="cids_by_id_ins" alt="" coords="321,107,429,133"/>
+<area shape="rect" id="node6" href="$conn_8c.html#a3970d1f884f75ab86ab622e00bf9fce7" title="conns_by_id_ins" alt="" coords="315,157,434,184"/>
 </map>

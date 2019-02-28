@@ -1,6 +1,0 @@
-<map id="signal_cb" name="signal_cb">
-<area shape="rect" id="node2" href="$warpcore_8h.html#a726b06c06493678f7f48c889bbcd30a5" title="Shut a warpcore engine down cleanly. " alt="" coords="131,31,215,57"/>
-<area shape="rect" id="node3" href="$warpcore_8c.html#a26c31751f7bb602b01bf00077ebd362d" title="Close a warpcore socket. " alt="" coords="265,31,335,57"/>
-<area shape="rect" id="node4" href="$backend_8h.html#a10352237f3cab978ad3dbe7f25acb8cc" title="The netmap backend performs no operation here. " alt="" coords="384,5,493,32"/>
-<area shape="rect" id="node5" href="$warpcore_8c.html#a811255f1e117572d31fd94afa11718a4" title="rem_sock" alt="" coords="399,56,478,83"/>
-</map>

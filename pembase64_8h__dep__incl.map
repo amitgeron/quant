@@ -1,9 +1,0 @@
-<map id="deps/picotls/include/picotls/pembase64.h" name="deps/picotls/include/picotls/pembase64.h">
-<area shape="rect" id="node2" href="$minicrypto-pem_8c.html" title="deps/picotls/lib/minicrypto\l&#45;pem.c" alt="" coords="5,97,179,138"/>
-<area shape="rect" id="node3" href="$pembase64_8c.html" title="deps/picotls/lib/pembase64.c" alt="" coords="203,104,393,131"/>
-<area shape="rect" id="node4" href="$picotlsvs_8c.html" title="deps/picotls/picotlsvs\l/picotlsvs/picotlsvs.c" alt="" coords="418,97,565,138"/>
-<area shape="rect" id="node5" href="$esni_8c.html" title="deps/picotls/src/esni.c" alt="" coords="590,104,743,131"/>
-<area shape="rect" id="node6" href="$picotls_2t_2util_8h.html" title="deps/picotls/t/util.h" alt="" coords="767,104,899,131"/>
-<area shape="rect" id="node8" href="$t_2picotls_8c.html" title="deps/picotls/t/picotls.c" alt="" coords="923,104,1076,131"/>
-<area shape="rect" id="node7" href="$cli_8c.html" title="deps/picotls/t/cli.c" alt="" coords="769,187,897,213"/>
-</map>

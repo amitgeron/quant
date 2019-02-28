@@ -1,6 +1,0 @@
-<map id="deps/picotls/lib/minicrypto&#45;pem.c" name="deps/picotls/lib/minicrypto&#45;pem.c">
-<area shape="rect" id="node7" href="$picotls_8h.html" title="picotls.h" alt="" coords="474,171,544,197"/>
-<area shape="rect" id="node11" href="$minicrypto_8h.html" title="picotls/minicrypto.h" alt="" coords="495,96,629,123"/>
-<area shape="rect" id="node12" href="$asn1_8h.html" title="picotls/asn1.h" alt="" coords="654,96,756,123"/>
-<area shape="rect" id="node13" href="$pembase64_8h.html" title="picotls/pembase64.h" alt="" coords="781,96,923,123"/>
-</map>

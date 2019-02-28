@@ -1,8 +1,0 @@
-<map id="ocb_init" name="ocb_init">
-<area shape="rect" id="node2" href="$gf128_8c.html#afba50a057c856e6989a1efc78f4426e3" title="cf_gf128_frombytes_be" alt="" coords="121,5,279,32"/>
-<area shape="rect" id="node4" href="$gf128_8c.html#af1dd33acfb5aa089fd8b8ea435c4a75e" title="cf_gf128_double" alt="" coords="141,56,259,83"/>
-<area shape="rect" id="node7" href="$bitops_8h.html#ad6471e08408a3a177046fb72935ce486" title="Copies len bytes from in to out, with in shifted left by offset bits to the right. " alt="" coords="125,107,275,133"/>
-<area shape="rect" id="node3" href="$bitops_8h.html#a4558958d044593a88485bbb67e578453" title="Read 4 bytes from buf, as a 32&#45;bit big endian quantity. " alt="" coords="328,5,411,32"/>
-<area shape="rect" id="node5" href="$bitops_8h.html#ac73e349143c697f2058d5eae0a27365d" title="Select the ith entry from the given table of n values, in a side channel&#45;silent way. " alt="" coords="330,56,409,83"/>
-<area shape="rect" id="node6" href="$bitops_8h.html#ad8cec031b7eccb98c5c1d0ddb368aad2" title="Product 0xff if x == y, zero otherwise, without branching. " alt="" coords="459,56,533,83"/>
-</map>

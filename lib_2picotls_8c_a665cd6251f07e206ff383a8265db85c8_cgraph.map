@@ -1,5 +1,0 @@
-<map id="aead_decrypt" name="aead_decrypt">
-<area shape="rect" id="node2" href="$lib_2picotls_8c.html#a070d64bc0fd2fde37aca38994e6419bb" title="build_aad" alt="" coords="180,5,257,32"/>
-<area shape="rect" id="node3" href="$picotls_8h.html#ad7908a62ead44bf0058b3672cd4321fc" title="decrypts an AEAD record " alt="" coords="155,56,283,83"/>
-<area shape="rect" id="node4" href="$picotls_8h.html#a850d1876076b7a5061ffae37aa929b41" title="internal " alt="" coords="331,56,467,83"/>
-</map>

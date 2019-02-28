@@ -1,8 +1,0 @@
-<map id="test_kgetline" name="test_kgetline">
-<area shape="rect" id="node2" href="$klib_2kstring_8c.html#a858a2405559c1e7e5095799ccb33a690" title="kgetline" alt="" coords="157,5,224,32"/>
-<area shape="rect" id="node3" href="$klib_2test_2kstring__test_8c.html#a2bc0ca0f24f8d2072daf9e0ae0733d67" title="mem_gets" alt="" coords="149,56,232,83"/>
-<area shape="rect" id="node5" href="$klib_2kstring_8h.html#a9d1bb038f47828f77d7ed20859b5fcee" title="kputs" alt="" coords="163,157,218,184"/>
-<area shape="rect" id="node7" href="$klib_2test_2kstring__test_8c.html#a49dea489404e4067dd6cf37d99dfc3c9" title="check" alt="" coords="162,107,219,133"/>
-<area shape="rect" id="node4" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="283,107,338,133"/>
-<area shape="rect" id="node6" href="$klib_2kstring_8h.html#a0094a9c1ccfcafe09de3aeafbf24b3fb" title="kputsn" alt="" coords="280,157,341,184"/>
-</map>

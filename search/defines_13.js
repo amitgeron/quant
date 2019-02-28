@@ -1,11 +1,5 @@
 var searchData=
 [
-  ['tag_5fbits',['TAG_BITS',['../norx_8c.html#a273bfff4ad6c875e1d4ca56b70a23137',1,'norx.c']]],
-  ['test_5fcheck',['TEST_CHECK',['../arm_2ext_2cutest_8h.html#a1f11495375db2b0daa6efe2850388dd9',1,'TEST_CHECK():&#160;cutest.h'],['../ext_2cutest_8h.html#a1f11495375db2b0daa6efe2850388dd9',1,'TEST_CHECK():&#160;cutest.h']]],
-  ['test_5fcheck_5f',['TEST_CHECK_',['../ext_2cutest_8h.html#a37941ae829e9f3457ee31486f9e63a0d',1,'cutest.h']]],
-  ['test_5flist',['TEST_LIST',['../arm_2ext_2cutest_8h.html#a93cbf104add07315fefaa6ca453cd7b1',1,'TEST_LIST():&#160;cutest.h'],['../ext_2cutest_8h.html#a93cbf104add07315fefaa6ca453cd7b1',1,'TEST_LIST():&#160;cutest.h']]],
-  ['ticket_5fiv_5fsize',['TICKET_IV_SIZE',['../lib_2openssl_8c.html#aebb16c23a63686c3c972c7bdb92185d5',1,'openssl.c']]],
-  ['ticket_5flabel_5fsize',['TICKET_LABEL_SIZE',['../lib_2openssl_8c.html#aa8c161559b5b90b3e4135fd83b04869b',1,'openssl.c']]],
   ['timespec_5fto_5fdouble',['timespec_to_double',['../quant_8h.html#ad730169520eef2aa5eec7bb94249079e',1,'quant.h']]],
   ['tp_5fade',['TP_ADE',['../tls_8c.html#a86073c7a696d75aefc676c5859c6f3fe',1,'tls.c']]],
   ['tp_5fdmig',['TP_DMIG',['../tls_8c.html#a2577b9887660c2e188603ced8257ccc0',1,'tls.c']]],
@@ -22,11 +16,5 @@ var searchData=
   ['tp_5focid',['TP_OCID',['../tls_8c.html#a5bb73f3e7548e2b8a944afbcedd31c90',1,'tls.c']]],
   ['tp_5fprfa',['TP_PRFA',['../tls_8c.html#abf20409eea289bd848d2880ed0e419e3',1,'tls.c']]],
   ['tp_5fsrt',['TP_SRT',['../tls_8c.html#a84ba0553464f7d35ee05bc0a877dba06',1,'tls.c']]],
-  ['tracebuf',['TRACEBUF',['../queue_8h.html#a743488648fbd29bf4cf1addf004f43ef',1,'queue.h']]],
-  ['tracebuf_5finitializer',['TRACEBUF_INITIALIZER',['../queue_8h.html#a0397af84b4a238c2b678721a88b6eccc',1,'queue.h']]],
-  ['track_5fframe',['track_frame',['../frame_8c.html#ae76224c6a0d2a18c20145c46619f0d28',1,'frame.c']]],
-  ['trashit',['TRASHIT',['../queue_8h.html#adee7bf054da0ade68bb853732c665a2b',1,'queue.h']]],
-  ['traverse_5ff',['traverse_f',['../klib_2test_2kbtree__test_8c.html#acc87412213172e8843ddfc5c6e935b8b',1,'traverse_f():&#160;kbtree_test.c'],['../warpcore_2lib_2deps_2klib_2test_2kbtree__test_8c.html#acc87412213172e8843ddfc5c6e935b8b',1,'traverse_f():&#160;kbtree_test.c']]],
-  ['twarn',['twarn',['../warpcore_2lib_2include_2warpcore_2util_8h.html#a917626b48701b5143bb6b9d8fe4be423',1,'util.h']]],
-  ['type_5funcompressed_5fpublic_5fkey',['TYPE_UNCOMPRESSED_PUBLIC_KEY',['../uecc_8c.html#ad2b4e64becda2ae88156b723e935b503',1,'uecc.c']]]
+  ['track_5fframe',['track_frame',['../frame_8c.html#ae76224c6a0d2a18c20145c46619f0d28',1,'frame.c']]]
 ];

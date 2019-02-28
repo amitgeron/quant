@@ -1,7 +1,0 @@
-<map id="backend_init" name="backend_init">
-<area shape="rect" id="node2" href="$arp_8c.html#a5857d8f27a0bcfa2b9dfe8308ac7befb" title="Update the MAC address associated with IPv4 address ip in the ARP cache. " alt="" coords="149,5,277,32"/>
-<area shape="rect" id="node4" href="$warpcore_8h.html#af368cd1b58be4de19321744322f44c4a" title="Return name of interface associated with a warpcore engine. " alt="" coords="174,56,253,83"/>
-<area shape="rect" id="node5" href="$backend_8h.html#a5bca37c30d432e0c16c44d8e0c087e5f" title="init_iov" alt="" coords="182,107,245,133"/>
-<area shape="rect" id="node3" href="$arp_8c.html#ab57d1a0513207babcdb2f6a8a8295fae" title="Find the ARP cache entry associated with IPv4 address ip. " alt="" coords="326,5,437,32"/>
-<area shape="rect" id="node6" href="$backend_8h.html#a7f3566b6a4f34920186abe13e80a2760" title="For a given buffer index, get a pointer to its beginning. " alt="" coords="340,107,423,133"/>
-</map>

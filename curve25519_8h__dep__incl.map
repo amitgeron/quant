@@ -1,8 +1,0 @@
-<map id="deps/picotls/deps/cifra/src/curve25519.h" name="deps/picotls/deps/cifra/src/curve25519.h">
-<area shape="rect" id="node2" href="$main_8c.html" title="deps/picotls/deps/cifra\l/src/arm/main.c" alt="" coords="5,97,157,138"/>
-<area shape="rect" id="node3" href="$curve25519_8donna_8c.html" title="deps/picotls/deps/cifra\l/src/curve25519.donna.c" alt="" coords="183,97,347,138"/>
-<area shape="rect" id="node4" href="$curve25519_8naclref_8c.html" title="deps/picotls/deps/cifra\l/src/curve25519.naclref.c" alt="" coords="373,97,541,138"/>
-<area shape="rect" id="node5" href="$testcurve25519_8c.html" title="deps/picotls/deps/cifra\l/src/testcurve25519.c" alt="" coords="566,97,719,138"/>
-<area shape="rect" id="node6" href="$cifra_8c.html" title="deps/picotls/lib/cifra.c" alt="" coords="744,104,892,131"/>
-<area shape="rect" id="node7" href="$minicrypto_8c.html" title="deps/picotls/t/minicrypto.c" alt="" coords="731,187,905,213"/>
-</map>

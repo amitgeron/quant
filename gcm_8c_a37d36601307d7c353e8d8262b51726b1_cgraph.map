@@ -1,4 +1,0 @@
-<map id="ghash_init" name="ghash_init">
-<area shape="rect" id="node2" href="$gf128_8c.html#afba50a057c856e6989a1efc78f4426e3" title="cf_gf128_frombytes_be" alt="" coords="137,5,295,32"/>
-<area shape="rect" id="node3" href="$bitops_8h.html#a4558958d044593a88485bbb67e578453" title="Read 4 bytes from buf, as a 32&#45;bit big endian quantity. " alt="" coords="344,5,427,32"/>
-</map>

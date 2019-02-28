@@ -1,8 +1,0 @@
-<map id="st_ptls_raw_message_emitter_t" name="st_ptls_raw_message_emitter_t">
-<area shape="rect" id="node2" href="$structst__ptls__message__emitter__t.html" title="st_ptls_message_emitter_t" alt="" coords="25,381,204,408"/>
-<area shape="rect" id="node3" href="$structst__ptls__buffer__t.html" title="used for storing output " alt="" coords="4,291,115,317"/>
-<area shape="rect" id="node4" href="$structst__ptls__traffic__protection__t.html" title="st_ptls_traffic_protection_t" alt="" coords="140,291,316,317"/>
-<area shape="rect" id="node5" href="$structst__ptls__aead__context__t.html" title="AEAD context. " alt="" coords="149,200,307,227"/>
-<area shape="rect" id="node6" href="$structst__ptls__aead__algorithm__t.html" title="An AEAD cipher. " alt="" coords="145,109,311,136"/>
-<area shape="rect" id="node7" href="$structst__ptls__cipher__algorithm__t.html" title="a symmetric cipher " alt="" coords="141,5,315,32"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="deps/picotls/deps/cifra/src/aes.c" name="deps/picotls/deps/cifra/src/aes.c">
-<area shape="rect" id="node4" href="$cf__config_8h.html" title="cf_config.h" alt="" coords="538,96,624,123"/>
-<area shape="rect" id="node5" href="$aes_8h.html" title="aes.h" alt="" coords="153,96,207,123"/>
-<area shape="rect" id="node9" href="$handy_8h.html" title="handy.h" alt="" coords="245,96,312,123"/>
-<area shape="rect" id="node10" href="$bitops_8h.html" title="bitops.h" alt="" coords="24,171,91,197"/>
-<area shape="rect" id="node11" href="$tassert_8h.html" title="tassert.h" alt="" coords="389,96,462,123"/>
-<area shape="rect" id="node8" href="$prp_8h.html" title="prp.h" alt="" coords="116,171,167,197"/>
-</map>

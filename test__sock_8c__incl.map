@@ -1,8 +1,0 @@
-<map id="deps/warpcore/test/test_sock.c" name="deps/warpcore/test/test_sock.c">
-<area shape="rect" id="node4" href="$warpcore_8h.html" title="warpcore/warpcore.h" alt="" coords="446,96,588,123"/>
-<area shape="rect" id="node15" href="$common_8h.html" title="common.h" alt="" coords="21,171,103,197"/>
-<area shape="rect" id="node7" href="$deps_2warpcore_2lib_2include_2warpcore_2config_8h.html" title="warpcore/config.h" alt="" coords="595,171,720,197"/>
-<area shape="rect" id="node8" href="$plat_8h.html" title="warpcore/plat.h" alt="" coords="129,171,239,197"/>
-<area shape="rect" id="node10" href="$queue_8h.html" title="warpcore/queue.h" alt="" coords="744,171,869,197"/>
-<area shape="rect" id="node11" href="$warpcore_2lib_2include_2warpcore_2util_8h.html" title="warpcore/util.h" alt="" coords="893,171,1000,197"/>
-</map>

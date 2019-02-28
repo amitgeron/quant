@@ -1,7 +1,3 @@
 <map id="save_ticket_cb" name="save_ticket_cb">
-<area shape="rect" id="node2" href="$picotls_8h.html#aefec8568e3aed02938b396752d54d5e5" title="returns a pointer to user data pointer (client is reponsible for freeing the associated data prior to..." alt="" coords="180,5,303,32"/>
-<area shape="rect" id="node3" href="$picotls_8h.html#aa889677e26863e1a37b216aedac72c67" title="returns the server&#45;name (NULL if SNI is not used or failed to negotiate) " alt="" coords="166,56,317,83"/>
-<area shape="rect" id="node4" href="$picotls_8h.html#ab8af003866ffad57334b31bf5290cbe8" title="returns the negotiated protocol (or NULL) " alt="" coords="174,107,309,149"/>
-<area shape="rect" id="node5" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="200,173,283,200"/>
-<area shape="rect" id="node6" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="214,224,269,251"/>
+<area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="165,5,248,32"/>
 </map>

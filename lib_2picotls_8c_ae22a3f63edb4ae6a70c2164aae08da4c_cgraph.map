@@ -1,7 +1,0 @@
-<map id="client_handle_certificate_request" name="client_handle_certificate_request">
-<area shape="rect" id="node2" href="$lib_2picotls_8c.html#ab1c754afd6106c5075d6fd65c6625905" title="decode_certificate\l_request" alt="" coords="221,5,349,46"/>
-<area shape="rect" id="node6" href="$lib_2picotls_8c.html#a0129a2c9d51477ddaa75205b3f2072ee" title="internal " alt="" coords="217,70,354,111"/>
-<area shape="rect" id="node3" href="$lib_2picotls_8c.html#a11c7ef4d226138d3b1b2d98fad38b384" title="decode_signature_algorithms" alt="" coords="403,12,594,39"/>
-<area shape="rect" id="node4" href="$lib_2picotls_8c.html#a2d02d6f477c8fa36dfe14c425c884762" title="ptls_decode16" alt="" coords="643,12,749,39"/>
-<area shape="rect" id="node5" href="$lib_2picotls_8c.html#a88911502068ceae20b044ee0ace4db11" title="ntoh16" alt="" coords="797,12,859,39"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="key_schedule_transform_post_ch1hash" name="key_schedule_transform_post_ch1hash">
-<area shape="rect" id="node2" href="$lib_2picotls_8c.html#a9df8a006fcca1939c1f3e24f4cf7d461" title="key_schedule_extract\l_ch1hash" alt="" coords="219,5,368,46"/>
-<area shape="rect" id="node3" href="$lib_2picotls_8c.html#ab03c1c01c50168e3a4fc3b4404e7d746" title="key_schedule_update\l_ch1hash_prefix" alt="" coords="219,70,367,111"/>
-<area shape="rect" id="node4" href="$lib_2picotls_8c.html#a0129a2c9d51477ddaa75205b3f2072ee" title="internal " alt="" coords="417,99,554,141"/>
-</map>

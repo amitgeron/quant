@@ -1,4 +1,0 @@
-<map id="kt_forpool_init" name="kt_forpool_init">
-<area shape="rect" id="node2" href="$klib_2kthread_8c.html#a24a880fad4fb4c218bd11c22b3a49798" title="kt_fp_worker" alt="" coords="158,5,255,32"/>
-<area shape="rect" id="node3" href="$klib_2kthread_8c.html#a1ac8ca4bcba42c8bbec08a2c218def06" title="kt_fp_steal_work" alt="" coords="305,5,426,32"/>
-</map>

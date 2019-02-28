@@ -1,8 +1,0 @@
-<map id="deps/picotls/deps/cifra/src/poly1305.h" name="deps/picotls/deps/cifra/src/poly1305.h">
-<area shape="rect" id="node2" href="$main_8c.html" title="deps/picotls/deps/cifra\l/src/arm/main.c" alt="" coords="5,97,157,138"/>
-<area shape="rect" id="node3" href="$chacha20poly1305_8c.html" title="deps/picotls/deps/cifra\l/src/chacha20poly1305.c" alt="" coords="182,97,348,138"/>
-<area shape="rect" id="node4" href="$poly1305_8c.html" title="deps/picotls/deps/cifra\l/src/poly1305.c" alt="" coords="373,97,525,138"/>
-<area shape="rect" id="node5" href="$testpoly1305_8c.html" title="deps/picotls/deps/cifra\l/src/testpoly1305.c" alt="" coords="550,97,703,138"/>
-<area shape="rect" id="node6" href="$cifra_8c.html" title="deps/picotls/lib/cifra.c" alt="" coords="728,104,876,131"/>
-<area shape="rect" id="node7" href="$minicrypto_8c.html" title="deps/picotls/t/minicrypto.c" alt="" coords="715,187,889,213"/>
-</map>

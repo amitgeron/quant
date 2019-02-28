@@ -1,7 +1,5 @@
 <map id="dec_aead" name="dec_aead">
-<area shape="rect" id="node2" href="$picotls_8h.html#ad7908a62ead44bf0058b3672cd4321fc" title="decrypts an AEAD record " alt="" coords="133,5,261,32"/>
-<area shape="rect" id="node4" href="$pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="150,56,245,83"/>
-<area shape="rect" id="node3" href="$picotls_8h.html#a850d1876076b7a5061ffae37aa929b41" title="internal " alt="" coords="309,5,445,32"/>
-<area shape="rect" id="node5" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="494,81,543,108"/>
-<area shape="rect" id="node6" href="$pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="341,107,413,133"/>
+<area shape="rect" id="node2" href="$pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="134,5,229,32"/>
+<area shape="rect" id="node3" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="398,5,447,32"/>
+<area shape="rect" id="node4" href="$pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="277,31,349,57"/>
 </map>

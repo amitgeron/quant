@@ -1,6 +1,0 @@
-<map id="secp_key_exchange" name="secp_key_exchange">
-<area shape="rect" id="node2" href="$lib_2openssl_8c.html#a3786d2c99ebe2f086dfaa8621464ca68" title="x9_62_key_exchange" alt="" coords="195,56,343,83"/>
-<area shape="rect" id="node3" href="$lib_2openssl_8c.html#afb8ce80b71d518c9f9d6dc9c9eb29dda" title="x9_62_decode_point" alt="" coords="392,5,533,32"/>
-<area shape="rect" id="node4" href="$lib_2openssl_8c.html#a8f49ff8211224a75d47189259d4e15bc" title="ecdh_gerenate_key" alt="" coords="395,56,530,83"/>
-<area shape="rect" id="node5" href="$lib_2openssl_8c.html#adbae905e5c0f5c20cf33896af06209a9" title="x9_62_encode_point" alt="" coords="392,107,533,133"/>
-</map>

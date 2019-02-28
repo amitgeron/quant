@@ -1,5 +1,0 @@
-<map id="ffx_encrypt" name="ffx_encrypt">
-<area shape="rect" id="node2" href="$ffx_8c.html#a75eba25d4e5607f14b912809536f687b" title="ptls_ffx_one_pass" alt="" coords="141,31,269,57"/>
-<area shape="rect" id="node3" href="$picotls_8h.html#aa77dcaa131915406a4a03be70e268ff0" title="initializes the IV; this function must be called prior to calling ptls_cipher_encrypt ..." alt="" coords="331,5,440,32"/>
-<area shape="rect" id="node4" href="$picotls_8h.html#a2d3ae9c9f2704efb7abae1637cb97241" title="encrypts given text " alt="" coords="318,56,453,83"/>
-</map>

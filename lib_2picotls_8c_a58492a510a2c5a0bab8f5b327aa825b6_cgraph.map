@@ -1,9 +1,0 @@
-<map id="client_handle_compressed_certificate" name="client_handle_compressed_certificate">
-<area shape="rect" id="node2" href="$lib_2picotls_8c.html#a2d02d6f477c8fa36dfe14c425c884762" title="ptls_decode16" alt="" coords="268,5,375,32"/>
-<area shape="rect" id="node4" href="$lib_2picotls_8c.html#ae95e3b2be5491c9d4e1284d0b2917bc9" title="ptls_decode24" alt="" coords="268,56,375,83"/>
-<area shape="rect" id="node5" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="635,132,741,159"/>
-<area shape="rect" id="node6" href="$lib_2picotls_8c.html#a4a136002a490c015a90baabaa6eff3ff" title="client_do_handle_certificate" alt="" coords="230,157,413,184"/>
-<area shape="rect" id="node8" href="$lib_2picotls_8c.html#a0129a2c9d51477ddaa75205b3f2072ee" title="internal " alt="" coords="253,209,390,250"/>
-<area shape="rect" id="node3" href="$lib_2picotls_8c.html#a88911502068ceae20b044ee0ace4db11" title="ntoh16" alt="" coords="493,5,555,32"/>
-<area shape="rect" id="node7" href="$lib_2picotls_8c.html#a92fb69a93cea9073065d7289a445ddc2" title="handle_certificate" alt="" coords="462,157,586,184"/>
-</map>

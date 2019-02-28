@@ -1,9 +1,4 @@
 <map id="src/marshall.c" name="src/marshall.c">
-<area shape="rect" id="node5" href="$include_2quant_2config_8h.html" title="quant/config.h" alt="" coords="112,80,216,107"/>
-<area shape="rect" id="node7" href="$warpcore_8h.html" title="warpcore/warpcore.h" alt="" coords="617,80,759,107"/>
-<area shape="rect" id="node18" href="$marshall_8h.html" title="marshall.h" alt="" coords="240,80,321,107"/>
-<area shape="rect" id="node10" href="$deps_2warpcore_2lib_2include_2warpcore_2config_8h.html" title="warpcore/config.h" alt="" coords="811,155,936,181"/>
-<area shape="rect" id="node11" href="$plat_8h.html" title="warpcore/plat.h" alt="" coords="447,155,557,181"/>
-<area shape="rect" id="node14" href="$queue_8h.html" title="warpcore/queue.h" alt="" coords="960,155,1085,181"/>
-<area shape="rect" id="node15" href="$warpcore_2lib_2include_2warpcore_2util_8h.html" title="warpcore/util.h" alt="" coords="1109,155,1216,181"/>
+<area shape="rect" id="node5" href="$config_8h.html" title="quant/config.h" alt="" coords="527,80,631,107"/>
+<area shape="rect" id="node8" href="$marshall_8h.html" title="marshall.h" alt="" coords="111,80,192,107"/>
 </map>

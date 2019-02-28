@@ -1,7 +1,0 @@
-<map id="test_base_mul" name="test_base_mul">
-<area shape="rect" id="node2" href="$testutil_8h.html#ae01bda1adaa1c149b8f920ea1f6eb624" title="unhex" alt="" coords="217,31,274,57"/>
-<area shape="rect" id="node5" href="$curve25519_8donna_8c.html#a609c9750c4f5c10b90b55136ceb108fd" title="cf_curve25519_mul_base" alt="" coords="160,81,331,108"/>
-<area shape="rect" id="node6" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="207,132,283,159"/>
-<area shape="rect" id="node3" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="393,5,447,32"/>
-<area shape="rect" id="node4" href="$testutil_8h.html#a6c1e18489239a835787d1425c8c6398c" title="unhex_chr" alt="" coords="379,56,461,83"/>
-</map>

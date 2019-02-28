@@ -1,6 +1,0 @@
-<map id="kmalloc" name="kmalloc">
-<area shape="rect" id="node2" href="$klib_2kalloc_8c.html#ac22f6494f340377a7f07bc1a41aac12f" title="morecore" alt="" coords="121,31,197,57"/>
-<area shape="rect" id="node3" href="$klib_2kalloc_8c.html#a3ba075b102d51c726de00617307f186a" title="panic" alt="" coords="245,5,299,32"/>
-<area shape="rect" id="node5" href="$klib_2kalloc_8c.html#a5078e5824344fb7ab015360d14ee89a2" title="kfree" alt="" coords="247,56,297,83"/>
-<area shape="rect" id="node4" href="$boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="347,5,397,32"/>
-</map>

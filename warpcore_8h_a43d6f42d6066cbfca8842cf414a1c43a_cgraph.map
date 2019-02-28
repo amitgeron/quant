@@ -1,5 +1,0 @@
-<map id="w_init_rand" name="w_init_rand">
-<area shape="rect" id="node2" href="$warpcore_2lib_2include_2warpcore_2util_8h.html#aac10e28037a498b4d09ed99c55e9020d" title="Compute an FNV&#45;1a 64&#45;bit hash over the given buffer. " alt="" coords="145,5,220,32"/>
-<area shape="rect" id="node3" href="$klib_2krng_8h.html#aacc147637623ae1e16f7b8624975f2f9" title="kr_srand_r" alt="" coords="141,56,224,83"/>
-<area shape="rect" id="node4" href="$klib_2krng_8h.html#afb1117d9208c7537b22d596371cc40f1" title="kr_splitmix64" alt="" coords="272,56,371,83"/>
-</map>

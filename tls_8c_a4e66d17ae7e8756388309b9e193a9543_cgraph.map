@@ -1,51 +1,10 @@
 <map id="tls_io" name="tls_io">
-<area shape="rect" id="node2" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="144,5,235,32"/>
-<area shape="rect" id="node3" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="1048,325,1155,352"/>
-<area shape="rect" id="node4" href="$picotls_8h.html#aaf66968e2ad59ebf0f264cbb9d2f84f9" title="Runs the handshake by dealing directly with handshake messages. " alt="" coords="115,233,263,260"/>
-<area shape="rect" id="node40" href="$picotls_8h.html#a48da6806321331d00677c66444d7143d" title="returns if a PSK (or PSK&#45;DHE) handshake was performed " alt="" coords="110,284,269,311"/>
-<area shape="rect" id="node41" href="$conn_8c.html#a02d7b0c5a072e1b673358b52ac71f160" title="err_close" alt="" coords="152,335,227,361"/>
-<area shape="rect" id="node46" href="$quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="154,385,225,412"/>
-<area shape="rect" id="node49" href="$warpcore_8h.html#a5ac8908312be71047433d7e51059e240" title="Return warpcore engine serving w_sock s. " alt="" coords="151,436,228,463"/>
-<area shape="rect" id="node50" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="146,487,233,513"/>
-<area shape="rect" id="node5" href="$lib_2picotls_8c.html#a029da88bc71cbd5379a2bb29ad40ed6c" title="begin_raw_message" alt="" coords="343,107,484,133"/>
-<area shape="rect" id="node6" href="$lib_2picotls_8c.html#ada495d2c7552e84ffb81bbd617d81eea" title="commit_raw_message" alt="" coords="337,157,490,184"/>
-<area shape="rect" id="node7" href="$lib_2picotls_8c.html#ae56d8f8053af71e29360e8b2343036f8" title="send_client_hello" alt="" coords="580,944,703,971"/>
-<area shape="rect" id="node20" href="$lib_2picotls_8c.html#aa6a0008d415e04f0d67db03fdb2113de" title="Return the current read epoch. " alt="" coords="342,208,485,235"/>
-<area shape="rect" id="node21" href="$lib_2picotls_8c.html#a8d6dc376d25587767e241994bba77d58" title="handle_handshake_record" alt="" coords="779,376,952,403"/>
-<area shape="rect" id="node25" href="$lib_2picotls_8c.html#ae6cb70288c28281a9070f6467f8cadc1" title="handle_handshake_message" alt="" coords="318,508,509,535"/>
-<area shape="rect" id="node8" href="$lib_2picotls_8c.html#a55b4668776166a96a7acbfe0c90d1ca8" title="checks if given name looks like an IP address " alt="" coords="794,762,937,803"/>
-<area shape="rect" id="node9" href="$lib_2picotls_8c.html#aa82467a6e9fa0951ddaf9cc7e0ca3839" title="client_setup_esni" alt="" coords="804,1097,927,1124"/>
-<area shape="rect" id="node10" href="$lib_2picotls_8c.html#a0a127b7fb64bfe51e22a3f09ab851d4c" title="decode_stored_session\l_ticket" alt="" coords="786,879,945,921"/>
-<area shape="rect" id="node11" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="1049,584,1154,611"/>
-<area shape="rect" id="node12" href="$lib_2picotls_8c.html#a8e6c870c991668cf04334390a17a750e" title="key_schedule_new" alt="" coords="799,711,932,737"/>
-<area shape="rect" id="node13" href="$lib_2picotls_8c.html#a42a434fed7c689f5af03e95f873232bc" title="key_schedule_extract" alt="" coords="791,609,940,636"/>
-<area shape="rect" id="node14" href="$lib_2picotls_8c.html#a5a5bebfd858dd25e2fb7b28bdfd11429" title="push_key_share_entry" alt="" coords="1025,1123,1178,1149"/>
-<area shape="rect" id="node15" href="$lib_2picotls_8c.html#a30284014e2b5a8066b17bbd70ac76e3a" title="emit_esni_extension" alt="" coords="795,1047,936,1073"/>
-<area shape="rect" id="node16" href="$lib_2picotls_8c.html#ac92ac12c36e40056e83388420bcf4753" title="emit_server_name_extension" alt="" coords="1005,1021,1197,1048"/>
-<area shape="rect" id="node17" href="$lib_2picotls_8c.html#ac3aed9c2ae399575c55bf3447b0c72fe" title="reserves space for additional amount of memory " alt="" coords="1035,791,1168,817"/>
-<area shape="rect" id="node18" href="$lib_2picotls_8c.html#aea33d8f225ee2ce6271775db5a596e19" title="push_signature_algorithms" alt="" coords="777,1199,954,1225"/>
-<area shape="rect" id="node19" href="$lib_2picotls_8c.html#aacb702a94a4a82424ba632eff52d32ef" title="push_additional_extensions" alt="" coords="774,1249,957,1276"/>
-<area shape="rect" id="node22" href="$lib_2picotls_8c.html#a9b5970d9c3e0243e579000a47356fd64" title="ntoh24" alt="" coords="1071,376,1132,403"/>
-<area shape="rect" id="node23" href="$picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="1034,489,1169,516"/>
-<area shape="rect" id="node24" href="$boot_8c.html#a1b021cbd45ae7a424f02e7d646205a00" title="memmove" alt="" coords="1060,427,1143,453"/>
-<area shape="rect" id="node26" href="$lib_2picotls_8c.html#a6a4c66a07de1ccdccd8cd72dd8159c1c" title="client_handle_hello" alt="" coords="575,660,707,687"/>
-<area shape="rect" id="node27" href="$lib_2picotls_8c.html#a641ec40815e7577b669ca680d627bebe" title="client_handle_encrypted\l_extensions" alt="" coords="560,813,723,854"/>
-<area shape="rect" id="node28" href="$lib_2picotls_8c.html#ae22a3f63edb4ae6a70c2164aae08da4c" title="client_handle_certificate\l_request" alt="" coords="560,878,723,919"/>
-<area shape="rect" id="node29" href="$lib_2picotls_8c.html#ae1f038d033d34fc9cec862988748be5b" title="client_handle_certificate" alt="" coords="560,208,723,235"/>
-<area shape="rect" id="node30" href="$lib_2picotls_8c.html#a58492a510a2c5a0bab8f5b327aa825b6" title="client_handle_compressed\l_certificate" alt="" coords="777,427,953,469"/>
-<area shape="rect" id="node31" href="$lib_2picotls_8c.html#a6828746793c4617b153e22ed19583e2e" title="client_handle_certificate\l_verify" alt="" coords="560,259,723,301"/>
-<area shape="rect" id="node32" href="$lib_2picotls_8c.html#a57b21c55b53540c9e5e5c2329e646245" title="client_handle_finished" alt="" coords="566,609,717,636"/>
-<area shape="rect" id="node33" href="$lib_2picotls_8c.html#a1be278c074829ee6699aa71aafe11094" title="server_handle_hello" alt="" coords="573,711,710,737"/>
-<area shape="rect" id="node34" href="$lib_2picotls_8c.html#a9449506d5e877c1b62f89c65ceb9d9b6" title="server_handle_certificate" alt="" coords="558,325,725,352"/>
-<area shape="rect" id="node35" href="$lib_2picotls_8c.html#aa4bf6cb99aa563939fbef269fb6d5c31" title="server_handle_certificate\l_verify" alt="" coords="558,377,725,418"/>
-<area shape="rect" id="node36" href="$lib_2picotls_8c.html#acf0b485ef1c93e0e711ceb0314ad3c96" title="server_handle_end_of\l_early_data" alt="" coords="567,442,716,483"/>
-<area shape="rect" id="node37" href="$lib_2picotls_8c.html#ac9d308968a33e9c104c31dcaa448d6cf" title="server_handle_finished" alt="" coords="564,508,719,535"/>
-<area shape="rect" id="node38" href="$lib_2picotls_8c.html#a6b012c4c97a534e2d438f9e2a339ae76" title="client_handle_new_session\l_ticket" alt="" coords="775,493,956,534"/>
-<area shape="rect" id="node39" href="$lib_2picotls_8c.html#a53924e83d858225421f3427953bef42f" title="handle_key_update" alt="" coords="574,761,709,788"/>
-<area shape="rect" id="node42" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="364,1020,463,1047"/>
-<area shape="rect" id="node43" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="609,995,673,1021"/>
-<area shape="rect" id="node44" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="593,1045,689,1072"/>
-<area shape="rect" id="node45" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="600,1096,683,1123"/>
-<area shape="rect" id="node47" href="$warpcore_8h.html#a7828b02675cf9e9c1465f3162033e22c" title="Allocate a w_iov tail queue for plen payload bytes, for eventual use with w_tx(). ..." alt="" coords="368,1096,459,1123"/>
-<area shape="rect" id="node48" href="$warpcore_8c.html#a8e3e3376b3f23f1a1a8fc4be642f7710" title="Return a spare w_iov from the pool of the given warpcore engine. " alt="" coords="596,1147,687,1173"/>
+<area shape="rect" id="node2" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="107,5,197,32"/>
+<area shape="rect" id="node3" href="$conn_8c.html#a02d7b0c5a072e1b673358b52ac71f160" title="err_close" alt="" coords="115,56,189,83"/>
+<area shape="rect" id="node8" href="$quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="117,107,187,133"/>
+<area shape="rect" id="node9" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="109,157,195,184"/>
+<area shape="rect" id="node4" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="245,56,344,83"/>
+<area shape="rect" id="node5" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="408,5,472,32"/>
+<area shape="rect" id="node6" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="392,56,488,83"/>
+<area shape="rect" id="node7" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="399,107,481,133"/>
 </map>

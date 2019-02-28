@@ -1,8 +1,0 @@
-<map id="deps/warpcore/test/test_many.c" name="deps/warpcore/test/test_many.c">
-<area shape="rect" id="node6" href="$warpcore_8h.html" title="warpcore/warpcore.h" alt="" coords="701,96,843,123"/>
-<area shape="rect" id="node17" href="$common_8h.html" title="common.h" alt="" coords="275,171,356,197"/>
-<area shape="rect" id="node9" href="$deps_2warpcore_2lib_2include_2warpcore_2config_8h.html" title="warpcore/config.h" alt="" coords="488,171,613,197"/>
-<area shape="rect" id="node10" href="$plat_8h.html" title="warpcore/plat.h" alt="" coords="787,171,897,197"/>
-<area shape="rect" id="node12" href="$queue_8h.html" title="warpcore/queue.h" alt="" coords="637,171,763,197"/>
-<area shape="rect" id="node13" href="$warpcore_2lib_2include_2warpcore_2util_8h.html" title="warpcore/util.h" alt="" coords="973,171,1080,197"/>
-</map>

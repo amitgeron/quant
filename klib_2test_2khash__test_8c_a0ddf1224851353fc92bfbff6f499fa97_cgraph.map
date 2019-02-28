@@ -1,9 +1,0 @@
-<map id="main" name="main">
-<area shape="rect" id="node2" href="$klib_2test_2khash__test_8c.html#a8378ada80b6696ef9e2ac4f600e7a5c1" title="ht_init_data" alt="" coords="122,5,211,32"/>
-<area shape="rect" id="node3" href="$klib_2test_2khash__test_8c.html#a53e6d2ef05a4c3f67fe66a61f30822d5" title="ht_timing" alt="" coords="129,56,204,83"/>
-<area shape="rect" id="node4" href="$klib_2test_2khash__test_8c.html#ad520553357fb5559b633c8fe784cc3f8" title="ht_khash_int" alt="" coords="119,107,215,133"/>
-<area shape="rect" id="node5" href="$klib_2test_2khash__test_8c.html#a2fa4bbc88c0af0c5df1701bfadca9f15" title="ht_khash_str" alt="" coords="118,157,215,184"/>
-<area shape="rect" id="node6" href="$klib_2test_2khash__test_8c.html#a3b76e1ebe865f7a8faa21123e87136c2" title="ht_khash_unpack" alt="" coords="105,208,229,235"/>
-<area shape="rect" id="node7" href="$klib_2test_2khash__test_8c.html#a84c6fb0d7989b8f79e44888f131045ce" title="ht_khash_packed" alt="" coords="105,259,229,285"/>
-<area shape="rect" id="node8" href="$klib_2test_2khash__test_8c.html#a116825673fd2116a0d82e20475e55f85" title="ht_destroy_data" alt="" coords="109,309,224,336"/>
-</map>

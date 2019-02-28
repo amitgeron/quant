@@ -1,5 +1,0 @@
-<map id="extract" name="extract">
-<area shape="rect" id="node2" href="$sha3_8c.html#a24fda54ba963aba62b2d11f7d121e83f" title="write64_bi" alt="" coords="118,31,199,57"/>
-<area shape="rect" id="node3" href="$sha3_8c.html#ac120220453051c9dd1782b1ca5105d91" title="shuffle_in" alt="" coords="250,5,329,32"/>
-<area shape="rect" id="node4" href="$bitops_8h.html#a467162e933d03f7220bfda986d373992" title="Encode v as a 32&#45;bit little endian quantity into buf. " alt="" coords="249,56,330,83"/>
-</map>

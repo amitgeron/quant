@@ -1,4 +1,0 @@
-<map id="cf_sha3_256_init" name="cf_sha3_256_init">
-<area shape="rect" id="node2" href="$sha3_8c.html#a328bddd0f745d53c507bf1219b1f6369" title="sha3_init" alt="" coords="173,5,248,32"/>
-<area shape="rect" id="node3" href="$handy_8h.html#ad453ec2c6196a70300020477df38ab89" title="Like memset(ptr, 0, len), but not allowed to be removed by compilers. " alt="" coords="297,5,386,32"/>
-</map>

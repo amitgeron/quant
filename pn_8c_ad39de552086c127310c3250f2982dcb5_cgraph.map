@@ -1,9 +1,7 @@
 <map id="reset_pn" name="reset_pn">
-<area shape="rect" id="node2" href="$pn_8c.html#a3b132beb2506faada16af74535e27fec" title="free_pn" alt="" coords="126,107,191,133"/>
-<area shape="rect" id="node3" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="241,56,351,83"/>
-<area shape="rect" id="node4" href="$quic_8h.html#ad717e4c8ce421a3a170d95b98e863b77" title="free_iov" alt="" coords="262,107,330,133"/>
-<area shape="rect" id="node6" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="552,56,608,83"/>
-<area shape="rect" id="node5" href="$pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="402,5,502,32"/>
-<area shape="rect" id="node7" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="401,107,503,133"/>
-<area shape="rect" id="node8" href="$warpcore_8h.html#a92bb31feffd5e9e2cda91aa4612bc103" title="Return a single w_iov obtained via w_alloc_len(), w_alloc_cnt() or w_rx() back to warpcore..." alt="" coords="409,157,495,184"/>
+<area shape="rect" id="node2" href="$pn_8c.html#a3b132beb2506faada16af74535e27fec" title="free_pn" alt="" coords="126,31,191,57"/>
+<area shape="rect" id="node3" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="241,5,351,32"/>
+<area shape="rect" id="node4" href="$quic_8h.html#ad717e4c8ce421a3a170d95b98e863b77" title="free_iov" alt="" coords="262,56,330,83"/>
+<area shape="rect" id="node5" href="$pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="402,31,502,57"/>
+<area shape="rect" id="node6" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="401,81,503,108"/>
 </map>

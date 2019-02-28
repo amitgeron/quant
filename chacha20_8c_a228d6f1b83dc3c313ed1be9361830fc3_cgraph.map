@@ -1,6 +1,0 @@
-<map id="cf_chacha20_next_block" name="cf_chacha20_next_block">
-<area shape="rect" id="node2" href="$chacha20_8c.html#a341d892e9321f283258d12d142ce7a39" title="cf_chacha20_core" alt="" coords="221,31,349,57"/>
-<area shape="rect" id="node5" href="$bitops_8h.html#a22ef99af5088ae2a378b67c4190ad64c" title="Increments the integer stored at v (of non&#45;zero length len) with the least significant byte first..." alt="" coords="255,81,315,108"/>
-<area shape="rect" id="node3" href="$bitops_8h.html#a53b9f25069cc1b9fd72d421715d13aad" title="Read 4 bytes from buf, as a 32&#45;bit little endian quantity. " alt="" coords="399,5,478,32"/>
-<area shape="rect" id="node4" href="$bitops_8h.html#a467162e933d03f7220bfda986d373992" title="Encode v as a 32&#45;bit little endian quantity into buf. " alt="" coords="398,56,479,83"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="ptls_openssl_decrypt_ticket" name="ptls_openssl_decrypt_ticket">
-<area shape="rect" id="node2" href="$lib_2openssl_8c.html#ac67f92f10bccb2da3d1d7d641066f277" title="HMAC_CTX_new" alt="" coords="205,5,331,32"/>
-<area shape="rect" id="node3" href="$picotls_8h.html#ac3aed9c2ae399575c55bf3447b0c72fe" title="reserves space for additional amount of memory " alt="" coords="201,56,335,83"/>
-<area shape="rect" id="node5" href="$lib_2openssl_8c.html#a56d9560b32d080557a655d8d7d693998" title="cleanup_cipher_ctx" alt="" coords="201,107,335,133"/>
-<area shape="rect" id="node7" href="$lib_2openssl_8c.html#abbce9efef1a899b2cd55fd0bce11552e" title="HMAC_CTX_free" alt="" coords="205,157,331,184"/>
-<area shape="rect" id="node4" href="$lib_2picotls_8c.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="384,45,523,86"/>
-<area shape="rect" id="node6" href="$boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="428,111,479,137"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="bgzf_close" name="bgzf_close">
-<area shape="rect" id="node2" href="$klib_2bgzf_8c.html#a395c9f05f31df3711f8e3f5522487d90" title="Write the data in the buffer to the file. " alt="" coords="147,5,229,32"/>
-<area shape="rect" id="node3" href="$klib_2bgzf_8c.html#a370fddbee667cb20fccc6d8835fc47ad" title="deflate_block" alt="" coords="139,56,237,83"/>
-<area shape="rect" id="node6" href="$klib_2bgzf_8c.html#a086368dea69890c6c1d33d005e75b3d1" title="free_cache" alt="" coords="145,107,231,133"/>
-<area shape="rect" id="node4" href="$klib_2bgzf_8c.html#a49f553aab674a026d7782749af45a615" title="packInt16" alt="" coords="286,31,365,57"/>
-<area shape="rect" id="node5" href="$klib_2bgzf_8c.html#ab3acf8376fc92b0071fa0ec60005e770" title="packInt32" alt="" coords="286,81,365,108"/>
-</map>

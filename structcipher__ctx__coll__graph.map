@@ -1,6 +1,0 @@
-<map id="cipher_ctx" name="cipher_ctx">
-<area shape="rect" id="node2" href="$structst__ptls__cipher__context__t.html" title="context of a symmetric cipher " alt="" coords="5,160,168,187"/>
-<area shape="rect" id="node3" href="$structst__ptls__cipher__algorithm__t.html" title="a symmetric cipher " alt="" coords="57,5,231,32"/>
-<area shape="rect" id="node5" href="$structst__ptls__aead__algorithm__t.html" title="An AEAD cipher. " alt="" coords="141,109,307,136"/>
-<area shape="rect" id="node4" href="$structst__ptls__aead__context__t.html" title="AEAD context. " alt="" coords="175,211,332,237"/>
-</map>

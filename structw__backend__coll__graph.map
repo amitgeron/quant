@@ -1,8 +1,0 @@
-<map id="w_backend" name="w_backend">
-<area shape="rect" id="node4" href="$structw__engine.html" title="A warpcore backend engine. " alt="" coords="329,96,405,123"/>
-<area shape="rect" id="node2" href="$structw__sock.html" title="A warpcore socket. " alt="" coords="173,187,240,213"/>
-<area shape="rect" id="node3" href="$structw__sockopt.html" title="Socket options. " alt="" coords="64,96,149,123"/>
-<area shape="rect" id="node5" href="$structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. " alt="" coords="390,187,445,213"/>
-<area shape="rect" id="node6" href="$structw__iov__sq.html" title="A tail queue of w_iov I/O vectors. " alt="" coords="329,5,405,32"/>
-<area shape="rect" id="node7" href="$structw__tuple.html" title="w_tuple" alt="" coords="173,96,240,123"/>
-</map>

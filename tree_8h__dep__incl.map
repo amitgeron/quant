@@ -10,8 +10,8 @@
 <area shape="rect" id="node11" href="$tls_8c.html" title="src/tls.c" alt="" coords="427,603,496,629"/>
 <area shape="rect" id="node14" href="$diet_8h.html" title="src/diet.h" alt="" coords="847,155,923,181"/>
 <area shape="rect" id="node16" href="$quic_8h.html" title="src/quic.h" alt="" coords="1002,304,1080,331"/>
-<area shape="rect" id="node19" href="$src_2util_8c.html" title="src/util.c" alt="" coords="2237,155,2309,181"/>
-<area shape="rect" id="node20" href="$src_2config_8c.html" title="src/config.c" alt="" coords="2333,155,2424,181"/>
+<area shape="rect" id="node19" href="$util_8c.html" title="src/util.c" alt="" coords="2237,155,2309,181"/>
+<area shape="rect" id="node20" href="$config_8c.html" title="src/config.c" alt="" coords="2333,155,2424,181"/>
 <area shape="rect" id="node5" href="$pkt_8h.html" title="src/pkt.h" alt="" coords="753,528,825,555"/>
 <area shape="rect" id="node12" href="$stream_8h.html" title="src/stream.h" alt="" coords="1105,528,1199,555"/>
 <area shape="rect" id="node13" href="$pn_8c.html" title="src/pn.c" alt="" coords="1203,603,1272,629"/>

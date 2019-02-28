@@ -1,17 +1,3 @@
 <map id="encrypt_ticket_cb" name="encrypt_ticket_cb">
-<area shape="rect" id="node2" href="$picotls_8h.html#aefec8568e3aed02938b396752d54d5e5" title="returns a pointer to user data pointer (client is reponsible for freeing the associated data prior to..." alt="" coords="193,5,316,32"/>
-<area shape="rect" id="node3" href="$picotls_8h.html#ac3aed9c2ae399575c55bf3447b0c72fe" title="reserves space for additional amount of memory " alt="" coords="188,56,321,83"/>
-<area shape="rect" id="node5" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="213,107,296,133"/>
-<area shape="rect" id="node6" href="$picotls_8h.html#aa889677e26863e1a37b216aedac72c67" title="returns the server&#45;name (NULL if SNI is not used or failed to negotiate) " alt="" coords="179,157,330,184"/>
-<area shape="rect" id="node7" href="$picotls_8h.html#ab8af003866ffad57334b31bf5290cbe8" title="returns the negotiated protocol (or NULL) " alt="" coords="187,209,322,250"/>
-<area shape="rect" id="node8" href="$openssl_8h.html#a2514cd53d441b44478641a1643af622d" title="ptls_openssl_random\l_bytes" alt="" coords="182,274,327,315"/>
-<area shape="rect" id="node10" href="$picotls_8h.html#a0ba1b8374ab826173b83493093b2aceb" title="ptls_aead_encrypt" alt="" coords="191,340,319,367"/>
-<area shape="rect" id="node15" href="$boot_8c.html#a3c48b0d616482494ace467ca05e01642" title="memcmp" alt="" coords="217,391,293,417"/>
-<area shape="rect" id="node16" href="$picotls_8h.html#ad7908a62ead44bf0058b3672cd4321fc" title="decrypts an AEAD record " alt="" coords="403,441,531,468"/>
-<area shape="rect" id="node4" href="$lib_2picotls_8c.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="397,49,536,90"/>
-<area shape="rect" id="node9" href="$boot_8c.html#a8dec7c95227ff149687066cf04029191" title="abort" alt="" coords="441,239,492,265"/>
-<area shape="rect" id="node11" href="$picotls_8h.html#a93aa51d621b1cf204e5ea455db7e747e" title="initializes the internal state of the encryptor " alt="" coords="391,289,543,316"/>
-<area shape="rect" id="node13" href="$picotls_8h.html#ac80d132d2606d2af959cf5ab4f574766" title="encrypts the input and updates the GCM state " alt="" coords="379,340,554,367"/>
-<area shape="rect" id="node14" href="$picotls_8h.html#ad44b4fd94d7f19cdf846abf90260255c" title="emits buffered data (if any) and the GCM tag " alt="" coords="387,391,546,417"/>
-<area shape="rect" id="node12" href="$picotls_8h.html#a850d1876076b7a5061ffae37aa929b41" title="internal " alt="" coords="603,365,739,392"/>
+<area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="179,5,261,32"/>
 </map>

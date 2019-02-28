@@ -1,5 +1,3 @@
 <map id="free_tls_ctx" name="free_tls_ctx">
-<area shape="rect" id="node2" href="$tls_8c.html#a0e432c22353f0539562e3eb2382001e2" title="dispose_cipher" alt="" coords="144,31,253,57"/>
-<area shape="rect" id="node3" href="$picotls_8h.html#aadec89f296f10258b21ce9daa255d485" title="destroys an AEAD cipher context " alt="" coords="305,5,412,32"/>
-<area shape="rect" id="node4" href="$picotls_8h.html#ae57011fb3506f15237ead4f3146acc01" title="destroys a symmetric cipher " alt="" coords="301,56,416,83"/>
+<area shape="rect" id="node2" href="$tls_8c.html#a0e432c22353f0539562e3eb2382001e2" title="dispose_cipher" alt="" coords="144,5,253,32"/>
 </map>

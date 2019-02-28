@@ -1,9 +1,0 @@
-<map id="verify_cert" name="verify_cert">
-<area shape="rect" id="node2" href="$lib_2openssl_8c.html#a79a103c0c30fa42ba456db3118db4272" title="to_x509" alt="" coords="178,5,246,32"/>
-<area shape="rect" id="node3" href="$lib_2openssl_8c.html#ac6f98da7f812d15a2421e69e23ee6b4e" title="verify_cert_chain" alt="" coords="151,56,273,83"/>
-<area shape="rect" id="node6" href="$picotls_8h.html#a4c8998052323166300a9b59bc6443337" title="Returns if the context is a server context. " alt="" coords="161,107,263,133"/>
-<area shape="rect" id="node7" href="$picotls_8h.html#aa889677e26863e1a37b216aedac72c67" title="returns the server&#45;name (NULL if SNI is not used or failed to negotiate) " alt="" coords="137,157,287,184"/>
-<area shape="rect" id="node8" href="$lib_2openssl_8c.html#a7ed99c87b711d8e2e5d8a87d9b8b3d75" title="verify_sign" alt="" coords="169,208,255,235"/>
-<area shape="rect" id="node4" href="$picotls_8h.html#a55b4668776166a96a7acbfe0c90d1ca8" title="checks if a server name is an IP address. " alt="" coords="337,19,479,61"/>
-<area shape="rect" id="node5" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="381,85,435,112"/>
-</map>

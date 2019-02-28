@@ -1,9 +1,0 @@
-<map id="q_stream" name="q_stream">
-<area shape="rect" id="node2" href="$structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. " alt="" coords="128,97,183,124"/>
-<area shape="rect" id="node3" href="$structw__engine.html" title="A warpcore backend engine. " alt="" coords="183,189,259,216"/>
-<area shape="rect" id="node6" href="$structw__sock.html" title="A warpcore socket. " alt="" coords="267,280,333,307"/>
-<area shape="rect" id="node4" href="$structw__iov__sq.html" title="A tail queue of w_iov I/O vectors. " alt="" coords="173,5,249,32"/>
-<area shape="rect" id="node5" href="$structw__backend.html" title="w_backend" alt="" coords="208,371,296,397"/>
-<area shape="rect" id="node7" href="$structw__sockopt.html" title="Socket options. " alt="" coords="337,189,423,216"/>
-<area shape="rect" id="node8" href="$structw__tuple.html" title="w_tuple" alt="" coords="447,189,513,216"/>
-</map>

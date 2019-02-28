@@ -1,6 +1,0 @@
-<map id="input_block" name="input_block">
-<area shape="rect" id="node2" href="$norx_8c.html#a1d9cf87de46e523c2c739b42ee1e8fd2" title="input_block_final" alt="" coords="142,5,261,32"/>
-<area shape="rect" id="node4" href="$norx_8c.html#a27061a68ab77f6087674badcb01354eb" title="switch_domain" alt="" coords="147,56,256,83"/>
-<area shape="rect" id="node3" href="$bitops_8h.html#a53b9f25069cc1b9fd72d421715d13aad" title="Read 4 bytes from buf, as a 32&#45;bit little endian quantity. " alt="" coords="310,5,389,32"/>
-<area shape="rect" id="node5" href="$norx_8c.html#af91bd8eed5e8915a86477290a420ebc4" title="permute" alt="" coords="315,56,384,83"/>
-</map>

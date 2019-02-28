@@ -1,24 +1,4 @@
 <map id="setup_initial_encryption" name="setup_initial_encryption">
-<area shape="rect" id="node2" href="$picotls_8h.html#aace42c0ca1898cb625aa1719dcfe67f0" title="ptls_hkdf_extract" alt="" coords="1233,5,1356,32"/>
-<area shape="rect" id="node3" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="1423,208,1529,235"/>
-<area shape="rect" id="node8" href="$tls_8c.html#ab26c763c76c9b874d651bdba836fc13f" title="setup_initial_key" alt="" coords="214,309,333,336"/>
-<area shape="rect" id="node4" href="$lib_2picotls_8c.html#a5db4538399b7412c4dc994ed9041e952" title="ptls_hmac_create" alt="" coords="1599,217,1724,244"/>
-<area shape="rect" id="node5" href="$lib_2picotls_8c.html#a4291f2257a1f1c0d5aabb5c1bf782715" title="hmac_update" alt="" coords="1779,167,1879,193"/>
-<area shape="rect" id="node6" href="$lib_2picotls_8c.html#a22286798908a379df06073befee1973b" title="hmac_final" alt="" coords="1787,217,1872,244"/>
-<area shape="rect" id="node7" href="$lib_2picotls_8c.html#a4184a8e63a098ef29aea464c551a8d14" title="hmac_apply_key" alt="" coords="1928,243,2048,269"/>
-<area shape="rect" id="node9" href="$picotls_8h.html#ad8b4abd44ba4d5f46a72ec9c08b07229" title="ptls_hkdf_expand_label" alt="" coords="526,411,685,437"/>
-<area shape="rect" id="node16" href="$tls_8c.html#af5ebb2a5b8cab6a40a18677a5ea562fb" title="setup_cipher" alt="" coords="381,259,477,285"/>
-<area shape="rect" id="node10" href="$lib_2picotls_8c.html#a7011e70930ac9119a3e9d9a2b4a1d5f6" title="hkdf_expand_label" alt="" coords="1229,411,1360,437"/>
-<area shape="rect" id="node11" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="1423,461,1529,488"/>
-<area shape="rect" id="node12" href="$boot_8c.html#a48b3b9f7e0a27f07fa14bed55036fa3b" title="strlen" alt="" coords="1449,309,1503,336"/>
-<area shape="rect" id="node13" href="$lib_2picotls_8c.html#ad066e549d3eadb8071666a295b3d286d" title="ptls_hkdf_expand" alt="" coords="1414,360,1538,387"/>
-<area shape="rect" id="node14" href="$picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="1409,411,1543,437"/>
-<area shape="rect" id="node15" href="$picotls_8h.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="1592,403,1731,445"/>
-<area shape="rect" id="node17" href="$picotls_8h.html#a229de01597e54002f209266c7b4055aa" title="instantiates a symmetric cipher " alt="" coords="547,157,663,184"/>
-<area shape="rect" id="node18" href="$picotls_8h.html#a04bb46d751b8ee324d6fe885e3cd50e7" title="instantiates an AEAD cipher given a secret, which is expanded using hkdf to a set of key and iv ..." alt="" coords="551,309,660,336"/>
-<area shape="rect" id="node22" href="$picotls_8h.html#aadec89f296f10258b21ce9daa255d485" title="destroys an AEAD cipher context " alt="" coords="552,208,659,235"/>
-<area shape="rect" id="node23" href="$picotls_8h.html#ae57011fb3506f15237ead4f3146acc01" title="destroys a symmetric cipher " alt="" coords="548,259,663,285"/>
-<area shape="rect" id="node19" href="$lib_2picotls_8c.html#a263837b2d752dbd55d25187c624c0ee4" title="new_aead" alt="" coords="734,309,815,336"/>
-<area shape="rect" id="node20" href="$lib_2picotls_8c.html#af28434536271e3d710dc6ed7be94b5f3" title="get_traffic_key" alt="" coords="865,309,973,336"/>
-<area shape="rect" id="node21" href="$lib_2picotls_8c.html#ad8b4abd44ba4d5f46a72ec9c08b07229" title="ptls_hkdf_expand_label" alt="" coords="1022,309,1181,336"/>
+<area shape="rect" id="node2" href="$tls_8c.html#ab26c763c76c9b874d651bdba836fc13f" title="setup_initial_key" alt="" coords="214,5,333,32"/>
+<area shape="rect" id="node3" href="$tls_8c.html#af5ebb2a5b8cab6a40a18677a5ea562fb" title="setup_cipher" alt="" coords="381,5,477,32"/>
 </map>

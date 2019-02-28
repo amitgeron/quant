@@ -1,9 +1,0 @@
-<map id="mainloop" name="mainloop">
-<area shape="rect" id="node2" href="$curve25519_8naclref_8c.html#aaadabd431d8a32125f515700f5ced9d7" title="select" alt="" coords="145,5,202,32"/>
-<area shape="rect" id="node3" href="$curve25519_8naclref_8c.html#a632ddf968f189e43034312b67c0ddce9" title="add" alt="" coords="152,56,195,83"/>
-<area shape="rect" id="node4" href="$curve25519_8naclref_8c.html#ae86789cbba0e2cf7f9cbacd3f219c3c9" title="sub" alt="" coords="152,107,195,133"/>
-<area shape="rect" id="node5" href="$curve25519_8naclref_8c.html#a7471add6b1c020d4b0723d75f6cfb163" title="square" alt="" coords="143,157,204,184"/>
-<area shape="rect" id="node7" href="$curve25519_8naclref_8c.html#a0e278dc68e20c984208be2688d0d4165" title="mult" alt="" coords="150,208,197,235"/>
-<area shape="rect" id="node8" href="$curve25519_8naclref_8c.html#a9034855396bf7bd0019343b5e0de43b1" title="mult121665" alt="" coords="129,259,218,285"/>
-<area shape="rect" id="node6" href="$curve25519_8naclref_8c.html#a09a395b398c3655ed92bd8552713aa70" title="squeeze" alt="" coords="267,183,338,209"/>
-</map>

@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Packet meta-data information associated with <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> buffers.  
+<p>Packet meta-data information associated with w_iov buffers.  
  <a href="structpkt__meta.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="quic_8h_source.html">quic.h</a>&gt;</code></p>
@@ -99,7 +99,7 @@ Collaboration diagram for pkt_meta:</div>
 <div class="dyncontent">
 <div class="center"><img src="structpkt__meta__coll__graph.png" border="0" usemap="#pkt__meta_coll__map" alt="Collaboration graph"/></div>
 <map name="pkt__meta_coll__map" id="pkt__meta_coll__map">
-<area shape="rect" id="node2" href="structq__stream.html" title="q_stream" alt="" coords="94,203,169,229"/><area shape="rect" id="node3" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. " alt="" coords="225,97,280,124"/><area shape="rect" id="node4" href="structw__engine.html" title="A warpcore backend engine. " alt="" coords="207,203,283,229"/><area shape="rect" id="node7" href="structw__sock.html" title="A warpcore socket. " alt="" coords="308,293,375,320"/><area shape="rect" id="node5" href="structw__iov__sq.html" title="A tail queue of w_iov I/O vectors. " alt="" coords="271,5,347,32"/><area shape="rect" id="node6" href="structw__backend.html" title="w_backend" alt="" coords="237,384,325,411"/><area shape="rect" id="node8" href="structw__sockopt.html" title="Socket options. " alt="" coords="449,203,535,229"/><area shape="rect" id="node9" href="structw__tuple.html" title="w_tuple" alt="" coords="308,203,375,229"/><area shape="rect" id="node10" href="structpkt__hdr.html" title="pkt_hdr" alt="" coords="5,203,69,229"/><area shape="rect" id="node11" href="structcid.html" title="cid" alt="" coords="18,97,56,124"/></map>
+<area shape="rect" id="node2" href="structq__stream.html" title="q_stream" alt="" coords="5,109,80,136"/><area shape="rect" id="node3" href="structpkt__hdr.html" title="pkt_hdr" alt="" coords="105,109,169,136"/><area shape="rect" id="node4" href="structcid.html" title="cid" alt="" coords="118,5,156,32"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -168,13 +168,13 @@ Data Fields</h2></td></tr>
 <tr class="memdesc:a633b6473e8f60ab28a373f94ed2a825f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of protected UDP packet at TX/RX.  <a href="#a633b6473e8f60ab28a373f94ed2a825f">More...</a><br/></td></tr>
 <tr class="separator:a633b6473e8f60ab28a373f94ed2a825f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1b1b15cf2ec10279fe3e763082ed9fd"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#ab1b1b15cf2ec10279fe3e763082ed9fd">has_rtx</a>: 1</td></tr>
-<tr class="memdesc:ab1b1b15cf2ec10279fe3e763082ed9fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does the <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> hold truncated data?  <a href="#ab1b1b15cf2ec10279fe3e763082ed9fd">More...</a><br/></td></tr>
+<tr class="memdesc:ab1b1b15cf2ec10279fe3e763082ed9fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does the w_iov hold truncated data?  <a href="#ab1b1b15cf2ec10279fe3e763082ed9fd">More...</a><br/></td></tr>
 <tr class="separator:ab1b1b15cf2ec10279fe3e763082ed9fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a15ff29d90b1fb954de8384f0de59b7"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a3a15ff29d90b1fb954de8384f0de59b7">is_acked</a>: 1</td></tr>
-<tr class="memdesc:a3a15ff29d90b1fb954de8384f0de59b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> ACKed?  <a href="#a3a15ff29d90b1fb954de8384f0de59b7">More...</a><br/></td></tr>
+<tr class="memdesc:a3a15ff29d90b1fb954de8384f0de59b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the w_iov ACKed?  <a href="#a3a15ff29d90b1fb954de8384f0de59b7">More...</a><br/></td></tr>
 <tr class="separator:a3a15ff29d90b1fb954de8384f0de59b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dc5c504a91969f7598208109fb18cdb"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a1dc5c504a91969f7598208109fb18cdb">is_lost</a>: 1</td></tr>
-<tr class="memdesc:a1dc5c504a91969f7598208109fb18cdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Have we marked this <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> as lost?  <a href="#a1dc5c504a91969f7598208109fb18cdb">More...</a><br/></td></tr>
+<tr class="memdesc:a1dc5c504a91969f7598208109fb18cdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Have we marked this w_iov as lost?  <a href="#a1dc5c504a91969f7598208109fb18cdb">More...</a><br/></td></tr>
 <tr class="separator:a1dc5c504a91969f7598208109fb18cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a9ba49e9150a85476b33cd8ebb790ed"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a6a9ba49e9150a85476b33cd8ebb790ed">is_reset</a>: 1</td></tr>
 <tr class="memdesc:a6a9ba49e9150a85476b33cd8ebb790ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">This packet is a stateless reset.  <a href="#a6a9ba49e9150a85476b33cd8ebb790ed">More...</a><br/></td></tr>
@@ -188,7 +188,7 @@ Data Fields</h2></td></tr>
 <tr class="separator:a63c560e0b40127920ebb2b9a7d9787dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Packet meta-data information associated with <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> buffers. </p>
+<div class="textblock"><p>Packet meta-data information associated with w_iov buffers. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a7e459e2fc33bd3e88fe4c32ea57962a4"></a>
 <div class="memitem">
@@ -299,7 +299,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Does the <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> hold truncated data? </p>
+<p>Does the w_iov hold truncated data? </p>
 
 </div>
 </div>
@@ -325,7 +325,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Is the <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> ACKed? </p>
+<p>Is the w_iov ACKed? </p>
 
 </div>
 </div>
@@ -353,7 +353,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Have we marked this <a class="el" href="structw__iov.html" title="The I/O vector structure that warpcore uses at the center of its API. ">w_iov</a> as lost? </p>
+<p>Have we marked this w_iov as lost? </p>
 
 </div>
 </div>
@@ -587,7 +587,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 28 2019 17:17:35 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 28 2019 19:46:21 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,6 +1,0 @@
-<map id="deps/picotls/deps/picotest/picotest.h" name="deps/picotls/deps/picotest/picotest.h">
-<area shape="rect" id="node2" href="$picotest_8c.html" title="deps/picotls/deps/picotest\l/picotest.c" alt="" coords="5,97,179,138"/>
-<area shape="rect" id="node3" href="$minicrypto_8c.html" title="deps/picotls/t/minicrypto.c" alt="" coords="203,104,377,131"/>
-<area shape="rect" id="node4" href="$t_2openssl_8c.html" title="deps/picotls/t/openssl.c" alt="" coords="403,104,561,131"/>
-<area shape="rect" id="node5" href="$t_2picotls_8c.html" title="deps/picotls/t/picotls.c" alt="" coords="587,104,740,131"/>
-</map>

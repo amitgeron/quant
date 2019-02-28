@@ -1,31 +1,5 @@
 var searchData=
 [
-  ['cbcmac_2ec',['cbcmac.c',['../cbcmac_8c.html',1,'']]],
-  ['ccm_2ec',['ccm.c',['../ccm_8c.html',1,'']]],
-  ['certificate_5fcompression_2ec',['certificate_compression.c',['../certificate__compression_8c.html',1,'']]],
-  ['certificate_5fcompression_2eh',['certificate_compression.h',['../certificate__compression_8h.html',1,'']]],
-  ['cf_5fconfig_2eh',['cf_config.h',['../cf__config_8h.html',1,'']]],
-  ['chacha20_2ec',['chacha20.c',['../chacha20_8c.html',1,'']]],
-  ['chacha20poly1305_2ec',['chacha20poly1305.c',['../chacha20poly1305_8c.html',1,'']]],
-  ['chacha20poly1305_2eh',['chacha20poly1305.h',['../chacha20poly1305_8h.html',1,'']]],
-  ['chash_2ec',['chash.c',['../chash_8c.html',1,'']]],
-  ['chash_2eh',['chash.h',['../chash_8h.html',1,'']]],
-  ['cifra_2ec',['cifra.c',['../cifra_8c.html',1,'']]],
-  ['cli_2ec',['cli.c',['../cli_8c.html',1,'']]],
-  ['cmac_2ec',['cmac.c',['../cmac_8c.html',1,'']]],
-  ['common_2ec',['common.c',['../common_8c.html',1,'']]],
-  ['common_2eh',['common.h',['../common_8h.html',1,'']]],
-  ['config_2ec',['config.c',['../deps_2warpcore_2lib_2src_2config_8c.html',1,'']]],
-  ['config_2ec',['config.c',['../src_2config_8c.html',1,'']]],
-  ['config_2eh',['config.h',['../include_2quant_2config_8h.html',1,'']]],
-  ['config_2eh',['config.h',['../deps_2warpcore_2lib_2include_2warpcore_2config_8h.html',1,'']]],
-  ['conn_2ec',['conn.c',['../conn_8c.html',1,'']]],
-  ['conn_2eh',['conn.h',['../conn_8h.html',1,'']]],
-  ['curve25519_2ec',['curve25519.c',['../curve25519_8c.html',1,'']]],
-  ['curve25519_2edonna_2ec',['curve25519.donna.c',['../curve25519_8donna_8c.html',1,'']]],
-  ['curve25519_2eh',['curve25519.h',['../curve25519_8h.html',1,'']]],
-  ['curve25519_2enaclref_2ec',['curve25519.naclref.c',['../curve25519_8naclref_8c.html',1,'']]],
-  ['curve25519_2etweetnacl_2ec',['curve25519.tweetnacl.c',['../curve25519_8tweetnacl_8c.html',1,'']]],
-  ['cutest_2eh',['cutest.h',['../ext_2cutest_8h.html',1,'']]],
-  ['cutest_2eh',['cutest.h',['../arm_2ext_2cutest_8h.html',1,'']]]
+  ['diet_2ec',['diet.c',['../diet_8c.html',1,'']]],
+  ['diet_2eh',['diet.h',['../diet_8h.html',1,'']]]
 ];

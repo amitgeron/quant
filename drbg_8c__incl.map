@@ -1,9 +1,0 @@
-<map id="deps/picotls/deps/cifra/src/drbg.c" name="deps/picotls/deps/cifra/src/drbg.c">
-<area shape="rect" id="node2" href="$drbg_8h.html" title="drbg.h" alt="" coords="327,96,384,123"/>
-<area shape="rect" id="node7" href="$handy_8h.html" title="handy.h" alt="" coords="482,96,549,123"/>
-<area shape="rect" id="node9" href="$bitops_8h.html" title="bitops.h" alt="" coords="5,245,72,272"/>
-<area shape="rect" id="node10" href="$sha2_8h.html" title="sha2.h" alt="" coords="184,171,245,197"/>
-<area shape="rect" id="node11" href="$tassert_8h.html" title="tassert.h" alt="" coords="674,96,747,123"/>
-<area shape="rect" id="node5" href="$chash_8h.html" title="chash.h" alt="" coords="250,245,317,272"/>
-<area shape="rect" id="node6" href="$hmac_8h.html" title="hmac.h" alt="" coords="323,171,388,197"/>
-</map>

@@ -1,8 +1,6 @@
 <map id="reset_stream" name="reset_stream">
-<area shape="rect" id="node2" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="152,81,211,108"/>
-<area shape="rect" id="node3" href="$quic_8h.html#ad717e4c8ce421a3a170d95b98e863b77" title="free_iov" alt="" coords="259,81,327,108"/>
+<area shape="rect" id="node2" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="152,31,211,57"/>
+<area shape="rect" id="node3" href="$quic_8h.html#ad717e4c8ce421a3a170d95b98e863b77" title="free_iov" alt="" coords="259,31,327,57"/>
 <area shape="rect" id="node4" href="$pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="378,5,478,32"/>
-<area shape="rect" id="node5" href="$warpcore_8h.html#af715f1dc66886b692a243b014997f171" title="Return a pointer to the w_iov with index i. " alt="" coords="528,31,584,57"/>
-<area shape="rect" id="node6" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="377,107,479,133"/>
-<area shape="rect" id="node7" href="$warpcore_8h.html#a92bb31feffd5e9e2cda91aa4612bc103" title="Return a single w_iov obtained via w_alloc_len(), w_alloc_cnt() or w_rx() back to warpcore..." alt="" coords="385,157,471,184"/>
+<area shape="rect" id="node5" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="377,56,479,83"/>
 </map>

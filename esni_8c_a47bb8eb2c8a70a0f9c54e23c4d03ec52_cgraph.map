@@ -1,7 +1,0 @@
-<map id="emit_esni" name="emit_esni">
-<area shape="rect" id="node2" href="$picotls_8h.html#ad7d2c2db8ec70c51f5241cfeb1f7a723" title="initializes a buffer, setting the default destination to the small buffer provided as the argument..." alt="" coords="148,5,255,32"/>
-<area shape="rect" id="node3" href="$picotls_8h.html#a74302ee2c0642a5f161c8b5d3b5dfc39" title="ptls_calc_hash" alt="" coords="147,56,256,83"/>
-<area shape="rect" id="node4" href="$picotls_8h.html#a17e82d69963adbcc3ccd40af02c3f597" title="builds a new ptls_iovec_t instance using the supplied parameters " alt="" coords="149,107,254,133"/>
-<area shape="rect" id="node5" href="$picotls_8h.html#a9919d1343430a7726698cba411fa93b4" title="disposes a buffer, freeing resources allocated by the buffer itself (if any) " alt="" coords="134,157,269,184"/>
-<area shape="rect" id="node6" href="$picotls_8h.html#add3c5e06f1310a8db6713148068046f0" title="internal " alt="" coords="317,150,456,191"/>
-</map>

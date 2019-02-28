@@ -1,7 +1,0 @@
-<map id="curve25519_ladderstep" name="curve25519_ladderstep">
-<area shape="rect" id="node2" href="$scalarmult_8c.html#af742980f3083b2167ee71c78b9ede06c" title="fe25519_add" alt="" coords="220,5,316,32"/>
-<area shape="rect" id="node3" href="$scalarmult_8c.html#ab65924d347f8a95862a4304044476409" title="fe25519_sub" alt="" coords="220,56,316,83"/>
-<area shape="rect" id="node4" href="$scalarmult_8c.html#a7f7af83a387a0d3e2381100b29d65949" title="fe25519_mul" alt="" coords="220,107,316,133"/>
-<area shape="rect" id="node6" href="$scalarmult_8c.html#a9e76e261b5b1e7006a0bee44aa090f91" title="fe25519_square" alt="" coords="211,157,325,184"/>
-<area shape="rect" id="node5" href="$scalarmult_8c.html#a0acc0b27d478441a5c933576c7c776ac" title="fe25519_reduceTo256Bits_asm" alt="" coords="373,132,579,159"/>
-</map>

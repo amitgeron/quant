@@ -1,7 +1,0 @@
-<map id="deps/warpcore/test/test_hexdump.c" name="deps/warpcore/test/test_hexdump.c">
-<area shape="rect" id="node2" href="$warpcore_8h.html" title="warpcore/warpcore.h" alt="" coords="370,96,512,123"/>
-<area shape="rect" id="node6" href="$deps_2warpcore_2lib_2include_2warpcore_2config_8h.html" title="warpcore/config.h" alt="" coords="621,171,747,197"/>
-<area shape="rect" id="node7" href="$plat_8h.html" title="warpcore/plat.h" alt="" coords="75,171,185,197"/>
-<area shape="rect" id="node10" href="$queue_8h.html" title="warpcore/queue.h" alt="" coords="771,171,896,197"/>
-<area shape="rect" id="node11" href="$warpcore_2lib_2include_2warpcore_2util_8h.html" title="warpcore/util.h" alt="" coords="261,171,368,197"/>
-</map>
