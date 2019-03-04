@@ -1,6 +1,6 @@
 <map id="tx" name="tx">
 <area shape="rect" id="node2" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="93,81,192,108"/>
-<area shape="rect" id="node6" href="$conn_8c.html#a3b5d57a3e32f9d5cc8a8fccfb2e0f5a9" title="tx_ack" alt="" coords="112,717,173,744"/>
+<area shape="rect" id="node6" href="$conn_8c.html#a0a20a8f8077967eb418a31161d81e69b" title="tx_ack" alt="" coords="112,717,173,744"/>
 <area shape="rect" id="node7" href="$conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80" title="do_conn_mgmt" alt="" coords="242,233,353,260"/>
 <area shape="rect" id="node37" href="$conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87" title="tx_stream" alt="" coords="103,1487,183,1513"/>
 <area shape="rect" id="node3" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="265,5,329,32"/>
