@@ -169,12 +169,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">};</div>
 <div class="line"></div>
 <div class="line"></div>
-<div class="line"><span class="keyword">static</span> <span class="keywordtype">int</span> send_err(<span class="keyword">const</span> <span class="keyword">struct</span> cb_data * <span class="keyword">const</span> d, <span class="keyword">const</span> uint16_t code)</div>
+<div class="line"><span class="keyword">static</span> <span class="keywordtype">bool</span> send_err(<span class="keyword">const</span> <span class="keyword">struct</span> cb_data * <span class="keyword">const</span> d, <span class="keyword">const</span> uint16_t code)</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">const</span> <span class="keywordtype">char</span> * msg;</div>
+<div class="line">    <span class="keywordtype">bool</span> close = <span class="keyword">false</span>;</div>
+<div class="line"></div>
 <div class="line">    <span class="keywordflow">switch</span> (code) {</div>
 <div class="line">    <span class="keywordflow">case</span> 400:</div>
 <div class="line">        msg = <span class="stringliteral">&quot;400 Bad Request&quot;</span>;</div>
+<div class="line">        close = <span class="keyword">true</span>;</div>
 <div class="line">        <span class="keywordflow">break</span>;</div>
 <div class="line">    <span class="keywordflow">case</span> 403:</div>
 <div class="line">        msg = <span class="stringliteral">&quot;403 Forbidden&quot;</span>;</div>
@@ -184,12 +187,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">        <span class="keywordflow">break</span>;</div>
 <div class="line">    <span class="keywordflow">case</span> 505:</div>
 <div class="line">        msg = <span class="stringliteral">&quot;505 HTTP Version Not Supported&quot;</span>;</div>
+<div class="line">        close = <span class="keyword">true</span>;</div>
 <div class="line">        <span class="keywordflow">break</span>;</div>
 <div class="line">    <span class="keywordflow">default</span>:</div>
 <div class="line">        msg = <span class="stringliteral">&quot;500 Internal Server Error&quot;</span>;</div>
 <div class="line">    }</div>
-<div class="line">    <a name="a2"></a><a class="code" href="quant_8h.html#a6d4a912ded40f05ddd1922bb5050ed4f">q_close</a>(d-&gt;c, 0x0003, msg);</div>
-<div class="line">    <span class="keywordflow">return</span> code;</div>
+<div class="line"></div>
+<div class="line">    <span class="keywordflow">if</span> (close)</div>
+<div class="line">        <a name="a2"></a><a class="code" href="quant_8h.html#a6d4a912ded40f05ddd1922bb5050ed4f">q_close</a>(d-&gt;c, 0x0003, msg);</div>
+<div class="line">    <span class="keywordflow">else</span></div>
+<div class="line">        <a name="a3"></a><a class="code" href="quant_8h.html#a3fe837399476c6ae443a5f17b5eb644f">q_write_str</a>(d-&gt;w, d-&gt;s, msg, strlen(msg), <span class="keyword">true</span>);</div>
+<div class="line">    <span class="keywordflow">return</span> close;</div>
 <div class="line">}</div>
 <div class="line"></div>
 <div class="line"></div>
@@ -197,8 +205,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">{</div>
 <div class="line">    (void)parser;</div>
 <div class="line">    <span class="keyword">const</span> <span class="keyword">struct </span>cb_data * <span class="keyword">const</span> d = parser-&gt;data;</div>
-<div class="line">    warn(INF, <span class="stringliteral">&quot;conn %s str %&quot;</span> PRId64 <span class="stringliteral">&quot; serving URL %.*s&quot;</span>, <a name="a3"></a><a class="code" href="quant_8h.html#abbe95c980e94c1ba72d110e86e0bb060">q_cid</a>(d-&gt;c),</div>
-<div class="line">         <a name="a4"></a><a class="code" href="quant_8h.html#a0d5a178a6f02a949c935a8aa35805862">q_sid</a>(d-&gt;s), (<span class="keywordtype">int</span>)len, at);</div>
+<div class="line">    warn(INF, <span class="stringliteral">&quot;conn %s str %&quot;</span> PRId64 <span class="stringliteral">&quot; serving URL %.*s&quot;</span>, <a name="a4"></a><a class="code" href="quant_8h.html#abbe95c980e94c1ba72d110e86e0bb060">q_cid</a>(d-&gt;c),</div>
+<div class="line">         <a name="a5"></a><a class="code" href="quant_8h.html#a0d5a178a6f02a949c935a8aa35805862">q_sid</a>(d-&gt;s), (<span class="keywordtype">int</span>)len, at);</div>
 <div class="line"></div>
 <div class="line">    <span class="keywordtype">char</span> path[MAXPATHLEN] = <span class="stringliteral">&quot;.&quot;</span>;</div>
 <div class="line">    strncpy(&amp;path[*at == <span class="charliteral">&#39;/&#39;</span> ? 1 : 0], at, MIN(len, <span class="keyword">sizeof</span>(path) - 1));</div>
@@ -211,13 +219,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">    <span class="keyword">const</span> uint64_t n = (uint32_t)MIN(UINT64_MAX, strtoul(&amp;path[2], 0, 10));</div>
 <div class="line">    <span class="keywordflow">if</span> (n) {</div>
 <div class="line">        <span class="keyword">struct </span>w_iov_sq out = w_iov_sq_initializer(out);</div>
-<div class="line">        <a name="a5"></a><a class="code" href="quant_8h.html#a47bc44fba1cbaf917110bc2c6c805c81">q_alloc</a>(d-&gt;w, &amp;out, n);</div>
+<div class="line">        <a name="a6"></a><a class="code" href="quant_8h.html#a47bc44fba1cbaf917110bc2c6c805c81">q_alloc</a>(d-&gt;w, &amp;out, n);</div>
 <div class="line">        <span class="comment">// check whether we managed to allow enough buffers</span></div>
 <div class="line">        <span class="keywordflow">if</span> (w_iov_sq_len(&amp;out) != n) {</div>
 <div class="line">            warn(ERR,</div>
 <div class="line">                 <span class="stringliteral">&quot;could only allocate %&quot;</span> PRIu64 <span class="stringliteral">&quot;/%&quot;</span> PRIu64 <span class="stringliteral">&quot; bytes of buffer&quot;</span>,</div>
 <div class="line">                 w_iov_sq_len(&amp;out), n);</div>
-<div class="line">            <a name="a6"></a><a class="code" href="quant_8h.html#a4a7935a14e509d989eda300f16daf086">q_free</a>(&amp;out);</div>
+<div class="line">            <a name="a7"></a><a class="code" href="quant_8h.html#a4a7935a14e509d989eda300f16daf086">q_free</a>(&amp;out);</div>
 <div class="line">            <span class="keywordflow">return</span> send_err(d, 500);</div>
 <div class="line">        }</div>
 <div class="line"></div>
@@ -228,7 +236,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">            memset(v-&gt;buf, c, v-&gt;len);</div>
 <div class="line">            c = (c == <span class="charliteral">&#39;Z&#39;</span> ? <span class="charliteral">&#39;A&#39;</span> : c + 1);</div>
 <div class="line">        }</div>
-<div class="line">        <a name="a7"></a><a class="code" href="quant_8h.html#a84a599e3fc846bd85dae279762ca9851">q_write</a>(d-&gt;s, &amp;out, <span class="keyword">true</span>);</div>
+<div class="line">        <a name="a8"></a><a class="code" href="quant_8h.html#a84a599e3fc846bd85dae279762ca9851">q_write</a>(d-&gt;s, &amp;out, <span class="keyword">true</span>);</div>
 <div class="line">        <a class="code" href="quant_8h.html#a4a7935a14e509d989eda300f16daf086">q_free</a>(&amp;out);</div>
 <div class="line">        <span class="keywordflow">return</span> 0;</div>
 <div class="line">    }</div>
@@ -253,7 +261,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">    <span class="keyword">const</span> <span class="keywordtype">int</span> f = openat(d-&gt;dir, path, O_RDONLY | O_CLOEXEC);</div>
 <div class="line">    ensure(f != -1, <span class="stringliteral">&quot;could not open %s&quot;</span>, path);</div>
 <div class="line"></div>
-<div class="line">    <a name="a8"></a><a class="code" href="quant_8h.html#add9fe9a3fc3b036c9a81e0d980744f81">q_write_file</a>(d-&gt;w, d-&gt;s, f, (uint32_t)info.st_size, <span class="keyword">true</span>);</div>
+<div class="line">    <a name="a9"></a><a class="code" href="quant_8h.html#add9fe9a3fc3b036c9a81e0d980744f81">q_write_file</a>(d-&gt;w, d-&gt;s, f, (uint32_t)info.st_size, <span class="keyword">true</span>);</div>
 <div class="line"></div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
@@ -327,13 +335,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">    <span class="keyword">const</span> <span class="keywordtype">int</span> dir_fd = open(dir, O_RDONLY | O_CLOEXEC);</div>
 <div class="line">    ensure(dir_fd != -1, <span class="stringliteral">&quot;%s does not exist&quot;</span>, dir);</div>
 <div class="line"></div>
-<div class="line">    <span class="keyword">struct </span>w_engine * <span class="keyword">const</span> w = <a name="a9"></a><a class="code" href="quant_8h.html#a9e861b437adeddbef368f166d9fc9730">q_init</a>(</div>
-<div class="line">        ifname, &amp;(<span class="keyword">const</span> <span class="keyword">struct</span> <a name="_a10"></a><a class="code" href="structq__conf.html">q_conf</a>){</div>
+<div class="line">    <span class="keyword">struct </span>w_engine * <span class="keyword">const</span> w = <a name="a10"></a><a class="code" href="quant_8h.html#a9e861b437adeddbef368f166d9fc9730">q_init</a>(</div>
+<div class="line">        ifname, &amp;(<span class="keyword">const</span> <span class="keyword">struct</span> <a name="_a11"></a><a class="code" href="structq__conf.html">q_conf</a>){</div>
 <div class="line">                    .num_bufs = num_bufs, .tls_cert = cert, .tls_key = key});</div>
 <div class="line">    <span class="keyword">struct </span><a class="code" href="structq__conn.html">q_conn</a> * conn[MAXPORTS];</div>
 <div class="line">    <span class="keywordtype">size_t</span> bound = 0;</div>
 <div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; num_ports; i++) {</div>
-<div class="line">        conn[i] = <a name="a11"></a><a class="code" href="quant_8h.html#ac6e72671693d868a07bf17e6dd097632">q_bind</a>(w, port[i]);</div>
+<div class="line">        conn[i] = <a name="a12"></a><a class="code" href="quant_8h.html#ac6e72671693d868a07bf17e6dd097632">q_bind</a>(w, port[i]);</div>
 <div class="line">        <span class="keywordflow">if</span> (conn[i]) {</div>
 <div class="line">            warn(DBG, <span class="stringliteral">&quot;%s waiting on %s port %d&quot;</span>, basename(argv[0]), ifname,</div>
 <div class="line">                 port[i]);</div>
@@ -347,61 +355,71 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">    http_parser_settings settings = {.on_url = serve_cb};</div>
 <div class="line"></div>
 <div class="line">    <span class="keywordflow">while</span> (bound) {</div>
-<div class="line">        <span class="keyword">struct </span><a class="code" href="structq__conn.html">q_conn</a> * c = <a name="a12"></a><a class="code" href="quant_8h.html#a84a768c49cd352e1c8a109bda56ef3a6">q_rx_ready</a>(first_conn ? 0 : timeout);</div>
+<div class="line">        <span class="keyword">struct </span><a class="code" href="structq__conn.html">q_conn</a> * c = <a name="a13"></a><a class="code" href="quant_8h.html#a84a768c49cd352e1c8a109bda56ef3a6">q_rx_ready</a>(first_conn ? 0 : timeout);</div>
 <div class="line">        <span class="keywordflow">if</span> (c == 0)</div>
 <div class="line">            <span class="keywordflow">break</span>;</div>
 <div class="line">        first_conn = <span class="keyword">false</span>;</div>
 <div class="line"></div>
 <div class="line">        <span class="comment">// do we need to q_accept?</span></div>
-<div class="line">        <span class="keywordflow">if</span> (<a name="a13"></a><a class="code" href="quant_8h.html#a76ddd1770d74ef5233f2f2f9aaa73dfa">q_is_new_serv_conn</a>(c))</div>
-<div class="line">            <a name="a14"></a><a class="code" href="quant_8h.html#a5b452d2c7658c801b4182547d75880a4">q_accept</a>(&amp;(<span class="keyword">struct</span> <a name="_a15"></a><a class="code" href="structq__conn__conf.html">q_conn_conf</a>){</div>
+<div class="line">        <span class="keywordflow">if</span> (<a name="a14"></a><a class="code" href="quant_8h.html#a76ddd1770d74ef5233f2f2f9aaa73dfa">q_is_new_serv_conn</a>(c))</div>
+<div class="line">            <a name="a15"></a><a class="code" href="quant_8h.html#a5b452d2c7658c801b4182547d75880a4">q_accept</a>(&amp;(<span class="keyword">struct</span> <a name="_a16"></a><a class="code" href="structq__conn__conf.html">q_conn_conf</a>){</div>
 <div class="line">                .idle_timeout = timeout,</div>
 <div class="line">                .enable_spinbit = <span class="keyword">true</span>,</div>
 <div class="line">            });</div>
 <div class="line"></div>
-<div class="line">        <span class="comment">// do we need to handle a request?</span></div>
-<div class="line">        <span class="keyword">struct </span>cb_data d = {.c = c, .<a name="a16"></a><a class="code" href="structq__conn.html#a3f244414e35b3f452821cc6ceb2af485">w</a> = w, .dir = dir_fd};</div>
-<div class="line">        http_parser parser = {.data = &amp;d};</div>
+<div class="line">        <span class="keywordflow">while</span> (1) {</div>
+<div class="line">            <span class="comment">// do we need to handle a request?</span></div>
+<div class="line">            <span class="keyword">struct </span>cb_data d = {.c = c, .<a name="a17"></a><a class="code" href="structq__conn.html#a3f244414e35b3f452821cc6ceb2af485">w</a> = w, .dir = dir_fd};</div>
+<div class="line">            http_parser parser = {.data = &amp;d};</div>
 <div class="line"></div>
-<div class="line">        http_parser_init(&amp;parser, HTTP_REQUEST);</div>
-<div class="line">        <span class="keyword">struct </span>w_iov_sq q = w_iov_sq_initializer(q);</div>
-<div class="line">        <span class="keyword">struct </span><a class="code" href="structq__stream.html">q_stream</a> * s = <a name="a17"></a><a class="code" href="quant_8h.html#a3eca43a72005c71781fd6139f1f8d798">q_read</a>(c, &amp;q, <span class="keyword">false</span>);</div>
+<div class="line">            http_parser_init(&amp;parser, HTTP_REQUEST);</div>
+<div class="line">            <span class="keyword">struct </span>w_iov_sq q = w_iov_sq_initializer(q);</div>
+<div class="line">            <span class="keyword">struct </span><a class="code" href="structq__stream.html">q_stream</a> * s = <a name="a18"></a><a class="code" href="quant_8h.html#a3eca43a72005c71781fd6139f1f8d798">q_read</a>(c, &amp;q, <span class="keyword">false</span>);</div>
 <div class="line"></div>
-<div class="line">        <span class="keywordflow">if</span> (sq_empty(&amp;q))</div>
-<div class="line">            <span class="keywordflow">break</span>;</div>
-<div class="line"></div>
-<div class="line">        d.s = s;</div>
-<div class="line">        <span class="keyword">struct </span>w_iov * v = 0;</div>
-<div class="line">        sq_foreach (v, &amp;q, next) {</div>
-<div class="line">            <span class="keyword">const</span> <span class="keywordtype">size_t</span> parsed =</div>
-<div class="line">                http_parser_execute(&amp;parser, &amp;settings, (<span class="keywordtype">char</span> *)v-&gt;buf, v-&gt;len);</div>
-<div class="line">            <span class="keywordflow">if</span> (parsed != v-&gt;len) {</div>
-<div class="line">                warn(ERR, <span class="stringliteral">&quot;HTTP parser error: %.*s&quot;</span>, (<span class="keywordtype">int</span>)(v-&gt;len - parsed),</div>
-<div class="line">                     &amp;v-&gt;buf[parsed]);</div>
-<div class="line">                <span class="comment">// XXX the strnlen() test is super-hacky</span></div>
-<div class="line">                <span class="keywordflow">if</span> (strnlen((<span class="keywordtype">char</span> *)v-&gt;buf, v-&gt;len) == v-&gt;len)</div>
-<div class="line">                    send_err(&amp;d, 400);</div>
-<div class="line">                <span class="keywordflow">else</span></div>
-<div class="line">                    send_err(&amp;d, 505);</div>
-<div class="line">                ret = 1;</div>
+<div class="line">            <span class="keywordflow">if</span> (sq_empty(&amp;q))</div>
+<div class="line">                <span class="comment">// no more streams with pending reqs, try next conn</span></div>
 <div class="line">                <span class="keywordflow">break</span>;</div>
+<div class="line"></div>
+<div class="line">            <span class="keywordflow">if</span> (<a name="a19"></a><a class="code" href="quant_8h.html#a99a0b8c1b5ebe6499695b641bc3a5fb3">q_is_uni_stream</a>(s)) {</div>
+<div class="line">                warn(NTE, <span class="stringliteral">&quot;can&#39;t serve request on uni stream&quot;</span>);</div>
+<div class="line"></div>
+<div class="line">            } <span class="keywordflow">else</span> {</div>
+<div class="line">                d.s = s;</div>
+<div class="line">                <span class="keyword">struct </span>w_iov * v = 0;</div>
+<div class="line">                sq_foreach (v, &amp;q, next) {</div>
+<div class="line">                    <span class="keyword">const</span> <span class="keywordtype">size_t</span> parsed = http_parser_execute(</div>
+<div class="line">                        &amp;parser, &amp;settings, (<span class="keywordtype">char</span> *)v-&gt;buf, v-&gt;len);</div>
+<div class="line">                    <span class="keywordflow">if</span> (parsed != v-&gt;len) {</div>
+<div class="line">                        warn(ERR, <span class="stringliteral">&quot;HTTP parser error: %.*s&quot;</span>,</div>
+<div class="line">                             (<span class="keywordtype">int</span>)(v-&gt;len - parsed), &amp;v-&gt;buf[parsed]);</div>
+<div class="line">                        <span class="comment">// XXX the strnlen() test is super-hacky</span></div>
+<div class="line">                        <span class="keywordflow">if</span> (strnlen((<span class="keywordtype">char</span> *)v-&gt;buf, v-&gt;len) == v-&gt;len)</div>
+<div class="line">                            send_err(&amp;d, 400);</div>
+<div class="line">                        <span class="keywordflow">else</span></div>
+<div class="line">                            send_err(&amp;d, 505);</div>
+<div class="line">                        ret = 1;</div>
+<div class="line">                        <a class="code" href="quant_8h.html#a4a7935a14e509d989eda300f16daf086">q_free</a>(&amp;q);</div>
+<div class="line">                        <span class="keywordflow">goto</span> err;</div>
+<div class="line">                    }</div>
+<div class="line">                    <span class="keywordflow">if</span> (<a name="a20"></a><a class="code" href="quant_8h.html#ae13d7142befff1e56bdab2813a120c3e">q_peer_has_closed_stream</a>(s)) {</div>
+<div class="line">                        <a name="a21"></a><a class="code" href="quant_8h.html#a01444581bd34af25498d1cb8fc3a0a92">q_close_stream</a>(s);</div>
+<div class="line">                        <span class="keywordflow">break</span>;</div>
+<div class="line">                    }</div>
+<div class="line">                }</div>
 <div class="line">            }</div>
-<div class="line">            <span class="keywordflow">if</span> (<a name="a18"></a><a class="code" href="quant_8h.html#ae13d7142befff1e56bdab2813a120c3e">q_peer_has_closed_stream</a>(s)) {</div>
-<div class="line">                <a name="a19"></a><a class="code" href="quant_8h.html#a01444581bd34af25498d1cb8fc3a0a92">q_close_stream</a>(s);</div>
-<div class="line">                <span class="keywordflow">break</span>;</div>
-<div class="line">            }</div>
+<div class="line">            <a class="code" href="quant_8h.html#a4a7935a14e509d989eda300f16daf086">q_free</a>(&amp;q);</div>
 <div class="line">        }</div>
-<div class="line">        <a class="code" href="quant_8h.html#a4a7935a14e509d989eda300f16daf086">q_free</a>(&amp;q);</div>
+<div class="line">    err:;</div>
 <div class="line">    }</div>
 <div class="line"></div>
-<div class="line">    <a name="a20"></a><a class="code" href="quant_8h.html#a22f108de18d6532a45071881f7fb4dca">q_cleanup</a>(w);</div>
+<div class="line">    <a name="a22"></a><a class="code" href="quant_8h.html#a22f108de18d6532a45071881f7fb4dca">q_cleanup</a>(w);</div>
 <div class="line">    warn(DBG, <span class="stringliteral">&quot;%s exiting&quot;</span>, basename(argv[0]));</div>
 <div class="line">    <span class="keywordflow">return</span> ret;</div>
 <div class="line">}</div>
 </div><!-- fragment --> </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 5 2019 13:13:05 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 5 2019 16:23:13 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
