@@ -2,11 +2,12 @@ var searchData=
 [
   ['abandon_5fpn',['abandon_pn',['../pn_8c.html#a01a6deaf5b4cd84917145356378f1004',1,'abandon_pn(struct q_conn *const c, const epoch_t e):&#160;pn.c'],['../pn_8h.html#a01a6deaf5b4cd84917145356378f1004',1,'abandon_pn(struct q_conn *const c, const epoch_t e):&#160;pn.c']]],
   ['accept_5fqueue',['accept_queue',['../quic_8c.html#a529b3e85be5e0f15a6af3227e3f7c445',1,'accept_queue():&#160;quic.c'],['../quic_8h.html#a529b3e85be5e0f15a6af3227e3f7c445',1,'accept_queue():&#160;quic.c']]],
-  ['ack_5falarm',['ack_alarm',['../conn_8c.html#a4ba022a58c8ecd77d29357f7d1c30520',1,'conn.c']]],
+  ['ack_5falarm',['ack_alarm',['../structq__conn.html#ac0d08165fdfd8ce2760e8fc58e072269',1,'q_conn::ack_alarm()'],['../conn_8c.html#a4ba022a58c8ecd77d29357f7d1c30520',1,'ack_alarm():&#160;conn.c']]],
   ['ack_5fblock_5fcnt',['ack_block_cnt',['../structpkt__meta.html#ad1832e1307ec64c29a877455b5f78000',1,'pkt_meta']]],
   ['ack_5fblock_5fpos',['ack_block_pos',['../structpkt__meta.html#aeffe2a16e53c9eb4d1a6080436c7de4c',1,'pkt_meta']]],
   ['ack_5fdel_5fexp',['ack_del_exp',['../structtransport__params.html#ae332eb1c8176a3916959caa35f810278',1,'transport_params']]],
   ['ack_5ft',['ack_t',['../pn_8h.html#a49344ebbbbc537e07a72eeb725db4246',1,'pn.h']]],
+  ['acked',['acked',['../structpn__space.html#a258b213b1fbb488b1d1dda308dcade45',1,'pn_space']]],
   ['add_5fdcid',['add_dcid',['../conn_8c.html#ae5beee50c7414b14d1efb1e3e8ebe1ee',1,'add_dcid(struct q_conn *const c, const struct cid *const id):&#160;conn.c'],['../conn_8h.html#ae5beee50c7414b14d1efb1e3e8ebe1ee',1,'add_dcid(struct q_conn *const c, const struct cid *const id):&#160;conn.c']]],
   ['add_5fscid',['add_scid',['../conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026',1,'add_scid(struct q_conn *const c, struct cid *const id):&#160;conn.c'],['../conn_8h.html#aa16d30297b5b1ceed9c3fef11b6a5026',1,'add_scid(struct q_conn *const c, struct cid *const id):&#160;conn.c']]],
   ['addr4',['addr4',['../structpref__addr.html#ac421cccadc12a277b20c4f043f6f7d11',1,'pref_addr']]],

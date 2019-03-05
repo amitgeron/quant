@@ -11,6 +11,7 @@ var searchData=
   ['marshall_5fenc_5fbuf',['marshall_enc_buf',['../marshall_8c.html#a1e5b3e621f7eb32b23f97da0dd99a834',1,'marshall_enc_buf(uint8_t *const buf, const uint16_t buf_len, const uint16_t pos, const void *const src, const uint16_t enc_len):&#160;marshall.c'],['../marshall_8h.html#a1e5b3e621f7eb32b23f97da0dd99a834',1,'marshall_enc_buf(uint8_t *const buf, const uint16_t buf_len, const uint16_t pos, const void *const src, const uint16_t enc_len):&#160;marshall.c']]],
   ['max_5fack_5fdel',['max_ack_del',['../structtransport__params.html#a1e971701bc5477fc75408d11416d702b',1,'transport_params']]],
   ['max_5fcid_5flen',['MAX_CID_LEN',['../quic_8h.html#a9182b20a4ab9449d0efbd6d873c2aecf',1,'quic.h']]],
+  ['max_5fcid_5fseq_5fout',['max_cid_seq_out',['../structq__conn.html#a9e483983b67d3b6dc0e5fb1e19dea752',1,'q_conn']]],
   ['max_5fdata',['max_data',['../structtransport__params.html#a5719da04011349b3cdde407995caff03',1,'transport_params::max_data()'],['../structpkt__meta.html#a058300b8f5c60cdde8000077df854e7e',1,'pkt_meta::max_data()']]],
   ['max_5fearly_5fdata',['max_early_data',['../structtls.html#a89a93e1e56c851332bdecddbb6a72a4b',1,'tls']]],
   ['max_5ferr_5freason_5flen',['MAX_ERR_REASON_LEN',['../conn_8h.html#a31898c1d24d16b8da39d1f5c0500345e',1,'conn.h']]],
@@ -35,5 +36,6 @@ var searchData=
   ['meta',['meta',['../quic_8h.html#a01ed57991bea53afa1ece4452d16b568',1,'quic.h']]],
   ['min_5fini_5flen',['MIN_INI_LEN',['../pkt_8h.html#ae05e8e856810ed8b7911d43457b16e05',1,'pkt.h']]],
   ['min_5frtt',['min_rtt',['../structrecovery.html#ad29432ca40c3f915331349f86dc4dd48',1,'recovery']]],
+  ['min_5frx_5fepoch',['min_rx_epoch',['../structq__conn.html#a1e7b106e2468975cb7408cc5d1b182e4',1,'q_conn']]],
   ['mk_5for_5fopen_5fdir',['mk_or_open_dir',['../quic_8c.html#aa1e3203057c43651b001c5aed00e50ee',1,'quic.c']]]
 ];

@@ -1,9 +1,11 @@
 var searchData=
 [
   ['accept_5fqueue',['accept_queue',['../quic_8c.html#a529b3e85be5e0f15a6af3227e3f7c445',1,'accept_queue():&#160;quic.c'],['../quic_8h.html#a529b3e85be5e0f15a6af3227e3f7c445',1,'accept_queue():&#160;quic.c']]],
+  ['ack_5falarm',['ack_alarm',['../structq__conn.html#ac0d08165fdfd8ce2760e8fc58e072269',1,'q_conn']]],
   ['ack_5fblock_5fcnt',['ack_block_cnt',['../structpkt__meta.html#ad1832e1307ec64c29a877455b5f78000',1,'pkt_meta']]],
   ['ack_5fblock_5fpos',['ack_block_pos',['../structpkt__meta.html#aeffe2a16e53c9eb4d1a6080436c7de4c',1,'pkt_meta']]],
   ['ack_5fdel_5fexp',['ack_del_exp',['../structtransport__params.html#ae332eb1c8176a3916959caa35f810278',1,'transport_params']]],
+  ['acked',['acked',['../structpn__space.html#a258b213b1fbb488b1d1dda308dcade45',1,'pn_space']]],
   ['addr4',['addr4',['../structpref__addr.html#ac421cccadc12a277b20c4f043f6f7d11',1,'pref_addr']]],
   ['addr6',['addr6',['../structpref__addr.html#a9a4e3886ce36cf0d1c8e3cffc409c755',1,'pref_addr']]],
   ['ae_5fin_5fflight',['ae_in_flight',['../structrecovery.html#ae47c5ffb92871637f85080e5851d2b88',1,'recovery']]],

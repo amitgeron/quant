@@ -1,18 +1,12 @@
 var searchData=
 [
-  ['save_5fticket',['save_ticket',['../tls_8c.html#a3a920c80db919ca11a75003ebcceacb8',1,'tls.c']]],
-  ['scid',['scid',['../structpkt__hdr.html#a29cdaea213d15beb68119e47e6d16bf1',1,'pkt_hdr']]],
-  ['secret',['secret',['../structtls.html#aea55943cd328db624893f6c3b6cbe3c8',1,'tls']]],
-  ['seq',['seq',['../structcid.html#a937edeb01e868ef76539126dd41b322f',1,'cid']]],
-  ['sni',['sni',['../structtls__ticket.html#a9581a894f08fb8b93e139a9fe38a298d',1,'tls_ticket']]],
-  ['srt',['srt',['../structcid.html#a4445bbe90ef6a799450c1606badf557c',1,'cid']]],
-  ['srtt',['srtt',['../structrecovery.html#abc466711a95fd985bdde9a59e7ebec6e',1,'recovery']]],
-  ['ssthresh',['ssthresh',['../structrecovery.html#a2eb67fcd1408e01f084046d483f33008',1,'recovery']]],
-  ['state',['state',['../structq__stream.html#a3c163e13ed03a60a2c53ccfddc5929d7',1,'q_stream']]],
-  ['stream',['stream',['../structpkt__meta.html#ad6c0f1c83fc566c86ae941e4af89e9b5',1,'pkt_meta']]],
-  ['stream_5fdata_5flen',['stream_data_len',['../structpkt__meta.html#ac86de9531301c9bedae5b67cc0ca2817',1,'pkt_meta']]],
-  ['stream_5fdata_5fstart',['stream_data_start',['../structpkt__meta.html#a900742efd57d7a464c7514efedbd9c35',1,'pkt_meta']]],
-  ['stream_5fheader_5fpos',['stream_header_pos',['../structpkt__meta.html#ab6db1a449cdc216ef928bc18b68586ba',1,'pkt_meta']]],
-  ['stream_5foff',['stream_off',['../structpkt__meta.html#a2351bcd1c09a0cab7b5f3adb4ae5f9e9',1,'pkt_meta']]],
-  ['strm_5fstate_5fstr',['strm_state_str',['../stream_8c.html#aa6dd5679b354a793efc82cd45b5d3962',1,'strm_state_str():&#160;stream.c'],['../stream_8h.html#aa6dd5679b354a793efc82cd45b5d3962',1,'strm_state_str():&#160;stream.c']]]
+  ['rec',['rec',['../structq__conn.html#a5e9b1a6f4e05906f6b75ade3dcec715b',1,'q_conn']]],
+  ['rec_5fstart_5ft',['rec_start_t',['../structrecovery.html#a8a540ddba0ef2e966827c57d9ce92a5c',1,'recovery']]],
+  ['recv',['recv',['../structpn__space.html#a7227a74b96300049e4716959528092df',1,'pn_space']]],
+  ['recv_5fall',['recv_all',['../structpn__space.html#a9314ad0be04da03f6155d65885a7b1f8',1,'pn_space']]],
+  ['retired',['retired',['../structcid.html#ae13435266a8a51eea685c06616552356',1,'cid']]],
+  ['rttvar',['rttvar',['../structrecovery.html#a5cf84e57d9dd40c22412c44c72144917',1,'recovery']]],
+  ['rtx',['rtx',['../structpkt__meta.html#ad9cde51e14c2886f5a9e5d7f2aec6695',1,'pkt_meta']]],
+  ['rx_5fframes',['rx_frames',['../structpn__space.html#a249f8d1e0db4507220a831f7062bbbdd',1,'pn_space']]],
+  ['rx_5fw',['rx_w',['../structq__conn.html#aa237d71bb04b7a3b77410003329a438f',1,'q_conn']]]
 ];

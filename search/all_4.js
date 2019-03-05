@@ -1,7 +1,8 @@
 var searchData=
 [
   ['data_5foffset',['DATA_OFFSET',['../quic_8h.html#a11faa4c105a137b8edaa096de5063835',1,'quic.h']]],
-  ['dcid',['dcid',['../structpkt__hdr.html#afb4dcbc319b38d10450078a780519c66',1,'pkt_hdr']]],
+  ['dcid',['dcid',['../structq__conn.html#a9d6072809215f42a4eebd3d448e4911c',1,'q_conn::dcid()'],['../structpkt__hdr.html#afb4dcbc319b38d10450078a780519c66',1,'pkt_hdr::dcid()']]],
+  ['dcids_5fby_5fseq',['dcids_by_seq',['../structq__conn.html#a8a456782615d1106a8bc83a3dd51c7f3',1,'q_conn']]],
   ['dec',['dec',['../marshall_8h.html#a17979630a63703570a316e70d4e9cb30',1,'marshall.h']]],
   ['dec_5fack_5fframe',['dec_ack_frame',['../frame_8c.html#a44dc32970bbe3088cc0ccc79abe03d74',1,'dec_ack_frame(struct q_conn *const c, const struct w_iov *const v, const uint16_t pos):&#160;frame.c'],['../frame_8h.html#a44dc32970bbe3088cc0ccc79abe03d74',1,'dec_ack_frame(struct q_conn *const c, const struct w_iov *const v, const uint16_t pos):&#160;frame.c']]],
   ['dec_5faead',['dec_aead',['../tls_8c.html#a04944efc22fe01b0d66065a805db015a',1,'dec_aead(const struct w_iov *const xv, const struct w_iov *const v, const uint16_t len, const struct cipher_ctx *const ctx):&#160;tls.c'],['../tls_8h.html#a04944efc22fe01b0d66065a805db015a',1,'dec_aead(const struct w_iov *const xv, const struct w_iov *const v, const uint16_t len, const struct cipher_ctx *const ctx):&#160;tls.c']]],
@@ -32,6 +33,7 @@ var searchData=
   ['def_5fack_5fdel_5fexp',['DEF_ACK_DEL_EXP',['../frame_8h.html#a6e6356d5807b645651ca1612dc548446',1,'frame.h']]],
   ['del_5fack',['del_ack',['../pn_8h.html#a49344ebbbbc537e07a72eeb725db4246a270d5a634a515d00c8440ef5dfd217fd',1,'pn.h']]],
   ['detect_5flost_5fpkts',['detect_lost_pkts',['../recovery_8c.html#a96b0529b2380d745862c605244caa46a',1,'recovery.c']]],
+  ['did_5f0rtt',['did_0rtt',['../structq__conn.html#abfa2e8f9b939f149ccfa60cb75d863ff',1,'q_conn']]],
   ['diet_2ec',['diet.c',['../diet_8c.html',1,'']]],
   ['diet_2eh',['diet.h',['../diet_8h.html',1,'']]],
   ['diet_5fcnt',['diet_cnt',['../diet_8h.html#a088e1a7d256d392c025e192aec45a672',1,'diet.h']]],
@@ -55,7 +57,9 @@ var searchData=
   ['do_5fconn_5fmgmt',['do_conn_mgmt',['../conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80',1,'conn.c']]],
   ['do_5fdec',['do_dec',['../marshall_8c.html#a3d1f746ca4ba9b2b943e4460d0ac0399',1,'marshall.c']]],
   ['do_5fenc',['do_enc',['../marshall_8c.html#a36d3d5e283c5534b19eac14f541abf94',1,'marshall.c']]],
+  ['do_5fkey_5fflip',['do_key_flip',['../structq__conn.html#a3001f5409e4d5c5dd1be2675e7e46d5a',1,'q_conn']]],
   ['do_5floop_5frun',['do_loop_run',['../quic_8c.html#aac86407b2cf4d96e99b24523d4beb36c',1,'quic.c']]],
+  ['do_5fmigration',['do_migration',['../structq__conn.html#a11134ef29f0209e1196e2dd38719d233',1,'q_conn']]],
   ['do_5fstream_5ffc',['do_stream_fc',['../stream_8c.html#a222da12d0111c9dee46a6cfc676be209',1,'do_stream_fc(struct q_stream *const s, const uint16_t len):&#160;stream.c'],['../stream_8h.html#a222da12d0111c9dee46a6cfc676be209',1,'do_stream_fc(struct q_stream *const s, const uint16_t len):&#160;stream.c']]],
   ['do_5fstream_5fid_5ffc',['do_stream_id_fc',['../stream_8c.html#a848f253b1d052daeb064af9827ae2b31',1,'do_stream_id_fc(struct q_conn *const c, const int64_t cnt, const bool bidi, const bool local):&#160;stream.c'],['../stream_8h.html#a848f253b1d052daeb064af9827ae2b31',1,'do_stream_id_fc(struct q_conn *const c, const int64_t cnt, const bool bidi, const bool local):&#160;stream.c']]],
   ['do_5ftx',['do_tx',['../conn_8c.html#a061f6268bdb3054227eedf2ca20cb8a1',1,'conn.c']]]

@@ -1,9 +1,22 @@
 var searchData=
 [
-  ['quant_5fcommit_5fhash',['quant_commit_hash',['../config_8h.html#a49ec2308afdb2559c86aeb4cd74cc135',1,'quant_commit_hash():&#160;config.c'],['../config_8c.html#a49ec2308afdb2559c86aeb4cd74cc135',1,'quant_commit_hash():&#160;config.c']]],
-  ['quant_5fcommit_5fhash_5fabbrev',['quant_commit_hash_abbrev',['../config_8h.html#a236d3aa5b661716d3644ee490d12c3d7',1,'quant_commit_hash_abbrev():&#160;config.c'],['../config_8c.html#a236d3aa5b661716d3644ee490d12c3d7',1,'quant_commit_hash_abbrev():&#160;config.c']]],
-  ['quant_5fcommit_5fhash_5fabbrev_5flen',['quant_commit_hash_abbrev_len',['../config_8h.html#a4a83698e6bc72bbd3cb54710c164752a',1,'quant_commit_hash_abbrev_len():&#160;config.c'],['../config_8c.html#a4a83698e6bc72bbd3cb54710c164752a',1,'quant_commit_hash_abbrev_len():&#160;config.c']]],
-  ['quant_5fcommit_5fhash_5flen',['quant_commit_hash_len',['../config_8h.html#a3ff2b2144828ec29ab5eb506d041feb4',1,'quant_commit_hash_len():&#160;config.c'],['../config_8c.html#a3ff2b2144828ec29ab5eb506d041feb4',1,'quant_commit_hash_len():&#160;config.c']]],
-  ['quant_5fname',['quant_name',['../config_8h.html#a60aab99d31b45a852fcd62a546237f98',1,'quant_name():&#160;config.c'],['../config_8c.html#a60aab99d31b45a852fcd62a546237f98',1,'quant_name():&#160;config.c']]],
-  ['quant_5fversion',['quant_version',['../config_8h.html#ac620cc09e64c3fe9f62143ca4e707fe7',1,'quant_version():&#160;config.c'],['../config_8c.html#ac620cc09e64c3fe9f62143ca4e707fe7',1,'quant_version():&#160;config.c']]]
+  ['path_5fchlg_5fin',['path_chlg_in',['../structq__conn.html#a4795aabbfb01902e17e4bb580fe38115',1,'q_conn']]],
+  ['path_5fchlg_5fout',['path_chlg_out',['../structq__conn.html#ab17bff3743d9ed54cbdae375610f870e',1,'q_conn']]],
+  ['path_5fresp_5fin',['path_resp_in',['../structq__conn.html#a9a210a1d710e43ab1a6d65d1ee578b98',1,'q_conn']]],
+  ['path_5fresp_5fout',['path_resp_out',['../structq__conn.html#a6b7d09a81646163cfb58aecb7dbf79fb',1,'q_conn']]],
+  ['path_5fval_5fwin',['path_val_win',['../structq__conn.html#a225052d6c74f61cd8793c1d334518f49',1,'q_conn']]],
+  ['peer',['peer',['../structq__conn.html#a4ab8aa265dbdc7e041cade91a6341635',1,'q_conn']]],
+  ['peer_5fname',['peer_name',['../structq__conn.html#aeb5041217565e950f34272348d1dbc92',1,'q_conn']]],
+  ['pkt_5fmeta',['pkt_meta',['../quic_8c.html#aabb5a1d5e2a08b1a9c0a54ba99aae86c',1,'pkt_meta():&#160;quic.c'],['../quic_8h.html#aabb5a1d5e2a08b1a9c0a54ba99aae86c',1,'pkt_meta():&#160;quic.c']]],
+  ['pkts_5frxed_5fsince_5flast_5fack_5ftx',['pkts_rxed_since_last_ack_tx',['../structpn__space.html#a6375783a5041f8c5eff2c3210f813777',1,'pn_space']]],
+  ['pn',['pn',['../structpn__hshk__space.html#a80925708a3b813e2c2371f472806c3db',1,'pn_hshk_space::pn()'],['../structpn__data__space.html#a7015c67c7ba0975861238ddb98f6c4ca',1,'pn_data_space::pn()'],['../structpkt__meta.html#a94d757271e641d96b7a8aeaec5377adc',1,'pkt_meta::pn()']]],
+  ['pn_5fdata',['pn_data',['../structq__conn.html#a3482df5718d6faefdd3e373fed58060f',1,'q_conn']]],
+  ['pn_5fhshk',['pn_hshk',['../structq__conn.html#af57c0f662f9f694701adde8a15043230',1,'q_conn']]],
+  ['pref_5faddr',['pref_addr',['../structtransport__params.html#a69f6f6987946d75beff66d8489062ed2',1,'transport_params']]],
+  ['prev_5fcwnd',['prev_cwnd',['../recovery_8c.html#a2a3b269b84b9622566431b500ce443e8',1,'prev_cwnd():&#160;recovery.c'],['../recovery_8h.html#a2a3b269b84b9622566431b500ce443e8',1,'prev_cwnd():&#160;recovery.c']]],
+  ['prev_5fin_5fflight',['prev_in_flight',['../recovery_8c.html#a3fb4b02e3329257fd93d30587b1c21cb',1,'prev_in_flight():&#160;recovery.c'],['../recovery_8h.html#a3fb4b02e3329257fd93d30587b1c21cb',1,'prev_in_flight():&#160;recovery.c']]],
+  ['prev_5frttvar',['prev_rttvar',['../recovery_8c.html#a38bc7648b4feb3e4fff2356325633ad8',1,'prev_rttvar():&#160;recovery.c'],['../recovery_8h.html#a38bc7648b4feb3e4fff2356325633ad8',1,'prev_rttvar():&#160;recovery.c']]],
+  ['prev_5fsrtt',['prev_srtt',['../recovery_8c.html#a65e950ab971f91cfd74f5a9ac6cee7b5',1,'prev_srtt():&#160;recovery.c'],['../recovery_8h.html#a65e950ab971f91cfd74f5a9ac6cee7b5',1,'prev_srtt():&#160;recovery.c']]],
+  ['prev_5fssthresh',['prev_ssthresh',['../recovery_8c.html#aa23cadfa406671bbee3672516905f9e5',1,'prev_ssthresh():&#160;recovery.c'],['../recovery_8h.html#aa23cadfa406671bbee3672516905f9e5',1,'prev_ssthresh():&#160;recovery.c']]],
+  ['pto_5fcnt',['pto_cnt',['../structrecovery.html#ac25b69c1b12ebc583cf3fe522c2e284e',1,'recovery']]]
 ];

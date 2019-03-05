@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['ect0_5fcnt',['ect0_cnt',['../structpn__space.html#aaa448850caee459806a942aa85269668',1,'pn_space']]],
+  ['ect1_5fcnt',['ect1_cnt',['../structpn__space.html#accaead83577916353b0cd7808a4731f5',1,'pn_space']]],
   ['enable_5fspinbit',['enable_spinbit',['../structq__conn__conf.html#a93d0fd7adf8938b84ded90e42e375416',1,'q_conn_conf']]],
   ['enable_5ftls_5fcert_5fverify',['enable_tls_cert_verify',['../structq__conf.html#a8066ddc1af95a95c800e1edf16b56435',1,'q_conf']]],
   ['enable_5ftls_5fkey_5fupdates',['enable_tls_key_updates',['../structq__conn__conf.html#afcac22ebbfc362211164a3ddffeaa92a',1,'q_conn_conf']]],
@@ -44,11 +46,15 @@ var searchData=
   ['epoch_5ft',['epoch_t',['../tls_8h.html#aaca089f79f64e61453953e09fd226e46',1,'tls.h']]],
   ['err_5fclose',['err_close',['../conn_8c.html#a02d7b0c5a072e1b673358b52ac71f160',1,'err_close(struct q_conn *const c, const uint16_t code, const uint8_t frm, const char *const fmt,...):&#160;conn.c'],['../conn_8h.html#a02d7b0c5a072e1b673358b52ac71f160',1,'err_close(struct q_conn *const c, const uint16_t code, const uint8_t frm, const char *const fmt,...):&#160;conn.c']]],
   ['err_5fclose_5freturn',['err_close_return',['../frame_8c.html#ad80698afd541ebfd846d4299d7b10790',1,'frame.c']]],
+  ['err_5fcode',['err_code',['../structq__conn.html#a797b92f861a2e732270e6cb328385d9c',1,'q_conn']]],
   ['err_5fflow_5fcontrol',['ERR_FLOW_CONTROL',['../pkt_8h.html#a37fd3c71845762a224ec6f52056c5cf2',1,'pkt.h']]],
   ['err_5fframe_5fenc',['ERR_FRAME_ENC',['../pkt_8h.html#a911827d4428b3918c7c00c7f9be6bce0',1,'pkt.h']]],
+  ['err_5ffrm',['err_frm',['../structq__conn.html#a5e70a9eeab6de649daf5816e71d319ee',1,'q_conn']]],
   ['err_5finternal',['ERR_INTERNAL',['../pkt_8h.html#a6084679069ce82f37778a3ed56860557',1,'pkt.h']]],
   ['err_5fnone',['ERR_NONE',['../pkt_8h.html#aff0d3fb76f11f6e8ea4002d826bbd23c',1,'pkt.h']]],
   ['err_5fprotocol_5fviolation',['ERR_PROTOCOL_VIOLATION',['../pkt_8h.html#a27994773959ccba6411fae219fe38577',1,'pkt.h']]],
+  ['err_5freason',['err_reason',['../structq__conn.html#aaae873a0a60e89051284118b13142611',1,'q_conn']]],
+  ['err_5freason_5flen',['err_reason_len',['../structq__conn.html#a4b55e61765d87d7568a0127283c96471',1,'q_conn']]],
   ['err_5fstream_5fid',['ERR_STREAM_ID',['../pkt_8h.html#aec95413875d567727f2a7796e5a65ff5',1,'pkt.h']]],
   ['err_5fstream_5fstate',['ERR_STREAM_STATE',['../pkt_8h.html#a7ddfa57fba1de3489e4eef61015e6e61',1,'pkt.h']]],
   ['err_5ftls',['ERR_TLS',['../pkt_8h.html#ae6b18bb77d7a31d51b26f237f55bd3aa',1,'pkt.h']]],

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['odcid',['odcid',['../structq__conn.html#a5c46a8b6d3b5393f8812868774bf1ec3',1,'q_conn']]],
   ['ok_5fvers',['ok_vers',['../quic_8c.html#a855179145371edc9111433f621044ab4',1,'ok_vers():&#160;quic.c'],['../quic_8h.html#a855179145371edc9111433f621044ab4',1,'ok_vers():&#160;quic.c']]],
   ['ok_5fvers_5flen',['ok_vers_len',['../quic_8c.html#ae9a33cf3a5f649662f26bb9eae92bf7b',1,'ok_vers_len():&#160;quic.c'],['../quic_8h.html#ae9a33cf3a5f649662f26bb9eae92bf7b',1,'ok_vers_len():&#160;quic.c']]],
   ['on_5fack_5freceived_5f1',['on_ack_received_1',['../recovery_8c.html#a031b28d66da842b6f84c14aea69624c3',1,'on_ack_received_1(struct pn_space *const pn, struct w_iov *const lg_ack, const uint64_t ack_del):&#160;recovery.c'],['../recovery_8h.html#a031b28d66da842b6f84c14aea69624c3',1,'on_ack_received_1(struct pn_space *const pn, struct w_iov *const lg_ack, const uint64_t ack_del):&#160;recovery.c']]],
@@ -18,8 +19,9 @@ var searchData=
   ['out',['out',['../structpn__hshk__space.html#a7b5d9b211f2a2b794dbbd36fef051d20',1,'pn_hshk_space::out()'],['../structq__stream.html#ad6bc293a8f8e054b500882d8ef57b1b6',1,'q_stream::out()']]],
   ['out_5f0rtt',['out_0rtt',['../structpn__data__space.html#a27cff102e25dcc1a37a963309a6e5fe9',1,'pn_data_space']]],
   ['out_5f1rtt',['out_1rtt',['../structpn__data__space.html#acd891912284bd033b7c54354be55559a',1,'pn_data_space']]],
-  ['out_5fdata',['out_data',['../structq__stream.html#a5efa5e6ca12481e1d166fa28c8793c09',1,'q_stream']]],
+  ['out_5fdata',['out_data',['../structq__conn.html#a151698e387cb78448f7bf5d29e766586',1,'q_conn::out_data()'],['../structq__stream.html#a5efa5e6ca12481e1d166fa28c8793c09',1,'q_stream::out_data()']]],
   ['out_5fdata_5fmax',['out_data_max',['../structq__stream.html#a744161b8f9bfbde5ac73be4a882e179f',1,'q_stream']]],
+  ['out_5fdata_5fstr',['out_data_str',['../structq__conn.html#abef71068675283077e0070f6893bc83d',1,'q_conn']]],
   ['out_5ffully_5facked',['out_fully_acked',['../stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559',1,'stream.h']]],
   ['out_5fkyph',['out_kyph',['../structpn__data__space.html#a352acf91ec8a6fb99cb2c4ae9d604936',1,'pn_data_space']]],
   ['out_5funa',['out_una',['../structq__stream.html#a0492f92ef3cdccbfc9c569049a7816d5',1,'q_stream']]],

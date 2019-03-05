@@ -1,12 +1,5 @@
 var searchData=
 [
-  ['last_5fsent_5fack_5felicit_5ft',['last_sent_ack_elicit_t',['../structrecovery.html#a4f1da583d0bab125e198b498537f8f71',1,'recovery']]],
-  ['last_5fsent_5fcrypto_5ft',['last_sent_crypto_t',['../structrecovery.html#a3cbb49a56de6829477e41bca89bf666a',1,'recovery']]],
-  ['latest_5frtt',['latest_rtt',['../structrecovery.html#a34571d44f4791519797d7915419cb48d',1,'recovery']]],
-  ['ld_5falarm',['ld_alarm',['../structrecovery.html#a8233971136274c530051b40c04a974e9',1,'recovery']]],
-  ['len',['len',['../structcid.html#a61ab34460c7fcffba43d1b4042b00b93',1,'cid::len()'],['../structpkt__hdr.html#a96c8d664da3461dd7029f2700fe69213',1,'pkt_hdr::len()']]],
-  ['lg_5facked',['lg_acked',['../structpkt__meta.html#a21de9af69068ecadb222f0d9685d50d7',1,'pkt_meta']]],
-  ['lo',['lo',['../structival.html#a48282b6ea42f2a81ab1dee4ed182b0ab',1,'ival']]],
-  ['loop',['loop',['../quic_8c.html#a855923b555731173d3509ecb645de0e0',1,'loop():&#160;quic.c'],['../quic_8h.html#a855923b555731173d3509ecb645de0e0',1,'loop():&#160;quic.c']]],
-  ['loss_5ft',['loss_t',['../structrecovery.html#a2394e577c3fc53d34bb35b44b7113fe7',1,'recovery']]]
+  ['key_5fflip_5falarm',['key_flip_alarm',['../structq__conn.html#ae5fa4075534324acee499b666be57700',1,'q_conn']]],
+  ['key_5fflips_5fenabled',['key_flips_enabled',['../structq__conn.html#ad258f1cbbceeca5a3568a1a267d433b0',1,'q_conn']]]
 ];

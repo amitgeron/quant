@@ -1,7 +1,6 @@
 <map id="q_init" name="q_init">
 <area shape="rect" id="node2" href="$tls_8c.html#a8ba632acdcea3aaa92753c3341fa22fe" title="init_tls_ctx" alt="" coords="121,107,207,133"/>
-<area shape="rect" id="node9" href="$quic_8c.html#a78a8ed1e6afbc58387426e924cae4a82" title="signal_cb" alt="" coords="125,157,203,184"/>
-<area shape="rect" id="node10" href="$quic_8c.html#aa1e3203057c43651b001c5aed00e50ee" title="mk_or_open_dir" alt="" coords="107,208,221,235"/>
+<area shape="rect" id="node9" href="$quic_8c.html#aa1e3203057c43651b001c5aed00e50ee" title="mk_or_open_dir" alt="" coords="107,157,221,184"/>
 <area shape="rect" id="node3" href="$tls_8c.html#a65f1490238853f0e913186fd5c3311c7" title="read_tickets" alt="" coords="299,5,392,32"/>
 <area shape="rect" id="node4" href="$tls_8c.html#a0c58491ff4fb3ef4eaaa05226aea773e" title="on_ch" alt="" coords="317,56,374,83"/>
 <area shape="rect" id="node5" href="$tls_8c.html#a70c075f43514397f392c90fd351edde1" title="log_event_cb" alt="" coords="296,107,395,133"/>

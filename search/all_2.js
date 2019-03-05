@@ -36,7 +36,7 @@ var searchData=
   ['bitset_5ffset',['bitset_fset',['../bitset_8h.html#afcdf678418d3960fee2e9c781625da5b',1,'bitset.h']]],
   ['bitset_5ft_5finitializer',['bitset_t_initializer',['../bitset_8h.html#a8671832d7c38fe4b74043e9b2e7039a4',1,'bitset.h']]],
   ['bld',['BLD',['../quic_8h.html#a6773bd84b2bf2a4f2118fc787f3a53fb',1,'quic.h']]],
-  ['blocked',['blocked',['../structq__stream.html#a56ca5935404b3d66f600d6ce436c4771',1,'q_stream']]],
+  ['blocked',['blocked',['../structq__conn.html#abe8d2160c0cb6b750a5cc904acd01caa',1,'q_conn::blocked()'],['../structq__stream.html#a56ca5935404b3d66f600d6ce436c4771',1,'q_stream::blocked()']]],
   ['blu',['BLU',['../quic_8h.html#add9307de87f38e77d336751e305886f6',1,'quic.h']]],
   ['bps',['bps',['../quant_8h.html#a56efa09372b3747147230398e29974f0',1,'quant.h']]]
 ];

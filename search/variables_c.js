@@ -1,14 +1,11 @@
 var searchData=
 [
-  ['ok_5fvers',['ok_vers',['../quic_8c.html#a855179145371edc9111433f621044ab4',1,'ok_vers():&#160;quic.c'],['../quic_8h.html#a855179145371edc9111433f621044ab4',1,'ok_vers():&#160;quic.c']]],
-  ['ok_5fvers_5flen',['ok_vers_len',['../quic_8c.html#ae9a33cf3a5f649662f26bb9eae92bf7b',1,'ok_vers_len():&#160;quic.c'],['../quic_8h.html#ae9a33cf3a5f649662f26bb9eae92bf7b',1,'ok_vers_len():&#160;quic.c']]],
-  ['ooo_5f0rtt_5fby_5fcid',['ooo_0rtt_by_cid',['../conn_8c.html#a001da71d92caff5772399a0d5512d8c3',1,'conn.c']]],
-  ['orig_5fcid',['orig_cid',['../structtransport__params.html#ada77b0a712c3a04c901ef49001f358a5',1,'transport_params']]],
-  ['out',['out',['../structpn__hshk__space.html#a7b5d9b211f2a2b794dbbd36fef051d20',1,'pn_hshk_space::out()'],['../structq__stream.html#ad6bc293a8f8e054b500882d8ef57b1b6',1,'q_stream::out()']]],
-  ['out_5f0rtt',['out_0rtt',['../structpn__data__space.html#a27cff102e25dcc1a37a963309a6e5fe9',1,'pn_data_space']]],
-  ['out_5f1rtt',['out_1rtt',['../structpn__data__space.html#acd891912284bd033b7c54354be55559a',1,'pn_data_space']]],
-  ['out_5fdata',['out_data',['../structq__stream.html#a5efa5e6ca12481e1d166fa28c8793c09',1,'q_stream']]],
-  ['out_5fdata_5fmax',['out_data_max',['../structq__stream.html#a744161b8f9bfbde5ac73be4a882e179f',1,'q_stream']]],
-  ['out_5fkyph',['out_kyph',['../structpn__data__space.html#a352acf91ec8a6fb99cb2c4ae9d604936',1,'pn_data_space']]],
-  ['out_5funa',['out_una',['../structq__stream.html#a0492f92ef3cdccbfc9c569049a7816d5',1,'q_stream']]]
+  ['needs_5faccept',['needs_accept',['../structq__conn.html#afa5efb983be2e274a5e2c479561858ae',1,'q_conn']]],
+  ['needs_5ftx',['needs_tx',['../structq__conn.html#a8f515035f5b42579e853757b82f37b08',1,'q_conn']]],
+  ['next_5fsid_5fbidi',['next_sid_bidi',['../structq__conn.html#ac9be6183d08c8887a3125f767c6b8ea3',1,'q_conn']]],
+  ['next_5fsid_5funi',['next_sid_uni',['../structq__conn.html#a4c56a9ef063064daae3c501b73a56a75',1,'q_conn']]],
+  ['next_5fspin',['next_spin',['../structq__conn.html#a770536249ae7c554408788de039e83f3',1,'q_conn']]],
+  ['no_5fwnd',['no_wnd',['../structq__conn.html#a618b0eabfbe41e5ad2b660d687bf1c71',1,'q_conn']]],
+  ['nr',['nr',['../structpkt__hdr.html#a23823bfa2cf1a6d7052bd71115458d46',1,'pkt_hdr']]],
+  ['num_5fbufs',['num_bufs',['../structq__conf.html#a6a5394d9e9540289c52c9aecd927e16b',1,'q_conf']]]
 ];

@@ -1,11 +1,12 @@
 var searchData=
 [
   ['key_5fflip',['key_flip',['../conn_8c.html#a2621abf65fb184088e514b520b80c334',1,'conn.c']]],
+  ['key_5fflip_5falarm',['key_flip_alarm',['../structq__conn.html#ae5fa4075534324acee499b666be57700',1,'q_conn']]],
+  ['key_5fflips_5fenabled',['key_flips_enabled',['../structq__conn.html#ad258f1cbbceeca5a3568a1a267d433b0',1,'q_conn']]],
   ['kgranularity',['kGranularity',['../quic_8h.html#a9a5858cdd4682999fab57dbf6db748b1',1,'quic.h']]],
   ['kh_5fcid_5fcmp',['kh_cid_cmp',['../conn_8h.html#a90115a99b400e667c2ea225b0942ebcf',1,'conn.h']]],
-  ['khash_5finit',['KHASH_INIT',['../conn_8h.html#a2f3506018ac4d10d7d8e9a678e8c59a3',1,'KHASH_INIT(conns_by_id, struct cid *, struct q_conn *, 1, hash_cid, kh_cid_cmp) extern khash_t(conns_by_ipnp)*conns_by_ipnp:&#160;conn.h'],['../conn_8h.html#a1f4a36900c59e2742260d292c1ff64ab',1,'KHASH_INIT(cids_by_id, struct cid *, struct cid *, 1, hash_cid, kh_cid_cmp) struct q_conn:&#160;conn.h']]],
-  ['khash_5fmap_5finit_5fint64',['KHASH_MAP_INIT_INT64',['../conn_8h.html#afb136e59b4e0b39256bab454baeb37a5',1,'KHASH_MAP_INIT_INT64(streams_by_id, struct q_stream *) KHASH_MAP_INIT_INT64(conns_by_ipnp:&#160;conn.h'],['../pn_8h.html#aa6c85acac2760c6655ac881fa31b0ac1',1,'KHASH_MAP_INIT_INT64(pm_by_nr, struct pkt_meta *) struct pn_space:&#160;pn.h']]],
-  ['khash_5ft',['khash_t',['../conn_8c.html#a74dbc46783c1caf9723324b4c13a09ed',1,'khash_t(conns_by_ipnp):&#160;conn.c'],['../conn_8h.html#a72a3242eac371fd1d496e8f0f26fd64a',1,'khash_t(conns_by_id)*conns_by_id:&#160;conn.h']]],
+  ['kh_5fsrt_5fcmp',['kh_srt_cmp',['../conn_8h.html#a9a068df5be82749fc3f2e66ea36fcb66',1,'conn.h']]],
+  ['khash_5ft',['khash_t',['../structq__conn.html#a3494600ebcf5a659858f913032d46a4a',1,'q_conn::khash_t(cids_by_id)*scids_by_id'],['../structq__conn.html#ad868090c6ad7743231418d237869e16b',1,'q_conn::khash_t(streams_by_id)*streams_by_id'],['../structpn__space.html#a66ef35683edd3a00a5aab302e626ef3e',1,'pn_space::khash_t()'],['../conn_8c.html#a74dbc46783c1caf9723324b4c13a09ed',1,'khash_t(conns_by_ipnp):&#160;conn.c'],['../conn_8h.html#a34b1cdbb78d525ce88335cd77ecbca88',1,'khash_t(conns_by_ipnp)*conns_by_ipnp:&#160;conn.h'],['../conn_8h.html#a72a3242eac371fd1d496e8f0f26fd64a',1,'khash_t(conns_by_id)*conns_by_id:&#160;conn.h'],['../conn_8h.html#a5b12a7406b1eb761abba520fda66b34c',1,'khash_t(conns_by_srt)*conns_by_srt:&#160;conn.h']]],
   ['kinitialrtt',['kInitialRtt',['../quic_8h.html#af47b8eb7e21dfad9602ccaa933ff97dd',1,'quic.h']]],
   ['kinitialwindow',['kInitialWindow',['../quic_8h.html#a5abc840ae2172a7f6ad89f37801a39f8',1,'quic.h']]],
   ['klib_5funused',['klib_unused',['../conn_8c.html#a006a6d732d649728796cfe027e3041d9',1,'klib_unused():&#160;conn.c'],['../pn_8c.html#a006a6d732d649728796cfe027e3041d9',1,'klib_unused():&#160;pn.c'],['../quic_8c.html#a006a6d732d649728796cfe027e3041d9',1,'klib_unused():&#160;quic.c'],['../stream_8c.html#a006a6d732d649728796cfe027e3041d9',1,'klib_unused():&#160;stream.c']]],

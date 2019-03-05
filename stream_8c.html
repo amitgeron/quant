@@ -125,13 +125,13 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7308501df4d06bbfd14665ae88caae02"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structq__stream.html">q_stream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8c.html#a7308501df4d06bbfd14665ae88caae02">get_stream</a> (struct q_conn *const c, const int64_t id)</td></tr>
+<tr class="memitem:a7308501df4d06bbfd14665ae88caae02"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structq__stream.html">q_stream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8c.html#a7308501df4d06bbfd14665ae88caae02">get_stream</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const int64_t id)</td></tr>
 <tr class="separator:a7308501df4d06bbfd14665ae88caae02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38e0dc3cbebe5699ec573ab242b6f505"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8c.html#a38e0dc3cbebe5699ec573ab242b6f505">max_sid</a> (const int64_t sid, const struct q_conn *const c)</td></tr>
+<tr class="memitem:a38e0dc3cbebe5699ec573ab242b6f505"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8c.html#a38e0dc3cbebe5699ec573ab242b6f505">max_sid</a> (const int64_t sid, const struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
 <tr class="separator:a38e0dc3cbebe5699ec573ab242b6f505"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2853c95f04e70a8c7e836f881eedff8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8c.html#a2853c95f04e70a8c7e836f881eedff8d">apply_stream_limits</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s)</td></tr>
 <tr class="separator:a2853c95f04e70a8c7e836f881eedff8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a300bcafbad60488eb0b6b0560eb1b645"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structq__stream.html">q_stream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8c.html#a300bcafbad60488eb0b6b0560eb1b645">new_stream</a> (struct q_conn *const c, const int64_t id)</td></tr>
+<tr class="memitem:a300bcafbad60488eb0b6b0560eb1b645"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structq__stream.html">q_stream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8c.html#a300bcafbad60488eb0b6b0560eb1b645">new_stream</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const int64_t id)</td></tr>
 <tr class="separator:a300bcafbad60488eb0b6b0560eb1b645"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf612f3ac0b49aa8c7d6630c00e6b0ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce">free_stream</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s)</td></tr>
 <tr class="separator:acf612f3ac0b49aa8c7d6630c00e6b0ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,7 +143,7 @@ Functions</h2></td></tr>
 <tr class="separator:a23976e8cd7c5aecf8e137324fce993d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a222da12d0111c9dee46a6cfc676be209"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8c.html#a222da12d0111c9dee46a6cfc676be209">do_stream_fc</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s, const uint16_t len)</td></tr>
 <tr class="separator:a222da12d0111c9dee46a6cfc676be209"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a848f253b1d052daeb064af9827ae2b31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8c.html#a848f253b1d052daeb064af9827ae2b31">do_stream_id_fc</a> (struct q_conn *const c, const int64_t cnt, const bool bidi, const bool local)</td></tr>
+<tr class="memitem:a848f253b1d052daeb064af9827ae2b31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8c.html#a848f253b1d052daeb064af9827ae2b31">do_stream_id_fc</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const int64_t cnt, const bool bidi, const bool local)</td></tr>
 <tr class="separator:a848f253b1d052daeb064af9827ae2b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a379b35c4c21ee31284e14338963fdd8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream_8c.html#a379b35c4c21ee31284e14338963fdd8f">concat_out</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s, struct w_iov_sq *const q)</td></tr>
 <tr class="separator:a379b35c4c21ee31284e14338963fdd8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -286,7 +286,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void do_stream_id_fc </td>
           <td>(</td>
-          <td class="paramtype">struct q_conn *const&#160;</td>
+          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -349,7 +349,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">struct <a class="el" href="structq__stream.html">q_stream</a>* get_stream </td>
           <td>(</td>
-          <td class="paramtype">struct q_conn *const&#160;</td>
+          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -381,7 +381,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const struct q_conn *const&#160;</td>
+          <td class="paramtype">const struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
           <td class="paramname"><em>c</em>&#160;</td>
         </tr>
         <tr>
@@ -401,7 +401,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">struct <a class="el" href="structq__stream.html">q_stream</a>* new_stream </td>
           <td>(</td>
-          <td class="paramtype">struct q_conn *const&#160;</td>
+          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -532,7 +532,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Mar 4 2019 12:24:50 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 5 2019 13:13:05 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

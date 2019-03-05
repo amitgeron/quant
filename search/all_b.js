@@ -5,7 +5,9 @@ var searchData=
   ['latest_5frtt',['latest_rtt',['../structrecovery.html#a34571d44f4791519797d7915419cb48d',1,'recovery']]],
   ['ld_5falarm',['ld_alarm',['../structrecovery.html#a8233971136274c530051b40c04a974e9',1,'recovery']]],
   ['len',['len',['../structcid.html#a61ab34460c7fcffba43d1b4042b00b93',1,'cid::len()'],['../structpkt__hdr.html#a96c8d664da3461dd7029f2700fe69213',1,'pkt_hdr::len()']]],
-  ['lg_5facked',['lg_acked',['../structpkt__meta.html#a21de9af69068ecadb222f0d9685d50d7',1,'pkt_meta']]],
+  ['lg_5facked',['lg_acked',['../structpn__space.html#a825467fc133c8e0c9c8a15152d089c02',1,'pn_space::lg_acked()'],['../structpkt__meta.html#a21de9af69068ecadb222f0d9685d50d7',1,'pkt_meta::lg_acked()']]],
+  ['lg_5fsent',['lg_sent',['../structpn__space.html#a9cda5671fa87d3027ef73c40c8ff4e5f',1,'pn_space']]],
+  ['lg_5fsent_5fbefore_5frto',['lg_sent_before_rto',['../structpn__space.html#ab8026a26cf8a868e9243423fb83862ef',1,'pn_space']]],
   ['lh',['LH',['../pkt_8h.html#a06ca9df8b3c86c3698aa210a71ea3ea8',1,'pkt.h']]],
   ['lh_5f0rtt',['LH_0RTT',['../pkt_8h.html#a6c22846a0fa775cf0d8cb07b420a344a',1,'pkt.h']]],
   ['lh_5fhshk',['LH_HSHK',['../pkt_8h.html#a0d55d860f2416d11ee649fefe7b37e65',1,'pkt.h']]],
@@ -23,5 +25,6 @@ var searchData=
   ['log_5fstream_5for_5fcrypto_5fframe',['log_stream_or_crypto_frame',['../frame_8c.html#ae94d6f87955af69345cb46c9d03ad90f',1,'log_stream_or_crypto_frame(const bool rtx, const struct w_iov *const v, const bool in, const char *const kind):&#160;frame.c'],['../frame_8h.html#ae94d6f87955af69345cb46c9d03ad90f',1,'log_stream_or_crypto_frame(const bool rtx, const struct w_iov *const v, const bool in, const char *const kind):&#160;frame.c']]],
   ['loop',['loop',['../quic_8c.html#a855923b555731173d3509ecb645de0e0',1,'loop():&#160;quic.c'],['../quic_8h.html#a855923b555731173d3509ecb645de0e0',1,'loop():&#160;quic.c']]],
   ['loop_5frun',['loop_run',['../quic_8c.html#a7890c6fb9ffd79d2073edcdc00d600af',1,'quic.c']]],
-  ['loss_5ft',['loss_t',['../structrecovery.html#a2394e577c3fc53d34bb35b44b7113fe7',1,'recovery']]]
+  ['loss_5ft',['loss_t',['../structrecovery.html#a2394e577c3fc53d34bb35b44b7113fe7',1,'recovery']]],
+  ['lost',['lost',['../structpn__space.html#a454701f9e3185698aeca2bd2de0cb67b',1,'pn_space']]]
 ];
