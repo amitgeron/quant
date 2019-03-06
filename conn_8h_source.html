@@ -326,254 +326,255 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00238"></a><span class="lineno"><a class="line" href="structq__conn.html#ae5fa4075534324acee499b666be57700">  238</a></span>&#160;    ev_timer key_flip_alarm;</div>
 <div class="line"><a name="l00239"></a><span class="lineno"><a class="line" href="structq__conn.html#ac0d08165fdfd8ce2760e8fc58e072269">  239</a></span>&#160;    ev_timer <a class="code" href="conn_8c.html#a4ba022a58c8ecd77d29357f7d1c30520">ack_alarm</a>;</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;</div>
-<div class="line"><a name="l00241"></a><span class="lineno"><a class="line" href="structq__conn.html#a4ab8aa265dbdc7e041cade91a6341635">  241</a></span>&#160;    struct sockaddr_storage peer; </div>
-<div class="line"><a name="l00242"></a><span class="lineno"><a class="line" href="structq__conn.html#aeb5041217565e950f34272348d1dbc92">  242</a></span>&#160;    <span class="keywordtype">char</span> * peer_name;</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;</div>
-<div class="line"><a name="l00244"></a><span class="lineno"><a class="line" href="structq__conn.html#a2d76e4d46e32ced7b0eff936f1df42cd">  244</a></span>&#160;    struct <a class="code" href="structq__stream.html">q_stream</a> * cstreams[<a class="code" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a030d34ca4ffa3a300c995276c165043f">ep_data</a> + 1]; </div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <a class="code" href="conn_8h.html#a34b1cdbb78d525ce88335cd77ecbca88">khash_t</a>(streams_by_id) * streams_by_id;  </div>
-<div class="line"><a name="l00246"></a><span class="lineno"><a class="line" href="structq__conn.html#a9497cc2d8f046cdfd73d7a47355a4448">  246</a></span>&#160;    struct diet closed_streams;</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <a class="code" href="conn_8h.html#addd27b7fdfd0f22d4c24b474c8738213">sl_head</a>(, <a class="code" href="structq__stream.html">q_stream</a>) need_ctrl;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;</div>
-<div class="line"><a name="l00249"></a><span class="lineno"><a class="line" href="structq__conn.html#a36327baf8c4d695023b07a2270587e78">  249</a></span>&#160;    struct w_sock * sock;     </div>
-<div class="line"><a name="l00250"></a><span class="lineno"><a class="line" href="structq__conn.html#afb333c06b0f2b605fe9c5ad22bc629cf">  250</a></span>&#160;    struct w_sockopt sockopt; </div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;</div>
-<div class="line"><a name="l00252"></a><span class="lineno"><a class="line" href="structq__conn.html#a1e7b106e2468975cb7408cc5d1b182e4">  252</a></span>&#160;    <a class="code" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46">epoch_t</a> min_rx_epoch;</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;</div>
-<div class="line"><a name="l00254"></a><span class="lineno"><a class="line" href="structq__conn.html#aa237d71bb04b7a3b77410003329a438f">  254</a></span>&#160;    ev_io rx_w;    </div>
-<div class="line"><a name="l00255"></a><span class="lineno"><a class="line" href="structq__conn.html#a11888af06190d30dab6fd4d243d3c1d6">  255</a></span>&#160;    ev_async <a class="code" href="conn_8h.html#ae7ad1167799a2920119487df92e81b85">tx_w</a>; </div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;</div>
-<div class="line"><a name="l00257"></a><span class="lineno"><a class="line" href="structq__conn.html#a5e9b1a6f4e05906f6b75ade3dcec715b">  257</a></span>&#160;    struct <a class="code" href="structrecovery.html">recovery</a> rec; </div>
-<div class="line"><a name="l00258"></a><span class="lineno"><a class="line" href="structq__conn.html#ac61afa12ee06fbb21404f81e681577f1">  258</a></span>&#160;    struct <a class="code" href="structtls.html">tls</a> <a class="code" href="structtls.html">tls</a>;      </div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;</div>
-<div class="line"><a name="l00260"></a><span class="lineno"><a class="line" href="structq__conn.html#a4795aabbfb01902e17e4bb580fe38115">  260</a></span>&#160;    uint64_t path_chlg_in;</div>
-<div class="line"><a name="l00261"></a><span class="lineno"><a class="line" href="structq__conn.html#a6b7d09a81646163cfb58aecb7dbf79fb">  261</a></span>&#160;    uint64_t path_resp_out;</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;</div>
-<div class="line"><a name="l00263"></a><span class="lineno"><a class="line" href="structq__conn.html#ab17bff3743d9ed54cbdae375610f870e">  263</a></span>&#160;    uint64_t path_chlg_out;</div>
-<div class="line"><a name="l00264"></a><span class="lineno"><a class="line" href="structq__conn.html#a9a210a1d710e43ab1a6d65d1ee578b98">  264</a></span>&#160;    uint64_t path_resp_in;</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;</div>
-<div class="line"><a name="l00266"></a><span class="lineno"><a class="line" href="structq__conn.html#a9e483983b67d3b6dc0e5fb1e19dea752">  266</a></span>&#160;    uint64_t max_cid_seq_out;</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;</div>
-<div class="line"><a name="l00268"></a><span class="lineno"><a class="line" href="structq__conn.html#a5c46a8b6d3b5393f8812868774bf1ec3">  268</a></span>&#160;    struct <a class="code" href="structcid.html">cid</a> odcid; </div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;</div>
-<div class="line"><a name="l00270"></a><span class="lineno"><a class="line" href="structq__conn.html#a759c55d2a104321b9c2a1d848aa41bf9">  270</a></span>&#160;    struct w_iov_sq txq;</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;</div>
-<div class="line"><a name="l00272"></a><span class="lineno"><a class="line" href="structq__conn.html#a513348d360094c4c5b1f7cf49531a86e">  272</a></span>&#160;    uint8_t tok[<a class="code" href="conn_8h.html#a4c4dda142699d1cf6e5434ab2ca6c406">MAX_TOK_LEN</a>]; <span class="comment">// some stacks send ungodly large tokens</span></div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;};</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;</div>
+<div class="line"><a name="l00241"></a><span class="lineno"><a class="line" href="structq__conn.html#a4ab8aa265dbdc7e041cade91a6341635">  241</a></span>&#160;    struct sockaddr_storage peer;      </div>
+<div class="line"><a name="l00242"></a><span class="lineno"><a class="line" href="structq__conn.html#a89363123ae566d5648563939e31c6806">  242</a></span>&#160;    struct sockaddr_storage migr_peer; </div>
+<div class="line"><a name="l00243"></a><span class="lineno"><a class="line" href="structq__conn.html#aeb5041217565e950f34272348d1dbc92">  243</a></span>&#160;    <span class="keywordtype">char</span> * peer_name;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;</div>
+<div class="line"><a name="l00245"></a><span class="lineno"><a class="line" href="structq__conn.html#a2d76e4d46e32ced7b0eff936f1df42cd">  245</a></span>&#160;    struct <a class="code" href="structq__stream.html">q_stream</a> * cstreams[<a class="code" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a030d34ca4ffa3a300c995276c165043f">ep_data</a> + 1]; </div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <a class="code" href="conn_8h.html#a34b1cdbb78d525ce88335cd77ecbca88">khash_t</a>(streams_by_id) * streams_by_id;  </div>
+<div class="line"><a name="l00247"></a><span class="lineno"><a class="line" href="structq__conn.html#a9497cc2d8f046cdfd73d7a47355a4448">  247</a></span>&#160;    struct diet closed_streams;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <a class="code" href="conn_8h.html#addd27b7fdfd0f22d4c24b474c8738213">sl_head</a>(, <a class="code" href="structq__stream.html">q_stream</a>) need_ctrl;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;</div>
+<div class="line"><a name="l00250"></a><span class="lineno"><a class="line" href="structq__conn.html#a36327baf8c4d695023b07a2270587e78">  250</a></span>&#160;    struct w_sock * sock;     </div>
+<div class="line"><a name="l00251"></a><span class="lineno"><a class="line" href="structq__conn.html#afb333c06b0f2b605fe9c5ad22bc629cf">  251</a></span>&#160;    struct w_sockopt sockopt; </div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;</div>
+<div class="line"><a name="l00253"></a><span class="lineno"><a class="line" href="structq__conn.html#a1e7b106e2468975cb7408cc5d1b182e4">  253</a></span>&#160;    <a class="code" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46">epoch_t</a> min_rx_epoch;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;</div>
+<div class="line"><a name="l00255"></a><span class="lineno"><a class="line" href="structq__conn.html#aa237d71bb04b7a3b77410003329a438f">  255</a></span>&#160;    ev_io rx_w;    </div>
+<div class="line"><a name="l00256"></a><span class="lineno"><a class="line" href="structq__conn.html#a11888af06190d30dab6fd4d243d3c1d6">  256</a></span>&#160;    ev_async <a class="code" href="conn_8h.html#ae7ad1167799a2920119487df92e81b85">tx_w</a>; </div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;</div>
+<div class="line"><a name="l00258"></a><span class="lineno"><a class="line" href="structq__conn.html#a5e9b1a6f4e05906f6b75ade3dcec715b">  258</a></span>&#160;    struct <a class="code" href="structrecovery.html">recovery</a> rec; </div>
+<div class="line"><a name="l00259"></a><span class="lineno"><a class="line" href="structq__conn.html#ac61afa12ee06fbb21404f81e681577f1">  259</a></span>&#160;    struct <a class="code" href="structtls.html">tls</a> <a class="code" href="structtls.html">tls</a>;      </div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;</div>
+<div class="line"><a name="l00261"></a><span class="lineno"><a class="line" href="structq__conn.html#a4795aabbfb01902e17e4bb580fe38115">  261</a></span>&#160;    uint64_t path_chlg_in;</div>
+<div class="line"><a name="l00262"></a><span class="lineno"><a class="line" href="structq__conn.html#a6b7d09a81646163cfb58aecb7dbf79fb">  262</a></span>&#160;    uint64_t path_resp_out;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;</div>
+<div class="line"><a name="l00264"></a><span class="lineno"><a class="line" href="structq__conn.html#ab17bff3743d9ed54cbdae375610f870e">  264</a></span>&#160;    uint64_t path_chlg_out;</div>
+<div class="line"><a name="l00265"></a><span class="lineno"><a class="line" href="structq__conn.html#a9a210a1d710e43ab1a6d65d1ee578b98">  265</a></span>&#160;    uint64_t path_resp_in;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;</div>
+<div class="line"><a name="l00267"></a><span class="lineno"><a class="line" href="structq__conn.html#a9e483983b67d3b6dc0e5fb1e19dea752">  267</a></span>&#160;    uint64_t max_cid_seq_out;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;</div>
+<div class="line"><a name="l00269"></a><span class="lineno"><a class="line" href="structq__conn.html#a5c46a8b6d3b5393f8812868774bf1ec3">  269</a></span>&#160;    struct <a class="code" href="structcid.html">cid</a> odcid; </div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;</div>
+<div class="line"><a name="l00271"></a><span class="lineno"><a class="line" href="structq__conn.html#a759c55d2a104321b9c2a1d848aa41bf9">  271</a></span>&#160;    struct w_iov_sq txq;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;</div>
+<div class="line"><a name="l00273"></a><span class="lineno"><a class="line" href="structq__conn.html#a513348d360094c4c5b1f7cf49531a86e">  273</a></span>&#160;    uint8_t tok[<a class="code" href="conn_8h.html#a4c4dda142699d1cf6e5434ab2ca6c406">MAX_TOK_LEN</a>]; <span class="comment">// some stacks send ungodly large tokens</span></div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;};</div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;extern struct q_conn_sl <a class="code" href="conn_8h.html#ad69eef6944d04f3ab345f5a5edb8fb6c">c_ready</a>;</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;extern struct q_conn_sl <a class="code" href="conn_8h.html#ad69eef6944d04f3ab345f5a5edb8fb6c">c_ready</a>;</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="preprocessor">#if !defined(NDEBUG) &amp;&amp; !defined(FUZZING)</span></div>
-<div class="line"><a name="l00280"></a><span class="lineno"><a class="line" href="conn_8h.html#a50c1772c30f4ee9e48843b07d662835d">  280</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define conn_to_state(c, s)                                                    \</span></div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="preprocessor">    do {                                                                       \</span></div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="preprocessor">        if ((c)-&gt;scid)                                                         \</span></div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="preprocessor">            warn(DBG, &quot;%s%s conn %s state %s -&gt; &quot; RED &quot;%s&quot; NRM,                \</span></div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<span class="preprocessor">                 (c)-&gt;state == (s) ? RED BLD &quot;useless transition: &quot; NRM : &quot;&quot;,  \</span></div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="preprocessor">                 conn_type(c), cid2str((c)-&gt;scid), conn_state_str[(c)-&gt;state], \</span></div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="preprocessor">                 conn_state_str[(s)]);                                         \</span></div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor">        (c)-&gt;state = (s);                                                      \</span></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor">    } while (0)</span></div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define conn_to_state(c, s) (c)-&gt;state = (s)</span></div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="keyword">struct </span>ev_loop;</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">bool</span> __attribute__((<span class="keyword">const</span>)) <a class="code" href="conn_8h.html#a1ae0706a577e85efbcfacf517a329dbe">vers_supported</a>(const uint32_t v);</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;tx_w(struct ev_loop * const l, ev_async * const w, <span class="keywordtype">int</span> e);</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<a class="code" href="conn_8h.html#a1a9a96efc3be558373804c33a60df6b9">tx</a>(struct q_conn * const c, const uint32_t limit);</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="conn_8h.html#a02d7b0c5a072e1b673358b52ac71f160">err_close</a>(struct q_conn * const c,</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                                               const uint16_t code,</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                                               const uint8_t frm,</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                                               const <span class="keywordtype">char</span> * const fmt,</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                                               ...);</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="conn_8h.html#afd38904c68cab87424e6aa8db723fd38">enter_closing</a>(struct q_conn * const c);</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;extern struct q_conn * <a class="code" href="conn_8h.html#a539ae556cdf40667c6ba127808df4f28">new_conn</a>(struct w_engine * const w,</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;                                const uint32_t vers,</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;                                const struct <a class="code" href="structcid.html">cid</a> * const dcid,</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;                                const struct <a class="code" href="structcid.html">cid</a> * const scid,</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                                const struct sockaddr * const peer,</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                                const <span class="keywordtype">char</span> * const peer_name,</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                                const uint16_t port,</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                                const struct <a class="code" href="structq__conn__conf.html">q_conn_conf</a> * const cc);</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="conn_8h.html#a4a5deef512e20b125b45899c6c80c6fc">free_conn</a>(struct q_conn * const c);</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<a class="code" href="conn_8h.html#aa16d30297b5b1ceed9c3fef11b6a5026">add_scid</a>(struct q_conn * const c, struct <a class="code" href="structcid.html">cid</a> * const <span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<a class="code" href="conn_8h.html#ae5beee50c7414b14d1efb1e3e8ebe1ee">add_dcid</a>(struct q_conn * const c, const struct <a class="code" href="structcid.html">cid</a> * const <span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<a class="code" href="conn_8h.html#a1bd607ec461f06fc371dc1e0ad98d6fe">do_conn_fc</a>(struct q_conn * const c, const uint16_t len);</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<a class="code" href="conn_8h.html#ab983b3d57ee0c84f0e70018a299033a8">free_scid</a>(struct q_conn * const c, struct <a class="code" href="structcid.html">cid</a> * const <span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<a class="code" href="conn_8h.html#a1c73802c8005ac4f60cf1c0003972d56">free_dcid</a>(struct q_conn * const c, struct <a class="code" href="structcid.html">cid</a> * const <span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull(1)))</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<a class="code" href="conn_8h.html#a8b3f561241f82fe8b840ed7655d13ffe">update_conn_conf</a>(struct q_conn * const c, const struct <a class="code" href="structq__conn__conf.html">q_conn_conf</a> * const cc);</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;extern struct q_conn * __attribute__((nonnull))</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<a class="code" href="conn_8h.html#a8d157b98299732e6bf0d5185439ae372">get_conn_by_srt</a>(uint8_t * const srt);</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;<a class="code" href="conn_8h.html#a619f2109f27acd5a1bb587f6d452097e">conns_by_srt_ins</a>(struct q_conn * const c, uint8_t * const srt);</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="preprocessor">#if !defined(NDEBUG) &amp;&amp; !defined(FUZZING)</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno"><a class="line" href="conn_8h.html#a50c1772c30f4ee9e48843b07d662835d">  281</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define conn_to_state(c, s)                                                    \</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="preprocessor">    do {                                                                       \</span></div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="preprocessor">        if ((c)-&gt;scid)                                                         \</span></div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<span class="preprocessor">            warn(DBG, &quot;%s%s conn %s state %s -&gt; &quot; RED &quot;%s&quot; NRM,                \</span></div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="preprocessor">                 (c)-&gt;state == (s) ? RED BLD &quot;useless transition: &quot; NRM : &quot;&quot;,  \</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="preprocessor">                 conn_type(c), cid2str((c)-&gt;scid), conn_state_str[(c)-&gt;state], \</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor">                 conn_state_str[(s)]);                                         \</span></div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor">        (c)-&gt;state = (s);                                                      \</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="preprocessor">    } while (0)</span></div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define conn_to_state(c, s) (c)-&gt;state = (s)</span></div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="keyword">struct </span>ev_loop;</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">bool</span> __attribute__((<span class="keyword">const</span>)) <a class="code" href="conn_8h.html#a1ae0706a577e85efbcfacf517a329dbe">vers_supported</a>(const uint32_t v);</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;tx_w(struct ev_loop * const l, ev_async * const w, <span class="keywordtype">int</span> e);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<a class="code" href="conn_8h.html#a1a9a96efc3be558373804c33a60df6b9">tx</a>(struct q_conn * const c, const uint32_t limit);</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="conn_8h.html#a02d7b0c5a072e1b673358b52ac71f160">err_close</a>(struct q_conn * const c,</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                                               const uint16_t code,</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                                               const uint8_t frm,</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                                               const <span class="keywordtype">char</span> * const fmt,</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                                               ...);</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="conn_8h.html#afd38904c68cab87424e6aa8db723fd38">enter_closing</a>(struct q_conn * const c);</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;extern struct q_conn * <a class="code" href="conn_8h.html#a539ae556cdf40667c6ba127808df4f28">new_conn</a>(struct w_engine * const w,</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;                                const uint32_t vers,</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;                                const struct <a class="code" href="structcid.html">cid</a> * const dcid,</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                                const struct <a class="code" href="structcid.html">cid</a> * const scid,</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                                const struct sockaddr * const peer,</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                                const <span class="keywordtype">char</span> * const peer_name,</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                                const uint16_t port,</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;                                const struct <a class="code" href="structq__conn__conf.html">q_conn_conf</a> * const cc);</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="conn_8h.html#a4a5deef512e20b125b45899c6c80c6fc">free_conn</a>(struct q_conn * const c);</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<a class="code" href="conn_8h.html#aa16d30297b5b1ceed9c3fef11b6a5026">add_scid</a>(struct q_conn * const c, struct <a class="code" href="structcid.html">cid</a> * const <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<a class="code" href="conn_8h.html#ae5beee50c7414b14d1efb1e3e8ebe1ee">add_dcid</a>(struct q_conn * const c, const struct <a class="code" href="structcid.html">cid</a> * const <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;<a class="code" href="conn_8h.html#a1bd607ec461f06fc371dc1e0ad98d6fe">do_conn_fc</a>(struct q_conn * const c, const uint16_t len);</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<a class="code" href="conn_8h.html#ab983b3d57ee0c84f0e70018a299033a8">free_scid</a>(struct q_conn * const c, struct <a class="code" href="structcid.html">cid</a> * const <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<a class="code" href="conn_8h.html#a1c73802c8005ac4f60cf1c0003972d56">free_dcid</a>(struct q_conn * const c, struct <a class="code" href="structcid.html">cid</a> * const <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull(1)))</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<a class="code" href="conn_8h.html#a8b3f561241f82fe8b840ed7655d13ffe">update_conn_conf</a>(struct q_conn * const c, const struct <a class="code" href="structq__conn__conf.html">q_conn_conf</a> * const cc);</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;extern struct q_conn * __attribute__((nonnull))</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<a class="code" href="conn_8h.html#a8d157b98299732e6bf0d5185439ae372">get_conn_by_srt</a>(uint8_t * const srt);</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;extern <span class="keywordtype">void</span> __attribute__((nonnull))</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;<a class="code" href="conn_8h.html#a619f2109f27acd5a1bb587f6d452097e">conns_by_srt_ins</a>(struct q_conn * const c, uint8_t * const srt);</div>
 <div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;<span class="preprocessor">#ifdef FUZZING</span></div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;<span class="preprocessor"></span><span class="keyword">extern</span> <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="conn_8c.html#a743c431b40b906bbe9baad4456a0e7c5">rx_pkts</a>(struct w_iov_sq * const x,</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                                             struct q_conn_sl * const crx,</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;                                             const struct w_sock * const ws);</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keyword">struct </span><a class="code" href="structpn__space.html">pn_space</a> * __attribute__((always_inline, nonnull))</div>
-<div class="line"><a name="l00354"></a><span class="lineno"><a class="line" href="conn_8h.html#a526357c19864e7579573160573a55c33">  354</a></span>&#160;<a class="code" href="conn_8h.html#a526357c19864e7579573160573a55c33">pn_for_epoch</a>(struct q_conn * const c, const <a class="code" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46">epoch_t</a> e)</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;{</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <span class="keywordflow">switch</span> (e) {</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a6c1fd68888a7d434a18abddfe2fe5f2a">ep_init</a>:</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        <span class="keywordflow">return</span> &amp;c-&gt;pn_init.pn;</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a69c3dbe76abca12db48170aec4973a18">ep_hshk</a>:</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;        <span class="keywordflow">return</span> &amp;c-&gt;pn_hshk.pn;</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a1a4cdb07d7b5dadfadc6244a5ee78d75">ep_0rtt</a>:</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keywordflow">case</span> ep_data:</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        <span class="keywordflow">return</span> &amp;c-&gt;pn_data.pn;</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;    }</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    die(<span class="stringliteral">&quot;unhandled epoch %u&quot;</span>, e);</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;}</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;<span class="preprocessor">#ifdef FUZZING</span></div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;<span class="preprocessor"></span><span class="keyword">extern</span> <span class="keywordtype">void</span> __attribute__((nonnull)) <a class="code" href="conn_8c.html#a743c431b40b906bbe9baad4456a0e7c5">rx_pkts</a>(struct w_iov_sq * const x,</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;                                             struct q_conn_sl * const crx,</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                                             const struct w_sock * const ws);</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keyword">struct </span><a class="code" href="structpn__space.html">pn_space</a> * __attribute__((always_inline, nonnull))</div>
+<div class="line"><a name="l00355"></a><span class="lineno"><a class="line" href="conn_8h.html#a526357c19864e7579573160573a55c33">  355</a></span>&#160;<a class="code" href="conn_8h.html#a526357c19864e7579573160573a55c33">pn_for_epoch</a>(struct q_conn * const c, const <a class="code" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46">epoch_t</a> e)</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;{</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    <span class="keywordflow">switch</span> (e) {</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a6c1fd68888a7d434a18abddfe2fe5f2a">ep_init</a>:</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        <span class="keywordflow">return</span> &amp;c-&gt;pn_init.pn;</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a69c3dbe76abca12db48170aec4973a18">ep_hshk</a>:</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        <span class="keywordflow">return</span> &amp;c-&gt;pn_hshk.pn;</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a1a4cdb07d7b5dadfadc6244a5ee78d75">ep_0rtt</a>:</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    <span class="keywordflow">case</span> ep_data:</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        <span class="keywordflow">return</span> &amp;c-&gt;pn_data.pn;</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    }</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    die(<span class="stringliteral">&quot;unhandled epoch %u&quot;</span>, e);</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;}</div>
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;<a class="code" href="tree_8h.html#a75ee3833aa4387ba31979341c84b6954">SPLAY_PROTOTYPE</a>(cids_by_seq, <a class="code" href="structcid.html">cid</a>, node_seq, <a class="code" href="quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb">cids_by_seq_cmp</a>)</div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;<a class="code" href="tree_8h.html#a75ee3833aa4387ba31979341c84b6954">SPLAY_PROTOTYPE</a>(cids_by_seq, <a class="code" href="structcid.html">cid</a>, node_seq, <a class="code" href="quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb">cids_by_seq_cmp</a>)</div>
 <div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;</div>
-<div class="line"><a name="l00372"></a><span class="lineno"><a class="line" href="structooo__0rtt.html">  372</a></span>&#160;struct <a class="code" href="structooo__0rtt.html">ooo_0rtt</a> {</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    <a class="code" href="tree_8h.html#a577ab0c7c03e7caae9b2c4b828027ecb">splay_entry</a>(ooo_0rtt) node;</div>
-<div class="line"><a name="l00374"></a><span class="lineno"><a class="line" href="structooo__0rtt.html#a9a8841c9488245645e26408553d567b4">  374</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="structcid.html">cid</a> <a class="code" href="structcid.html">cid</a>;   </div>
-<div class="line"><a name="l00375"></a><span class="lineno"><a class="line" href="structooo__0rtt.html#a319320b309830c73f3fea5642475bf18">  375</a></span>&#160;    <span class="keyword">struct </span>w_iov * <a class="code" href="structooo__0rtt.html#a319320b309830c73f3fea5642475bf18">v</a>; </div>
-<div class="line"><a name="l00376"></a><span class="lineno"><a class="line" href="structooo__0rtt.html#aab3e12c6cd7071393deb901e5bd2d9a4">  376</a></span>&#160;    ev_tstamp <a class="code" href="structooo__0rtt.html#aab3e12c6cd7071393deb901e5bd2d9a4">t</a>;      </div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;};</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;</div>
+<div class="line"><a name="l00373"></a><span class="lineno"><a class="line" href="structooo__0rtt.html">  373</a></span>&#160;struct <a class="code" href="structooo__0rtt.html">ooo_0rtt</a> {</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    <a class="code" href="tree_8h.html#a577ab0c7c03e7caae9b2c4b828027ecb">splay_entry</a>(ooo_0rtt) node;</div>
+<div class="line"><a name="l00375"></a><span class="lineno"><a class="line" href="structooo__0rtt.html#a9a8841c9488245645e26408553d567b4">  375</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="structcid.html">cid</a> <a class="code" href="structcid.html">cid</a>;   </div>
+<div class="line"><a name="l00376"></a><span class="lineno"><a class="line" href="structooo__0rtt.html#a319320b309830c73f3fea5642475bf18">  376</a></span>&#160;    <span class="keyword">struct </span>w_iov * <a class="code" href="structooo__0rtt.html#a319320b309830c73f3fea5642475bf18">v</a>; </div>
+<div class="line"><a name="l00377"></a><span class="lineno"><a class="line" href="structooo__0rtt.html#aab3e12c6cd7071393deb901e5bd2d9a4">  377</a></span>&#160;    ev_tstamp <a class="code" href="structooo__0rtt.html#aab3e12c6cd7071393deb901e5bd2d9a4">t</a>;      </div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;};</div>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;</div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;<span class="keyword">extern</span> <a class="code" href="conn_8h.html#a317b57b8733917d030b933b383c51270">splay_head</a>(<a class="code" href="conn_8c.html#a001da71d92caff5772399a0d5512d8c3">ooo_0rtt_by_cid</a>, <a class="code" href="structooo__0rtt.html">ooo_0rtt</a>) <a class="code" href="conn_8c.html#a001da71d92caff5772399a0d5512d8c3">ooo_0rtt_by_cid</a>;</div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;<span class="keyword">extern</span> <a class="code" href="conn_8h.html#a317b57b8733917d030b933b383c51270">splay_head</a>(<a class="code" href="conn_8c.html#a001da71d92caff5772399a0d5512d8c3">ooo_0rtt_by_cid</a>, <a class="code" href="structooo__0rtt.html">ooo_0rtt</a>) <a class="code" href="conn_8c.html#a001da71d92caff5772399a0d5512d8c3">ooo_0rtt_by_cid</a>;</div>
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;static inline <span class="keywordtype">int</span> __attribute__((always_inline, nonnull))</div>
-<div class="line"><a name="l00384"></a><span class="lineno"><a class="line" href="conn_8h.html#a661935e5f13fe656b889698521a6450f">  384</a></span>&#160;<a class="code" href="conn_8h.html#a661935e5f13fe656b889698521a6450f">ooo_0rtt_by_cid_cmp</a>(const struct <a class="code" href="structooo__0rtt.html">ooo_0rtt</a> * const a,</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;                    const struct <a class="code" href="structooo__0rtt.html">ooo_0rtt</a> * const b)</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;{</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1">cid_cmp</a>(&amp;a-&gt;cid, &amp;b-&gt;cid);</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;}</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;static inline <span class="keywordtype">int</span> __attribute__((always_inline, nonnull))</div>
+<div class="line"><a name="l00385"></a><span class="lineno"><a class="line" href="conn_8h.html#a661935e5f13fe656b889698521a6450f">  385</a></span>&#160;<a class="code" href="conn_8h.html#a661935e5f13fe656b889698521a6450f">ooo_0rtt_by_cid_cmp</a>(const struct <a class="code" href="structooo__0rtt.html">ooo_0rtt</a> * const a,</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;                    const struct <a class="code" href="structooo__0rtt.html">ooo_0rtt</a> * const b)</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;{</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1">cid_cmp</a>(&amp;a-&gt;cid, &amp;b-&gt;cid);</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;}</div>
 <div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;<a class="code" href="tree_8h.html#a75ee3833aa4387ba31979341c84b6954">SPLAY_PROTOTYPE</a>(<a class="code" href="conn_8c.html#a001da71d92caff5772399a0d5512d8c3">ooo_0rtt_by_cid</a>, <a class="code" href="structooo__0rtt.html">ooo_0rtt</a>, node, <a class="code" href="conn_8h.html#a661935e5f13fe656b889698521a6450f">ooo_0rtt_by_cid_cmp</a>)</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;<a class="code" href="tree_8h.html#a75ee3833aa4387ba31979341c84b6954">SPLAY_PROTOTYPE</a>(<a class="code" href="conn_8c.html#a001da71d92caff5772399a0d5512d8c3">ooo_0rtt_by_cid</a>, <a class="code" href="structooo__0rtt.html">ooo_0rtt</a>, node, <a class="code" href="conn_8h.html#a661935e5f13fe656b889698521a6450f">ooo_0rtt_by_cid_cmp</a>)</div>
 <div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;static inline __attribute__((always_inline, nonnull)) const <span class="keywordtype">char</span> *</div>
-<div class="line"><a name="l00395"></a><span class="lineno"><a class="line" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">  395</a></span>&#160;<a class="code" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a>(const struct q_conn * const c)</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;{</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;    <span class="keywordflow">return</span> c-&gt;is_clnt ? <span class="stringliteral">&quot;clnt&quot;</span> : <span class="stringliteral">&quot;serv&quot;</span>;</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;}</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;static inline __attribute__((always_inline, nonnull)) const <span class="keywordtype">char</span> *</div>
+<div class="line"><a name="l00396"></a><span class="lineno"><a class="line" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">  396</a></span>&#160;<a class="code" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a>(const struct q_conn * const c)</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;{</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;    <span class="keywordflow">return</span> c-&gt;is_clnt ? <span class="stringliteral">&quot;clnt&quot;</span> : <span class="stringliteral">&quot;serv&quot;</span>;</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;}</div>
 <div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> __attribute__((always_inline, <span class="keyword">const</span>)) bool</div>
-<div class="line"><a name="l00402"></a><span class="lineno"><a class="line" href="conn_8h.html#a3b1788e29ec153bfcb2b7edc34c488a6">  402</a></span>&#160;<a class="code" href="conn_8h.html#a3b1788e29ec153bfcb2b7edc34c488a6">is_force_vneg_vers</a>(const uint32_t vers)</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;{</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    <span class="keywordflow">return</span> (vers &amp; 0x0f0f0f0f) == 0x0a0a0a0a;</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;}</div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> __attribute__((always_inline, <span class="keyword">const</span>)) bool</div>
+<div class="line"><a name="l00403"></a><span class="lineno"><a class="line" href="conn_8h.html#a3b1788e29ec153bfcb2b7edc34c488a6">  403</a></span>&#160;<a class="code" href="conn_8h.html#a3b1788e29ec153bfcb2b7edc34c488a6">is_force_vneg_vers</a>(const uint32_t vers)</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;{</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    <span class="keywordflow">return</span> (vers &amp; 0x0f0f0f0f) == 0x0a0a0a0a;</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;}</div>
 <div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;</div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> __attribute__((always_inline, <span class="keyword">const</span>)) bool</div>
-<div class="line"><a name="l00409"></a><span class="lineno"><a class="line" href="conn_8h.html#a76639ec987a700f45570a287b25025ea">  409</a></span>&#160;<a class="code" href="conn_8h.html#a76639ec987a700f45570a287b25025ea">is_rsvd_vers</a>(const uint32_t vers)</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;{</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    <span class="keywordflow">return</span> (vers &amp; 0xffff0000) == 0x00000000;</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;}</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> __attribute__((always_inline, <span class="keyword">const</span>)) bool</div>
+<div class="line"><a name="l00410"></a><span class="lineno"><a class="line" href="conn_8h.html#a76639ec987a700f45570a287b25025ea">  410</a></span>&#160;<a class="code" href="conn_8h.html#a76639ec987a700f45570a287b25025ea">is_rsvd_vers</a>(const uint32_t vers)</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;{</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    <span class="keywordflow">return</span> (vers &amp; 0xffff0000) == 0x00000000;</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;}</div>
 <div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> __attribute__((always_inline, <span class="keyword">const</span>)) bool</div>
-<div class="line"><a name="l00416"></a><span class="lineno"><a class="line" href="conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d">  416</a></span>&#160;<a class="code" href="conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d">is_zero</a>(const ev_tstamp t)</div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;{</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    <span class="keywordflow">return</span> fpclassify(t) == FP_ZERO;</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;}</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> __attribute__((always_inline, <span class="keyword">const</span>)) bool</div>
+<div class="line"><a name="l00417"></a><span class="lineno"><a class="line" href="conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d">  417</a></span>&#160;<a class="code" href="conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d">is_zero</a>(const ev_tstamp t)</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;{</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    <span class="keywordflow">return</span> fpclassify(t) == FP_ZERO;</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;}</div>
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> __attribute__((always_inline, <span class="keyword">const</span>)) bool</div>
-<div class="line"><a name="l00423"></a><span class="lineno"><a class="line" href="conn_8h.html#a07cb3f3bb2c38f820f0a7fd74de25d6d">  423</a></span>&#160;<a class="code" href="conn_8h.html#a07cb3f3bb2c38f820f0a7fd74de25d6d">is_inf</a>(const ev_tstamp t)</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;{</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    <span class="keywordflow">return</span> fpclassify(t) == FP_INFINITE;</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;}</div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> __attribute__((always_inline, <span class="keyword">const</span>)) bool</div>
+<div class="line"><a name="l00424"></a><span class="lineno"><a class="line" href="conn_8h.html#a07cb3f3bb2c38f820f0a7fd74de25d6d">  424</a></span>&#160;<a class="code" href="conn_8h.html#a07cb3f3bb2c38f820f0a7fd74de25d6d">is_inf</a>(const ev_tstamp t)</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;{</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    <span class="keywordflow">return</span> fpclassify(t) == FP_INFINITE;</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;}</div>
 <div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;</div>
-<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">bool</span> __attribute__((nonnull, always_inline))</div>
-<div class="line"><a name="l00430"></a><span class="lineno"><a class="line" href="conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0">  430</a></span>&#160;<a class="code" href="conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0">has_pval_wnd</a>(const struct q_conn * const c, const uint16_t len)</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;{</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    <span class="keywordflow">if</span> (unlikely(c-&gt;out_data + len &gt;= c-&gt;path_val_win)) {</div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;        warn(DBG,</div>
-<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;             <span class="stringliteral">&quot;%s conn %s path val lim reached: %&quot;</span> PRIu64 <span class="stringliteral">&quot; + %u &gt;= %&quot;</span> PRIu64,</div>
-<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;             <a class="code" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a>(c), <a class="code" href="conn_8h.html#ade2abf64e3b30fc0b5e1b95735ab6677">cid2str</a>(c-&gt;scid), c-&gt;out_data, len, c-&gt;path_val_win);</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;    }</div>
-<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;</div>
-<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;}</div>
-<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">bool</span> __attribute__((nonnull, always_inline))</div>
+<div class="line"><a name="l00431"></a><span class="lineno"><a class="line" href="conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0">  431</a></span>&#160;<a class="code" href="conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0">has_pval_wnd</a>(const struct q_conn * const c, const uint16_t len)</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;{</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    <span class="keywordflow">if</span> (unlikely(c-&gt;out_data + len &gt;= c-&gt;path_val_win)) {</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;        warn(DBG,</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;             <span class="stringliteral">&quot;%s conn %s path val lim reached: %&quot;</span> PRIu64 <span class="stringliteral">&quot; + %u &gt;= %&quot;</span> PRIu64,</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;             <a class="code" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a>(c), <a class="code" href="conn_8h.html#ade2abf64e3b30fc0b5e1b95735ab6677">cid2str</a>(c-&gt;scid), c-&gt;out_data, len, c-&gt;path_val_win);</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;    }</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;}</div>
 <div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;</div>
-<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">bool</span> __attribute__((nonnull, always_inline))</div>
-<div class="line"><a name="l00444"></a><span class="lineno"><a class="line" href="conn_8h.html#a3037cafb7df5c92ea54b7e6646a692e7">  444</a></span>&#160;<a class="code" href="conn_8h.html#a3037cafb7df5c92ea54b7e6646a692e7">has_wnd</a>(const struct q_conn * const c, const uint16_t len)</div>
-<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;{</div>
-<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;    <span class="keywordflow">if</span> (unlikely(c-&gt;blocked)) {</div>
-<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;        warn(DBG, <span class="stringliteral">&quot;%s conn %s is blocked&quot;</span>, <a class="code" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a>(c), <a class="code" href="conn_8h.html#ade2abf64e3b30fc0b5e1b95735ab6677">cid2str</a>(c-&gt;scid));</div>
-<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;    }</div>
-<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;</div>
-<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;    <span class="keywordflow">if</span> (unlikely(c-&gt;rec.in_flight + len &gt;= c-&gt;rec.cwnd)) {</div>
-<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;        warn(DBG,</div>
-<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;             <span class="stringliteral">&quot;%s conn %s cwnd lim reached: in_flight %&quot;</span> PRIu64</div>
-<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;             <span class="stringliteral">&quot; + %u &gt;= %&quot;</span> PRIu64,</div>
-<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;             <a class="code" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a>(c), <a class="code" href="conn_8h.html#ade2abf64e3b30fc0b5e1b95735ab6677">cid2str</a>(c-&gt;scid), c-&gt;rec.in_flight, len,</div>
-<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;             c-&gt;rec.cwnd);</div>
-<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;    }</div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;</div>
-<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0">has_pval_wnd</a>(c, len);</div>
-<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;}</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">bool</span> __attribute__((nonnull, always_inline))</div>
+<div class="line"><a name="l00445"></a><span class="lineno"><a class="line" href="conn_8h.html#a3037cafb7df5c92ea54b7e6646a692e7">  445</a></span>&#160;<a class="code" href="conn_8h.html#a3037cafb7df5c92ea54b7e6646a692e7">has_wnd</a>(const struct q_conn * const c, const uint16_t len)</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;{</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;    <span class="keywordflow">if</span> (unlikely(c-&gt;blocked)) {</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;        warn(DBG, <span class="stringliteral">&quot;%s conn %s is blocked&quot;</span>, <a class="code" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a>(c), <a class="code" href="conn_8h.html#ade2abf64e3b30fc0b5e1b95735ab6677">cid2str</a>(c-&gt;scid));</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;    }</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;    <span class="keywordflow">if</span> (unlikely(c-&gt;rec.in_flight + len &gt;= c-&gt;rec.cwnd)) {</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;        warn(DBG,</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;             <span class="stringliteral">&quot;%s conn %s cwnd lim reached: in_flight %&quot;</span> PRIu64</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;             <span class="stringliteral">&quot; + %u &gt;= %&quot;</span> PRIu64,</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;             <a class="code" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a>(c), <a class="code" href="conn_8h.html#ade2abf64e3b30fc0b5e1b95735ab6677">cid2str</a>(c-&gt;scid), c-&gt;rec.in_flight, len,</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;             c-&gt;rec.cwnd);</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    }</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0">has_pval_wnd</a>(c, len);</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;}</div>
 <div class="ttc" id="tls_8h_html"><div class="ttname"><a href="tls_8h.html">tls.h</a></div></div>
-<div class="ttc" id="conn_8h_html_aa0fec7fdf46459b57e64dbe4e79a8dc4"><div class="ttname"><a href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a></div><div class="ttdeci">static const char * conn_type(const struct q_conn *const c)</div><div class="ttdef"><b>Definition:</b> conn.h:395</div></div>
+<div class="ttc" id="conn_8h_html_aa0fec7fdf46459b57e64dbe4e79a8dc4"><div class="ttname"><a href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a></div><div class="ttdeci">static const char * conn_type(const struct q_conn *const c)</div><div class="ttdef"><b>Definition:</b> conn.h:396</div></div>
 <div class="ttc" id="conn_8h_html_aa1d052ded64269f24779a0f8916b1f49"><div class="ttname"><a href="conn_8h.html#aa1d052ded64269f24779a0f8916b1f49">hash_srt</a></div><div class="ttdeci">static khint_t hash_srt(const uint8_t *const srt)</div><div class="ttdef"><b>Definition:</b> conn.h:90</div></div>
 <div class="ttc" id="quant_8h_html"><div class="ttname"><a href="quant_8h.html">quant.h</a></div></div>
-<div class="ttc" id="conn_8c_html_a743c431b40b906bbe9baad4456a0e7c5"><div class="ttname"><a href="conn_8c.html#a743c431b40b906bbe9baad4456a0e7c5">rx_pkts</a></div><div class="ttdeci">static void rx_pkts(struct w_iov_sq *const x, struct q_conn_sl *const crx, const struct w_sock *const ws)</div><div class="ttdef"><b>Definition:</b> conn.c:924</div></div>
-<div class="ttc" id="conn_8h_html_a619f2109f27acd5a1bb587f6d452097e"><div class="ttname"><a href="conn_8h.html#a619f2109f27acd5a1bb587f6d452097e">conns_by_srt_ins</a></div><div class="ttdeci">void conns_by_srt_ins(struct q_conn *const c, uint8_t *const srt)</div><div class="ttdef"><b>Definition:</b> conn.c:517</div></div>
-<div class="ttc" id="conn_8h_html_a3b1788e29ec153bfcb2b7edc34c488a6"><div class="ttname"><a href="conn_8h.html#a3b1788e29ec153bfcb2b7edc34c488a6">is_force_vneg_vers</a></div><div class="ttdeci">static bool is_force_vneg_vers(const uint32_t vers)</div><div class="ttdef"><b>Definition:</b> conn.h:402</div></div>
+<div class="ttc" id="conn_8c_html_a743c431b40b906bbe9baad4456a0e7c5"><div class="ttname"><a href="conn_8c.html#a743c431b40b906bbe9baad4456a0e7c5">rx_pkts</a></div><div class="ttdeci">static void rx_pkts(struct w_iov_sq *const x, struct q_conn_sl *const crx, const struct w_sock *const ws)</div><div class="ttdef"><b>Definition:</b> conn.c:923</div></div>
+<div class="ttc" id="conn_8h_html_a619f2109f27acd5a1bb587f6d452097e"><div class="ttname"><a href="conn_8h.html#a619f2109f27acd5a1bb587f6d452097e">conns_by_srt_ins</a></div><div class="ttdeci">void conns_by_srt_ins(struct q_conn *const c, uint8_t *const srt)</div><div class="ttdef"><b>Definition:</b> conn.c:516</div></div>
+<div class="ttc" id="conn_8h_html_a3b1788e29ec153bfcb2b7edc34c488a6"><div class="ttname"><a href="conn_8h.html#a3b1788e29ec153bfcb2b7edc34c488a6">is_force_vneg_vers</a></div><div class="ttdeci">static bool is_force_vneg_vers(const uint32_t vers)</div><div class="ttdef"><b>Definition:</b> conn.h:403</div></div>
 <div class="ttc" id="conn_8h_html_ad2372a4b6e27ada905f0604c1725abf1"><div class="ttname"><a href="conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1">cid_cmp</a></div><div class="ttdeci">static int cid_cmp(const struct cid *const a, const struct cid *const b)</div><div class="ttdef"><b>Definition:</b> conn.h:73</div></div>
-<div class="ttc" id="structooo__0rtt_html_a319320b309830c73f3fea5642475bf18"><div class="ttname"><a href="structooo__0rtt.html#a319320b309830c73f3fea5642475bf18">ooo_0rtt::v</a></div><div class="ttdeci">struct w_iov * v</div><div class="ttdoc">the buffer containing the 0-RTT pkt </div><div class="ttdef"><b>Definition:</b> conn.h:375</div></div>
+<div class="ttc" id="structooo__0rtt_html_a319320b309830c73f3fea5642475bf18"><div class="ttname"><a href="structooo__0rtt.html#a319320b309830c73f3fea5642475bf18">ooo_0rtt::v</a></div><div class="ttdeci">struct w_iov * v</div><div class="ttdoc">the buffer containing the 0-RTT pkt </div><div class="ttdef"><b>Definition:</b> conn.h:376</div></div>
 <div class="ttc" id="structrecovery_html"><div class="ttname"><a href="structrecovery.html">recovery</a></div><div class="ttdef"><b>Definition:</b> recovery.h:43</div></div>
-<div class="ttc" id="conn_8h_html_a539ae556cdf40667c6ba127808df4f28"><div class="ttname"><a href="conn_8h.html#a539ae556cdf40667c6ba127808df4f28">new_conn</a></div><div class="ttdeci">struct q_conn * new_conn(struct w_engine *const w, const uint32_t vers, const struct cid *const dcid, const struct cid *const scid, const struct sockaddr *const peer, const char *const peer_name, const uint16_t port, const struct q_conn_conf *const cc)</div><div class="ttdef"><b>Definition:</b> conn.c:1416</div></div>
-<div class="ttc" id="structooo__0rtt_html_aab3e12c6cd7071393deb901e5bd2d9a4"><div class="ttname"><a href="structooo__0rtt.html#aab3e12c6cd7071393deb901e5bd2d9a4">ooo_0rtt::t</a></div><div class="ttdeci">ev_tstamp t</div><div class="ttdoc">Insertion time. </div><div class="ttdef"><b>Definition:</b> conn.h:376</div></div>
+<div class="ttc" id="conn_8h_html_a539ae556cdf40667c6ba127808df4f28"><div class="ttname"><a href="conn_8h.html#a539ae556cdf40667c6ba127808df4f28">new_conn</a></div><div class="ttdeci">struct q_conn * new_conn(struct w_engine *const w, const uint32_t vers, const struct cid *const dcid, const struct cid *const scid, const struct sockaddr *const peer, const char *const peer_name, const uint16_t port, const struct q_conn_conf *const cc)</div><div class="ttdef"><b>Definition:</b> conn.c:1419</div></div>
+<div class="ttc" id="structooo__0rtt_html_aab3e12c6cd7071393deb901e5bd2d9a4"><div class="ttname"><a href="structooo__0rtt.html#aab3e12c6cd7071393deb901e5bd2d9a4">ooo_0rtt::t</a></div><div class="ttdeci">ev_tstamp t</div><div class="ttdoc">Insertion time. </div><div class="ttdef"><b>Definition:</b> conn.h:377</div></div>
 <div class="ttc" id="structcid_html_a4445bbe90ef6a799450c1606badf557c"><div class="ttname"><a href="structcid.html#a4445bbe90ef6a799450c1606badf557c">cid::srt</a></div><div class="ttdeci">uint8_t srt[SRT_LEN]</div><div class="ttdoc">Stateless Reset Token. </div><div class="ttdef"><b>Definition:</b> quic.h:64</div></div>
 <div class="ttc" id="quic_8h_html_aaa19e76a63eec1141d442d58c20042ed"><div class="ttname"><a href="quic_8h.html#aaa19e76a63eec1141d442d58c20042ed">SRT_LEN</a></div><div class="ttdeci">#define SRT_LEN</div><div class="ttdef"><b>Definition:</b> quic.h:55</div></div>
-<div class="ttc" id="conn_8h_html_a1a9a96efc3be558373804c33a60df6b9"><div class="ttname"><a href="conn_8h.html#a1a9a96efc3be558373804c33a60df6b9">tx</a></div><div class="ttdeci">void tx(struct q_conn *const c, const uint32_t limit)</div><div class="ttdef"><b>Definition:</b> conn.c:453</div></div>
+<div class="ttc" id="conn_8h_html_a1a9a96efc3be558373804c33a60df6b9"><div class="ttname"><a href="conn_8h.html#a1a9a96efc3be558373804c33a60df6b9">tx</a></div><div class="ttdeci">void tx(struct q_conn *const c, const uint32_t limit)</div><div class="ttdef"><b>Definition:</b> conn.c:452</div></div>
 <div class="ttc" id="tls_8h_html_aaca089f79f64e61453953e09fd226e46a1a4cdb07d7b5dadfadc6244a5ee78d75"><div class="ttname"><a href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a1a4cdb07d7b5dadfadc6244a5ee78d75">ep_0rtt</a></div><div class="ttdef"><b>Definition:</b> tls.h:52</div></div>
-<div class="ttc" id="conn_8h_html_a9b73e1cf1b19f05266ce3380a5ec0af0"><div class="ttname"><a href="conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0">has_pval_wnd</a></div><div class="ttdeci">static bool has_pval_wnd(const struct q_conn *const c, const uint16_t len)</div><div class="ttdef"><b>Definition:</b> conn.h:430</div></div>
+<div class="ttc" id="conn_8h_html_a9b73e1cf1b19f05266ce3380a5ec0af0"><div class="ttname"><a href="conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0">has_pval_wnd</a></div><div class="ttdeci">static bool has_pval_wnd(const struct q_conn *const c, const uint16_t len)</div><div class="ttdef"><b>Definition:</b> conn.h:431</div></div>
 <div class="ttc" id="structq__conn_html"><div class="ttname"><a href="structq__conn.html">q_conn</a></div><div class="ttdoc">A QUIC connection. </div><div class="ttdef"><b>Definition:</b> conn.h:163</div></div>
-<div class="ttc" id="conn_8h_html_a8b3f561241f82fe8b840ed7655d13ffe"><div class="ttname"><a href="conn_8h.html#a8b3f561241f82fe8b840ed7655d13ffe">update_conn_conf</a></div><div class="ttdeci">void update_conn_conf(struct q_conn *const c, const struct q_conn_conf *const cc)</div><div class="ttdef"><b>Definition:</b> conn.c:1390</div></div>
+<div class="ttc" id="conn_8h_html_a8b3f561241f82fe8b840ed7655d13ffe"><div class="ttname"><a href="conn_8h.html#a8b3f561241f82fe8b840ed7655d13ffe">update_conn_conf</a></div><div class="ttdeci">void update_conn_conf(struct q_conn *const c, const struct q_conn_conf *const cc)</div><div class="ttdef"><b>Definition:</b> conn.c:1393</div></div>
 <div class="ttc" id="tls_8h_html_aaca089f79f64e61453953e09fd226e46a030d34ca4ffa3a300c995276c165043f"><div class="ttname"><a href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a030d34ca4ffa3a300c995276c165043f">ep_data</a></div><div class="ttdef"><b>Definition:</b> tls.h:52</div></div>
 <div class="ttc" id="structtransport__params_html_a0c37d67483b1cb2082274f8901fe70c0"><div class="ttname"><a href="structtransport__params.html#a0c37d67483b1cb2082274f8901fe70c0">transport_params::idle_to</a></div><div class="ttdeci">uint64_t idle_to</div><div class="ttdef"><b>Definition:</b> conn.h:125</div></div>
-<div class="ttc" id="conn_8h_html_a76639ec987a700f45570a287b25025ea"><div class="ttname"><a href="conn_8h.html#a76639ec987a700f45570a287b25025ea">is_rsvd_vers</a></div><div class="ttdeci">static bool is_rsvd_vers(const uint32_t vers)</div><div class="ttdef"><b>Definition:</b> conn.h:409</div></div>
-<div class="ttc" id="conn_8h_html_a68c6b30b8665ce894ab5bed3c73a2d9d"><div class="ttname"><a href="conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d">is_zero</a></div><div class="ttdeci">static bool is_zero(const ev_tstamp t)</div><div class="ttdef"><b>Definition:</b> conn.h:416</div></div>
-<div class="ttc" id="conn_8h_html_a4a5deef512e20b125b45899c6c80c6fc"><div class="ttname"><a href="conn_8h.html#a4a5deef512e20b125b45899c6c80c6fc">free_conn</a></div><div class="ttdeci">void free_conn(struct q_conn *const c)</div><div class="ttdef"><b>Definition:</b> conn.c:1579</div></div>
-<div class="ttc" id="structooo__0rtt_html"><div class="ttname"><a href="structooo__0rtt.html">ooo_0rtt</a></div><div class="ttdef"><b>Definition:</b> conn.h:372</div></div>
-<div class="ttc" id="conn_8c_html_a4ba022a58c8ecd77d29357f7d1c30520"><div class="ttname"><a href="conn_8c.html#a4ba022a58c8ecd77d29357f7d1c30520">ack_alarm</a></div><div class="ttdeci">static void ack_alarm(struct ev_loop *const l, ev_timer *const w, int e)</div><div class="ttdef"><b>Definition:</b> conn.c:1380</div></div>
-<div class="ttc" id="conn_8h_html_ab983b3d57ee0c84f0e70018a299033a8"><div class="ttname"><a href="conn_8h.html#ab983b3d57ee0c84f0e70018a299033a8">free_scid</a></div><div class="ttdeci">void free_scid(struct q_conn *const c, struct cid *const id)</div><div class="ttdef"><b>Definition:</b> conn.c:1560</div></div>
+<div class="ttc" id="conn_8h_html_a76639ec987a700f45570a287b25025ea"><div class="ttname"><a href="conn_8h.html#a76639ec987a700f45570a287b25025ea">is_rsvd_vers</a></div><div class="ttdeci">static bool is_rsvd_vers(const uint32_t vers)</div><div class="ttdef"><b>Definition:</b> conn.h:410</div></div>
+<div class="ttc" id="conn_8h_html_a68c6b30b8665ce894ab5bed3c73a2d9d"><div class="ttname"><a href="conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d">is_zero</a></div><div class="ttdeci">static bool is_zero(const ev_tstamp t)</div><div class="ttdef"><b>Definition:</b> conn.h:417</div></div>
+<div class="ttc" id="conn_8h_html_a4a5deef512e20b125b45899c6c80c6fc"><div class="ttname"><a href="conn_8h.html#a4a5deef512e20b125b45899c6c80c6fc">free_conn</a></div><div class="ttdeci">void free_conn(struct q_conn *const c)</div><div class="ttdef"><b>Definition:</b> conn.c:1582</div></div>
+<div class="ttc" id="structooo__0rtt_html"><div class="ttname"><a href="structooo__0rtt.html">ooo_0rtt</a></div><div class="ttdef"><b>Definition:</b> conn.h:373</div></div>
+<div class="ttc" id="conn_8c_html_a4ba022a58c8ecd77d29357f7d1c30520"><div class="ttname"><a href="conn_8c.html#a4ba022a58c8ecd77d29357f7d1c30520">ack_alarm</a></div><div class="ttdeci">static void ack_alarm(struct ev_loop *const l, ev_timer *const w, int e)</div><div class="ttdef"><b>Definition:</b> conn.c:1383</div></div>
+<div class="ttc" id="conn_8h_html_ab983b3d57ee0c84f0e70018a299033a8"><div class="ttname"><a href="conn_8h.html#ab983b3d57ee0c84f0e70018a299033a8">free_scid</a></div><div class="ttdeci">void free_scid(struct q_conn *const c, struct cid *const id)</div><div class="ttdef"><b>Definition:</b> conn.c:1563</div></div>
 <div class="ttc" id="conn_8h_html_a5618a89ddad38bdb55093279d8d3fbc5"><div class="ttname"><a href="conn_8h.html#a5618a89ddad38bdb55093279d8d3fbc5">conn_state_str</a></div><div class="ttdeci">const char *const conn_state_str[]</div><div class="ttdef"><b>Definition:</b> conn.c:63</div></div>
 <div class="ttc" id="tls_8h_html_aaca089f79f64e61453953e09fd226e46"><div class="ttname"><a href="tls_8h.html#aaca089f79f64e61453953e09fd226e46">epoch_t</a></div><div class="ttdeci">epoch_t</div><div class="ttdef"><b>Definition:</b> tls.h:52</div></div>
 <div class="ttc" id="diet_8h_html"><div class="ttname"><a href="diet_8h.html">diet.h</a></div></div>
@@ -591,21 +592,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structtransport__params_html_af0b784fb46cf3e2b99cf6a3ebd1a6b26"><div class="ttname"><a href="structtransport__params.html#af0b784fb46cf3e2b99cf6a3ebd1a6b26">transport_params::max_pkt</a></div><div class="ttdeci">uint64_t max_pkt</div><div class="ttdef"><b>Definition:</b> conn.h:127</div></div>
 <div class="ttc" id="conn_8h_html_a9a068df5be82749fc3f2e66ea36fcb66"><div class="ttname"><a href="conn_8h.html#a9a068df5be82749fc3f2e66ea36fcb66">kh_srt_cmp</a></div><div class="ttdeci">static int kh_srt_cmp(const uint8_t *const a, const uint8_t *const b)</div><div class="ttdef"><b>Definition:</b> conn.h:97</div></div>
 <div class="ttc" id="structpn__space_html"><div class="ttname"><a href="structpn__space.html">pn_space</a></div><div class="ttdef"><b>Definition:</b> pn.h:46</div></div>
-<div class="ttc" id="conn_8c_html_ac22c90477f7d4e5f8e96e3d536b58afb"><div class="ttname"><a href="conn_8c.html#ac22c90477f7d4e5f8e96e3d536b58afb">idle_alarm</a></div><div class="ttdeci">static void idle_alarm(struct ev_loop *const l, ev_timer *const w, int e)</div><div class="ttdef"><b>Definition:</b> conn.c:1367</div></div>
+<div class="ttc" id="conn_8c_html_ac22c90477f7d4e5f8e96e3d536b58afb"><div class="ttname"><a href="conn_8c.html#ac22c90477f7d4e5f8e96e3d536b58afb">idle_alarm</a></div><div class="ttdeci">static void idle_alarm(struct ev_loop *const l, ev_timer *const w, int e)</div><div class="ttdef"><b>Definition:</b> conn.c:1370</div></div>
 <div class="ttc" id="conn_8h_html_a90115a99b400e667c2ea225b0942ebcf"><div class="ttname"><a href="conn_8h.html#a90115a99b400e667c2ea225b0942ebcf">kh_cid_cmp</a></div><div class="ttdeci">static int kh_cid_cmp(const struct cid *const a, const struct cid *const b)</div><div class="ttdef"><b>Definition:</b> conn.h:80</div></div>
-<div class="ttc" id="conn_8h_html_a1c73802c8005ac4f60cf1c0003972d56"><div class="ttname"><a href="conn_8h.html#a1c73802c8005ac4f60cf1c0003972d56">free_dcid</a></div><div class="ttdeci">void free_dcid(struct q_conn *const c, struct cid *const id)</div><div class="ttdef"><b>Definition:</b> conn.c:1569</div></div>
+<div class="ttc" id="conn_8h_html_a1c73802c8005ac4f60cf1c0003972d56"><div class="ttname"><a href="conn_8h.html#a1c73802c8005ac4f60cf1c0003972d56">free_dcid</a></div><div class="ttdeci">void free_dcid(struct q_conn *const c, struct cid *const id)</div><div class="ttdef"><b>Definition:</b> conn.c:1572</div></div>
 <div class="ttc" id="tree_8h_html_a577ab0c7c03e7caae9b2c4b828027ecb"><div class="ttname"><a href="tree_8h.html#a577ab0c7c03e7caae9b2c4b828027ecb">splay_entry</a></div><div class="ttdeci">#define splay_entry(type)</div><div class="ttdef"><b>Definition:</b> tree.h:105</div></div>
 <div class="ttc" id="structtransport__params_html_a1e971701bc5477fc75408d11416d702b"><div class="ttname"><a href="structtransport__params.html#a1e971701bc5477fc75408d11416d702b">transport_params::max_ack_del</a></div><div class="ttdeci">uint64_t max_ack_del</div><div class="ttdef"><b>Definition:</b> conn.h:126</div></div>
 <div class="ttc" id="conn_8h_html_ade2abf64e3b30fc0b5e1b95735ab6677"><div class="ttname"><a href="conn_8h.html#ade2abf64e3b30fc0b5e1b95735ab6677">cid2str</a></div><div class="ttdeci">#define cid2str(i)</div><div class="ttdef"><b>Definition:</b> conn.h:51</div></div>
 <div class="ttc" id="structpn__hshk__space_html"><div class="ttname"><a href="structpn__hshk__space.html">pn_hshk_space</a></div><div class="ttdef"><b>Definition:</b> pn.h:70</div></div>
 <div class="ttc" id="structtransport__params_html"><div class="ttname"><a href="structtransport__params.html">transport_params</a></div><div class="ttdef"><b>Definition:</b> conn.h:118</div></div>
-<div class="ttc" id="conn_8h_html_ae5beee50c7414b14d1efb1e3e8ebe1ee"><div class="ttname"><a href="conn_8h.html#ae5beee50c7414b14d1efb1e3e8ebe1ee">add_dcid</a></div><div class="ttdeci">void add_dcid(struct q_conn *const c, const struct cid *const id)</div><div class="ttdef"><b>Definition:</b> conn.c:594</div></div>
+<div class="ttc" id="conn_8h_html_ae5beee50c7414b14d1efb1e3e8ebe1ee"><div class="ttname"><a href="conn_8h.html#ae5beee50c7414b14d1efb1e3e8ebe1ee">add_dcid</a></div><div class="ttdeci">void add_dcid(struct q_conn *const c, const struct cid *const id)</div><div class="ttdef"><b>Definition:</b> conn.c:593</div></div>
 <div class="ttc" id="structtransport__params_html_a5719da04011349b3cdde407995caff03"><div class="ttname"><a href="structtransport__params.html#a5719da04011349b3cdde407995caff03">transport_params::max_data</a></div><div class="ttdeci">uint64_t max_data</div><div class="ttdef"><b>Definition:</b> conn.h:122</div></div>
-<div class="ttc" id="conn_8h_html_afd38904c68cab87424e6aa8db723fd38"><div class="ttname"><a href="conn_8h.html#afd38904c68cab87424e6aa8db723fd38">enter_closing</a></div><div class="ttdeci">void enter_closing(struct q_conn *const c)</div><div class="ttdef"><b>Definition:</b> conn.c:1324</div></div>
+<div class="ttc" id="conn_8h_html_afd38904c68cab87424e6aa8db723fd38"><div class="ttname"><a href="conn_8h.html#afd38904c68cab87424e6aa8db723fd38">enter_closing</a></div><div class="ttdeci">void enter_closing(struct q_conn *const c)</div><div class="ttdef"><b>Definition:</b> conn.c:1327</div></div>
 <div class="ttc" id="conn_8h_html_ac613aa6cd184e9b2bab8496502275125"><div class="ttname"><a href="conn_8h.html#ac613aa6cd184e9b2bab8496502275125">conn_state_t</a></div><div class="ttdeci">conn_state_t</div><div class="ttdoc">Define connection states. </div><div class="ttdef"><b>Definition:</b> conn.h:149</div></div>
 <div class="ttc" id="structtransport__params_html_a1ef8341121e76946446e36f1f7a8c818"><div class="ttname"><a href="structtransport__params.html#a1ef8341121e76946446e36f1f7a8c818">transport_params::max_strm_data_bidi_remote</a></div><div class="ttdeci">uint64_t max_strm_data_bidi_remote</div><div class="ttdef"><b>Definition:</b> conn.h:121</div></div>
-<div class="ttc" id="conn_8h_html_a3037cafb7df5c92ea54b7e6646a692e7"><div class="ttname"><a href="conn_8h.html#a3037cafb7df5c92ea54b7e6646a692e7">has_wnd</a></div><div class="ttdeci">static bool has_wnd(const struct q_conn *const c, const uint16_t len)</div><div class="ttdef"><b>Definition:</b> conn.h:444</div></div>
-<div class="ttc" id="conn_8h_html_aa16d30297b5b1ceed9c3fef11b6a5026"><div class="ttname"><a href="conn_8h.html#aa16d30297b5b1ceed9c3fef11b6a5026">add_scid</a></div><div class="ttdeci">void add_scid(struct q_conn *const c, struct cid *const id)</div><div class="ttdef"><b>Definition:</b> conn.c:574</div></div>
+<div class="ttc" id="conn_8h_html_a3037cafb7df5c92ea54b7e6646a692e7"><div class="ttname"><a href="conn_8h.html#a3037cafb7df5c92ea54b7e6646a692e7">has_wnd</a></div><div class="ttdeci">static bool has_wnd(const struct q_conn *const c, const uint16_t len)</div><div class="ttdef"><b>Definition:</b> conn.h:445</div></div>
+<div class="ttc" id="conn_8h_html_aa16d30297b5b1ceed9c3fef11b6a5026"><div class="ttname"><a href="conn_8h.html#aa16d30297b5b1ceed9c3fef11b6a5026">add_scid</a></div><div class="ttdeci">void add_scid(struct q_conn *const c, struct cid *const id)</div><div class="ttdef"><b>Definition:</b> conn.c:573</div></div>
 <div class="ttc" id="structq__stream_html"><div class="ttname"><a href="structq__stream.html">q_stream</a></div><div class="ttdef"><b>Definition:</b> stream.h:62</div></div>
 <div class="ttc" id="conn_8h_html_a8d157b98299732e6bf0d5185439ae372"><div class="ttname"><a href="conn_8h.html#a8d157b98299732e6bf0d5185439ae372">get_conn_by_srt</a></div><div class="ttdeci">struct q_conn * get_conn_by_srt(uint8_t *const srt)</div><div class="ttdef"><b>Definition:</b> conn.c:172</div></div>
 <div class="ttc" id="conn_8h_html_a3f567945c3f8d5d518f5463ec30776d0"><div class="ttname"><a href="conn_8h.html#a3f567945c3f8d5d518f5463ec30776d0">CONN_STATES</a></div><div class="ttdeci">#define CONN_STATES</div><div class="ttdef"><b>Definition:</b> conn.h:140</div></div>
@@ -613,18 +614,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="recovery_8h_html"><div class="ttname"><a href="recovery_8h.html">recovery.h</a></div></div>
 <div class="ttc" id="tls_8h_html_aaca089f79f64e61453953e09fd226e46a69c3dbe76abca12db48170aec4973a18"><div class="ttname"><a href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a69c3dbe76abca12db48170aec4973a18">ep_hshk</a></div><div class="ttdef"><b>Definition:</b> tls.h:52</div></div>
 <div class="ttc" id="structtransport__params_html_a718d891ebb11747196b551db259b7e7f"><div class="ttname"><a href="structtransport__params.html#a718d891ebb11747196b551db259b7e7f">transport_params::max_strm_data_bidi_local</a></div><div class="ttdeci">uint64_t max_strm_data_bidi_local</div><div class="ttdef"><b>Definition:</b> conn.h:120</div></div>
-<div class="ttc" id="conn_8h_html_ae7ad1167799a2920119487df92e81b85"><div class="ttname"><a href="conn_8h.html#ae7ad1167799a2920119487df92e81b85">tx_w</a></div><div class="ttdeci">void tx_w(struct ev_loop *const l, ev_async *const w, int e)</div><div class="ttdef"><b>Definition:</b> conn.c:509</div></div>
-<div class="ttc" id="conn_8h_html_a02d7b0c5a072e1b673358b52ac71f160"><div class="ttname"><a href="conn_8h.html#a02d7b0c5a072e1b673358b52ac71f160">err_close</a></div><div class="ttdeci">void err_close(struct q_conn *const c, const uint16_t code, const uint8_t frm, const char *const fmt,...)</div><div class="ttdef"><b>Definition:</b> conn.c:1264</div></div>
-<div class="ttc" id="conn_8h_html_a07cb3f3bb2c38f820f0a7fd74de25d6d"><div class="ttname"><a href="conn_8h.html#a07cb3f3bb2c38f820f0a7fd74de25d6d">is_inf</a></div><div class="ttdeci">static bool is_inf(const ev_tstamp t)</div><div class="ttdef"><b>Definition:</b> conn.h:423</div></div>
+<div class="ttc" id="conn_8h_html_ae7ad1167799a2920119487df92e81b85"><div class="ttname"><a href="conn_8h.html#ae7ad1167799a2920119487df92e81b85">tx_w</a></div><div class="ttdeci">void tx_w(struct ev_loop *const l, ev_async *const w, int e)</div><div class="ttdef"><b>Definition:</b> conn.c:508</div></div>
+<div class="ttc" id="conn_8h_html_a02d7b0c5a072e1b673358b52ac71f160"><div class="ttname"><a href="conn_8h.html#a02d7b0c5a072e1b673358b52ac71f160">err_close</a></div><div class="ttdeci">void err_close(struct q_conn *const c, const uint16_t code, const uint8_t frm, const char *const fmt,...)</div><div class="ttdef"><b>Definition:</b> conn.c:1267</div></div>
+<div class="ttc" id="conn_8h_html_a07cb3f3bb2c38f820f0a7fd74de25d6d"><div class="ttname"><a href="conn_8h.html#a07cb3f3bb2c38f820f0a7fd74de25d6d">is_inf</a></div><div class="ttdeci">static bool is_inf(const ev_tstamp t)</div><div class="ttdef"><b>Definition:</b> conn.h:424</div></div>
 <div class="ttc" id="structtransport__params_html_ada77b0a712c3a04c901ef49001f358a5"><div class="ttname"><a href="structtransport__params.html#ada77b0a712c3a04c901ef49001f358a5">transport_params::orig_cid</a></div><div class="ttdeci">struct cid orig_cid</div><div class="ttdef"><b>Definition:</b> conn.h:132</div></div>
-<div class="ttc" id="conn_8h_html_a526357c19864e7579573160573a55c33"><div class="ttname"><a href="conn_8h.html#a526357c19864e7579573160573a55c33">pn_for_epoch</a></div><div class="ttdeci">static struct pn_space * pn_for_epoch(struct q_conn *const c, const epoch_t e)</div><div class="ttdef"><b>Definition:</b> conn.h:354</div></div>
+<div class="ttc" id="conn_8h_html_a526357c19864e7579573160573a55c33"><div class="ttname"><a href="conn_8h.html#a526357c19864e7579573160573a55c33">pn_for_epoch</a></div><div class="ttdeci">static struct pn_space * pn_for_epoch(struct q_conn *const c, const epoch_t e)</div><div class="ttdef"><b>Definition:</b> conn.h:355</div></div>
 <div class="ttc" id="quic_8h_html_a55f8a6b9dc42515f0088dc692c2a1dfb"><div class="ttname"><a href="quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb">cids_by_seq_cmp</a></div><div class="ttdeci">static int cids_by_seq_cmp(const struct cid *const a, const struct cid *const b)</div><div class="ttdef"><b>Definition:</b> quic.h:72</div></div>
 <div class="ttc" id="structtransport__params_html_ae386de9dcd0300644d51ee3f657ecb32"><div class="ttname"><a href="structtransport__params.html#ae386de9dcd0300644d51ee3f657ecb32">transport_params::max_strm_data_uni</a></div><div class="ttdeci">uint64_t max_strm_data_uni</div><div class="ttdef"><b>Definition:</b> conn.h:119</div></div>
 <div class="ttc" id="structtls_html"><div class="ttname"><a href="structtls.html">tls</a></div><div class="ttdef"><b>Definition:</b> tls.h:55</div></div>
 <div class="ttc" id="conn_8h_html_a1ae0706a577e85efbcfacf517a329dbe"><div class="ttname"><a href="conn_8h.html#a1ae0706a577e85efbcfacf517a329dbe">vers_supported</a></div><div class="ttdeci">bool vers_supported(const uint32_t v)</div><div class="ttdef"><b>Definition:</b> conn.c:99</div></div>
 <div class="ttc" id="conn_8h_html_ad69eef6944d04f3ab345f5a5edb8fb6c"><div class="ttname"><a href="conn_8h.html#ad69eef6944d04f3ab345f5a5edb8fb6c">c_ready</a></div><div class="ttdeci">struct q_conn_sl c_ready</div><div class="ttdef"><b>Definition:</b> conn.c:65</div></div>
 <div class="ttc" id="structtransport__params_html_a0143101956dd5ff0b93d9fca74895a66"><div class="ttname"><a href="structtransport__params.html#a0143101956dd5ff0b93d9fca74895a66">transport_params::_unused</a></div><div class="ttdeci">uint8_t _unused[6]</div><div class="ttdef"><b>Definition:</b> conn.h:130</div></div>
-<div class="ttc" id="conn_8h_html_a661935e5f13fe656b889698521a6450f"><div class="ttname"><a href="conn_8h.html#a661935e5f13fe656b889698521a6450f">ooo_0rtt_by_cid_cmp</a></div><div class="ttdeci">static int ooo_0rtt_by_cid_cmp(const struct ooo_0rtt *const a, const struct ooo_0rtt *const b)</div><div class="ttdef"><b>Definition:</b> conn.h:384</div></div>
+<div class="ttc" id="conn_8h_html_a661935e5f13fe656b889698521a6450f"><div class="ttname"><a href="conn_8h.html#a661935e5f13fe656b889698521a6450f">ooo_0rtt_by_cid_cmp</a></div><div class="ttdeci">static int ooo_0rtt_by_cid_cmp(const struct ooo_0rtt *const a, const struct ooo_0rtt *const b)</div><div class="ttdef"><b>Definition:</b> conn.h:385</div></div>
 <div class="ttc" id="structcid_html"><div class="ttname"><a href="structcid.html">cid</a></div><div class="ttdef"><b>Definition:</b> quic.h:57</div></div>
 <div class="ttc" id="structtransport__params_html_a40bee6f6291254f7704bf8c6f0680561"><div class="ttname"><a href="structtransport__params.html#a40bee6f6291254f7704bf8c6f0680561">transport_params::disable_migration</a></div><div class="ttdeci">bool disable_migration</div><div class="ttdef"><b>Definition:</b> conn.h:129</div></div>
 <div class="ttc" id="structpn__data__space_html"><div class="ttname"><a href="structpn__data__space.html">pn_data_space</a></div><div class="ttdef"><b>Definition:</b> pn.h:77</div></div>
@@ -636,7 +637,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 6 2019 08:12:48 for quant by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 6 2019 11:11:10 for quant by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

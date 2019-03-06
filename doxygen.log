@@ -308,6 +308,7 @@ Generating call graph for function log_stream_or_crypto_frame
 Generating docs for file src/marshall.c...
 Generating docs for file src/marshall.h...
 Generating docs for file src/pkt.c...
+Generating call graph for function can_enc
 Generating call graph for function clnt_vneg
 Generating call graph for function coalesce
 Generating call graph for function dec_pkt_hdr_beginning
@@ -315,7 +316,6 @@ Generating call graph for function dec_pkt_hdr_remainder
 Generating call graph for function enc_lh_cids
 Generating call graph for function enc_other_frames
 Generating call graph for function enc_pkt
-Generating call graph for function have_space_for
 Generating call graph for function is_srt
 Generating call graph for function log_pkt
 Generating call graph for function tx_vneg_resp
@@ -797,5 +797,5 @@ Patching output file 40/43
 Patching output file 41/43
 Patching output file 42/43
 Patching output file 43/43
-lookup cache used 1099/65536 hits=8748 misses=1123
+lookup cache used 1101/65536 hits=8755 misses=1125
 finished...

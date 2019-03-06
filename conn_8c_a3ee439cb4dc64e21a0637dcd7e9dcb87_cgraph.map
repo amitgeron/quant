@@ -46,6 +46,6 @@
 <area shape="rect" id="node36" href="$diet_8h.html#ae43baefa854ce76ff4531404e68f2711" title="diet_max_ival" alt="" coords="522,563,625,589"/>
 <area shape="rect" id="node37" href="$diet_8h.html#af0ddae2a11095bcdabe422dfc44f910a" title="diet_timestamp" alt="" coords="518,613,629,640"/>
 <area shape="rect" id="node38" href="$frame_8c.html#a9b15ab0efd897a14308a87e7dc863b90" title="shorten_ack_nr" alt="" coords="518,512,629,539"/>
-<area shape="rect" id="node41" href="$pkt_8c.html#a2971ac1a1c667293ba2407d9a0050e99" title="have_space_for" alt="" coords="516,715,631,741"/>
+<area shape="rect" id="node41" href="$pkt_8c.html#ac09a7156687198926d901076db1fc336" title="can_enc" alt="" coords="538,715,609,741"/>
 <area shape="rect" id="node42" href="$frame_8c.html#a722b21098f9985a27188e9fae848aced" title="enc_new_token_frame" alt="" coords="497,664,650,691"/>
 </map>

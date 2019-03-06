@@ -34,7 +34,7 @@
 <area shape="rect" id="node23" href="$diet_8h.html#ae43baefa854ce76ff4531404e68f2711" title="diet_max_ival" alt="" coords="605,356,707,382"/>
 <area shape="rect" id="node24" href="$diet_8h.html#af0ddae2a11095bcdabe422dfc44f910a" title="diet_timestamp" alt="" coords="601,254,711,281"/>
 <area shape="rect" id="node25" href="$frame_8c.html#a9b15ab0efd897a14308a87e7dc863b90" title="shorten_ack_nr" alt="" coords="601,305,711,332"/>
-<area shape="rect" id="node28" href="$pkt_8c.html#a2971ac1a1c667293ba2407d9a0050e99" title="have_space_for" alt="" coords="599,860,713,886"/>
+<area shape="rect" id="node28" href="$pkt_8c.html#ac09a7156687198926d901076db1fc336" title="can_enc" alt="" coords="621,860,691,886"/>
 <area shape="rect" id="node29" href="$frame_8c.html#a722b21098f9985a27188e9fae848aced" title="enc_new_token_frame" alt="" coords="579,910,733,937"/>
 <area shape="rect" id="node30" href="$frame_8c.html#a68280ad079aa677bf9eeb72dfe8f65d2" title="enc_path_response_frame" alt="" coords="569,961,743,988"/>
 <area shape="rect" id="node31" href="$frame_8c.html#afa20d45dcbae3ae1846c19c85a167f4e" title="enc_retire_cid_frame" alt="" coords="585,1012,727,1038"/>

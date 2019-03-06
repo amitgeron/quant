@@ -34,6 +34,7 @@ var searchData=
   ['maybe_5fapi_5freturn3',['maybe_api_return3',['../quic_8h.html#a1328432694749169c49589e1a743ba34',1,'quic.h']]],
   ['maybe_5fflip_5fkeys',['maybe_flip_keys',['../tls_8c.html#a8984aa5b25b32bb8e40aef64f3164fc0',1,'maybe_flip_keys(struct q_conn *const c, const bool out):&#160;tls.c'],['../tls_8h.html#a8984aa5b25b32bb8e40aef64f3164fc0',1,'maybe_flip_keys(struct q_conn *const c, const bool out):&#160;tls.c']]],
   ['meta',['meta',['../quic_8h.html#a01ed57991bea53afa1ece4452d16b568',1,'quic.h']]],
+  ['migr_5fpeer',['migr_peer',['../structq__conn.html#a89363123ae566d5648563939e31c6806',1,'q_conn']]],
   ['min_5fini_5flen',['MIN_INI_LEN',['../pkt_8h.html#ae05e8e856810ed8b7911d43457b16e05',1,'pkt.h']]],
   ['min_5frtt',['min_rtt',['../structrecovery.html#ad29432ca40c3f915331349f86dc4dd48',1,'recovery']]],
   ['min_5frx_5fepoch',['min_rx_epoch',['../structq__conn.html#a1e7b106e2468975cb7408cc5d1b182e4',1,'q_conn']]],
