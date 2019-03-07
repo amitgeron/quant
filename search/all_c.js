@@ -33,6 +33,7 @@ var searchData=
   ['maybe_5fapi_5freturn2',['maybe_api_return2',['../quic_8h.html#a9037399ab78625d206ddecd10c85a9ed',1,'quic.h']]],
   ['maybe_5fapi_5freturn3',['maybe_api_return3',['../quic_8h.html#a1328432694749169c49589e1a743ba34',1,'quic.h']]],
   ['maybe_5fflip_5fkeys',['maybe_flip_keys',['../tls_8c.html#a8984aa5b25b32bb8e40aef64f3164fc0',1,'maybe_flip_keys(struct q_conn *const c, const bool out):&#160;tls.c'],['../tls_8h.html#a8984aa5b25b32bb8e40aef64f3164fc0',1,'maybe_flip_keys(struct q_conn *const c, const bool out):&#160;tls.c']]],
+  ['maybe_5ftx',['maybe_tx',['../recovery_8c.html#a3e9994733ec7bbe76394f9c6a9334356',1,'recovery.c']]],
   ['meta',['meta',['../quic_8h.html#a01ed57991bea53afa1ece4452d16b568',1,'quic.h']]],
   ['migr_5fpeer',['migr_peer',['../structq__conn.html#a89363123ae566d5648563939e31c6806',1,'q_conn']]],
   ['min_5fini_5flen',['MIN_INI_LEN',['../pkt_8h.html#ae05e8e856810ed8b7911d43457b16e05',1,'pkt.h']]],

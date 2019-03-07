@@ -13,7 +13,7 @@ var searchData=
   ['tls_5fkey_5fupdate_5ffrequency',['tls_key_update_frequency',['../structq__conn__conf.html#a090a1f314cd2c86c68f7950d4cf48a85',1,'q_conn_conf']]],
   ['tls_5flog',['tls_log',['../structq__conf.html#a4297c20c4fbd37a729fac317c2edb01b',1,'q_conf']]],
   ['tls_5flog_5ffile',['tls_log_file',['../tls_8c.html#a0334391e62e54695e81b99742ea9a9f2',1,'tls.c']]],
-  ['tok',['tok',['../structq__conn.html#a513348d360094c4c5b1f7cf49531a86e',1,'q_conn']]],
+  ['tok',['tok',['../structq__conn.html#aaaa2aa1f8c6ac82682a25931bf8fcc9c',1,'q_conn']]],
   ['tok_5flen',['tok_len',['../structq__conn.html#ae2a098b26d543a1df44be487603b48cc',1,'q_conn']]],
   ['tp',['tp',['../structtls__ticket.html#aa22a685941e1be9135cfae4fbbad5529',1,'tls_ticket']]],
   ['tp_5fbuf',['tp_buf',['../structtls.html#abb765cf816efb3d6b75f9ec2db520571',1,'tls']]],

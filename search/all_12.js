@@ -52,7 +52,6 @@ var searchData=
   ['splay_5frotate_5fleft',['splay_rotate_left',['../tree_8h.html#a5f9a82b102bd24b0d80f09b834975205',1,'tree.h']]],
   ['splay_5frotate_5fright',['splay_rotate_right',['../tree_8h.html#a579dfa179fe095d74960edbc76e2cb03',1,'tree.h']]],
   ['split_5froot',['split_root',['../diet_8c.html#a129daa529cd3954dc970b4537801b939',1,'diet.c']]],
-  ['sport',['sport',['../structq__conn.html#ace8a73a49c79c13a5d91c213906c95e9',1,'q_conn']]],
   ['srt',['srt',['../structcid.html#a4445bbe90ef6a799450c1606badf557c',1,'cid']]],
   ['srt_5flen',['SRT_LEN',['../quic_8h.html#aaa19e76a63eec1141d442d58c20042ed',1,'quic.h']]],
   ['srtt',['srtt',['../structrecovery.html#abc466711a95fd985bdde9a59e7ebec6e',1,'recovery']]],

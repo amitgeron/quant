@@ -11,7 +11,6 @@ var searchData=
   ['sock',['sock',['../structq__conn.html#a36327baf8c4d695023b07a2270587e78',1,'q_conn']]],
   ['sockopt',['sockopt',['../structq__conn.html#afb333c06b0f2b605fe9c5ad22bc629cf',1,'q_conn']]],
   ['spinbit_5fenabled',['spinbit_enabled',['../structq__conn.html#a52012d749a505592eb7a919eca4404b9',1,'q_conn']]],
-  ['sport',['sport',['../structq__conn.html#ace8a73a49c79c13a5d91c213906c95e9',1,'q_conn']]],
   ['srt',['srt',['../structcid.html#a4445bbe90ef6a799450c1606badf557c',1,'cid']]],
   ['srtt',['srtt',['../structrecovery.html#abc466711a95fd985bdde9a59e7ebec6e',1,'recovery']]],
   ['ssthresh',['ssthresh',['../structrecovery.html#a2eb67fcd1408e01f084046d483f33008',1,'recovery']]],
