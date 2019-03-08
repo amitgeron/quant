@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['quant_20–_20quic_20userspace_20accelerated_20network_20transfers',['QUANT – QUIC Userspace Accelerated Network Transfers',['../index.html',1,'']]],
   ['q_5faccept',['q_accept',['../quant_8h.html#a5b452d2c7658c801b4182547d75880a4',1,'q_accept(const struct q_conn_conf *const conn_conf):&#160;quic.c'],['../quic_8c.html#a5b452d2c7658c801b4182547d75880a4',1,'q_accept(const struct q_conn_conf *const conn_conf):&#160;quic.c']]],
   ['q_5falloc',['q_alloc',['../quant_8h.html#a47bc44fba1cbaf917110bc2c6c805c81',1,'q_alloc(struct w_engine *const w, struct w_iov_sq *const q, const size_t len):&#160;quic.c'],['../quic_8c.html#a47bc44fba1cbaf917110bc2c6c805c81',1,'q_alloc(struct w_engine *const w, struct w_iov_sq *const q, const size_t len):&#160;quic.c']]],
   ['q_5fbind',['q_bind',['../quant_8h.html#ac6e72671693d868a07bf17e6dd097632',1,'q_bind(struct w_engine *const w, const uint16_t port):&#160;quic.c'],['../quic_8c.html#ac6e72671693d868a07bf17e6dd097632',1,'q_bind(struct w_engine *const w, const uint16_t port):&#160;quic.c']]],

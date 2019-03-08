@@ -1,8 +1,9 @@
 <map id="update_act_scid" name="update_act_scid">
-<area shape="rect" id="node2" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="197,5,264,32"/>
-<area shape="rect" id="node3" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="189,56,272,83"/>
-<area shape="rect" id="node4" href="$conn_8c.html#a157de1b1117fd595bca3a0d2a82184db" title="conns_by_id_del" alt="" coords="171,107,290,133"/>
-<area shape="rect" id="node5" href="$conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78" title="cids_by_id_del" alt="" coords="177,157,285,184"/>
-<area shape="rect" id="node6" href="$conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8" title="cids_by_id_ins" alt="" coords="177,208,285,235"/>
-<area shape="rect" id="node7" href="$conn_8c.html#a3970d1f884f75ab86ab622e00bf9fce7" title="conns_by_id_ins" alt="" coords="171,259,290,285"/>
+<area shape="rect" id="node2" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="209,5,278,32"/>
+<area shape="rect" id="node4" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="199,56,287,83"/>
+<area shape="rect" id="node5" href="$conn_8c.html#a157de1b1117fd595bca3a0d2a82184db" title="conns_by_id_del" alt="" coords="180,107,307,133"/>
+<area shape="rect" id="node6" href="$conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78" title="cids_by_id_del" alt="" coords="187,157,300,184"/>
+<area shape="rect" id="node7" href="$conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8" title="cids_by_id_ins" alt="" coords="187,208,299,235"/>
+<area shape="rect" id="node8" href="$conn_8c.html#a3970d1f884f75ab86ab622e00bf9fce7" title="conns_by_id_ins" alt="" coords="181,259,306,285"/>
+<area shape="rect" id="node3" href="$quic_8h.html#add58218ae6e5f0b1884990048cbe8e4b" title="sl_head" alt="" coords="355,5,425,32"/>
 </map>

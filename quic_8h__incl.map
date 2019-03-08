@@ -1,10 +1,10 @@
 <map id="src/quic.h" name="src/quic.h">
-<area shape="rect" id="node10" href="$quant_8h.html" title="quant/quant.h" alt="" coords="873,229,975,256"/>
-<area shape="rect" id="node16" href="$bitset_8h.html" title="bitset.h" alt="" coords="559,229,624,256"/>
-<area shape="rect" id="node17" href="$frame_8h.html" title="frame.h" alt="" coords="527,155,593,181"/>
-<area shape="rect" id="node18" href="$pn_8h.html" title="pn.h" alt="" coords="466,80,512,107"/>
-<area shape="rect" id="node13" href="$config_8h.html" title="quant/config.h" alt="" coords="708,304,812,331"/>
-<area shape="rect" id="node14" href="$tree_8h.html" title="quant/tree.h" alt="" coords="836,304,927,331"/>
-<area shape="rect" id="node20" href="$diet_8h.html" title="diet.h" alt="" coords="682,155,736,181"/>
-<area shape="rect" id="node21" href="$tls_8h.html" title="tls.h" alt="" coords="335,229,381,256"/>
+<area shape="rect" id="node10" href="$quant_8h.html" title="quant/quant.h" alt="" coords="888,229,1000,256"/>
+<area shape="rect" id="node16" href="$bitset_8h.html" title="bitset.h" alt="" coords="569,229,639,256"/>
+<area shape="rect" id="node17" href="$frame_8h.html" title="frame.h" alt="" coords="535,155,607,181"/>
+<area shape="rect" id="node18" href="$pn_8h.html" title="pn.h" alt="" coords="472,80,523,107"/>
+<area shape="rect" id="node13" href="$config_8h.html" title="quant/config.h" alt="" coords="726,304,839,331"/>
+<area shape="rect" id="node14" href="$tree_8h.html" title="quant/tree.h" alt="" coords="864,304,965,331"/>
+<area shape="rect" id="node20" href="$diet_8h.html" title="diet.h" alt="" coords="695,155,753,181"/>
+<area shape="rect" id="node21" href="$tls_8h.html" title="tls.h" alt="" coords="342,229,391,256"/>
 </map>

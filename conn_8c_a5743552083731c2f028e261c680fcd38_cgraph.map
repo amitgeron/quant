@@ -1,5 +1,6 @@
 <map id="log_sent_pkts" name="log_sent_pkts">
-<area shape="rect" id="node2" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="163,5,263,32"/>
-<area shape="rect" id="node3" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="158,56,269,83"/>
-<area shape="rect" id="node4" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="172,107,255,133"/>
+<area shape="rect" id="node2" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="168,5,276,32"/>
+<area shape="rect" id="node4" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="164,56,280,83"/>
+<area shape="rect" id="node5" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="178,107,266,133"/>
+<area shape="rect" id="node3" href="$quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb" title="cids_by_seq_cmp" alt="" coords="328,5,463,32"/>
 </map>

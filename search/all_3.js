@@ -18,7 +18,6 @@ var searchData=
   ['cids_5fby_5fid_5fins',['cids_by_id_ins',['../conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8',1,'conn.c']]],
   ['cids_5fby_5fseq_5fcmp',['cids_by_seq_cmp',['../quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb',1,'quic.h']]],
   ['cipher_5fctx',['cipher_ctx',['../structcipher__ctx.html',1,'']]],
-  ['cipher_5fsuite',['CIPHER_SUITE',['../tls_8c.html#a67bb64934a4420a93ed8859153c5c186',1,'tls.c']]],
   ['clnt_5fscid_5flen',['CLNT_SCID_LEN',['../quic_8h.html#a49e4c470b958fb2a5b79187292698c94',1,'quic.h']]],
   ['clnt_5fvneg',['clnt_vneg',['../pkt_8c.html#ad04b9f10bc7ad63422f56e3a4fe70e5e',1,'clnt_vneg(const uint8_t *const buf, const uint16_t len):&#160;pkt.c'],['../pkt_8h.html#ad04b9f10bc7ad63422f56e3a4fe70e5e',1,'clnt_vneg(const uint8_t *const buf, const uint16_t len):&#160;pkt.c']]],
   ['closed_5fstreams',['closed_streams',['../structq__conn.html#a9497cc2d8f046cdfd73d7a47355a4448',1,'q_conn']]],

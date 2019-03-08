@@ -2,7 +2,6 @@ var searchData=
 [
   ['c2s',['c2s',['../pkt_8c.html#a7607f623b4a5d2b165dd1105636242d9',1,'pkt.c']]],
   ['cid2str',['cid2str',['../conn_8h.html#ade2abf64e3b30fc0b5e1b95735ab6677',1,'conn.h']]],
-  ['cipher_5fsuite',['CIPHER_SUITE',['../tls_8c.html#a67bb64934a4420a93ed8859153c5c186',1,'tls.c']]],
   ['clnt_5fscid_5flen',['CLNT_SCID_LEN',['../quic_8h.html#a49e4c470b958fb2a5b79187292698c94',1,'quic.h']]],
   ['cnt_5fargs',['CNT_ARGS',['../quic_8h.html#a37dd5b73b6d28da2b1e4e6289cc2a128',1,'quic.h']]],
   ['conn_5fstate',['CONN_STATE',['../conn_8c.html#a36daba4f4585170e66aeb964bedfd0ab',1,'CONN_STATE():&#160;conn.c'],['../conn_8h.html#a36daba4f4585170e66aeb964bedfd0ab',1,'CONN_STATE():&#160;conn.h']]],

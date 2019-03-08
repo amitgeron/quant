@@ -1,16 +1,16 @@
 <map id="q_close_stream" name="q_close_stream">
-<area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="311,5,393,32"/>
-<area shape="rect" id="node3" href="$quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="178,56,249,83"/>
-<area shape="rect" id="node4" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="170,107,257,133"/>
-<area shape="rect" id="node5" href="$stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="168,157,259,184"/>
-<area shape="rect" id="node6" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="311,81,393,108"/>
-<area shape="rect" id="node11" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="307,132,397,159"/>
-<area shape="rect" id="node12" href="$quic_8h.html#ad717e4c8ce421a3a170d95b98e863b77" title="free_iov" alt="" coords="453,220,521,247"/>
-<area shape="rect" id="node15" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="323,233,381,260"/>
-<area shape="rect" id="node7" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="451,5,522,32"/>
-<area shape="rect" id="node8" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="449,56,524,83"/>
-<area shape="rect" id="node9" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="451,107,522,133"/>
-<area shape="rect" id="node10" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="446,157,527,184"/>
-<area shape="rect" id="node13" href="$pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="578,195,678,221"/>
-<area shape="rect" id="node14" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="577,245,679,272"/>
+<area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="329,5,417,32"/>
+<area shape="rect" id="node3" href="$quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="189,56,263,83"/>
+<area shape="rect" id="node4" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="179,107,273,133"/>
+<area shape="rect" id="node5" href="$stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="176,157,276,184"/>
+<area shape="rect" id="node6" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="329,81,418,108"/>
+<area shape="rect" id="node11" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="324,132,423,159"/>
+<area shape="rect" id="node12" href="$quic_8h.html#ad717e4c8ce421a3a170d95b98e863b77" title="free_iov" alt="" coords="478,220,550,247"/>
+<area shape="rect" id="node15" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="342,233,405,260"/>
+<area shape="rect" id="node7" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="476,5,552,32"/>
+<area shape="rect" id="node8" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="474,56,554,83"/>
+<area shape="rect" id="node9" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="476,107,552,133"/>
+<area shape="rect" id="node10" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="471,157,557,184"/>
+<area shape="rect" id="node13" href="$pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="607,195,714,221"/>
+<area shape="rect" id="node14" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="605,245,716,272"/>
 </map>

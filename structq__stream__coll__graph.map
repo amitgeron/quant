@@ -1,12 +1,12 @@
 <map id="q_stream" name="q_stream">
-<area shape="rect" id="node2" href="$structq__conn.html" title="A QUIC connection. " alt="" coords="201,320,265,347"/>
-<area shape="rect" id="node7" href="$structpn__space.html" title="pn_space" alt="" coords="194,411,272,437"/>
-<area shape="rect" id="node3" href="$structtransport__params.html" title="transport_params" alt="" coords="105,216,228,243"/>
-<area shape="rect" id="node4" href="$structcid.html" title="cid" alt="" coords="170,5,208,32"/>
-<area shape="rect" id="node5" href="$structpref__addr.html" title="pref_addr" alt="" coords="151,96,227,123"/>
-<area shape="rect" id="node6" href="$structpn__data__space.html" title="pn_data_space" alt="" coords="142,544,252,571"/>
-<area shape="rect" id="node10" href="$structpn__hshk__space.html" title="pn_hshk_space" alt="" coords="319,544,432,571"/>
-<area shape="rect" id="node8" href="$structcipher__ctx.html" title="cipher_ctx" alt="" coords="297,411,379,437"/>
-<area shape="rect" id="node9" href="$structtls.html" title="tls" alt="" coords="303,216,341,243"/>
-<area shape="rect" id="node11" href="$structrecovery.html" title="recovery" alt="" coords="367,216,439,243"/>
+<area shape="rect" id="node2" href="$structq__conn.html" title="A QUIC connection. " alt="" coords="221,317,289,344"/>
+<area shape="rect" id="node7" href="$structpn__space.html" title="pn_space" alt="" coords="213,407,296,433"/>
+<area shape="rect" id="node3" href="$structtransport__params.html" title="transport_params" alt="" coords="113,213,250,240"/>
+<area shape="rect" id="node4" href="$structcid.html" title="cid" alt="" coords="189,5,229,32"/>
+<area shape="rect" id="node5" href="$structpref__addr.html" title="pref_addr" alt="" coords="168,95,251,121"/>
+<area shape="rect" id="node6" href="$structpn__data__space.html" title="pn_data_space" alt="" coords="154,540,273,567"/>
+<area shape="rect" id="node10" href="$structpn__hshk__space.html" title="pn_hshk_space" alt="" coords="344,540,464,567"/>
+<area shape="rect" id="node8" href="$structcipher__ctx.html" title="cipher_ctx" alt="" coords="321,407,407,433"/>
+<area shape="rect" id="node9" href="$structtls.html" title="tls" alt="" coords="326,213,365,240"/>
+<area shape="rect" id="node11" href="$structrecovery.html" title="recovery" alt="" coords="388,213,465,240"/>
 </map>

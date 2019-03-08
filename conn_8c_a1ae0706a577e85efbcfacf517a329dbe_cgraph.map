@@ -1,4 +1,4 @@
 <map id="vers_supported" name="vers_supported">
-<area shape="rect" id="node2" href="$conn_8h.html#a3b1788e29ec153bfcb2b7edc34c488a6" title="is_force_vneg_vers" alt="" coords="166,5,301,32"/>
-<area shape="rect" id="node3" href="$conn_8h.html#a76639ec987a700f45570a287b25025ea" title="is_rsvd_vers" alt="" coords="185,56,281,83"/>
+<area shape="rect" id="node2" href="$conn_8h.html#a3b1788e29ec153bfcb2b7edc34c488a6" title="is_force_vneg_vers" alt="" coords="175,5,317,32"/>
+<area shape="rect" id="node3" href="$conn_8h.html#a76639ec987a700f45570a287b25025ea" title="is_rsvd_vers" alt="" coords="196,56,296,83"/>
 </map>

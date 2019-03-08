@@ -1,5 +1,5 @@
 <map id="enter_closing" name="enter_closing">
-<area shape="rect" id="node2" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="168,5,232,32"/>
-<area shape="rect" id="node3" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="152,56,248,83"/>
-<area shape="rect" id="node4" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="159,107,241,133"/>
+<area shape="rect" id="node2" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="179,5,245,32"/>
+<area shape="rect" id="node3" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="160,56,264,83"/>
+<area shape="rect" id="node4" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="168,107,256,133"/>
 </map>

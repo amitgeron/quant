@@ -1,6 +1,6 @@
 <map id="free_pn" name="free_pn">
-<area shape="rect" id="node2" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="121,5,231,32"/>
-<area shape="rect" id="node3" href="$quic_8h.html#ad717e4c8ce421a3a170d95b98e863b77" title="free_iov" alt="" coords="142,56,210,83"/>
-<area shape="rect" id="node4" href="$pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="282,31,382,57"/>
-<area shape="rect" id="node5" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="281,81,383,108"/>
+<area shape="rect" id="node2" href="$quic_8h.html#ad717e4c8ce421a3a170d95b98e863b77" title="free_iov" alt="" coords="127,31,199,57"/>
+<area shape="rect" id="node5" href="$diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="Free the diet tree d and all its intervals. " alt="" coords="124,81,203,108"/>
+<area shape="rect" id="node3" href="$pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="253,5,359,32"/>
+<area shape="rect" id="node4" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="251,56,361,83"/>
 </map>

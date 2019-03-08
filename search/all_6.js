@@ -51,5 +51,5 @@ var searchData=
   ['frm_5fstr',['FRM_STR',['../frame_8h.html#a53b4055f2c21d45d53978869194ba1c6',1,'frame.h']]],
   ['frm_5fstr_5fmax',['FRM_STR_MAX',['../frame_8h.html#af9b45e92067ab68ac1044b8e05002831',1,'frame.h']]],
   ['frm_5ftok',['FRM_TOK',['../frame_8h.html#a7341800469b07bd08890b61819c80a16',1,'frame.h']]],
-  ['func_5fptr',['func_ptr',['../quic_8h.html#aaf4e8117a58ef7278393d801e5d78c46',1,'quic.h']]]
+  ['func_5fptr',['func_ptr',['../quic_8h.html#a3c06233410074f1dbb8b3eebef3a7847',1,'quic.h']]]
 ];

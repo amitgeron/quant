@@ -1,10 +1,10 @@
 <map id="tls_io" name="tls_io">
-<area shape="rect" id="node2" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="107,5,197,32"/>
-<area shape="rect" id="node3" href="$conn_8c.html#a02d7b0c5a072e1b673358b52ac71f160" title="err_close" alt="" coords="115,56,189,83"/>
-<area shape="rect" id="node8" href="$quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="117,107,187,133"/>
-<area shape="rect" id="node9" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="109,157,195,184"/>
-<area shape="rect" id="node4" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="245,56,344,83"/>
-<area shape="rect" id="node5" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="408,5,472,32"/>
-<area shape="rect" id="node6" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="392,56,488,83"/>
-<area shape="rect" id="node7" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="399,107,481,133"/>
+<area shape="rect" id="node2" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="108,5,207,32"/>
+<area shape="rect" id="node3" href="$conn_8c.html#a02d7b0c5a072e1b673358b52ac71f160" title="err_close" alt="" coords="117,56,197,83"/>
+<area shape="rect" id="node8" href="$quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="120,107,195,133"/>
+<area shape="rect" id="node9" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="111,157,204,184"/>
+<area shape="rect" id="node4" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="255,56,361,83"/>
+<area shape="rect" id="node5" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="428,5,495,32"/>
+<area shape="rect" id="node6" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="409,56,513,83"/>
+<area shape="rect" id="node7" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="417,107,505,133"/>
 </map>

@@ -1,10 +1,11 @@
 <map id="on_pkt_sent" name="on_pkt_sent">
-<area shape="rect" id="node2" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="153,5,253,32"/>
-<area shape="rect" id="node3" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="157,56,248,83"/>
-<area shape="rect" id="node4" href="$pn_8c.html#ae26e2093261e982d1e4e24d802da7482" title="pm_by_nr_ins" alt="" coords="151,107,254,133"/>
-<area shape="rect" id="node5" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="147,157,258,184"/>
-<area shape="rect" id="node6" href="$recovery_8c.html#ae36a89ee82fe65d07b6707ac13e9071e" title="set_ld_timer" alt="" coords="156,208,249,235"/>
-<area shape="rect" id="node7" href="$recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9" title="crypto_pkts_in_flight" alt="" coords="307,183,450,209"/>
-<area shape="rect" id="node9" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="347,233,411,260"/>
-<area shape="rect" id="node8" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="499,183,613,209"/>
+<area shape="rect" id="node2" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="157,5,265,32"/>
+<area shape="rect" id="node4" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="162,56,261,83"/>
+<area shape="rect" id="node5" href="$pn_8c.html#ae26e2093261e982d1e4e24d802da7482" title="pm_by_nr_ins" alt="" coords="156,107,267,133"/>
+<area shape="rect" id="node6" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="153,157,269,184"/>
+<area shape="rect" id="node7" href="$recovery_8c.html#ae36a89ee82fe65d07b6707ac13e9071e" title="set_ld_timer" alt="" coords="161,208,262,235"/>
+<area shape="rect" id="node3" href="$quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb" title="cids_by_seq_cmp" alt="" coords="326,5,461,32"/>
+<area shape="rect" id="node8" href="$recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9" title="crypto_pkts_in_flight" alt="" coords="317,183,469,209"/>
+<area shape="rect" id="node10" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="360,233,427,260"/>
+<area shape="rect" id="node9" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="517,183,637,209"/>
 </map>

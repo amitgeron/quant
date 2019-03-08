@@ -1,5 +1,5 @@
 <map id="diet_remove" name="diet_remove">
-<area shape="rect" id="node2" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="149,5,219,32"/>
-<area shape="rect" id="node3" href="$diet_8c.html#a129daa529cd3954dc970b4537801b939" title="Splits the root of the diet tree d, removing the interval [lo..hi] from it. " alt="" coords="147,56,221,83"/>
-<area shape="rect" id="node4" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="270,56,351,83"/>
+<area shape="rect" id="node2" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="159,5,235,32"/>
+<area shape="rect" id="node3" href="$diet_8c.html#a129daa529cd3954dc970b4537801b939" title="Splits the root of the diet tree d, removing the interval [lo..hi] from it. " alt="" coords="156,56,237,83"/>
+<area shape="rect" id="node4" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="285,56,372,83"/>
 </map>

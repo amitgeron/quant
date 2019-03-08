@@ -1,6 +1,7 @@
 <map id="add_scid" name="add_scid">
-<area shape="rect" id="node2" href="$conn_8c.html#abf07a95614d3f540d12bd3dc1bb4391f" title="get_cid_by_id" alt="" coords="137,5,239,32"/>
-<area shape="rect" id="node3" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="155,56,221,83"/>
-<area shape="rect" id="node4" href="$conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8" title="cids_by_id_ins" alt="" coords="134,107,242,133"/>
-<area shape="rect" id="node5" href="$conn_8c.html#a3970d1f884f75ab86ab622e00bf9fce7" title="conns_by_id_ins" alt="" coords="129,157,247,184"/>
+<area shape="rect" id="node2" href="$conn_8c.html#abf07a95614d3f540d12bd3dc1bb4391f" title="get_cid_by_id" alt="" coords="141,5,249,32"/>
+<area shape="rect" id="node3" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="160,56,229,83"/>
+<area shape="rect" id="node5" href="$conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8" title="cids_by_id_ins" alt="" coords="139,107,251,133"/>
+<area shape="rect" id="node6" href="$conn_8c.html#a3970d1f884f75ab86ab622e00bf9fce7" title="conns_by_id_ins" alt="" coords="132,157,257,184"/>
+<area shape="rect" id="node4" href="$quic_8h.html#add58218ae6e5f0b1884990048cbe8e4b" title="sl_head" alt="" coords="305,56,376,83"/>
 </map>

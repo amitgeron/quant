@@ -1,5 +1,5 @@
 <map id="maybe_flip_keys" name="maybe_flip_keys">
-<area shape="rect" id="node2" href="$tls_8c.html#a4faeebf5e3d33bfea46325d8fa7343d6" title="flip_keys" alt="" coords="173,5,248,32"/>
-<area shape="rect" id="node3" href="$tls_8c.html#ab26c763c76c9b874d651bdba836fc13f" title="setup_initial_key" alt="" coords="297,5,415,32"/>
-<area shape="rect" id="node4" href="$tls_8c.html#af5ebb2a5b8cab6a40a18677a5ea562fb" title="setup_cipher" alt="" coords="464,5,560,32"/>
+<area shape="rect" id="node2" href="$tls_8c.html#a4faeebf5e3d33bfea46325d8fa7343d6" title="flip_keys" alt="" coords="180,5,256,32"/>
+<area shape="rect" id="node3" href="$tls_8c.html#ab26c763c76c9b874d651bdba836fc13f" title="setup_initial_key" alt="" coords="304,5,431,32"/>
+<area shape="rect" id="node4" href="$tls_8c.html#af5ebb2a5b8cab6a40a18677a5ea562fb" title="setup_cipher" alt="" coords="479,5,583,32"/>
 </map>

@@ -7,6 +7,7 @@ var searchData=
   ['seq',['seq',['../structcid.html#a937edeb01e868ef76539126dd41b322f',1,'cid']]],
   ['sid_5fblocked_5fbidi',['sid_blocked_bidi',['../structq__conn.html#ad2d9166cd89d61554c44e10814d2d785',1,'q_conn']]],
   ['sid_5fblocked_5funi',['sid_blocked_uni',['../structq__conn.html#a1da87e5344fe3311f19c93b9406fc6bd',1,'q_conn']]],
+  ['sign_5fcert',['sign_cert',['../tls_8c.html#a60b977c02c5688eebf1dd580a05f53f2',1,'tls.c']]],
   ['sni',['sni',['../structtls__ticket.html#a9581a894f08fb8b93e139a9fe38a298d',1,'tls_ticket']]],
   ['sock',['sock',['../structq__conn.html#a36327baf8c4d695023b07a2270587e78',1,'q_conn']]],
   ['sockopt',['sockopt',['../structq__conn.html#afb333c06b0f2b605fe9c5ad22bc629cf',1,'q_conn']]],
