@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['rand_5fbytes',['rand_bytes',['../tls_8h.html#af88d67fbb8ca1ed1bfc28b5fdc467827',1,'tls.h']]],
   ['read_5ftickets',['read_tickets',['../tls_8c.html#a65f1490238853f0e913186fd5c3311c7',1,'tls.c']]],
   ['readme_2emd',['README.md',['../README_8md.html',1,'']]],
   ['rec',['rec',['../structq__conn.html#a5e9b1a6f4e05906f6b75ade3dcec715b',1,'q_conn']]],
