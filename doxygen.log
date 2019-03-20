@@ -190,7 +190,6 @@ Generating call graph for function conns_by_ipnp_ins
 Generating call graph for function conns_by_ipnp_update
 Generating call graph for function do_conn_mgmt
 Generating call graph for function do_tx
-Generating call graph for function enter_closed
 Generating call graph for function enter_closing
 Generating call graph for function err_close
 Generating call graph for function free_conn
@@ -310,6 +309,7 @@ Generating call graph for function free_pn
 Generating call graph for function needs_ack
 Generating call graph for function reset_pn
 Generating docs for file src/quic.c...
+Generating call graph for function cancel_api_call
 Generating call graph for function q_accept
 Generating call graph for function q_alloc
 Generating call graph for function q_bind
@@ -774,5 +774,5 @@ Patching output file 38/41
 Patching output file 39/41
 Patching output file 40/41
 Patching output file 41/41
-lookup cache used 1224/65536 hits=10199 misses=1248
+lookup cache used 1224/65536 hits=10209 misses=1248
 finished...
