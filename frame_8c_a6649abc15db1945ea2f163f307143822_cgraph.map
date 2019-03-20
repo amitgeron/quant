@@ -1,42 +1,40 @@
 <map id="dec_reset_stream_frame" name="dec_reset_stream_frame">
-<area shape="rect" id="node2" href="$frame_8c.html#a6baba32f3dc20fd7af6599506d531762" title="get_and_validate_strm" alt="" coords="236,360,404,387"/>
-<area shape="rect" id="node3" href="$conn_8c.html#a02d7b0c5a072e1b673358b52ac71f160" title="err_close" alt="" coords="462,171,542,197"/>
-<area shape="rect" id="node10" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="1536,208,1624,235"/>
-<area shape="rect" id="node14" href="$stream_8c.html#a7308501df4d06bbfd14665ae88caae02" title="get_stream" alt="" coords="454,537,550,564"/>
-<area shape="rect" id="node15" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="1542,360,1618,387"/>
-<area shape="rect" id="node16" href="$stream_8c.html#a300bcafbad60488eb0b6b0560eb1b645" title="new_stream" alt="" coords="452,487,552,513"/>
-<area shape="rect" id="node4" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="622,81,729,108"/>
-<area shape="rect" id="node5" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="820,5,887,32"/>
-<area shape="rect" id="node6" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="801,107,905,133"/>
-<area shape="rect" id="node7" href="$quant_8h.html#a5b452d2c7658c801b4182547d75880a4" title="q_accept" alt="" coords="983,107,1063,133"/>
-<area shape="rect" id="node13" href="$quant_8h.html#a84a768c49cd352e1c8a109bda56ef3a6" title="q_rx_ready" alt="" coords="977,157,1069,184"/>
-<area shape="rect" id="node8" href="$quic_8c.html#afd98d880d46aa717596439adb85fcafc" title="cancel_api_call" alt="" coords="1154,157,1271,184"/>
-<area shape="rect" id="node11" href="$conn_8c.html#a8b3f561241f82fe8b840ed7655d13ffe" title="update_conn_conf" alt="" coords="1511,81,1649,108"/>
-<area shape="rect" id="node9" href="$quic_8c.html#a5b452d2c7658c801b4182547d75880a4" title="q_accept" alt="" coords="1359,157,1439,184"/>
-<area shape="rect" id="node12" href="$quic_8c.html#a84a768c49cd352e1c8a109bda56ef3a6" title="q_rx_ready" alt="" coords="1353,208,1445,235"/>
-<area shape="rect" id="node17" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="1350,613,1449,640"/>
-<area shape="rect" id="node18" href="$stream_8c.html#a2853c95f04e70a8c7e836f881eedff8d" title="apply_stream_limits" alt="" coords="600,841,751,868"/>
-<area shape="rect" id="node24" href="$stream_8c.html#a848f253b1d052daeb064af9827ae2b31" title="do_stream_id_fc" alt="" coords="1336,1069,1463,1096"/>
-<area shape="rect" id="node19" href="$stream_8c.html#a222da12d0111c9dee46a6cfc676be209" title="do_stream_fc" alt="" coords="799,841,908,868"/>
-<area shape="rect" id="node20" href="$stream_8h.html#abcbe2c551d0f4dd754184376bb6cce35" title="need_ctrl_update" alt="" coords="956,765,1089,792"/>
-<area shape="rect" id="node21" href="$stream_8h.html#a55033bb39f92f9963b52dd6d552ec723" title="needs_ctrl" alt="" coords="1169,537,1257,564"/>
-<area shape="rect" id="node22" href="$stream_8h.html#a7308501df4d06bbfd14665ae88caae02" title="get_stream" alt="" coords="1165,588,1261,615"/>
-<area shape="rect" id="node23" href="$stream_8h.html#a300bcafbad60488eb0b6b0560eb1b645" title="new_stream" alt="" coords="1163,1044,1263,1071"/>
-<area shape="rect" id="node25" href="$stream_8h.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="1163,436,1263,463"/>
-<area shape="rect" id="node34" href="$stream_8h.html#a551a7c19bf90417d819623804da6949f" title="track_bytes_in" alt="" coords="1155,639,1270,665"/>
-<area shape="rect" id="node35" href="$stream_8h.html#a0c28462a470893c1046d7a167037d926" title="track_bytes_out" alt="" coords="1151,689,1275,716"/>
-<area shape="rect" id="node36" href="$stream_8h.html#a23976e8cd7c5aecf8e137324fce993d0" title="reset_stream" alt="" coords="1159,943,1267,969"/>
-<area shape="rect" id="node37" href="$stream_8h.html#a2853c95f04e70a8c7e836f881eedff8d" title="apply_stream_limits" alt="" coords="1137,993,1288,1020"/>
-<area shape="rect" id="node38" href="$stream_8h.html#a222da12d0111c9dee46a6cfc676be209" title="do_stream_fc" alt="" coords="1158,740,1267,767"/>
-<area shape="rect" id="node39" href="$stream_8h.html#a848f253b1d052daeb064af9827ae2b31" title="do_stream_id_fc" alt="" coords="1149,791,1276,817"/>
-<area shape="rect" id="node40" href="$stream_8h.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="1166,841,1259,868"/>
-<area shape="rect" id="node41" href="$stream_8h.html#a38e0dc3cbebe5699ec573ab242b6f505" title="max_sid" alt="" coords="1175,892,1250,919"/>
-<area shape="rect" id="node26" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="1355,461,1444,488"/>
-<area shape="rect" id="node30" href="$quic_8h.html#ad717e4c8ce421a3a170d95b98e863b77" title="free_iov" alt="" coords="1544,563,1616,589"/>
-<area shape="rect" id="node33" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="1368,563,1431,589"/>
-<area shape="rect" id="node27" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="1540,411,1620,437"/>
-<area shape="rect" id="node28" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="1542,461,1618,488"/>
-<area shape="rect" id="node29" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="1537,512,1623,539"/>
-<area shape="rect" id="node31" href="$pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="1699,537,1806,564"/>
-<area shape="rect" id="node32" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="1697,588,1808,615"/>
+<area shape="rect" id="node2" href="$frame_8c.html#a6baba32f3dc20fd7af6599506d531762" title="get_and_validate_strm" alt="" coords="236,208,404,235"/>
+<area shape="rect" id="node3" href="$conn_8c.html#a02d7b0c5a072e1b673358b52ac71f160" title="err_close" alt="" coords="462,95,542,121"/>
+<area shape="rect" id="node9" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="1361,107,1449,133"/>
+<area shape="rect" id="node12" href="$stream_8c.html#a7308501df4d06bbfd14665ae88caae02" title="get_stream" alt="" coords="454,309,550,336"/>
+<area shape="rect" id="node13" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="1528,348,1604,375"/>
+<area shape="rect" id="node14" href="$stream_8c.html#a300bcafbad60488eb0b6b0560eb1b645" title="new_stream" alt="" coords="452,259,552,285"/>
+<area shape="rect" id="node4" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="800,63,907,89"/>
+<area shape="rect" id="node5" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="989,5,1056,32"/>
+<area shape="rect" id="node6" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="971,56,1075,83"/>
+<area shape="rect" id="node7" href="$quant_8h.html#a5b452d2c7658c801b4182547d75880a4" title="q_accept" alt="" coords="1173,5,1253,32"/>
+<area shape="rect" id="node11" href="$quant_8h.html#a84a768c49cd352e1c8a109bda56ef3a6" title="q_rx_ready" alt="" coords="1167,56,1259,83"/>
+<area shape="rect" id="node8" href="$quic_8c.html#afd98d880d46aa717596439adb85fcafc" title="cancel_api_call" alt="" coords="1347,56,1464,83"/>
+<area shape="rect" id="node10" href="$conn_8c.html#a8b3f561241f82fe8b840ed7655d13ffe" title="update_conn_conf" alt="" coords="1336,5,1475,32"/>
+<area shape="rect" id="node15" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="1356,537,1455,564"/>
+<area shape="rect" id="node16" href="$stream_8c.html#a2853c95f04e70a8c7e836f881eedff8d" title="apply_stream_limits" alt="" coords="600,436,751,463"/>
+<area shape="rect" id="node22" href="$stream_8c.html#a848f253b1d052daeb064af9827ae2b31" title="do_stream_id_fc" alt="" coords="1342,892,1469,919"/>
+<area shape="rect" id="node17" href="$stream_8c.html#a222da12d0111c9dee46a6cfc676be209" title="do_stream_fc" alt="" coords="799,436,908,463"/>
+<area shape="rect" id="node18" href="$stream_8h.html#abcbe2c551d0f4dd754184376bb6cce35" title="need_ctrl_update" alt="" coords="956,537,1089,564"/>
+<area shape="rect" id="node19" href="$stream_8h.html#a55033bb39f92f9963b52dd6d552ec723" title="needs_ctrl" alt="" coords="1169,664,1257,691"/>
+<area shape="rect" id="node20" href="$stream_8h.html#a7308501df4d06bbfd14665ae88caae02" title="get_stream" alt="" coords="1165,715,1261,741"/>
+<area shape="rect" id="node21" href="$stream_8h.html#a300bcafbad60488eb0b6b0560eb1b645" title="new_stream" alt="" coords="1163,867,1263,893"/>
+<area shape="rect" id="node23" href="$stream_8h.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="1163,613,1263,640"/>
+<area shape="rect" id="node32" href="$stream_8h.html#a551a7c19bf90417d819623804da6949f" title="track_bytes_in" alt="" coords="1155,765,1270,792"/>
+<area shape="rect" id="node33" href="$stream_8h.html#a0c28462a470893c1046d7a167037d926" title="track_bytes_out" alt="" coords="1151,360,1275,387"/>
+<area shape="rect" id="node34" href="$stream_8h.html#a23976e8cd7c5aecf8e137324fce993d0" title="reset_stream" alt="" coords="1159,816,1267,843"/>
+<area shape="rect" id="node35" href="$stream_8h.html#a2853c95f04e70a8c7e836f881eedff8d" title="apply_stream_limits" alt="" coords="1137,309,1288,336"/>
+<area shape="rect" id="node36" href="$stream_8h.html#a222da12d0111c9dee46a6cfc676be209" title="do_stream_fc" alt="" coords="1158,411,1267,437"/>
+<area shape="rect" id="node37" href="$stream_8h.html#a848f253b1d052daeb064af9827ae2b31" title="do_stream_id_fc" alt="" coords="1149,461,1276,488"/>
+<area shape="rect" id="node38" href="$stream_8h.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="1166,512,1259,539"/>
+<area shape="rect" id="node39" href="$stream_8h.html#a38e0dc3cbebe5699ec573ab242b6f505" title="max_sid" alt="" coords="1175,563,1250,589"/>
+<area shape="rect" id="node24" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="1361,588,1450,615"/>
+<area shape="rect" id="node28" href="$quic_8h.html#ad717e4c8ce421a3a170d95b98e863b77" title="free_iov" alt="" coords="1530,689,1602,716"/>
+<area shape="rect" id="node31" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="1374,689,1437,716"/>
+<area shape="rect" id="node25" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="1526,639,1606,665"/>
+<area shape="rect" id="node26" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="1528,537,1604,564"/>
+<area shape="rect" id="node27" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="1523,588,1609,615"/>
+<area shape="rect" id="node29" href="$pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="1659,664,1766,691"/>
+<area shape="rect" id="node30" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="1657,715,1768,741"/>
 </map>

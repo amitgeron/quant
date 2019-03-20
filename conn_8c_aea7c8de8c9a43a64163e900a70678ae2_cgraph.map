@@ -1,9 +1,7 @@
 <map id="enter_closed" name="enter_closed">
-<area shape="rect" id="node2" href="$quant_8h.html#a5b452d2c7658c801b4182547d75880a4" title="q_accept" alt="" coords="163,31,243,57"/>
-<area shape="rect" id="node8" href="$quant_8h.html#a84a768c49cd352e1c8a109bda56ef3a6" title="q_rx_ready" alt="" coords="157,81,249,108"/>
-<area shape="rect" id="node3" href="$quic_8c.html#afd98d880d46aa717596439adb85fcafc" title="cancel_api_call" alt="" coords="297,81,415,108"/>
-<area shape="rect" id="node5" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="628,107,716,133"/>
-<area shape="rect" id="node6" href="$conn_8c.html#a8b3f561241f82fe8b840ed7655d13ffe" title="update_conn_conf" alt="" coords="603,5,741,32"/>
-<area shape="rect" id="node4" href="$quic_8c.html#a5b452d2c7658c801b4182547d75880a4" title="q_accept" alt="" coords="469,81,549,108"/>
-<area shape="rect" id="node7" href="$quic_8c.html#a84a768c49cd352e1c8a109bda56ef3a6" title="q_rx_ready" alt="" coords="463,132,555,159"/>
+<area shape="rect" id="node2" href="$quant_8h.html#a5b452d2c7658c801b4182547d75880a4" title="q_accept" alt="" coords="163,56,243,83"/>
+<area shape="rect" id="node6" href="$quant_8h.html#a84a768c49cd352e1c8a109bda56ef3a6" title="q_rx_ready" alt="" coords="157,5,249,32"/>
+<area shape="rect" id="node3" href="$quic_8c.html#afd98d880d46aa717596439adb85fcafc" title="cancel_api_call" alt="" coords="308,56,425,83"/>
+<area shape="rect" id="node4" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="323,5,411,32"/>
+<area shape="rect" id="node5" href="$conn_8c.html#a8b3f561241f82fe8b840ed7655d13ffe" title="update_conn_conf" alt="" coords="297,107,436,133"/>
 </map>
