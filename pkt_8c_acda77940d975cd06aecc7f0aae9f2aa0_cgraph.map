@@ -43,7 +43,7 @@
 <area shape="rect" id="node38" href="$frame_8c.html#a35e96a60869ff030118503cb8a81f715" title="enc_close_frame" alt="" coords="666,461,797,488"/>
 <area shape="rect" id="node39" href="$pkt_8c.html#a835c615f20b782d4454cd6657becd9c3" title="enc_other_frames" alt="" coords="662,512,801,539"/>
 <area shape="rect" id="node40" href="$frame_8c.html#a0d8bea0a0a229b796505008855eb17f0" title="enc_padding_frame" alt="" coords="657,563,805,589"/>
-<area shape="rect" id="node41" href="$frame_8c.html#ae94d6f87955af69345cb46c9d03ad90f" title="log_stream_or_crypto\l_frame" alt="" coords="864,665,1025,706"/>
+<area shape="rect" id="node41" href="$frame_8c.html#a7190a4126cab423b277e15971104bd8f" title="log_stream_or_crypto\l_frame" alt="" coords="864,665,1025,706"/>
 <area shape="rect" id="node42" href="$frame_8c.html#a6134c4faa49bbd6fbc29589f12350400" title="enc_stream_or_crypto\l_frame" alt="" coords="649,715,814,757"/>
 <area shape="rect" id="node46" href="$quic_8h.html#ad717e4c8ce421a3a170d95b98e863b77" title="free_iov" alt="" coords="909,1389,981,1416"/>
 <area shape="rect" id="node47" href="$pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="1075,1364,1182,1391"/>

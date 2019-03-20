@@ -14,7 +14,7 @@
 <area shape="rect" id="node25" href="$frame_8c.html#a35e96a60869ff030118503cb8a81f715" title="enc_close_frame" alt="" coords="143,985,273,1012"/>
 <area shape="rect" id="node26" href="$pkt_8c.html#a835c615f20b782d4454cd6657becd9c3" title="enc_other_frames" alt="" coords="139,1284,277,1310"/>
 <area shape="rect" id="node40" href="$frame_8c.html#a0d8bea0a0a229b796505008855eb17f0" title="enc_padding_frame" alt="" coords="134,1334,282,1361"/>
-<area shape="rect" id="node41" href="$frame_8c.html#ae94d6f87955af69345cb46c9d03ad90f" title="log_stream_or_crypto\l_frame" alt="" coords="354,514,515,555"/>
+<area shape="rect" id="node41" href="$frame_8c.html#a7190a4126cab423b277e15971104bd8f" title="log_stream_or_crypto\l_frame" alt="" coords="354,514,515,555"/>
 <area shape="rect" id="node43" href="$frame_8c.html#a6134c4faa49bbd6fbc29589f12350400" title="enc_stream_or_crypto\l_frame" alt="" coords="125,444,291,486"/>
 <area shape="rect" id="node46" href="$frame_8c.html#a424f6073840f8f7a1599dd1b197dc591" title="enc_ping_frame" alt="" coords="146,1385,270,1412"/>
 <area shape="rect" id="node47" href="$tls_8c.html#ae6d4a9db5061b3f75c21480419c0489b" title="enc_aead" alt="" coords="166,270,250,297"/>

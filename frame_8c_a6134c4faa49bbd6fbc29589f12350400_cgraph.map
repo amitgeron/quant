@@ -1,7 +1,7 @@
 <map id="enc_stream_or_crypto_frame" name="enc_stream_or_crypto_frame">
 <area shape="rect" id="node2" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="1052,727,1103,753"/>
 <area shape="rect" id="node3" href="$pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="241,853,342,880"/>
-<area shape="rect" id="node38" href="$frame_8c.html#ae94d6f87955af69345cb46c9d03ad90f" title="log_stream_or_crypto\l_frame" alt="" coords="641,1411,803,1453"/>
+<area shape="rect" id="node38" href="$frame_8c.html#a7190a4126cab423b277e15971104bd8f" title="log_stream_or_crypto\l_frame" alt="" coords="641,1411,803,1453"/>
 <area shape="rect" id="node49" href="$marshall_8h.html#a236784b332831d6237e612de837cd684" title="varint_size_needed" alt="" coords="219,1317,364,1344"/>
 <area shape="rect" id="node50" href="$stream_8c.html#a0c28462a470893c1046d7a167037d926" title="track_bytes_out" alt="" coords="229,1368,353,1395"/>
 <area shape="rect" id="node4" href="$pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="883,195,961,221"/>
