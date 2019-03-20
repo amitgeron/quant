@@ -1,9 +1,9 @@
 <map id="dec_stream_or_crypto_frame" name="dec_stream_or_crypto_frame">
 <area shape="rect" id="node2" href="$pkt_8h.html#a2e3325ad951d933d49dcd1cd1e0c04f1" title="epoch_for_pkt_type" alt="" coords="226,5,373,32"/>
 <area shape="rect" id="node3" href="$stream_8h.html#a012bc210254cd3269ef892fcbd91e146" title="crpt_strm_id" alt="" coords="248,56,351,83"/>
-<area shape="rect" id="node4" href="$stream_8c.html#a38e0dc3cbebe5699ec573ab242b6f505" title="max_sid" alt="" coords="466,136,541,163"/>
-<area shape="rect" id="node5" href="$frame_8c.html#a7190a4126cab423b277e15971104bd8f" title="log_stream_or_crypto\l_frame" alt="" coords="219,158,380,199"/>
-<area shape="rect" id="node6" href="$stream_8c.html#a7308501df4d06bbfd14665ae88caae02" title="get_stream" alt="" coords="251,224,347,251"/>
+<area shape="rect" id="node4" href="$stream_8c.html#a7308501df4d06bbfd14665ae88caae02" title="get_stream" alt="" coords="251,107,347,133"/>
+<area shape="rect" id="node5" href="$stream_8c.html#a38e0dc3cbebe5699ec573ab242b6f505" title="max_sid" alt="" coords="466,187,541,213"/>
+<area shape="rect" id="node6" href="$frame_8c.html#a7190a4126cab423b277e15971104bd8f" title="log_stream_or_crypto\l_frame" alt="" coords="219,209,380,250"/>
 <area shape="rect" id="node7" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="1368,401,1444,428"/>
 <area shape="rect" id="node8" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="1207,553,1295,580"/>
 <area shape="rect" id="node9" href="$stream_8c.html#a300bcafbad60488eb0b6b0560eb1b645" title="new_stream" alt="" coords="249,579,349,605"/>
