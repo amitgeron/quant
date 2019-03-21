@@ -15,6 +15,7 @@ var searchData=
   ['coalesce',['coalesce',['../pkt_8c.html#a1f839697f5c2cb2a8b086249c85399bc',1,'coalesce(struct w_iov_sq *const q):&#160;pkt.c'],['../pkt_8h.html#a1f839697f5c2cb2a8b086249c85399bc',1,'coalesce(struct w_iov_sq *const q):&#160;pkt.c']]],
   ['concat_5fout',['concat_out',['../stream_8c.html#a379b35c4c21ee31284e14338963fdd8f',1,'concat_out(struct q_stream *const s, struct w_iov_sq *const q):&#160;stream.c'],['../stream_8h.html#a379b35c4c21ee31284e14338963fdd8f',1,'concat_out(struct q_stream *const s, struct w_iov_sq *const q):&#160;stream.c']]],
   ['congestion_5fevent',['congestion_event',['../recovery_8c.html#afb01a0d106bff6312c6309166da29fbb',1,'congestion_event(struct q_conn *const c, const ev_tstamp sent_t):&#160;recovery.c'],['../recovery_8h.html#afb01a0d106bff6312c6309166da29fbb',1,'congestion_event(struct q_conn *const c, const ev_tstamp sent_t):&#160;recovery.c']]],
+  ['conn_5finfo_5fpopulate',['conn_info_populate',['../conn_8c.html#a2d3d056dd047193c83f900da55ed528d',1,'conn_info_populate(struct q_conn *const c):&#160;conn.c'],['../conn_8h.html#a2d3d056dd047193c83f900da55ed528d',1,'conn_info_populate(struct q_conn *const c):&#160;conn.c']]],
   ['conn_5ftype',['conn_type',['../conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4',1,'conn.h']]],
   ['conns_5fby_5fid_5fdel',['conns_by_id_del',['../conn_8c.html#a157de1b1117fd595bca3a0d2a82184db',1,'conn.c']]],
   ['conns_5fby_5fid_5fins',['conns_by_id_ins',['../conn_8c.html#a3970d1f884f75ab86ab622e00bf9fce7',1,'conn.c']]],

@@ -239,6 +239,8 @@ Functions</h2></td></tr>
 <tr class="separator:a619f2109f27acd5a1bb587f6d452097e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa11ca616e8e32c1f341a77566615c0ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8h.html#aa11ca616e8e32c1f341a77566615c0ea">rx</a> (struct ev_loop *const l, ev_io *const rx_w, int _e)</td></tr>
 <tr class="separator:aa11ca616e8e32c1f341a77566615c0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d3d056dd047193c83f900da55ed528d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8h.html#a2d3d056dd047193c83f900da55ed528d">conn_info_populate</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
+<tr class="separator:a2d3d056dd047193c83f900da55ed528d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a526357c19864e7579573160573a55c33"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="structpn__space.html">pn_space</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8h.html#a526357c19864e7579573160573a55c33">pn_for_epoch</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const <a class="el" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46">epoch_t</a> e)</td></tr>
 <tr class="separator:a526357c19864e7579573160573a55c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52c04ce19176020c6ac60f2e0baf7f49"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8h.html#a52c04ce19176020c6ac60f2e0baf7f49">splay_head</a> (<a class="el" href="conn_8c.html#a001da71d92caff5772399a0d5512d8c3">ooo_0rtt_by_cid</a>, <a class="el" href="structooo__0rtt.html">ooo_0rtt</a>) <a class="el" href="conn_8c.html#a001da71d92caff5772399a0d5512d8c3">ooo_0rtt_by_cid</a></td></tr>
@@ -350,7 +352,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                                       \</div><div class="line">        if ((c)-&gt;scid)                                                         \</div><div class="line">            warn(DBG, <span class="stringliteral">&quot;%s%s conn %s state %s -&gt; &quot;</span> <a class="code" href="quic_8h.html#a8d23feea868a983c8c2b661e1e16972f">RED</a> <span class="stringliteral">&quot;%s&quot;</span> <a class="code" href="quic_8h.html#ade01bc98e1632cd645e0f33757d70d2e">NRM</a>,                \</div><div class="line">                 (c)-&gt;state == (s) ? <a class="code" href="quic_8h.html#a8d23feea868a983c8c2b661e1e16972f">RED</a> <a class="code" href="quic_8h.html#a6773bd84b2bf2a4f2118fc787f3a53fb">BLD</a> <span class="stringliteral">&quot;useless transition: &quot;</span> NRM : <span class="stringliteral">&quot;&quot;</span>,  \</div><div class="line">                 <a class="code" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a>(c), <a class="code" href="conn_8h.html#ade2abf64e3b30fc0b5e1b95735ab6677">cid2str</a>((c)-&gt;scid), <a class="code" href="conn_8h.html#a5618a89ddad38bdb55093279d8d3fbc5">conn_state_str</a>[(c)-&gt;state], \</div><div class="line">                 <a class="code" href="conn_8h.html#a5618a89ddad38bdb55093279d8d3fbc5">conn_state_str</a>[(s)]);                                         \</div><div class="line">        (c)-&gt;state = (s);                                                      \</div><div class="line">    } <span class="keywordflow">while</span> (0)</div><div class="ttc" id="conn_8h_html_aa0fec7fdf46459b57e64dbe4e79a8dc4"><div class="ttname"><a href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a></div><div class="ttdeci">static const char * conn_type(const struct q_conn *const c)</div><div class="ttdef"><b>Definition:</b> conn.h:399</div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                                       \</div><div class="line">        if ((c)-&gt;scid)                                                         \</div><div class="line">            warn(DBG, <span class="stringliteral">&quot;%s%s conn %s state %s -&gt; &quot;</span> <a class="code" href="quic_8h.html#a8d23feea868a983c8c2b661e1e16972f">RED</a> <span class="stringliteral">&quot;%s&quot;</span> <a class="code" href="quic_8h.html#ade01bc98e1632cd645e0f33757d70d2e">NRM</a>,                \</div><div class="line">                 (c)-&gt;state == (s) ? <a class="code" href="quic_8h.html#a8d23feea868a983c8c2b661e1e16972f">RED</a> <a class="code" href="quic_8h.html#a6773bd84b2bf2a4f2118fc787f3a53fb">BLD</a> <span class="stringliteral">&quot;useless transition: &quot;</span> NRM : <span class="stringliteral">&quot;&quot;</span>,  \</div><div class="line">                 <a class="code" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a>(c), <a class="code" href="conn_8h.html#ade2abf64e3b30fc0b5e1b95735ab6677">cid2str</a>((c)-&gt;scid), <a class="code" href="conn_8h.html#a5618a89ddad38bdb55093279d8d3fbc5">conn_state_str</a>[(c)-&gt;state], \</div><div class="line">                 <a class="code" href="conn_8h.html#a5618a89ddad38bdb55093279d8d3fbc5">conn_state_str</a>[(s)]);                                         \</div><div class="line">        (c)-&gt;state = (s);                                                      \</div><div class="line">    } <span class="keywordflow">while</span> (0)</div><div class="ttc" id="conn_8h_html_aa0fec7fdf46459b57e64dbe4e79a8dc4"><div class="ttname"><a href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4">conn_type</a></div><div class="ttdeci">static const char * conn_type(const struct q_conn *const c)</div><div class="ttdef"><b>Definition:</b> conn.h:403</div></div>
 <div class="ttc" id="conn_8h_html_a5618a89ddad38bdb55093279d8d3fbc5"><div class="ttname"><a href="conn_8h.html#a5618a89ddad38bdb55093279d8d3fbc5">conn_state_str</a></div><div class="ttdeci">const char *const conn_state_str[]</div><div class="ttdef"><b>Definition:</b> conn.c:64</div></div>
 <div class="ttc" id="conn_8h_html_ade2abf64e3b30fc0b5e1b95735ab6677"><div class="ttname"><a href="conn_8h.html#ade2abf64e3b30fc0b5e1b95735ab6677">cid2str</a></div><div class="ttdeci">#define cid2str(i)</div><div class="ttdef"><b>Definition:</b> conn.h:52</div></div>
 <div class="ttc" id="quic_8h_html_ade01bc98e1632cd645e0f33757d70d2e"><div class="ttname"><a href="quic_8h.html#ade01bc98e1632cd645e0f33757d70d2e">NRM</a></div><div class="ttdeci">#define NRM</div><div class="ttdoc">ANSI escape sequence: reset all to normal. </div><div class="ttdef"><b>Definition:</b> quic.h:434</div></div>
@@ -519,6 +521,22 @@ Here is the call graph for this function:</div>
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2d3d056dd047193c83f900da55ed528d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void conn_info_populate </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

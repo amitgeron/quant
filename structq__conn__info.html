@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>quant: q_conn_conf Struct Reference</title>
+<title>quant: q_conn_info Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -86,7 +86,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
-<div class="title">q_conn_conf Struct Reference</div>  </div>
+<div class="title">q_conn_info Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -94,130 +94,142 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:ae5e129f9fb39b4e356c188c6e603af4a"><td class="memItemLeft" align="right" valign="top">const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__conf.html#ae5e129f9fb39b4e356c188c6e603af4a">alpn</a></td></tr>
-<tr class="separator:ae5e129f9fb39b4e356c188c6e603af4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ee1a7573da2424913f2f3070b4b64b6"><td class="memItemLeft" align="right" valign="top">const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__conf.html#a4ee1a7573da2424913f2f3070b4b64b6">idle_timeout</a></td></tr>
-<tr class="separator:a4ee1a7573da2424913f2f3070b4b64b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a090a1f314cd2c86c68f7950d4cf48a85"><td class="memItemLeft" align="right" valign="top">const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__conf.html#a090a1f314cd2c86c68f7950d4cf48a85">tls_key_update_frequency</a></td></tr>
-<tr class="separator:a090a1f314cd2c86c68f7950d4cf48a85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93d0fd7adf8938b84ded90e42e375416"><td class="memItemLeft" align="right" valign="top">const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__conf.html#a93d0fd7adf8938b84ded90e42e375416">enable_spinbit</a>: 1</td></tr>
-<tr class="separator:a93d0fd7adf8938b84ded90e42e375416"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5edb8760602e5d9c149ebe697f92682a"><td class="memItemLeft" align="right" valign="top">const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__conf.html#a5edb8760602e5d9c149ebe697f92682a">enable_udp_zero_checksums</a>: 1</td></tr>
-<tr class="separator:a5edb8760602e5d9c149ebe697f92682a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcac22ebbfc362211164a3ddffeaa92a"><td class="memItemLeft" align="right" valign="top">const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__conf.html#afcac22ebbfc362211164a3ddffeaa92a">enable_tls_key_updates</a>: 1</td></tr>
-<tr class="separator:afcac22ebbfc362211164a3ddffeaa92a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33794507b37d4e6646c4f94a21fea5ed"><td class="memItemLeft" align="right" valign="top">const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__conf.html#a33794507b37d4e6646c4f94a21fea5ed">disable_migration</a>: 1</td></tr>
-<tr class="separator:a33794507b37d4e6646c4f94a21fea5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6615ed1221eb4309168215017c2f74f"><td class="memItemLeft" align="right" valign="top">const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__conf.html#ab6615ed1221eb4309168215017c2f74f">enable_zero_len_cid</a>: 1</td></tr>
-<tr class="separator:ab6615ed1221eb4309168215017c2f74f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a841ccb746a2fcce3e66d9ea43ccb8da9"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__conf.html#a841ccb746a2fcce3e66d9ea43ccb8da9">__pad0__</a>: 3</td></tr>
-<tr class="separator:a841ccb746a2fcce3e66d9ea43ccb8da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7032c7b994ae9c920b73664aff073eec"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__info.html#a7032c7b994ae9c920b73664aff073eec">pkts_in_valid</a></td></tr>
+<tr class="separator:a7032c7b994ae9c920b73664aff073eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa51a3e39af8fabb4b3046d7d7f5a5890"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__info.html#aa51a3e39af8fabb4b3046d7d7f5a5890">pkts_in_invalid</a></td></tr>
+<tr class="separator:aa51a3e39af8fabb4b3046d7d7f5a5890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c623d2ad50f66ca667154a1a024d1b7"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__info.html#a3c623d2ad50f66ca667154a1a024d1b7">pkts_out</a></td></tr>
+<tr class="separator:a3c623d2ad50f66ca667154a1a024d1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b3213e8f49b3318171ba5e463b77052"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__info.html#a4b3213e8f49b3318171ba5e463b77052">pkts_out_lost</a></td></tr>
+<tr class="separator:a4b3213e8f49b3318171ba5e463b77052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8abcb19c136ba79cde0575cde738c746"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__info.html#a8abcb19c136ba79cde0575cde738c746">pkts_out_rtx</a></td></tr>
+<tr class="separator:a8abcb19c136ba79cde0575cde738c746"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac17736271e7ce25c291367d08c451f96"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__info.html#ac17736271e7ce25c291367d08c451f96">rtt</a></td></tr>
+<tr class="separator:ac17736271e7ce25c291367d08c451f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2bc163c06df7e2d089da0d86c8c8329"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__info.html#ae2bc163c06df7e2d089da0d86c8c8329">rttvar</a></td></tr>
+<tr class="separator:ae2bc163c06df7e2d089da0d86c8c8329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a933ce41722305555e5e5a4bbb5e1a54f"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__info.html#a933ce41722305555e5e5a4bbb5e1a54f">cwnd</a></td></tr>
+<tr class="separator:a933ce41722305555e5e5a4bbb5e1a54f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ffee4e3036505b816f62f4a79e4f4e9"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__info.html#a7ffee4e3036505b816f62f4a79e4f4e9">ssthresh</a></td></tr>
+<tr class="separator:a7ffee4e3036505b816f62f4a79e4f4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8041b4a52a2b94cf2771c351cc03b3c"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn__info.html#af8041b4a52a2b94cf2771c351cc03b3c">pto_cnt</a></td></tr>
+<tr class="separator:af8041b4a52a2b94cf2771c351cc03b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#_a12">client.c</a>, and <a class="el" href="server_8c-example.html#_a17">server.c</a>.</dd>
-</dl></div><h2 class="groupheader">Field Documentation</h2>
-<a class="anchor" id="a841ccb746a2fcce3e66d9ea43ccb8da9"></a>
+<h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="a933ce41722305555e5e5a4bbb5e1a54f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t q_conn_conf::__pad0__</td>
+          <td class="memname">uint64_t q_conn_info::cwnd</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="ae5e129f9fb39b4e356c188c6e603af4a"></a>
+<a class="anchor" id="aa51a3e39af8fabb4b3046d7d7f5a5890"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const char* const q_conn_conf::alpn</td>
+          <td class="memname">uint64_t q_conn_info::pkts_in_invalid</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a33794507b37d4e6646c4f94a21fea5ed"></a>
+<a class="anchor" id="a7032c7b994ae9c920b73664aff073eec"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const uint8_t q_conn_conf::disable_migration</td>
+          <td class="memname">uint64_t q_conn_info::pkts_in_valid</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a93d0fd7adf8938b84ded90e42e375416"></a>
+<a class="anchor" id="a3c623d2ad50f66ca667154a1a024d1b7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const uint8_t q_conn_conf::enable_spinbit</td>
+          <td class="memname">uint64_t q_conn_info::pkts_out</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="afcac22ebbfc362211164a3ddffeaa92a"></a>
+<a class="anchor" id="a4b3213e8f49b3318171ba5e463b77052"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const uint8_t q_conn_conf::enable_tls_key_updates</td>
+          <td class="memname">uint64_t q_conn_info::pkts_out_lost</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a5edb8760602e5d9c149ebe697f92682a"></a>
+<a class="anchor" id="a8abcb19c136ba79cde0575cde738c746"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const uint8_t q_conn_conf::enable_udp_zero_checksums</td>
+          <td class="memname">uint64_t q_conn_info::pkts_out_rtx</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="ab6615ed1221eb4309168215017c2f74f"></a>
+<a class="anchor" id="af8041b4a52a2b94cf2771c351cc03b3c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const uint8_t q_conn_conf::enable_zero_len_cid</td>
+          <td class="memname">uint64_t q_conn_info::pto_cnt</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a4ee1a7573da2424913f2f3070b4b64b6"></a>
+<a class="anchor" id="ac17736271e7ce25c291367d08c451f96"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const uint64_t q_conn_conf::idle_timeout</td>
+          <td class="memname">double q_conn_info::rtt</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a090a1f314cd2c86c68f7950d4cf48a85"></a>
+<a class="anchor" id="ae2bc163c06df7e2d089da0d86c8c8329"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const uint64_t q_conn_conf::tls_key_update_frequency</td>
+          <td class="memname">double q_conn_info::rttvar</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7ffee4e3036505b816f62f4a79e4f4e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t q_conn_info::ssthresh</td>
         </tr>
       </table>
 </div><div class="memdoc">

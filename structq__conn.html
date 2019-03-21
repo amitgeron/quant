@@ -102,14 +102,15 @@ Collaboration diagram for q_conn:</div>
 <map name="q__conn_coll__map" id="q__conn_coll__map">
 <area shape="rect" id="node6" href="structpn__space.html" title="pn_space" alt="" coords="85,407,168,433"/>
 <area shape="rect" id="node9" href="structq__stream.html" title="q_stream" alt="" coords="409,407,492,433"/>
-<area shape="rect" id="node2" href="structtransport__params.html" title="transport_params" alt="" coords="124,213,262,240"/>
-<area shape="rect" id="node3" href="structcid.html" title="cid" alt="" coords="201,5,241,32"/>
-<area shape="rect" id="node4" href="structpref__addr.html" title="pref_addr" alt="" coords="180,95,262,121"/>
+<area shape="rect" id="node2" href="structtransport__params.html" title="transport_params" alt="" coords="95,213,232,240"/>
+<area shape="rect" id="node3" href="structcid.html" title="cid" alt="" coords="172,5,212,32"/>
+<area shape="rect" id="node4" href="structpref__addr.html" title="pref_addr" alt="" coords="150,95,233,121"/>
 <area shape="rect" id="node5" href="structpn__data__space.html" title="pn_data_space" alt="" coords="26,540,144,567"/>
-<area shape="rect" id="node10" href="structpn__hshk__space.html" title="pn_hshk_space" alt="" coords="216,540,336,567"/>
+<area shape="rect" id="node11" href="structpn__hshk__space.html" title="pn_hshk_space" alt="" coords="216,540,336,567"/>
 <area shape="rect" id="node7" href="structcipher__ctx.html" title="cipher_ctx" alt="" coords="192,407,279,433"/>
-<area shape="rect" id="node8" href="structtls.html" title="tls" alt="" coords="338,213,376,240"/>
-<area shape="rect" id="node11" href="structrecovery.html" title="recovery" alt="" coords="400,213,477,240"/>
+<area shape="rect" id="node8" href="structtls.html" title="tls" alt="" coords="308,213,347,240"/>
+<area shape="rect" id="node10" href="structq__conn__info.html" title="q_conn_info" alt="" coords="372,213,470,240"/>
+<area shape="rect" id="node12" href="structrecovery.html" title="recovery" alt="" coords="494,213,572,240"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -344,6 +345,8 @@ Data Fields</h2></td></tr>
 <tr class="separator:ae2a098b26d543a1df44be487603b48cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaa2aa1f8c6ac82682a25931bf8fcc9c"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn.html#aaaa2aa1f8c6ac82682a25931bf8fcc9c">tok</a> [<a class="el" href="conn_8h.html#a4c4dda142699d1cf6e5434ab2ca6c406">MAX_TOK_LEN</a>+2]</td></tr>
 <tr class="separator:aaaa2aa1f8c6ac82682a25931bf8fcc9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6e7b1261b1d287b16ba360455790ecd"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structq__conn__info.html">q_conn_info</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn.html#ac6e7b1261b1d287b16ba360455790ecd">i</a></td></tr>
+<tr class="separator:ac6e7b1261b1d287b16ba360455790ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A QUIC connection. </p>
@@ -718,6 +721,19 @@ Data Fields</h2></td></tr>
 
 <p>Connection manages a warpcore socket. </p>
 
+</div>
+</div>
+<a class="anchor" id="ac6e7b1261b1d287b16ba360455790ecd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structq__conn__info.html">q_conn_info</a> q_conn::i</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="server_8c-example.html#a12">server.c</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="ab3860daebd7ca189549a5e6af6c9e8e3"></a>
@@ -1487,7 +1503,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Underlying warpcore engine. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a11">client.c</a>, and <a class="el" href="server_8c-example.html#a17">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a11">client.c</a>, and <a class="el" href="server_8c-example.html#a18">server.c</a>.</dd>
 </dl>
 </div>
 </div>

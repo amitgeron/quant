@@ -56,7 +56,7 @@ var searchData=
   ['srt',['srt',['../structcid.html#a4445bbe90ef6a799450c1606badf557c',1,'cid']]],
   ['srt_5flen',['SRT_LEN',['../quic_8h.html#aaa19e76a63eec1141d442d58c20042ed',1,'quic.h']]],
   ['srtt',['srtt',['../structrecovery.html#abc466711a95fd985bdde9a59e7ebec6e',1,'recovery']]],
-  ['ssthresh',['ssthresh',['../structrecovery.html#a2eb67fcd1408e01f084046d483f33008',1,'recovery']]],
+  ['ssthresh',['ssthresh',['../structq__conn__info.html#a7ffee4e3036505b816f62f4a79e4f4e9',1,'q_conn_info::ssthresh()'],['../structrecovery.html#a2eb67fcd1408e01f084046d483f33008',1,'recovery::ssthresh()']]],
   ['st_5fquicly_5fcipher_5fcontext_5ft',['st_quicly_cipher_context_t',['../tls_8c.html#aa936412f8959248ee6373acb4bbacafc',1,'tls.c']]],
   ['state',['state',['../structq__conn.html#a6e54a3c792c0da006ed80a72d42d7365',1,'q_conn::state()'],['../structq__stream.html#a3c163e13ed03a60a2c53ccfddc5929d7',1,'q_stream::state()']]],
   ['stream',['stream',['../structpkt__meta.html#ad6c0f1c83fc566c86ae941e4af89e9b5',1,'pkt_meta']]],
