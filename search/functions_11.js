@@ -1,7 +1,7 @@
 var searchData=
 [
   ['save_5fticket_5fcb',['save_ticket_cb',['../tls_8c.html#aa70adb60bf2e4ca0720c769269514f5b',1,'tls.c']]],
-  ['set_5fld_5ftimer',['set_ld_timer',['../recovery_8c.html#ae36a89ee82fe65d07b6707ac13e9071e',1,'recovery.c']]],
+  ['set_5fld_5ftimer',['set_ld_timer',['../recovery_8c.html#ab6edfdcadecde6939bdf8e64651e2300',1,'set_ld_timer(struct q_conn *const c):&#160;recovery.c'],['../recovery_8h.html#ab6edfdcadecde6939bdf8e64651e2300',1,'set_ld_timer(struct q_conn *const c):&#160;recovery.c']]],
   ['setup_5fcipher',['setup_cipher',['../tls_8c.html#af5ebb2a5b8cab6a40a18677a5ea562fb',1,'tls.c']]],
   ['setup_5finitial_5fencryption',['setup_initial_encryption',['../tls_8c.html#aff7c4b2f9e78c2d678898dc58bc68e57',1,'tls.c']]],
   ['setup_5finitial_5fkey',['setup_initial_key',['../tls_8c.html#ab26c763c76c9b874d651bdba836fc13f',1,'tls.c']]],

@@ -161,6 +161,8 @@ Functions</h2></td></tr>
 <tr class="separator:a3ba21333eb350bb9f9428e75e55f2fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb01a0d106bff6312c6309166da29fbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="recovery_8h.html#afb01a0d106bff6312c6309166da29fbb">congestion_event</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const ev_tstamp sent_t)</td></tr>
 <tr class="separator:afb01a0d106bff6312c6309166da29fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6edfdcadecde6939bdf8e64651e2300"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="recovery_8h.html#ab6edfdcadecde6939bdf8e64651e2300">set_ld_timer</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
+<tr class="separator:ab6edfdcadecde6939bdf8e64651e2300"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -256,7 +258,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node9" href="conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="821,1459,888,1485"/>
 <area shape="rect" id="node17" href="conn_8c.html#a1a9a96efc3be558373804c33a60df6b9" title="tx" alt="" coords="475,945,514,972"/>
 <area shape="rect" id="node49" href="recovery_8c.html#a3e9994733ec7bbe76394f9c6a9334356" title="maybe_tx" alt="" coords="277,1053,363,1080"/>
-<area shape="rect" id="node50" href="recovery_8c.html#ae36a89ee82fe65d07b6707ac13e9071e" title="set_ld_timer" alt="" coords="269,1231,371,1257"/>
+<area shape="rect" id="node50" href="recovery_8c.html#ab6edfdcadecde6939bdf8e64651e2300" title="set_ld_timer" alt="" coords="269,1231,371,1257"/>
 <area shape="rect" id="node4" href="quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb" title="cids_by_seq_cmp" alt="" coords="1387,151,1521,177"/>
 <area shape="rect" id="node6" href="stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="795,1104,915,1131"/>
 <area shape="rect" id="node10" href="diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="810,1307,899,1333"/>
@@ -367,7 +369,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="recovery_8h_a0685f70e3d94c9f312ca97299998da94_cgraph.png" border="0" usemap="#recovery_8h_a0685f70e3d94c9f312ca97299998da94_cgraph" alt=""/></div>
 <map name="recovery_8h_a0685f70e3d94c9f312ca97299998da94_cgraph" id="recovery_8h_a0685f70e3d94c9f312ca97299998da94_cgraph">
 <area shape="rect" id="node2" href="recovery_8c.html#a96b0529b2380d745862c605244caa46a" title="detect_lost_pkts" alt="" coords="491,157,618,184"/>
-<area shape="rect" id="node11" href="recovery_8c.html#ae36a89ee82fe65d07b6707ac13e9071e" title="set_ld_timer" alt="" coords="329,304,431,331"/>
+<area shape="rect" id="node11" href="recovery_8c.html#ab6edfdcadecde6939bdf8e64651e2300" title="set_ld_timer" alt="" coords="329,304,431,331"/>
 <area shape="rect" id="node14" href="recovery_8c.html#a3e9994733ec7bbe76394f9c6a9334356" title="maybe_tx" alt="" coords="196,411,281,437"/>
 <area shape="rect" id="node3" href="conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="707,107,773,133"/>
 <area shape="rect" id="node4" href="diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="695,157,785,184"/>
@@ -538,11 +540,39 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node4" href="stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="162,56,261,83"/>
 <area shape="rect" id="node5" href="pn_8c.html#ae26e2093261e982d1e4e24d802da7482" title="pm_by_nr_ins" alt="" coords="156,107,267,133"/>
 <area shape="rect" id="node6" href="quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="153,157,269,184"/>
-<area shape="rect" id="node7" href="recovery_8c.html#ae36a89ee82fe65d07b6707ac13e9071e" title="set_ld_timer" alt="" coords="161,208,262,235"/>
+<area shape="rect" id="node7" href="recovery_8c.html#ab6edfdcadecde6939bdf8e64651e2300" title="set_ld_timer" alt="" coords="161,208,262,235"/>
 <area shape="rect" id="node3" href="quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb" title="cids_by_seq_cmp" alt="" coords="326,5,461,32"/>
 <area shape="rect" id="node8" href="recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9" title="crypto_pkts_in_flight" alt="" coords="317,183,469,209"/>
 <area shape="rect" id="node10" href="conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="360,233,427,260"/>
 <area shape="rect" id="node9" href="stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="517,183,637,209"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab6edfdcadecde6939bdf8e64651e2300"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_ld_timer </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="recovery_8h_ab6edfdcadecde6939bdf8e64651e2300_cgraph.png" border="0" usemap="#recovery_8h_ab6edfdcadecde6939bdf8e64651e2300_cgraph" alt=""/></div>
+<map name="recovery_8h_ab6edfdcadecde6939bdf8e64651e2300_cgraph" id="recovery_8h_ab6edfdcadecde6939bdf8e64651e2300_cgraph">
+<area shape="rect" id="node2" href="recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9" title="crypto_pkts_in_flight" alt="" coords="155,5,307,32"/>
+<area shape="rect" id="node4" href="conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="197,56,264,83"/>
+<area shape="rect" id="node3" href="stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="355,5,475,32"/>
 </map>
 </div>
 </p>
