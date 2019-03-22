@@ -259,6 +259,8 @@ Functions</h2></td></tr>
 <tr class="separator:a705b76a676f449cbc37b9d955a2e0d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e66d17ae7e8756388309b9e193a9543"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a4e66d17ae7e8756388309b9e193a9543">tls_io</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s, struct w_iov *const iv)</td></tr>
 <tr class="separator:a4e66d17ae7e8756388309b9e193a9543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbc1f24548c9acfa2d2129ebb85b472a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#abbc1f24548c9acfa2d2129ebb85b472a">free_ticket</a> (struct <a class="el" href="structtls__ticket.html">tls_ticket</a> *const t)</td></tr>
+<tr class="separator:abbc1f24548c9acfa2d2129ebb85b472a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65f1490238853f0e913186fd5c3311c7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a65f1490238853f0e913186fd5c3311c7">read_tickets</a> ()</td></tr>
 <tr class="separator:a65f1490238853f0e913186fd5c3311c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70c075f43514397f392c90fd351edde1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls_8c.html#a70c075f43514397f392c90fd351edde1">log_event_cb</a> (ptls_log_event_t *const self, ptls_t *const <a class="el" href="structtls.html">tls</a>, const char *const type, const char *fmt,...)</td></tr>
@@ -1298,6 +1300,30 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="abbc1f24548c9acfa2d2129ebb85b472a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void free_ticket </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structtls__ticket.html">tls_ticket</a> *const&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a04c7d8686952c02e95385a6e3fcab5a7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1355,6 +1381,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="tls_8c_ad409e0ca7a5132aa66115caa612f69e1_cgraph.png" border="0" usemap="#tls_8c_ad409e0ca7a5132aa66115caa612f69e1_cgraph" alt=""/></div>
 <map name="tls_8c_ad409e0ca7a5132aa66115caa612f69e1_cgraph" id="tls_8c_ad409e0ca7a5132aa66115caa612f69e1_cgraph">
 <area shape="rect" id="node2" href="tls_8c.html#a0e432c22353f0539562e3eb2382001e2" title="dispose_cipher" alt="" coords="148,5,265,32"/>
+<area shape="rect" id="node3" href="tls_8c.html#abbc1f24548c9acfa2d2129ebb85b472a" title="free_ticket" alt="" coords="162,56,251,83"/>
 </map>
 </div>
 </p>
@@ -1503,11 +1530,12 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="tls_8c_a8ba632acdcea3aaa92753c3341fa22fe_cgraph.png" border="0" usemap="#tls_8c_a8ba632acdcea3aaa92753c3341fa22fe_cgraph" alt=""/></div>
 <map name="tls_8c_a8ba632acdcea3aaa92753c3341fa22fe_cgraph" id="tls_8c_a8ba632acdcea3aaa92753c3341fa22fe_cgraph">
 <area shape="rect" id="node2" href="tls_8c.html#a65f1490238853f0e913186fd5c3311c7" title="read_tickets" alt="" coords="173,5,273,32"/>
-<area shape="rect" id="node3" href="tls_8c.html#a0c58491ff4fb3ef4eaaa05226aea773e" title="on_ch" alt="" coords="193,56,253,83"/>
-<area shape="rect" id="node4" href="tls_8c.html#a70c075f43514397f392c90fd351edde1" title="log_event_cb" alt="" coords="170,107,277,133"/>
-<area shape="rect" id="node5" href="tls_8c.html#acbc1dc9c2da3aab2c683a1d9b5ee9321" title="update_traffic_key_cb" alt="" coords="143,157,304,184"/>
-<area shape="rect" id="node7" href="tls_8c.html#a071d6ebbfd90822e31fdb8119ad971ca" title="init_ticket_prot" alt="" coords="165,208,281,235"/>
-<area shape="rect" id="node6" href="tls_8c.html#af5ebb2a5b8cab6a40a18677a5ea562fb" title="setup_cipher" alt="" coords="352,183,456,209"/>
+<area shape="rect" id="node4" href="tls_8c.html#a0c58491ff4fb3ef4eaaa05226aea773e" title="on_ch" alt="" coords="193,56,253,83"/>
+<area shape="rect" id="node5" href="tls_8c.html#a70c075f43514397f392c90fd351edde1" title="log_event_cb" alt="" coords="170,107,277,133"/>
+<area shape="rect" id="node6" href="tls_8c.html#acbc1dc9c2da3aab2c683a1d9b5ee9321" title="update_traffic_key_cb" alt="" coords="143,157,304,184"/>
+<area shape="rect" id="node8" href="tls_8c.html#a071d6ebbfd90822e31fdb8119ad971ca" title="init_ticket_prot" alt="" coords="165,208,281,235"/>
+<area shape="rect" id="node3" href="tls_8c.html#abbc1f24548c9acfa2d2129ebb85b472a" title="free_ticket" alt="" coords="359,5,449,32"/>
+<area shape="rect" id="node7" href="tls_8c.html#af5ebb2a5b8cab6a40a18677a5ea562fb" title="setup_cipher" alt="" coords="352,183,456,209"/>
 </map>
 </div>
 </p>
@@ -1750,6 +1778,16 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="tls_8c_a65f1490238853f0e913186fd5c3311c7_cgraph.png" border="0" usemap="#tls_8c_a65f1490238853f0e913186fd5c3311c7_cgraph" alt=""/></div>
+<map name="tls_8c_a65f1490238853f0e913186fd5c3311c7_cgraph" id="tls_8c_a65f1490238853f0e913186fd5c3311c7_cgraph">
+<area shape="rect" id="node2" href="tls_8c.html#abbc1f24548c9acfa2d2129ebb85b472a" title="free_ticket" alt="" coords="153,5,243,32"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>

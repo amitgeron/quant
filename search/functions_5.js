@@ -12,6 +12,7 @@ var searchData=
   ['free_5fprot',['free_prot',['../tls_8c.html#a28ce95450a6345dc4f1c85766e2edf8a',1,'tls.c']]],
   ['free_5fscid',['free_scid',['../conn_8c.html#ab983b3d57ee0c84f0e70018a299033a8',1,'free_scid(struct q_conn *const c, struct cid *const id):&#160;conn.c'],['../conn_8h.html#ab983b3d57ee0c84f0e70018a299033a8',1,'free_scid(struct q_conn *const c, struct cid *const id):&#160;conn.c']]],
   ['free_5fstream',['free_stream',['../stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce',1,'free_stream(struct q_stream *const s):&#160;stream.c'],['../stream_8h.html#acf612f3ac0b49aa8c7d6630c00e6b0ce',1,'free_stream(struct q_stream *const s):&#160;stream.c']]],
+  ['free_5fticket',['free_ticket',['../tls_8c.html#abbc1f24548c9acfa2d2129ebb85b472a',1,'tls.c']]],
   ['free_5ftls',['free_tls',['../tls_8c.html#a04c7d8686952c02e95385a6e3fcab5a7',1,'free_tls(struct q_conn *const c, const bool keep_alpn):&#160;tls.c'],['../tls_8h.html#a04c7d8686952c02e95385a6e3fcab5a7',1,'free_tls(struct q_conn *const c, const bool keep_alpn):&#160;tls.c']]],
   ['free_5ftls_5fctx',['free_tls_ctx',['../tls_8c.html#ad409e0ca7a5132aa66115caa612f69e1',1,'free_tls_ctx(void):&#160;tls.c'],['../tls_8h.html#ad409e0ca7a5132aa66115caa612f69e1',1,'free_tls_ctx(void):&#160;tls.c']]]
 ];
