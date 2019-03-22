@@ -229,7 +229,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">__extension__({                                                            \</div><div class="line">        static <span class="keywordtype">char</span> _str[32];                                                  \</div><div class="line">        const <span class="keywordtype">double</span> _bps =                                                    \</div><div class="line">            (bytes) &amp;&amp; (fpclassify(secs) != FP_ZERO) ? (bytes)*8 / (secs) : 0; \</div><div class="line">        if (_bps &gt; 1000000000)                                                 \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f Gb/s&quot;</span>, _bps / 1000000000);      \</div><div class="line">        else <span class="keywordflow">if</span> (_bps &gt; 1000000)                                               \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f Mb/s&quot;</span>, _bps / 1000000);         \</div><div class="line">        else <span class="keywordflow">if</span> (_bps &gt; 1000)                                                  \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f Kb/s&quot;</span>, _bps / 1000);            \</div><div class="line">        else                                                                   \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f b/s&quot;</span>, _bps);                    \</div><div class="line">        _str;                                                                  \</div><div class="line">    })</div></div><!-- fragment --><dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a28">client.c</a>.</dd>
+<b>Value:</b><div class="fragment"><div class="line">__extension__({                                                            \</div><div class="line">        static <span class="keywordtype">char</span> _str[32];                                                  \</div><div class="line">        const <span class="keywordtype">double</span> _bps =                                                    \</div><div class="line">            (bytes) &amp;&amp; (fpclassify(secs) != FP_ZERO) ? (bytes)*8 / (secs) : 0; \</div><div class="line">        if (_bps &gt; 1000000000)                                                 \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f Gb/s&quot;</span>, _bps / 1000000000);      \</div><div class="line">        else <span class="keywordflow">if</span> (_bps &gt; 1000000)                                               \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f Mb/s&quot;</span>, _bps / 1000000);         \</div><div class="line">        else <span class="keywordflow">if</span> (_bps &gt; 1000)                                                  \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f Kb/s&quot;</span>, _bps / 1000);            \</div><div class="line">        else                                                                   \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f b/s&quot;</span>, _bps);                    \</div><div class="line">        _str;                                                                  \</div><div class="line">    })</div></div><!-- fragment --><dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a19">client.c</a>.</dd>
 </dl>
 </div>
 </div>
@@ -246,7 +246,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a27">client.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a18">client.c</a>.</dd>
 </dl>
 </div>
 </div>
@@ -445,7 +445,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a8">client.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a5">client.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -490,7 +490,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a31">client.c</a>, and <a class="el" href="server_8c-example.html#a23">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a22">client.c</a>, and <a class="el" href="server_8c-example.html#a23">server.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -587,7 +587,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a29">client.c</a>, and <a class="el" href="server_8c-example.html#a22">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a20">client.c</a>, and <a class="el" href="server_8c-example.html#a22">server.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -667,7 +667,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a10">client.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a6">client.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -742,7 +742,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a30">client.c</a>, and <a class="el" href="server_8c-example.html#a7">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a21">client.c</a>, and <a class="el" href="server_8c-example.html#a7">server.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -807,7 +807,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a23">client.c</a>, and <a class="el" href="server_8c-example.html#a10">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a15">client.c</a>, and <a class="el" href="server_8c-example.html#a10">server.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -945,7 +945,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a26">client.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a17">client.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -972,7 +972,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a18">client.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a13">client.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1057,7 +1057,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a13">client.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a9">client.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1175,7 +1175,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a17">client.c</a>, and <a class="el" href="server_8c-example.html#a8">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a12">client.c</a>, and <a class="el" href="server_8c-example.html#a8">server.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1294,7 +1294,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a14">client.c</a>, and <a class="el" href="server_8c-example.html#a3">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a10">client.c</a>, and <a class="el" href="server_8c-example.html#a3">server.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
