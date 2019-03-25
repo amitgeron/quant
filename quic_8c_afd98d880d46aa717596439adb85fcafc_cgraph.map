@@ -1,6 +1,6 @@
 <map id="cancel_api_call" name="cancel_api_call">
-<area shape="rect" id="node2" href="$quic_8c.html#a5b452d2c7658c801b4182547d75880a4" title="q_accept" alt="" coords="177,56,257,83"/>
-<area shape="rect" id="node5" href="$quic_8c.html#a84a768c49cd352e1c8a109bda56ef3a6" title="q_rx_ready" alt="" coords="171,5,263,32"/>
-<area shape="rect" id="node3" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="336,5,424,32"/>
-<area shape="rect" id="node4" href="$conn_8c.html#a8b3f561241f82fe8b840ed7655d13ffe" title="update_conn_conf" alt="" coords="311,56,449,83"/>
+<area shape="rect" id="node2" href="$quic_8c.html#a5b452d2c7658c801b4182547d75880a4" title="q_accept" alt="" coords="171,56,251,83"/>
+<area shape="rect" id="node5" href="$quic_8c.html#a10d26c21df515950a80e3b9704240801" title="q_ready" alt="" coords="174,5,247,32"/>
+<area shape="rect" id="node3" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="324,5,412,32"/>
+<area shape="rect" id="node4" href="$conn_8c.html#a8b3f561241f82fe8b840ed7655d13ffe" title="update_conn_conf" alt="" coords="299,56,437,83"/>
 </map>

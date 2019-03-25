@@ -1,0 +1,8 @@
+<map id="enter_closed" name="enter_closed">
+<area shape="rect" id="node2" href="$quant_8h.html#a10d26c21df515950a80e3b9704240801" title="q_ready" alt="" coords="157,81,231,108"/>
+<area shape="rect" id="node3" href="$quic_8c.html#afd98d880d46aa717596439adb85fcafc" title="cancel_api_call" alt="" coords="279,56,396,83"/>
+<area shape="rect" id="node5" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="597,56,685,83"/>
+<area shape="rect" id="node4" href="$quic_8c.html#a5b452d2c7658c801b4182547d75880a4" title="q_accept" alt="" coords="444,5,524,32"/>
+<area shape="rect" id="node7" href="$quic_8c.html#a10d26c21df515950a80e3b9704240801" title="q_ready" alt="" coords="447,56,521,83"/>
+<area shape="rect" id="node6" href="$conn_8c.html#a8b3f561241f82fe8b840ed7655d13ffe" title="update_conn_conf" alt="" coords="572,5,711,32"/>
+</map>
