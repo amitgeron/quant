@@ -1,51 +1,51 @@
 <map id="tx" name="tx">
-<area shape="rect" id="node2" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="563,549,670,576"/>
-<area shape="rect" id="node7" href="$conn_8c.html#a0a20a8f8077967eb418a31161d81e69b" title="tx_ack" alt="" coords="92,249,155,276"/>
-<area shape="rect" id="node8" href="$conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80" title="do_conn_mgmt" alt="" coords="555,123,678,149"/>
-<area shape="rect" id="node23" href="$conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87" title="tx_stream" alt="" coords="573,271,660,297"/>
-<area shape="rect" id="node35" href="$conn_8c.html#a061f6268bdb3054227eedf2ca20cb8a1" title="do_tx" alt="" coords="588,992,645,1019"/>
-<area shape="rect" id="node3" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="775,651,842,677"/>
-<area shape="rect" id="node4" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="757,549,861,576"/>
-<area shape="rect" id="node6" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="1084,499,1172,525"/>
-<area shape="rect" id="node5" href="$quant_8h.html#a10d26c21df515950a80e3b9704240801" title="q_ready" alt="" coords="941,549,1015,576"/>
-<area shape="rect" id="node11" href="$quic_8h.html#ab7998b56ab1837fe5100fcffe1ed341f" title="alloc_iov" alt="" coords="940,43,1016,69"/>
-<area shape="rect" id="node13" href="$pkt_8c.html#acb16e009f3832ade02a0c1d21d4631d6" title="enc_pkt" alt="" coords="203,807,275,833"/>
-<area shape="rect" id="node9" href="$stream_8c.html#a848f253b1d052daeb064af9827ae2b31" title="do_stream_id_fc" alt="" coords="745,43,872,69"/>
-<area shape="rect" id="node10" href="$conn_8c.html#ad1e5e232a8372127e2130e85e7cdbb8d" title="use_next_dcid" alt="" coords="921,144,1035,171"/>
-<area shape="rect" id="node12" href="$quic_8h.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="1091,43,1165,69"/>
-<area shape="rect" id="node14" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="567,1333,666,1360"/>
-<area shape="rect" id="node15" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="924,1195,1032,1221"/>
-<area shape="rect" id="node16" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="1103,916,1153,943"/>
-<area shape="rect" id="node17" href="$pkt_8c.html#adb9f7ed98b4a9aa5dbab4df08c78ea0c" title="needed_pkt_nr_len" alt="" coords="334,1144,477,1171"/>
-<area shape="rect" id="node18" href="$pkt_8c.html#a6419e978eb233947f0bf7805663171fc" title="enc_lh_cids" alt="" coords="358,1485,453,1512"/>
-<area shape="rect" id="node19" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="582,1511,651,1537"/>
-<area shape="rect" id="node20" href="$pkt_8c.html#adca4536b7322c8cdc93b43ec0b146118" title="log_pkt" alt="" coords="775,789,843,816"/>
-<area shape="rect" id="node21" href="$pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="927,891,1029,917"/>
-<area shape="rect" id="node22" href="$conn_8c.html#a1a9a96efc3be558373804c33a60df6b9" title="tx" alt="" coords="386,275,425,301"/>
-<area shape="rect" id="node38" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="920,1333,1036,1360"/>
-<area shape="rect" id="node39" href="$pn_8c.html#a7f1a6720a0e3506c0553d13ad865510f" title="needs_ack" alt="" coords="571,1384,662,1411"/>
-<area shape="rect" id="node40" href="$frame_8c.html#a69f067b935fc683f987fd0e0ea1b9efd" title="enc_ack_frame" alt="" coords="346,427,465,453"/>
-<area shape="rect" id="node41" href="$frame_8c.html#a35e96a60869ff030118503cb8a81f715" title="enc_close_frame" alt="" coords="340,477,471,504"/>
-<area shape="rect" id="node42" href="$pkt_8c.html#a835c615f20b782d4454cd6657becd9c3" title="enc_other_frames" alt="" coords="336,528,475,555"/>
-<area shape="rect" id="node43" href="$frame_8c.html#a0d8bea0a0a229b796505008855eb17f0" title="enc_padding_frame" alt="" coords="331,579,479,605"/>
-<area shape="rect" id="node44" href="$frame_8c.html#a7190a4126cab423b277e15971104bd8f" title="log_stream_or_crypto\l_frame" alt="" coords="536,825,697,866"/>
-<area shape="rect" id="node45" href="$frame_8c.html#a6134c4faa49bbd6fbc29589f12350400" title="enc_stream_or_crypto\l_frame" alt="" coords="323,883,488,925"/>
-<area shape="rect" id="node46" href="$frame_8c.html#a424f6073840f8f7a1599dd1b197dc591" title="enc_ping_frame" alt="" coords="343,629,467,656"/>
-<area shape="rect" id="node47" href="$tls_8c.html#ae6d4a9db5061b3f75c21480419c0489b" title="enc_aead" alt="" coords="767,1043,851,1069"/>
-<area shape="rect" id="node48" href="$recovery_8c.html#a9749ec5110f82cad7875d3ec8b94199d" title="on_pkt_sent" alt="" coords="355,1245,455,1272"/>
-<area shape="rect" id="node49" href="$tls_8c.html#a8984aa5b25b32bb8e40aef64f3164fc0" title="maybe_flip_keys" alt="" coords="342,680,469,707"/>
-<area shape="rect" id="node50" href="$pn_8c.html#a01a6deaf5b4cd84917145356378f1004" title="abandon_pn" alt="" coords="566,401,667,428"/>
-<area shape="rect" id="node24" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="749,296,869,323"/>
-<area shape="rect" id="node25" href="$conn_8h.html#a3037cafb7df5c92ea54b7e6646a692e7" title="has_wnd" alt="" coords="770,195,847,221"/>
-<area shape="rect" id="node27" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="764,245,853,272"/>
-<area shape="rect" id="node31" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="753,397,864,424"/>
-<area shape="rect" id="node32" href="$conn_8c.html#a12a896285cd7039b1bcd66c5fa895ec0" title="rtx_pkt" alt="" coords="775,93,842,120"/>
-<area shape="rect" id="node33" href="$stream_8c.html#a222da12d0111c9dee46a6cfc676be209" title="do_stream_fc" alt="" coords="754,448,863,475"/>
-<area shape="rect" id="node34" href="$conn_8c.html#a1bd607ec461f06fc371dc1e0ad98d6fe" title="do_conn_fc" alt="" coords="761,347,856,373"/>
-<area shape="rect" id="node26" href="$conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0" title="has_pval_wnd" alt="" coords="923,195,1033,221"/>
-<area shape="rect" id="node28" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="940,347,1016,373"/>
-<area shape="rect" id="node29" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="938,397,1018,424"/>
-<area shape="rect" id="node30" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="940,296,1016,323"/>
-<area shape="rect" id="node36" href="$pkt_8c.html#a1f839697f5c2cb2a8b086249c85399bc" title="coalesce" alt="" coords="769,941,848,968"/>
-<area shape="rect" id="node37" href="$conn_8c.html#a5743552083731c2f028e261c680fcd38" title="log_sent_pkts" alt="" coords="753,1144,864,1171"/>
+<area shape="rect" id="node2" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="563,56,670,83"/>
+<area shape="rect" id="node7" href="$conn_8c.html#a0a20a8f8077967eb418a31161d81e69b" title="tx_ack" alt="" coords="92,259,155,285"/>
+<area shape="rect" id="node8" href="$conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80" title="do_conn_mgmt" alt="" coords="555,208,678,235"/>
+<area shape="rect" id="node24" href="$conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87" title="tx_stream" alt="" coords="573,385,660,412"/>
+<area shape="rect" id="node35" href="$conn_8c.html#a061f6268bdb3054227eedf2ca20cb8a1" title="do_tx" alt="" coords="588,1120,645,1147"/>
+<area shape="rect" id="node3" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="783,5,850,32"/>
+<area shape="rect" id="node4" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="765,107,869,133"/>
+<area shape="rect" id="node6" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="1100,259,1188,285"/>
+<area shape="rect" id="node5" href="$quant_8h.html#a10d26c21df515950a80e3b9704240801" title="q_ready" alt="" coords="957,132,1031,159"/>
+<area shape="rect" id="node12" href="$quic_8h.html#ab7998b56ab1837fe5100fcffe1ed341f" title="alloc_iov" alt="" coords="956,1044,1032,1071"/>
+<area shape="rect" id="node14" href="$pkt_8c.html#acb16e009f3832ade02a0c1d21d4631d6" title="enc_pkt" alt="" coords="203,791,275,817"/>
+<area shape="rect" id="node9" href="$stream_8c.html#a848f253b1d052daeb064af9827ae2b31" title="do_stream_id_fc" alt="" coords="753,157,880,184"/>
+<area shape="rect" id="node10" href="$conn_8c.html#ad1e5e232a8372127e2130e85e7cdbb8d" title="use_next_dcid" alt="" coords="937,208,1051,235"/>
+<area shape="rect" id="node11" href="$conn_8h.html#a21e64e0312f262d700c34004373df051" title="needs_more_ncids" alt="" coords="745,259,888,285"/>
+<area shape="rect" id="node13" href="$quic_8h.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="1107,1044,1181,1071"/>
+<area shape="rect" id="node15" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="567,664,666,691"/>
+<area shape="rect" id="node16" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="940,765,1048,792"/>
+<area shape="rect" id="node17" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="1119,1297,1169,1324"/>
+<area shape="rect" id="node18" href="$pkt_8c.html#adb9f7ed98b4a9aa5dbab4df08c78ea0c" title="needed_pkt_nr_len" alt="" coords="334,1120,477,1147"/>
+<area shape="rect" id="node19" href="$pkt_8c.html#a6419e978eb233947f0bf7805663171fc" title="enc_lh_cids" alt="" coords="358,461,453,488"/>
+<area shape="rect" id="node20" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="582,449,651,476"/>
+<area shape="rect" id="node21" href="$pkt_8c.html#adca4536b7322c8cdc93b43ec0b146118" title="log_pkt" alt="" coords="783,1272,851,1299"/>
+<area shape="rect" id="node22" href="$pkt_8h.html#a05682f9ba0bc730b6f41b9597b756730" title="pkt_type_str" alt="" coords="943,1323,1045,1349"/>
+<area shape="rect" id="node23" href="$conn_8c.html#a1a9a96efc3be558373804c33a60df6b9" title="tx" alt="" coords="386,259,425,285"/>
+<area shape="rect" id="node38" href="$quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="936,943,1052,969"/>
+<area shape="rect" id="node39" href="$pn_8c.html#a7f1a6720a0e3506c0553d13ad865510f" title="needs_ack" alt="" coords="571,968,662,995"/>
+<area shape="rect" id="node40" href="$frame_8c.html#a69f067b935fc683f987fd0e0ea1b9efd" title="enc_ack_frame" alt="" coords="346,512,465,539"/>
+<area shape="rect" id="node41" href="$frame_8c.html#a35e96a60869ff030118503cb8a81f715" title="enc_close_frame" alt="" coords="340,563,471,589"/>
+<area shape="rect" id="node42" href="$pkt_8c.html#a835c615f20b782d4454cd6657becd9c3" title="enc_other_frames" alt="" coords="547,284,686,311"/>
+<area shape="rect" id="node43" href="$frame_8c.html#a0d8bea0a0a229b796505008855eb17f0" title="enc_padding_frame" alt="" coords="331,613,479,640"/>
+<area shape="rect" id="node44" href="$frame_8c.html#a7190a4126cab423b277e15971104bd8f" title="log_stream_or_crypto\l_frame" alt="" coords="536,1323,697,1365"/>
+<area shape="rect" id="node45" href="$frame_8c.html#a6134c4faa49bbd6fbc29589f12350400" title="enc_stream_or_crypto\l_frame" alt="" coords="323,1425,488,1466"/>
+<area shape="rect" id="node46" href="$frame_8c.html#a424f6073840f8f7a1599dd1b197dc591" title="enc_ping_frame" alt="" coords="343,664,467,691"/>
+<area shape="rect" id="node47" href="$tls_8c.html#ae6d4a9db5061b3f75c21480419c0489b" title="enc_aead" alt="" coords="775,1491,859,1517"/>
+<area shape="rect" id="node48" href="$recovery_8c.html#a9749ec5110f82cad7875d3ec8b94199d" title="on_pkt_sent" alt="" coords="355,867,455,893"/>
+<area shape="rect" id="node49" href="$tls_8c.html#a8984aa5b25b32bb8e40aef64f3164fc0" title="maybe_flip_keys" alt="" coords="342,715,469,741"/>
+<area shape="rect" id="node50" href="$pn_8c.html#a01a6deaf5b4cd84917145356378f1004" title="abandon_pn" alt="" coords="566,613,667,640"/>
+<area shape="rect" id="node25" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="757,512,877,539"/>
+<area shape="rect" id="node26" href="$conn_8h.html#a3037cafb7df5c92ea54b7e6646a692e7" title="has_wnd" alt="" coords="778,309,855,336"/>
+<area shape="rect" id="node28" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="772,360,861,387"/>
+<area shape="rect" id="node31" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="761,563,872,589"/>
+<area shape="rect" id="node32" href="$conn_8c.html#a12a896285cd7039b1bcd66c5fa895ec0" title="rtx_pkt" alt="" coords="783,867,850,893"/>
+<area shape="rect" id="node33" href="$stream_8c.html#a222da12d0111c9dee46a6cfc676be209" title="do_stream_fc" alt="" coords="762,411,871,437"/>
+<area shape="rect" id="node34" href="$conn_8c.html#a1bd607ec461f06fc371dc1e0ad98d6fe" title="do_conn_fc" alt="" coords="769,461,864,488"/>
+<area shape="rect" id="node27" href="$conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0" title="has_pval_wnd" alt="" coords="939,259,1049,285"/>
+<area shape="rect" id="node29" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="956,360,1032,387"/>
+<area shape="rect" id="node30" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="954,411,1034,437"/>
+<area shape="rect" id="node36" href="$pkt_8c.html#a1f839697f5c2cb2a8b086249c85399bc" title="coalesce" alt="" coords="777,1221,856,1248"/>
+<area shape="rect" id="node37" href="$conn_8c.html#a5743552083731c2f028e261c680fcd38" title="log_sent_pkts" alt="" coords="761,816,872,843"/>
 </map>
