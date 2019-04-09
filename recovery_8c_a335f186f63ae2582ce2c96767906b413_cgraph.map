@@ -32,7 +32,7 @@
 <area shape="rect" id="node28" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="879,715,978,741"/>
 <area shape="rect" id="node29" href="$pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d" title="is_lh" alt="" coords="1103,309,1154,336"/>
 <area shape="rect" id="node30" href="$pkt_8c.html#adb9f7ed98b4a9aa5dbab4df08c78ea0c" title="needed_pkt_nr_len" alt="" coords="857,832,1000,859"/>
-<area shape="rect" id="node31" href="$pkt_8c.html#a6419e978eb233947f0bf7805663171fc" title="enc_lh_cids" alt="" coords="881,512,976,539"/>
+<area shape="rect" id="node31" href="$pkt_8c.html#ad2d76033d11e2ba585fb32d72ecb8c21" title="enc_lh_cids" alt="" coords="881,512,976,539"/>
 <area shape="rect" id="node32" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="1094,487,1163,513"/>
 <area shape="rect" id="node33" href="$pkt_8c.html#adca4536b7322c8cdc93b43ec0b146118" title="log_pkt" alt="" coords="895,309,963,336"/>
 <area shape="rect" id="node34" href="$pn_8c.html#a7f1a6720a0e3506c0553d13ad865510f" title="needs_ack" alt="" coords="883,883,974,909"/>

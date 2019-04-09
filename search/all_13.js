@@ -63,7 +63,7 @@ var searchData=
   ['tx_5frtry',['tx_rtry',['../structq__conn.html#af204bd9db2f7193e8f1940865da162f6',1,'q_conn']]],
   ['tx_5fstream',['tx_stream',['../conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87',1,'conn.c']]],
   ['tx_5ft',['tx_t',['../structpkt__meta.html#a3a2f5352a57c1f84e8adea474e478b30',1,'pkt_meta']]],
-  ['tx_5fvneg_5fresp',['tx_vneg_resp',['../pkt_8c.html#acda77940d975cd06aecc7f0aae9f2aa0',1,'tx_vneg_resp(const struct w_sock *const ws, const struct w_iov *const v):&#160;pkt.c'],['../pkt_8h.html#acda77940d975cd06aecc7f0aae9f2aa0',1,'tx_vneg_resp(const struct w_sock *const ws, const struct w_iov *const v):&#160;pkt.c']]],
+  ['tx_5fvneg_5fresp',['tx_vneg_resp',['../conn_8c.html#a95fad38ef2fd2db652e6812fe23248d9',1,'conn.c']]],
   ['tx_5fw',['tx_w',['../structq__conn.html#a11888af06190d30dab6fd4d243d3c1d6',1,'q_conn::tx_w()'],['../conn_8c.html#ae7ad1167799a2920119487df92e81b85',1,'tx_w(struct ev_loop *const l, ev_async *const w, int e):&#160;conn.c'],['../conn_8h.html#ae7ad1167799a2920119487df92e81b85',1,'tx_w(struct ev_loop *const l, ev_async *const w, int e):&#160;conn.c']]],
   ['txq',['txq',['../structq__conn.html#a759c55d2a104321b9c2a1d848aa41bf9',1,'q_conn']]],
   ['type',['type',['../structpkt__hdr.html#a6bd0e607661940a084959f1f7a8dde44',1,'pkt_hdr']]]

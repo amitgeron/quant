@@ -62,5 +62,7 @@ var searchData=
   ['do_5fmigration',['do_migration',['../structq__conn.html#a11134ef29f0209e1196e2dd38719d233',1,'q_conn']]],
   ['do_5fstream_5ffc',['do_stream_fc',['../stream_8c.html#a222da12d0111c9dee46a6cfc676be209',1,'do_stream_fc(struct q_stream *const s, const uint16_t len):&#160;stream.c'],['../stream_8h.html#a222da12d0111c9dee46a6cfc676be209',1,'do_stream_fc(struct q_stream *const s, const uint16_t len):&#160;stream.c']]],
   ['do_5fstream_5fid_5ffc',['do_stream_id_fc',['../stream_8c.html#a848f253b1d052daeb064af9827ae2b31',1,'do_stream_id_fc(struct q_conn *const c, const int64_t cnt, const bool bidi, const bool local):&#160;stream.c'],['../stream_8h.html#a848f253b1d052daeb064af9827ae2b31',1,'do_stream_id_fc(struct q_conn *const c, const int64_t cnt, const bool bidi, const bool local):&#160;stream.c']]],
-  ['do_5ftx',['do_tx',['../conn_8c.html#a061f6268bdb3054227eedf2ca20cb8a1',1,'conn.c']]]
+  ['do_5ftx',['do_tx',['../conn_8c.html#a061f6268bdb3054227eedf2ca20cb8a1',1,'conn.c']]],
+  ['draft_5fversion',['DRAFT_VERSION',['../config_8h.html#a4e654ea0f2dda91f1a96ddfba37a1bbc',1,'config.h']]],
+  ['draft_5fversion_5fstring',['DRAFT_VERSION_STRING',['../config_8h.html#a7a5a18c99c05443fa175f03791a2dce2',1,'config.h']]]
 ];

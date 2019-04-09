@@ -23,6 +23,7 @@ var searchData=
   ['sl_5fhead',['sl_head',['../structq__conn.html#a1366606895ba607ada4d7a9ba66ba1be',1,'q_conn::sl_head()'],['../conn_8h.html#addd27b7fdfd0f22d4c24b474c8738213',1,'sl_head(q_conn_sl, q_conn):&#160;conn.h'],['../quic_8h.html#add58218ae6e5f0b1884990048cbe8e4b',1,'sl_head(pm_sl, pkt_meta):&#160;quic.h']]],
   ['sni',['sni',['../structtls__ticket.html#a9581a894f08fb8b93e139a9fe38a298d',1,'tls_ticket']]],
   ['sock',['sock',['../structq__conn.html#a36327baf8c4d695023b07a2270587e78',1,'q_conn']]],
+  ['sockaddr_5fcmp',['sockaddr_cmp',['../conn_8c.html#aa3547e658da2cf57cff10334bee9d5ad',1,'conn.c']]],
   ['sockopt',['sockopt',['../structq__conn.html#afb333c06b0f2b605fe9c5ad22bc629cf',1,'q_conn']]],
   ['spin',['spin',['../structq__conn.html#a0d2def4bbb2a28b0f1de788680154681',1,'q_conn']]],
   ['spin_5fenabled',['spin_enabled',['../structq__conn.html#a8617c2c20b85143faa2f45cf06b97698',1,'q_conn']]],

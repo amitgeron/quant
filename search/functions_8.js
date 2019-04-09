@@ -10,10 +10,8 @@ var searchData=
   ['init_5ftls_5fctx',['init_tls_ctx',['../tls_8c.html#a8ba632acdcea3aaa92753c3341fa22fe',1,'init_tls_ctx(const struct q_conf *const conf):&#160;tls.c'],['../tls_8h.html#a8ba632acdcea3aaa92753c3341fa22fe',1,'init_tls_ctx(const struct q_conf *const conf):&#160;tls.c']]],
   ['init_5ftp',['init_tp',['../tls_8c.html#a873296f812267d1c3475457cacc3c815',1,'init_tp(struct q_conn *const c):&#160;tls.c'],['../tls_8h.html#a873296f812267d1c3475457cacc3c815',1,'init_tp(struct q_conn *const c):&#160;tls.c']]],
   ['is_5fack_5feliciting',['is_ack_eliciting',['../quic_8h.html#a0a759eb1ac4d505084da1c53b3f064dd',1,'quic.h']]],
-  ['is_5fforce_5fvneg_5fvers',['is_force_vneg_vers',['../conn_8h.html#a3b1788e29ec153bfcb2b7edc34c488a6',1,'conn.h']]],
   ['is_5finf',['is_inf',['../conn_8h.html#a07cb3f3bb2c38f820f0a7fd74de25d6d',1,'conn.h']]],
   ['is_5flh',['is_lh',['../pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d',1,'pkt.h']]],
-  ['is_5frsvd_5fvers',['is_rsvd_vers',['../conn_8h.html#a76639ec987a700f45570a287b25025ea',1,'conn.h']]],
   ['is_5fsrt',['is_srt',['../pkt_8c.html#a5d29f794a7f6a553abb310327219672e',1,'is_srt(const struct w_iov *const xv, const struct w_iov *const v):&#160;pkt.c'],['../pkt_8h.html#a5d29f794a7f6a553abb310327219672e',1,'is_srt(const struct w_iov *const xv, const struct w_iov *const v):&#160;pkt.c']]],
   ['is_5fzero',['is_zero',['../conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d',1,'conn.h']]],
   ['ival_5fcmp',['ival_cmp',['../diet_8h.html#a011df4b95aedbfabdc4069b96f4638af',1,'diet.h']]]

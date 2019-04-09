@@ -12,5 +12,7 @@ var searchData=
   ['diet_5finit',['diet_init',['../diet_8h.html#a4e46b54c509960f5a1f933eecf367dc3',1,'diet.h']]],
   ['diet_5finitializer',['diet_initializer',['../diet_8h.html#ae999c3b3b505acf8a14facf9d480066f',1,'diet.h']]],
   ['do_5fdec',['do_dec',['../marshall_8c.html#a3d1f746ca4ba9b2b943e4460d0ac0399',1,'marshall.c']]],
-  ['do_5fenc',['do_enc',['../marshall_8c.html#a36d3d5e283c5534b19eac14f541abf94',1,'marshall.c']]]
+  ['do_5fenc',['do_enc',['../marshall_8c.html#a36d3d5e283c5534b19eac14f541abf94',1,'marshall.c']]],
+  ['draft_5fversion',['DRAFT_VERSION',['../config_8h.html#a4e654ea0f2dda91f1a96ddfba37a1bbc',1,'config.h']]],
+  ['draft_5fversion_5fstring',['DRAFT_VERSION_STRING',['../config_8h.html#a7a5a18c99c05443fa175f03791a2dce2',1,'config.h']]]
 ];
