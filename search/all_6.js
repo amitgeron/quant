@@ -18,6 +18,7 @@ var searchData=
   ['frame_2ec',['frame.c',['../frame_8c.html',1,'']]],
   ['frame_2eh',['frame.h',['../frame_8h.html',1,'']]],
   ['frames',['frames',['../structpkt__meta.html#a33129e1d483871567296de2e9794ca5d',1,'pkt_meta']]],
+  ['free_5fcids',['free_cids',['../conn_8c.html#a2071e094b5f8909687282a86ae2635fb',1,'conn.c']]],
   ['free_5fconn',['free_conn',['../conn_8c.html#a4a5deef512e20b125b45899c6c80c6fc',1,'free_conn(struct q_conn *const c):&#160;conn.c'],['../conn_8h.html#a4a5deef512e20b125b45899c6c80c6fc',1,'free_conn(struct q_conn *const c):&#160;conn.c']]],
   ['free_5fdcid',['free_dcid',['../conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56',1,'free_dcid(struct q_conn *const c, struct cid *const id):&#160;conn.c'],['../conn_8h.html#a1c73802c8005ac4f60cf1c0003972d56',1,'free_dcid(struct q_conn *const c, struct cid *const id):&#160;conn.c']]],
   ['free_5fiov',['free_iov',['../quic_8h.html#ad717e4c8ce421a3a170d95b98e863b77',1,'quic.h']]],

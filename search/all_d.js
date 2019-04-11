@@ -7,6 +7,7 @@ var searchData=
   ['needs_5fctrl',['needs_ctrl',['../stream_8h.html#a55033bb39f92f9963b52dd6d552ec723',1,'stream.h']]],
   ['needs_5fmore_5fncids',['needs_more_ncids',['../conn_8h.html#a21e64e0312f262d700c34004373df051',1,'conn.h']]],
   ['needs_5ftx',['needs_tx',['../structq__conn.html#a8f515035f5b42579e853757b82f37b08',1,'q_conn']]],
+  ['new_5fcids',['new_cids',['../conn_8c.html#a3f6ca706c4ae9f8fd0e40f70a155b1b7',1,'conn.c']]],
   ['new_5fconn',['new_conn',['../conn_8c.html#a539ae556cdf40667c6ba127808df4f28',1,'new_conn(struct w_engine *const w, const uint32_t vers, const struct cid *const dcid, const struct cid *const scid, const struct sockaddr *const peer, const char *const peer_name, const uint16_t port, const struct q_conn_conf *const cc):&#160;conn.c'],['../conn_8h.html#a539ae556cdf40667c6ba127808df4f28',1,'new_conn(struct w_engine *const w, const uint32_t vers, const struct cid *const dcid, const struct cid *const scid, const struct sockaddr *const peer, const char *const peer_name, const uint16_t port, const struct q_conn_conf *const cc):&#160;conn.c']]],
   ['new_5fstream',['new_stream',['../stream_8c.html#a300bcafbad60488eb0b6b0560eb1b645',1,'new_stream(struct q_conn *const c, const int64_t id):&#160;stream.c'],['../stream_8h.html#a300bcafbad60488eb0b6b0560eb1b645',1,'new_stream(struct q_conn *const c, const int64_t id):&#160;stream.c']]],
   ['next_5fsid_5fbidi',['next_sid_bidi',['../structq__conn.html#ac9be6183d08c8887a3125f767c6b8ea3',1,'q_conn']]],

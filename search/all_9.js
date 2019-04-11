@@ -34,6 +34,7 @@ var searchData=
   ['is_5facked',['is_acked',['../structpkt__meta.html#a3a15ff29d90b1fb954de8384f0de59b7',1,'pkt_meta']]],
   ['is_5fclnt',['is_clnt',['../structq__conn.html#af9ef67c77d27417b598225c700a110ee',1,'q_conn']]],
   ['is_5fcrypto_5fpkt',['is_crypto_pkt',['../recovery_8c.html#ae3bf2c7c384f8e14aa7b68b1e25f76dc',1,'recovery.c']]],
+  ['is_5fdraft_5fvers',['is_draft_vers',['../conn_8c.html#a43e5a890521da2dc19daa69d38fce6e3',1,'conn.c']]],
   ['is_5ffin',['is_fin',['../structpkt__meta.html#a9ba3c6af099f2c4836adab4e3381ba54',1,'pkt_meta']]],
   ['is_5finf',['is_inf',['../conn_8h.html#a07cb3f3bb2c38f820f0a7fd74de25d6d',1,'conn.h']]],
   ['is_5flh',['is_lh',['../pkt_8h.html#a4bfe94fcdabe97c2898be1e6d6f5bc1d',1,'pkt.h']]],

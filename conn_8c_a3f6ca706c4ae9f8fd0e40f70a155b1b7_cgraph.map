@@ -1,0 +1,12 @@
+<map id="new_cids" name="new_cids">
+<area shape="rect" id="node2" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="359,107,429,133"/>
+<area shape="rect" id="node4" href="$conn_8c.html#ae5beee50c7414b14d1efb1e3e8ebe1ee" title="add_dcid" alt="" coords="163,56,242,83"/>
+<area shape="rect" id="node7" href="$conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026" title="add_scid" alt="" coords="163,157,242,184"/>
+<area shape="rect" id="node10" href="$conn_8c.html#ae0f78c7a62de17ad9b4ac4c11dde7c85" title="conns_by_ipnp_ins" alt="" coords="132,233,273,260"/>
+<area shape="rect" id="node3" href="$quic_8h.html#add58218ae6e5f0b1884990048cbe8e4b" title="sl_head" alt="" coords="515,107,585,133"/>
+<area shape="rect" id="node5" href="$conn_8c.html#a619f2109f27acd5a1bb587f6d452097e" title="conns_by_srt_ins" alt="" coords="329,5,459,32"/>
+<area shape="rect" id="node6" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="350,56,438,83"/>
+<area shape="rect" id="node8" href="$conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8" title="cids_by_id_ins" alt="" coords="338,157,450,184"/>
+<area shape="rect" id="node9" href="$conn_8c.html#a3970d1f884f75ab86ab622e00bf9fce7" title="conns_by_id_ins" alt="" coords="331,208,457,235"/>
+<area shape="rect" id="node11" href="$conn_8c.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="321,259,467,285"/>
+</map>
