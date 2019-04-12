@@ -25,6 +25,6 @@ var searchData=
   ['log_5fstream_5for_5fcrypto_5fframe',['log_stream_or_crypto_frame',['../frame_8c.html#a7190a4126cab423b277e15971104bd8f',1,'log_stream_or_crypto_frame(const struct q_conn *const c, const bool rtx, const struct w_iov *const v, const int64_t sid, const bool in, const char *kind):&#160;frame.c'],['../frame_8h.html#a96702f94927c66b58af57eb5994b1e58',1,'log_stream_or_crypto_frame(const struct q_conn *const c, const bool rtx, const struct w_iov *const v, const int64_t sid, const bool in, const char *const kind):&#160;frame.c']]],
   ['loop',['loop',['../quic_8c.html#a855923b555731173d3509ecb645de0e0',1,'loop():&#160;quic.c'],['../quic_8h.html#a855923b555731173d3509ecb645de0e0',1,'loop():&#160;quic.c']]],
   ['loop_5frun',['loop_run',['../quic_8c.html#a7890c6fb9ffd79d2073edcdc00d600af',1,'quic.c']]],
-  ['loss_5ft',['loss_t',['../structrecovery.html#a2394e577c3fc53d34bb35b44b7113fe7',1,'recovery']]],
+  ['loss_5ft',['loss_t',['../structpn__space.html#a0823a61582f739c9f0870aa4741f4b67',1,'pn_space']]],
   ['lost',['lost',['../structpn__space.html#a454701f9e3185698aeca2bd2de0cb67b',1,'pn_space']]]
 ];

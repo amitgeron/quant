@@ -17,7 +17,6 @@ var searchData=
   ['rev',['REV',['../quic_8h.html#a33a42d6bfefe54ae2384f5c28dd87340',1,'quic.h']]],
   ['rtt',['rtt',['../structq__conn__info.html#ac17736271e7ce25c291367d08c451f96',1,'q_conn_info']]],
   ['rttvar',['rttvar',['../structq__conn__info.html#ae2bc163c06df7e2d089da0d86c8c8329',1,'q_conn_info::rttvar()'],['../structrecovery.html#a5cf84e57d9dd40c22412c44c72144917',1,'recovery::rttvar()']]],
-  ['rtx',['rtx',['../structpkt__meta.html#ad9cde51e14c2886f5a9e5d7f2aec6695',1,'pkt_meta']]],
   ['rtx_5fpkt',['rtx_pkt',['../conn_8c.html#a12a896285cd7039b1bcd66c5fa895ec0',1,'conn.c']]],
   ['rx',['rx',['../conn_8c.html#aa11ca616e8e32c1f341a77566615c0ea',1,'rx(struct ev_loop *const l, ev_io *const rx_w, int _e):&#160;conn.c'],['../conn_8h.html#aa11ca616e8e32c1f341a77566615c0ea',1,'rx(struct ev_loop *const l, ev_io *const rx_w, int _e):&#160;conn.c']]],
   ['rx_5fcrypto',['rx_crypto',['../conn_8c.html#a5d6639a237bb88d66f93760fc93000a5',1,'conn.c']]],

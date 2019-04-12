@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['earliest_5floss_5ft',['earliest_loss_t',['../recovery_8c.html#a3a6ec619590c0823414945725e40efeb',1,'recovery.c']]],
   ['ect0_5fcnt',['ect0_cnt',['../structpn__space.html#aaa448850caee459806a942aa85269668',1,'pn_space']]],
   ['ect1_5fcnt',['ect1_cnt',['../structpn__space.html#accaead83577916353b0cd7808a4731f5',1,'pn_space']]],
   ['enable_5fspinbit',['enable_spinbit',['../structq__conn__conf.html#a93d0fd7adf8938b84ded90e42e375416',1,'q_conn_conf']]],

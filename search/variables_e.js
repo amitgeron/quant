@@ -18,10 +18,10 @@ var searchData=
   ['pn_5fdata',['pn_data',['../structq__conn.html#a3482df5718d6faefdd3e373fed58060f',1,'q_conn']]],
   ['pn_5fhshk',['pn_hshk',['../structq__conn.html#af57c0f662f9f694701adde8a15043230',1,'q_conn']]],
   ['pref_5faddr',['pref_addr',['../structtransport__params.html#a69f6f6987946d75beff66d8489062ed2',1,'transport_params']]],
-  ['prev_5fcwnd',['prev_cwnd',['../recovery_8c.html#a2a3b269b84b9622566431b500ce443e8',1,'prev_cwnd():&#160;recovery.c'],['../recovery_8h.html#a2a3b269b84b9622566431b500ce443e8',1,'prev_cwnd():&#160;recovery.c']]],
-  ['prev_5fin_5fflight',['prev_in_flight',['../recovery_8c.html#a3fb4b02e3329257fd93d30587b1c21cb',1,'prev_in_flight():&#160;recovery.c'],['../recovery_8h.html#a3fb4b02e3329257fd93d30587b1c21cb',1,'prev_in_flight():&#160;recovery.c']]],
-  ['prev_5frttvar',['prev_rttvar',['../recovery_8c.html#a38bc7648b4feb3e4fff2356325633ad8',1,'prev_rttvar():&#160;recovery.c'],['../recovery_8h.html#a38bc7648b4feb3e4fff2356325633ad8',1,'prev_rttvar():&#160;recovery.c']]],
-  ['prev_5fsrtt',['prev_srtt',['../recovery_8c.html#a65e950ab971f91cfd74f5a9ac6cee7b5',1,'prev_srtt():&#160;recovery.c'],['../recovery_8h.html#a65e950ab971f91cfd74f5a9ac6cee7b5',1,'prev_srtt():&#160;recovery.c']]],
-  ['prev_5fssthresh',['prev_ssthresh',['../recovery_8c.html#aa23cadfa406671bbee3672516905f9e5',1,'prev_ssthresh():&#160;recovery.c'],['../recovery_8h.html#aa23cadfa406671bbee3672516905f9e5',1,'prev_ssthresh():&#160;recovery.c']]],
+  ['prev_5fcwnd',['prev_cwnd',['../structrecovery.html#a2afc183ff9d4322fe1574e6cbb7b670a',1,'recovery']]],
+  ['prev_5fin_5fflight',['prev_in_flight',['../structrecovery.html#abdcbcac1970c4e2377a3274602b12df3',1,'recovery']]],
+  ['prev_5frttvar',['prev_rttvar',['../structrecovery.html#a2ee8f917dce25ea57d18c4ba5aca2e7a',1,'recovery']]],
+  ['prev_5fsrtt',['prev_srtt',['../structrecovery.html#a6d576b5f5f84435007c2ae4ef5ed6ea2',1,'recovery']]],
+  ['prev_5fssthresh',['prev_ssthresh',['../structrecovery.html#aec67950d548b4aa670426845d2f919e2',1,'recovery']]],
   ['pto_5fcnt',['pto_cnt',['../structq__conn__info.html#af8041b4a52a2b94cf2771c351cc03b3c',1,'q_conn_info::pto_cnt()'],['../structrecovery.html#ac25b69c1b12ebc583cf3fe522c2e284e',1,'recovery::pto_cnt()']]]
 ];

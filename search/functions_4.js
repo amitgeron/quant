@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['earliest_5floss_5ft',['earliest_loss_t',['../recovery_8c.html#a3a6ec619590c0823414945725e40efeb',1,'recovery.c']]],
   ['enc_5fack_5fframe',['enc_ack_frame',['../frame_8c.html#a69f067b935fc683f987fd0e0ea1b9efd',1,'enc_ack_frame(struct pn_space *const pn, struct w_iov *const v, const uint16_t pos):&#160;frame.c'],['../frame_8h.html#a69f067b935fc683f987fd0e0ea1b9efd',1,'enc_ack_frame(struct pn_space *const pn, struct w_iov *const v, const uint16_t pos):&#160;frame.c']]],
   ['enc_5faead',['enc_aead',['../tls_8c.html#ae6d4a9db5061b3f75c21480419c0489b',1,'enc_aead(struct q_conn *const c, const struct w_iov *const v, struct w_iov *const xv, const uint16_t pkt_nr_pos):&#160;tls.c'],['../tls_8h.html#ae6d4a9db5061b3f75c21480419c0489b',1,'enc_aead(struct q_conn *const c, const struct w_iov *const v, struct w_iov *const xv, const uint16_t pkt_nr_pos):&#160;tls.c']]],
   ['enc_5fclose_5fframe',['enc_close_frame',['../frame_8c.html#a35e96a60869ff030118503cb8a81f715',1,'enc_close_frame(const struct q_conn *const c, struct w_iov *const v, const uint16_t pos):&#160;frame.c'],['../frame_8h.html#a35e96a60869ff030118503cb8a81f715',1,'enc_close_frame(const struct q_conn *const c, struct w_iov *const v, const uint16_t pos):&#160;frame.c']]],

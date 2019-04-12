@@ -2,13 +2,13 @@
 <area shape="rect" id="node2" href="$tls_8c.html#a04c7d8686952c02e95385a6e3fcab5a7" title="free_tls" alt="" coords="119,69,188,96"/>
 <area shape="rect" id="node5" href="$tls_8c.html#a5092fa492120deb7469e65bc9f5df3f8" title="filter_tp" alt="" coords="118,145,189,172"/>
 <area shape="rect" id="node6" href="$tls_8c.html#a878d1b8325596d2943bb662375ad2e72" title="chk_tp" alt="" coords="121,196,185,223"/>
-<area shape="rect" id="node22" href="$tls_8c.html#a705b76a676f449cbc37b9d955a2e0d5c" title="init_prot" alt="" coords="116,272,191,299"/>
+<area shape="rect" id="node21" href="$tls_8c.html#a705b76a676f449cbc37b9d955a2e0d5c" title="init_prot" alt="" coords="116,272,191,299"/>
 <area shape="rect" id="node3" href="$tls_8c.html#a28ce95450a6345dc4f1c85766e2edf8a" title="free_prot" alt="" coords="285,56,365,83"/>
 <area shape="rect" id="node4" href="$tls_8c.html#a0e432c22353f0539562e3eb2382001e2" title="dispose_cipher" alt="" coords="465,56,583,83"/>
 <area shape="rect" id="node7" href="$conn_8c.html#a02d7b0c5a072e1b673358b52ac71f160" title="err_close" alt="" coords="285,107,365,133"/>
 <area shape="rect" id="node17" href="$conn_8c.html#a619f2109f27acd5a1bb587f6d452097e" title="conns_by_srt_ins" alt="" coords="459,157,589,184"/>
 <area shape="rect" id="node18" href="$conn_8c.html#ae5beee50c7414b14d1efb1e3e8ebe1ee" title="add_dcid" alt="" coords="285,208,364,235"/>
-<area shape="rect" id="node21" href="$conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1" title="cid_cmp" alt="" coords="287,259,362,285"/>
+<area shape="rect" id="node20" href="$conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1" title="cid_cmp" alt="" coords="287,259,362,285"/>
 <area shape="rect" id="node8" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="471,107,577,133"/>
 <area shape="rect" id="node9" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="656,56,723,83"/>
 <area shape="rect" id="node10" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="637,107,741,133"/>
@@ -19,8 +19,7 @@
 <area shape="rect" id="node16" href="$quic_8c.html#a10d26c21df515950a80e3b9704240801" title="q_ready" alt="" coords="1079,56,1153,83"/>
 <area shape="rect" id="node15" href="$conn_8c.html#a8b3f561241f82fe8b840ed7655d13ffe" title="update_conn_conf" alt="" coords="1204,5,1343,32"/>
 <area shape="rect" id="node19" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="489,259,559,285"/>
-<area shape="rect" id="node20" href="$quic_8h.html#add58218ae6e5f0b1884990048cbe8e4b" title="sl_head" alt="" coords="654,259,725,285"/>
-<area shape="rect" id="node23" href="$tls_8c.html#aff7c4b2f9e78c2d678898dc58bc68e57" title="setup_initial_encryption" alt="" coords="239,309,411,336"/>
-<area shape="rect" id="node24" href="$tls_8c.html#ab26c763c76c9b874d651bdba836fc13f" title="setup_initial_key" alt="" coords="461,309,587,336"/>
-<area shape="rect" id="node25" href="$tls_8c.html#af5ebb2a5b8cab6a40a18677a5ea562fb" title="setup_cipher" alt="" coords="637,309,741,336"/>
+<area shape="rect" id="node22" href="$tls_8c.html#aff7c4b2f9e78c2d678898dc58bc68e57" title="setup_initial_encryption" alt="" coords="239,309,411,336"/>
+<area shape="rect" id="node23" href="$tls_8c.html#ab26c763c76c9b874d651bdba836fc13f" title="setup_initial_key" alt="" coords="461,309,587,336"/>
+<area shape="rect" id="node24" href="$tls_8c.html#af5ebb2a5b8cab6a40a18677a5ea562fb" title="setup_cipher" alt="" coords="637,309,741,336"/>
 </map>

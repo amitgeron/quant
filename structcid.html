@@ -106,13 +106,14 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a61ab34460c7fcffba43d1b4042b00b93"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcid.html#a61ab34460c7fcffba43d1b4042b00b93">len</a></td></tr>
 <tr class="memdesc:a61ab34460c7fcffba43d1b4042b00b93"><td class="mdescLeft">&#160;</td><td class="mdescRight">XXX len must precede id for <a class="el" href="conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1">cid_cmp()</a> over both to work.  <a href="#a61ab34460c7fcffba43d1b4042b00b93">More...</a><br /></td></tr>
 <tr class="separator:a61ab34460c7fcffba43d1b4042b00b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a048d6b0aaaabd5060c525fc1603da8f9"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcid.html#a048d6b0aaaabd5060c525fc1603da8f9">id</a> [<a class="el" href="quic_8h.html#a9182b20a4ab9449d0efbd6d873c2aecf">MAX_CID_LEN</a>]</td></tr>
-<tr class="memdesc:a048d6b0aaaabd5060c525fc1603da8f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">XXX id must precede srt for <a class="el" href="tls_8h.html#af88d67fbb8ca1ed1bfc28b5fdc467827">rand_bytes()</a> w/both to work.  <a href="#a048d6b0aaaabd5060c525fc1603da8f9">More...</a><br /></td></tr>
-<tr class="separator:a048d6b0aaaabd5060c525fc1603da8f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac523f935ad3384f8fba3fbae5731d459"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcid.html#ac523f935ad3384f8fba3fbae5731d459">id</a> [<a class="el" href="quic_8h.html#ae9adfb3c04c01d3ceb59639cbe654755">CID_LEN_MAX</a>]</td></tr>
+<tr class="memdesc:ac523f935ad3384f8fba3fbae5731d459"><td class="mdescLeft">&#160;</td><td class="mdescRight">XXX id must precede srt for <a class="el" href="tls_8h.html#af88d67fbb8ca1ed1bfc28b5fdc467827">rand_bytes()</a> over both to work.  <a href="#ac523f935ad3384f8fba3fbae5731d459">More...</a><br /></td></tr>
+<tr class="separator:ac523f935ad3384f8fba3fbae5731d459"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4445bbe90ef6a799450c1606badf557c"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcid.html#a4445bbe90ef6a799450c1606badf557c">srt</a> [<a class="el" href="quic_8h.html#aaa19e76a63eec1141d442d58c20042ed">SRT_LEN</a>]</td></tr>
 <tr class="memdesc:a4445bbe90ef6a799450c1606badf557c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stateless Reset Token.  <a href="#a4445bbe90ef6a799450c1606badf557c">More...</a><br /></td></tr>
 <tr class="separator:a4445bbe90ef6a799450c1606badf557c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae13435266a8a51eea685c06616552356"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcid.html#ae13435266a8a51eea685c06616552356">retired</a>: 1</td></tr>
+<tr class="memdesc:ae13435266a8a51eea685c06616552356"><td class="mdescLeft">&#160;</td><td class="mdescRight">Did we retire this CID?  <a href="#ae13435266a8a51eea685c06616552356">More...</a><br /></td></tr>
 <tr class="separator:ae13435266a8a51eea685c06616552356"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4cbb6c75927dee41c3ae074453fa032"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcid.html#af4cbb6c75927dee41c3ae074453fa032">__pad0__</a>: 7</td></tr>
 <tr class="separator:af4cbb6c75927dee41c3ae074453fa032"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,17 +162,17 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a048d6b0aaaabd5060c525fc1603da8f9"></a>
+<a class="anchor" id="ac523f935ad3384f8fba3fbae5731d459"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t cid::id[<a class="el" href="quic_8h.html#a9182b20a4ab9449d0efbd6d873c2aecf">MAX_CID_LEN</a>]</td>
+          <td class="memname">uint8_t cid::id[<a class="el" href="quic_8h.html#ae9adfb3c04c01d3ceb59639cbe654755">CID_LEN_MAX</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>XXX id must precede srt for <a class="el" href="tls_8h.html#af88d67fbb8ca1ed1bfc28b5fdc467827">rand_bytes()</a> w/both to work. </p>
+<p>XXX id must precede srt for <a class="el" href="tls_8h.html#af88d67fbb8ca1ed1bfc28b5fdc467827">rand_bytes()</a> over both to work. </p>
 <p>Connection ID </p>
 
 </div>
@@ -200,6 +201,8 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Did we retire this CID? </p>
 
 </div>
 </div>

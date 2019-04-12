@@ -103,6 +103,7 @@ Collaboration diagram for pkt_hdr:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
 <tr class="memitem:a23823bfa2cf1a6d7052bd71115458d46"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__hdr.html#a23823bfa2cf1a6d7052bd71115458d46">nr</a></td></tr>
+<tr class="memdesc:a23823bfa2cf1a6d7052bd71115458d46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Packet number.  <a href="#a23823bfa2cf1a6d7052bd71115458d46">More...</a><br /></td></tr>
 <tr class="separator:a23823bfa2cf1a6d7052bd71115458d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96c8d664da3461dd7029f2700fe69213"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__hdr.html#a96c8d664da3461dd7029f2700fe69213">len</a></td></tr>
 <tr class="memdesc:a96c8d664da3461dd7029f2700fe69213"><td class="mdescLeft">&#160;</td><td class="mdescRight">Content of length field in long header.  <a href="#a96c8d664da3461dd7029f2700fe69213">More...</a><br /></td></tr>
@@ -111,14 +112,19 @@ Data Fields</h2></td></tr>
 <tr class="memdesc:a8d278001c1d049f5d4b78db832670cca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of entire QUIC header.  <a href="#a8d278001c1d049f5d4b78db832670cca">More...</a><br /></td></tr>
 <tr class="separator:a8d278001c1d049f5d4b78db832670cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefa4a51682adca8379c85bc18566f4f3"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__hdr.html#aefa4a51682adca8379c85bc18566f4f3">vers</a></td></tr>
+<tr class="memdesc:aefa4a51682adca8379c85bc18566f4f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">QUIC version in long header.  <a href="#aefa4a51682adca8379c85bc18566f4f3">More...</a><br /></td></tr>
 <tr class="separator:aefa4a51682adca8379c85bc18566f4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb4dcbc319b38d10450078a780519c66"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structcid.html">cid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__hdr.html#afb4dcbc319b38d10450078a780519c66">dcid</a></td></tr>
+<tr class="memdesc:afb4dcbc319b38d10450078a780519c66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destination CID.  <a href="#afb4dcbc319b38d10450078a780519c66">More...</a><br /></td></tr>
 <tr class="separator:afb4dcbc319b38d10450078a780519c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29cdaea213d15beb68119e47e6d16bf1"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structcid.html">cid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__hdr.html#a29cdaea213d15beb68119e47e6d16bf1">scid</a></td></tr>
+<tr class="memdesc:a29cdaea213d15beb68119e47e6d16bf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Source CID.  <a href="#a29cdaea213d15beb68119e47e6d16bf1">More...</a><br /></td></tr>
 <tr class="separator:a29cdaea213d15beb68119e47e6d16bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1632f4a27e52dde0274278ea83fc3dd6"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__hdr.html#a1632f4a27e52dde0274278ea83fc3dd6">flags</a></td></tr>
+<tr class="memdesc:a1632f4a27e52dde0274278ea83fc3dd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">First (raw) byte of packet.  <a href="#a1632f4a27e52dde0274278ea83fc3dd6">More...</a><br /></td></tr>
 <tr class="separator:a1632f4a27e52dde0274278ea83fc3dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bd0e607661940a084959f1f7a8dde44"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__hdr.html#a6bd0e607661940a084959f1f7a8dde44">type</a></td></tr>
+<tr class="memdesc:a6bd0e607661940a084959f1f7a8dde44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parsed packet type.  <a href="#a6bd0e607661940a084959f1f7a8dde44">More...</a><br /></td></tr>
 <tr class="separator:a6bd0e607661940a084959f1f7a8dde44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8df84f610fa077cc8d45a1d37d7a9ae4"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__hdr.html#a8df84f610fa077cc8d45a1d37d7a9ae4">_unused</a> [6]</td></tr>
 <tr class="separator:a8df84f610fa077cc8d45a1d37d7a9ae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,6 +152,8 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Destination CID. </p>
+
 </div>
 </div>
 <a class="anchor" id="a1632f4a27e52dde0274278ea83fc3dd6"></a>
@@ -157,6 +165,8 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>First (raw) byte of packet. </p>
 
 </div>
 </div>
@@ -198,6 +208,8 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Packet number. </p>
+
 </div>
 </div>
 <a class="anchor" id="a29cdaea213d15beb68119e47e6d16bf1"></a>
@@ -209,6 +221,8 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Source CID. </p>
 
 </div>
 </div>
@@ -222,6 +236,8 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Parsed packet type. </p>
+
 </div>
 </div>
 <a class="anchor" id="aefa4a51682adca8379c85bc18566f4f3"></a>
@@ -233,6 +249,8 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>QUIC version in long header. </p>
 
 </div>
 </div>

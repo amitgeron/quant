@@ -1,0 +1,9 @@
+<map id="on_pkt_sent" name="on_pkt_sent">
+<area shape="rect" id="node2" href="$pn_8c.html#ae26e2093261e982d1e4e24d802da7482" title="pm_by_nr_ins" alt="" coords="153,31,264,57"/>
+<area shape="rect" id="node3" href="$recovery_8c.html#ab6edfdcadecde6939bdf8e64651e2300" title="set_ld_timer" alt="" coords="158,81,259,108"/>
+<area shape="rect" id="node4" href="$recovery_8c.html#a3a6ec619590c0823414945725e40efeb" title="earliest_loss_t" alt="" coords="331,5,445,32"/>
+<area shape="rect" id="node5" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="539,31,605,57"/>
+<area shape="rect" id="node6" href="$recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9" title="crypto_pkts_in_flight" alt="" coords="312,107,464,133"/>
+<area shape="rect" id="node8" href="$recovery_8c.html#a03492069f4bd0bd18e37842ab5ebba39" title="have_keys" alt="" coords="343,157,433,184"/>
+<area shape="rect" id="node7" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="512,107,632,133"/>
+</map>

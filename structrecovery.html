@@ -114,8 +114,6 @@ Data Fields</h2></td></tr>
 <tr class="separator:a5cf84e57d9dd40c22412c44c72144917"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad29432ca40c3f915331349f86dc4dd48"><td class="memItemLeft" align="right" valign="top">ev_tstamp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrecovery.html#ad29432ca40c3f915331349f86dc4dd48">min_rtt</a></td></tr>
 <tr class="separator:ad29432ca40c3f915331349f86dc4dd48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2394e577c3fc53d34bb35b44b7113fe7"><td class="memItemLeft" align="right" valign="top">ev_tstamp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrecovery.html#a2394e577c3fc53d34bb35b44b7113fe7">loss_t</a></td></tr>
-<tr class="separator:a2394e577c3fc53d34bb35b44b7113fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d05147b8997b09920401f62530db8d9"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrecovery.html#a6d05147b8997b09920401f62530db8d9">ce_cnt</a></td></tr>
 <tr class="separator:a6d05147b8997b09920401f62530db8d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a206af8b5f9afa712883a19d6c67a5b11"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrecovery.html#a206af8b5f9afa712883a19d6c67a5b11">in_flight</a></td></tr>
@@ -128,6 +126,16 @@ Data Fields</h2></td></tr>
 <tr class="separator:a8a540ddba0ef2e966827c57d9ce92a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2eb67fcd1408e01f084046d483f33008"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrecovery.html#a2eb67fcd1408e01f084046d483f33008">ssthresh</a></td></tr>
 <tr class="separator:a2eb67fcd1408e01f084046d483f33008"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdcbcac1970c4e2377a3274602b12df3"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrecovery.html#abdcbcac1970c4e2377a3274602b12df3">prev_in_flight</a></td></tr>
+<tr class="separator:abdcbcac1970c4e2377a3274602b12df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2afc183ff9d4322fe1574e6cbb7b670a"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrecovery.html#a2afc183ff9d4322fe1574e6cbb7b670a">prev_cwnd</a></td></tr>
+<tr class="separator:a2afc183ff9d4322fe1574e6cbb7b670a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec67950d548b4aa670426845d2f919e2"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrecovery.html#aec67950d548b4aa670426845d2f919e2">prev_ssthresh</a></td></tr>
+<tr class="separator:aec67950d548b4aa670426845d2f919e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d576b5f5f84435007c2ae4ef5ed6ea2"><td class="memItemLeft" align="right" valign="top">ev_tstamp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrecovery.html#a6d576b5f5f84435007c2ae4ef5ed6ea2">prev_srtt</a></td></tr>
+<tr class="separator:a6d576b5f5f84435007c2ae4ef5ed6ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ee8f917dce25ea57d18c4ba5aca2e7a"><td class="memItemLeft" align="right" valign="top">ev_tstamp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrecovery.html#a2ee8f917dce25ea57d18c4ba5aca2e7a">prev_rttvar</a></td></tr>
+<tr class="separator:a2ee8f917dce25ea57d18c4ba5aca2e7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Field Documentation</h2>
 <a class="anchor" id="a344cf1f099124552cd32f8d88bf0806c"></a>
@@ -250,24 +258,72 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2394e577c3fc53d34bb35b44b7113fe7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ev_tstamp recovery::loss_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="ad29432ca40c3f915331349f86dc4dd48"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">ev_tstamp recovery::min_rtt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2afc183ff9d4322fe1574e6cbb7b670a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t recovery::prev_cwnd</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abdcbcac1970c4e2377a3274602b12df3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t recovery::prev_in_flight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2ee8f917dce25ea57d18c4ba5aca2e7a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ev_tstamp recovery::prev_rttvar</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6d576b5f5f84435007c2ae4ef5ed6ea2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ev_tstamp recovery::prev_srtt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aec67950d548b4aa670426845d2f919e2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t recovery::prev_ssthresh</td>
         </tr>
       </table>
 </div><div class="memdoc">

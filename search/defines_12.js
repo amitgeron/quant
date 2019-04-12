@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['serv_5fscid_5flen',['SERV_SCID_LEN',['../quic_8h.html#af41ac5b263cca13ee08b287a015840bb',1,'quic.h']]],
+  ['scid_5flen_5fclnt',['SCID_LEN_CLNT',['../quic_8h.html#a7bb17e68186cf1a855afd31bb2ca6dd6',1,'quic.h']]],
+  ['scid_5flen_5fserv',['SCID_LEN_SERV',['../quic_8h.html#ab39c5e87edc0a551c72ef0806bb055f9',1,'quic.h']]],
   ['sh',['SH',['../pkt_8h.html#a4453478cd8b3bf96df84fe861cb78600',1,'pkt.h']]],
   ['sh_5fkyph',['SH_KYPH',['../pkt_8h.html#aac21d1cab97be651a603a90c9a4429b2',1,'pkt.h']]],
   ['sh_5frsvd_5fmask',['SH_RSVD_MASK',['../pkt_8h.html#a20f7c95d6bdd5b0c404b6057b07db611',1,'pkt.h']]],

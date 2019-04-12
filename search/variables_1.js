@@ -5,6 +5,7 @@ var searchData=
   ['ack_5fblock_5fcnt',['ack_block_cnt',['../structpkt__meta.html#ad1832e1307ec64c29a877455b5f78000',1,'pkt_meta']]],
   ['ack_5fblock_5fpos',['ack_block_pos',['../structpkt__meta.html#aeffe2a16e53c9eb4d1a6080436c7de4c',1,'pkt_meta']]],
   ['ack_5fdel_5fexp',['ack_del_exp',['../structtransport__params.html#ae332eb1c8176a3916959caa35f810278',1,'transport_params']]],
+  ['ack_5feliciting',['ack_eliciting',['../structpkt__meta.html#a124673fd441a71257c4cd155ba33a775',1,'pkt_meta']]],
   ['acked',['acked',['../structpn__space.html#a258b213b1fbb488b1d1dda308dcade45',1,'pn_space']]],
   ['addr4',['addr4',['../structpref__addr.html#ac421cccadc12a277b20c4f043f6f7d11',1,'pref_addr']]],
   ['addr6',['addr6',['../structpref__addr.html#a9a4e3886ce36cf0d1c8e3cffc409c755',1,'pref_addr']]],

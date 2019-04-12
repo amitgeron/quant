@@ -10,6 +10,7 @@ var searchData=
   ['hash_5fsrt',['hash_srt',['../conn_8h.html#aa1d052ded64269f24779a0f8916b1f49',1,'conn.h']]],
   ['have_5fasan',['HAVE_ASAN',['../config_8h.html#a08ee9e2d328d1d579ee81843a3b01692',1,'config.h']]],
   ['have_5fendian_5fh',['HAVE_ENDIAN_H',['../config_8h.html#a9ef8e61ca569fc24c3e47aeab03498c6',1,'config.h']]],
+  ['have_5fkeys',['have_keys',['../recovery_8c.html#a03492069f4bd0bd18e37842ab5ebba39',1,'recovery.c']]],
   ['have_5fnew_5fdata',['have_new_data',['../structq__conn.html#aacd70807b8436bf3f3fae648164a1443',1,'q_conn']]],
   ['hdr',['hdr',['../structpkt__meta.html#ade732240d1610adc75a376707de4fdd1',1,'pkt_meta']]],
   ['hdr_5flen',['hdr_len',['../structpkt__hdr.html#a8d278001c1d049f5d4b78db832670cca',1,'pkt_hdr']]],

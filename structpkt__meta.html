@@ -122,12 +122,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a99c46c2dc2554d055e866aa491e1ada2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e459e2fc33bd3e88fe4c32ea57962a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a7e459e2fc33bd3e88fe4c32ea57962a4">sl_entry</a> (<a class="el" href="structpkt__meta.html">pkt_meta</a>) rtx_next</td></tr>
 <tr class="separator:a7e459e2fc33bd3e88fe4c32ea57962a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6f5686d2124c8748063a9ce192641ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#ac6f5686d2124c8748063a9ce192641ab">sl_head</a> (pm_sl, <a class="el" href="structpkt__meta.html">pkt_meta</a>) rtx</td></tr>
+<tr class="memdesc:ac6f5686d2124c8748063a9ce192641ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of <a class="el" href="structpkt__meta.html" title="Packet meta-data information associated with w_iov buffers. ">pkt_meta</a> structs of previous TXs.  <a href="#ac6f5686d2124c8748063a9ce192641ab">More...</a><br /></td></tr>
+<tr class="separator:ac6f5686d2124c8748063a9ce192641ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:ad9cde51e14c2886f5a9e5d7f2aec6695"><td class="memItemLeft" align="right" valign="top">struct pm_sl&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#ad9cde51e14c2886f5a9e5d7f2aec6695">rtx</a></td></tr>
-<tr class="memdesc:ad9cde51e14c2886f5a9e5d7f2aec6695"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of <a class="el" href="structpkt__meta.html" title="Packet meta-data information associated with w_iov buffers. ">pkt_meta</a> structs of previous TXs.  <a href="#ad9cde51e14c2886f5a9e5d7f2aec6695">More...</a><br /></td></tr>
-<tr class="separator:ad9cde51e14c2886f5a9e5d7f2aec6695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6c0f1c83fc566c86ae941e4af89e9b5"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structq__stream.html">q_stream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#ad6c0f1c83fc566c86ae941e4af89e9b5">stream</a></td></tr>
 <tr class="memdesc:ad6c0f1c83fc566c86ae941e4af89e9b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream this data was written on.  <a href="#ad6c0f1c83fc566c86ae941e4af89e9b5">More...</a><br /></td></tr>
 <tr class="separator:ad6c0f1c83fc566c86ae941e4af89e9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,6 +177,7 @@ Data Fields</h2></td></tr>
 <tr class="memdesc:a94d757271e641d96b7a8aeaec5377adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Packet number space; only set on TX.  <a href="#a94d757271e641d96b7a8aeaec5377adc">More...</a><br /></td></tr>
 <tr class="separator:a94d757271e641d96b7a8aeaec5377adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade732240d1610adc75a376707de4fdd1"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structpkt__hdr.html">pkt_hdr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#ade732240d1610adc75a376707de4fdd1">hdr</a></td></tr>
+<tr class="memdesc:ade732240d1610adc75a376707de4fdd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parsed packet header.  <a href="#ade732240d1610adc75a376707de4fdd1">More...</a><br /></td></tr>
 <tr class="separator:ade732240d1610adc75a376707de4fdd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a633b6473e8f60ab28a373f94ed2a825f"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a633b6473e8f60ab28a373f94ed2a825f">udp_len</a></td></tr>
 <tr class="memdesc:a633b6473e8f60ab28a373f94ed2a825f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of protected UDP packet at TX/RX.  <a href="#a633b6473e8f60ab28a373f94ed2a825f">More...</a><br /></td></tr>
@@ -196,7 +197,13 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a9ba3c6af099f2c4836adab4e3381ba54"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a9ba3c6af099f2c4836adab4e3381ba54">is_fin</a>: 1</td></tr>
 <tr class="memdesc:a9ba3c6af099f2c4836adab4e3381ba54"><td class="mdescLeft">&#160;</td><td class="mdescRight">This packet has a stream FIN bit.  <a href="#a9ba3c6af099f2c4836adab4e3381ba54">More...</a><br /></td></tr>
 <tr class="separator:a9ba3c6af099f2c4836adab4e3381ba54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dfa8f596f83d4d781731f06bc3a437b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a6dfa8f596f83d4d781731f06bc3a437b">__pad0__</a>: 3</td></tr>
+<tr class="memitem:a412a79be05620271b226a04af3199726"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a412a79be05620271b226a04af3199726">in_flight</a>: 1</td></tr>
+<tr class="memdesc:a412a79be05620271b226a04af3199726"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does this pkt count towards in_flight?  <a href="#a412a79be05620271b226a04af3199726">More...</a><br /></td></tr>
+<tr class="separator:a412a79be05620271b226a04af3199726"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a124673fd441a71257c4cd155ba33a775"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a124673fd441a71257c4cd155ba33a775">ack_eliciting</a>: 1</td></tr>
+<tr class="memdesc:a124673fd441a71257c4cd155ba33a775"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is this packet ACK-eliciting?  <a href="#a124673fd441a71257c4cd155ba33a775">More...</a><br /></td></tr>
+<tr class="separator:a124673fd441a71257c4cd155ba33a775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dfa8f596f83d4d781731f06bc3a437b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a6dfa8f596f83d4d781731f06bc3a437b">__pad0__</a>: 1</td></tr>
 <tr class="separator:a6dfa8f596f83d4d781731f06bc3a437b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63c560e0b40127920ebb2b9a7d9787dc"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a63c560e0b40127920ebb2b9a7d9787dc">_unused</a> [5]</td></tr>
 <tr class="separator:a63c560e0b40127920ebb2b9a7d9787dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -217,6 +224,34 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac6f5686d2124c8748063a9ce192641ab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">pkt_meta::sl_head </td>
+          <td>(</td>
+          <td class="paramtype">pm_sl&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structpkt__meta.html">pkt_meta</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>List of <a class="el" href="structpkt__meta.html" title="Packet meta-data information associated with w_iov buffers. ">pkt_meta</a> structs of previous TXs. </p>
 
 </div>
 </div>
@@ -289,6 +324,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a124673fd441a71257c4cd155ba33a775"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t pkt_meta::ack_eliciting</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Is this packet ACK-eliciting? </p>
+
+</div>
+</div>
 <a class="anchor" id="a33129e1d483871567296de2e9794ca5d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -326,6 +375,22 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Parsed packet header. </p>
+
+</div>
+</div>
+<a class="anchor" id="a412a79be05620271b226a04af3199726"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t pkt_meta::in_flight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Does this pkt count towards in_flight? </p>
 
 </div>
 </div>
@@ -480,20 +545,6 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Packet number space; only set on TX. </p>
-
-</div>
-</div>
-<a class="anchor" id="ad9cde51e14c2886f5a9e5d7f2aec6695"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct pm_sl pkt_meta::rtx</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>List of <a class="el" href="structpkt__meta.html" title="Packet meta-data information associated with w_iov buffers. ">pkt_meta</a> structs of previous TXs. </p>
 
 </div>
 </div>
