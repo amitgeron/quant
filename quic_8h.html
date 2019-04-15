@@ -238,7 +238,7 @@ Macros</h2></td></tr>
 <tr class="memitem:a2e19342e141828d7fe9b2870e5d7d70a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a2e19342e141828d7fe9b2870e5d7d70a">is_set</a>(f,  v)&#160;&#160;&#160;(((v) &amp; (f)) == (f))</td></tr>
 <tr class="memdesc:a2e19342e141828d7fe9b2870e5d7d70a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is flag <code>f</code> set in flags variable <code>v</code>?  <a href="#a2e19342e141828d7fe9b2870e5d7d70a">More...</a><br /></td></tr>
 <tr class="separator:a2e19342e141828d7fe9b2870e5d7d70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01ed57991bea53afa1ece4452d16b568"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a01ed57991bea53afa1ece4452d16b568">meta</a>(v)&#160;&#160;&#160;<a class="el" href="structpkt__meta.html">pkt_meta</a>[v-&gt;idx]</td></tr>
+<tr class="memitem:a01ed57991bea53afa1ece4452d16b568"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a01ed57991bea53afa1ece4452d16b568">meta</a>(v)&#160;&#160;&#160;<a class="el" href="structpkt__meta.html">pkt_meta</a>[w_iov_idx(v)]</td></tr>
 <tr class="memdesc:a01ed57991bea53afa1ece4452d16b568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="structpkt__meta.html" title="Packet meta-data information associated with w_iov buffers. ">pkt_meta</a> entry for a given w_iov.  <a href="#a01ed57991bea53afa1ece4452d16b568">More...</a><br /></td></tr>
 <tr class="separator:a01ed57991bea53afa1ece4452d16b568"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f8792ee4a5316407d254ad349fd362d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quic_8h.html#a1f8792ee4a5316407d254ad349fd362d">pm_idx</a>(m)&#160;&#160;&#160;(uint32_t)((m)-<a class="el" href="structpkt__meta.html">pkt_meta</a>)</td></tr>
@@ -973,7 +973,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">v</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="structpkt__meta.html">pkt_meta</a>[v-&gt;idx]</td>
+          <td>&#160;&#160;&#160;<a class="el" href="structpkt__meta.html">pkt_meta</a>[w_iov_idx(v)]</td>
         </tr>
       </table>
 </div><div class="memdoc">
