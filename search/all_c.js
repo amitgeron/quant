@@ -3,6 +3,7 @@ var searchData=
   ['mag',['MAG',['../quic_8h.html#af54a5a977c0c499323d656315f008ee0',1,'quic.h']]],
   ['make_5fival',['make_ival',['../diet_8c.html#a21164f67106bc7c1712e8b6596aa0253',1,'diet.c']]],
   ['make_5frtry_5ftok',['make_rtry_tok',['../tls_8c.html#a7af72f607847e5a6a71e9910b489fedc',1,'make_rtry_tok(struct q_conn *const c):&#160;tls.c'],['../tls_8h.html#a7af72f607847e5a6a71e9910b489fedc',1,'make_rtry_tok(struct q_conn *const c):&#160;tls.c']]],
+  ['mark_5ffin',['mark_fin',['../quic_8c.html#aa92a594181a524fb08b0d071f57787b5',1,'quic.c']]],
   ['marshall_2ec',['marshall.c',['../marshall_8c.html',1,'']]],
   ['marshall_2eh',['marshall.h',['../marshall_8h.html',1,'']]],
   ['marshall_5fdec',['marshall_dec',['../marshall_8c.html#a55857f76ce486a6d5865b0fbb883243d',1,'marshall_dec(void *const dst, const uint8_t *const buf, const uint16_t buf_len, const uint16_t pos, const uint8_t dst_len):&#160;marshall.c'],['../marshall_8h.html#a55857f76ce486a6d5865b0fbb883243d',1,'marshall_dec(void *const dst, const uint8_t *const buf, const uint16_t buf_len, const uint16_t pos, const uint8_t dst_len):&#160;marshall.c']]],

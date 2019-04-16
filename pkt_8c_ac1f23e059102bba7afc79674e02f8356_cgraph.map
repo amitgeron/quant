@@ -1,0 +1,22 @@
+<map id="enc_other_frames" name="enc_other_frames">
+<area shape="rect" id="node2" href="$pkt_8c.html#a543cd815c7575ce1f12d9dac33691932" title="can_enc" alt="" coords="251,5,325,32"/>
+<area shape="rect" id="node4" href="$frame_8c.html#a8a73ed9d13e11bebd8edacbbc6048dca" title="enc_new_token_frame" alt="" coords="205,56,371,83"/>
+<area shape="rect" id="node5" href="$frame_8c.html#a00668f2a67c0039355ac8f4731068ccd" title="enc_path_response_frame" alt="" coords="192,107,384,133"/>
+<area shape="rect" id="node6" href="$frame_8c.html#a2b1b37ca1c1bd0caee4a9386a3906428" title="enc_retire_cid_frame" alt="" coords="210,157,366,184"/>
+<area shape="rect" id="node7" href="$conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56" title="free_dcid" alt="" coords="248,208,328,235"/>
+<area shape="rect" id="node9" href="$frame_8c.html#a71bc885971dbad871b33b35acfc3f86a" title="enc_path_challenge\l_frame" alt="" coords="213,259,363,301"/>
+<area shape="rect" id="node10" href="$frame_8c.html#aa623f586feb7802bf9289f7745412309" title="enc_new_cid_frame" alt="" coords="215,325,361,352"/>
+<area shape="rect" id="node15" href="$conn_8h.html#a21e64e0312f262d700c34004373df051" title="needs_more_ncids" alt="" coords="217,376,359,403"/>
+<area shape="rect" id="node16" href="$frame_8c.html#abcd07b0c05377c4749eda23cd68edebd" title="enc_data_blocked_frame" alt="" coords="197,427,379,453"/>
+<area shape="rect" id="node17" href="$frame_8c.html#a0e1bf6edbf194c6fb968d9b299c3b1d9" title="enc_max_data_frame" alt="" coords="207,477,369,504"/>
+<area shape="rect" id="node18" href="$frame_8c.html#a8b432a08cb5785e1b771ddb6a2f98e8a" title="enc_streams_blocked\l_frame" alt="" coords="207,529,369,570"/>
+<area shape="rect" id="node19" href="$frame_8c.html#a407e6cbf85e6702cd805cfa36ff7a741" title="enc_max_streams_frame" alt="" coords="195,595,381,621"/>
+<area shape="rect" id="node20" href="$frame_8c.html#a3232dc195850e7ca17d0e3c559e1ed40" title="enc_stream_data_blocked\l_frame" alt="" coords="193,646,383,687"/>
+<area shape="rect" id="node21" href="$frame_8c.html#a2351b6af907d8cfccbe9bddcf3231da6" title="enc_max_stream_data\l_frame" alt="" coords="203,711,373,753"/>
+<area shape="rect" id="node3" href="$frame_8c.html#af12f0dbd9c7d385b94e1041b53c31b2d" title="max_frame_len" alt="" coords="437,5,559,32"/>
+<area shape="rect" id="node8" href="$conn_8c.html#af84f094acba0e3ce125f3c1297b7ec32" title="conns_by_srt_del" alt="" coords="432,208,564,235"/>
+<area shape="rect" id="node11" href="$conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026" title="add_scid" alt="" coords="459,325,537,352"/>
+<area shape="rect" id="node12" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="640,275,709,301"/>
+<area shape="rect" id="node13" href="$conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8" title="cids_by_id_ins" alt="" coords="619,325,731,352"/>
+<area shape="rect" id="node14" href="$conn_8c.html#a3970d1f884f75ab86ab622e00bf9fce7" title="conns_by_id_ins" alt="" coords="612,376,737,403"/>
+</map>
