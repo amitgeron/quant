@@ -161,8 +161,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5e1b2467727211ddbdb708c568001704"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae26e2093261e982d1e4e24d802da7482"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pn_8h.html#ae26e2093261e982d1e4e24d802da7482">pm_by_nr_ins</a> (<a class="el" href="conn_8h.html#a5b12a7406b1eb761abba520fda66b34c">khash_t</a>(pm_by_nr)*const pbn, struct <a class="el" href="structpkt__meta.html">pkt_meta</a> *const p)</td></tr>
 <tr class="separator:ae26e2093261e982d1e4e24d802da7482"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abebf0f53d0cb685c40e65fb5ab645d61"><td class="memItemLeft" align="right" valign="top">struct w_iov *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pn_8h.html#abebf0f53d0cb685c40e65fb5ab645d61">find_sent_pkt</a> (const struct <a class="el" href="structpn__space.html">pn_space</a> *const pn, const uint64_t nr)</td></tr>
-<tr class="separator:abebf0f53d0cb685c40e65fb5ab645d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a6f2abbba0edf1013f026cdad492e44"><td class="memItemLeft" align="right" valign="top">struct w_iov *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pn_8h.html#a2a6f2abbba0edf1013f026cdad492e44">find_sent_pkt</a> (const struct <a class="el" href="structpn__space.html">pn_space</a> *const pn, const uint64_t nr, struct <a class="el" href="structpkt__meta.html">pkt_meta</a> **const m)</td></tr>
+<tr class="separator:a2a6f2abbba0edf1013f026cdad492e44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08111eb107b4ea7f913acc44b761bda0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pn_8h.html#a08111eb107b4ea7f913acc44b761bda0">init_pn</a> (struct <a class="el" href="structpn__space.html">pn_space</a> *const pn, struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
 <tr class="separator:a08111eb107b4ea7f913acc44b761bda0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b132beb2506faada16af74535e27fec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pn_8h.html#a3b132beb2506faada16af74535e27fec">free_pn</a> (struct <a class="el" href="structpn__space.html">pn_space</a> *const pn)</td></tr>
@@ -234,7 +234,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node17" href="recovery_8c.html#ab6edfdcadecde6939bdf8e64651e2300" title="set_ld_timer" alt="" coords="163,436,264,463"/>
 <area shape="rect" id="node4" href="quic_8h.html#a08a8b428b6532cad77b89ac47c23c99c" title="free_iov" alt="" coords="544,157,616,184"/>
 <area shape="rect" id="node7" href="diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="Free the diet tree d and all its intervals. " alt="" coords="357,5,435,32"/>
-<area shape="rect" id="node5" href="pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="690,132,797,159"/>
+<area shape="rect" id="node5" href="pn_8c.html#a2a6f2abbba0edf1013f026cdad492e44" title="find_sent_pkt" alt="" coords="690,132,797,159"/>
 <area shape="rect" id="node6" href="pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="688,183,799,209"/>
 <area shape="rect" id="node9" href="diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="351,309,441,336"/>
 <area shape="rect" id="node14" href="stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="347,259,445,285"/>
@@ -254,7 +254,7 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="abebf0f53d0cb685c40e65fb5ab645d61"></a>
+<a class="anchor" id="a2a6f2abbba0edf1013f026cdad492e44"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -268,7 +268,13 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const uint64_t&#160;</td>
-          <td class="paramname"><em>nr</em>&#160;</td>
+          <td class="paramname"><em>nr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structpkt__meta.html">pkt_meta</a> **const&#160;</td>
+          <td class="paramname"><em>m</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -301,7 +307,7 @@ Here is the call graph for this function:</div>
 <map name="pn_8h_a3b132beb2506faada16af74535e27fec_cgraph" id="pn_8h_a3b132beb2506faada16af74535e27fec_cgraph">
 <area shape="rect" id="node2" href="quic_8h.html#a08a8b428b6532cad77b89ac47c23c99c" title="free_iov" alt="" coords="127,31,199,57"/>
 <area shape="rect" id="node5" href="diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="Free the diet tree d and all its intervals. " alt="" coords="124,81,203,108"/>
-<area shape="rect" id="node3" href="pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="253,5,359,32"/>
+<area shape="rect" id="node3" href="pn_8c.html#a2a6f2abbba0edf1013f026cdad492e44" title="find_sent_pkt" alt="" coords="253,5,359,32"/>
 <area shape="rect" id="node4" href="pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="251,56,361,83"/>
 </map>
 </div>
@@ -435,7 +441,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node2" href="pn_8c.html#a3b132beb2506faada16af74535e27fec" title="free_pn" alt="" coords="132,56,203,83"/>
 <area shape="rect" id="node3" href="quic_8h.html#a08a8b428b6532cad77b89ac47c23c99c" title="free_iov" alt="" coords="254,31,326,57"/>
 <area shape="rect" id="node6" href="diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="Free the diet tree d and all its intervals. " alt="" coords="251,81,329,108"/>
-<area shape="rect" id="node4" href="pn_8c.html#abebf0f53d0cb685c40e65fb5ab645d61" title="find_sent_pkt" alt="" coords="379,5,486,32"/>
+<area shape="rect" id="node4" href="pn_8c.html#a2a6f2abbba0edf1013f026cdad492e44" title="find_sent_pkt" alt="" coords="379,5,486,32"/>
 <area shape="rect" id="node5" href="pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="377,56,488,83"/>
 </map>
 </div>
