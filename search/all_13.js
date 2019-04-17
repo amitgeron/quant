@@ -50,7 +50,7 @@ var searchData=
   ['tree_2eh',['tree.h',['../tree_8h.html',1,'']]],
   ['trim_5fframe',['trim_frame',['../frame_8c.html#ae6b33881d5310ee374d246e582265d43',1,'frame.c']]],
   ['try_5f0rtt',['try_0rtt',['../structq__conn.html#a560bbc195a5c8b9642f059bbddddb442',1,'q_conn']]],
-  ['tx',['tx',['../conn_8c.html#a1a9a96efc3be558373804c33a60df6b9',1,'tx(struct q_conn *const c, const uint32_t limit):&#160;conn.c'],['../conn_8h.html#a1a9a96efc3be558373804c33a60df6b9',1,'tx(struct q_conn *const c, const uint32_t limit):&#160;conn.c']]],
+  ['tx',['tx',['../conn_8c.html#ade49ead4769b1fdbc2897cba41265ca7',1,'tx(struct ev_loop *const l, ev_async *const w, int param):&#160;conn.c'],['../conn_8h.html#ade49ead4769b1fdbc2897cba41265ca7',1,'tx(struct ev_loop *const l, ev_async *const w, int param):&#160;conn.c']]],
   ['tx_5fack',['tx_ack',['../conn_8c.html#a0a20a8f8077967eb418a31161d81e69b',1,'conn.c']]],
   ['tx_5fmax_5fdata',['tx_max_data',['../structq__conn.html#ae7d9e1ddf34ca4d0fde9e614f472afc7',1,'q_conn']]],
   ['tx_5fmax_5fsid_5fbidi',['tx_max_sid_bidi',['../structq__conn.html#a6ed2795485a81d8795d615da525d75db',1,'q_conn']]],
@@ -64,7 +64,7 @@ var searchData=
   ['tx_5fstream',['tx_stream',['../conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87',1,'conn.c']]],
   ['tx_5ft',['tx_t',['../structpkt__meta.html#a3a2f5352a57c1f84e8adea474e478b30',1,'pkt_meta']]],
   ['tx_5fvneg_5fresp',['tx_vneg_resp',['../conn_8c.html#a795d06d86ccd579f21c598863b0c2e9e',1,'conn.c']]],
-  ['tx_5fw',['tx_w',['../structq__conn.html#a11888af06190d30dab6fd4d243d3c1d6',1,'q_conn::tx_w()'],['../conn_8c.html#ae7ad1167799a2920119487df92e81b85',1,'tx_w(struct ev_loop *const l, ev_async *const w, int e):&#160;conn.c'],['../conn_8h.html#ae7ad1167799a2920119487df92e81b85',1,'tx_w(struct ev_loop *const l, ev_async *const w, int e):&#160;conn.c']]],
+  ['tx_5fw',['tx_w',['../structq__conn.html#a11888af06190d30dab6fd4d243d3c1d6',1,'q_conn']]],
   ['txed',['txed',['../structpkt__meta.html#adcfc95bc63f8319aed2c689e374de3fd',1,'pkt_meta']]],
   ['txq',['txq',['../structq__conn.html#a759c55d2a104321b9c2a1d848aa41bf9',1,'q_conn']]],
   ['type',['type',['../structpkt__hdr.html#a6bd0e607661940a084959f1f7a8dde44',1,'pkt_hdr']]]
