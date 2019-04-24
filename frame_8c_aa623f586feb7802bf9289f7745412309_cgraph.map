@@ -1,6 +1,0 @@
-<map id="enc_new_cid_frame" name="enc_new_cid_frame">
-<area shape="rect" id="node2" href="$conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026" title="add_scid" alt="" coords="200,56,279,83"/>
-<area shape="rect" id="node3" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="355,5,424,32"/>
-<area shape="rect" id="node4" href="$conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8" title="cids_by_id_ins" alt="" coords="333,56,445,83"/>
-<area shape="rect" id="node5" href="$conn_8c.html#a3970d1f884f75ab86ab622e00bf9fce7" title="conns_by_id_ins" alt="" coords="327,107,452,133"/>
-</map>

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['abandon_5fpn',['abandon_pn',['../pn_8c.html#a01a6deaf5b4cd84917145356378f1004',1,'abandon_pn(struct q_conn *const c, const epoch_t e):&#160;pn.c'],['../pn_8h.html#a01a6deaf5b4cd84917145356378f1004',1,'abandon_pn(struct q_conn *const c, const epoch_t e):&#160;pn.c']]],
+  ['abandon_5fpn',['abandon_pn',['../pn_8c.html#a09fda4ec22e85f212934510543d52c4f',1,'abandon_pn(struct pn_space *const pn):&#160;pn.c'],['../pn_8h.html#a09fda4ec22e85f212934510543d52c4f',1,'abandon_pn(struct pn_space *const pn):&#160;pn.c']]],
   ['accept_5fqueue',['accept_queue',['../quic_8c.html#a529b3e85be5e0f15a6af3227e3f7c445',1,'accept_queue():&#160;quic.c'],['../quic_8h.html#a529b3e85be5e0f15a6af3227e3f7c445',1,'accept_queue():&#160;quic.c']]],
   ['ack_5falarm',['ack_alarm',['../structq__conn.html#ac0d08165fdfd8ce2760e8fc58e072269',1,'q_conn::ack_alarm()'],['../conn_8c.html#a4ba022a58c8ecd77d29357f7d1c30520',1,'ack_alarm():&#160;conn.c']]],
   ['ack_5fblock_5fcnt',['ack_block_cnt',['../structpkt__meta.html#ad1832e1307ec64c29a877455b5f78000',1,'pkt_meta']]],

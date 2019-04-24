@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['abandon_5fpn',['abandon_pn',['../pn_8c.html#a01a6deaf5b4cd84917145356378f1004',1,'abandon_pn(struct q_conn *const c, const epoch_t e):&#160;pn.c'],['../pn_8h.html#a01a6deaf5b4cd84917145356378f1004',1,'abandon_pn(struct q_conn *const c, const epoch_t e):&#160;pn.c']]],
+  ['abandon_5fpn',['abandon_pn',['../pn_8c.html#a09fda4ec22e85f212934510543d52c4f',1,'abandon_pn(struct pn_space *const pn):&#160;pn.c'],['../pn_8h.html#a09fda4ec22e85f212934510543d52c4f',1,'abandon_pn(struct pn_space *const pn):&#160;pn.c']]],
   ['ack_5falarm',['ack_alarm',['../conn_8c.html#a4ba022a58c8ecd77d29357f7d1c30520',1,'conn.c']]],
   ['add_5fdcid',['add_dcid',['../conn_8c.html#ae5beee50c7414b14d1efb1e3e8ebe1ee',1,'add_dcid(struct q_conn *const c, const struct cid *const id):&#160;conn.c'],['../conn_8h.html#ae5beee50c7414b14d1efb1e3e8ebe1ee',1,'add_dcid(struct q_conn *const c, const struct cid *const id):&#160;conn.c']]],
   ['add_5fscid',['add_scid',['../conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026',1,'add_scid(struct q_conn *const c, struct cid *const id):&#160;conn.c'],['../conn_8h.html#aa16d30297b5b1ceed9c3fef11b6a5026',1,'add_scid(struct q_conn *const c, struct cid *const id):&#160;conn.c']]],

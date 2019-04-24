@@ -1,5 +1,4 @@
 <map id="log_sent_pkts" name="log_sent_pkts">
-<area shape="rect" id="node2" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="164,5,272,32"/>
-<area shape="rect" id="node4" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="174,56,262,83"/>
-<area shape="rect" id="node3" href="$quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb" title="cids_by_seq_cmp" alt="" coords="320,5,455,32"/>
+<area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="169,5,257,32"/>
+<area shape="rect" id="node3" href="$pn_8h.html#abefb5e2c6f00c929114062d7d586f9ae" title="pn_type_str" alt="" coords="164,56,261,83"/>
 </map>

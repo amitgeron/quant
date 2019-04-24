@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['data',['data',['../structpn__space.html#a3932fa7af1d404135c1174fdb41abe43',1,'pn_space']]],
   ['dcid',['dcid',['../structq__conn.html#a9d6072809215f42a4eebd3d448e4911c',1,'q_conn::dcid()'],['../structpkt__hdr.html#afb4dcbc319b38d10450078a780519c66',1,'pkt_hdr::dcid()']]],
   ['dcids_5fby_5fseq',['dcids_by_seq',['../structq__conn.html#a8a456782615d1106a8bc83a3dd51c7f3',1,'q_conn']]],
   ['dec_5ftckt',['dec_tckt',['../tls_8c.html#a6fb294995cf9a4d8895404d4b6c3b6f4',1,'tls.c']]],

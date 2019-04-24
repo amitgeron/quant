@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['enc',['enc',['../marshall_8h.html#a0986acb39655709f2514114be789df34',1,'marshall.h']]],
-  ['enc_5fbuf',['enc_buf',['../marshall_8h.html#a97a073f5a85086073df37adf48327b3c',1,'marshall.h']]],
-  ['enc_5ftp',['enc_tp',['../tls_8c.html#a5b84b9d31350f1af2f40d1af5fdebeae',1,'tls.c']]],
-  ['enc_5ftp_5fbuf',['enc_tp_buf',['../tls_8c.html#a6392965ddc985a2de56b6bebe453d0a6',1,'tls.c']]],
   ['err_5fclose_5freturn',['err_close_return',['../frame_8c.html#ad80698afd541ebfd846d4299d7b10790',1,'frame.c']]],
   ['err_5fflow_5fcontrol',['ERR_FLOW_CONTROL',['../pkt_8h.html#a37fd3c71845762a224ec6f52056c5cf2',1,'pkt.h']]],
   ['err_5fframe_5fenc',['ERR_FRAME_ENC',['../pkt_8h.html#a911827d4428b3918c7c00c7f9be6bce0',1,'pkt.h']]],

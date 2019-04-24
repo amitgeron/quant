@@ -3,7 +3,9 @@
 <area shape="rect" id="node4" href="$tls_8c.html#a0c58491ff4fb3ef4eaaa05226aea773e" title="on_ch" alt="" coords="193,56,253,83"/>
 <area shape="rect" id="node5" href="$tls_8c.html#a70c075f43514397f392c90fd351edde1" title="log_event_cb" alt="" coords="170,107,277,133"/>
 <area shape="rect" id="node6" href="$tls_8c.html#acbc1dc9c2da3aab2c683a1d9b5ee9321" title="update_traffic_key_cb" alt="" coords="143,157,304,184"/>
-<area shape="rect" id="node8" href="$tls_8c.html#a071d6ebbfd90822e31fdb8119ad971ca" title="init_ticket_prot" alt="" coords="165,208,281,235"/>
-<area shape="rect" id="node3" href="$tls_8c.html#abbc1f24548c9acfa2d2129ebb85b472a" title="free_ticket" alt="" coords="359,5,449,32"/>
-<area shape="rect" id="node7" href="$tls_8c.html#af5ebb2a5b8cab6a40a18677a5ea562fb" title="setup_cipher" alt="" coords="352,183,456,209"/>
+<area shape="rect" id="node10" href="$tls_8c.html#a071d6ebbfd90822e31fdb8119ad971ca" title="init_ticket_prot" alt="" coords="165,208,281,235"/>
+<area shape="rect" id="node3" href="$tls_8c.html#abbc1f24548c9acfa2d2129ebb85b472a" title="free_ticket" alt="" coords="361,5,451,32"/>
+<area shape="rect" id="node7" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="352,157,460,184"/>
+<area shape="rect" id="node9" href="$tls_8c.html#af5ebb2a5b8cab6a40a18677a5ea562fb" title="setup_cipher" alt="" coords="354,208,458,235"/>
+<area shape="rect" id="node8" href="$quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb" title="cids_by_seq_cmp" alt="" coords="508,157,643,184"/>
 </map>

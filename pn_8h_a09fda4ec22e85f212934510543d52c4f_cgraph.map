@@ -1,0 +1,24 @@
+<map id="abandon_pn" name="abandon_pn">
+<area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="352,282,440,309"/>
+<area shape="rect" id="node3" href="$pn_8h.html#abefb5e2c6f00c929114062d7d586f9ae" title="pn_type_str" alt="" coords="531,358,629,385"/>
+<area shape="rect" id="node4" href="$pn_8c.html#a3b132beb2506faada16af74535e27fec" title="free_pn" alt="" coords="178,29,249,56"/>
+<area shape="rect" id="node9" href="$stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="163,232,263,258"/>
+<area shape="rect" id="node17" href="$tls_8c.html#a0e432c22353f0539562e3eb2382001e2" title="dispose_cipher" alt="" coords="155,384,272,410"/>
+<area shape="rect" id="node18" href="$recovery_8c.html#ab6edfdcadecde6939bdf8e64651e2300" title="set_ld_timer" alt="" coords="163,434,264,461"/>
+<area shape="rect" id="node5" href="$quic_8h.html#a08a8b428b6532cad77b89ac47c23c99c" title="free_iov" alt="" coords="544,80,616,106"/>
+<area shape="rect" id="node8" href="$diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="Free the diet tree d and all its intervals. " alt="" coords="357,29,435,56"/>
+<area shape="rect" id="node6" href="$pn_8c.html#a2a6f2abbba0edf1013f026cdad492e44" title="find_sent_pkt" alt="" coords="690,36,797,62"/>
+<area shape="rect" id="node7" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="688,86,799,113"/>
+<area shape="rect" id="node10" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="535,225,625,252"/>
+<area shape="rect" id="node15" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="347,130,445,157"/>
+<area shape="rect" id="node16" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="365,181,427,208"/>
+<area shape="rect" id="node11" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="705,264,781,290"/>
+<area shape="rect" id="node12" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="703,314,783,341"/>
+<area shape="rect" id="node13" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="705,162,781,189"/>
+<area shape="rect" id="node14" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="700,213,787,240"/>
+<area shape="rect" id="node19" href="$recovery_8c.html#a7387bc0c9a40f1dc99260d06de363cea" title="earliest_loss_t_pn" alt="" coords="328,485,464,512"/>
+<area shape="rect" id="node20" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="547,510,613,537"/>
+<area shape="rect" id="node21" href="$recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9" title="crypto_pkts_in_flight" alt="" coords="320,434,472,461"/>
+<area shape="rect" id="node23" href="$recovery_8c.html#a14c340e1ba1e6d62e65dabd513a19848" title="have_keys" alt="" coords="351,384,441,410"/>
+<area shape="rect" id="node22" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="520,434,640,461"/>
+</map>

@@ -1,7 +1,7 @@
 <map id="on_ack_received_2" name="on_ack_received_2">
 <area shape="rect" id="node2" href="$recovery_8c.html#a96b0529b2380d745862c605244caa46a" title="detect_lost_pkts" alt="" coords="196,157,323,184"/>
-<area shape="rect" id="node10" href="$recovery_8c.html#ab6edfdcadecde6939bdf8e64651e2300" title="set_ld_timer" alt="" coords="209,309,310,336"/>
-<area shape="rect" id="node16" href="$recovery_8c.html#a3e9994733ec7bbe76394f9c6a9334356" title="maybe_tx" alt="" coords="217,385,302,412"/>
+<area shape="rect" id="node10" href="$recovery_8c.html#ab6edfdcadecde6939bdf8e64651e2300" title="set_ld_timer" alt="" coords="209,335,310,361"/>
+<area shape="rect" id="node18" href="$recovery_8c.html#a3e9994733ec7bbe76394f9c6a9334356" title="maybe_tx" alt="" coords="217,436,302,463"/>
 <area shape="rect" id="node3" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="402,81,491,108"/>
 <area shape="rect" id="node8" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="391,132,502,159"/>
 <area shape="rect" id="node9" href="$recovery_8c.html#a5168874b4e4c760844fa938a3a7a9148" title="unregister_rtx" alt="" coords="391,183,502,209"/>
@@ -9,12 +9,13 @@
 <area shape="rect" id="node5" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="591,56,671,83"/>
 <area shape="rect" id="node6" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="593,107,669,133"/>
 <area shape="rect" id="node7" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="587,157,674,184"/>
-<area shape="rect" id="node11" href="$recovery_8c.html#a3a6ec619590c0823414945725e40efeb" title="earliest_loss_t" alt="" coords="390,233,503,260"/>
+<area shape="rect" id="node11" href="$recovery_8c.html#a7387bc0c9a40f1dc99260d06de363cea" title="earliest_loss_t_pn" alt="" coords="379,233,515,260"/>
 <area shape="rect" id="node12" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="597,259,664,285"/>
 <area shape="rect" id="node13" href="$recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9" title="crypto_pkts_in_flight" alt="" coords="371,335,523,361"/>
-<area shape="rect" id="node15" href="$recovery_8c.html#a03492069f4bd0bd18e37842ab5ebba39" title="have_keys" alt="" coords="402,385,491,412"/>
+<area shape="rect" id="node15" href="$recovery_8c.html#a14c340e1ba1e6d62e65dabd513a19848" title="have_keys" alt="" coords="402,385,491,412"/>
+<area shape="rect" id="node17" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="739,487,827,513"/>
 <area shape="rect" id="node14" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="571,335,691,361"/>
-<area shape="rect" id="node17" href="$conn_8h.html#a3037cafb7df5c92ea54b7e6646a692e7" title="has_wnd" alt="" coords="408,436,485,463"/>
-<area shape="rect" id="node18" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="739,436,827,463"/>
-<area shape="rect" id="node19" href="$conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0" title="has_pval_wnd" alt="" coords="575,461,686,488"/>
+<area shape="rect" id="node16" href="$pn_8h.html#abefb5e2c6f00c929114062d7d586f9ae" title="pn_type_str" alt="" coords="582,385,679,412"/>
+<area shape="rect" id="node19" href="$conn_8h.html#a3037cafb7df5c92ea54b7e6646a692e7" title="has_wnd" alt="" coords="408,487,485,513"/>
+<area shape="rect" id="node20" href="$conn_8h.html#a9b73e1cf1b19f05266ce3380a5ec0af0" title="has_pval_wnd" alt="" coords="575,537,686,564"/>
 </map>

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['can_5fcoalesce_5fpkt_5ftypes',['can_coalesce_pkt_types',['../pkt_8c.html#a832f35b12b76346d36d217963c2a053d',1,'pkt.c']]],
-  ['can_5fenc',['can_enc',['../pkt_8c.html#a543cd815c7575ce1f12d9dac33691932',1,'pkt.c']]],
+  ['can_5fenc',['can_enc',['../pkt_8c.html#a695e10dd05113f445920e76ad3849854',1,'pkt.c']]],
   ['cancel_5fapi_5fcall',['cancel_api_call',['../quic_8c.html#afd98d880d46aa717596439adb85fcafc',1,'quic.c']]],
   ['chk_5ftp',['chk_tp',['../tls_8c.html#a878d1b8325596d2943bb662375ad2e72',1,'tls.c']]],
   ['cid_5fcmp',['cid_cmp',['../conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1',1,'conn.h']]],
@@ -9,7 +9,7 @@ var searchData=
   ['cids_5fby_5fid_5fdel',['cids_by_id_del',['../conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78',1,'conn.c']]],
   ['cids_5fby_5fid_5fins',['cids_by_id_ins',['../conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8',1,'conn.c']]],
   ['cids_5fby_5fseq_5fcmp',['cids_by_seq_cmp',['../quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb',1,'quic.h']]],
-  ['clnt_5fvneg',['clnt_vneg',['../conn_8c.html#a080444f8cae931172ecf484b4db62ab9',1,'conn.c']]],
+  ['clnt_5fvneg',['clnt_vneg',['../conn_8c.html#ada66b53e59c6a12735d85f5d091be280',1,'conn.c']]],
   ['coalesce',['coalesce',['../pkt_8c.html#a1f839697f5c2cb2a8b086249c85399bc',1,'coalesce(struct w_iov_sq *const q):&#160;pkt.c'],['../pkt_8h.html#a1f839697f5c2cb2a8b086249c85399bc',1,'coalesce(struct w_iov_sq *const q):&#160;pkt.c']]],
   ['concat_5fout',['concat_out',['../stream_8c.html#a379b35c4c21ee31284e14338963fdd8f',1,'concat_out(struct q_stream *const s, struct w_iov_sq *const q):&#160;stream.c'],['../stream_8h.html#a379b35c4c21ee31284e14338963fdd8f',1,'concat_out(struct q_stream *const s, struct w_iov_sq *const q):&#160;stream.c']]],
   ['congestion_5fevent',['congestion_event',['../recovery_8c.html#afb01a0d106bff6312c6309166da29fbb',1,'congestion_event(struct q_conn *const c, const ev_tstamp sent_t):&#160;recovery.c'],['../recovery_8h.html#afb01a0d106bff6312c6309166da29fbb',1,'congestion_event(struct q_conn *const c, const ev_tstamp sent_t):&#160;recovery.c']]],
