@@ -1,7 +1,8 @@
 <map id="log_sent_pkts" name="log_sent_pkts">
 <area shape="rect" id="node2" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="168,81,257,108"/>
-<area shape="rect" id="node7" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="169,132,257,159"/>
-<area shape="rect" id="node8" href="$pn_8h.html#abefb5e2c6f00c929114062d7d586f9ae" title="pn_type_str" alt="" coords="164,183,261,209"/>
+<area shape="rect" id="node7" href="$diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="Free the diet tree d and all its intervals. " alt="" coords="173,132,252,159"/>
+<area shape="rect" id="node8" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="169,183,257,209"/>
+<area shape="rect" id="node9" href="$pn_8h.html#abefb5e2c6f00c929114062d7d586f9ae" title="pn_type_str" alt="" coords="164,233,261,260"/>
 <area shape="rect" id="node3" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="315,5,391,32"/>
 <area shape="rect" id="node4" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="313,56,393,83"/>
 <area shape="rect" id="node5" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="315,107,391,133"/>
