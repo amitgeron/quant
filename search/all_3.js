@@ -13,6 +13,7 @@ var searchData=
   ['cid_5fcmp',['cid_cmp',['../conn_8h.html#ad2372a4b6e27ada905f0604c1725abf1',1,'conn.h']]],
   ['cid_5fcpy',['cid_cpy',['../quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446',1,'quic.h']]],
   ['cid_5flen_5fmax',['CID_LEN_MAX',['../quic_8h.html#ae9adfb3c04c01d3ceb59639cbe654755',1,'quic.h']]],
+  ['cid_5flen_5fmin',['CID_LEN_MIN',['../quic_8h.html#a2b6283117e6863b45cfa11b3187f9c3b',1,'quic.h']]],
   ['cids_5fby_5fid_5fdel',['cids_by_id_del',['../conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78',1,'conn.c']]],
   ['cids_5fby_5fid_5fins',['cids_by_id_ins',['../conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8',1,'conn.c']]],
   ['cids_5fby_5fseq_5fcmp',['cids_by_seq_cmp',['../quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb',1,'quic.h']]],
