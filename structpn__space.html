@@ -153,8 +153,11 @@ Data Fields</h2></td></tr>
 <tr class="separator:a96550827186645aeec33f09adf1719de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e75bf586ae571c7fcf096a2a3ac382e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="pn_8h.html#a3b776a0ba6aff53c2c80329654293a8b">pn_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpn__space.html#a9e75bf586ae571c7fcf096a2a3ac382e">type</a></td></tr>
 <tr class="separator:a9e75bf586ae571c7fcf096a2a3ac382e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf325c51575bac4e0ecb9d24898376ea"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpn__space.html#adf325c51575bac4e0ecb9d24898376ea">_unused</a> [4]</td></tr>
-<tr class="separator:adf325c51575bac4e0ecb9d24898376ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad25a46d7fa2dc7b7e85bba664d819433"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpn__space.html#ad25a46d7fa2dc7b7e85bba664d819433">imm_ack</a>: 1</td></tr>
+<tr class="memdesc:ad25a46d7fa2dc7b7e85bba664d819433"><td class="mdescLeft">&#160;</td><td class="mdescRight">Force an immediate ACK.  <a href="#ad25a46d7fa2dc7b7e85bba664d819433">More...</a><br /></td></tr>
+<tr class="separator:ad25a46d7fa2dc7b7e85bba664d819433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a628cff759f68dc7397a54fa4b8a35576"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpn__space.html#a628cff759f68dc7397a54fa4b8a35576">__pad0__</a>: 31</td></tr>
+<tr class="separator:a628cff759f68dc7397a54fa4b8a35576"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20bdaad96a0f9d74a7292a0a99a331d5"><td class="memItemLeft" >union {</td></tr>
 <tr class="memitem:a192f3cffabee79993de836e02bd0a210"><td class="memItemLeft" >&#160;&#160;&#160;struct <a class="el" href="structpn__hshk.html">pn_hshk</a>&#160;&#160;&#160;<a class="el" href="structpn__space.html#adb7359ad0e3a8561f69b860e1f18ca87">early</a></td></tr>
 <tr class="separator:a192f3cffabee79993de836e02bd0a210"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,12 +196,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adf325c51575bac4e0ecb9d24898376ea"></a>
+<a class="anchor" id="a628cff759f68dc7397a54fa4b8a35576"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t pn_space::_unused[4]</td>
+          <td class="memname">uint32_t pn_space::__pad0__</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -288,6 +291,20 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad25a46d7fa2dc7b7e85bba664d819433"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t pn_space::imm_ack</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Force an immediate ACK. </p>
 
 </div>
 </div>
