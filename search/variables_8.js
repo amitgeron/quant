@@ -18,9 +18,7 @@ var searchData=
   ['in_5fflight',['in_flight',['../structpkt__meta.html#a412a79be05620271b226a04af3199726',1,'pkt_meta::in_flight()'],['../structrecovery.html#a206af8b5f9afa712883a19d6c67a5b11',1,'recovery::in_flight()']]],
   ['in_5fkyph',['in_kyph',['../structpn__data.html#a273164be534665e5c7badbd56324da00',1,'pn_data']]],
   ['in_5fooo',['in_ooo',['../structq__stream.html#a372b1593a42dbd1934ed03d605b5349d',1,'q_stream']]],
-  ['is_5facked',['is_acked',['../structpkt__meta.html#a3a15ff29d90b1fb954de8384f0de59b7',1,'pkt_meta']]],
   ['is_5fclnt',['is_clnt',['../structq__conn.html#af9ef67c77d27417b598225c700a110ee',1,'q_conn']]],
   ['is_5ffin',['is_fin',['../structpkt__meta.html#a9ba3c6af099f2c4836adab4e3381ba54',1,'pkt_meta']]],
-  ['is_5flost',['is_lost',['../structpkt__meta.html#a1dc5c504a91969f7598208109fb18cdb',1,'pkt_meta']]],
   ['is_5freset',['is_reset',['../structpkt__meta.html#a6a9ba49e9150a85476b33cd8ebb790ed',1,'pkt_meta']]]
 ];

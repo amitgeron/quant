@@ -8,7 +8,7 @@ var searchData=
   ['free_5fcids',['free_cids',['../conn_8c.html#a2071e094b5f8909687282a86ae2635fb',1,'conn.c']]],
   ['free_5fconn',['free_conn',['../conn_8c.html#a4a5deef512e20b125b45899c6c80c6fc',1,'free_conn(struct q_conn *const c):&#160;conn.c'],['../conn_8h.html#a4a5deef512e20b125b45899c6c80c6fc',1,'free_conn(struct q_conn *const c):&#160;conn.c']]],
   ['free_5fdcid',['free_dcid',['../conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56',1,'free_dcid(struct q_conn *const c, struct cid *const id):&#160;conn.c'],['../conn_8h.html#a1c73802c8005ac4f60cf1c0003972d56',1,'free_dcid(struct q_conn *const c, struct cid *const id):&#160;conn.c']]],
-  ['free_5fiov',['free_iov',['../quic_8h.html#a08a8b428b6532cad77b89ac47c23c99c',1,'quic.h']]],
+  ['free_5fiov',['free_iov',['../quic_8c.html#a91a8a20feadca523c2af285501c868fc',1,'free_iov(struct w_iov *const v, struct pkt_meta *const m):&#160;quic.c'],['../quic_8h.html#a91a8a20feadca523c2af285501c868fc',1,'free_iov(struct w_iov *const v, struct pkt_meta *const m):&#160;quic.c']]],
   ['free_5fpn',['free_pn',['../pn_8c.html#a3b132beb2506faada16af74535e27fec',1,'free_pn(struct pn_space *const pn):&#160;pn.c'],['../pn_8h.html#a3b132beb2506faada16af74535e27fec',1,'free_pn(struct pn_space *const pn):&#160;pn.c']]],
   ['free_5fprot',['free_prot',['../tls_8c.html#a28ce95450a6345dc4f1c85766e2edf8a',1,'tls.c']]],
   ['free_5fscid',['free_scid',['../conn_8c.html#ab983b3d57ee0c84f0e70018a299033a8',1,'free_scid(struct q_conn *const c, struct cid *const id):&#160;conn.c'],['../conn_8h.html#ab983b3d57ee0c84f0e70018a299033a8',1,'free_scid(struct q_conn *const c, struct cid *const id):&#160;conn.c']]],

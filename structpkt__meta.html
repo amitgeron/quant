@@ -24,7 +24,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">quant
-   &#160;<span id="projectnumber">0.0.19</span>
+   &#160;<span id="projectnumber">0.0.20</span>
    </div>
   </td>
  </tr>
@@ -167,6 +167,12 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a3da0c76133b1c31fe521e440171dffeb"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a3da0c76133b1c31fe521e440171dffeb">max_streams_uni</a></td></tr>
 <tr class="memdesc:a3da0c76133b1c31fe521e440171dffeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAX_STREAM_ID unidir limit, if sent.  <a href="#a3da0c76133b1c31fe521e440171dffeb">More...</a><br /></td></tr>
 <tr class="separator:a3da0c76133b1c31fe521e440171dffeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd9890ceb2f68af3938921718a8887a9"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#acd9890ceb2f68af3938921718a8887a9">stream_data_blocked</a></td></tr>
+<tr class="memdesc:acd9890ceb2f68af3938921718a8887a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">STREAM_DATA_BLOCKED value, if sent.  <a href="#acd9890ceb2f68af3938921718a8887a9">More...</a><br /></td></tr>
+<tr class="separator:acd9890ceb2f68af3938921718a8887a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c6b1a352b21d2968622280ad2bb8b6a"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a1c6b1a352b21d2968622280ad2bb8b6a">data_blocked</a></td></tr>
+<tr class="memdesc:a1c6b1a352b21d2968622280ad2bb8b6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">DATA_BLOCKED value, if sent.  <a href="#a1c6b1a352b21d2968622280ad2bb8b6a">More...</a><br /></td></tr>
+<tr class="separator:a1c6b1a352b21d2968622280ad2bb8b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33129e1d483871567296de2e9794ca5d"><td class="memItemLeft" align="right" valign="top">struct frames&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a33129e1d483871567296de2e9794ca5d">frames</a></td></tr>
 <tr class="memdesc:a33129e1d483871567296de2e9794ca5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frames present in pkt.  <a href="#a33129e1d483871567296de2e9794ca5d">More...</a><br /></td></tr>
 <tr class="separator:a33129e1d483871567296de2e9794ca5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,12 +191,6 @@ Data Fields</h2></td></tr>
 <tr class="memitem:ab1b1b15cf2ec10279fe3e763082ed9fd"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#ab1b1b15cf2ec10279fe3e763082ed9fd">has_rtx</a>: 1</td></tr>
 <tr class="memdesc:ab1b1b15cf2ec10279fe3e763082ed9fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does the w_iov hold truncated data?  <a href="#ab1b1b15cf2ec10279fe3e763082ed9fd">More...</a><br /></td></tr>
 <tr class="separator:ab1b1b15cf2ec10279fe3e763082ed9fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a15ff29d90b1fb954de8384f0de59b7"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a3a15ff29d90b1fb954de8384f0de59b7">is_acked</a>: 1</td></tr>
-<tr class="memdesc:a3a15ff29d90b1fb954de8384f0de59b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the w_iov ACKed?  <a href="#a3a15ff29d90b1fb954de8384f0de59b7">More...</a><br /></td></tr>
-<tr class="separator:a3a15ff29d90b1fb954de8384f0de59b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dc5c504a91969f7598208109fb18cdb"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a1dc5c504a91969f7598208109fb18cdb">is_lost</a>: 1</td></tr>
-<tr class="memdesc:a1dc5c504a91969f7598208109fb18cdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Have we marked this w_iov as lost?  <a href="#a1dc5c504a91969f7598208109fb18cdb">More...</a><br /></td></tr>
-<tr class="separator:a1dc5c504a91969f7598208109fb18cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a9ba49e9150a85476b33cd8ebb790ed"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a6a9ba49e9150a85476b33cd8ebb790ed">is_reset</a>: 1</td></tr>
 <tr class="memdesc:a6a9ba49e9150a85476b33cd8ebb790ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">This packet is a stateless reset.  <a href="#a6a9ba49e9150a85476b33cd8ebb790ed">More...</a><br /></td></tr>
 <tr class="separator:a6a9ba49e9150a85476b33cd8ebb790ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,6 +203,12 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a124673fd441a71257c4cd155ba33a775"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a124673fd441a71257c4cd155ba33a775">ack_eliciting</a>: 1</td></tr>
 <tr class="memdesc:a124673fd441a71257c4cd155ba33a775"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is this packet ACK-eliciting?  <a href="#a124673fd441a71257c4cd155ba33a775">More...</a><br /></td></tr>
 <tr class="separator:a124673fd441a71257c4cd155ba33a775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af57f444e7e279f52861397d459f4c6c2"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#af57f444e7e279f52861397d459f4c6c2">acked</a>: 1</td></tr>
+<tr class="memdesc:af57f444e7e279f52861397d459f4c6c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Was this packet ACKed?  <a href="#af57f444e7e279f52861397d459f4c6c2">More...</a><br /></td></tr>
+<tr class="separator:af57f444e7e279f52861397d459f4c6c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8d3c6b6f7fa4e14a23c9f353513926a"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#ae8d3c6b6f7fa4e14a23c9f353513926a">lost</a>: 1</td></tr>
+<tr class="memdesc:ae8d3c6b6f7fa4e14a23c9f353513926a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Have we marked this packet as lost?  <a href="#ae8d3c6b6f7fa4e14a23c9f353513926a">More...</a><br /></td></tr>
+<tr class="separator:ae8d3c6b6f7fa4e14a23c9f353513926a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcfc95bc63f8319aed2c689e374de3fd"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#adcfc95bc63f8319aed2c689e374de3fd">txed</a>: 1</td></tr>
 <tr class="memdesc:adcfc95bc63f8319aed2c689e374de3fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Did we TX this pkt?  <a href="#adcfc95bc63f8319aed2c689e374de3fd">More...</a><br /></td></tr>
 <tr class="separator:adcfc95bc63f8319aed2c689e374de3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -327,6 +333,34 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="af57f444e7e279f52861397d459f4c6c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t pkt_meta::acked</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Was this packet ACKed? </p>
+
+</div>
+</div>
+<a class="anchor" id="a1c6b1a352b21d2968622280ad2bb8b6a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t pkt_meta::data_blocked</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DATA_BLOCKED value, if sent. </p>
+
+</div>
+</div>
 <a class="anchor" id="a33129e1d483871567296de2e9794ca5d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -383,20 +417,6 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3a15ff29d90b1fb954de8384f0de59b7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t pkt_meta::is_acked</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Is the w_iov ACKed? </p>
-
-</div>
-</div>
 <a class="anchor" id="a9ba3c6af099f2c4836adab4e3381ba54"></a>
 <div class="memitem">
 <div class="memproto">
@@ -408,20 +428,6 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This packet has a stream FIN bit. </p>
-
-</div>
-</div>
-<a class="anchor" id="a1dc5c504a91969f7598208109fb18cdb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t pkt_meta::is_lost</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Have we marked this w_iov as lost? </p>
 
 </div>
 </div>
@@ -450,6 +456,20 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>"Largest Acknowledged" in ACK block (for TX'ed pkt). </p>
+
+</div>
+</div>
+<a class="anchor" id="ae8d3c6b6f7fa4e14a23c9f353513926a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t pkt_meta::lost</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Have we marked this packet as lost? </p>
 
 </div>
 </div>
@@ -548,6 +568,20 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Stream this data was written on. </p>
+
+</div>
+</div>
+<a class="anchor" id="acd9890ceb2f68af3938921718a8887a9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t pkt_meta::stream_data_blocked</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>STREAM_DATA_BLOCKED value, if sent. </p>
 
 </div>
 </div>

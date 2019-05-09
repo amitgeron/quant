@@ -31,7 +31,7 @@ var searchData=
   ['bit_5fzero',['bit_zero',['../bitset_8h.html#a8e45ad8fe2d9edc51fd3a133fa40fd00',1,'bitset.h']]],
   ['bitset_2eh',['bitset.h',['../bitset_8h.html',1,'']]],
   ['bitset_5falloc',['bitset_alloc',['../bitset_8h.html#a38d6a369b8c0a96ac96217e6f22d642c',1,'bitset.h']]],
-  ['bitset_5fdefine',['bitset_define',['../bitset_8h.html#ae87b68a09fccc274684c9097d72b9c94',1,'bitset_define():&#160;bitset.h'],['../bitset_8h.html#ac75860f7890edeb0acfcf77c63f486ab',1,'bitset_define(bitset, 1):&#160;bitset.h'],['../frame_8h.html#a63c28a0fb9cad78a8fab32b969076156',1,'bitset_define(frames, NUM_FRAM_TYPES):&#160;frame.h']]],
+  ['bitset_5fdefine',['bitset_define',['../bitset_8h.html#ae87b68a09fccc274684c9097d72b9c94',1,'bitset_define():&#160;bitset.h'],['../bitset_8h.html#ac75860f7890edeb0acfcf77c63f486ab',1,'bitset_define(bitset, 1):&#160;bitset.h'],['../frame_8h.html#ad217a4cb161f9743bdb6ea0e5f1eb307',1,'bitset_define(frames, FRM_MAX):&#160;frame.h']]],
   ['bitset_5fdefine_5fvar',['bitset_define_var',['../bitset_8h.html#a6ad7a2f4f1ea7037ffdd6a52ccaf9c6b',1,'bitset.h']]],
   ['bitset_5ffset',['bitset_fset',['../bitset_8h.html#afcdf678418d3960fee2e9c781625da5b',1,'bitset.h']]],
   ['bitset_5ft_5finitializer',['bitset_t_initializer',['../bitset_8h.html#a8671832d7c38fe4b74043e9b2e7039a4',1,'bitset.h']]],

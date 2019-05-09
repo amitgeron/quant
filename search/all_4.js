@@ -1,6 +1,7 @@
 var searchData=
 [
   ['data',['data',['../structpn__space.html#a3932fa7af1d404135c1174fdb41abe43',1,'pn_space']]],
+  ['data_5fblocked',['data_blocked',['../structpkt__meta.html#a1c6b1a352b21d2968622280ad2bb8b6a',1,'pkt_meta']]],
   ['data_5foffset',['DATA_OFFSET',['../quic_8h.html#a11faa4c105a137b8edaa096de5063835',1,'quic.h']]],
   ['dcid',['dcid',['../structq__conn.html#a9d6072809215f42a4eebd3d448e4911c',1,'q_conn::dcid()'],['../structpkt__hdr.html#afb4dcbc319b38d10450078a780519c66',1,'pkt_hdr::dcid()']]],
   ['dcids_5fby_5fseq',['dcids_by_seq',['../structq__conn.html#a8a456782615d1106a8bc83a3dd51c7f3',1,'q_conn']]],

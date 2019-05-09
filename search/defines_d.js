@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['nrm',['NRM',['../quic_8h.html#ade01bc98e1632cd645e0f33757d70d2e',1,'quic.h']]],
-  ['num_5ffram_5ftypes',['NUM_FRAM_TYPES',['../frame_8h.html#a9d41e13ff77cca0577fa33baf6e2963c',1,'frame.h']]]
+  ['ndebug_5fdiet_5finsert',['NDEBUG_diet_insert',['../recovery_8c.html#a4cf9366f3ec0fed7608f5099de6d514e',1,'recovery.c']]],
+  ['nrm',['NRM',['../quic_8h.html#ade01bc98e1632cd645e0f33757d70d2e',1,'quic.h']]]
 ];

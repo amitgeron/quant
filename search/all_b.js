@@ -24,5 +24,5 @@ var searchData=
   ['loop',['loop',['../quic_8c.html#a855923b555731173d3509ecb645de0e0',1,'loop():&#160;quic.c'],['../quic_8h.html#a855923b555731173d3509ecb645de0e0',1,'loop():&#160;quic.c']]],
   ['loop_5frun',['loop_run',['../quic_8c.html#a7890c6fb9ffd79d2073edcdc00d600af',1,'quic.c']]],
   ['loss_5ft',['loss_t',['../structpn__space.html#a0823a61582f739c9f0870aa4741f4b67',1,'pn_space']]],
-  ['lost',['lost',['../structpn__space.html#a454701f9e3185698aeca2bd2de0cb67b',1,'pn_space']]]
+  ['lost',['lost',['../structpn__space.html#a454701f9e3185698aeca2bd2de0cb67b',1,'pn_space::lost()'],['../structpkt__meta.html#ae8d3c6b6f7fa4e14a23c9f353513926a',1,'pkt_meta::lost()']]]
 ];

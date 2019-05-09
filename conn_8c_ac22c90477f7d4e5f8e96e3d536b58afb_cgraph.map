@@ -1,11 +1,11 @@
 <map id="idle_alarm" name="idle_alarm">
-<area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="888,93,976,120"/>
+<area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="869,93,957,120"/>
 <area shape="rect" id="node3" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="141,68,248,95"/>
 <area shape="rect" id="node4" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="315,93,381,120"/>
 <area shape="rect" id="node5" href="$conn_8c.html#aea7c8de8c9a43a64163e900a70678ae2" title="enter_closed" alt="" coords="296,144,400,171"/>
 <area shape="rect" id="node6" href="$quant_8h.html#a10d26c21df515950a80e3b9704240801" title="q_ready" alt="" coords="448,144,521,171"/>
 <area shape="rect" id="node7" href="$quic_8c.html#afd98d880d46aa717596439adb85fcafc" title="cancel_api_call" alt="" coords="569,144,687,171"/>
-<area shape="rect" id="node8" href="$quic_8c.html#a5b452d2c7658c801b4182547d75880a4" title="q_accept" alt="" coords="735,195,815,221"/>
+<area shape="rect" id="node8" href="$quic_8c.html#ae041ad0b3b50870763217ec8886b9854" title="q_accept" alt="" coords="735,195,815,221"/>
 <area shape="rect" id="node10" href="$quic_8c.html#a10d26c21df515950a80e3b9704240801" title="q_ready" alt="" coords="738,144,811,171"/>
-<area shape="rect" id="node9" href="$conn_8c.html#a8b3f561241f82fe8b840ed7655d13ffe" title="update_conn_conf" alt="" coords="863,195,1001,221"/>
+<area shape="rect" id="node9" href="$conn_8c.html#addc666374cebdff1feaeb368d37813bb" title="update_conf" alt="" coords="863,195,964,221"/>
 </map>

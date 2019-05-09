@@ -3,6 +3,6 @@ var searchData=
   ['aead_5fbase_5flabel',['AEAD_BASE_LABEL',['../tls_8c.html#a8871189e33afd5b7b436c06a92eaf108',1,'tls.c']]],
   ['aead_5flen',['AEAD_LEN',['../tls_8h.html#ad40306a6371f317e82283cbc83ff93a3',1,'tls.h']]],
   ['arg_5fmatch',['ARG_MATCH',['../quic_8h.html#a5f9f2b6173a02225c3e313e1e3b71ab6',1,'quic.h']]],
-  ['asan_5fpoison_5fmemory_5fregion',['ASAN_POISON_MEMORY_REGION',['../quic_8h.html#a1a737158b6f126742d911591ded5ad78',1,'quic.h']]],
-  ['asan_5funpoison_5fmemory_5fregion',['ASAN_UNPOISON_MEMORY_REGION',['../quic_8h.html#a22a934c8c4d79c27dffbe21e3fb733a4',1,'quic.h']]]
+  ['asan_5fpoison_5fmemory_5fregion',['ASAN_POISON_MEMORY_REGION',['../quic_8c.html#a1a737158b6f126742d911591ded5ad78',1,'quic.c']]],
+  ['asan_5funpoison_5fmemory_5fregion',['ASAN_UNPOISON_MEMORY_REGION',['../quic_8c.html#a22a934c8c4d79c27dffbe21e3fb733a4',1,'quic.c']]]
 ];

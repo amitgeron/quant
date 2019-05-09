@@ -8,7 +8,7 @@ var searchData=
   ['ack_5fdel_5fexp',['ack_del_exp',['../structtransport__params.html#ae332eb1c8176a3916959caa35f810278',1,'transport_params']]],
   ['ack_5feliciting',['ack_eliciting',['../structpkt__meta.html#a124673fd441a71257c4cd155ba33a775',1,'pkt_meta']]],
   ['ack_5ft',['ack_t',['../pn_8h.html#a49344ebbbbc537e07a72eeb725db4246',1,'pn.h']]],
-  ['acked',['acked',['../structpn__space.html#a258b213b1fbb488b1d1dda308dcade45',1,'pn_space']]],
+  ['acked',['acked',['../structpn__space.html#a258b213b1fbb488b1d1dda308dcade45',1,'pn_space::acked()'],['../structpkt__meta.html#af57f444e7e279f52861397d459f4c6c2',1,'pkt_meta::acked()']]],
   ['add_5fdcid',['add_dcid',['../conn_8c.html#ae5beee50c7414b14d1efb1e3e8ebe1ee',1,'add_dcid(struct q_conn *const c, const struct cid *const id):&#160;conn.c'],['../conn_8h.html#ae5beee50c7414b14d1efb1e3e8ebe1ee',1,'add_dcid(struct q_conn *const c, const struct cid *const id):&#160;conn.c']]],
   ['add_5fscid',['add_scid',['../conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026',1,'add_scid(struct q_conn *const c, struct cid *const id):&#160;conn.c'],['../conn_8h.html#aa16d30297b5b1ceed9c3fef11b6a5026',1,'add_scid(struct q_conn *const c, struct cid *const id):&#160;conn.c']]],
   ['addr4',['addr4',['../structpref__addr.html#ac421cccadc12a277b20c4f043f6f7d11',1,'pref_addr']]],
@@ -19,7 +19,7 @@ var searchData=
   ['aead',['aead',['../structcipher__ctx.html#ab88a3d2c5fd30344a597662ceaa074d6',1,'cipher_ctx']]],
   ['aead_5fbase_5flabel',['AEAD_BASE_LABEL',['../tls_8c.html#a8871189e33afd5b7b436c06a92eaf108',1,'tls.c']]],
   ['aead_5flen',['AEAD_LEN',['../tls_8h.html#ad40306a6371f317e82283cbc83ff93a3',1,'tls.h']]],
-  ['alloc_5fiov',['alloc_iov',['../quic_8h.html#a4a2889a8ebe9d3cc9a7490cf583acae9',1,'quic.h']]],
+  ['alloc_5fiov',['alloc_iov',['../quic_8c.html#a57f5356394ab3fdf523b9f15a84dc464',1,'alloc_iov(struct w_engine *const w, const uint16_t len, const uint16_t off, struct pkt_meta **const m):&#160;quic.c'],['../quic_8h.html#a57f5356394ab3fdf523b9f15a84dc464',1,'alloc_iov(struct w_engine *const w, const uint16_t len, const uint16_t off, struct pkt_meta **const m):&#160;quic.c']]],
   ['alloc_5foff',['alloc_off',['../quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a',1,'alloc_off(struct w_engine *const w, struct w_iov_sq *const q, const uint32_t len, const uint16_t off):&#160;quic.c'],['../quic_8h.html#a2ee75c38a1c756036392a6e5b6d1e93a',1,'alloc_off(struct w_engine *const w, struct w_iov_sq *const q, const uint32_t len, const uint16_t off):&#160;quic.c']]],
   ['alpn',['alpn',['../structq__conn__conf.html#ae5e129f9fb39b4e356c188c6e603af4a',1,'q_conn_conf::alpn()'],['../structtls__ticket.html#a8901c0d191756d018d1390f23cc55460',1,'tls_ticket::alpn()'],['../structtls.html#a279ec94972fe0085d95224e24ce40a37',1,'tls::alpn()'],['../tls_8c.html#ab9a4bdca4790560e892b981c84de1152',1,'alpn():&#160;tls.c']]],
   ['alpn_5fcnt',['alpn_cnt',['../tls_8c.html#a5aecd52cc3fa60fd5116988ab8e57603',1,'tls.c']]],
@@ -29,6 +29,6 @@ var searchData=
   ['api_5fstrm',['api_strm',['../quic_8c.html#a51e2b7dfe290cfc0a139b3768427de79',1,'api_strm():&#160;quic.c'],['../quic_8h.html#a51e2b7dfe290cfc0a139b3768427de79',1,'api_strm():&#160;quic.c']]],
   ['apply_5fstream_5flimits',['apply_stream_limits',['../stream_8c.html#a2853c95f04e70a8c7e836f881eedff8d',1,'apply_stream_limits(struct q_stream *const s):&#160;stream.c'],['../stream_8h.html#a2853c95f04e70a8c7e836f881eedff8d',1,'apply_stream_limits(struct q_stream *const s):&#160;stream.c']]],
   ['arg_5fmatch',['ARG_MATCH',['../quic_8h.html#a5f9f2b6173a02225c3e313e1e3b71ab6',1,'quic.h']]],
-  ['asan_5fpoison_5fmemory_5fregion',['ASAN_POISON_MEMORY_REGION',['../quic_8h.html#a1a737158b6f126742d911591ded5ad78',1,'quic.h']]],
-  ['asan_5funpoison_5fmemory_5fregion',['ASAN_UNPOISON_MEMORY_REGION',['../quic_8h.html#a22a934c8c4d79c27dffbe21e3fb733a4',1,'quic.h']]]
+  ['asan_5fpoison_5fmemory_5fregion',['ASAN_POISON_MEMORY_REGION',['../quic_8c.html#a1a737158b6f126742d911591ded5ad78',1,'quic.c']]],
+  ['asan_5funpoison_5fmemory_5fregion',['ASAN_UNPOISON_MEMORY_REGION',['../quic_8c.html#a22a934c8c4d79c27dffbe21e3fb733a4',1,'quic.c']]]
 ];

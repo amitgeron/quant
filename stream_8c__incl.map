@@ -1,15 +1,15 @@
 <map id="src/stream.c" name="src/stream.c">
-<area shape="rect" id="node9" href="$quant_8h.html" title="quant/quant.h" alt="" coords="489,528,601,555"/>
-<area shape="rect" id="node17" href="$conn_8h.html" title="conn.h" alt="" coords="966,155,1031,181"/>
-<area shape="rect" id="node20" href="$diet_8h.html" title="diet.h" alt="" coords="781,453,840,480"/>
-<area shape="rect" id="node27" href="$quic_8h.html" title="quic.h" alt="" coords="1050,304,1110,331"/>
-<area shape="rect" id="node29" href="$pkt_8h.html" title="pkt.h" alt="" coords="1854,80,1909,107"/>
-<area shape="rect" id="node30" href="$stream_8h.html" title="stream.h" alt="" coords="1555,80,1635,107"/>
-<area shape="rect" id="node13" href="$config_8h.html" title="quant/config.h" alt="" coords="489,603,602,629"/>
-<area shape="rect" id="node15" href="$tree_8h.html" title="quant/tree.h" alt="" coords="363,603,464,629"/>
-<area shape="rect" id="node21" href="$pn_8h.html" title="pn.h" alt="" coords="1219,379,1269,405"/>
-<area shape="rect" id="node24" href="$tls_8h.html" title="tls.h" alt="" coords="1783,453,1833,480"/>
-<area shape="rect" id="node28" href="$recovery_8h.html" title="recovery.h" alt="" coords="1026,229,1113,256"/>
-<area shape="rect" id="node22" href="$frame_8h.html" title="frame.h" alt="" coords="1321,453,1393,480"/>
-<area shape="rect" id="node23" href="$bitset_8h.html" title="bitset.h" alt="" coords="1270,528,1341,555"/>
+<area shape="rect" id="node9" href="$quant_8h.html" title="quant/quant.h" alt="" coords="616,379,728,405"/>
+<area shape="rect" id="node17" href="$conn_8h.html" title="conn.h" alt="" coords="927,155,993,181"/>
+<area shape="rect" id="node20" href="$diet_8h.html" title="diet.h" alt="" coords="797,304,856,331"/>
+<area shape="rect" id="node27" href="$quic_8h.html" title="quic.h" alt="" coords="1351,304,1411,331"/>
+<area shape="rect" id="node29" href="$pkt_8h.html" title="pkt.h" alt="" coords="1019,80,1074,107"/>
+<area shape="rect" id="node30" href="$stream_8h.html" title="stream.h" alt="" coords="1604,80,1684,107"/>
+<area shape="rect" id="node13" href="$config_8h.html" title="quant/config.h" alt="" coords="699,453,813,480"/>
+<area shape="rect" id="node15" href="$tree_8h.html" title="quant/tree.h" alt="" coords="573,453,675,480"/>
+<area shape="rect" id="node21" href="$pn_8h.html" title="pn.h" alt="" coords="751,229,801,256"/>
+<area shape="rect" id="node24" href="$tls_8h.html" title="tls.h" alt="" coords="1107,304,1157,331"/>
+<area shape="rect" id="node28" href="$recovery_8h.html" title="recovery.h" alt="" coords="1278,229,1365,256"/>
+<area shape="rect" id="node22" href="$frame_8h.html" title="frame.h" alt="" coords="1157,379,1229,405"/>
+<area shape="rect" id="node23" href="$bitset_8h.html" title="bitset.h" alt="" coords="1159,453,1230,480"/>
 </map>

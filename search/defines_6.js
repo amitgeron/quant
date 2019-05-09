@@ -15,6 +15,7 @@ var searchData=
   ['frm_5fcla',['FRM_CLA',['../frame_8h.html#aa70d34e637b50de80390b0fe41036c52',1,'frame.h']]],
   ['frm_5fclq',['FRM_CLQ',['../frame_8h.html#a8077ac5534419bd9d9ce2eff95a1c0cc',1,'frame.h']]],
   ['frm_5fcry',['FRM_CRY',['../frame_8h.html#ad1334c922198aadfbf14c33de11d2f55',1,'frame.h']]],
+  ['frm_5fmax',['FRM_MAX',['../frame_8h.html#a7ce6bf8f9bf501632039b0251a338198',1,'frame.h']]],
   ['frm_5fmcd',['FRM_MCD',['../frame_8h.html#a473046656065c4db508628a7039a470f',1,'frame.h']]],
   ['frm_5fmsb',['FRM_MSB',['../frame_8h.html#aede40f5964878577d847cd4c8e3d5ecf',1,'frame.h']]],
   ['frm_5fmsd',['FRM_MSD',['../frame_8h.html#a933a5953951df95cbcd0a5ab7e0d53ca',1,'frame.h']]],

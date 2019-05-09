@@ -3,17 +3,10 @@
 <area shape="rect" id="node3" href="$recovery_8c.html#a7387bc0c9a40f1dc99260d06de363cea" title="earliest_loss_t_pn" alt="" coords="452,30,588,57"/>
 <area shape="rect" id="node4" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="671,30,737,57"/>
 <area shape="rect" id="node5" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="476,81,564,108"/>
-<area shape="rect" id="node6" href="$recovery_8c.html#a96b0529b2380d745862c605244caa46a" title="detect_lost_pkts" alt="" coords="269,360,396,386"/>
-<area shape="rect" id="node14" href="$recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9" title="crypto_pkts_in_flight" alt="" coords="444,182,596,209"/>
-<area shape="rect" id="node16" href="$recovery_8c.html#a14c340e1ba1e6d62e65dabd513a19848" title="have_keys" alt="" coords="475,233,565,260"/>
-<area shape="rect" id="node18" href="$recovery_8c.html#ab6edfdcadecde6939bdf8e64651e2300" title="set_ld_timer" alt="" coords="282,132,383,158"/>
-<area shape="rect" id="node7" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="475,334,565,361"/>
-<area shape="rect" id="node12" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="465,385,575,412"/>
-<area shape="rect" id="node13" href="$recovery_8c.html#a5168874b4e4c760844fa938a3a7a9148" title="unregister_rtx" alt="" coords="465,436,575,462"/>
-<area shape="rect" id="node8" href="$diet_8c.html#a87c3c2cebc6ccf0911d3d05989352588" title="Pointer to the interval containing n in diet tree d. " alt="" coords="666,334,742,361"/>
-<area shape="rect" id="node9" href="$diet_8c.html#a85e4e10a029283a5798638bfaf387abd" title="Return maximum interval underneath i. " alt="" coords="664,385,744,412"/>
-<area shape="rect" id="node10" href="$diet_8c.html#a8f0e77727941f94b10b1ea1241df8eaa" title="Return minimum interval underneath i. " alt="" coords="666,436,742,462"/>
-<area shape="rect" id="node11" href="$diet_8c.html#a21164f67106bc7c1712e8b6596aa0253" title="Helper function to allocate an interval [n..n] containing only n. " alt="" coords="661,284,747,310"/>
-<area shape="rect" id="node15" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="644,182,764,209"/>
-<area shape="rect" id="node17" href="$pn_8h.html#abefb5e2c6f00c929114062d7d586f9ae" title="pn_type_str" alt="" coords="655,233,753,260"/>
+<area shape="rect" id="node6" href="$recovery_8c.html#a96b0529b2380d745862c605244caa46a" title="detect_lost_pkts" alt="" coords="269,284,396,310"/>
+<area shape="rect" id="node7" href="$recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9" title="crypto_pkts_in_flight" alt="" coords="444,182,596,209"/>
+<area shape="rect" id="node9" href="$recovery_8c.html#a14c340e1ba1e6d62e65dabd513a19848" title="have_keys" alt="" coords="475,233,565,260"/>
+<area shape="rect" id="node11" href="$recovery_8c.html#ab6edfdcadecde6939bdf8e64651e2300" title="set_ld_timer" alt="" coords="282,132,383,158"/>
+<area shape="rect" id="node8" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="644,182,764,209"/>
+<area shape="rect" id="node10" href="$pn_8h.html#abefb5e2c6f00c929114062d7d586f9ae" title="pn_type_str" alt="" coords="655,233,753,260"/>
 </map>
