@@ -1,7 +1,9 @@
 <map id="free_cids" name="free_cids">
-<area shape="rect" id="node2" href="$conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78" title="cids_by_id_del" alt="" coords="269,5,383,32"/>
-<area shape="rect" id="node3" href="$conn_8c.html#a157de1b1117fd595bca3a0d2a82184db" title="conns_by_id_del" alt="" coords="263,81,389,108"/>
-<area shape="rect" id="node4" href="$conn_8c.html#ab983b3d57ee0c84f0e70018a299033a8" title="free_scid" alt="" coords="133,43,211,69"/>
-<area shape="rect" id="node5" href="$conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56" title="free_dcid" alt="" coords="132,144,212,171"/>
-<area shape="rect" id="node6" href="$conn_8c.html#af84f094acba0e3ce125f3c1297b7ec32" title="conns_by_srt_del" alt="" coords="260,144,392,171"/>
+<area shape="rect" id="node2" href="$conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78" title="cids_by_id_del" alt="" coords="339,5,452,32"/>
+<area shape="rect" id="node3" href="$conn_8c.html#a157de1b1117fd595bca3a0d2a82184db" title="conns_by_id_del" alt="" coords="332,81,459,108"/>
+<area shape="rect" id="node4" href="$conn_8c.html#a16d8e56d8f65f1aa415bef65ce637b99" title="conns_by_ipnp_del" alt="" coords="132,144,275,171"/>
+<area shape="rect" id="node6" href="$conn_8c.html#ab983b3d57ee0c84f0e70018a299033a8" title="free_scid" alt="" coords="164,43,243,69"/>
+<area shape="rect" id="node7" href="$conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56" title="free_dcid" alt="" coords="163,195,243,221"/>
+<area shape="rect" id="node5" href="$conn_8c.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="323,144,468,171"/>
+<area shape="rect" id="node8" href="$conn_8c.html#af84f094acba0e3ce125f3c1297b7ec32" title="conns_by_srt_del" alt="" coords="329,195,461,221"/>
 </map>
