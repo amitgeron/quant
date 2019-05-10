@@ -1,6 +1,7 @@
 <map id="dec_new_cid_frame" name="dec_new_cid_frame">
-<area shape="rect" id="node2" href="$conn_8c.html#ae5beee50c7414b14d1efb1e3e8ebe1ee" title="add_dcid" alt="" coords="200,56,279,83"/>
-<area shape="rect" id="node3" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="357,5,427,32"/>
-<area shape="rect" id="node4" href="$conn_8c.html#a619f2109f27acd5a1bb587f6d452097e" title="conns_by_srt_ins" alt="" coords="327,56,457,83"/>
-<area shape="rect" id="node5" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="348,107,436,133"/>
+<area shape="rect" id="node2" href="$conn_8c.html#ae5beee50c7414b14d1efb1e3e8ebe1ee" title="add_dcid" alt="" coords="200,81,279,108"/>
+<area shape="rect" id="node3" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="349,5,437,32"/>
+<area shape="rect" id="node4" href="$conn_8c.html#af84f094acba0e3ce125f3c1297b7ec32" title="conns_by_srt_del" alt="" coords="327,56,459,83"/>
+<area shape="rect" id="node5" href="$quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="358,107,427,133"/>
+<area shape="rect" id="node6" href="$conn_8c.html#a619f2109f27acd5a1bb587f6d452097e" title="conns_by_srt_ins" alt="" coords="327,157,458,184"/>
 </map>
