@@ -185,8 +185,6 @@ Generating call graph for function ack_alarm
 Generating call graph for function add_dcid
 Generating call graph for function add_scid
 Generating call graph for function clnt_vneg
-Generating call graph for function conns_by_ipnp_del
-Generating call graph for function conns_by_ipnp_ins
 Generating call graph for function conns_by_ipnp_update
 Generating call graph for function do_conn_mgmt
 Generating call graph for function do_tx
@@ -219,6 +217,8 @@ Generating call graph for function vneg_or_rtry_resp
 Generating docs for file src/conn.h...
 Generating call graph for function add_dcid
 Generating call graph for function add_scid
+Generating call graph for function conns_by_ipnp_del
+Generating call graph for function conns_by_ipnp_ins
 Generating call graph for function enter_closing
 Generating call graph for function err_close
 Generating call graph for function free_conn
@@ -833,5 +833,5 @@ Patching output file 37/40
 Patching output file 38/40
 Patching output file 39/40
 Patching output file 40/40
-lookup cache used 1299/65536 hits=9975 misses=1325
+lookup cache used 1301/65536 hits=9963 misses=1327
 finished...

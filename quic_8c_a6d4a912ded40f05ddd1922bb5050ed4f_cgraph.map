@@ -43,9 +43,9 @@
 <area shape="rect" id="node42" href="$tls_8c.html#a28ce95450a6345dc4f1c85766e2edf8a" title="free_prot" alt="" coords="866,1446,946,1473"/>
 <area shape="rect" id="node44" href="$conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78" title="cids_by_id_del" alt="" coords="673,737,787,763"/>
 <area shape="rect" id="node45" href="$conn_8c.html#a157de1b1117fd595bca3a0d2a82184db" title="conns_by_id_del" alt="" coords="667,813,793,839"/>
-<area shape="rect" id="node46" href="$conn_8c.html#a16d8e56d8f65f1aa415bef65ce637b99" title="conns_by_ipnp_del" alt="" coords="467,889,609,915"/>
+<area shape="rect" id="node46" href="$conn_8h.html#a16d8e56d8f65f1aa415bef65ce637b99" title="conns_by_ipnp_del" alt="" coords="467,889,609,915"/>
 <area shape="rect" id="node48" href="$conn_8c.html#ab983b3d57ee0c84f0e70018a299033a8" title="free_scid" alt="" coords="499,787,577,814"/>
 <area shape="rect" id="node49" href="$conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56" title="free_dcid" alt="" coords="498,939,578,966"/>
-<area shape="rect" id="node47" href="$conn_8c.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="657,889,803,915"/>
+<area shape="rect" id="node47" href="$conn_8h.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="657,889,803,915"/>
 <area shape="rect" id="node50" href="$conn_8c.html#af84f094acba0e3ce125f3c1297b7ec32" title="conns_by_srt_del" alt="" coords="664,939,796,966"/>
 </map>

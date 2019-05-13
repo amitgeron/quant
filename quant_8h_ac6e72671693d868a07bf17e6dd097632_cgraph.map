@@ -43,7 +43,7 @@
 <area shape="rect" id="node31" href="$conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80" title="do_conn_mgmt" alt="" coords="625,1272,748,1299"/>
 <area shape="rect" id="node32" href="$stream_8c.html#a4e339d032e8f2862f10a6a4b4332a785" title="do_stream_id_fc" alt="" coords="821,1411,948,1437"/>
 <area shape="rect" id="node36" href="$conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026" title="add_scid" alt="" coords="647,1323,726,1349"/>
-<area shape="rect" id="node37" href="$conn_8c.html#ae0f78c7a62de17ad9b4ac4c11dde7c85" title="conns_by_ipnp_ins" alt="" coords="616,1424,757,1451"/>
+<area shape="rect" id="node37" href="$conn_8h.html#ae0f78c7a62de17ad9b4ac4c11dde7c85" title="conns_by_ipnp_ins" alt="" coords="616,1424,757,1451"/>
 <area shape="rect" id="node42" href="$recovery_8c.html#adefe14984378f3f5e9dcd65042c5709a" title="on_ld_timeout" alt="" coords="1213,1735,1327,1761"/>
 <area shape="rect" id="node44" href="$conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87" title="tx_stream" alt="" coords="1375,1477,1461,1504"/>
 <area shape="rect" id="node48" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="427,1779,526,1805"/>

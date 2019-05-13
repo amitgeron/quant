@@ -106,7 +106,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;string.h&gt;</code><br />
 <code>#include &lt;sys/param.h&gt;</code><br />
 <code>#include &lt;sys/socket.h&gt;</code><br />
-<code>#include &lt;sys/types.h&gt;</code><br />
 <code>#include &lt;ev.h&gt;</code><br />
 <code>#include &lt;picotls.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="quant_8h_source.html">quant/quant.h</a>&gt;</code><br />
@@ -116,6 +115,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="frame_8h_source.html">frame.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="marshall_8h_source.html">marshall.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pkt_8h_source.html">pkt.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="pn_8h_source.html">pn.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="quic_8h_source.html">quic.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="recovery_8h_source.html">recovery.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stream_8h_source.html">stream.h</a>&quot;</code><br />
@@ -125,27 +125,25 @@ Include dependency graph for conn.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="conn_8c__incl.png" border="0" usemap="#src_2conn_8c" alt=""/></div>
 <map name="src_2conn_8c" id="src_2conn_8c">
-<area shape="rect" id="node17" href="quant_8h.html" title="quant/quant.h" alt="" coords="2128,379,2240,405"/>
-<area shape="rect" id="node23" href="conn_8h.html" title="conn.h" alt="" coords="1581,155,1646,181"/>
-<area shape="rect" id="node26" href="diet_8h.html" title="diet.h" alt="" coords="2024,304,2083,331"/>
-<area shape="rect" id="node28" href="frame_8h.html" title="frame.h" alt="" coords="888,379,960,405"/>
-<area shape="rect" id="node30" href="tls_8h.html" title="tls.h" alt="" coords="1950,304,1999,331"/>
-<area shape="rect" id="node32" href="quic_8h.html" title="quic.h" alt="" coords="1018,304,1078,331"/>
-<area shape="rect" id="node33" href="recovery_8h.html" title="recovery.h" alt="" coords="1362,229,1449,256"/>
-<area shape="rect" id="node34" href="marshall_8h.html" title="marshall.h" alt="" coords="389,304,478,331"/>
-<area shape="rect" id="node35" href="pkt_8h.html" title="pkt.h" alt="" coords="1365,80,1419,107"/>
-<area shape="rect" id="node36" href="stream_8h.html" title="stream.h" alt="" coords="984,80,1064,107"/>
-<area shape="rect" id="node19" href="config_8h.html" title="quant/config.h" alt="" coords="2129,453,2242,480"/>
-<area shape="rect" id="node21" href="tree_8h.html" title="quant/tree.h" alt="" coords="2267,453,2368,480"/>
-<area shape="rect" id="node27" href="pn_8h.html" title="pn.h" alt="" coords="1727,229,1777,256"/>
-<area shape="rect" id="node29" href="bitset_8h.html" title="bitset.h" alt="" coords="939,453,1010,480"/>
+<area shape="rect" id="node16" href="quant_8h.html" title="quant/quant.h" alt="" coords="1923,379,2035,405"/>
+<area shape="rect" id="node22" href="conn_8h.html" title="conn.h" alt="" coords="1546,155,1611,181"/>
+<area shape="rect" id="node26" href="diet_8h.html" title="diet.h" alt="" coords="1739,304,1797,331"/>
+<area shape="rect" id="node27" href="pn_8h.html" title="pn.h" alt="" coords="1840,229,1891,256"/>
+<area shape="rect" id="node28" href="frame_8h.html" title="frame.h" alt="" coords="860,379,932,405"/>
+<area shape="rect" id="node30" href="tls_8h.html" title="tls.h" alt="" coords="2167,304,2217,331"/>
+<area shape="rect" id="node32" href="quic_8h.html" title="quic.h" alt="" coords="830,304,890,331"/>
+<area shape="rect" id="node33" href="recovery_8h.html" title="recovery.h" alt="" coords="854,229,941,256"/>
+<area shape="rect" id="node34" href="marshall_8h.html" title="marshall.h" alt="" coords="259,304,349,331"/>
+<area shape="rect" id="node35" href="pkt_8h.html" title="pkt.h" alt="" coords="1241,80,1295,107"/>
+<area shape="rect" id="node36" href="stream_8h.html" title="stream.h" alt="" coords="1127,80,1207,107"/>
+<area shape="rect" id="node18" href="config_8h.html" title="quant/config.h" alt="" coords="2054,453,2167,480"/>
+<area shape="rect" id="node20" href="tree_8h.html" title="quant/tree.h" alt="" coords="1928,453,2029,480"/>
+<area shape="rect" id="node29" href="bitset_8h.html" title="bitset.h" alt="" coords="861,453,931,480"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a006a6d732d649728796cfe027e3041d9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8c.html#a006a6d732d649728796cfe027e3041d9">klib_unused</a></td></tr>
-<tr class="separator:a006a6d732d649728796cfe027e3041d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36daba4f4585170e66aeb964bedfd0ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8c.html#a36daba4f4585170e66aeb964bedfd0ab">CONN_STATE</a>(k,  v)&#160;&#160;&#160;[v] = #k</td></tr>
 <tr class="separator:a36daba4f4585170e66aeb964bedfd0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -163,8 +161,6 @@ Functions</h2></td></tr>
 <tr class="separator:ada66b53e59c6a12735d85f5d091be280"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90b995546c499b521dcb4bf6cc7e39f1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46">epoch_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8c.html#a90b995546c499b521dcb4bf6cc7e39f1">epoch_in</a> (const struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
 <tr class="separator:a90b995546c499b521dcb4bf6cc7e39f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4174be30b6047b763d3dd5e8e6131a08"><td class="memItemLeft" align="right" valign="top">static uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8c.html#a4174be30b6047b763d3dd5e8e6131a08">conns_by_ipnp_key</a> (const struct sockaddr *const src, const struct sockaddr *const dst)</td></tr>
-<tr class="separator:a4174be30b6047b763d3dd5e8e6131a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe4c59cb1d7bf2ea2196e743a50568be"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="structq__conn.html">q_conn</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8c.html#afe4c59cb1d7bf2ea2196e743a50568be">get_conn_by_ipnp</a> (const struct sockaddr *const src, const struct sockaddr *const dst)</td></tr>
 <tr class="separator:afe4c59cb1d7bf2ea2196e743a50568be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a370e079f6b872eb4fb70053eb3fd14a3"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="structq__conn.html">q_conn</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8c.html#a370e079f6b872eb4fb70053eb3fd14a3">get_conn_by_cid</a> (struct <a class="el" href="structcid.html">cid</a> *const scid)</td></tr>
@@ -211,10 +207,6 @@ Functions</h2></td></tr>
 <tr class="separator:aa16d30297b5b1ceed9c3fef11b6a5026"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5beee50c7414b14d1efb1e3e8ebe1ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8c.html#ae5beee50c7414b14d1efb1e3e8ebe1ee">add_dcid</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const struct <a class="el" href="structcid.html">cid</a> *const id)</td></tr>
 <tr class="separator:ae5beee50c7414b14d1efb1e3e8ebe1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0f78c7a62de17ad9b4ac4c11dde7c85"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8c.html#ae0f78c7a62de17ad9b4ac4c11dde7c85">conns_by_ipnp_ins</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
-<tr class="separator:ae0f78c7a62de17ad9b4ac4c11dde7c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16d8e56d8f65f1aa415bef65ce637b99"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8c.html#a16d8e56d8f65f1aa415bef65ce637b99">conns_by_ipnp_del</a> (const struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
-<tr class="separator:a16d8e56d8f65f1aa415bef65ce637b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b482fb3205708704bd66a120026461c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8c.html#a1b482fb3205708704bd66a120026461c">conns_by_ipnp_update</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const struct sockaddr *const peer)</td></tr>
 <tr class="separator:a1b482fb3205708704bd66a120026461c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d6639a237bb88d66f93760fc93000a5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8c.html#a5d6639a237bb88d66f93760fc93000a5">rx_crypto</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
@@ -288,18 +280,6 @@ Variables</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td>&#160;&#160;&#160;[v] = #k</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a006a6d732d649728796cfe027e3041d9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define klib_unused</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -668,108 +648,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a16d8e56d8f65f1aa415bef65ce637b99"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void conns_by_ipnp_del </td>
-          <td>(</td>
-          <td class="paramtype">const struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="conn_8c_a16d8e56d8f65f1aa415bef65ce637b99_cgraph.png" border="0" usemap="#conn_8c_a16d8e56d8f65f1aa415bef65ce637b99_cgraph" alt=""/></div>
-<map name="conn_8c_a16d8e56d8f65f1aa415bef65ce637b99_cgraph" id="conn_8c_a16d8e56d8f65f1aa415bef65ce637b99_cgraph">
-<area shape="rect" id="node2" href="conn_8c.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="196,5,341,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ae0f78c7a62de17ad9b4ac4c11dde7c85"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void conns_by_ipnp_ins </td>
-          <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="conn_8c_ae0f78c7a62de17ad9b4ac4c11dde7c85_cgraph.png" border="0" usemap="#conn_8c_ae0f78c7a62de17ad9b4ac4c11dde7c85_cgraph" alt=""/></div>
-<map name="conn_8c_ae0f78c7a62de17ad9b4ac4c11dde7c85_cgraph" id="conn_8c_ae0f78c7a62de17ad9b4ac4c11dde7c85_cgraph">
-<area shape="rect" id="node2" href="conn_8c.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="195,5,340,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a4174be30b6047b763d3dd5e8e6131a08"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static uint64_t conns_by_ipnp_key </td>
-          <td>(</td>
-          <td class="paramtype">const struct sockaddr *const&#160;</td>
-          <td class="paramname"><em>src</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const struct sockaddr *const&#160;</td>
-          <td class="paramname"><em>dst</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a1b482fb3205708704bd66a120026461c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -807,9 +685,9 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="conn_8c_a1b482fb3205708704bd66a120026461c_cgraph.png" border="0" usemap="#conn_8c_a1b482fb3205708704bd66a120026461c_cgraph" alt=""/></div>
 <map name="conn_8c_a1b482fb3205708704bd66a120026461c_cgraph" id="conn_8c_a1b482fb3205708704bd66a120026461c_cgraph">
-<area shape="rect" id="node2" href="conn_8c.html#a16d8e56d8f65f1aa415bef65ce637b99" title="conns_by_ipnp_del" alt="" coords="221,5,364,32"/>
-<area shape="rect" id="node4" href="conn_8c.html#ae0f78c7a62de17ad9b4ac4c11dde7c85" title="conns_by_ipnp_ins" alt="" coords="222,56,363,83"/>
-<area shape="rect" id="node3" href="conn_8c.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="412,31,557,57"/>
+<area shape="rect" id="node2" href="conn_8h.html#a16d8e56d8f65f1aa415bef65ce637b99" title="conns_by_ipnp_del" alt="" coords="221,5,364,32"/>
+<area shape="rect" id="node4" href="conn_8h.html#ae0f78c7a62de17ad9b4ac4c11dde7c85" title="conns_by_ipnp_ins" alt="" coords="222,56,363,83"/>
+<area shape="rect" id="node3" href="conn_8h.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="412,31,557,57"/>
 </map>
 </div>
 </p>
@@ -1185,10 +1063,10 @@ Here is the call graph for this function:</div>
 <map name="conn_8c_a2071e094b5f8909687282a86ae2635fb_cgraph" id="conn_8c_a2071e094b5f8909687282a86ae2635fb_cgraph">
 <area shape="rect" id="node2" href="conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78" title="cids_by_id_del" alt="" coords="339,5,452,32"/>
 <area shape="rect" id="node3" href="conn_8c.html#a157de1b1117fd595bca3a0d2a82184db" title="conns_by_id_del" alt="" coords="332,81,459,108"/>
-<area shape="rect" id="node4" href="conn_8c.html#a16d8e56d8f65f1aa415bef65ce637b99" title="conns_by_ipnp_del" alt="" coords="132,144,275,171"/>
+<area shape="rect" id="node4" href="conn_8h.html#a16d8e56d8f65f1aa415bef65ce637b99" title="conns_by_ipnp_del" alt="" coords="132,144,275,171"/>
 <area shape="rect" id="node6" href="conn_8c.html#ab983b3d57ee0c84f0e70018a299033a8" title="free_scid" alt="" coords="164,43,243,69"/>
 <area shape="rect" id="node7" href="conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56" title="free_dcid" alt="" coords="163,195,243,221"/>
-<area shape="rect" id="node5" href="conn_8c.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="323,144,468,171"/>
+<area shape="rect" id="node5" href="conn_8h.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="323,144,468,171"/>
 <area shape="rect" id="node8" href="conn_8c.html#af84f094acba0e3ce125f3c1297b7ec32" title="conns_by_srt_del" alt="" coords="329,195,461,221"/>
 </map>
 </div>
@@ -1259,10 +1137,10 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node42" href="tls_8c.html#a28ce95450a6345dc4f1c85766e2edf8a" title="free_prot" alt="" coords="686,144,766,171"/>
 <area shape="rect" id="node44" href="conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78" title="cids_by_id_del" alt="" coords="493,1475,607,1501"/>
 <area shape="rect" id="node45" href="conn_8c.html#a157de1b1117fd595bca3a0d2a82184db" title="conns_by_id_del" alt="" coords="487,1551,613,1577"/>
-<area shape="rect" id="node46" href="conn_8c.html#a16d8e56d8f65f1aa415bef65ce637b99" title="conns_by_ipnp_del" alt="" coords="287,1613,429,1640"/>
+<area shape="rect" id="node46" href="conn_8h.html#a16d8e56d8f65f1aa415bef65ce637b99" title="conns_by_ipnp_del" alt="" coords="287,1613,429,1640"/>
 <area shape="rect" id="node48" href="conn_8c.html#ab983b3d57ee0c84f0e70018a299033a8" title="free_scid" alt="" coords="319,1512,397,1539"/>
 <area shape="rect" id="node49" href="conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56" title="free_dcid" alt="" coords="318,1664,398,1691"/>
-<area shape="rect" id="node47" href="conn_8c.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="477,1613,623,1640"/>
+<area shape="rect" id="node47" href="conn_8h.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="477,1613,623,1640"/>
 <area shape="rect" id="node50" href="conn_8c.html#af84f094acba0e3ce125f3c1297b7ec32" title="conns_by_srt_del" alt="" coords="484,1664,616,1691"/>
 </map>
 </div>
@@ -1438,7 +1316,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="conn_8c_afe4c59cb1d7bf2ea2196e743a50568be_cgraph.png" border="0" usemap="#conn_8c_afe4c59cb1d7bf2ea2196e743a50568be_cgraph" alt=""/></div>
 <map name="conn_8c_afe4c59cb1d7bf2ea2196e743a50568be_cgraph" id="conn_8c_afe4c59cb1d7bf2ea2196e743a50568be_cgraph">
-<area shape="rect" id="node2" href="conn_8c.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="191,5,336,32"/>
+<area shape="rect" id="node2" href="conn_8h.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="191,5,336,32"/>
 </map>
 </div>
 </p>
@@ -1693,13 +1571,13 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node2" href="quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="359,157,429,184"/>
 <area shape="rect" id="node3" href="conn_8c.html#ae5beee50c7414b14d1efb1e3e8ebe1ee" title="add_dcid" alt="" coords="163,107,242,133"/>
 <area shape="rect" id="node7" href="conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026" title="add_scid" alt="" coords="163,208,242,235"/>
-<area shape="rect" id="node10" href="conn_8c.html#ae0f78c7a62de17ad9b4ac4c11dde7c85" title="conns_by_ipnp_ins" alt="" coords="132,284,273,311"/>
+<area shape="rect" id="node10" href="conn_8h.html#ae0f78c7a62de17ad9b4ac4c11dde7c85" title="conns_by_ipnp_ins" alt="" coords="132,284,273,311"/>
 <area shape="rect" id="node4" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="350,5,438,32"/>
 <area shape="rect" id="node5" href="conn_8c.html#af84f094acba0e3ce125f3c1297b7ec32" title="conns_by_srt_del" alt="" coords="328,56,460,83"/>
 <area shape="rect" id="node6" href="conn_8c.html#a619f2109f27acd5a1bb587f6d452097e" title="conns_by_srt_ins" alt="" coords="329,107,459,133"/>
 <area shape="rect" id="node8" href="conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8" title="cids_by_id_ins" alt="" coords="338,259,450,285"/>
 <area shape="rect" id="node9" href="conn_8c.html#a3970d1f884f75ab86ab622e00bf9fce7" title="conns_by_id_ins" alt="" coords="331,208,457,235"/>
-<area shape="rect" id="node11" href="conn_8c.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="321,309,467,336"/>
+<area shape="rect" id="node11" href="conn_8h.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="321,309,467,336"/>
 </map>
 </div>
 </p>
@@ -1815,7 +1693,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node31" href="conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80" title="do_conn_mgmt" alt="" coords="513,1664,636,1691"/>
 <area shape="rect" id="node32" href="stream_8c.html#a4e339d032e8f2862f10a6a4b4332a785" title="do_stream_id_fc" alt="" coords="709,1689,836,1716"/>
 <area shape="rect" id="node36" href="conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026" title="add_scid" alt="" coords="535,43,614,69"/>
-<area shape="rect" id="node37" href="conn_8c.html#ae0f78c7a62de17ad9b4ac4c11dde7c85" title="conns_by_ipnp_ins" alt="" coords="504,93,645,120"/>
+<area shape="rect" id="node37" href="conn_8h.html#ae0f78c7a62de17ad9b4ac4c11dde7c85" title="conns_by_ipnp_ins" alt="" coords="504,93,645,120"/>
 <area shape="rect" id="node42" href="recovery_8c.html#adefe14984378f3f5e9dcd65042c5709a" title="on_ld_timeout" alt="" coords="1101,1715,1215,1741"/>
 <area shape="rect" id="node44" href="conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87" title="tx_stream" alt="" coords="1263,1613,1349,1640"/>
 <area shape="rect" id="node48" href="stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="315,1765,414,1792"/>
@@ -2288,7 +2166,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node48" href="conn_8c.html#a5d6639a237bb88d66f93760fc93000a5" title="rx_crypto" alt="" coords="167,1627,249,1653"/>
 <area shape="rect" id="node49" href="diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="371,1424,460,1451"/>
 <area shape="rect" id="node50" href="stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="158,1323,258,1349"/>
-<area shape="rect" id="node5" href="conn_8c.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="343,56,488,83"/>
+<area shape="rect" id="node5" href="conn_8h.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="343,56,488,83"/>
 <area shape="rect" id="node7" href="pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="948,1323,1025,1349"/>
 <area shape="rect" id="node11" href="marshall_8h.html#aa5c5f95b69c0b14df862a161d82596e3" title="enc1" alt="" coords="583,259,636,285"/>
 <area shape="rect" id="node12" href="marshall_8h.html#a56a591d7adcd1cb9467c1f475f0973b3" title="enc4" alt="" coords="389,309,442,336"/>
@@ -2905,15 +2783,15 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node7" href="diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="Free the diet tree d and all its intervals. " alt="" coords="555,56,633,83"/>
 <area shape="rect" id="node9" href="conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78" title="cids_by_id_del" alt="" coords="770,132,883,159"/>
 <area shape="rect" id="node10" href="conn_8c.html#a157de1b1117fd595bca3a0d2a82184db" title="conns_by_id_del" alt="" coords="763,208,890,235"/>
-<area shape="rect" id="node11" href="conn_8c.html#a16d8e56d8f65f1aa415bef65ce637b99" title="conns_by_ipnp_del" alt="" coords="523,259,665,285"/>
+<area shape="rect" id="node11" href="conn_8h.html#a16d8e56d8f65f1aa415bef65ce637b99" title="conns_by_ipnp_del" alt="" coords="523,259,665,285"/>
 <area shape="rect" id="node13" href="conn_8c.html#ab983b3d57ee0c84f0e70018a299033a8" title="free_scid" alt="" coords="555,157,633,184"/>
 <area shape="rect" id="node14" href="conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56" title="free_dcid" alt="" coords="554,411,634,437"/>
-<area shape="rect" id="node12" href="conn_8c.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="754,259,899,285"/>
+<area shape="rect" id="node12" href="conn_8h.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="754,259,899,285"/>
 <area shape="rect" id="node15" href="conn_8c.html#af84f094acba0e3ce125f3c1297b7ec32" title="conns_by_srt_del" alt="" coords="761,563,893,589"/>
 <area shape="rect" id="node17" href="quic_8h.html#ab2b6d16118c27c0f7c91dfac30c5d446" title="cid_cpy" alt="" coords="792,461,861,488"/>
 <area shape="rect" id="node18" href="conn_8c.html#ae5beee50c7414b14d1efb1e3e8ebe1ee" title="add_dcid" alt="" coords="555,563,633,589"/>
 <area shape="rect" id="node21" href="conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026" title="add_scid" alt="" coords="555,360,633,387"/>
-<area shape="rect" id="node24" href="conn_8c.html#ae0f78c7a62de17ad9b4ac4c11dde7c85" title="conns_by_ipnp_ins" alt="" coords="523,309,665,336"/>
+<area shape="rect" id="node24" href="conn_8h.html#ae0f78c7a62de17ad9b4ac4c11dde7c85" title="conns_by_ipnp_ins" alt="" coords="523,309,665,336"/>
 <area shape="rect" id="node19" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="783,664,871,691"/>
 <area shape="rect" id="node20" href="conn_8c.html#a619f2109f27acd5a1bb587f6d452097e" title="conns_by_srt_ins" alt="" coords="761,613,892,640"/>
 <area shape="rect" id="node22" href="conn_8c.html#aa3c6338a5e3105ada0abf13e28cfe3e8" title="cids_by_id_ins" alt="" coords="771,385,883,412"/>

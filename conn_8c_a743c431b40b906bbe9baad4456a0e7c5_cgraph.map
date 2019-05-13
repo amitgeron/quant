@@ -32,7 +32,7 @@
 <area shape="rect" id="node48" href="$conn_8c.html#a5d6639a237bb88d66f93760fc93000a5" title="rx_crypto" alt="" coords="167,1627,249,1653"/>
 <area shape="rect" id="node49" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="371,1424,460,1451"/>
 <area shape="rect" id="node50" href="$stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="158,1323,258,1349"/>
-<area shape="rect" id="node5" href="$conn_8c.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="343,56,488,83"/>
+<area shape="rect" id="node5" href="$conn_8h.html#a4174be30b6047b763d3dd5e8e6131a08" title="conns_by_ipnp_key" alt="" coords="343,56,488,83"/>
 <area shape="rect" id="node7" href="$pkt_8h.html#a265e9c52eb203bb4701727adc3908850" title="pkt_type" alt="" coords="948,1323,1025,1349"/>
 <area shape="rect" id="node11" href="$marshall_8h.html#aa5c5f95b69c0b14df862a161d82596e3" title="enc1" alt="" coords="583,259,636,285"/>
 <area shape="rect" id="node12" href="$marshall_8h.html#a56a591d7adcd1cb9467c1f475f0973b3" title="enc4" alt="" coords="389,309,442,336"/>

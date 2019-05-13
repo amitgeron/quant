@@ -1,12 +1,13 @@
 <map id="src/conn.h" name="src/conn.h">
-<area shape="rect" id="node2" href="$conn_8c.html" title="src/conn.c" alt="" coords="5,155,92,181"/>
-<area shape="rect" id="node3" href="$pkt_8h.html" title="src/pkt.h" alt="" coords="267,80,345,107"/>
-<area shape="rect" id="node4" href="$frame_8c.html" title="src/frame.c" alt="" coords="216,155,311,181"/>
-<area shape="rect" id="node5" href="$pkt_8c.html" title="src/pkt.c" alt="" coords="116,155,192,181"/>
-<area shape="rect" id="node6" href="$quic_8c.html" title="src/quic.c" alt="" coords="335,155,418,181"/>
-<area shape="rect" id="node7" href="$recovery_8c.html" title="src/recovery.c" alt="" coords="442,155,551,181"/>
-<area shape="rect" id="node8" href="$stream_8c.html" title="src/stream.c" alt="" coords="671,155,773,181"/>
-<area shape="rect" id="node9" href="$tls_8c.html" title="src/tls.c" alt="" coords="576,155,647,181"/>
-<area shape="rect" id="node10" href="$stream_8h.html" title="src/stream.h" alt="" coords="420,80,523,107"/>
-<area shape="rect" id="node11" href="$pn_8c.html" title="src/pn.c" alt="" coords="798,155,870,181"/>
+<area shape="rect" id="node2" href="$conn_8c.html" title="src/conn.c" alt="" coords="102,155,189,181"/>
+<area shape="rect" id="node3" href="$pn_8h.html" title="src/pn.h" alt="" coords="225,80,298,107"/>
+<area shape="rect" id="node4" href="$frame_8c.html" title="src/frame.c" alt="" coords="313,155,407,181"/>
+<area shape="rect" id="node5" href="$pkt_8c.html" title="src/pkt.c" alt="" coords="213,155,289,181"/>
+<area shape="rect" id="node6" href="$pn_8c.html" title="src/pn.c" alt="" coords="5,155,77,181"/>
+<area shape="rect" id="node7" href="$quic_8c.html" title="src/quic.c" alt="" coords="565,155,648,181"/>
+<area shape="rect" id="node8" href="$recovery_8c.html" title="src/recovery.c" alt="" coords="432,155,541,181"/>
+<area shape="rect" id="node9" href="$tls_8c.html" title="src/tls.c" alt="" coords="673,155,743,181"/>
+<area shape="rect" id="node10" href="$pkt_8h.html" title="src/pkt.h" alt="" coords="501,80,579,107"/>
+<area shape="rect" id="node11" href="$stream_8c.html" title="src/stream.c" alt="" coords="767,155,870,181"/>
+<area shape="rect" id="node12" href="$stream_8h.html" title="src/stream.h" alt="" coords="374,80,477,107"/>
 </map>

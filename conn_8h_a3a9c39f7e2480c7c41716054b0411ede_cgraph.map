@@ -40,7 +40,7 @@
 <area shape="rect" id="node46" href="$pkt_8h.html#abf94d1f5874eb46d69ca6112e154fa6a" title="has_pkt_nr" alt="" coords="792,1005,884,1032"/>
 <area shape="rect" id="node47" href="$pkt_8c.html#aff79575bbdf6a76d0844259d50278353" title="dec_pkt_hdr_remainder" alt="" coords="381,752,555,779"/>
 <area shape="rect" id="node20" href="$conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026" title="add_scid" alt="" coords="799,245,877,272"/>
-<area shape="rect" id="node21" href="$conn_8c.html#ae0f78c7a62de17ad9b4ac4c11dde7c85" title="conns_by_ipnp_ins" alt="" coords="767,347,909,373"/>
+<area shape="rect" id="node21" href="$conn_8h.html#ae0f78c7a62de17ad9b4ac4c11dde7c85" title="conns_by_ipnp_ins" alt="" coords="767,347,909,373"/>
 <area shape="rect" id="node23" href="$conn_8c.html#afd38904c68cab87424e6aa8db723fd38" title="enter_closing" alt="" coords="785,1309,891,1336"/>
 <area shape="rect" id="node29" href="$conn_8c.html#a0b0c1eff62e65d38a175b6df4ea4ce80" title="do_conn_mgmt" alt="" coords="971,1664,1093,1691"/>
 <area shape="rect" id="node30" href="$stream_8c.html#a4e339d032e8f2862f10a6a4b4332a785" title="do_stream_id_fc" alt="" coords="1141,1689,1268,1716"/>
