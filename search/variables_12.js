@@ -21,6 +21,7 @@ var searchData=
   ['tp_5fin',['tp_in',['../structq__conn.html#a1c348c0394cde3db651c703483abd620',1,'q_conn']]],
   ['tp_5fout',['tp_out',['../structq__conn.html#a8809e0425fd355b66dc874c56526d541',1,'q_conn']]],
   ['try_5f0rtt',['try_0rtt',['../structq__conn.html#a560bbc195a5c8b9642f059bbddddb442',1,'q_conn']]],
+  ['tx_5fframes',['tx_frames',['../structpn__space.html#a4a18ca0e9f5142547b382da754347ae6',1,'pn_space']]],
   ['tx_5fmax_5fdata',['tx_max_data',['../structq__conn.html#ae7d9e1ddf34ca4d0fde9e614f472afc7',1,'q_conn']]],
   ['tx_5fmax_5fsid_5fbidi',['tx_max_sid_bidi',['../structq__conn.html#a6ed2795485a81d8795d615da525d75db',1,'q_conn']]],
   ['tx_5fmax_5fsid_5funi',['tx_max_sid_uni',['../structq__conn.html#afbed05a8e2e77dc78a8e5ea3b5f66e49',1,'q_conn']]],

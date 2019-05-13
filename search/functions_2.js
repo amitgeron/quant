@@ -23,6 +23,5 @@ var searchData=
   ['conns_5fby_5fipnp_5fupdate',['conns_by_ipnp_update',['../conn_8c.html#a1b482fb3205708704bd66a120026461c',1,'conn.c']]],
   ['conns_5fby_5fsrt_5fdel',['conns_by_srt_del',['../conn_8c.html#af84f094acba0e3ce125f3c1297b7ec32',1,'conn.c']]],
   ['conns_5fby_5fsrt_5fins',['conns_by_srt_ins',['../conn_8c.html#a619f2109f27acd5a1bb587f6d452097e',1,'conns_by_srt_ins(struct q_conn *const c, uint8_t *const srt):&#160;conn.c'],['../conn_8h.html#a619f2109f27acd5a1bb587f6d452097e',1,'conns_by_srt_ins(struct q_conn *const c, uint8_t *const srt):&#160;conn.c']]],
-  ['crpt_5fstrm_5fid',['crpt_strm_id',['../stream_8h.html#a012bc210254cd3269ef892fcbd91e146',1,'stream.h']]],
-  ['crypto_5fpkts_5fin_5fflight',['crypto_pkts_in_flight',['../recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9',1,'recovery.c']]]
+  ['crpt_5fstrm_5fid',['crpt_strm_id',['../stream_8h.html#a012bc210254cd3269ef892fcbd91e146',1,'stream.h']]]
 ];

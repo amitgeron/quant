@@ -50,7 +50,6 @@ var searchData=
   ['corpus_5fpkt_5fdir',['corpus_pkt_dir',['../quic_8c.html#a0feed348acaef16b0f25af1ef6d93adc',1,'corpus_pkt_dir():&#160;quic.c'],['../quic_8h.html#a0feed348acaef16b0f25af1ef6d93adc',1,'corpus_pkt_dir():&#160;quic.c']]],
   ['crpt_5fstrm_5fid',['crpt_strm_id',['../stream_8h.html#a012bc210254cd3269ef892fcbd91e146',1,'stream.h']]],
   ['crypto_5fcnt',['crypto_cnt',['../structrecovery.html#afadddaaa0331377dc1e183b442082816',1,'recovery']]],
-  ['crypto_5fpkts_5fin_5fflight',['crypto_pkts_in_flight',['../recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9',1,'recovery.c']]],
   ['cstreams',['cstreams',['../structq__conn.html#a2d76e4d46e32ced7b0eff936f1df42cd',1,'q_conn']]],
   ['cwnd',['cwnd',['../structq__conn__info.html#a933ce41722305555e5e5a4bbb5e1a54f',1,'q_conn_info::cwnd()'],['../structrecovery.html#a26dea9e16702f8af9f244cd5e2398f87',1,'recovery::cwnd()']]],
   ['cyn',['CYN',['../quic_8h.html#adc708fa688f5d78db361f66c36f0f807',1,'quic.h']]]

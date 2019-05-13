@@ -1,9 +1,9 @@
 <map id="set_ld_timer" name="set_ld_timer">
-<area shape="rect" id="node2" href="$recovery_8c.html#a7387bc0c9a40f1dc99260d06de363cea" title="earliest_loss_t_pn" alt="" coords="163,5,299,32"/>
-<area shape="rect" id="node3" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="381,31,448,57"/>
-<area shape="rect" id="node4" href="$recovery_8c.html#a613e6dac36347ce361f0b29840ec7bd9" title="crypto_pkts_in_flight" alt="" coords="155,107,307,133"/>
-<area shape="rect" id="node6" href="$recovery_8c.html#a14c340e1ba1e6d62e65dabd513a19848" title="have_keys" alt="" coords="186,157,275,184"/>
-<area shape="rect" id="node8" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="187,208,275,235"/>
-<area shape="rect" id="node5" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="355,107,475,133"/>
-<area shape="rect" id="node7" href="$pn_8h.html#abefb5e2c6f00c929114062d7d586f9ae" title="pn_type_str" alt="" coords="366,157,463,184"/>
+<area shape="rect" id="node2" href="$recovery_8c.html#a7387bc0c9a40f1dc99260d06de363cea" title="earliest_loss_t_pn" alt="" coords="185,5,321,32"/>
+<area shape="rect" id="node3" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="427,31,493,57"/>
+<area shape="rect" id="node4" href="$recovery_8c.html#afefa0be910a1c68914a26bb85f788781" title="have_unacked_crypto_data" alt="" coords="155,107,352,133"/>
+<area shape="rect" id="node6" href="$recovery_8c.html#a14c340e1ba1e6d62e65dabd513a19848" title="have_keys" alt="" coords="209,157,298,184"/>
+<area shape="rect" id="node8" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="209,208,297,235"/>
+<area shape="rect" id="node5" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="400,107,520,133"/>
+<area shape="rect" id="node7" href="$pn_8h.html#abefb5e2c6f00c929114062d7d586f9ae" title="pn_type_str" alt="" coords="411,157,509,184"/>
 </map>

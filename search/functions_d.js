@@ -3,7 +3,7 @@ var searchData=
   ['on_5fack_5freceived_5f1',['on_ack_received_1',['../recovery_8c.html#ad5e0e6a11333b5ef813f7eaa80a5b3c2',1,'on_ack_received_1(struct pkt_meta *const lg_ack, const uint64_t ack_del):&#160;recovery.c'],['../recovery_8h.html#ad5e0e6a11333b5ef813f7eaa80a5b3c2',1,'on_ack_received_1(struct pkt_meta *const lg_ack, const uint64_t ack_del):&#160;recovery.c']]],
   ['on_5fack_5freceived_5f2',['on_ack_received_2',['../recovery_8c.html#a0685f70e3d94c9f312ca97299998da94',1,'on_ack_received_2(struct pn_space *const pn):&#160;recovery.c'],['../recovery_8h.html#a0685f70e3d94c9f312ca97299998da94',1,'on_ack_received_2(struct pn_space *const pn):&#160;recovery.c']]],
   ['on_5fch',['on_ch',['../tls_8c.html#a0c58491ff4fb3ef4eaaa05226aea773e',1,'tls.c']]],
-  ['on_5fld_5falarm',['on_ld_alarm',['../recovery_8c.html#a285abb31cbd8d993563a1b4b57b3ae80',1,'recovery.c']]],
+  ['on_5fld_5ftimeout',['on_ld_timeout',['../recovery_8c.html#adefe14984378f3f5e9dcd65042c5709a',1,'recovery.c']]],
   ['on_5fpkt_5facked',['on_pkt_acked',['../recovery_8c.html#a8910d603b42ffe32379ec8a842bfe235',1,'on_pkt_acked(struct w_iov *const v, struct pkt_meta *m):&#160;recovery.c'],['../recovery_8h.html#a8910d603b42ffe32379ec8a842bfe235',1,'on_pkt_acked(struct w_iov *const v, struct pkt_meta *m):&#160;recovery.c']]],
   ['on_5fpkt_5facked_5fcc',['on_pkt_acked_cc',['../recovery_8c.html#abe0498b300115be39747704ff68798da',1,'recovery.c']]],
   ['on_5fpkt_5flost',['on_pkt_lost',['../recovery_8c.html#aa4c2736d0b8d325153b150e18e0d6fbf',1,'recovery.c']]],

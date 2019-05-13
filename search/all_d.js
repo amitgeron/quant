@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['ndebug_5fdiet_5finsert',['NDEBUG_diet_insert',['../recovery_8c.html#a4cf9366f3ec0fed7608f5099de6d514e',1,'recovery.c']]],
   ['need_5fctrl_5fupdate',['need_ctrl_update',['../stream_8h.html#abcbe2c551d0f4dd754184376bb6cce35',1,'stream.h']]],
   ['needed_5fpkt_5fnr_5flen',['needed_pkt_nr_len',['../pkt_8c.html#adb9f7ed98b4a9aa5dbab4df08c78ea0c',1,'pkt.c']]],
   ['needs_5faccept',['needs_accept',['../structq__conn.html#afa5efb983be2e274a5e2c479561858ae',1,'q_conn']]],

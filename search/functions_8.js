@@ -1,7 +1,8 @@
 var searchData=
 [
   ['idle_5falarm',['idle_alarm',['../conn_8c.html#ac22c90477f7d4e5f8e96e3d536b58afb',1,'conn.c']]],
-  ['in_5frecovery',['in_recovery',['../recovery_8c.html#ac36409c4a2b0380ad8c0b16d5fe819e4',1,'recovery.c']]],
+  ['in_5fcong_5frecovery',['in_cong_recovery',['../recovery_8c.html#afdcceabc56218a7b0c9a734ec4f13363',1,'recovery.c']]],
+  ['in_5fpersistent_5fcong',['in_persistent_cong',['../recovery_8c.html#a1eb571e2d9ab6ff64aa22ab946dbc546',1,'recovery.c']]],
   ['init_5fpn',['init_pn',['../pn_8c.html#a570af04eddba908536f17aac5bf0501d',1,'init_pn(struct pn_space *const pn, struct q_conn *const c, const pn_t type):&#160;pn.c'],['../pn_8h.html#a570af04eddba908536f17aac5bf0501d',1,'init_pn(struct pn_space *const pn, struct q_conn *const c, const pn_t type):&#160;pn.c']]],
   ['init_5fprot',['init_prot',['../tls_8c.html#a705b76a676f449cbc37b9d955a2e0d5c',1,'init_prot(struct q_conn *const c):&#160;tls.c'],['../tls_8h.html#a705b76a676f449cbc37b9d955a2e0d5c',1,'init_prot(struct q_conn *const c):&#160;tls.c']]],
   ['init_5frec',['init_rec',['../recovery_8c.html#a60784c1a11f52e1b091994e1cfcc4609',1,'init_rec(struct q_conn *const c):&#160;recovery.c'],['../recovery_8h.html#a60784c1a11f52e1b091994e1cfcc4609',1,'init_rec(struct q_conn *const c):&#160;recovery.c']]],

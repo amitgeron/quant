@@ -52,6 +52,7 @@ var searchData=
   ['try_5f0rtt',['try_0rtt',['../structq__conn.html#a560bbc195a5c8b9642f059bbddddb442',1,'q_conn']]],
   ['tx',['tx',['../conn_8c.html#ade49ead4769b1fdbc2897cba41265ca7',1,'tx(struct ev_loop *const l, ev_async *const w, int param):&#160;conn.c'],['../conn_8h.html#ade49ead4769b1fdbc2897cba41265ca7',1,'tx(struct ev_loop *const l, ev_async *const w, int param):&#160;conn.c']]],
   ['tx_5fack',['tx_ack',['../conn_8c.html#a0a20a8f8077967eb418a31161d81e69b',1,'conn.c']]],
+  ['tx_5fframes',['tx_frames',['../structpn__space.html#a4a18ca0e9f5142547b382da754347ae6',1,'pn_space']]],
   ['tx_5fmax_5fdata',['tx_max_data',['../structq__conn.html#ae7d9e1ddf34ca4d0fde9e614f472afc7',1,'q_conn']]],
   ['tx_5fmax_5fsid_5fbidi',['tx_max_sid_bidi',['../structq__conn.html#a6ed2795485a81d8795d615da525d75db',1,'q_conn']]],
   ['tx_5fmax_5fsid_5funi',['tx_max_sid_uni',['../structq__conn.html#afbed05a8e2e77dc78a8e5ea3b5f66e49',1,'q_conn']]],

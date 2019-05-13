@@ -1,7 +1,7 @@
 <map id="q_connect" name="q_connect">
 <area shape="rect" id="node2" href="$conn_8c.html#a3a9c39f7e2480c7c41716054b0411ede" title="new_conn" alt="" coords="141,701,227,728"/>
 <area shape="rect" id="node6" href="$tls_8c.html#a00ca93e0c4b1bdde1a2e97a4ef13373e" title="init_tls" alt="" coords="611,43,674,69"/>
-<area shape="rect" id="node16" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="1580,727,1668,753"/>
+<area shape="rect" id="node16" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="1593,727,1681,753"/>
 <area shape="rect" id="node40" href="$stream_8c.html#a300bcafbad60488eb0b6b0560eb1b645" title="new_stream" alt="" coords="276,955,376,981"/>
 <area shape="rect" id="node43" href="$tls_8c.html#a873296f812267d1c3475457cacc3c815" title="init_tp" alt="" coords="153,1309,215,1336"/>
 <area shape="rect" id="node47" href="$tls_8c.html#a4e66d17ae7e8756388309b9e193a9543" title="tls_io" alt="" coords="157,1157,211,1184"/>
@@ -20,7 +20,7 @@
 <area shape="rect" id="node39" href="$pn_8c.html#a570af04eddba908536f17aac5bf0501d" title="init_pn" alt="" coords="294,777,358,804"/>
 <area shape="rect" id="node42" href="$stream_8h.html#a012bc210254cd3269ef892fcbd91e146" title="crpt_strm_id" alt="" coords="275,828,377,855"/>
 <area shape="rect" id="node4" href="$conn_8c.html#a743c431b40b906bbe9baad4456a0e7c5" title="rx_pkts" alt="" coords="445,195,513,221"/>
-<area shape="rect" id="node15" href="$quant_8h.html#a10d26c21df515950a80e3b9704240801" title="q_ready" alt="" coords="1445,651,1519,677"/>
+<area shape="rect" id="node15" href="$quant_8h.html#a10d26c21df515950a80e3b9704240801" title="q_ready" alt="" coords="1452,651,1525,677"/>
 <area shape="rect" id="node21" href="$conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="425,347,533,373"/>
 <area shape="rect" id="node22" href="$pn_8c.html#a7f1a6720a0e3506c0553d13ad865510f" title="needs_ack" alt="" coords="434,296,525,323"/>
 <area shape="rect" id="node23" href="$conn_8c.html#a0a20a8f8077967eb418a31161d81e69b" title="tx_ack" alt="" coords="448,651,511,677"/>
@@ -41,7 +41,7 @@
 <area shape="rect" id="node25" href="$stream_8c.html#a4e339d032e8f2862f10a6a4b4332a785" title="do_stream_id_fc" alt="" coords="752,701,879,728"/>
 <area shape="rect" id="node29" href="$conn_8c.html#aa16d30297b5b1ceed9c3fef11b6a5026" title="add_scid" alt="" coords="963,397,1041,424"/>
 <area shape="rect" id="node30" href="$conn_8c.html#ae0f78c7a62de17ad9b4ac4c11dde7c85" title="conns_by_ipnp_ins" alt="" coords="931,549,1073,576"/>
-<area shape="rect" id="node35" href="$recovery_8c.html#a285abb31cbd8d993563a1b4b57b3ae80" title="on_ld_alarm" alt="" coords="1432,980,1532,1007"/>
+<area shape="rect" id="node35" href="$recovery_8c.html#adefe14984378f3f5e9dcd65042c5709a" title="on_ld_timeout" alt="" coords="1432,980,1545,1007"/>
 <area shape="rect" id="node37" href="$conn_8c.html#a3ee439cb4dc64e21a0637dcd7e9dcb87" title="tx_stream" alt="" coords="1289,840,1375,867"/>
 <area shape="rect" id="node41" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="430,1056,529,1083"/>
 <area shape="rect" id="node44" href="$tls_8c.html#ad23afa75ea04bcca3a122cb2aabecc1b" title="enc_tp" alt="" coords="293,1360,359,1387"/>
