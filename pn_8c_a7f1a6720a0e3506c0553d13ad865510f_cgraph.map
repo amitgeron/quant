@@ -1,4 +1,5 @@
 <map id="needs_ack" name="needs_ack">
 <area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="158,5,246,32"/>
-<area shape="rect" id="node3" href="$frame_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="144,56,260,83"/>
+<area shape="rect" id="node3" href="$pn_8h.html#abefb5e2c6f00c929114062d7d586f9ae" title="pn_type_str" alt="" coords="153,56,251,83"/>
+<area shape="rect" id="node4" href="$frame_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="144,107,260,133"/>
 </map>

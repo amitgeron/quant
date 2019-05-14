@@ -1,11 +1,11 @@
 <map id="on_ld_timeout" name="on_ld_timeout">
-<area shape="rect" id="node2" href="$recovery_8c.html#a7387bc0c9a40f1dc99260d06de363cea" title="earliest_loss_t_pn" alt="" coords="372,33,508,60"/>
-<area shape="rect" id="node3" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="613,33,680,60"/>
-<area shape="rect" id="node4" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="396,84,484,110"/>
-<area shape="rect" id="node5" href="$recovery_8c.html#a96b0529b2380d745862c605244caa46a" title="detect_lost_pkts" alt="" coords="167,286,293,313"/>
-<area shape="rect" id="node6" href="$recovery_8c.html#afefa0be910a1c68914a26bb85f788781" title="have_unacked_crypto_data" alt="" coords="341,185,539,212"/>
-<area shape="rect" id="node8" href="$recovery_8c.html#a14c340e1ba1e6d62e65dabd513a19848" title="have_keys" alt="" coords="395,236,485,262"/>
-<area shape="rect" id="node10" href="$recovery_8c.html#ab6edfdcadecde6939bdf8e64651e2300" title="set_ld_timer" alt="" coords="179,134,281,161"/>
-<area shape="rect" id="node7" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="587,185,707,212"/>
-<area shape="rect" id="node9" href="$pn_8h.html#abefb5e2c6f00c929114062d7d586f9ae" title="pn_type_str" alt="" coords="598,236,695,262"/>
+<area shape="rect" id="node2" href="$recovery_8c.html#a7387bc0c9a40f1dc99260d06de363cea" title="earliest_loss_t_pn" alt="" coords="372,38,508,64"/>
+<area shape="rect" id="node3" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="613,38,680,64"/>
+<area shape="rect" id="node4" href="$pn_8h.html#abefb5e2c6f00c929114062d7d586f9ae" title="pn_type_str" alt="" coords="598,291,695,318"/>
+<area shape="rect" id="node5" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="396,88,484,115"/>
+<area shape="rect" id="node6" href="$recovery_8c.html#a96b0529b2380d745862c605244caa46a" title="detect_lost_pkts" alt="" coords="167,190,293,216"/>
+<area shape="rect" id="node7" href="$recovery_8c.html#afefa0be910a1c68914a26bb85f788781" title="have_unacked_crypto_data" alt="" coords="341,240,539,267"/>
+<area shape="rect" id="node9" href="$recovery_8c.html#a14c340e1ba1e6d62e65dabd513a19848" title="have_keys" alt="" coords="395,291,485,318"/>
+<area shape="rect" id="node10" href="$recovery_8c.html#ab6edfdcadecde6939bdf8e64651e2300" title="set_ld_timer" alt="" coords="179,139,281,166"/>
+<area shape="rect" id="node8" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="587,240,707,267"/>
 </map>
