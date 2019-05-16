@@ -6,7 +6,7 @@
 <area shape="rect" id="node11" href="$conn_8c.html#a1c73802c8005ac4f60cf1c0003972d56" title="free_dcid" alt="" coords="248,676,328,703"/>
 <area shape="rect" id="node13" href="$frame_8c.html#a5b6e503ff8451e43896d4a6be580d1d6" title="enc_path_challenge\l_frame" alt="" coords="213,107,363,149"/>
 <area shape="rect" id="node14" href="$frame_8c.html#a9f63816407388f6f54ef4e503aa61176" title="enc_new_cid_frame" alt="" coords="215,173,361,200"/>
-<area shape="rect" id="node19" href="$conn_8h.html#a21e64e0312f262d700c34004373df051" title="needs_more_ncids" alt="" coords="217,727,359,753"/>
+<area shape="rect" id="node19" href="$conn_8h.html#a44fa52e39ffac370ddfdc89e0f208609" title="needs_more_ncids" alt="" coords="217,727,359,753"/>
 <area shape="rect" id="node20" href="$frame_8c.html#a37fac5ce3987b68562b12e959d6fe3ed" title="enc_data_blocked_frame" alt="" coords="197,275,379,301"/>
 <area shape="rect" id="node21" href="$frame_8c.html#ab672f78c440aab240ffc6bc02886c041" title="enc_max_data_frame" alt="" coords="207,325,369,352"/>
 <area shape="rect" id="node22" href="$frame_8c.html#a485dca2ab23bc840134c064dc86e347d" title="enc_streams_blocked\l_frame" alt="" coords="207,377,369,418"/>

@@ -31,6 +31,7 @@ var searchData=
   ['maybe_5ftx',['maybe_tx',['../recovery_8c.html#a3e9994733ec7bbe76394f9c6a9334356',1,'recovery.c']]],
   ['meta',['meta',['../quic_8h.html#a01ed57991bea53afa1ece4452d16b568',1,'quic.h']]],
   ['migr_5fpeer',['migr_peer',['../structq__conn.html#a89363123ae566d5648563939e31c6806',1,'q_conn']]],
+  ['min_5fcid_5fseq',['min_cid_seq',['../structpkt__meta.html#a5ca0e802f76d8e31e8718e201b4e2772',1,'pkt_meta']]],
   ['min_5fini_5flen',['MIN_INI_LEN',['../pkt_8h.html#ae05e8e856810ed8b7911d43457b16e05',1,'pkt.h']]],
   ['min_5frtt',['min_rtt',['../structrecovery.html#ad29432ca40c3f915331349f86dc4dd48',1,'recovery']]],
   ['min_5frx_5fepoch',['min_rx_epoch',['../structq__conn.html#a1e7b106e2468975cb7408cc5d1b182e4',1,'q_conn']]],

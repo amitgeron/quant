@@ -4,7 +4,7 @@
 <area shape="rect" id="node8" href="$pkt_8c.html#a50c54e5fa1a2e85b7ddbc2d3c3b3b2b7" title="enc_pkt" alt="" coords="118,841,190,868"/>
 <area shape="rect" id="node3" href="$stream_8c.html#a4e339d032e8f2862f10a6a4b4332a785" title="do_stream_id_fc" alt="" coords="701,5,828,32"/>
 <area shape="rect" id="node4" href="$conn_8c.html#ad1e5e232a8372127e2130e85e7cdbb8d" title="use_next_dcid" alt="" coords="708,56,821,83"/>
-<area shape="rect" id="node6" href="$conn_8h.html#a21e64e0312f262d700c34004373df051" title="needs_more_ncids" alt="" coords="693,157,836,184"/>
+<area shape="rect" id="node6" href="$conn_8h.html#a44fa52e39ffac370ddfdc89e0f208609" title="needs_more_ncids" alt="" coords="693,157,836,184"/>
 <area shape="rect" id="node5" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="884,208,972,235"/>
 <area shape="rect" id="node9" href="$quic_8h.html#a2a2c8a50809b42e79703ca8ceabd1011" title="adj_iov_to_start" alt="" coords="261,411,384,437"/>
 <area shape="rect" id="node10" href="$stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="273,461,372,488"/>

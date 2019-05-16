@@ -4,7 +4,7 @@ var searchData=
   ['needed_5fpkt_5fnr_5flen',['needed_pkt_nr_len',['../pkt_8c.html#adb9f7ed98b4a9aa5dbab4df08c78ea0c',1,'pkt.c']]],
   ['needs_5fack',['needs_ack',['../pn_8c.html#a7f1a6720a0e3506c0553d13ad865510f',1,'needs_ack(const struct pn_space *const pn):&#160;pn.c'],['../pn_8h.html#a7f1a6720a0e3506c0553d13ad865510f',1,'needs_ack(const struct pn_space *const pn):&#160;pn.c']]],
   ['needs_5fctrl',['needs_ctrl',['../stream_8h.html#a55033bb39f92f9963b52dd6d552ec723',1,'stream.h']]],
-  ['needs_5fmore_5fncids',['needs_more_ncids',['../conn_8h.html#a21e64e0312f262d700c34004373df051',1,'conn.h']]],
+  ['needs_5fmore_5fncids',['needs_more_ncids',['../conn_8h.html#a44fa52e39ffac370ddfdc89e0f208609',1,'conn.h']]],
   ['new_5fcids',['new_cids',['../conn_8c.html#a3f6ca706c4ae9f8fd0e40f70a155b1b7',1,'conn.c']]],
   ['new_5fconn',['new_conn',['../conn_8c.html#a3a9c39f7e2480c7c41716054b0411ede',1,'new_conn(struct w_engine *const w, const uint32_t vers, const struct cid *const dcid, const struct cid *const scid, const struct sockaddr *const peer, const char *const peer_name, const uint16_t port, const struct q_conn_conf *const conf):&#160;conn.c'],['../conn_8h.html#a3a9c39f7e2480c7c41716054b0411ede',1,'new_conn(struct w_engine *const w, const uint32_t vers, const struct cid *const dcid, const struct cid *const scid, const struct sockaddr *const peer, const char *const peer_name, const uint16_t port, const struct q_conn_conf *const conf):&#160;conn.c']]],
   ['new_5fstream',['new_stream',['../stream_8c.html#a300bcafbad60488eb0b6b0560eb1b645',1,'new_stream(struct q_conn *const c, const int64_t id):&#160;stream.c'],['../stream_8h.html#a300bcafbad60488eb0b6b0560eb1b645',1,'new_stream(struct q_conn *const c, const int64_t id):&#160;stream.c']]]

@@ -256,8 +256,8 @@ Functions</h2></td></tr>
 <tr class="separator:a3037cafb7df5c92ea54b7e6646a692e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8207d62bf3735618eb34dca6997e2d1"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8h.html#ad8207d62bf3735618eb34dca6997e2d1">get_sport</a> (const struct w_sock *const sock)</td></tr>
 <tr class="separator:ad8207d62bf3735618eb34dca6997e2d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21e64e0312f262d700c34004373df051"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8h.html#a21e64e0312f262d700c34004373df051">needs_more_ncids</a> (const struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
-<tr class="separator:a21e64e0312f262d700c34004373df051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44fa52e39ffac370ddfdc89e0f208609"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8h.html#a44fa52e39ffac370ddfdc89e0f208609">needs_more_ncids</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
+<tr class="separator:a44fa52e39ffac370ddfdc89e0f208609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4174be30b6047b763d3dd5e8e6131a08"><td class="memItemLeft" align="right" valign="top">static uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8h.html#a4174be30b6047b763d3dd5e8e6131a08">conns_by_ipnp_key</a> (const struct sockaddr *const src, const struct sockaddr *const dst)</td></tr>
 <tr class="separator:a4174be30b6047b763d3dd5e8e6131a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0f78c7a62de17ad9b4ac4c11dde7c85"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conn_8h.html#ae0f78c7a62de17ad9b4ac4c11dde7c85">conns_by_ipnp_ins</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
@@ -286,7 +286,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">__extension__({                                                            \</div><div class="line">        static <span class="keywordtype">char</span> _str[2 * (<a class="code" href="quic_8h.html#ae9adfb3c04c01d3ceb59639cbe654755">CID_LEN_MAX</a> + <span class="keyword">sizeof</span>((i)-&gt;seq)) + 1] = <span class="stringliteral">&quot;0&quot;</span>;      \</div><div class="line">        if (i)                                                                 \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%&quot;</span> PRIu64 <span class="stringliteral">&quot;:%.*s&quot;</span>, (i)-&gt;seq,         \</div><div class="line">                     2 * (i)-&gt;len, <a class="code" href="quic_8h.html#a0721d3a6a0adbe5443a85d94ee4da000">hex2str</a>((i)-&gt;<span class="keywordtype">id</span>, (i)-&gt;len));                \</div><div class="line">        (i) ? _str : <span class="stringliteral">&quot;?&quot;</span>;                                                      \</div><div class="line">    })</div><div class="ttc" id="quic_8h_html_a0721d3a6a0adbe5443a85d94ee4da000"><div class="ttname"><a href="quic_8h.html#a0721d3a6a0adbe5443a85d94ee4da000">hex2str</a></div><div class="ttdeci">#define hex2str(buf, len)</div><div class="ttdef"><b>Definition:</b> quic.h:270</div></div>
+<b>Value:</b><div class="fragment"><div class="line">__extension__({                                                            \</div><div class="line">        static <span class="keywordtype">char</span> _str[2 * (<a class="code" href="quic_8h.html#ae9adfb3c04c01d3ceb59639cbe654755">CID_LEN_MAX</a> + <span class="keyword">sizeof</span>((i)-&gt;seq)) + 1] = <span class="stringliteral">&quot;0&quot;</span>;      \</div><div class="line">        if (i)                                                                 \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%&quot;</span> PRIu64 <span class="stringliteral">&quot;:%.*s&quot;</span>, (i)-&gt;seq,         \</div><div class="line">                     2 * (i)-&gt;len, <a class="code" href="quic_8h.html#a0721d3a6a0adbe5443a85d94ee4da000">hex2str</a>((i)-&gt;<span class="keywordtype">id</span>, (i)-&gt;len));                \</div><div class="line">        (i) ? _str : <span class="stringliteral">&quot;?&quot;</span>;                                                      \</div><div class="line">    })</div><div class="ttc" id="quic_8h_html_a0721d3a6a0adbe5443a85d94ee4da000"><div class="ttname"><a href="quic_8h.html#a0721d3a6a0adbe5443a85d94ee4da000">hex2str</a></div><div class="ttdeci">#define hex2str(buf, len)</div><div class="ttdef"><b>Definition:</b> quic.h:271</div></div>
 <div class="ttc" id="quic_8h_html_ae9adfb3c04c01d3ceb59639cbe654755"><div class="ttname"><a href="quic_8h.html#ae9adfb3c04c01d3ceb59639cbe654755">CID_LEN_MAX</a></div><div class="ttdeci">#define CID_LEN_MAX</div><div class="ttdoc">Maximum CID length allowed by spec. </div><div class="ttdef"><b>Definition:</b> quic.h:55</div></div>
 </div><!-- fragment -->
 </div>
@@ -1305,7 +1305,7 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a21e64e0312f262d700c34004373df051"></a>
+<a class="anchor" id="a44fa52e39ffac370ddfdc89e0f208609"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1315,7 +1315,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">static bool needs_more_ncids </td>
           <td>(</td>
-          <td class="paramtype">const struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
+          <td class="paramtype">struct <a class="el" href="structq__conn.html">q_conn</a> *const&#160;</td>
           <td class="paramname"><em>c</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1754,7 +1754,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node13" href="pkt_8c.html#a50c54e5fa1a2e85b7ddbc2d3c3b3b2b7" title="enc_pkt" alt="" coords="203,707,275,734"/>
 <area shape="rect" id="node9" href="stream_8c.html#a4e339d032e8f2862f10a6a4b4332a785" title="do_stream_id_fc" alt="" coords="753,1543,880,1570"/>
 <area shape="rect" id="node10" href="conn_8c.html#ad1e5e232a8372127e2130e85e7cdbb8d" title="use_next_dcid" alt="" coords="936,1645,1049,1671"/>
-<area shape="rect" id="node11" href="conn_8h.html#a21e64e0312f262d700c34004373df051" title="needs_more_ncids" alt="" coords="745,1290,888,1317"/>
+<area shape="rect" id="node11" href="conn_8h.html#a44fa52e39ffac370ddfdc89e0f208609" title="needs_more_ncids" alt="" coords="745,1290,888,1317"/>
 <area shape="rect" id="node14" href="quic_8h.html#a2a2c8a50809b42e79703ca8ceabd1011" title="adj_iov_to_start" alt="" coords="344,530,467,557"/>
 <area shape="rect" id="node15" href="stream_8h.html#af3bef0cb9d669dca78f301f6ae50a19e" title="strm_epoch" alt="" coords="356,581,455,607"/>
 <area shape="rect" id="node16" href="conn_8h.html#a526357c19864e7579573160573a55c33" title="pn_for_epoch" alt="" coords="351,631,459,658"/>
