@@ -1,9 +1,10 @@
 <map id="set_ld_timer" name="set_ld_timer">
 <area shape="rect" id="node2" href="$recovery_8c.html#a7387bc0c9a40f1dc99260d06de363cea" title="earliest_loss_t_pn" alt="" coords="185,5,321,32"/>
-<area shape="rect" id="node3" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="427,31,493,57"/>
-<area shape="rect" id="node4" href="$recovery_8c.html#afefa0be910a1c68914a26bb85f788781" title="have_unacked_crypto_data" alt="" coords="155,107,352,133"/>
-<area shape="rect" id="node6" href="$recovery_8c.html#a14c340e1ba1e6d62e65dabd513a19848" title="have_keys" alt="" coords="209,157,298,184"/>
-<area shape="rect" id="node7" href="$pn_8h.html#abefb5e2c6f00c929114062d7d586f9ae" title="pn_type_str" alt="" coords="411,183,509,209"/>
-<area shape="rect" id="node8" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="209,259,297,285"/>
-<area shape="rect" id="node5" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="400,107,520,133"/>
+<area shape="rect" id="node4" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="427,56,493,83"/>
+<area shape="rect" id="node5" href="$recovery_8c.html#afefa0be910a1c68914a26bb85f788781" title="have_unacked_crypto_data" alt="" coords="155,107,352,133"/>
+<area shape="rect" id="node7" href="$recovery_8c.html#a14c340e1ba1e6d62e65dabd513a19848" title="have_keys" alt="" coords="209,157,298,184"/>
+<area shape="rect" id="node9" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="209,208,297,235"/>
+<area shape="rect" id="node3" href="$frame_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="402,5,518,32"/>
+<area shape="rect" id="node6" href="$stream_8h.html#ad30add9149d4bde85b9e2cc3e9159559" title="out_fully_acked" alt="" coords="400,107,520,133"/>
+<area shape="rect" id="node8" href="$pn_8h.html#abefb5e2c6f00c929114062d7d586f9ae" title="pn_type_str" alt="" coords="411,157,509,184"/>
 </map>

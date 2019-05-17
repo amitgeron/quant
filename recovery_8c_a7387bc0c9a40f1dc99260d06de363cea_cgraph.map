@@ -1,3 +1,4 @@
 <map id="earliest_loss_t_pn" name="earliest_loss_t_pn">
-<area shape="rect" id="node2" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="189,5,256,32"/>
+<area shape="rect" id="node2" href="$frame_8h.html#a0a759eb1ac4d505084da1c53b3f064dd" title="is_ack_eliciting" alt="" coords="189,5,305,32"/>
+<area shape="rect" id="node3" href="$conn_8h.html#a68c6b30b8665ce894ab5bed3c73a2d9d" title="is_zero" alt="" coords="214,56,281,83"/>
 </map>
