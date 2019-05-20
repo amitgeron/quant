@@ -1,14 +1,14 @@
 <map id="vneg_or_rtry_resp" name="vneg_or_rtry_resp">
-<area shape="rect" id="node2" href="$stream_8c.html#a23976e8cd7c5aecf8e137324fce993d0" title="reset_stream" alt="" coords="191,31,299,57"/>
-<area shape="rect" id="node5" href="$pn_8c.html#ad39de552086c127310c3250f2982dcb5" title="reset_pn" alt="" coords="205,132,284,159"/>
-<area shape="rect" id="node8" href="$conn_8c.html#a2071e094b5f8909687282a86ae2635fb" title="free_cids" alt="" coords="364,233,443,260"/>
+<area shape="rect" id="node2" href="$stream_8c.html#a23976e8cd7c5aecf8e137324fce993d0" title="reset_stream" alt="" coords="191,145,299,172"/>
+<area shape="rect" id="node5" href="$pn_8c.html#ad39de552086c127310c3250f2982dcb5" title="reset_pn" alt="" coords="205,208,284,235"/>
+<area shape="rect" id="node8" href="$conn_8c.html#a2071e094b5f8909687282a86ae2635fb" title="free_cids" alt="" coords="364,240,443,267"/>
 <area shape="rect" id="node16" href="$conn_8c.html#a3f6ca706c4ae9f8fd0e40f70a155b1b7" title="new_cids" alt="" coords="364,385,443,412"/>
-<area shape="rect" id="node25" href="$recovery_8c.html#a60784c1a11f52e1b091994e1cfcc4609" title="init_rec" alt="" coords="211,588,279,615"/>
+<area shape="rect" id="node25" href="$recovery_8c.html#a60784c1a11f52e1b091994e1cfcc4609" title="init_rec" alt="" coords="211,601,279,628"/>
 <area shape="rect" id="node34" href="$tls_8c.html#a00ca93e0c4b1bdde1a2e97a4ef13373e" title="init_tls" alt="" coords="213,1120,276,1147"/>
 <area shape="rect" id="node47" href="$tls_8c.html#a4e66d17ae7e8756388309b9e193a9543" title="tls_io" alt="" coords="217,892,272,919"/>
-<area shape="rect" id="node3" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="372,5,435,32"/>
+<area shape="rect" id="node3" href="$quant_8h.html#a4a7935a14e509d989eda300f16daf086" title="q_free" alt="" coords="372,25,435,52"/>
 <area shape="rect" id="node4" href="$quic_8c.html#a91a8a20feadca523c2af285501c868fc" title="free_iov" alt="" coords="547,5,619,32"/>
-<area shape="rect" id="node6" href="$pn_8c.html#a3b132beb2506faada16af74535e27fec" title="free_pn" alt="" coords="368,56,439,83"/>
+<area shape="rect" id="node6" href="$pn_8c.html#a3b132beb2506faada16af74535e27fec" title="free_pn" alt="" coords="368,113,439,140"/>
 <area shape="rect" id="node7" href="$diet_8c.html#aca2c7f843feefa74e9e6dca31bc41fd7" title="Free the diet tree d and all its intervals. " alt="" coords="544,56,623,83"/>
 <area shape="rect" id="node9" href="$conn_8c.html#ab4b40c1a6d1f3314be74d13b5f38dc78" title="cids_by_id_del" alt="" coords="749,183,862,209"/>
 <area shape="rect" id="node10" href="$conn_8c.html#a157de1b1117fd595bca3a0d2a82184db" title="conns_by_id_del" alt="" coords="742,120,869,147"/>

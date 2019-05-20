@@ -35,9 +35,9 @@
 <area shape="rect" id="node32" href="$conn_8c.html#aa3547e658da2cf57cff10334bee9d5ad" title="sockaddr_cmp" alt="" coords="646,59,761,86"/>
 <area shape="rect" id="node33" href="$conn_8c.html#a1b482fb3205708704bd66a120026461c" title="conns_by_ipnp_update" alt="" coords="228,161,396,187"/>
 <area shape="rect" id="node34" href="$conn_8c.html#aeb517e76c43e16e75b9c239b8287bfc2" title="rx_pkt" alt="" coords="281,465,343,491"/>
-<area shape="rect" id="node35" href="$conn_8c.html#a5d6639a237bb88d66f93760fc93000a5" title="rx_crypto" alt="" coords="271,262,353,289"/>
-<area shape="rect" id="node36" href="$quic_8c.html#a91a8a20feadca523c2af285501c868fc" title="free_iov" alt="" coords="473,363,545,390"/>
-<area shape="rect" id="node37" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="659,1731,748,1758"/>
+<area shape="rect" id="node35" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="659,1731,748,1758"/>
+<area shape="rect" id="node36" href="$conn_8c.html#a5d6639a237bb88d66f93760fc93000a5" title="rx_crypto" alt="" coords="271,262,353,289"/>
+<area shape="rect" id="node37" href="$quic_8c.html#a91a8a20feadca523c2af285501c868fc" title="free_iov" alt="" coords="473,363,545,390"/>
 <area shape="rect" id="node38" href="$stream_8c.html#acf612f3ac0b49aa8c7d6630c00e6b0ce" title="free_stream" alt="" coords="262,1630,362,1657"/>
 <area shape="rect" id="node17" href="$tls_8c.html#a04c7d8686952c02e95385a6e3fcab5a7" title="free_tls" alt="" coords="474,1782,543,1809"/>
 <area shape="rect" id="node28" href="$quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb" title="cids_by_seq_cmp" alt="" coords="836,135,971,162"/>

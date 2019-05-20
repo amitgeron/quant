@@ -9,7 +9,7 @@ var searchData=
   ['on_5fld_5ftimeout',['on_ld_timeout',['../recovery_8c.html#adefe14984378f3f5e9dcd65042c5709a',1,'recovery.c']]],
   ['on_5fpkt_5facked',['on_pkt_acked',['../recovery_8c.html#a8910d603b42ffe32379ec8a842bfe235',1,'on_pkt_acked(struct w_iov *const v, struct pkt_meta *m):&#160;recovery.c'],['../recovery_8h.html#a8910d603b42ffe32379ec8a842bfe235',1,'on_pkt_acked(struct w_iov *const v, struct pkt_meta *m):&#160;recovery.c']]],
   ['on_5fpkt_5facked_5fcc',['on_pkt_acked_cc',['../recovery_8c.html#abe0498b300115be39747704ff68798da',1,'recovery.c']]],
-  ['on_5fpkt_5flost',['on_pkt_lost',['../recovery_8c.html#aa4c2736d0b8d325153b150e18e0d6fbf',1,'recovery.c']]],
+  ['on_5fpkt_5flost',['on_pkt_lost',['../recovery_8c.html#a1187b8aad1e829c5deb3c34431ecaa6c',1,'on_pkt_lost(struct pkt_meta *const m):&#160;recovery.c'],['../recovery_8h.html#a1187b8aad1e829c5deb3c34431ecaa6c',1,'on_pkt_lost(struct pkt_meta *const m):&#160;recovery.c']]],
   ['on_5fpkt_5fsent',['on_pkt_sent',['../recovery_8c.html#ae8c9c1f58df8bf3a0b41e87327711f47',1,'on_pkt_sent(struct pkt_meta *const m):&#160;recovery.c'],['../recovery_8h.html#ae8c9c1f58df8bf3a0b41e87327711f47',1,'on_pkt_sent(struct pkt_meta *const m):&#160;recovery.c']]],
   ['ooo_5f0rtt',['ooo_0rtt',['../structooo__0rtt.html',1,'']]],
   ['ooo_5f0rtt_5fby_5fcid',['ooo_0rtt_by_cid',['../conn_8c.html#a001da71d92caff5772399a0d5512d8c3',1,'conn.c']]],
