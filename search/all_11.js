@@ -19,7 +19,7 @@ var searchData=
   ['rttvar',['rttvar',['../structq__conn__info.html#ae2bc163c06df7e2d089da0d86c8c8329',1,'q_conn_info::rttvar()'],['../structrecovery.html#a5cf84e57d9dd40c22412c44c72144917',1,'recovery::rttvar()']]],
   ['rtx_5fpkt',['rtx_pkt',['../conn_8c.html#ac32b9919f7a6af04fed3ebfc700ab377',1,'conn.c']]],
   ['rx',['rx',['../conn_8c.html#aa11ca616e8e32c1f341a77566615c0ea',1,'rx(struct ev_loop *const l, ev_io *const rx_w, int _e):&#160;conn.c'],['../conn_8h.html#aa11ca616e8e32c1f341a77566615c0ea',1,'rx(struct ev_loop *const l, ev_io *const rx_w, int _e):&#160;conn.c']]],
-  ['rx_5fcrypto',['rx_crypto',['../conn_8c.html#a5d6639a237bb88d66f93760fc93000a5',1,'conn.c']]],
+  ['rx_5fcrypto',['rx_crypto',['../conn_8c.html#a559619e45e0103e7d625d9a99274bf92',1,'conn.c']]],
   ['rx_5fframes',['rx_frames',['../structpn__space.html#a249f8d1e0db4507220a831f7062bbbdd',1,'pn_space']]],
   ['rx_5fpkt',['rx_pkt',['../conn_8c.html#aeb517e76c43e16e75b9c239b8287bfc2',1,'conn.c']]],
   ['rx_5fpkts',['rx_pkts',['../conn_8c.html#a743c431b40b906bbe9baad4456a0e7c5',1,'conn.c']]],
