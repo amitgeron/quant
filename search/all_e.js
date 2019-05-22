@@ -15,7 +15,6 @@ var searchData=
   ['ooo_5f0rtt_5fby_5fcid',['ooo_0rtt_by_cid',['../conn_8c.html#a001da71d92caff5772399a0d5512d8c3',1,'conn.c']]],
   ['ooo_5f0rtt_5fby_5fcid_5fcmp',['ooo_0rtt_by_cid_cmp',['../conn_8h.html#a661935e5f13fe656b889698521a6450f',1,'conn.h']]],
   ['ooo_5fby_5foff_5fcmp',['ooo_by_off_cmp',['../quic_8h.html#aca71d46cdbaf72a0eaa6cd9677e8ab32',1,'quic.h']]],
-  ['ordered_5fclose',['ordered_close',['../quic_8c.html#a70584c4416d42e4df97535f0a2dc6ead',1,'quic.c']]],
   ['orig_5fcid',['orig_cid',['../structtransport__params.html#ada77b0a712c3a04c901ef49001f358a5',1,'transport_params']]],
   ['out',['out',['../structpn__hshk.html#aee2fa6e1f5bba5daafa5a133951cadc9',1,'pn_hshk::out()'],['../structq__stream.html#ad6bc293a8f8e054b500882d8ef57b1b6',1,'q_stream::out()']]],
   ['out_5f0rtt',['out_0rtt',['../structpn__data.html#a11cf1c89ab793c1631ef6f76deb89272',1,'pn_data']]],

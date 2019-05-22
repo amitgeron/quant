@@ -43,7 +43,6 @@ var searchData=
   ['conns_5fby_5fipnp_5fdel',['conns_by_ipnp_del',['../conn_8h.html#a16d8e56d8f65f1aa415bef65ce637b99',1,'conn.h']]],
   ['conns_5fby_5fipnp_5fins',['conns_by_ipnp_ins',['../conn_8h.html#ae0f78c7a62de17ad9b4ac4c11dde7c85',1,'conn.h']]],
   ['conns_5fby_5fipnp_5fkey',['conns_by_ipnp_key',['../conn_8h.html#a4174be30b6047b763d3dd5e8e6131a08',1,'conn.h']]],
-  ['conns_5fby_5fipnp_5fupdate',['conns_by_ipnp_update',['../conn_8c.html#a1b482fb3205708704bd66a120026461c',1,'conn.c']]],
   ['conns_5fby_5fsrt_5fdel',['conns_by_srt_del',['../conn_8c.html#af84f094acba0e3ce125f3c1297b7ec32',1,'conn.c']]],
   ['conns_5fby_5fsrt_5fins',['conns_by_srt_ins',['../conn_8c.html#a619f2109f27acd5a1bb587f6d452097e',1,'conns_by_srt_ins(struct q_conn *const c, uint8_t *const srt):&#160;conn.c'],['../conn_8h.html#a619f2109f27acd5a1bb587f6d452097e',1,'conns_by_srt_ins(struct q_conn *const c, uint8_t *const srt):&#160;conn.c']]],
   ['corpus_5ffrm_5fdir',['corpus_frm_dir',['../quic_8c.html#a0333d38e11cede9bb804accf985e5208',1,'corpus_frm_dir():&#160;quic.c'],['../quic_8h.html#a0333d38e11cede9bb804accf985e5208',1,'corpus_frm_dir():&#160;quic.c']]],
