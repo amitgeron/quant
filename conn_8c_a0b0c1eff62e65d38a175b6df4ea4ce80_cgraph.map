@@ -1,6 +1,6 @@
 <map id="do_conn_mgmt" name="do_conn_mgmt">
 <area shape="rect" id="node2" href="$stream_8c.html#a4e339d032e8f2862f10a6a4b4332a785" title="do_stream_id_fc" alt="" coords="184,5,311,32"/>
-<area shape="rect" id="node3" href="$conn_8c.html#ad1e5e232a8372127e2130e85e7cdbb8d" title="use_next_dcid" alt="" coords="191,56,304,83"/>
+<area shape="rect" id="node3" href="$conn_8c.html#a880889e8d3e87292c0383ebd736b22c3" title="use_next_dcid" alt="" coords="191,56,304,83"/>
 <area shape="rect" id="node5" href="$conn_8h.html#a44fa52e39ffac370ddfdc89e0f208609" title="needs_more_ncids" alt="" coords="176,107,319,133"/>
 <area shape="rect" id="node4" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="367,56,455,83"/>
 </map>
