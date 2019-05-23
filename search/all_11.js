@@ -11,6 +11,7 @@ var searchData=
   ['recv',['recv',['../structpn__space.html#a7227a74b96300049e4716959528092df',1,'pn_space']]],
   ['recv_5fall',['recv_all',['../structpn__space.html#a9314ad0be04da03f6155d65885a7b1f8',1,'pn_space']]],
   ['red',['RED',['../quic_8h.html#a8d23feea868a983c8c2b661e1e16972f',1,'quic.h']]],
+  ['remove_5ffrom_5fin_5fflight',['remove_from_in_flight',['../recovery_8c.html#ac198e1cc264e5f9a189c123692cf3d79',1,'recovery.c']]],
   ['reset_5fpn',['reset_pn',['../pn_8c.html#ad39de552086c127310c3250f2982dcb5',1,'reset_pn(struct pn_space *const pn):&#160;pn.c'],['../pn_8h.html#ad39de552086c127310c3250f2982dcb5',1,'reset_pn(struct pn_space *const pn):&#160;pn.c']]],
   ['reset_5fstream',['reset_stream',['../stream_8c.html#a23976e8cd7c5aecf8e137324fce993d0',1,'reset_stream(struct q_stream *const s, const bool forget):&#160;stream.c'],['../stream_8h.html#a23976e8cd7c5aecf8e137324fce993d0',1,'reset_stream(struct q_stream *const s, const bool forget):&#160;stream.c']]],
   ['retired',['retired',['../structcid.html#ae13435266a8a51eea685c06616552356',1,'cid']]],

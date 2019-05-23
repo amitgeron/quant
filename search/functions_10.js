@@ -1,6 +1,7 @@
 var searchData=
 [
   ['read_5ftickets',['read_tickets',['../tls_8c.html#a65f1490238853f0e913186fd5c3311c7',1,'tls.c']]],
+  ['remove_5ffrom_5fin_5fflight',['remove_from_in_flight',['../recovery_8c.html#ac198e1cc264e5f9a189c123692cf3d79',1,'recovery.c']]],
   ['reset_5fpn',['reset_pn',['../pn_8c.html#ad39de552086c127310c3250f2982dcb5',1,'reset_pn(struct pn_space *const pn):&#160;pn.c'],['../pn_8h.html#ad39de552086c127310c3250f2982dcb5',1,'reset_pn(struct pn_space *const pn):&#160;pn.c']]],
   ['reset_5fstream',['reset_stream',['../stream_8c.html#a23976e8cd7c5aecf8e137324fce993d0',1,'reset_stream(struct q_stream *const s, const bool forget):&#160;stream.c'],['../stream_8h.html#a23976e8cd7c5aecf8e137324fce993d0',1,'reset_stream(struct q_stream *const s, const bool forget):&#160;stream.c']]],
   ['rtx_5fpkt',['rtx_pkt',['../conn_8c.html#ac32b9919f7a6af04fed3ebfc700ab377',1,'conn.c']]],

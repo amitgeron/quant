@@ -1,3 +1,4 @@
 <map id="on_pkt_acked_cc" name="on_pkt_acked_cc">
-<area shape="rect" id="node2" href="$recovery_8c.html#afdcceabc56218a7b0c9a734ec4f13363" title="in_cong_recovery" alt="" coords="184,5,317,32"/>
+<area shape="rect" id="node2" href="$recovery_8c.html#ac198e1cc264e5f9a189c123692cf3d79" title="remove_from_in_flight" alt="" coords="184,5,348,32"/>
+<area shape="rect" id="node3" href="$recovery_8c.html#afdcceabc56218a7b0c9a734ec4f13363" title="in_cong_recovery" alt="" coords="199,56,333,83"/>
 </map>
