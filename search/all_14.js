@@ -7,6 +7,6 @@ var searchData=
   ['update_5frtt',['update_rtt',['../recovery_8c.html#a8c66bae29e49c4b7408c983d65f0a1ac',1,'recovery.c']]],
   ['update_5ftraffic_5fkey_5fcb',['update_traffic_key_cb',['../tls_8c.html#acbc1dc9c2da3aab2c683a1d9b5ee9321',1,'tls.c']]],
   ['use_5fnext_5fdcid',['use_next_dcid',['../conn_8c.html#a880889e8d3e87292c0383ebd736b22c3',1,'use_next_dcid(struct q_conn *const c):&#160;conn.c'],['../conn_8h.html#a880889e8d3e87292c0383ebd736b22c3',1,'use_next_dcid(struct q_conn *const c):&#160;conn.c']]],
-  ['usecs_5fper_5fsec',['USECS_PER_SEC',['../quic_8h.html#aaf33bd56da23b7654f654d201272537e',1,'quic.h']]],
+  ['usecs_5fper_5fsec',['USECS_PER_SEC',['../quant_8h.html#aaf33bd56da23b7654f654d201272537e',1,'quant.h']]],
   ['util_2ec',['util.c',['../util_8c.html',1,'']]]
 ];

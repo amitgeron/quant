@@ -171,7 +171,7 @@ Generating call graph for function q_free_stream
 Generating call graph for function q_info
 Generating call graph for function q_init
 Generating call graph for function q_read
-Generating call graph for function q_readall_stream
+Generating call graph for function q_read_stream
 Generating call graph for function q_ready
 Generating call graph for function q_rebind_sock
 Generating call graph for function q_rsv_stream
@@ -344,7 +344,7 @@ Generating call graph for function q_free_stream
 Generating call graph for function q_info
 Generating call graph for function q_init
 Generating call graph for function q_read
-Generating call graph for function q_readall_stream
+Generating call graph for function q_read_stream
 Generating call graph for function q_ready
 Generating call graph for function q_rebind_sock
 Generating call graph for function q_rsv_stream
@@ -423,9 +423,9 @@ Generating call graph for function enc_aead
 Generating call graph for function flip_keys
 Generating call graph for function free_tls
 Generating call graph for function free_tls_ctx
-Generating call graph for functi/home/travis/build/NTAP/quant/README.md:3: warning: Unexpected html tag <img> found within <a href=...> context
+Generating call graph for function ini/home/travis/build/NTAP/quant/README.md:3: warning: Unexpected html tag <img> found within <a href=...> context
 /home/travis/build/NTAP/quant/README.md:4: warning: Unexpected html tag <img> found within <a href=...> context
-on init_prot
+t_prot
 Generating call graph for function init_tls
 Generating call graph for function init_tls_ctx
 Generating call graph for function init_tp
@@ -833,5 +833,5 @@ Patching output file 37/40
 Patching output file 38/40
 Patching output file 39/40
 Patching output file 40/40
-lookup cache used 1304/65536 hits=10115 misses=1330
+lookup cache used 1307/65536 hits=10131 misses=1333
 finished...

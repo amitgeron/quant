@@ -149,9 +149,18 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:ad75544a73dfad2046264f3d8fc9d16e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#ad75544a73dfad2046264f3d8fc9d16e1">MSECS_PER_SEC</a>&#160;&#160;&#160;1000</td></tr>
+<tr class="memdesc:ad75544a73dfad2046264f3d8fc9d16e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Milliseconds per second.  <a href="#ad75544a73dfad2046264f3d8fc9d16e1">More...</a><br /></td></tr>
+<tr class="separator:ad75544a73dfad2046264f3d8fc9d16e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf33bd56da23b7654f654d201272537e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#aaf33bd56da23b7654f654d201272537e">USECS_PER_SEC</a>&#160;&#160;&#160;1000000</td></tr>
+<tr class="memdesc:aaf33bd56da23b7654f654d201272537e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Microseconds per second.  <a href="#aaf33bd56da23b7654f654d201272537e">More...</a><br /></td></tr>
+<tr class="separator:aaf33bd56da23b7654f654d201272537e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3b72f780a1df833e4db506bf5a6bee0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#aa3b72f780a1df833e4db506bf5a6bee0">NSECS_PER_SEC</a>&#160;&#160;&#160;1000000000</td></tr>
+<tr class="memdesc:aa3b72f780a1df833e4db506bf5a6bee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Microseconds per second.  <a href="#aa3b72f780a1df833e4db506bf5a6bee0">More...</a><br /></td></tr>
+<tr class="separator:aa3b72f780a1df833e4db506bf5a6bee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56efa09372b3747147230398e29974f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#a56efa09372b3747147230398e29974f0">bps</a>(bytes,  secs)</td></tr>
 <tr class="separator:a56efa09372b3747147230398e29974f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad730169520eef2aa5eec7bb94249079e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#ad730169520eef2aa5eec7bb94249079e">timespec_to_double</a>(diff)&#160;&#160;&#160;((double)(diff).tv_sec + (double)(diff).tv_nsec / 1000000000)</td></tr>
+<tr class="memitem:ad730169520eef2aa5eec7bb94249079e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#ad730169520eef2aa5eec7bb94249079e">timespec_to_double</a>(diff)&#160;&#160;&#160;((double)(diff).tv_sec + (double)(diff).tv_nsec / <a class="el" href="quant_8h.html#aa3b72f780a1df833e4db506bf5a6bee0">NSECS_PER_SEC</a>)</td></tr>
 <tr class="separator:ad730169520eef2aa5eec7bb94249079e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -170,8 +179,8 @@ Functions</h2></td></tr>
 <tr class="separator:ae041ad0b3b50870763217ec8886b9854"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84a599e3fc846bd85dae279762ca9851"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#a84a599e3fc846bd85dae279762ca9851">q_write</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s, struct w_iov_sq *const q, const bool fin)</td></tr>
 <tr class="separator:a84a599e3fc846bd85dae279762ca9851"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3eca43a72005c71781fd6139f1f8d798"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structq__stream.html">q_stream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#a3eca43a72005c71781fd6139f1f8d798">q_read</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, struct w_iov_sq *const q, const bool block)</td></tr>
-<tr class="separator:a3eca43a72005c71781fd6139f1f8d798"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3538a5a3851bb3e6e26b18937c3cc09"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structq__stream.html">q_stream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#af3538a5a3851bb3e6e26b18937c3cc09">q_read</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, struct w_iov_sq *const q, const bool all)</td></tr>
+<tr class="separator:af3538a5a3851bb3e6e26b18937c3cc09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7882234166a0aaac582c25c4c8a581b8"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structq__stream.html">q_stream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#a7882234166a0aaac582c25c4c8a581b8">q_rsv_stream</a> (struct <a class="el" href="structq__conn.html">q_conn</a> *const c, const bool bidi)</td></tr>
 <tr class="separator:a7882234166a0aaac582c25c4c8a581b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01444581bd34af25498d1cb8fc3a0a92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#a01444581bd34af25498d1cb8fc3a0a92">q_close_stream</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s)</td></tr>
@@ -194,10 +203,12 @@ Functions</h2></td></tr>
 <tr class="separator:add9fe9a3fc3b036c9a81e0d980744f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7616484e3cc619769260a0d48512abc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#ad7616484e3cc619769260a0d48512abc">q_is_stream_closed</a> (const struct <a class="el" href="structq__stream.html">q_stream</a> *const s)</td></tr>
 <tr class="separator:ad7616484e3cc619769260a0d48512abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f4289c8c4964e7a875b14bcb189f8e3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#a0f4289c8c4964e7a875b14bcb189f8e3">q_peer_closed_stream</a> (const struct <a class="el" href="structq__stream.html">q_stream</a> *const s)</td></tr>
+<tr class="separator:a0f4289c8c4964e7a875b14bcb189f8e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47259a7736de5a0e7d17d6670befca55"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#a47259a7736de5a0e7d17d6670befca55">q_is_conn_closed</a> (const struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
 <tr class="separator:a47259a7736de5a0e7d17d6670befca55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a091ea7435979b979ace99392b6d65a5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#a091ea7435979b979ace99392b6d65a5a">q_readall_stream</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s, struct w_iov_sq *const q)</td></tr>
-<tr class="separator:a091ea7435979b979ace99392b6d65a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab126edba0a4624e6ffcec475527f9834"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#ab126edba0a4624e6ffcec475527f9834">q_read_stream</a> (struct <a class="el" href="structq__stream.html">q_stream</a> *const s, struct w_iov_sq *const q, const bool all)</td></tr>
+<tr class="separator:ab126edba0a4624e6ffcec475527f9834"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10d26c21df515950a80e3b9704240801"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structq__conn.html">q_conn</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#a10d26c21df515950a80e3b9704240801">q_ready</a> (const uint64_t timeout)</td></tr>
 <tr class="separator:a10d26c21df515950a80e3b9704240801"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76ddd1770d74ef5233f2f2f9aaa73dfa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quant_8h.html#a76ddd1770d74ef5233f2f2f9aaa73dfa">q_is_new_serv_conn</a> (const struct <a class="el" href="structq__conn.html">q_conn</a> *const c)</td></tr>
@@ -233,8 +244,40 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">__extension__({                                                            \</div><div class="line">        static <span class="keywordtype">char</span> _str[32];                                                  \</div><div class="line">        const <span class="keywordtype">double</span> _bps =                                                    \</div><div class="line">            (bytes) &amp;&amp; (fpclassify(secs) != FP_ZERO) ? (bytes)*8 / (secs) : 0; \</div><div class="line">        if (_bps &gt; 1000000000)                                                 \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f Gb/s&quot;</span>, _bps / 1000000000);      \</div><div class="line">        else <span class="keywordflow">if</span> (_bps &gt; 1000000)                                               \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f Mb/s&quot;</span>, _bps / 1000000);         \</div><div class="line">        else <span class="keywordflow">if</span> (_bps &gt; 1000)                                                  \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f Kb/s&quot;</span>, _bps / 1000);            \</div><div class="line">        else                                                                   \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f b/s&quot;</span>, _bps);                    \</div><div class="line">        _str;                                                                  \</div><div class="line">    })</div></div><!-- fragment --><dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a21">client.c</a>.</dd>
+<b>Value:</b><div class="fragment"><div class="line">__extension__({                                                            \</div><div class="line">        static <span class="keywordtype">char</span> _str[32];                                                  \</div><div class="line">        const <span class="keywordtype">double</span> _bps =                                                    \</div><div class="line">            (bytes) &amp;&amp; (fpclassify(secs) != FP_ZERO) ? (bytes)*8 / (secs) : 0; \</div><div class="line">        if (_bps &gt; <a class="code" href="quant_8h.html#aa3b72f780a1df833e4db506bf5a6bee0">NSECS_PER_SEC</a>)                                              \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f Gb/s&quot;</span>, _bps / <a class="code" href="quant_8h.html#aa3b72f780a1df833e4db506bf5a6bee0">NSECS_PER_SEC</a>);   \</div><div class="line">        else <span class="keywordflow">if</span> (_bps &gt; <a class="code" href="quant_8h.html#aaf33bd56da23b7654f654d201272537e">USECS_PER_SEC</a>)                                         \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f Mb/s&quot;</span>, _bps / <a class="code" href="quant_8h.html#aaf33bd56da23b7654f654d201272537e">USECS_PER_SEC</a>);   \</div><div class="line">        else <span class="keywordflow">if</span> (_bps &gt; <a class="code" href="quant_8h.html#ad75544a73dfad2046264f3d8fc9d16e1">MSECS_PER_SEC</a>)                                         \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f Kb/s&quot;</span>, _bps / <a class="code" href="quant_8h.html#ad75544a73dfad2046264f3d8fc9d16e1">MSECS_PER_SEC</a>);   \</div><div class="line">        else                                                                   \</div><div class="line">            snprintf(_str, <span class="keyword">sizeof</span>(_str), <span class="stringliteral">&quot;%.3f b/s&quot;</span>, _bps);                    \</div><div class="line">        _str;                                                                  \</div><div class="line">    })</div><div class="ttc" id="quant_8h_html_ad75544a73dfad2046264f3d8fc9d16e1"><div class="ttname"><a href="quant_8h.html#ad75544a73dfad2046264f3d8fc9d16e1">MSECS_PER_SEC</a></div><div class="ttdeci">#define MSECS_PER_SEC</div><div class="ttdoc">Milliseconds per second. </div><div class="ttdef"><b>Definition:</b> quant.h:178</div></div>
+<div class="ttc" id="quant_8h_html_aa3b72f780a1df833e4db506bf5a6bee0"><div class="ttname"><a href="quant_8h.html#aa3b72f780a1df833e4db506bf5a6bee0">NSECS_PER_SEC</a></div><div class="ttdeci">#define NSECS_PER_SEC</div><div class="ttdoc">Microseconds per second. </div><div class="ttdef"><b>Definition:</b> quant.h:180</div></div>
+<div class="ttc" id="quant_8h_html_aaf33bd56da23b7654f654d201272537e"><div class="ttname"><a href="quant_8h.html#aaf33bd56da23b7654f654d201272537e">USECS_PER_SEC</a></div><div class="ttdeci">#define USECS_PER_SEC</div><div class="ttdoc">Microseconds per second. </div><div class="ttdef"><b>Definition:</b> quant.h:179</div></div>
+</div><!-- fragment --><dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a26">client.c</a>.</dd>
 </dl>
+</div>
+</div>
+<a class="anchor" id="ad75544a73dfad2046264f3d8fc9d16e1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSECS_PER_SEC&#160;&#160;&#160;1000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Milliseconds per second. </p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a24">client.c</a>.</dd>
+</dl>
+</div>
+</div>
+<a class="anchor" id="aa3b72f780a1df833e4db506bf5a6bee0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NSECS_PER_SEC&#160;&#160;&#160;1000000000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Microseconds per second. </p>
+
 </div>
 </div>
 <a class="anchor" id="ad730169520eef2aa5eec7bb94249079e"></a>
@@ -246,12 +289,26 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">diff</td><td>)</td>
-          <td>&#160;&#160;&#160;((double)(diff).tv_sec + (double)(diff).tv_nsec / 1000000000)</td>
+          <td>&#160;&#160;&#160;((double)(diff).tv_sec + (double)(diff).tv_nsec / <a class="el" href="quant_8h.html#aa3b72f780a1df833e4db506bf5a6bee0">NSECS_PER_SEC</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a20">client.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a25">client.c</a>.</dd>
 </dl>
+</div>
+</div>
+<a class="anchor" id="aaf33bd56da23b7654f654d201272537e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USECS_PER_SEC&#160;&#160;&#160;1000000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Microseconds per second. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -477,7 +534,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="server_8c-example.html#a5">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a27">client.c</a>, and <a class="el" href="server_8c-example.html#a5">server.c</a>.</dd>
 </dl>
 </div>
 </div>
@@ -494,7 +551,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a24">client.c</a>, and <a class="el" href="server_8c-example.html#a25">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a29">client.c</a>, and <a class="el" href="server_8c-example.html#a25">server.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -660,8 +717,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a22">client.c</a>.</dd>
-</dl>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -850,7 +906,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a23">client.c</a>, and <a class="el" href="server_8c-example.html#a8">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a16">client.c</a>, and <a class="el" href="server_8c-example.html#a8">server.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1046,7 +1102,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a17">client.c</a>, and <a class="el" href="server_8c-example.html#a11">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a18">client.c</a>, and <a class="el" href="server_8c-example.html#a11">server.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1083,7 +1139,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="server_8c-example.html#a19">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a20">client.c</a>, and <a class="el" href="server_8c-example.html#a19">server.c</a>.</dd>
 </dl>
 </div>
 </div>
@@ -1138,7 +1194,24 @@ Here is the call graph for this function:</div>
 </dl>
 </div>
 </div>
-<a class="anchor" id="a3eca43a72005c71781fd6139f1f8d798"></a>
+<a class="anchor" id="a0f4289c8c4964e7a875b14bcb189f8e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool q_peer_closed_stream </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="structq__stream.html">q_stream</a> *const&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a22">client.c</a>.</dd>
+</dl>
+</div>
+</div>
+<a class="anchor" id="af3538a5a3851bb3e6e26b18937c3cc09"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1158,7 +1231,7 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const bool&#160;</td>
-          <td class="paramname"><em>block</em>&#160;</td>
+          <td class="paramname"><em>all</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1172,21 +1245,23 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="quant_8h_a3eca43a72005c71781fd6139f1f8d798_cgraph.png" border="0" usemap="#quant_8h_a3eca43a72005c71781fd6139f1f8d798_cgraph" alt=""/></div>
-<map name="quant_8h_a3eca43a72005c71781fd6139f1f8d798_cgraph" id="quant_8h_a3eca43a72005c71781fd6139f1f8d798_cgraph">
-<area shape="rect" id="node2" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="120,5,208,32"/>
+<div class="center"><img src="quant_8h_af3538a5a3851bb3e6e26b18937c3cc09_cgraph.png" border="0" usemap="#quant_8h_af3538a5a3851bb3e6e26b18937c3cc09_cgraph" alt=""/></div>
+<map name="quant_8h_af3538a5a3851bb3e6e26b18937c3cc09_cgraph" id="quant_8h_af3538a5a3851bb3e6e26b18937c3cc09_cgraph">
+<area shape="rect" id="node2" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="326,5,414,32"/>
+<area shape="rect" id="node3" href="quic_8c.html#ab126edba0a4624e6ffcec475527f9834" title="q_read_stream" alt="" coords="120,56,239,83"/>
+<area shape="rect" id="node4" href="quic_8c.html#a0f4289c8c4964e7a875b14bcb189f8e3" title="q_peer_closed_stream" alt="" coords="287,56,453,83"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a091ea7435979b979ace99392b6d65a5a"></a>
+<a class="anchor" id="ab126edba0a4624e6ffcec475527f9834"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void q_readall_stream </td>
+          <td class="memname">bool q_read_stream </td>
           <td>(</td>
           <td class="paramtype">struct <a class="el" href="structq__stream.html">q_stream</a> *const&#160;</td>
           <td class="paramname"><em>s</em>, </td>
@@ -1195,7 +1270,13 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">struct w_iov_sq *const&#160;</td>
-          <td class="paramname"><em>q</em>&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>all</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1204,14 +1285,15 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a19">client.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a21">client.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="quant_8h_a091ea7435979b979ace99392b6d65a5a_cgraph.png" border="0" usemap="#quant_8h_a091ea7435979b979ace99392b6d65a5a_cgraph" alt=""/></div>
-<map name="quant_8h_a091ea7435979b979ace99392b6d65a5a_cgraph" id="quant_8h_a091ea7435979b979ace99392b6d65a5a_cgraph">
-<area shape="rect" id="node2" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="187,5,275,32"/>
+<div class="center"><img src="quant_8h_ab126edba0a4624e6ffcec475527f9834_cgraph.png" border="0" usemap="#quant_8h_ab126edba0a4624e6ffcec475527f9834_cgraph" alt=""/></div>
+<map name="quant_8h_ab126edba0a4624e6ffcec475527f9834_cgraph" id="quant_8h_ab126edba0a4624e6ffcec475527f9834_cgraph">
+<area shape="rect" id="node2" href="quic_8c.html#a0f4289c8c4964e7a875b14bcb189f8e3" title="q_peer_closed_stream" alt="" coords="172,5,339,32"/>
+<area shape="rect" id="node3" href="conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="211,56,299,83"/>
 </map>
 </div>
 </p>
@@ -1231,7 +1313,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="server_8c-example.html#a15">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a23">client.c</a>, and <a class="el" href="server_8c-example.html#a15">server.c</a>.</dd>
 </dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1432,7 +1514,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="server_8c-example.html#a6">server.c</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="client_8c-example.html#a28">client.c</a>, and <a class="el" href="server_8c-example.html#a6">server.c</a>.</dd>
 </dl>
 </div>
 </div>

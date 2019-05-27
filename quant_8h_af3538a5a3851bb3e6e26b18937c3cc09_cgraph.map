@@ -1,0 +1,5 @@
+<map id="q_read" name="q_read">
+<area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="326,5,414,32"/>
+<area shape="rect" id="node3" href="$quic_8c.html#ab126edba0a4624e6ffcec475527f9834" title="q_read_stream" alt="" coords="120,56,239,83"/>
+<area shape="rect" id="node4" href="$quic_8c.html#a0f4289c8c4964e7a875b14bcb189f8e3" title="q_peer_closed_stream" alt="" coords="287,56,453,83"/>
+</map>
