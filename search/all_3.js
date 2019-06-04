@@ -20,8 +20,8 @@ var searchData=
   ['cids_5fby_5fseq_5fcmp',['cids_by_seq_cmp',['../quic_8h.html#a55f8a6b9dc42515f0088dc692c2a1dfb',1,'quic.h']]],
   ['cipher_5fctx',['cipher_ctx',['../structcipher__ctx.html',1,'']]],
   ['clnt_5fvneg',['clnt_vneg',['../conn_8c.html#ada66b53e59c6a12735d85f5d091be280',1,'conn.c']]],
-  ['closed_5fstreams',['closed_streams',['../structq__conn.html#a9497cc2d8f046cdfd73d7a47355a4448',1,'q_conn']]],
   ['closing_5falarm',['closing_alarm',['../structq__conn.html#a0ddb82b2f2c8ea4f8ced1712b2b93c2d',1,'q_conn']]],
+  ['clsd_5fstrms',['clsd_strms',['../structq__conn.html#a055ea2c7a742958b652eb8fa8d165f22',1,'q_conn']]],
   ['cnt_5fargs',['CNT_ARGS',['../quic_8h.html#a37dd5b73b6d28da2b1e4e6289cc2a128',1,'quic.h']]],
   ['cnt_5fbidi',['cnt_bidi',['../structq__conn.html#a7b3bb13a0c40acbccdaa4bafb6fbd440',1,'q_conn']]],
   ['cnt_5funi',['cnt_uni',['../structq__conn.html#a9b104436d52b6765bd423f9ab8795348',1,'q_conn']]],
@@ -50,7 +50,7 @@ var searchData=
   ['corpus_5fpkt_5fdir',['corpus_pkt_dir',['../quic_8c.html#a0feed348acaef16b0f25af1ef6d93adc',1,'corpus_pkt_dir():&#160;quic.c'],['../quic_8h.html#a0feed348acaef16b0f25af1ef6d93adc',1,'corpus_pkt_dir():&#160;quic.c']]],
   ['crpt_5fstrm_5fid',['crpt_strm_id',['../stream_8h.html#a012bc210254cd3269ef892fcbd91e146',1,'stream.h']]],
   ['crypto_5fcnt',['crypto_cnt',['../structrecovery.html#afadddaaa0331377dc1e183b442082816',1,'recovery']]],
-  ['cstreams',['cstreams',['../structq__conn.html#a2d76e4d46e32ced7b0eff936f1df42cd',1,'q_conn']]],
+  ['cstrms',['cstrms',['../structq__conn.html#aef01ebf655d740784c7f8afd99bbc449',1,'q_conn']]],
   ['cwnd',['cwnd',['../structq__conn__info.html#a933ce41722305555e5e5a4bbb5e1a54f',1,'q_conn_info::cwnd()'],['../structrecovery.html#a26dea9e16702f8af9f244cd5e2398f87',1,'recovery::cwnd()']]],
   ['cyn',['CYN',['../quic_8h.html#adc708fa688f5d78db361f66c36f0f807',1,'quic.h']]]
 ];

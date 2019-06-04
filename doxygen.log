@@ -249,30 +249,30 @@ Generating call graph for function dec_ack_frame
 Generating call graph for function dec_close_frame
 Generating call graph for function dec_data_blocked_frame
 Generating call graph for function dec_frames
-Generating call graph for function dec_max_stream_data_frame
-Generating call graph for function dec_max_streams_frame
+Generating call graph for function dec_max_strm_data_frame
+Generating call graph for function dec_max_strms_frame
 Generating call graph for function dec_new_cid_frame
 Generating call graph for function dec_reset_stream_frame
 Generating call graph for function dec_retire_cid_frame
 Generating call graph for function dec_stop_sending_frame
-Generating call graph for function dec_stream_data_blocked_frame
 Generating call graph for function dec_stream_or_crypto_frame
 Generating call graph for function dec_streams_blocked_frame
+Generating call graph for function dec_strm_data_blocked_frame
 Generating call graph for function enc_ack_frame
 Generating call graph for function enc_close_frame
 Generating call graph for function enc_data_blocked_frame
 Generating call graph for function enc_max_data_frame
-Generating call graph for function enc_max_stream_data_frame
-Generating call graph for function enc_max_streams_frame
+Generating call graph for function enc_max_strm_data_frame
+Generating call graph for function enc_max_strms_frame
 Generating call graph for function enc_new_cid_frame
 Generating call graph for function enc_new_token_frame
 Generating call graph for function enc_path_challenge_frame
 Generating call graph for function enc_path_response_frame
 Generating call graph for function enc_ping_frame
 Generating call graph for function enc_retire_cid_frame
-Generating call graph for function enc_stream_data_blocked_frame
 Generating call graph for function enc_stream_or_crypto_frame
 Generating call graph for function enc_streams_blocked_frame
+Generating call graph for function enc_strm_data_blocked_frame
 Generating call graph for function get_and_validate_strm
 Generating call graph for function log_stream_or_crypto_frame
 Generating docs for file src/frame.h...
@@ -282,17 +282,17 @@ Generating call graph for function enc_ack_frame
 Generating call graph for function enc_close_frame
 Generating call graph for function enc_data_blocked_frame
 Generating call graph for function enc_max_data_frame
-Generating call graph for function enc_max_stream_data_frame
-Generating call graph for function enc_max_streams_frame
+Generating call graph for function enc_max_strm_data_frame
+Generating call graph for function enc_max_strms_frame
 Generating call graph for function enc_new_cid_frame
 Generating call graph for function enc_new_token_frame
 Generating call graph for function enc_path_challenge_frame
 Generating call graph for function enc_path_response_frame
 Generating call graph for function enc_ping_frame
 Generating call graph for function enc_retire_cid_frame
-Generating call graph for function enc_stream_data_blocked_frame
 Generating call graph for function enc_stream_or_crypto_frame
 Generating call graph for function enc_streams_blocked_frame
+Generating call graph for function enc_strm_data_blocked_frame
 Generating call graph for function log_stream_or_crypto_frame
 Generating docs for file src/marshall.h...
 Generating call graph for function encvl
@@ -422,10 +422,10 @@ Generating call graph for function verify_rtry_tok
 Generating docs for file src/tls.h...
 Generating call graph for function dec_aead
 Generating call graph for function enc_aead
-Generating call graph for functio/home/travis/build/NTAP/quant/README.md:3: warning: Unexpected html tag <img> found within <a href=...> context
+Generating call graph for function flip_keys
+Genera/home/travis/build/NTAP/quant/README.md:3: warning: Unexpected html tag <img> found within <a href=...> context
 /home/travis/build/NTAP/quant/README.md:4: warning: Unexpected html tag <img> found within <a href=...> context
-n flip_keys
-Generating call graph for function free_tls
+ting call graph for function free_tls
 Generating call graph for function free_tls_ctx
 Generating call graph for function init_prot
 Generating call graph for function init_tls
@@ -837,5 +837,5 @@ Patching output file 37/40
 Patching output file 38/40
 Patching output file 39/40
 Patching output file 40/40
-lookup cache used 1311/65536 hits=10167 misses=1337
+lookup cache used 1307/65536 hits=10031 misses=1330
 finished...

@@ -128,9 +128,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3494600ebcf5a659858f913032d46a4a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn.html#a3494600ebcf5a659858f913032d46a4a">khash_t</a> (cids_by_id)*scids_by_id</td></tr>
 <tr class="memdesc:a3494600ebcf5a659858f913032d46a4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Source CID hash by ID.  <a href="#a3494600ebcf5a659858f913032d46a4a">More...</a><br /></td></tr>
 <tr class="separator:a3494600ebcf5a659858f913032d46a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad868090c6ad7743231418d237869e16b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn.html#ad868090c6ad7743231418d237869e16b">khash_t</a> (streams_by_id)*streams_by_id</td></tr>
-<tr class="memdesc:ad868090c6ad7743231418d237869e16b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Regular streams.  <a href="#ad868090c6ad7743231418d237869e16b">More...</a><br /></td></tr>
-<tr class="separator:ad868090c6ad7743231418d237869e16b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6a2b5327eea81b244304f15d829d72b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn.html#ae6a2b5327eea81b244304f15d829d72b">khash_t</a> (strms_by_id)*strms_by_id</td></tr>
+<tr class="memdesc:ae6a2b5327eea81b244304f15d829d72b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Regular streams.  <a href="#ae6a2b5327eea81b244304f15d829d72b">More...</a><br /></td></tr>
+<tr class="separator:ae6a2b5327eea81b244304f15d829d72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1366606895ba607ada4d7a9ba66ba1be"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn.html#a1366606895ba607ada4d7a9ba66ba1be">sl_head</a> (, <a class="el" href="structq__stream.html">q_stream</a>) need_ctrl</td></tr>
 <tr class="separator:a1366606895ba607ada4d7a9ba66ba1be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -291,11 +291,11 @@ Data Fields</h2></td></tr>
 <tr class="separator:a89363123ae566d5648563939e31c6806"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb5041217565e950f34272348d1dbc92"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn.html#aeb5041217565e950f34272348d1dbc92">peer_name</a></td></tr>
 <tr class="separator:aeb5041217565e950f34272348d1dbc92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d76e4d46e32ced7b0eff936f1df42cd"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structq__stream.html">q_stream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn.html#a2d76e4d46e32ced7b0eff936f1df42cd">cstreams</a> [<a class="el" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a030d34ca4ffa3a300c995276c165043f">ep_data</a>+1]</td></tr>
-<tr class="memdesc:a2d76e4d46e32ced7b0eff936f1df42cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crypto "streams".  <a href="#a2d76e4d46e32ced7b0eff936f1df42cd">More...</a><br /></td></tr>
-<tr class="separator:a2d76e4d46e32ced7b0eff936f1df42cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9497cc2d8f046cdfd73d7a47355a4448"><td class="memItemLeft" align="right" valign="top">struct diet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn.html#a9497cc2d8f046cdfd73d7a47355a4448">closed_streams</a></td></tr>
-<tr class="separator:a9497cc2d8f046cdfd73d7a47355a4448"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef01ebf655d740784c7f8afd99bbc449"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structq__stream.html">q_stream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn.html#aef01ebf655d740784c7f8afd99bbc449">cstrms</a> [<a class="el" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a030d34ca4ffa3a300c995276c165043f">ep_data</a>+1]</td></tr>
+<tr class="memdesc:aef01ebf655d740784c7f8afd99bbc449"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crypto "streams".  <a href="#aef01ebf655d740784c7f8afd99bbc449">More...</a><br /></td></tr>
+<tr class="separator:aef01ebf655d740784c7f8afd99bbc449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a055ea2c7a742958b652eb8fa8d165f22"><td class="memItemLeft" align="right" valign="top">struct diet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn.html#a055ea2c7a742958b652eb8fa8d165f22">clsd_strms</a></td></tr>
+<tr class="separator:a055ea2c7a742958b652eb8fa8d165f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36327baf8c4d695023b07a2270587e78"><td class="memItemLeft" align="right" valign="top">struct w_sock *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structq__conn.html#a36327baf8c4d695023b07a2270587e78">sock</a></td></tr>
 <tr class="memdesc:a36327baf8c4d695023b07a2270587e78"><td class="mdescLeft">&#160;</td><td class="mdescRight">File descriptor (socket) for the connection.  <a href="#a36327baf8c4d695023b07a2270587e78">More...</a><br /></td></tr>
 <tr class="separator:a36327baf8c4d695023b07a2270587e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -368,14 +368,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad868090c6ad7743231418d237869e16b"></a>
+<a class="anchor" id="ae6a2b5327eea81b244304f15d829d72b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">q_conn::khash_t </td>
           <td>(</td>
-          <td class="paramtype">streams_by_id&#160;</td>
+          <td class="paramtype">strms_by_id&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -495,24 +495,24 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9497cc2d8f046cdfd73d7a47355a4448"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct diet q_conn::closed_streams</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a0ddb82b2f2c8ea4f8ced1712b2b93c2d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">ev_timer q_conn::closing_alarm</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a055ea2c7a742958b652eb8fa8d165f22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct diet q_conn::clsd_strms</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -547,12 +547,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2d76e4d46e32ced7b0eff936f1df42cd"></a>
+<a class="anchor" id="aef01ebf655d740784c7f8afd99bbc449"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="structq__stream.html">q_stream</a>* q_conn::cstreams[<a class="el" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a030d34ca4ffa3a300c995276c165043f">ep_data</a>+1]</td>
+          <td class="memname">struct <a class="el" href="structq__stream.html">q_stream</a>* q_conn::cstrms[<a class="el" href="tls_8h.html#aaca089f79f64e61453953e09fd226e46a030d34ca4ffa3a300c995276c165043f">ep_data</a>+1]</td>
         </tr>
       </table>
 </div><div class="memdoc">

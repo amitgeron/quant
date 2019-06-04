@@ -102,14 +102,14 @@ Collaboration diagram for pkt_meta:</div>
 <map name="pkt__meta_coll__map" id="pkt__meta_coll__map">
 <area shape="rect" id="node2" href="structq__stream.html" title="q_stream" alt="" coords="5,228,88,255"/>
 <area shape="rect" id="node3" href="structq__conn.html" title="A QUIC connection. " alt="" coords="311,361,379,388"/>
-<area shape="rect" id="node9" href="structpn__space.html" title="pn_space" alt="" coords="437,451,520,477"/>
+<area shape="rect" id="node9" href="structpn__space.html" title="pn_space" alt="" coords="388,451,471,477"/>
 <area shape="rect" id="node4" href="structtransport__params.html" title="transport_params" alt="" coords="113,228,250,255"/>
 <area shape="rect" id="node5" href="structcid.html" title="cid" alt="" coords="237,5,277,32"/>
 <area shape="rect" id="node6" href="structpref__addr.html" title="pref_addr" alt="" coords="168,109,251,136"/>
 <area shape="rect" id="node14" href="structpkt__hdr.html" title="pkt_hdr" alt="" coords="518,169,589,195"/>
 <area shape="rect" id="node7" href="structtls.html" title="tls" alt="" coords="326,228,365,255"/>
 <area shape="rect" id="node8" href="structq__conn__info.html" title="q_conn_info" alt="" coords="389,228,488,255"/>
-<area shape="rect" id="node10" href="structpn__hshk.html" title="pn_hshk" alt="" coords="487,361,561,388"/>
+<area shape="rect" id="node10" href="structpn__hshk.html" title="pn_hshk" alt="" coords="437,361,512,388"/>
 <area shape="rect" id="node11" href="structcipher__ctx.html" title="cipher_ctx" alt="" coords="614,228,701,255"/>
 <area shape="rect" id="node12" href="structpn__data.html" title="pn_data" alt="" coords="589,361,664,388"/>
 <area shape="rect" id="node13" href="structrecovery.html" title="recovery" alt="" coords="512,228,589,255"/>
@@ -128,57 +128,57 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:ad6c0f1c83fc566c86ae941e4af89e9b5"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structq__stream.html">q_stream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#ad6c0f1c83fc566c86ae941e4af89e9b5">stream</a></td></tr>
-<tr class="memdesc:ad6c0f1c83fc566c86ae941e4af89e9b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream this data was written on.  <a href="#ad6c0f1c83fc566c86ae941e4af89e9b5">More...</a><br /></td></tr>
-<tr class="separator:ad6c0f1c83fc566c86ae941e4af89e9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2351bcd1c09a0cab7b5f3adb4ae5f9e9"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a2351bcd1c09a0cab7b5f3adb4ae5f9e9">stream_off</a></td></tr>
-<tr class="memdesc:a2351bcd1c09a0cab7b5f3adb4ae5f9e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream data offset.  <a href="#a2351bcd1c09a0cab7b5f3adb4ae5f9e9">More...</a><br /></td></tr>
-<tr class="separator:a2351bcd1c09a0cab7b5f3adb4ae5f9e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6db1a449cdc216ef928bc18b68586ba"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#ab6db1a449cdc216ef928bc18b68586ba">stream_header_pos</a></td></tr>
-<tr class="memdesc:ab6db1a449cdc216ef928bc18b68586ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset of stream frame header.  <a href="#ab6db1a449cdc216ef928bc18b68586ba">More...</a><br /></td></tr>
-<tr class="separator:ab6db1a449cdc216ef928bc18b68586ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a671f7e7adab49dd88ccdbdc49b0dde80"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a671f7e7adab49dd88ccdbdc49b0dde80">stream_data_pos</a></td></tr>
-<tr class="memdesc:a671f7e7adab49dd88ccdbdc49b0dde80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset of first byte of stream frame data.  <a href="#a671f7e7adab49dd88ccdbdc49b0dde80">More...</a><br /></td></tr>
-<tr class="separator:a671f7e7adab49dd88ccdbdc49b0dde80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac86de9531301c9bedae5b67cc0ca2817"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#ac86de9531301c9bedae5b67cc0ca2817">stream_data_len</a></td></tr>
-<tr class="memdesc:ac86de9531301c9bedae5b67cc0ca2817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of last stream frame data.  <a href="#ac86de9531301c9bedae5b67cc0ca2817">More...</a><br /></td></tr>
-<tr class="separator:ac86de9531301c9bedae5b67cc0ca2817"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeffe2a16e53c9eb4d1a6080436c7de4c"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#aeffe2a16e53c9eb4d1a6080436c7de4c">ack_block_pos</a></td></tr>
-<tr class="memdesc:aeffe2a16e53c9eb4d1a6080436c7de4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset of first ACK block (for TX'ed pkt).  <a href="#aeffe2a16e53c9eb4d1a6080436c7de4c">More...</a><br /></td></tr>
-<tr class="separator:aeffe2a16e53c9eb4d1a6080436c7de4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaf10a2fb040c6a670fe1d8d962de26f"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structq__stream.html">q_stream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#abaf10a2fb040c6a670fe1d8d962de26f">strm</a></td></tr>
+<tr class="memdesc:abaf10a2fb040c6a670fe1d8d962de26f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream this data was written on.  <a href="#abaf10a2fb040c6a670fe1d8d962de26f">More...</a><br /></td></tr>
+<tr class="separator:abaf10a2fb040c6a670fe1d8d962de26f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad094e337ebc2fad42e0859016ca67db8"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#ad094e337ebc2fad42e0859016ca67db8">strm_off</a></td></tr>
+<tr class="memdesc:ad094e337ebc2fad42e0859016ca67db8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream data offset.  <a href="#ad094e337ebc2fad42e0859016ca67db8">More...</a><br /></td></tr>
+<tr class="separator:ad094e337ebc2fad42e0859016ca67db8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0658e5b4fbf817881a4b81327ec9989e"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a0658e5b4fbf817881a4b81327ec9989e">strm_frm_pos</a></td></tr>
+<tr class="memdesc:a0658e5b4fbf817881a4b81327ec9989e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset of stream frame header.  <a href="#a0658e5b4fbf817881a4b81327ec9989e">More...</a><br /></td></tr>
+<tr class="separator:a0658e5b4fbf817881a4b81327ec9989e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71840b9c4707f9a53bd45a376aca404b"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a71840b9c4707f9a53bd45a376aca404b">strm_data_pos</a></td></tr>
+<tr class="memdesc:a71840b9c4707f9a53bd45a376aca404b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset of first byte of stream frame data.  <a href="#a71840b9c4707f9a53bd45a376aca404b">More...</a><br /></td></tr>
+<tr class="separator:a71840b9c4707f9a53bd45a376aca404b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f51afa233fcb1ac620ad8ee286f54c4"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a2f51afa233fcb1ac620ad8ee286f54c4">strm_data_len</a></td></tr>
+<tr class="memdesc:a2f51afa233fcb1ac620ad8ee286f54c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of last stream frame data.  <a href="#a2f51afa233fcb1ac620ad8ee286f54c4">More...</a><br /></td></tr>
+<tr class="separator:a2f51afa233fcb1ac620ad8ee286f54c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbc6fc32cd24e225e6ce16f349bafea6"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#adbc6fc32cd24e225e6ce16f349bafea6">ack_frm_pos</a></td></tr>
+<tr class="memdesc:adbc6fc32cd24e225e6ce16f349bafea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset of first ACK block (for TX'ed pkt).  <a href="#adbc6fc32cd24e225e6ce16f349bafea6">More...</a><br /></td></tr>
+<tr class="separator:adbc6fc32cd24e225e6ce16f349bafea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21de9af69068ecadb222f0d9685d50d7"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a21de9af69068ecadb222f0d9685d50d7">lg_acked</a></td></tr>
 <tr class="memdesc:a21de9af69068ecadb222f0d9685d50d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">"Largest Acknowledged" in ACK block (for TX'ed pkt).  <a href="#a21de9af69068ecadb222f0d9685d50d7">More...</a><br /></td></tr>
 <tr class="separator:a21de9af69068ecadb222f0d9685d50d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1832e1307ec64c29a877455b5f78000"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#ad1832e1307ec64c29a877455b5f78000">ack_block_cnt</a></td></tr>
-<tr class="memdesc:ad1832e1307ec64c29a877455b5f78000"><td class="mdescLeft">&#160;</td><td class="mdescRight">"ACK Block Count" in ACK block (for TX'ed pkt).  <a href="#ad1832e1307ec64c29a877455b5f78000">More...</a><br /></td></tr>
-<tr class="separator:ad1832e1307ec64c29a877455b5f78000"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbe4b90347e8a5b17126b4d90673040e"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#abbe4b90347e8a5b17126b4d90673040e">max_stream_data_sid</a></td></tr>
-<tr class="memdesc:abbe4b90347e8a5b17126b4d90673040e"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAX_STREAM_DATA sid, if sent.  <a href="#abbe4b90347e8a5b17126b4d90673040e">More...</a><br /></td></tr>
-<tr class="separator:abbe4b90347e8a5b17126b4d90673040e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5001bb8e270c2685a16f8463743cb3a"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#af5001bb8e270c2685a16f8463743cb3a">max_stream_data</a></td></tr>
-<tr class="memdesc:af5001bb8e270c2685a16f8463743cb3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAX_STREAM_DATA limit, if sent.  <a href="#af5001bb8e270c2685a16f8463743cb3a">More...</a><br /></td></tr>
-<tr class="separator:af5001bb8e270c2685a16f8463743cb3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b623b821d3ee803ec4bf403160e23a9"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a1b623b821d3ee803ec4bf403160e23a9">ack_rng_cnt</a></td></tr>
+<tr class="memdesc:a1b623b821d3ee803ec4bf403160e23a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">"ACK Range Count" in ACK block (for TX'ed pkt).  <a href="#a1b623b821d3ee803ec4bf403160e23a9">More...</a><br /></td></tr>
+<tr class="separator:a1b623b821d3ee803ec4bf403160e23a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51ce77f2ff8a3b84eb56242c9cc5c98e"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a51ce77f2ff8a3b84eb56242c9cc5c98e">max_strm_data_sid</a></td></tr>
+<tr class="memdesc:a51ce77f2ff8a3b84eb56242c9cc5c98e"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAX_STREAM_DATA sid, if sent.  <a href="#a51ce77f2ff8a3b84eb56242c9cc5c98e">More...</a><br /></td></tr>
+<tr class="separator:a51ce77f2ff8a3b84eb56242c9cc5c98e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e4cd3aec20ed33afd0b4ec66c848c0e"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a7e4cd3aec20ed33afd0b4ec66c848c0e">max_strm_data</a></td></tr>
+<tr class="memdesc:a7e4cd3aec20ed33afd0b4ec66c848c0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAX_STREAM_DATA limit, if sent.  <a href="#a7e4cd3aec20ed33afd0b4ec66c848c0e">More...</a><br /></td></tr>
+<tr class="separator:a7e4cd3aec20ed33afd0b4ec66c848c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a058300b8f5c60cdde8000077df854e7e"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a058300b8f5c60cdde8000077df854e7e">max_data</a></td></tr>
 <tr class="memdesc:a058300b8f5c60cdde8000077df854e7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAX_DATA limit, if sent.  <a href="#a058300b8f5c60cdde8000077df854e7e">More...</a><br /></td></tr>
 <tr class="separator:a058300b8f5c60cdde8000077df854e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55dc6834bd5569efd4a7f42bcadcce3f"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a55dc6834bd5569efd4a7f42bcadcce3f">max_streams_bidi</a></td></tr>
-<tr class="memdesc:a55dc6834bd5569efd4a7f42bcadcce3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAX_STREAM_ID bidir limit, if sent.  <a href="#a55dc6834bd5569efd4a7f42bcadcce3f">More...</a><br /></td></tr>
-<tr class="separator:a55dc6834bd5569efd4a7f42bcadcce3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3da0c76133b1c31fe521e440171dffeb"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a3da0c76133b1c31fe521e440171dffeb">max_streams_uni</a></td></tr>
-<tr class="memdesc:a3da0c76133b1c31fe521e440171dffeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAX_STREAM_ID unidir limit, if sent.  <a href="#a3da0c76133b1c31fe521e440171dffeb">More...</a><br /></td></tr>
-<tr class="separator:a3da0c76133b1c31fe521e440171dffeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd9890ceb2f68af3938921718a8887a9"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#acd9890ceb2f68af3938921718a8887a9">stream_data_blocked</a></td></tr>
-<tr class="memdesc:acd9890ceb2f68af3938921718a8887a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">STREAM_DATA_BLOCKED value, if sent.  <a href="#acd9890ceb2f68af3938921718a8887a9">More...</a><br /></td></tr>
-<tr class="separator:acd9890ceb2f68af3938921718a8887a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20eb8493c4bc1c925272a152f713dff3"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a20eb8493c4bc1c925272a152f713dff3">max_strms_bidi</a></td></tr>
+<tr class="memdesc:a20eb8493c4bc1c925272a152f713dff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAX_STREAM_ID bidir limit, if sent.  <a href="#a20eb8493c4bc1c925272a152f713dff3">More...</a><br /></td></tr>
+<tr class="separator:a20eb8493c4bc1c925272a152f713dff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56f3ef78db92a12e18152ba29f6bc1f2"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a56f3ef78db92a12e18152ba29f6bc1f2">max_strms_uni</a></td></tr>
+<tr class="memdesc:a56f3ef78db92a12e18152ba29f6bc1f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAX_STREAM_ID unidir limit, if sent.  <a href="#a56f3ef78db92a12e18152ba29f6bc1f2">More...</a><br /></td></tr>
+<tr class="separator:a56f3ef78db92a12e18152ba29f6bc1f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4f6238a83d2da7d81349b1c3031d708"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#ae4f6238a83d2da7d81349b1c3031d708">strm_data_blocked</a></td></tr>
+<tr class="memdesc:ae4f6238a83d2da7d81349b1c3031d708"><td class="mdescLeft">&#160;</td><td class="mdescRight">STREAM_DATA_BLOCKED value, if sent.  <a href="#ae4f6238a83d2da7d81349b1c3031d708">More...</a><br /></td></tr>
+<tr class="separator:ae4f6238a83d2da7d81349b1c3031d708"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c6b1a352b21d2968622280ad2bb8b6a"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a1c6b1a352b21d2968622280ad2bb8b6a">data_blocked</a></td></tr>
 <tr class="memdesc:a1c6b1a352b21d2968622280ad2bb8b6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">DATA_BLOCKED value, if sent.  <a href="#a1c6b1a352b21d2968622280ad2bb8b6a">More...</a><br /></td></tr>
 <tr class="separator:a1c6b1a352b21d2968622280ad2bb8b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ca0e802f76d8e31e8718e201b4e2772"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a5ca0e802f76d8e31e8718e201b4e2772">min_cid_seq</a></td></tr>
 <tr class="memdesc:a5ca0e802f76d8e31e8718e201b4e2772"><td class="mdescLeft">&#160;</td><td class="mdescRight">Smallest NEW_CONNECTION_ID seq in pkt, if sent.  <a href="#a5ca0e802f76d8e31e8718e201b4e2772">More...</a><br /></td></tr>
 <tr class="separator:a5ca0e802f76d8e31e8718e201b4e2772"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33129e1d483871567296de2e9794ca5d"><td class="memItemLeft" align="right" valign="top">struct frames&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a33129e1d483871567296de2e9794ca5d">frames</a></td></tr>
-<tr class="memdesc:a33129e1d483871567296de2e9794ca5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frames present in pkt.  <a href="#a33129e1d483871567296de2e9794ca5d">More...</a><br /></td></tr>
-<tr class="separator:a33129e1d483871567296de2e9794ca5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a288c873381b120d32f7f0beaf9e644e0"><td class="memItemLeft" align="right" valign="top">struct frames&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a288c873381b120d32f7f0beaf9e644e0">frms</a></td></tr>
+<tr class="memdesc:a288c873381b120d32f7f0beaf9e644e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frames present in pkt.  <a href="#a288c873381b120d32f7f0beaf9e644e0">More...</a><br /></td></tr>
+<tr class="separator:a288c873381b120d32f7f0beaf9e644e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a2f5352a57c1f84e8adea474e478b30"><td class="memItemLeft" align="right" valign="top">ev_tstamp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpkt__meta.html#a3a2f5352a57c1f84e8adea474e478b30">tx_t</a></td></tr>
 <tr class="memdesc:a3a2f5352a57c1f84e8adea474e478b30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmission timestamp; only set on TX.  <a href="#a3a2f5352a57c1f84e8adea474e478b30">More...</a><br /></td></tr>
 <tr class="separator:a3a2f5352a57c1f84e8adea474e478b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -294,34 +294,6 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad1832e1307ec64c29a877455b5f78000"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t pkt_meta::ack_block_cnt</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>"ACK Block Count" in ACK block (for TX'ed pkt). </p>
-
-</div>
-</div>
-<a class="anchor" id="aeffe2a16e53c9eb4d1a6080436c7de4c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t pkt_meta::ack_block_pos</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Offset of first ACK block (for TX'ed pkt). </p>
-
-</div>
-</div>
 <a class="anchor" id="a124673fd441a71257c4cd155ba33a775"></a>
 <div class="memitem">
 <div class="memproto">
@@ -333,6 +305,34 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Is this packet ACK-eliciting? </p>
+
+</div>
+</div>
+<a class="anchor" id="adbc6fc32cd24e225e6ce16f349bafea6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t pkt_meta::ack_frm_pos</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offset of first ACK block (for TX'ed pkt). </p>
+
+</div>
+</div>
+<a class="anchor" id="a1b623b821d3ee803ec4bf403160e23a9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t pkt_meta::ack_rng_cnt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>"ACK Range Count" in ACK block (for TX'ed pkt). </p>
 
 </div>
 </div>
@@ -364,12 +364,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a33129e1d483871567296de2e9794ca5d"></a>
+<a class="anchor" id="a288c873381b120d32f7f0beaf9e644e0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct frames pkt_meta::frames</td>
+          <td class="memname">struct frames pkt_meta::frms</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -490,12 +490,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af5001bb8e270c2685a16f8463743cb3a"></a>
+<a class="anchor" id="a7e4cd3aec20ed33afd0b4ec66c848c0e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t pkt_meta::max_stream_data</td>
+          <td class="memname">uint64_t pkt_meta::max_strm_data</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -504,12 +504,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abbe4b90347e8a5b17126b4d90673040e"></a>
+<a class="anchor" id="a51ce77f2ff8a3b84eb56242c9cc5c98e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int64_t pkt_meta::max_stream_data_sid</td>
+          <td class="memname">int64_t pkt_meta::max_strm_data_sid</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -518,12 +518,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a55dc6834bd5569efd4a7f42bcadcce3f"></a>
+<a class="anchor" id="a20eb8493c4bc1c925272a152f713dff3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int64_t pkt_meta::max_streams_bidi</td>
+          <td class="memname">int64_t pkt_meta::max_strms_bidi</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -532,12 +532,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3da0c76133b1c31fe521e440171dffeb"></a>
+<a class="anchor" id="a56f3ef78db92a12e18152ba29f6bc1f2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int64_t pkt_meta::max_streams_uni</td>
+          <td class="memname">int64_t pkt_meta::max_strms_uni</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -574,12 +574,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad6c0f1c83fc566c86ae941e4af89e9b5"></a>
+<a class="anchor" id="abaf10a2fb040c6a670fe1d8d962de26f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="structq__stream.html">q_stream</a>* pkt_meta::stream</td>
+          <td class="memname">struct <a class="el" href="structq__stream.html">q_stream</a>* pkt_meta::strm</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -588,12 +588,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="acd9890ceb2f68af3938921718a8887a9"></a>
+<a class="anchor" id="ae4f6238a83d2da7d81349b1c3031d708"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t pkt_meta::stream_data_blocked</td>
+          <td class="memname">uint64_t pkt_meta::strm_data_blocked</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -602,12 +602,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac86de9531301c9bedae5b67cc0ca2817"></a>
+<a class="anchor" id="a2f51afa233fcb1ac620ad8ee286f54c4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t pkt_meta::stream_data_len</td>
+          <td class="memname">uint16_t pkt_meta::strm_data_len</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -616,12 +616,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a671f7e7adab49dd88ccdbdc49b0dde80"></a>
+<a class="anchor" id="a71840b9c4707f9a53bd45a376aca404b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t pkt_meta::stream_data_pos</td>
+          <td class="memname">uint16_t pkt_meta::strm_data_pos</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -630,12 +630,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab6db1a449cdc216ef928bc18b68586ba"></a>
+<a class="anchor" id="a0658e5b4fbf817881a4b81327ec9989e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t pkt_meta::stream_header_pos</td>
+          <td class="memname">uint16_t pkt_meta::strm_frm_pos</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -644,12 +644,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2351bcd1c09a0cab7b5f3adb4ae5f9e9"></a>
+<a class="anchor" id="ad094e337ebc2fad42e0859016ca67db8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t pkt_meta::stream_off</td>
+          <td class="memname">uint64_t pkt_meta::strm_off</td>
         </tr>
       </table>
 </div><div class="memdoc">

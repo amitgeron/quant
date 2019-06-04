@@ -1,4 +1,4 @@
-<map id="enc_max_stream_data_frame" name="enc_max_stream_data_frame">
+<map id="enc_max_strms_frame" name="enc_max_strms_frame">
 <area shape="rect" id="node2" href="$marshall_8h.html#aa5c5f95b69c0b14df862a161d82596e3" title="enc1" alt="" coords="223,5,276,32"/>
 <area shape="rect" id="node3" href="$marshall_8h.html#ae5fb8946faea16e9b45bc98700eaf12e" title="encv" alt="" coords="223,56,275,83"/>
 </map>

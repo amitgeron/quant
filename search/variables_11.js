@@ -17,11 +17,11 @@ var searchData=
   ['srtt',['srtt',['../structrecovery.html#abc466711a95fd985bdde9a59e7ebec6e',1,'recovery']]],
   ['ssthresh',['ssthresh',['../structq__conn__info.html#a7ffee4e3036505b816f62f4a79e4f4e9',1,'q_conn_info::ssthresh()'],['../structrecovery.html#a2eb67fcd1408e01f084046d483f33008',1,'recovery::ssthresh()']]],
   ['state',['state',['../structq__conn.html#a6e54a3c792c0da006ed80a72d42d7365',1,'q_conn::state()'],['../structq__stream.html#a3c163e13ed03a60a2c53ccfddc5929d7',1,'q_stream::state()']]],
-  ['stream',['stream',['../structpkt__meta.html#ad6c0f1c83fc566c86ae941e4af89e9b5',1,'pkt_meta']]],
-  ['stream_5fdata_5fblocked',['stream_data_blocked',['../structpkt__meta.html#acd9890ceb2f68af3938921718a8887a9',1,'pkt_meta']]],
-  ['stream_5fdata_5flen',['stream_data_len',['../structpkt__meta.html#ac86de9531301c9bedae5b67cc0ca2817',1,'pkt_meta']]],
-  ['stream_5fdata_5fpos',['stream_data_pos',['../structpkt__meta.html#a671f7e7adab49dd88ccdbdc49b0dde80',1,'pkt_meta']]],
-  ['stream_5fheader_5fpos',['stream_header_pos',['../structpkt__meta.html#ab6db1a449cdc216ef928bc18b68586ba',1,'pkt_meta']]],
-  ['stream_5foff',['stream_off',['../structpkt__meta.html#a2351bcd1c09a0cab7b5f3adb4ae5f9e9',1,'pkt_meta']]],
+  ['strm',['strm',['../structpkt__meta.html#abaf10a2fb040c6a670fe1d8d962de26f',1,'pkt_meta']]],
+  ['strm_5fdata_5fblocked',['strm_data_blocked',['../structpkt__meta.html#ae4f6238a83d2da7d81349b1c3031d708',1,'pkt_meta']]],
+  ['strm_5fdata_5flen',['strm_data_len',['../structpkt__meta.html#a2f51afa233fcb1ac620ad8ee286f54c4',1,'pkt_meta']]],
+  ['strm_5fdata_5fpos',['strm_data_pos',['../structpkt__meta.html#a71840b9c4707f9a53bd45a376aca404b',1,'pkt_meta']]],
+  ['strm_5ffrm_5fpos',['strm_frm_pos',['../structpkt__meta.html#a0658e5b4fbf817881a4b81327ec9989e',1,'pkt_meta']]],
+  ['strm_5foff',['strm_off',['../structpkt__meta.html#ad094e337ebc2fad42e0859016ca67db8',1,'pkt_meta']]],
   ['strm_5fstate_5fstr',['strm_state_str',['../stream_8c.html#aa6dd5679b354a793efc82cd45b5d3962',1,'strm_state_str():&#160;stream.c'],['../stream_8h.html#aa6dd5679b354a793efc82cd45b5d3962',1,'strm_state_str():&#160;stream.c']]]
 ];
