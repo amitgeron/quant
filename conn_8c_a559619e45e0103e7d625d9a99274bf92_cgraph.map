@@ -27,8 +27,8 @@
 <area shape="rect" id="node24" href="$pkt_8h.html#adca4536b7322c8cdc93b43ec0b146118" title="log_pkt" alt="" coords="513,360,581,387"/>
 <area shape="rect" id="node21" href="$conn_8c.html#ade49ead4769b1fdbc2897cba41265ca7" title="tx" alt="" coords="747,917,785,944"/>
 <area shape="rect" id="node26" href="$recovery_8c.html#ac198e1cc264e5f9a189c123692cf3d79" title="remove_from_in_flight" alt="" coords="465,157,629,184"/>
-<area shape="rect" id="node27" href="$stream_8h.html#abcbe2c551d0f4dd754184376bb6cce35" title="need_ctrl_update" alt="" coords="480,5,613,32"/>
-<area shape="rect" id="node28" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="502,56,591,83"/>
+<area shape="rect" id="node27" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="502,5,591,32"/>
+<area shape="rect" id="node28" href="$stream_8h.html#abcbe2c551d0f4dd754184376bb6cce35" title="need_ctrl_update" alt="" coords="480,56,613,83"/>
 <area shape="rect" id="node29" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="491,107,602,133"/>
 <area shape="rect" id="node31" href="$conn_8c.html#a3a9c39f7e2480c7c41716054b0411ede" title="new_conn" alt="" coords="504,1373,589,1400"/>
 <area shape="rect" id="node40" href="$stream_8c.html#a300bcafbad60488eb0b6b0560eb1b645" title="new_stream" alt="" coords="716,1120,816,1147"/>

@@ -1,5 +1,5 @@
 <map id="enc_tp" name="enc_tp">
 <area shape="rect" id="node2" href="$marshall_8h.html#aa9cfac3996f7af9994ee87ce6e8732b0" title="enc2" alt="" coords="137,5,191,32"/>
-<area shape="rect" id="node3" href="$marshall_8h.html#ad413aad6cc14b7274b65fecc77d9757c" title="varint_size" alt="" coords="119,56,209,83"/>
+<area shape="rect" id="node3" href="$marshall_8h.html#af89fd9a49aadd7b1d84b936f79ba3209" title="Computes number of bytes need to enccode v in QUIC varint encoding. " alt="" coords="119,56,209,83"/>
 <area shape="rect" id="node4" href="$marshall_8h.html#ae5fb8946faea16e9b45bc98700eaf12e" title="encv" alt="" coords="138,107,190,133"/>
 </map>

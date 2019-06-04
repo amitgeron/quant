@@ -124,12 +124,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a9314ad0be04da03f6155d65885a7b1f8"><td class="memItemLeft" align="right" valign="top">struct diet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpn__space.html#a9314ad0be04da03f6155d65885a7b1f8">recv_all</a></td></tr>
 <tr class="memdesc:a9314ad0be04da03f6155d65885a7b1f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">All received packet numbers.  <a href="#a9314ad0be04da03f6155d65885a7b1f8">More...</a><br /></td></tr>
 <tr class="separator:a9314ad0be04da03f6155d65885a7b1f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a258b213b1fbb488b1d1dda308dcade45"><td class="memItemLeft" align="right" valign="top">struct diet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpn__space.html#a258b213b1fbb488b1d1dda308dcade45">acked</a></td></tr>
-<tr class="memdesc:a258b213b1fbb488b1d1dda308dcade45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sent packet numbers already ACKed.  <a href="#a258b213b1fbb488b1d1dda308dcade45">More...</a><br /></td></tr>
-<tr class="separator:a258b213b1fbb488b1d1dda308dcade45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a454701f9e3185698aeca2bd2de0cb67b"><td class="memItemLeft" align="right" valign="top">struct diet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpn__space.html#a454701f9e3185698aeca2bd2de0cb67b">lost</a></td></tr>
-<tr class="memdesc:a454701f9e3185698aeca2bd2de0cb67b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sent packet numbers declared lost.  <a href="#a454701f9e3185698aeca2bd2de0cb67b">More...</a><br /></td></tr>
-<tr class="separator:a454701f9e3185698aeca2bd2de0cb67b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a557415c51c5ec537783a00f86bdf7cc8"><td class="memItemLeft" align="right" valign="top">struct diet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpn__space.html#a557415c51c5ec537783a00f86bdf7cc8">acked_or_lost</a></td></tr>
+<tr class="memdesc:a557415c51c5ec537783a00f86bdf7cc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sent packet numbers already ACKed (or lost).  <a href="#a557415c51c5ec537783a00f86bdf7cc8">More...</a><br /></td></tr>
+<tr class="separator:a557415c51c5ec537783a00f86bdf7cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cda5671fa87d3027ef73c40c8ff4e5f"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpn__space.html#a9cda5671fa87d3027ef73c40c8ff4e5f">lg_sent</a></td></tr>
 <tr class="separator:a9cda5671fa87d3027ef73c40c8ff4e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a825467fc133c8e0c9c8a15152d089c02"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpn__space.html#a825467fc133c8e0c9c8a15152d089c02">lg_acked</a></td></tr>
@@ -211,17 +208,17 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a258b213b1fbb488b1d1dda308dcade45"></a>
+<a class="anchor" id="a557415c51c5ec537783a00f86bdf7cc8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct diet pn_space::acked</td>
+          <td class="memname">struct diet pn_space::acked_or_lost</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sent packet numbers already ACKed. </p>
+<p>Sent packet numbers already ACKed (or lost). </p>
 
 </div>
 </div>
@@ -356,20 +353,6 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a454701f9e3185698aeca2bd2de0cb67b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct diet pn_space::lost</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sent packet numbers declared lost. </p>
 
 </div>
 </div>

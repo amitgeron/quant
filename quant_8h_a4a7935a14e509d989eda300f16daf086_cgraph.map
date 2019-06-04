@@ -45,7 +45,7 @@
 <area shape="rect" id="node41" href="$conn_8c.html#ade49ead4769b1fdbc2897cba41265ca7" title="tx" alt="" coords="654,1550,693,1577"/>
 <area shape="rect" id="node42" href="$pn_8c.html#a7f1a6720a0e3506c0553d13ad865510f" title="needs_ack" alt="" coords="834,1297,925,1324"/>
 <area shape="rect" id="node47" href="$recovery_8c.html#ac198e1cc264e5f9a189c123692cf3d79" title="remove_from_in_flight" alt="" coords="383,1702,547,1729"/>
-<area shape="rect" id="node48" href="$stream_8h.html#abcbe2c551d0f4dd754184376bb6cce35" title="need_ctrl_update" alt="" coords="399,1753,532,1780"/>
-<area shape="rect" id="node49" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="421,1880,510,1906"/>
+<area shape="rect" id="node48" href="$diet_8c.html#a9064e32f6b50901d8f5685e53d2e4041" title="Inserts integer n of type into the diet tree d. " alt="" coords="421,1880,510,1906"/>
+<area shape="rect" id="node49" href="$stream_8h.html#abcbe2c551d0f4dd754184376bb6cce35" title="need_ctrl_update" alt="" coords="399,1753,532,1780"/>
 <area shape="rect" id="node50" href="$pn_8c.html#a5e1b2467727211ddbdb708c568001704" title="pm_by_nr_del" alt="" coords="410,1652,521,1678"/>
 </map>

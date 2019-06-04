@@ -143,8 +143,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad413aad6cc14b7274b65fecc77d9757c"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="marshall_8h.html#ad413aad6cc14b7274b65fecc77d9757c">varint_size</a> (const uint64_t v)</td></tr>
-<tr class="separator:ad413aad6cc14b7274b65fecc77d9757c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af89fd9a49aadd7b1d84b936f79ba3209"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="marshall_8h.html#af89fd9a49aadd7b1d84b936f79ba3209">varint_size</a> (const uint64_t val)</td></tr>
+<tr class="memdesc:af89fd9a49aadd7b1d84b936f79ba3209"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes number of bytes need to enccode <code>v</code> in QUIC varint encoding.  <a href="#af89fd9a49aadd7b1d84b936f79ba3209">More...</a><br /></td></tr>
+<tr class="separator:af89fd9a49aadd7b1d84b936f79ba3209"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5c5f95b69c0b14df862a161d82596e3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="marshall_8h.html#aa5c5f95b69c0b14df862a161d82596e3">enc1</a> (uint8_t **pos, const uint8_t *const end, const uint8_t val)</td></tr>
 <tr class="separator:aa5c5f95b69c0b14df862a161d82596e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9cfac3996f7af9994ee87ce6e8732b0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="marshall_8h.html#aa9cfac3996f7af9994ee87ce6e8732b0">enc2</a> (uint8_t **pos, const uint8_t *const end, const uint16_t val)</td></tr>
@@ -907,7 +908,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="marshall_8h_a5cac9997b43ddf7e181d3cef5e9b2a0d_cgraph.png" border="0" usemap="#marshall_8h_a5cac9997b43ddf7e181d3cef5e9b2a0d_cgraph" alt=""/></div>
 <map name="marshall_8h_a5cac9997b43ddf7e181d3cef5e9b2a0d_cgraph" id="marshall_8h_a5cac9997b43ddf7e181d3cef5e9b2a0d_cgraph">
-<area shape="rect" id="node2" href="marshall_8h.html#ad413aad6cc14b7274b65fecc77d9757c" title="varint_size" alt="" coords="108,5,199,32"/>
+<area shape="rect" id="node2" href="marshall_8h.html#af89fd9a49aadd7b1d84b936f79ba3209" title="Computes number of bytes need to enccode v in QUIC varint encoding. " alt="" coords="108,5,199,32"/>
 <area shape="rect" id="node3" href="marshall_8h.html#ae5fb8946faea16e9b45bc98700eaf12e" title="encv" alt="" coords="127,56,179,83"/>
 <area shape="rect" id="node4" href="marshall_8h.html#aa5c5f95b69c0b14df862a161d82596e3" title="enc1" alt="" coords="127,107,180,133"/>
 <area shape="rect" id="node5" href="marshall_8h.html#aa9cfac3996f7af9994ee87ce6e8732b0" title="enc2" alt="" coords="127,157,180,184"/>
@@ -918,7 +919,7 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="ad413aad6cc14b7274b65fecc77d9757c"></a>
+<a class="anchor" id="af89fd9a49aadd7b1d84b936f79ba3209"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -929,7 +930,7 @@ Here is the call graph for this function:</div>
           <td class="memname">static uint8_t varint_size </td>
           <td>(</td>
           <td class="paramtype">const uint64_t&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -939,9 +940,11 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Computes number of bytes need to enccode <code>v</code> in QUIC varint encoding. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">v</td><td>Value to check.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to check.</td></tr>
   </table>
   </dd>
 </dl>

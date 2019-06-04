@@ -3,6 +3,7 @@ var searchData=
   ['c',['c',['../structpn__space.html#a512280bf863a717677a82d02923fbf75',1,'pn_space::c()'],['../structq__stream.html#a5b8ba13474f46cc170e3ab67ce61816d',1,'q_stream::c()']]],
   ['c2s',['c2s',['../pkt_8c.html#a7607f623b4a5d2b165dd1105636242d9',1,'pkt.c']]],
   ['c_5fready',['c_ready',['../conn_8c.html#ad69eef6944d04f3ab345f5a5edb8fb6c',1,'c_ready():&#160;conn.c'],['../conn_8h.html#ad69eef6944d04f3ab345f5a5edb8fb6c',1,'c_ready():&#160;conn.c']]],
+  ['calc_5flens_5fof_5fstream_5for_5fcrypto_5fframe',['calc_lens_of_stream_or_crypto_frame',['../frame_8c.html#af46a26ac2c5e51026938255c4a31a076',1,'calc_lens_of_stream_or_crypto_frame(const struct pkt_meta *const m, const struct w_iov *const v, const struct q_stream *const s, uint16_t *const hlen, uint16_t *const dlen):&#160;frame.c'],['../frame_8h.html#af46a26ac2c5e51026938255c4a31a076',1,'calc_lens_of_stream_or_crypto_frame(const struct pkt_meta *const m, const struct w_iov *const v, const struct q_stream *const s, uint16_t *const hlen, uint16_t *const dlen):&#160;frame.c']]],
   ['can_5fcoalesce_5fpkt_5ftypes',['can_coalesce_pkt_types',['../pkt_8c.html#a832f35b12b76346d36d217963c2a053d',1,'pkt.c']]],
   ['can_5fenc',['can_enc',['../pkt_8c.html#a695e10dd05113f445920e76ad3849854',1,'pkt.c']]],
   ['cancel_5fapi_5fcall',['cancel_api_call',['../quic_8c.html#afd98d880d46aa717596439adb85fcafc',1,'quic.c']]],

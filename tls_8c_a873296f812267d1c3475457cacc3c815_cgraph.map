@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$tls_8c.html#ad23afa75ea04bcca3a122cb2aabecc1b" title="enc_tp" alt="" coords="119,56,184,83"/>
 <area shape="rect" id="node3" href="$marshall_8h.html#aa9cfac3996f7af9994ee87ce6e8732b0" title="enc2" alt="" coords="255,107,308,133"/>
 <area shape="rect" id="node6" href="$tls_8c.html#a25b178b7359a06d9350c760e374aba9f" title="encb_tp" alt="" coords="115,157,188,184"/>
-<area shape="rect" id="node4" href="$marshall_8h.html#ad413aad6cc14b7274b65fecc77d9757c" title="varint_size" alt="" coords="236,56,327,83"/>
+<area shape="rect" id="node4" href="$marshall_8h.html#af89fd9a49aadd7b1d84b936f79ba3209" title="Computes number of bytes need to enccode v in QUIC varint encoding. " alt="" coords="236,56,327,83"/>
 <area shape="rect" id="node5" href="$marshall_8h.html#ae5fb8946faea16e9b45bc98700eaf12e" title="encv" alt="" coords="255,5,307,32"/>
 <area shape="rect" id="node7" href="$marshall_8h.html#ab5ee593ff2a0dd23bf984d149187ba1f" title="encb" alt="" coords="255,157,308,184"/>
 </map>

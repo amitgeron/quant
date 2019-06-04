@@ -1,5 +1,6 @@
 <map id="q_write" name="q_write">
 <area shape="rect" id="node2" href="$conn_8h.html#aa0fec7fdf46459b57e64dbe4e79a8dc4" title="conn_type" alt="" coords="123,5,211,32"/>
-<area shape="rect" id="node3" href="$quic_8c.html#aa92a594181a524fb08b0d071f57787b5" title="mark_fin" alt="" coords="128,56,205,83"/>
-<area shape="rect" id="node4" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="120,107,213,133"/>
+<area shape="rect" id="node3" href="$quic_8c.html#a2ee75c38a1c756036392a6e5b6d1e93a" title="alloc_off" alt="" coords="129,56,204,83"/>
+<area shape="rect" id="node4" href="$quic_8c.html#aa92a594181a524fb08b0d071f57787b5" title="mark_fin" alt="" coords="128,107,205,133"/>
+<area shape="rect" id="node5" href="$stream_8c.html#a379b35c4c21ee31284e14338963fdd8f" title="concat_out" alt="" coords="120,157,213,184"/>
 </map>

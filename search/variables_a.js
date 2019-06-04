@@ -11,5 +11,6 @@ var searchData=
   ['lo',['lo',['../structival.html#a48282b6ea42f2a81ab1dee4ed182b0ab',1,'ival']]],
   ['loop',['loop',['../quic_8c.html#a855923b555731173d3509ecb645de0e0',1,'loop():&#160;quic.c'],['../quic_8h.html#a855923b555731173d3509ecb645de0e0',1,'loop():&#160;quic.c']]],
   ['loss_5ft',['loss_t',['../structpn__space.html#a0823a61582f739c9f0870aa4741f4b67',1,'pn_space']]],
-  ['lost',['lost',['../structpn__space.html#a454701f9e3185698aeca2bd2de0cb67b',1,'pn_space::lost()'],['../structpkt__meta.html#ae8d3c6b6f7fa4e14a23c9f353513926a',1,'pkt_meta::lost()']]]
+  ['lost',['lost',['../structpkt__meta.html#ae8d3c6b6f7fa4e14a23c9f353513926a',1,'pkt_meta']]],
+  ['lost_5fcnt',['lost_cnt',['../structq__stream.html#aaf2052dd77dab598f332b67a8f2602d7',1,'q_stream']]]
 ];
